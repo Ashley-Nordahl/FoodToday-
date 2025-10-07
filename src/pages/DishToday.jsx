@@ -1,132 +1,162 @@
 import { useState } from 'react'
 import InlineFoodWheel from '../components/InlineFoodWheel'
+import RecipeChoiceCards from '../components/RecipeChoiceCards'
+import { getRandomRecipe, getRecipesByIngredients, recipes } from '../data/recipes'
 
-const dishes = [
-  {
-    id: 1,
-    name: 'Grilled Salmon',
-    description: 'Fresh Atlantic salmon with herbs and lemon, served with roasted vegetables',
-    emoji: '🐟',
-    category: 'Main Course',
-    calories: 420
-  },
-  {
-    id: 2,
-    name: 'Chicken Tikka Masala',
-    description: 'Tender chicken in a creamy tomato-based curry sauce with aromatic spices',
-    emoji: '🍛',
-    category: 'Main Course',
-    calories: 580
-  },
-  {
-    id: 3,
-    name: 'Vegetable Stir Fry',
-    description: 'Mixed vegetables tossed in a savory Asian sauce with tofu',
-    emoji: '🥗',
-    category: 'Vegetarian',
-    calories: 320
-  },
-  {
-    id: 4,
-    name: 'Beef Burger',
-    description: 'Juicy beef patty with cheese, lettuce, tomato, and special sauce',
-    emoji: '🍔',
-    category: 'Fast Food',
-    calories: 650
-  },
-  {
-    id: 5,
-    name: 'Margherita Pizza',
-    description: 'Classic pizza with fresh mozzarella, tomato sauce, and basil',
-    emoji: '🍕',
-    category: 'Italian',
-    calories: 720
-  },
-  {
-    id: 6,
-    name: 'Sushi Platter',
-    description: 'Assorted sushi rolls with salmon, tuna, and vegetables',
-    emoji: '🍣',
-    category: 'Japanese',
-    calories: 380
-  },
-  {
-    id: 7,
-    name: 'Tacos',
-    description: 'Three soft tacos with seasoned meat, fresh salsa, and guacamole',
-    emoji: '🌮',
-    category: 'Mexican',
-    calories: 540
-  },
-  {
-    id: 8,
-    name: 'Pad Thai',
-    description: 'Traditional Thai stir-fried noodles with shrimp, peanuts, and lime',
-    emoji: '🍜',
-    category: 'Thai',
-    calories: 490
-  }
-]
 
 function DishToday() {
-  const [favorites, setFavorites] = useState(() => {
-    const saved = localStorage.getItem('favorites')
-    return saved ? JSON.parse(saved) : []
-  })
-  
   const [selectedCuisine, setSelectedCuisine] = useState(null)
-
-  const toggleFavorite = (dishId) => {
-    const newFavorites = favorites.includes(dishId)
-      ? favorites.filter(id => id !== dishId)
-      : [...favorites, dishId]
-    
-    setFavorites(newFavorites)
-    localStorage.setItem('favorites', JSON.stringify(newFavorites))
-  }
+  const [showChoiceCards, setShowChoiceCards] = useState(false)
+  const [selectedRecipe, setSelectedRecipe] = useState(null)
+  const [recipeType, setRecipeType] = useState(null)
 
   const handleCuisineSelect = (cuisine) => {
     setSelectedCuisine(cuisine)
-    console.log(`Selected cuisine: ${cuisine.name}`)
+    setShowChoiceCards(true)
+    setSelectedRecipe(null)
+    setRecipeType(null)
+  }
+
+  const handleRecipeChoice = (choiceType, cuisine, ingredients = null) => {
+    let recipe = null
+    if (choiceType === 'random') {
+      recipe = getRandomRecipe(cuisine.name)
+      setRecipeType('random')
+    } else if (choiceType === 'ingredients' && ingredients) {
+      const matchingRecipes = getRecipesByIngredients(cuisine.name, ingredients)
+      if (matchingRecipes.length > 0) {
+        recipe = matchingRecipes.reduce((best, current) => {
+          const currentMatches = current.ingredients.filter(ing =>
+            ingredients.some(available => available.id === ing)
+          ).length
+          const bestMatches = best.ingredients.filter(ing =>
+            ingredients.some(available => available.id === ing)
+          ).length
+          return currentMatches > bestMatches ? current : best
+        })
+        setRecipeType('ingredients')
+      }
+    }
+    setSelectedRecipe(recipe)
+    setShowChoiceCards(false)
   }
 
   return (
     <div className="page-container">
-      {/* Wheel Section */}
       <div className="wheel-section">
         <InlineFoodWheel onSelect={handleCuisineSelect} />
       </div>
 
+      {/* Choice Cards Section */}
+      {showChoiceCards && selectedCuisine && (
+        <div className="choice-section">
+          <RecipeChoiceCards
+            selectedCuisine={selectedCuisine}
+            onChoiceSelect={handleRecipeChoice}
+          />
+        </div>
+      )}
 
-      {/* Dishes Grid */}
-      <div className="dishes-section">
-        <h2 className="section-title">Featured Dishes</h2>
-        <div className="card-grid">
-          {dishes.map(dish => (
-            <div key={dish.id} className="card">
-              <div className="card-image">
-                <span>{dish.emoji}</span>
+      {/* Selected Recipe Display */}
+      {selectedRecipe && (
+        <div className="recipe-display">
+          <div className="recipe-header">
+            <h3>Your Recipe: {selectedRecipe.name}</h3>
+            <p className="recipe-type">
+              {recipeType === 'random' ? '🎲 Random Recipe' : '🥬 Based on Your Ingredients'}
+            </p>
+          </div>
+
+          <div className="recipe-card">
+            <div className="recipe-emoji">{selectedRecipe.emoji}</div>
+            <div className="recipe-content">
+              <p className="recipe-description">{selectedRecipe.description}</p>
+
+              <div className="recipe-meta">
+                <span className="recipe-info">⏱️ {selectedRecipe.cookTime}</span>
+                <span className="recipe-info">👥 {selectedRecipe.servings} servings</span>
+                <span className="recipe-info">📊 {selectedRecipe.difficulty}</span>
               </div>
-              <div className="card-content">
-                <h3 className="card-title">{dish.name}</h3>
-                <p className="card-description">{dish.description}</p>
-                <div className="card-meta">
-                  <span className="card-tag">{dish.category}</span>
+
+              <div className="recipe-ingredients">
+                <h4>Ingredients:</h4>
+                <ul>
+                  {selectedRecipe.ingredients.map((ingredient, index) => (
+                    <li key={index}>{ingredient.replace('-', ' ')}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="recipe-actions">
+                <button 
+                  className="btn btn-primary"
+                  onClick={() => {
+                    // Get a new random recipe directly
+                    console.log('Getting new recipe for cuisine:', selectedCuisine.name)
+                    const newRecipe = getRandomRecipe(selectedCuisine.name)
+                    console.log('New recipe:', newRecipe)
+                    if (newRecipe) {
+                      setSelectedRecipe(newRecipe)
+                      setRecipeType('random')
+                    } else {
+                      console.error('No recipe found for cuisine:', selectedCuisine.name)
+                      // Fallback: try to get any random recipe
+                      const allRecipes = Object.values(recipes).flat()
+                      if (allRecipes.length > 0) {
+                        const randomRecipe = allRecipes[Math.floor(Math.random() * allRecipes.length)]
+                        setSelectedRecipe(randomRecipe)
+                        setRecipeType('random')
+                      }
+                    }
+                  }}
+                >
+                  Try Another Recipe
+                </button>
+                
+                {recipeType === 'random' && (
                   <button 
-                    className={`favorite-btn ${favorites.includes(dish.id) ? 'active' : ''}`}
-                    onClick={() => toggleFavorite(dish.id)}
+                    className="btn btn-secondary"
+                    onClick={() => {
+                      setSelectedRecipe(null)
+                      setShowChoiceCards(true)
+                    }}
                   >
-                    {favorites.includes(dish.id) ? '❤️' : '🤍'}
+                    Switch to "What I Have"
                   </button>
-                </div>
-                <div style={{ marginTop: '0.5rem', color: 'var(--gray-color)', fontSize: '0.9rem' }}>
-                  📊 {dish.calories} cal
-                </div>
+                )}
+                
+                {recipeType === 'ingredients' && (
+                  <button 
+                    className="btn btn-secondary"
+                    onClick={() => {
+                      // Get a random recipe instead
+                      const newRecipe = getRandomRecipe(selectedCuisine.name)
+                      if (newRecipe) {
+                        setSelectedRecipe(newRecipe)
+                        setRecipeType('random')
+                      }
+                    }}
+                  >
+                    Switch to Random Recipe
+                  </button>
+                )}
+                
+                <button 
+                  className="btn btn-outline"
+                  onClick={() => {
+                    setSelectedRecipe(null)
+                    setShowChoiceCards(false)
+                    setSelectedCuisine(null)
+                  }}
+                >
+                  Choose Different Cuisine
+                </button>
               </div>
             </div>
-          ))}
+          </div>
         </div>
-      </div>
+      )}
+
     </div>
   )
 }

@@ -61,6 +61,12 @@ function InlineFoodWheel({ onSelect }) {
     }
   }
 
+  const getButtonText = () => {
+    if (isSpinning) return "Spinning..."
+    if (selectedCuisine && !isSelected) return "Try Again"
+    return "Start"
+  }
+
   return (
     <div className="inline-wheel-container">
       <div className="wheel-game-container">
@@ -85,15 +91,23 @@ function InlineFoodWheel({ onSelect }) {
                 
                 const largeArcFlag = segmentAngle > 180 ? 1 : 0
                 
+                // Outer edge points (at radius 150)
                 const x1 = 150 + 150 * Math.cos(startAngleRad - Math.PI / 2)
                 const y1 = 150 + 150 * Math.sin(startAngleRad - Math.PI / 2)
                 const x2 = 150 + 150 * Math.cos(endAngleRad - Math.PI / 2)
                 const y2 = 150 + 150 * Math.sin(endAngleRad - Math.PI / 2)
                 
+                // Inner edge points (at radius 60 to leave room for center)
+                const x3 = 150 + 60 * Math.cos(endAngleRad - Math.PI / 2)
+                const y3 = 150 + 60 * Math.sin(endAngleRad - Math.PI / 2)
+                const x4 = 150 + 60 * Math.cos(startAngleRad - Math.PI / 2)
+                const y4 = 150 + 60 * Math.sin(startAngleRad - Math.PI / 2)
+                
                 const pathData = [
-                  `M 150 150`,
-                  `L ${x1} ${y1}`,
+                  `M ${x1} ${y1}`,
                   `A 150 150 0 ${largeArcFlag} 1 ${x2} ${y2}`,
+                  `L ${x3} ${y3}`,
+                  `A 60 60 0 ${largeArcFlag} 0 ${x4} ${y4}`,
                   `Z`
                 ].join(' ')
                 
@@ -106,28 +120,28 @@ function InlineFoodWheel({ onSelect }) {
                       strokeWidth="3"
                     />
                     <text
-                      x={150 + 100 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                      y={150 + 100 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                      textAnchor="middle"
-                      dominantBaseline="middle"
-                      fill="white"
-                      fontSize="10"
-                      fontWeight="600"
-                      textShadow="0 1px 2px rgba(0,0,0,0.5)"
-                      transform={`rotate(${(startAngle + endAngle) / 2}, ${150 + 100 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${150 + 100 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
-                    >
-                      {cuisine.name}
-                    </text>
-                    <text
                       x={150 + 125 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
                       y={150 + 125 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
                       textAnchor="middle"
                       dominantBaseline="middle"
                       fill="white"
-                      fontSize="12"
+                      fontSize="11"
                       fontWeight="600"
                       textShadow="0 1px 2px rgba(0,0,0,0.5)"
                       transform={`rotate(${(startAngle + endAngle) / 2}, ${150 + 125 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${150 + 125 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
+                    >
+                      {cuisine.name}
+                    </text>
+                    <text
+                      x={150 + 140 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                      y={150 + 140 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                      textAnchor="middle"
+                      dominantBaseline="middle"
+                      fill="white"
+                      fontSize="13"
+                      fontWeight="600"
+                      textShadow="0 1px 2px rgba(0,0,0,0.5)"
+                      transform={`rotate(${(startAngle + endAngle) / 2}, ${150 + 140 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${150 + 140 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
                     >
                       {cuisine.flag}
                     </text>
@@ -142,7 +156,7 @@ function InlineFoodWheel({ onSelect }) {
                 onClick={spinWheel}
                 disabled={isSpinning}
               >
-                <span className="start-text">Start</span>
+                <span className="start-text">{getButtonText()}</span>
               </button>
             </div>
           </div>
@@ -157,7 +171,7 @@ function InlineFoodWheel({ onSelect }) {
                 <div className="cuisine-name-row">
                   <div className="cuisine-text">
                     <span className="selected-flag">{selectedCuisine.flag}</span>
-                    <span className="selected-name">{selectedCuisine.name}</span>
+                    <span className="selected-name">{selectedCuisine.name} Food</span>
                   </div>
                   <div className="checkbox-section">
                     <label className="checkbox-container">
