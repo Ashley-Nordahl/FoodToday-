@@ -1,0 +1,902 @@
+{
+  "popularDrinks": [
+    {
+      "id": "pop1",
+      "drinkId": 401,
+      "name": "Iced Coffee",
+      "emoji": "☕",
+      "description": "Cold brew perfection"
+    },
+    {
+      "id": "pop2",
+      "drinkId": 101,
+      "name": "Fresh Orange Juice",
+      "emoji": "🍊",
+      "description": "Vitamin C boost"
+    },
+    {
+      "id": "pop3",
+      "drinkId": 201,
+      "name": "Green Smoothie",
+      "emoji": "🥤",
+      "description": "Healthy & energizing"
+    },
+    {
+      "id": "pop4",
+      "drinkId": 402,
+      "name": "Bubble Tea",
+      "emoji": "🧋",
+      "description": "Taiwanese favorite"
+    },
+    {
+      "id": "pop5",
+      "drinkId": 102,
+      "name": "Lemonade",
+      "emoji": "🍋",
+      "description": "Classic refreshment"
+    },
+    {
+      "id": "pop6",
+      "drinkId": 301,
+      "name": "Mojito",
+      "emoji": "🍹",
+      "description": "Minty fresh cocktail"
+    }
+  ],
+  "drinksByCategory": {
+    "Juice": {
+      "emoji": "🍹",
+      "drinks": [
+        {
+          "id": 101,
+          "name": "Fresh Orange Juice",
+          "description": "Freshly squeezed orange juice packed with Vitamin C",
+          "emoji": "🍊",
+          "recipe": {
+            "ingredients": [
+              "4-5 large oranges",
+              "1 tbsp honey or sugar (optional)",
+              "Ice cubes",
+              "Fresh mint leaves (optional)"
+            ],
+            "instructions": [
+              "Wash oranges thoroughly and cut in half.",
+              "Squeeze oranges using a citrus juicer or manual juicer.",
+              "Strain the juice through a fine mesh to remove pulp if desired.",
+              "Add honey or sugar if you prefer sweeter juice.",
+              "Stir well and taste. Adjust sweetness as needed.",
+              "Serve over ice with fresh mint leaves if desired.",
+              "Best consumed fresh within 24 hours."
+            ],
+            "prepTime": "10 minutes",
+            "cookTime": "No cooking",
+            "yield": "2 cups (2 servings)"
+          }
+        },
+        {
+          "id": 102,
+          "name": "Lemonade",
+          "description": "Classic homemade lemonade with fresh lemons and mint",
+          "emoji": "🍋",
+          "recipe": {
+            "ingredients": [
+              "1 cup fresh lemon juice (about 6-8 lemons)",
+              "1 cup sugar",
+              "6 cups cold water",
+              "1 lemon, sliced for garnish",
+              "Fresh mint leaves",
+              "Ice cubes"
+            ],
+            "instructions": [
+              "Make simple syrup: Heat 1 cup water and sugar in a saucepan, stirring until sugar dissolves. Let cool.",
+              "Juice the lemons and strain to remove seeds and pulp.",
+              "In a large pitcher, combine lemon juice, simple syrup, and remaining 5 cups cold water.",
+              "Stir well and taste. Add more sugar or water to adjust sweetness/tartness.",
+              "Add lemon slices and bruised mint leaves.",
+              "Refrigerate for at least 1 hour before serving.",
+              "Serve over ice. Keeps in refrigerator for up to 1 week."
+            ],
+            "prepTime": "15 minutes",
+            "cookTime": "5 minutes + 1 hour chill",
+            "yield": "8 cups (6-8 servings)"
+          }
+        },
+        {
+          "id": 103,
+          "name": "Tropical Sunrise",
+          "description": "Watermelon, mango, and lime blend",
+          "emoji": "🍉",
+          "recipe": {
+            "ingredients": [
+              "2 cups cubed watermelon",
+              "1 cup cubed mango",
+              "2 tbsp fresh lime juice",
+              "1 tbsp honey",
+              "1/2 cup coconut water",
+              "Ice cubes",
+              "Fresh mint for garnish"
+            ],
+            "instructions": [
+              "Remove seeds from watermelon and cube the flesh.",
+              "Peel and cube the mango.",
+              "Add watermelon and mango to blender.",
+              "Add lime juice, honey, and coconut water.",
+              "Blend on high speed until smooth.",
+              "Strain through fine mesh if desired for smoother texture.",
+              "Serve over ice with fresh mint garnish.",
+              "Best served immediately while fresh."
+            ],
+            "prepTime": "10 minutes",
+            "cookTime": "No cooking",
+            "yield": "3-4 servings"
+          }
+        },
+        {
+          "id": 104,
+          "name": "Apple Ginger Refresher",
+          "description": "Apple, ginger, and lemon blend",
+          "emoji": "🍎",
+          "recipe": {
+            "ingredients": [
+              "3 large apples (any variety)",
+              "1 inch fresh ginger root",
+              "2 tbsp fresh lemon juice",
+              "1 tbsp honey or maple syrup",
+              "1 cup cold water",
+              "Ice cubes",
+              "Cinnamon stick for garnish"
+            ],
+            "instructions": [
+              "Wash and core apples, cut into chunks.",
+              "Peel and roughly chop fresh ginger.",
+              "Add apples and ginger to blender with water.",
+              "Blend on high speed until smooth.",
+              "Strain through fine mesh or cheesecloth.",
+              "Add lemon juice and honey, stir well.",
+              "Taste and adjust sweetness if needed.",
+              "Serve over ice with cinnamon stick garnish."
+            ],
+            "prepTime": "15 minutes",
+            "cookTime": "No cooking",
+            "yield": "2-3 servings"
+          }
+        },
+        {
+          "id": 105,
+          "name": "Pineapple Mint Cooler",
+          "description": "Pineapple, mint, and lime blend",
+          "emoji": "🍍",
+          "recipe": {
+            "ingredients": [
+              "2 cups fresh pineapple chunks",
+              "1/4 cup fresh mint leaves",
+              "3 tbsp fresh lime juice",
+              "2 tbsp honey",
+              "1 cup coconut water",
+              "Ice cubes",
+              "Pineapple wedge for garnish"
+            ],
+            "instructions": [
+              "Cut fresh pineapple into chunks, removing core.",
+              "Add pineapple chunks to blender.",
+              "Add fresh mint leaves, lime juice, and honey.",
+              "Pour in coconut water and blend until smooth.",
+              "Strain through fine mesh to remove any fibrous bits.",
+              "Taste and adjust sweetness or tartness as needed.",
+              "Serve over ice with pineapple wedge garnish.",
+              "Store in refrigerator for up to 2 days."
+            ],
+            "prepTime": "12 minutes",
+            "cookTime": "No cooking",
+            "yield": "2-3 servings"
+          }
+        },
+        {
+          "id": 106,
+          "name": "Green Detox Juice",
+          "description": "Coconut water, spinach, and cucumber blend",
+          "emoji": "🥥",
+          "recipe": {
+            "ingredients": [
+              "1 cup coconut water",
+              "2 cups fresh spinach leaves",
+              "1 large cucumber, peeled",
+              "2 stalks celery",
+              "1 green apple, cored",
+              "1 inch fresh ginger",
+              "1 tbsp lemon juice",
+              "Ice cubes"
+            ],
+            "instructions": [
+              "Wash all vegetables thoroughly.",
+              "Cut cucumber and celery into chunks.",
+              "Core the green apple and cut into pieces.",
+              "Add spinach, cucumber, celery, and apple to blender.",
+              "Add coconut water and blend until smooth.",
+              "Strain through fine mesh or cheesecloth.",
+              "Add ginger and lemon juice, stir well.",
+              "Serve over ice immediately for best nutrition.",
+              "Drink within 24 hours for maximum benefits."
+            ],
+            "prepTime": "15 minutes",
+            "cookTime": "No cooking",
+            "yield": "2 servings"
+          }
+        },
+        {
+          "id": 107,
+          "name": "Carrot Orange Zinger",
+          "description": "Carrot, orange, and turmeric blend",
+          "emoji": "🥕",
+          "recipe": {
+            "ingredients": [
+              "4 large carrots, washed and chopped",
+              "2 oranges, peeled and segmented",
+              "1 inch fresh turmeric root",
+              "1 inch fresh ginger",
+              "1 tbsp honey",
+              "1/2 cup cold water",
+              "Ice cubes",
+              "Orange slice for garnish"
+            ],
+            "instructions": [
+              "Wash and roughly chop carrots (no need to peel).",
+              "Peel oranges and remove any seeds.",
+              "Peel and chop turmeric and ginger.",
+              "Add carrots, oranges, turmeric, and ginger to blender.",
+              "Add water and blend until completely smooth.",
+              "Strain through fine mesh or cheesecloth.",
+              "Add honey and stir well.",
+              "Taste and adjust sweetness if needed.",
+              "Serve over ice with orange slice garnish.",
+              "Best consumed fresh for maximum vitamin content."
+            ],
+            "prepTime": "15 minutes",
+            "cookTime": "No cooking",
+            "yield": "2-3 servings"
+          }
+        },
+        {
+          "id": 108,
+          "name": "Berry Antioxidant Mix",
+          "description": "Cranberry, blueberry, and pomegranate blend",
+          "emoji": "🫐",
+          "recipe": {
+            "ingredients": [
+              "1 cup fresh cranberries",
+              "1/2 cup blueberries",
+              "1/2 cup pomegranate juice",
+              "2 tbsp honey or agave",
+              "1 tbsp fresh lemon juice",
+              "1 cup cold water",
+              "Ice cubes",
+              "Fresh berries for garnish"
+            ],
+            "instructions": [
+              "Wash cranberries and blueberries thoroughly.",
+              "Add cranberries and blueberries to blender.",
+              "Add pomegranate juice, honey, and lemon juice.",
+              "Pour in water and blend until smooth.",
+              "Strain through fine mesh to remove berry skins.",
+              "Taste and adjust sweetness if needed.",
+              "Add more water if too thick.",
+              "Serve over ice with fresh berries as garnish.",
+              "Store in refrigerator for up to 3 days."
+            ],
+            "prepTime": "10 minutes",
+            "cookTime": "No cooking",
+            "yield": "2-3 servings"
+          }
+        }
+      ]
+    },
+    "Smoothie": {
+      "emoji": "🥤",
+      "drinks": [
+        {
+          "id": 201,
+          "name": "Green Smoothie",
+          "description": "Spinach, banana, and mango smoothie",
+          "emoji": "🥤",
+          "recipe": {
+            "ingredients": [
+              "2 cups fresh spinach",
+              "1 ripe banana",
+              "1 cup frozen mango chunks",
+              "1 cup coconut water",
+              "1 tbsp chia seeds",
+              "1 tbsp honey",
+              "Ice cubes"
+            ],
+            "instructions": [
+              "Wash spinach leaves thoroughly.",
+              "Peel banana and break into chunks.",
+              "Add spinach, banana, and mango to blender.",
+              "Pour in coconut water and add chia seeds.",
+              "Add honey and blend on high speed until smooth.",
+              "Add ice cubes and blend until desired consistency.",
+              "Taste and adjust sweetness if needed.",
+              "Serve immediately in a tall glass.",
+              "Best consumed within 30 minutes for maximum nutrition."
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "No cooking",
+            "yield": "2 servings"
+          }
+        },
+        {
+          "id": 202,
+          "name": "Berry Protein Smoothie",
+          "description": "Mixed berries with protein powder",
+          "emoji": "🫐",
+          "recipe": {
+            "ingredients": [
+              "1 cup mixed berries (strawberries, blueberries, raspberries)",
+              "1 scoop vanilla protein powder",
+              "1 cup almond milk",
+              "1 tbsp almond butter",
+              "1 tbsp honey",
+              "1/2 tsp vanilla extract",
+              "Ice cubes"
+            ],
+            "instructions": [
+              "Wash fresh berries or use frozen berries.",
+              "Add berries to blender with almond milk.",
+              "Add protein powder, almond butter, and honey.",
+              "Add vanilla extract and blend until smooth.",
+              "Add ice cubes and blend until thick and creamy.",
+              "Taste and adjust sweetness or protein powder as needed.",
+              "Pour into glass and serve immediately.",
+              "Great for post-workout recovery."
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "No cooking",
+            "yield": "1 large serving"
+          }
+        },
+        {
+          "id": 203,
+          "name": "Chocolate Banana Smoothie",
+          "description": "Chocolate, banana, and peanut butter smoothie",
+          "emoji": "🍫",
+          "recipe": {
+            "ingredients": [
+              "2 ripe bananas",
+              "2 tbsp cocoa powder",
+              "2 tbsp peanut butter",
+              "1 cup milk (dairy or plant-based)",
+              "1 tbsp honey",
+              "1/2 tsp vanilla extract",
+              "Ice cubes"
+            ],
+            "instructions": [
+              "Peel bananas and break into chunks.",
+              "Add bananas, cocoa powder, and peanut butter to blender.",
+              "Pour in milk and add honey and vanilla.",
+              "Blend on high speed until smooth and creamy.",
+              "Add ice cubes and blend until thick.",
+              "Taste and adjust sweetness or cocoa as needed.",
+              "Pour into glass and serve immediately.",
+              "Perfect for a healthy dessert or breakfast."
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "No cooking",
+            "yield": "2 servings"
+          }
+        },
+        {
+          "id": 204,
+          "name": "Tropical Smoothie",
+          "description": "Pineapple, coconut, and mango smoothie",
+          "emoji": "🥥",
+          "recipe": {
+            "ingredients": [
+              "1 cup frozen pineapple chunks",
+              "1 cup frozen mango chunks",
+              "1/2 cup coconut milk",
+              "1/2 cup orange juice",
+              "1 tbsp coconut flakes",
+              "1 tbsp honey",
+              "Ice cubes"
+            ],
+            "instructions": [
+              "Add frozen pineapple and mango to blender.",
+              "Pour in coconut milk and orange juice.",
+              "Add coconut flakes and honey.",
+              "Blend on high speed until smooth.",
+              "Add ice cubes and blend until thick and creamy.",
+              "Taste and adjust sweetness if needed.",
+              "Pour into glass and garnish with more coconut flakes.",
+              "Transport yourself to a tropical paradise!"
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "No cooking",
+            "yield": "2 servings"
+          }
+        },
+        {
+          "id": 205,
+          "name": "Oatmeal Cookie Smoothie",
+          "description": "Oats, banana, and cinnamon smoothie",
+          "emoji": "🥣",
+          "recipe": {
+            "ingredients": [
+              "1/2 cup rolled oats",
+              "1 ripe banana",
+              "1 cup milk (dairy or plant-based)",
+              "1 tbsp almond butter",
+              "1 tbsp honey",
+              "1/2 tsp cinnamon",
+              "1/4 tsp vanilla extract",
+              "Ice cubes"
+            ],
+            "instructions": [
+              "Add rolled oats to blender and pulse until coarsely ground.",
+              "Peel banana and add to blender.",
+              "Pour in milk and add almond butter, honey, and spices.",
+              "Blend on high speed until smooth and creamy.",
+              "Add ice cubes and blend until thick.",
+              "Taste and adjust sweetness or cinnamon as needed.",
+              "Pour into glass and serve immediately.",
+              "Tastes like a healthy oatmeal cookie in a glass!"
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "No cooking",
+            "yield": "2 servings"
+          }
+        }
+      ]
+    },
+    "Coffee": {
+      "emoji": "☕",
+      "drinks": [
+        {
+          "id": 401,
+          "name": "Iced Coffee",
+          "description": "Cold brew coffee with ice and a splash of milk",
+          "emoji": "☕",
+          "recipe": {
+            "ingredients": [
+              "1 cup coarsely ground coffee",
+              "4 cups cold water",
+              "2 cups ice cubes",
+              "Milk or cream to taste",
+              "Sugar or simple syrup (optional)",
+              "Vanilla extract (optional)"
+            ],
+            "instructions": [
+              "Combine coarsely ground coffee and cold water in a large jar.",
+              "Stir gently to ensure all coffee is wet.",
+              "Cover and refrigerate for 12-24 hours.",
+              "Strain the coffee concentrate through a fine mesh sieve or coffee filter.",
+              "Fill glasses with ice cubes.",
+              "Pour coffee concentrate over ice, filling about 2/3 of the glass.",
+              "Add milk or cream to taste.",
+              "Sweeten with sugar or simple syrup if desired.",
+              "Add a drop of vanilla extract for extra flavor.",
+              "Stir and serve immediately."
+            ],
+            "prepTime": "5 minutes + 12-24 hours brewing",
+            "cookTime": "No cooking",
+            "yield": "4-6 servings"
+          }
+        },
+        {
+          "id": 402,
+          "name": "Bubble Tea",
+          "description": "Taiwanese tea with chewy tapioca pearls",
+          "emoji": "🧋",
+          "recipe": {
+            "ingredients": [
+              "2 tbsp black tea leaves",
+              "2 cups hot water",
+              "1/2 cup tapioca pearls",
+              "1/4 cup brown sugar",
+              "1/4 cup milk or cream",
+              "Ice cubes"
+            ],
+            "instructions": [
+              "Steep black tea leaves in hot water for 5 minutes, then let cool.",
+              "Cook tapioca pearls according to package instructions.",
+              "Make brown sugar syrup by heating brown sugar with 1/4 cup water.",
+              "Add cooked pearls to syrup and let them soak for 10 minutes.",
+              "Fill glass with ice cubes.",
+              "Add brown sugar pearls to the bottom of the glass.",
+              "Pour cooled tea over ice, filling 3/4 of the glass.",
+              "Add milk or cream on top.",
+              "Stir well before drinking and enjoy with a wide straw!"
+            ],
+            "prepTime": "20 minutes",
+            "cookTime": "15 minutes",
+            "yield": "2 servings"
+          }
+        },
+        {
+          "id": 403,
+          "name": "Cappuccino",
+          "description": "Espresso with steamed milk and foam",
+          "emoji": "☕",
+          "recipe": {
+            "ingredients": [
+              "2 shots espresso",
+              "4 oz milk",
+              "Cocoa powder for dusting",
+              "Sugar to taste"
+            ],
+            "instructions": [
+              "Pull 2 shots of espresso into a cappuccino cup.",
+              "Heat milk in a small saucepan or steam wand to 150°F (65°C).",
+              "Froth the milk to create microfoam using a milk frother or whisk.",
+              "Pour steamed milk over espresso in a circular motion.",
+              "Create latte art or simply top with foam.",
+              "Dust with cocoa powder if desired.",
+              "Add sugar to taste and serve immediately.",
+              "Perfect ratio: 1/3 espresso, 1/3 steamed milk, 1/3 foam."
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "3 minutes",
+            "yield": "1 serving"
+          }
+        },
+        {
+          "id": 404,
+          "name": "Dalgona Coffee",
+          "description": "Korean whipped coffee drink",
+          "emoji": "☁️",
+          "recipe": {
+            "ingredients": [
+              "2 tbsp instant coffee",
+              "2 tbsp sugar",
+              "2 tbsp hot water",
+              "1 cup milk (cold or warm)",
+              "Ice cubes (optional)"
+            ],
+            "instructions": [
+              "Combine instant coffee, sugar, and hot water in a bowl.",
+              "Whisk vigorously for 5-10 minutes until thick and creamy.",
+              "The mixture should form stiff peaks like whipped cream.",
+              "Fill glass with ice cubes if making iced version.",
+              "Pour milk into glass, leaving room at the top.",
+              "Scoop the whipped coffee mixture on top of the milk.",
+              "Mix before drinking to combine flavors.",
+              "Enjoy the creamy, frothy texture!"
+            ],
+            "prepTime": "15 minutes",
+            "cookTime": "No cooking",
+            "yield": "1 serving"
+          }
+        },
+        {
+          "id": 405,
+          "name": "Frappé",
+          "description": "Blended iced coffee drink",
+          "emoji": "🧊",
+          "recipe": {
+            "ingredients": [
+              "1 cup strong coffee, cooled",
+              "1 cup ice cubes",
+              "2 tbsp sugar",
+              "2 tbsp milk",
+              "1/2 tsp vanilla extract",
+              "Whipped cream (optional)",
+              "Chocolate syrup (optional)"
+            ],
+            "instructions": [
+              "Brew strong coffee and let it cool completely.",
+              "Add cooled coffee, ice cubes, sugar, and milk to blender.",
+              "Add vanilla extract and blend on high speed until smooth.",
+              "Blend until the mixture is thick and slushy.",
+              "Taste and adjust sweetness if needed.",
+              "Pour into a tall glass.",
+              "Top with whipped cream and drizzle with chocolate syrup if desired.",
+              "Serve immediately with a straw."
+            ],
+            "prepTime": "10 minutes",
+            "cookTime": "No cooking",
+            "yield": "1 large serving"
+          }
+        }
+      ]
+    },
+    "Cocktail": {
+      "emoji": "🍹",
+      "drinks": [
+        {
+          "id": 301,
+          "name": "Mojito",
+          "description": "Cuban cocktail with rum, mint, and lime",
+          "emoji": "🍹",
+          "recipe": {
+            "ingredients": [
+              "2 oz white rum",
+              "1 oz fresh lime juice",
+              "2 tsp sugar",
+              "8-10 fresh mint leaves",
+              "Soda water",
+              "Ice cubes",
+              "Lime wedge and mint sprig for garnish"
+            ],
+            "instructions": [
+              "Muddle mint leaves with sugar in a glass.",
+              "Add lime juice and continue muddling.",
+              "Fill glass with ice cubes.",
+              "Pour rum over ice and stir well.",
+              "Top with soda water.",
+              "Garnish with lime wedge and mint sprig.",
+              "Stir gently and serve immediately.",
+              "Perfect for hot summer days!"
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "No cooking",
+            "yield": "1 cocktail"
+          }
+        },
+        {
+          "id": 302,
+          "name": "Piña Colada",
+          "description": "Tropical cocktail with rum, pineapple, and coconut",
+          "emoji": "🍍",
+          "recipe": {
+            "ingredients": [
+              "2 oz white rum",
+              "2 oz pineapple juice",
+              "2 oz coconut cream",
+              "1 cup ice cubes",
+              "Pineapple wedge for garnish",
+              "Maraschino cherry for garnish"
+            ],
+            "instructions": [
+              "Add rum, pineapple juice, and coconut cream to blender.",
+              "Add ice cubes and blend until smooth and creamy.",
+              "Taste and adjust ingredients if needed.",
+              "Pour into a hurricane glass or tall glass.",
+              "Garnish with pineapple wedge and cherry.",
+              "Serve immediately with a straw.",
+              "Transport yourself to the Caribbean!"
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "No cooking",
+            "yield": "1 cocktail"
+          }
+        },
+        {
+          "id": 303,
+          "name": "Margarita",
+          "description": "Classic tequila cocktail with lime and salt",
+          "emoji": "🍋",
+          "recipe": {
+            "ingredients": [
+              "2 oz tequila",
+              "1 oz fresh lime juice",
+              "1 oz triple sec or Cointreau",
+              "1 tsp agave nectar or simple syrup",
+              "Salt for rim",
+              "Ice cubes",
+              "Lime wheel for garnish"
+            ],
+            "instructions": [
+              "Rim glass with salt by running lime around edge and dipping in salt.",
+              "Fill cocktail shaker with ice.",
+              "Add tequila, lime juice, triple sec, and agave nectar.",
+              "Shake vigorously for 15-20 seconds.",
+              "Strain into prepared glass with fresh ice.",
+              "Garnish with lime wheel.",
+              "Serve immediately and enjoy the tangy, salty flavors!"
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "No cooking",
+            "yield": "1 cocktail"
+          }
+        },
+        {
+          "id": 304,
+          "name": "Cosmopolitan",
+          "description": "Elegant vodka cocktail with cranberry and lime",
+          "emoji": "🍸",
+          "recipe": {
+            "ingredients": [
+              "2 oz vodka",
+              "1 oz cranberry juice",
+              "1/2 oz fresh lime juice",
+              "1/2 oz triple sec or Cointreau",
+              "Ice cubes",
+              "Lime wheel for garnish"
+            ],
+            "instructions": [
+              "Fill cocktail shaker with ice cubes.",
+              "Add vodka, cranberry juice, lime juice, and triple sec.",
+              "Shake vigorously for 15-20 seconds.",
+              "Strain into a chilled martini glass.",
+              "Garnish with lime wheel.",
+              "Serve immediately and enjoy the sophisticated pink hue!",
+              "Perfect for special occasions."
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "No cooking",
+            "yield": "1 cocktail"
+          }
+        },
+        {
+          "id": 305,
+          "name": "Old Fashioned",
+          "description": "Classic whiskey cocktail with bitters and sugar",
+          "emoji": "🥃",
+          "recipe": {
+            "ingredients": [
+              "2 oz bourbon or rye whiskey",
+              "1 sugar cube or 1 tsp sugar",
+              "2-3 dashes Angostura bitters",
+              "Orange peel",
+              "Ice cubes",
+              "Cherry for garnish"
+            ],
+            "instructions": [
+              "Place sugar cube in old fashioned glass.",
+              "Add bitters and muddle until sugar is dissolved.",
+              "Add ice cubes to glass.",
+              "Pour whiskey over ice.",
+              "Stir gently for 30 seconds.",
+              "Express orange peel over drink and drop in glass.",
+              "Garnish with cherry if desired.",
+              "Serve immediately and enjoy the classic flavors!"
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "No cooking",
+            "yield": "1 cocktail"
+          }
+        }
+      ]
+    },
+    "Tea": {
+      "emoji": "🍵",
+      "drinks": [
+        {
+          "id": 501,
+          "name": "Green Tea",
+          "description": "Classic Japanese green tea",
+          "emoji": "🍵",
+          "recipe": {
+            "ingredients": [
+              "1 tsp green tea leaves",
+              "1 cup hot water (175°F / 80°C)",
+              "Honey (optional)",
+              "Lemon slice (optional)"
+            ],
+            "instructions": [
+              "Heat water to 175°F (80°C, not boiling).",
+              "Add green tea leaves to teapot or infuser.",
+              "Pour hot water over tea leaves.",
+              "Steep for 2-3 minutes (not longer to avoid bitterness).",
+              "Strain tea leaves or remove infuser.",
+              "Add honey and lemon if desired.",
+              "Serve immediately for best flavor.",
+              "Green tea is rich in antioxidants!"
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "No cooking",
+            "yield": "1 cup"
+          }
+        },
+        {
+          "id": 502,
+          "name": "Chai Latte",
+          "description": "Spiced Indian tea with milk",
+          "emoji": "☕",
+          "recipe": {
+            "ingredients": [
+              "1 cup water",
+              "1 cup milk",
+              "2 tsp loose black tea",
+              "2 cardamom pods",
+              "1 cinnamon stick",
+              "4 whole cloves",
+              "1/2 inch fresh ginger",
+              "2 tbsp sugar",
+              "Pinch of black pepper"
+            ],
+            "instructions": [
+              "Crush cardamom pods and add to saucepan with water.",
+              "Add cinnamon, cloves, ginger, and black pepper.",
+              "Bring to a boil and simmer for 5 minutes.",
+              "Add tea leaves and simmer for 2 minutes.",
+              "Add milk and sugar, bring to a gentle boil.",
+              "Simmer for 2-3 minutes until well combined.",
+              "Strain through fine mesh into cups.",
+              "Serve hot and enjoy the aromatic spices!"
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "10 minutes",
+            "yield": "2 cups"
+          }
+        },
+        {
+          "id": 503,
+          "name": "Iced Tea",
+          "description": "Refreshing cold tea with lemon",
+          "emoji": "🧊",
+          "recipe": {
+            "ingredients": [
+              "4 black tea bags",
+              "4 cups hot water",
+              "4 cups cold water",
+              "1/4 cup sugar",
+              "2 lemons, sliced",
+              "Fresh mint leaves",
+              "Ice cubes"
+            ],
+            "instructions": [
+              "Steep tea bags in hot water for 5 minutes.",
+              "Remove tea bags and stir in sugar until dissolved.",
+              "Add cold water to dilute the tea.",
+              "Let cool to room temperature.",
+              "Refrigerate for at least 2 hours.",
+              "Fill glasses with ice cubes.",
+              "Pour tea over ice and add lemon slices.",
+              "Garnish with fresh mint leaves.",
+              "Perfect for hot summer days!"
+            ],
+            "prepTime": "10 minutes",
+            "cookTime": "No cooking + 2 hours chill",
+            "yield": "8 cups"
+          }
+        },
+        {
+          "id": 504,
+          "name": "Matcha Latte",
+          "description": "Japanese powdered green tea with milk",
+          "emoji": "🍃",
+          "recipe": {
+            "ingredients": [
+              "1 tsp matcha powder",
+              "2 tbsp hot water (175°F / 80°C)",
+              "1 cup milk (dairy or plant-based)",
+              "1 tbsp honey or sugar",
+              "Vanilla extract (optional)"
+            ],
+            "instructions": [
+              "Sift matcha powder to remove lumps.",
+              "Add hot water to matcha and whisk vigorously until frothy.",
+              "Heat milk in a saucepan or steam wand.",
+              "Add honey and vanilla to milk if desired.",
+              "Pour matcha mixture into cup.",
+              "Slowly pour steamed milk over matcha.",
+              "Create latte art or simply mix together.",
+              "Serve immediately and enjoy the earthy flavors!"
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "3 minutes",
+            "yield": "1 serving"
+          }
+        },
+        {
+          "id": 505,
+          "name": "Earl Grey",
+          "description": "Classic bergamot-flavored black tea",
+          "emoji": "🫖",
+          "recipe": {
+            "ingredients": [
+              "1 tsp Earl Grey tea leaves",
+              "1 cup hot water (200°F / 95°C)",
+              "Milk (optional)",
+              "Sugar or honey (optional)",
+              "Lemon slice (optional)"
+            ],
+            "instructions": [
+              "Heat water to 200°F (95°C, just before boiling).",
+              "Add Earl Grey tea leaves to teapot or infuser.",
+              "Pour hot water over tea leaves.",
+              "Steep for 3-5 minutes depending on desired strength.",
+              "Remove tea leaves or strain.",
+              "Add milk, sugar, or lemon as desired.",
+              "Serve immediately for best flavor.",
+              "The bergamot gives it a unique citrusy aroma!"
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "No cooking",
+            "yield": "1 cup"
+          }
+        }
+      ]
+    }
+  }
+}

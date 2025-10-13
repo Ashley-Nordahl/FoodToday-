@@ -1,0 +1,6686 @@
+{
+  "cultural": {
+    "Chinese": [
+      {
+        "id": 1,
+        "name": "dish.sweet_and_sour_pork",
+        "description": "description.description_sweet_and_sour_pork",
+        "ingredients": [
+          "ingredient.porkchops",
+          "ingredient.bellpepper",
+          "ingredient.onion",
+          "ingredient.garlic",
+          "ingredient.soysauce"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb pork chops, cubed",
+          "2 ingredient.bell_peppers_sliced",
+          "1 medium onion, diced",
+          "4 cloves garlic, minced",
+          "3 tbsp soy sauce"
+        ],
+        "instructions": [
+          "Cut pork into bite-sized pieces and season with salt and pepper",
+          "Heat oil in a wok over high heat",
+          "Add pork and stir-fry until golden brown, about 5-6 minutes",
+          "Remove pork and set aside",
+          "Add bell peppers and onion to wok, stir-fry for 2-3 minutes",
+          "Return pork to wok with sauce mixture",
+          "Toss everything together until sauce thickens",
+          "Serve immediately over rice"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "jiangsu"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 2,
+        "name": "dish.braised_lions_head_meatballs",
+        "description": "description.description_braised_lions_head_meatballs",
+        "ingredients": [
+          "ingredient.groundpork",
+          "ingredient.cabbage",
+          "ingredient.ginger",
+          "ingredient.soysauce"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb ground pork",
+          "1/2 head cabbage, shredded",
+          "1 tbsp fresh ginger, grated",
+          "3 tbsp soy sauce"
+        ],
+        "instructions": [
+          "Mix ground pork with ginger, soy sauce, and egg",
+          "Form into 4-6 large meatballs",
+          "Heat oil in a large pot and brown meatballs on all sides",
+          "Add cabbage around the meatballs",
+          "Pour in soy sauce and water mixture",
+          "Bring to a boil, then simmer for 30 minutes",
+          "Serve hot with steamed rice"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🐷",
+        "tags": [
+          "jiangsu"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 3,
+        "name": "dish.shandong_dumplings",
+        "description": "description.description_shandong_dumplings",
+        "ingredients": [
+          "ingredient.groundpork",
+          "ingredient.cabbage",
+          "ingredient.ginger",
+          "ingredient.soysauce",
+          "ingredient.flour"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb ground pork",
+          "1/2 head cabbage, shredded",
+          "1 tbsp fresh ginger, grated",
+          "3 tbsp soy sauce",
+          "2 cups all-purpose flour"
+        ],
+        "instructions": [
+          "Make dough with flour and water, knead until smooth",
+          "Mix pork with cabbage, ginger, and soy sauce",
+          "Roll out dough and cut into circles",
+          "Place filling in center of each circle",
+          "Fold and seal edges to form dumplings",
+          "Boil dumplings in water for 8-10 minutes",
+          "Serve with dipping sauce"
+        ],
+        "servings": 6,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "shandong"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 4,
+        "name": "dish.dezhou_braised_chicken",
+        "description": "description.description_dezhou_braised_chicken",
+        "ingredients": [
+          "ingredient.wholechicken",
+          "ingredient.ginger",
+          "ingredient.garlic",
+          "ingredient.soysauce",
+          "ingredient.staranise"
+        ],
+        "ingredientsWithAmounts": [
+          "Whole Chicken",
+          "1 tbsp fresh ginger, grated",
+          "4 cloves garlic, minced",
+          "3 tbsp soy sauce",
+          "2 star anise pods"
+        ],
+        "instructions": [
+          "Season whole chicken with soy sauce and spices",
+          "Heat oil in a large pot and brown chicken on all sides",
+          "Add ginger, garlic, and star anise",
+          "Pour in soy sauce and water mixture",
+          "Bring to a boil, then simmer for 1 hour",
+          "Let chicken rest before carving",
+          "Serve with braising liquid"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "shandong"
+        ],
+        "prep_time": "90 min",
+        "cook_time": "90 min",
+        "total_time": "90 min"
+      },
+      {
+        "id": 5,
+        "name": "dish.mapo_tofu",
+        "description": "description.description_mapo_tofu",
+        "ingredients": [
+          "ingredient.tofu",
+          "ingredient.groundpork",
+          "ingredient.garlic",
+          "ingredient.ginger",
+          "ingredient.chilibeanpaste"
+        ],
+        "ingredientsWithAmounts": [
+          "1 block (14 oz) firm tofu, cubed",
+          "1 lb ground pork",
+          "4 cloves garlic, minced",
+          "1 tbsp fresh ginger, grated",
+          "Chili Bean Paste"
+        ],
+        "instructions": [
+          "Heat oil in a wok over medium-high heat",
+          "Add ground pork and stir-fry until browned",
+          "Add garlic, ginger, and chili bean paste",
+          "Stir-fry for 1 minute until fragrant",
+          "Add tofu and gently toss to combine",
+          "Add soy sauce and simmer for 5 minutes",
+          "Thicken with cornstarch slurry if needed",
+          "Garnish with green onions and serve hot"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🧈",
+        "tags": [
+          "sichuan"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 6,
+        "name": "dish.kung_pao_chicken",
+        "description": "description.description_kung_pao_chicken",
+        "ingredients": [
+          "ingredient.chickenbreast",
+          "ingredient.peanuts",
+          "ingredient.driedchilies",
+          "ingredient.bellpepper",
+          "ingredient.garlic",
+          "ingredient.ginger",
+          "ingredient.greenonions",
+          "ingredient.soysauce",
+          "ingredient.ricevinegar",
+          "ingredient.sugar",
+          "ingredient.cornstarch"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb chicken breast, cubed",
+          "1/2 cup roasted peanuts",
+          "8-10 dried red chilies",
+          "2 ingredient.bell_peppers_sliced",
+          "4 cloves garlic, minced",
+          "1 tbsp fresh ginger, grated",
+          "3 green onions, sliced",
+          "3 tbsp soy sauce",
+          "2 tbsp rice vinegar",
+          "1/4 cup sugar",
+          "2 tbsp cornstarch"
+        ],
+        "instructions": [
+          "Mix soy sauce, rice vinegar, sugar, cornstarch, and water in a bowl. Set aside",
+          "Heat 2 tbsp oil in a wok over high heat",
+          "Add chicken and stir-fry for 5-6 minutes until golden. Remove and set aside",
+          "Add remaining oil, dried chilies, and Sichuan peppercorns",
+          "Stir-fry for 30 seconds until fragrant",
+          "Add bell peppers and stir-fry for 2-3 minutes until slightly softened",
+          "Add garlic and ginger, stir-fry for 30 seconds until fragrant",
+          "Return chicken to wok and add sauce mixture",
+          "Toss everything together for 2 minutes until sauce thickens",
+          "Add peanuts and green onions, stir for 30 seconds",
+          "Serve immediately over steamed rice"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "sichuan"
+        ],
+        "prep_time": "15 min",
+        "cook_time": "15 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 7,
+        "name": "dish.pork_ribs_with_black_bean_sauce",
+        "description": "description.description_pork_ribs_with_black_bean_sauce",
+        "ingredients": [
+          "ingredient.porkribs",
+          "ingredient.blackbeans",
+          "ingredient.garlic",
+          "ingredient.ginger",
+          "ingredient.soysauce"
+        ],
+        "ingredientsWithAmounts": [
+          "Pork Ribs",
+          "Black Beans",
+          "4 cloves garlic, minced",
+          "1 tbsp fresh ginger, grated",
+          "3 tbsp soy sauce"
+        ],
+        "instructions": [
+          "Season pork ribs with salt and pepper",
+          "Heat oil in a large pot and brown ribs on all sides",
+          "Add garlic, ginger, and black beans",
+          "Stir-fry for 1 minute until fragrant",
+          "Add soy sauce and water mixture",
+          "Bring to a boil, then simmer for 1 hour",
+          "Serve hot with steamed rice"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "sichuan"
+        ],
+        "prep_time": "75 min",
+        "cook_time": "75 min",
+        "total_time": "75 min"
+      },
+      {
+        "id": 8,
+        "name": "dish.steamed_fish_with_ginger_and_scallions",
+        "description": "description.description_steamed_fish_with_ginger_and_scallions",
+        "ingredients": [
+          "ingredient.fish",
+          "ingredient.ginger",
+          "ingredient.scallions",
+          "ingredient.soysauce",
+          "ingredient.sesameoil"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb fish fillets",
+          "1 tbsp fresh ginger, grated",
+          "3 scallions, sliced",
+          "3 tbsp soy sauce",
+          "1 tbsp sesame oil"
+        ],
+        "instructions": [
+          "Place fish on a heatproof plate",
+          "Scatter ginger and half the scallions over fish",
+          "Steam fish for 8-10 minutes until cooked through",
+          "Heat soy sauce and sesame oil in a small pan",
+          "Pour hot sauce over steamed fish",
+          "Garnish with remaining scallions",
+          "Serve immediately"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐟",
+        "tags": [
+          "cantonese"
+        ],
+        "prep_time": "15 min",
+        "cook_time": "15 min",
+        "total_time": "15 min"
+      },
+      {
+        "id": 9,
+        "name": "dish.char_siu_cantonese_bbq_pork",
+        "description": "description.description_char_siu_cantonese_bbq_pork",
+        "ingredients": [
+          "ingredient.porkshoulder",
+          "ingredient.hoisinsauce",
+          "ingredient.honey",
+          "ingredient.garlic",
+          "ingredient.fivespice"
+        ],
+        "ingredientsWithAmounts": [
+          "Pork Shoulder",
+          "Hoisin Sauce",
+          "2 tbsp honey",
+          "4 cloves garlic, minced",
+          "Five Spice"
+        ],
+        "instructions": [
+          "Mix hoisin sauce, honey, garlic, and five-spice powder",
+          "Marinate pork in sauce for at least 2 hours",
+          "Preheat oven to 400°F (200°C)",
+          "Place pork on a rack in a roasting pan",
+          "Roast for 45-60 minutes, basting every 15 minutes",
+          "Let rest for 10 minutes before slicing",
+          "Serve with steamed rice and vegetables"
+        ],
+        "servings": 6,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "cantonese"
+        ],
+        "prep_time": "120 min",
+        "cook_time": "120 min",
+        "total_time": "120 min"
+      },
+      {
+        "id": 10,
+        "name": "dish.dongpo_pork_belly",
+        "description": "description.description_dongpo_pork_belly",
+        "ingredients": [
+          "ingredient.porkbelly",
+          "ingredient.soysauce",
+          "ingredient.ricewine",
+          "ingredient.ginger",
+          "ingredient.scallions"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb pork belly, cut into large chunks",
+          "3 tbsp soy sauce",
+          "1/4 cup rice wine",
+          "1 tbsp fresh ginger, grated",
+          "3 scallions, sliced"
+        ],
+        "instructions": [
+          "Cut pork belly into large chunks",
+          "Heat oil in a wok and brown pork on all sides",
+          "Add ginger and scallions, stir-fry for 1 minute",
+          "Add soy sauce, rice wine, and water",
+          "Bring to a boil, then simmer for 2-3 hours",
+          "Serve hot with steamed rice"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🐷",
+        "tags": [
+          "zhejiang"
+        ],
+        "prep_time": "180 min",
+        "cook_time": "180 min",
+        "total_time": "180 min"
+      },
+      {
+        "id": 11,
+        "name": "dish.hunan_beef",
+        "description": "description.description_hunan_beef",
+        "ingredients": [
+          "ingredient.beefsteak",
+          "ingredient.bellpepper",
+          "ingredient.onion",
+          "ingredient.garlic",
+          "ingredient.chili"
+        ],
+        "ingredientsWithAmounts": [
+          "Beef Steak",
+          "2 ingredient.bell_peppers_sliced",
+          "1 medium onion, diced",
+          "4 cloves garlic, minced",
+          "Chili"
+        ],
+        "instructions": [
+          "Slice beef into thin strips",
+          "Heat oil in a wok over high heat",
+          "Add beef and stir-fry until browned, about 3-4 minutes",
+          "Add bell peppers and onion, stir-fry for 2-3 minutes",
+          "Add garlic and chilies, stir-fry for 30 seconds",
+          "Add soy sauce and stir-fry for 1 minute",
+          "Serve hot over steamed rice"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥩",
+        "tags": [
+          "hunan"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 12,
+        "name": "dish.buddha_jumps_over_the_wall",
+        "description": "description.description_buddha_jumps_over_the_wall",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.pork",
+          "ingredient.mushroom",
+          "ingredient.bambooshoots",
+          "ingredient.wine"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb chicken, cubed",
+          "1 lb pork, cubed",
+          "8 oz mushrooms, sliced",
+          "Bamboo Shoots",
+          "1/2 cup wine"
+        ],
+        "instructions": [
+          "Prepare all ingredients and cut into bite-sized pieces",
+          "Heat oil in a large pot and brown chicken and pork",
+          "Add mushrooms and bamboo shoots",
+          "Pour in wine and water mixture",
+          "Bring to a boil, then simmer for 2-3 hours",
+          "Season with salt and pepper",
+          "Serve hot"
+        ],
+        "servings": 8,
+        "difficulty": "Hard",
+        "emoji": "🐔",
+        "tags": [
+          "fujian"
+        ],
+        "prep_time": "240 min",
+        "cook_time": "240 min",
+        "total_time": "240 min"
+      },
+      {
+        "id": 13,
+        "name": "dish.redbraised_pork",
+        "description": "description.description_redbraised_pork",
+        "ingredients": [
+          "ingredient.pork",
+          "ingredient.soysauce",
+          "ingredient.rocksugar",
+          "ingredient.ginger",
+          "ingredient.wine"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb pork, cubed",
+          "3 tbsp soy sauce",
+          "Rock Sugar",
+          "1 tbsp fresh ginger, grated",
+          "1/2 cup wine"
+        ],
+        "instructions": [
+          "Heat oil in a wok and brown pork on all sides",
+          "Add ginger and rock sugar, stir-fry until sugar melts",
+          "Add soy sauce and wine",
+          "Bring to a boil, then simmer for 1 hour",
+          "Serve hot with steamed rice"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "anhui"
+        ],
+        "prep_time": "90 min",
+        "cook_time": "90 min",
+        "total_time": "90 min"
+      },
+      {
+        "id": 14,
+        "name": "dish.chicken_fried_rice",
+        "description": "description.description_chicken_fried_rice",
+        "ingredients": [
+          "ingredient.rice",
+          "ingredient.chickenbreast",
+          "ingredient.eggs",
+          "ingredient.mixedvegetables",
+          "ingredient.onion",
+          "ingredient.garlic",
+          "ingredient.soysauce",
+          "ingredient.oystersauce",
+          "ingredient.sesameoil",
+          "ingredient.greenonions"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups cooked rice",
+          "1 lb chicken breast, cubed",
+          "3 large eggs",
+          "mixed-vegetables",
+          "1 medium onion, diced",
+          "4 cloves garlic, minced",
+          "3 tbsp soy sauce",
+          "oyster-sauce",
+          "1 tbsp sesame oil",
+          "3 green onions, sliced"
+        ],
+        "instructions": [
+          "Heat 1 tbsp oil in a wok over high heat",
+          "Add beaten eggs and scramble until just set. Remove and set aside",
+          "Add 2 tbsp oil and chicken to wok",
+          "Stir-fry chicken for 5-6 minutes until cooked through. Remove and set aside",
+          "Add remaining oil and onion to wok",
+          "Stir-fry onion for 2-3 minutes until softened",
+          "Add garlic and mixed vegetables, stir-fry for 2 minutes",
+          "Add rice and break up any clumps",
+          "Stir-fry rice for 3-4 minutes until heated through",
+          "Return chicken and eggs to wok",
+          "Add soy sauce, oyster sauce, sesame oil, and white pepper",
+          "Toss everything together for 2 minutes",
+          "Garnish with green onions and serve hot"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍚",
+        "tags": [
+          "chinese",
+          "fried-rice",
+          "chicken",
+          "eggs",
+          "quick"
+        ],
+        "prep_time": "15 min",
+        "cook_time": "20 min",
+        "total_time": "35 min"
+      },
+      {
+        "id": 15,
+        "name": "dish.peking_duck",
+        "description": "description.description_peking_duck",
+        "ingredients": [
+          "ingredient.duck",
+          "ingredient.hoisinsauce"
+        ],
+        "ingredientsWithAmounts": [
+          "1 whole duck",
+          "1/2 cup hoisin sauce"
+        ],
+        "instructions": [
+          "Season duck",
+          "Roast slowly",
+          "Carve and serve"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🦆",
+        "tags": [
+          "chinese",
+          "duck",
+          "roasted"
+        ],
+        "prep_time": "240 min",
+        "cook_time": "240 min",
+        "total_time": "240 min"
+      },
+      {
+        "id": 18,
+        "name": "dish.char_siu",
+        "description": "description.description_char_siu",
+        "ingredients": [
+          "ingredient.porkshoulder",
+          "ingredient.hoisinsauce"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb pork shoulder",
+          "1/4 cup hoisin sauce"
+        ],
+        "instructions": [
+          "Marinate pork",
+          "Roast",
+          "Glaze"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "chinese",
+          "pork",
+          "bbq"
+        ],
+        "prep_time": "90 min",
+        "cook_time": "90 min",
+        "total_time": "90 min"
+      },
+      {
+        "id": 19,
+        "name": "dish.dan_dan_noodles",
+        "description": "description.description_dan_dan_noodles",
+        "ingredients": [
+          "ingredient.noodles",
+          "ingredient.groundpork"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb noodles",
+          "1/2 lb ground pork"
+        ],
+        "instructions": [
+          "Cook noodles",
+          "Make sauce",
+          "Combine"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍜",
+        "tags": [
+          "chinese",
+          "noodles",
+          "spicy"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 20,
+        "name": "dish.hot_pot",
+        "description": "description.description_hot_pot",
+        "ingredients": [
+          "ingredient.broth",
+          "ingredient.meat"
+        ],
+        "ingredientsWithAmounts": [
+          "4 cups broth",
+          "Thinly sliced meat"
+        ],
+        "instructions": [
+          "Heat broth",
+          "Cook ingredients",
+          "Serve with sauces"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍽️",
+        "tags": [
+          "chinese",
+          "hot-pot",
+          "interactive"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      }
+    ],
+    "Japanese": [
+      {
+        "id": 21,
+        "name": "dish.sushi_rolls_maki",
+        "description": "description.description_sushi_rolls_maki",
+        "ingredients": [
+          "ingredient.sushirice",
+          "ingredient.ricevinegar",
+          "ingredient.sugar",
+          "ingredient.nori",
+          "ingredient.salmon",
+          "ingredient.tuna",
+          "ingredient.cucumber",
+          "ingredient.avocado"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups sushi rice",
+          "2 tbsp rice vinegar",
+          "1 tbsp sugar",
+          "nori sheets",
+          "4 oz salmon, sliced",
+          "4 oz tuna, sliced",
+          "1 cucumber, julienned",
+          "1 avocado, sliced"
+        ],
+        "instructions": [
+          "Cook sushi rice according to package directions",
+          "Mix rice vinegar and sugar, then fold into warm rice",
+          "Place nori sheet on bamboo mat",
+          "Spread rice evenly over nori, leaving 1 inch border",
+          "Add fish and vegetables in a line across center",
+          "Roll tightly using bamboo mat",
+          "Slice into 6-8 pieces with sharp knife",
+          "Serve with soy sauce, wasabi, and pickled ginger"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🍚",
+        "tags": [
+          "japanese",
+          "raw",
+          "healthy"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 22,
+        "name": "dish.teriyaki_chicken",
+        "description": "description.description_teriyaki_chicken",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.soysauce",
+          "ingredient.mirin",
+          "ingredient.sugar",
+          "ingredient.ginger"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb chicken, cubed",
+          "3 tbsp soy sauce",
+          "Mirin",
+          "1/4 cup sugar",
+          "1 tbsp fresh ginger, grated"
+        ],
+        "instructions": [
+          "Mix soy sauce, mirin, sugar, and ginger for sauce",
+          "Marinate chicken in half the sauce for 30 minutes",
+          "Heat oil in a wok over high heat",
+          "Add chicken and stir-fry until cooked through",
+          "Add remaining sauce and simmer until thick",
+          "Serve over steamed rice"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐔",
+        "tags": [
+          "japanese"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 23,
+        "name": "dish.miso_ramen",
+        "description": "description.description_miso_ramen",
+        "ingredients": [
+          "ingredient.noodles",
+          "ingredient.misopaste",
+          "ingredient.pork",
+          "ingredient.eggs",
+          "ingredient.scallions"
+        ],
+        "ingredientsWithAmounts": [
+          "8 oz ramen noodles",
+          "Miso Paste",
+          "1 lb pork, cubed",
+          "3 large eggs",
+          "3 scallions, sliced"
+        ],
+        "instructions": [
+          "Boil noodles according to package directions",
+          "Heat oil in a pot and brown pork",
+          "Add miso paste and water, bring to a boil",
+          "Simmer for 20 minutes",
+          "Add noodles and eggs to broth",
+          "Cook for 2-3 minutes until eggs are set",
+          "Garnish with scallions and serve hot"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍜",
+        "tags": [
+          "japanese"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 24,
+        "name": "dish.tonkatsu",
+        "description": "description.description_tonkatsu",
+        "ingredients": [
+          "ingredient.pork",
+          "ingredient.breadcrumbs",
+          "ingredient.eggs",
+          "ingredient.flour",
+          "ingredient.cabbage"
+        ],
+        "ingredientsWithAmounts": [
+          "4 pork cutlets",
+          "2 cups panko breadcrumbs",
+          "3 eggs",
+          "1 cup flour",
+          "1/2 head cabbage",
+          "Tonkatsu sauce",
+          "Oil for frying"
+        ],
+        "instructions": [
+          "Pound pork cutlets thin",
+          "Season with salt and pepper",
+          "Dredge in flour, egg, then breadcrumbs",
+          "Heat oil to 350°F (175°C)",
+          "Fry cutlets until golden brown",
+          "Drain on paper towels",
+          "Slice and serve with cabbage",
+          "Drizzle with tonkatsu sauce"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "japanese",
+          "fried",
+          "pork"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 25,
+        "name": "dish.yakitori",
+        "description": "description.description_yakitori",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.soysauce",
+          "ingredient.mirin",
+          "ingredient.sake",
+          "ingredient.sugar"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb chicken thighs",
+          "1/2 cup soy sauce",
+          "1/4 cup mirin",
+          "1/4 cup sake",
+          "2 tbsp sugar",
+          "Bamboo skewers",
+          "Scallions"
+        ],
+        "instructions": [
+          "Cut chicken into bite-sized pieces",
+          "Soak skewers in water",
+          "Thread chicken onto skewers",
+          "Make tare sauce with soy, mirin, sake, sugar",
+          "Grill skewers, brushing with sauce",
+          "Cook until chicken is done",
+          "Serve with more tare sauce",
+          "Garnish with scallions"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐔",
+        "tags": [
+          "japanese",
+          "grilled",
+          "chicken"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 26,
+        "name": "dish.okonomiyaki",
+        "description": "description.description_okonomiyaki",
+        "ingredients": [
+          "ingredient.cabbage",
+          "ingredient.flour",
+          "ingredient.eggs",
+          "ingredient.pork",
+          "ingredient.okonomiyakisauce"
+        ],
+        "ingredientsWithAmounts": [
+          "1/2 head cabbage",
+          "2 cups flour",
+          "4 eggs",
+          "8 slices pork belly",
+          "Okonomiyaki sauce",
+          "Mayonnaise",
+          "Bonito flakes"
+        ],
+        "instructions": [
+          "Shred cabbage finely",
+          "Mix flour with water and eggs",
+          "Add cabbage to batter",
+          "Heat griddle and pour batter",
+          "Top with pork slices",
+          "Flip and cook other side",
+          "Drizzle with sauce and mayo",
+          "Top with bonito flakes"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥬",
+        "tags": [
+          "japanese",
+          "pancake",
+          "savory"
+        ],
+        "prep_time": "35 min",
+        "cook_time": "35 min",
+        "total_time": "35 min"
+      },
+      {
+        "id": 27,
+        "name": "dish.chawanmushi",
+        "description": "description.description_chawanmushi",
+        "ingredients": [
+          "ingredient.eggs",
+          "ingredient.dashi",
+          "ingredient.shrimp",
+          "ingredient.mushrooms",
+          "ingredient.mitsuba"
+        ],
+        "ingredientsWithAmounts": [
+          "4 eggs",
+          "2 cups dashi stock",
+          "8 shrimp",
+          "4 mushrooms",
+          "Mitsuba leaves",
+          "Soy sauce",
+          "Mirin"
+        ],
+        "instructions": [
+          "Beat eggs with dashi",
+          "Strain mixture",
+          "Place shrimp and mushrooms in cups",
+          "Pour egg mixture over",
+          "Cover with foil",
+          "Steam for 15 minutes",
+          "Garnish with mitsuba",
+          "Serve warm"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥚",
+        "tags": [
+          "japanese",
+          "steamed",
+          "custard"
+        ],
+        "prep_time": "40 min",
+        "cook_time": "40 min",
+        "total_time": "40 min"
+      },
+      {
+        "id": 28,
+        "name": "dish.karaage",
+        "description": "description.description_karaage",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.soysauce",
+          "ingredient.garlic",
+          "ingredient.ginger",
+          "ingredient.potatostarch"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb chicken thighs",
+          "3 tbsp soy sauce",
+          "2 garlic cloves",
+          "1 inch ginger",
+          "1 cup potato starch",
+          "Oil for frying",
+          "Lemon wedges"
+        ],
+        "instructions": [
+          "Cut chicken into bite-sized pieces",
+          "Marinate with soy sauce, garlic, ginger",
+          "Let marinate for 30 minutes",
+          "Coat with potato starch",
+          "Heat oil to 350°F (175°C)",
+          "Fry chicken until golden",
+          "Drain on paper towels",
+          "Serve with lemon wedges"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐔",
+        "tags": [
+          "japanese",
+          "fried",
+          "chicken"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 29,
+        "name": "dish.oyakodon",
+        "description": "description.description_oyakodon",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.eggs",
+          "ingredient.onion",
+          "ingredient.dashi",
+          "ingredient.soysauce"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb chicken thighs",
+          "4 eggs",
+          "1 onion",
+          "1 cup dashi",
+          "3 tbsp soy sauce",
+          "2 tbsp mirin",
+          "Rice",
+          "Scallions"
+        ],
+        "instructions": [
+          "Slice chicken and onion",
+          "Heat dashi with soy sauce and mirin",
+          "Add chicken and onion",
+          "Cook until chicken is done",
+          "Beat eggs lightly",
+          "Pour eggs over chicken",
+          "Cover and cook until set",
+          "Serve over rice with scallions"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐔",
+        "tags": [
+          "japanese",
+          "rice-bowl",
+          "chicken"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 30,
+        "name": "dish.katsudon",
+        "description": "description.description_katsudon",
+        "ingredients": [
+          "ingredient.pork",
+          "ingredient.eggs",
+          "ingredient.onion",
+          "ingredient.dashi",
+          "ingredient.breadcrumbs"
+        ],
+        "ingredientsWithAmounts": [
+          "4 pork cutlets",
+          "4 eggs",
+          "1 onion",
+          "1 cup dashi",
+          "3 tbsp soy sauce",
+          "2 tbsp mirin",
+          "Panko breadcrumbs",
+          "Rice"
+        ],
+        "instructions": [
+          "Make tonkatsu (breaded pork cutlets)",
+          "Slice tonkatsu into strips",
+          "Heat dashi with soy sauce and mirin",
+          "Add sliced onion",
+          "Place tonkatsu on top",
+          "Beat eggs and pour over",
+          "Cover and cook until eggs set",
+          "Serve over rice"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "japanese",
+          "rice-bowl",
+          "pork"
+        ],
+        "prep_time": "35 min",
+        "cook_time": "35 min",
+        "total_time": "35 min"
+      },
+      {
+        "id": 31,
+        "name": "dish.takoyaki",
+        "description": "description.description_takoyaki",
+        "ingredients": [
+          "ingredient.octopus",
+          "ingredient.flour",
+          "ingredient.eggs",
+          "ingredient.dashi",
+          "ingredient.takoyakisauce"
+        ],
+        "ingredientsWithAmounts": [
+          "1/2 lb octopus",
+          "2 cups flour",
+          "2 eggs",
+          "2 cups dashi",
+          "Takoyaki sauce",
+          "Mayonnaise",
+          "Bonito flakes",
+          "Aonori"
+        ],
+        "instructions": [
+          "Cut octopus into small pieces",
+          "Mix flour with eggs and dashi",
+          "Heat takoyaki pan",
+          "Pour batter into holes",
+          "Add octopus pieces",
+          "Turn with skewers to form balls",
+          "Cook until golden",
+          "Top with sauce, mayo, and flakes"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🦑",
+        "tags": [
+          "japanese",
+          "street-food",
+          "octopus"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 32,
+        "name": "dish.agedashi_tofu",
+        "description": "description.description_agedashi_tofu",
+        "ingredients": [
+          "ingredient.tofu",
+          "ingredient.potatostarch",
+          "ingredient.dashi",
+          "ingredient.soysauce",
+          "ingredient.daikon"
+        ],
+        "ingredientsWithAmounts": [
+          "1 block firm tofu",
+          "1/2 cup potato starch",
+          "1 cup dashi",
+          "2 tbsp soy sauce",
+          "1 tbsp mirin",
+          "Grated daikon",
+          "Scallions"
+        ],
+        "instructions": [
+          "Cut tofu into cubes",
+          "Drain and pat dry",
+          "Coat with potato starch",
+          "Heat oil to 350°F (175°C)",
+          "Fry tofu until golden",
+          "Make dashi broth with soy sauce and mirin",
+          "Place tofu in bowls",
+          "Pour broth over and garnish"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🧈",
+        "tags": [
+          "japanese",
+          "tofu",
+          "fried"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 33,
+        "name": "dish.hiyashi_chuka",
+        "description": "description.description_hiyashi_chuka",
+        "ingredients": [
+          "ingredient.ramennoodles",
+          "ingredient.ham",
+          "ingredient.eggs",
+          "ingredient.cucumber",
+          "ingredient.tomatoes"
+        ],
+        "ingredientsWithAmounts": [
+          "4 servings ramen noodles",
+          "4 slices ham",
+          "2 eggs",
+          "1 cucumber",
+          "2 ingredient.tomato",
+          "Sesame dressing",
+          "Nori strips"
+        ],
+        "instructions": [
+          "Cook ramen noodles",
+          "Rinse with cold water",
+          "Make thin omelet and slice",
+          "Slice ham into strips",
+          "Cut vegetables into strips",
+          "Arrange on cold noodles",
+          "Drizzle with sesame dressing",
+          "Garnish with nori"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍜",
+        "tags": [
+          "japanese",
+          "cold",
+          "noodles"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 34,
+        "name": "dish.nikujaga",
+        "description": "description.description_nikujaga",
+        "ingredients": [
+          "ingredient.beef",
+          "ingredient.potatoes",
+          "ingredient.onions",
+          "ingredient.carrots",
+          "ingredient.soysauce"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb beef, sliced",
+          "4 potatoes",
+          "2 onions",
+          "2 carrots",
+          "1/2 cup soy sauce",
+          "1/4 cup sugar",
+          "1/4 cup mirin",
+          "Dashi"
+        ],
+        "instructions": [
+          "Cut vegetables into chunks",
+          "Brown beef in pot",
+          "Add vegetables",
+          "Add dashi, soy sauce, sugar, mirin",
+          "Bring to boil",
+          "Simmer for 30 minutes",
+          "Cook until vegetables are tender",
+          "Serve with rice"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥩",
+        "tags": [
+          "japanese",
+          "stew",
+          "beef"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 35,
+        "name": "dish.gyoza",
+        "description": "description.description_gyoza",
+        "ingredients": [
+          "ingredient.groundpork",
+          "ingredient.cabbage",
+          "ingredient.garlic",
+          "ingredient.ginger",
+          "ingredient.gyozawrappers"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb ground pork",
+          "1/2 head cabbage",
+          "2 garlic cloves",
+          "1 inch ginger",
+          "40 gyoza wrappers",
+          "Soy sauce",
+          "Sesame oil"
+        ],
+        "instructions": [
+          "Chop cabbage and salt to remove water",
+          "Mix pork with cabbage, garlic, ginger",
+          "Add soy sauce and sesame oil",
+          "Fill wrappers with mixture",
+          "Pleat edges to seal",
+          "Pan-fry until bottom is golden",
+          "Add water and steam",
+          "Serve with dipping sauce"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "japanese",
+          "dumplings",
+          "pan-fried"
+        ],
+        "prep_time": "40 min",
+        "cook_time": "40 min",
+        "total_time": "40 min"
+      },
+      {
+        "id": 36,
+        "name": "dish.miso_soup",
+        "description": "description.description_miso_soup",
+        "ingredients": [
+          "ingredient.misopaste",
+          "ingredient.dashi",
+          "ingredient.tofu",
+          "ingredient.wakame",
+          "ingredient.scallions"
+        ],
+        "ingredientsWithAmounts": [
+          "4 tbsp miso paste",
+          "4 cups dashi",
+          "1/2 block tofu",
+          "2 tbsp wakame",
+          "2 scallions",
+          "Soy sauce"
+        ],
+        "instructions": [
+          "Soak wakame in water",
+          "Heat dashi to just below boiling",
+          "Add miso paste and whisk",
+          "Cut tofu into small cubes",
+          "Add tofu and wakame",
+          "Simmer for 2 minutes",
+          "Garnish with scallions",
+          "Serve immediately"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🧈",
+        "tags": [
+          "japanese",
+          "soup",
+          "miso"
+        ],
+        "prep_time": "15 min",
+        "cook_time": "15 min",
+        "total_time": "15 min"
+      },
+      {
+        "id": 37,
+        "name": "dish.onigiri",
+        "description": "description.description_onigiri",
+        "ingredients": [
+          "ingredient.rice",
+          "ingredient.nori",
+          "ingredient.salmon",
+          "ingredient.umeboshi",
+          "ingredient.sesame"
+        ],
+        "ingredientsWithAmounts": [
+          "4 cups cooked rice",
+          "4 sheets nori",
+          "Cooked salmon",
+          "Umeboshi plums",
+          "Sesame seeds",
+          "Salt"
+        ],
+        "instructions": [
+          "Season rice with salt",
+          "Wet hands with water",
+          "Form rice into triangular shapes",
+          "Add filling in center",
+          "Wrap with nori",
+          "Can add sesame seeds",
+          "Serve at room temperature",
+          "Keep covered to prevent drying"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍚",
+        "tags": [
+          "japanese",
+          "rice",
+          "portable"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 38,
+        "name": "dish.korokke",
+        "description": "description.description_korokke",
+        "ingredients": [
+          "ingredient.potatoes",
+          "ingredient.groundbeef",
+          "ingredient.onions",
+          "ingredient.breadcrumbs",
+          "ingredient.eggs"
+        ],
+        "ingredientsWithAmounts": [
+          "4 large potatoes",
+          "1/2 lb ground beef",
+          "1 onion",
+          "2 cups panko breadcrumbs",
+          "3 eggs",
+          "Oil for frying",
+          "Tonkatsu sauce"
+        ],
+        "instructions": [
+          "Boil and mash potatoes",
+          "Cook beef and onions",
+          "Mix with mashed potatoes",
+          "Season with salt and pepper",
+          "Form into oval shapes",
+          "Dredge in flour, egg, breadcrumbs",
+          "Fry until golden brown",
+          "Serve with tonkatsu sauce"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥔",
+        "tags": [
+          "japanese",
+          "croquettes",
+          "fried"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 39,
+        "name": "dish.shabu_shabu",
+        "description": "description.description_shabu_shabu",
+        "ingredients": [
+          "ingredient.beef",
+          "ingredient.vegetables",
+          "ingredient.dashi",
+          "ingredient.tofu",
+          "ingredient.noodles"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb thinly sliced beef",
+          "Mixed vegetables",
+          "4 cups dashi",
+          "1 block tofu",
+          "Udon noodles",
+          "Ponzu sauce",
+          "Sesame sauce"
+        ],
+        "instructions": [
+          "Heat dashi in hot pot",
+          "Prepare vegetables and tofu",
+          "Dip meat in hot broth",
+          "Cook until just done",
+          "Add vegetables to broth",
+          "Serve with dipping sauces",
+          "Add noodles at the end",
+          "Drink the remaining broth"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥩",
+        "tags": [
+          "japanese",
+          "hot-pot",
+          "beef"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      }
+    ],
+    "Korean": [
+      {
+        "id": 42,
+        "name": "dish.kimchi_fried_rice",
+        "description": "description.description_kimchi_fried_rice",
+        "ingredients": [
+          "ingredient.rice",
+          "ingredient.kimchi",
+          "ingredient.eggs",
+          "ingredient.onion",
+          "ingredient.sesameoil"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups cooked rice",
+          "kimchi",
+          "3 large eggs",
+          "1 medium onion, diced",
+          "1 tbsp sesame oil"
+        ],
+        "instructions": [
+          "Heat oil in a wok over high heat",
+          "Add onion and stir-fry until softened",
+          "Add kimchi and stir-fry for 2 minutes",
+          "Add rice and break up clumps",
+          "Stir-fry for 3-4 minutes until heated through",
+          "Make a well in center and add eggs",
+          "Scramble eggs and mix with rice",
+          "Season with soy sauce and sesame oil",
+          "Serve hot with more kimchi"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍚",
+        "tags": [
+          "korean"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 43,
+        "name": "dish.bulgogi",
+        "description": "description.description_bulgogi",
+        "ingredients": [
+          "ingredient.beef",
+          "ingredient.soysauce",
+          "ingredient.garlic",
+          "ingredient.ginger",
+          "ingredient.sesameoil"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb beef sirloin",
+          "1/2 cup soy sauce",
+          "6 garlic cloves",
+          "2 inch ginger",
+          "2 tbsp sesame oil",
+          "2 tbsp sugar",
+          "1 onion"
+        ],
+        "instructions": [
+          "Slice beef very thinly",
+          "Make marinade with soy sauce, garlic, ginger",
+          "Add sugar and sesame oil",
+          "Marinate beef for 30 minutes",
+          "Grill or pan-fry beef",
+          "Add sliced onions",
+          "Cook until beef is done",
+          "Serve with rice and lettuce"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥩",
+        "tags": [
+          "korean",
+          "grilled",
+          "beef"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 44,
+        "name": "dish.galbi",
+        "description": "description.description_galbi",
+        "ingredients": [
+          "ingredient.shortribs",
+          "ingredient.soysauce",
+          "ingredient.garlic",
+          "ingredient.sugar",
+          "ingredient.sesameoil"
+        ],
+        "ingredientsWithAmounts": [
+          "3 lb short ribs",
+          "1/2 cup soy sauce",
+          "8 garlic cloves",
+          "1 sugar",
+          "2 tbsp sesame oil",
+          "2 tbsp sugar",
+          "1 onion"
+        ],
+        "instructions": [
+          "Score ribs between bones",
+          "Make marinade with soy sauce, garlic, pear",
+          "Add sugar and sesame oil",
+          "Marinate ribs for 2 hours",
+          "Grill over medium heat",
+          "Baste with marinade",
+          "Cook until caramelized",
+          "Serve with lettuce wraps"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🧄",
+        "tags": [
+          "korean",
+          "ribs",
+          "grilled"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 45,
+        "name": "dish.japchae",
+        "description": "description.description_japchae",
+        "ingredients": [
+          "ingredient.glassnoodles",
+          "ingredient.beef",
+          "ingredient.vegetables",
+          "ingredient.soysauce",
+          "ingredient.sesameoil"
+        ],
+        "ingredientsWithAmounts": [
+          "8 oz glass noodles",
+          "1/2 lb beef",
+          "Mixed vegetables",
+          "1/4 cup soy sauce",
+          "2 tbsp sesame oil",
+          "2 tbsp sugar",
+          "Sesame seeds"
+        ],
+        "instructions": [
+          "Soak noodles in warm water",
+          "Slice beef and vegetables",
+          "Cook beef and set aside",
+          "Stir-fry vegetables separately",
+          "Cook noodles until tender",
+          "Mix everything together",
+          "Add soy sauce and sesame oil",
+          "Garnish with sesame seeds"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍜",
+        "tags": [
+          "korean",
+          "noodles",
+          "stir-fry"
+        ],
+        "prep_time": "40 min",
+        "cook_time": "40 min",
+        "total_time": "40 min"
+      },
+      {
+        "id": 46,
+        "name": "dish.tteokbokki",
+        "description": "description.description_tteokbokki",
+        "ingredients": [
+          "ingredient.ricecakes",
+          "ingredient.gochujang",
+          "ingredient.fishcakes",
+          "ingredient.cabbage",
+          "ingredient.scallions"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb rice cakes",
+          "3 tbsp gochujang",
+          "4 oz fish cakes",
+          "1/2 head cabbage",
+          "2 scallions",
+          "2 tbsp sugar",
+          "1 tbsp soy sauce"
+        ],
+        "instructions": [
+          "Soak rice cakes in water",
+          "Make sauce with gochujang, sugar, soy sauce",
+          "Heat sauce in pan",
+          "Add rice cakes and fish cakes",
+          "Add cabbage",
+          "Simmer until sauce thickens",
+          "Garnish with scallions",
+          "Serve hot"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍚",
+        "tags": [
+          "korean",
+          "spicy",
+          "street-food"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 47,
+        "name": "dish.bibimbap",
+        "description": "description.description_bibimbap",
+        "ingredients": [
+          "ingredient.rice",
+          "ingredient.beef",
+          "ingredient.vegetables",
+          "ingredient.eggs",
+          "ingredient.gochujang"
+        ],
+        "ingredientsWithAmounts": [
+          "4 cups cooked rice",
+          "1/2 lb beef",
+          "Mixed vegetables",
+          "4 eggs",
+          "4 tbsp gochujang",
+          "Sesame oil",
+          "Sesame seeds"
+        ],
+        "instructions": [
+          "Cook rice and keep warm",
+          "Season and cook beef",
+          "Prepare vegetables separately",
+          "Fry eggs sunny-side up",
+          "Arrange rice in bowls",
+          "Top with vegetables and beef",
+          "Add fried egg",
+          "Serve with gochujang and sesame oil"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍚",
+        "tags": [
+          "korean",
+          "rice-bowl",
+          "mixed"
+        ],
+        "prep_time": "35 min",
+        "cook_time": "35 min",
+        "total_time": "35 min"
+      },
+      {
+        "id": 48,
+        "name": "dish.samgyeopsal",
+        "description": "description.description_samgyeopsal",
+        "ingredients": [
+          "ingredient.porkbelly",
+          "ingredient.garlic",
+          "ingredient.sesameoil",
+          "ingredient.salt",
+          "ingredient.lettuce"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb pork belly",
+          "8 garlic cloves",
+          "2 tbsp sesame oil",
+          "Coarse salt",
+          "Lettuce leaves",
+          "Ssamjang",
+          "Green onions"
+        ],
+        "instructions": [
+          "Cut pork belly into thick slices",
+          "Heat grill or pan",
+          "Grill pork belly until crispy",
+          "Cut into bite-sized pieces",
+          "Serve with lettuce leaves",
+          "Add garlic and ssamjang",
+          "Wrap in lettuce",
+          "Eat immediately"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐷",
+        "tags": [
+          "korean",
+          "grilled",
+          "pork"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 49,
+        "name": "dish.haemul_pajeon",
+        "description": "description.description_haemul_pajeon",
+        "ingredients": [
+          "ingredient.flour",
+          "ingredient.eggs",
+          "ingredient.seafood",
+          "ingredient.scallions",
+          "ingredient.soysauce"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups flour",
+          "2 eggs",
+          "1/2 lb mixed seafood",
+          "1 bunch scallions",
+          "1/2 cup soy sauce",
+          "2 tbsp vinegar",
+          "1 tbsp sugar"
+        ],
+        "instructions": [
+          "Mix flour with water and eggs",
+          "Add chopped scallions",
+          "Add seafood to batter",
+          "Heat oil in pan",
+          "Pour batter into pan",
+          "Cook until bottom is set",
+          "Flip and cook other side",
+          "Serve with dipping sauce"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🌾",
+        "tags": [
+          "korean",
+          "pancake",
+          "seafood"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 50,
+        "name": "dish.dakgalbi",
+        "description": "description.description_dakgalbi",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.cabbage",
+          "ingredient.sweetpotato",
+          "ingredient.gochujang",
+          "ingredient.garlic"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb chicken thighs",
+          "1/2 head cabbage",
+          "2 sweet potatoes",
+          "3 tbsp gochujang",
+          "6 garlic cloves",
+          "2 tbsp soy sauce",
+          "1 tbsp sugar"
+        ],
+        "instructions": [
+          "Cut chicken into bite-sized pieces",
+          "Make sauce with gochujang, garlic, soy sauce",
+          "Marinate chicken in sauce",
+          "Cut vegetables into chunks",
+          "Heat large pan or wok",
+          "Add chicken and cook",
+          "Add vegetables",
+          "Stir-fry until everything is cooked"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "korean",
+          "chicken",
+          "spicy"
+        ],
+        "prep_time": "35 min",
+        "cook_time": "35 min",
+        "total_time": "35 min"
+      },
+      {
+        "id": 51,
+        "name": "dish.sundubu_jjigae",
+        "description": "description.description_sundubu_jjigae",
+        "ingredients": [
+          "ingredient.softtofu",
+          "ingredient.gochujang",
+          "ingredient.vegetables",
+          "ingredient.seafood",
+          "ingredient.eggs"
+        ],
+        "ingredientsWithAmounts": [
+          "2 packages soft tofu",
+          "2 tbsp gochujang",
+          "Mixed vegetables",
+          "1/2 lb seafood",
+          "2 eggs",
+          "2 tbsp soy sauce",
+          "1 tbsp sesame oil"
+        ],
+        "instructions": [
+          "Heat oil in pot",
+          "Add gochujang and cook",
+          "Add vegetables and cook",
+          "Add water and bring to boil",
+          "Add tofu and seafood",
+          "Simmer for 10 minutes",
+          "Crack eggs on top",
+          "Cook until eggs are set"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🧈",
+        "tags": [
+          "korean",
+          "stew",
+          "tofu"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 52,
+        "name": "dish.gimbap",
+        "description": "description.description_gimbap",
+        "ingredients": [
+          "ingredient.rice",
+          "ingredient.nori",
+          "ingredient.vegetables",
+          "ingredient.beef",
+          "ingredient.eggs"
+        ],
+        "ingredientsWithAmounts": [
+          "4 cups cooked rice",
+          "8 sheets nori",
+          "Mixed vegetables",
+          "1/2 lb beef",
+          "3 eggs",
+          "Sesame oil",
+          "Salt"
+        ],
+        "instructions": [
+          "Season rice with sesame oil and salt",
+          "Cook and season beef",
+          "Make thin omelet and slice",
+          "Prepare vegetables",
+          "Place nori on bamboo mat",
+          "Spread rice on nori",
+          "Add fillings in center",
+          "Roll tightly and slice"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍚",
+        "tags": [
+          "korean",
+          "rolls",
+          "rice"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 53,
+        "name": "dish.bossam",
+        "description": "description.description_bossam",
+        "ingredients": [
+          "ingredient.porkbelly",
+          "ingredient.kimchi",
+          "ingredient.garlic",
+          "ingredient.ginger",
+          "ingredient.radish"
+        ],
+        "ingredientsWithAmounts": [
+          "3 lb pork belly",
+          "1 head napa cabbage kimchi",
+          "8 garlic cloves",
+          "2 inch ginger",
+          "1 daikon radish",
+          "Soy sauce",
+          "Sesame oil"
+        ],
+        "instructions": [
+          "Boil pork belly with garlic and ginger",
+          "Cook until very tender",
+          "Slice thinly",
+          "Make radish kimchi",
+          "Serve pork with kimchi",
+          "Wrap in lettuce or cabbage",
+          "Add ssamjang",
+          "Eat as wraps"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "korean",
+          "pork",
+          "boiled"
+        ],
+        "prep_time": "90 min",
+        "cook_time": "90 min",
+        "total_time": "90 min"
+      },
+      {
+        "id": 54,
+        "name": "dish.naengmyeon",
+        "description": "description.description_naengmyeon",
+        "ingredients": [
+          "ingredient.buckwheatnoodles",
+          "ingredient.beef",
+          "ingredient.cucumber",
+          "ingredient.sugar",
+          "ingredient.mustard"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb buckwheat noodles",
+          "1/2 lb beef",
+          "1 cucumber",
+          "1 sugar",
+          "2 tbsp mustard",
+          "Vinegar",
+          "Sugar"
+        ],
+        "instructions": [
+          "Make cold beef broth",
+          "Cook and slice beef",
+          "Julienne cucumber and pear",
+          "Cook noodles and rinse in cold water",
+          "Make mustard sauce",
+          "Place noodles in bowls",
+          "Add cold broth",
+          "Top with beef and vegetables"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍜",
+        "tags": [
+          "korean",
+          "cold",
+          "noodles"
+        ],
+        "prep_time": "40 min",
+        "cook_time": "40 min",
+        "total_time": "40 min"
+      },
+      {
+        "id": 55,
+        "name": "dish.jjajangmyeon",
+        "description": "description.description_jjajangmyeon",
+        "ingredients": [
+          "ingredient.noodles",
+          "ingredient.pork",
+          "ingredient.blackbeanpaste",
+          "ingredient.vegetables",
+          "ingredient.onions"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb wheat noodles",
+          "1/2 lb pork",
+          "4 tbsp black bean paste",
+          "Mixed vegetables",
+          "2 onions",
+          "2 tbsp soy sauce",
+          "1 tbsp sugar"
+        ],
+        "instructions": [
+          "Cut pork and vegetables",
+          "Heat oil and cook pork",
+          "Add vegetables and onions",
+          "Add black bean paste",
+          "Cook until vegetables are tender",
+          "Add water and simmer",
+          "Cook noodles separately",
+          "Serve noodles with sauce"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍜",
+        "tags": [
+          "korean",
+          "noodles",
+          "black-bean"
+        ],
+        "prep_time": "35 min",
+        "cook_time": "35 min",
+        "total_time": "35 min"
+      },
+      {
+        "id": 57,
+        "name": "dish.gamjatang",
+        "description": "description.description_gamjatang",
+        "ingredients": [
+          "ingredient.porkbones",
+          "ingredient.potatoes",
+          "ingredient.vegetables",
+          "ingredient.gochujang",
+          "ingredient.garlic"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb pork bones",
+          "4 potatoes",
+          "Mixed vegetables",
+          "2 tbsp gochujang",
+          "8 garlic cloves",
+          "2 tbsp soy sauce",
+          "Sesame leaves"
+        ],
+        "instructions": [
+          "Boil pork bones for 1 hour",
+          "Skim foam from surface",
+          "Add gochujang and garlic",
+          "Add potatoes and vegetables",
+          "Simmer for 30 minutes",
+          "Season with soy sauce",
+          "Add sesame leaves",
+          "Serve hot with rice"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "korean",
+          "soup",
+          "pork-bones"
+        ],
+        "prep_time": "90 min",
+        "cook_time": "90 min",
+        "total_time": "90 min"
+      },
+      {
+        "id": 59,
+        "name": "dish.makgeolli",
+        "description": "description.description_makgeolli",
+        "ingredients": [
+          "ingredient.rice",
+          "ingredient.nuruk",
+          "ingredient.water",
+          "ingredient.sugar",
+          "ingredient.yeast"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups rice",
+          "1/4 cup nuruk",
+          "6 cups water",
+          "2 tbsp sugar",
+          "1 tsp yeast",
+          "Cheesecloth",
+          "Fermentation vessel"
+        ],
+        "instructions": [
+          "Cook rice and cool",
+          "Mix with nuruk and water",
+          "Add yeast and sugar",
+          "Cover and ferment for 3 days",
+          "Strain through cheesecloth",
+          "Bottle and refrigerate",
+          "Serve chilled",
+          "Shake before serving"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🍚",
+        "tags": [
+          "korean",
+          "beverage",
+          "fermented"
+        ],
+        "prep_time": "180 min",
+        "cook_time": "180 min",
+        "total_time": "180 min"
+      },
+      {
+        "id": 60,
+        "name": "dish.doenjang_jjigae",
+        "description": "description.description_doenjang_jjigae",
+        "ingredients": [
+          "ingredient.doenjang",
+          "ingredient.tofu",
+          "ingredient.vegetables",
+          "ingredient.garlic",
+          "ingredient.scallions"
+        ],
+        "ingredientsWithAmounts": [
+          "3 tbsp doenjang",
+          "1/2 block tofu",
+          "Mixed vegetables",
+          "4 garlic cloves",
+          "2 scallions",
+          "2 tbsp gochujang",
+          "1 tbsp sesame oil"
+        ],
+        "instructions": [
+          "Heat water in pot",
+          "Add doenjang and gochujang",
+          "Stir until dissolved",
+          "Add vegetables and tofu",
+          "Simmer for 15 minutes",
+          "Add garlic and scallions",
+          "Drizzle with sesame oil",
+          "Serve with rice"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🧈",
+        "tags": [
+          "korean",
+          "stew",
+          "fermented"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      }
+    ],
+    "Italian": [
+      {
+        "id": 61,
+        "name": "dish.spaghetti_carbonara",
+        "description": "description.description_spaghetti_carbonara",
+        "ingredients": [
+          "ingredient.pasta",
+          "ingredient.eggs",
+          "ingredient.cheese",
+          "ingredient.pancetta",
+          "ingredient.blackpepper",
+          "ingredient.garlic",
+          "ingredient.oliveoil"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb spaghetti",
+          "3 large eggs",
+          "1 cup grated Parmesan cheese",
+          "Pancetta",
+          "1/2 tsp black pepper",
+          "2 cloves garlic, minced",
+          "2 tbsp olive oil"
+        ],
+        "instructions": [
+          "Cook spaghetti according to package directions",
+          "Reserve 1 cup pasta water before draining",
+          "Heat oil in a large pan and cook pancetta until crisp",
+          "Add garlic and cook for 30 seconds",
+          "Remove from heat and add hot pasta",
+          "Beat eggs with cheese and pepper",
+          "Quickly toss pasta with egg mixture",
+          "Add pasta water if needed for creaminess",
+          "Serve immediately with extra cheese"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍝",
+        "tags": [
+          "italian",
+          "quick",
+          "comfort-food"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 62,
+        "name": "dish.margherita_pizza",
+        "description": "description.description_margherita_pizza",
+        "ingredients": [
+          "ingredient.pizzadough",
+          "ingredient.tomatosauce",
+          "ingredient.cheese",
+          "ingredient.basil",
+          "ingredient.oliveoil",
+          "ingredient.garlic",
+          "ingredient.oregano"
+        ],
+        "ingredientsWithAmounts": [
+          "pizza dough",
+          "Tomato Sauce",
+          "8 oz fresh mozzarella, sliced",
+          "2 tbsp fresh basil",
+          "2 tbsp olive oil",
+          "2 cloves garlic, minced",
+          "1 tsp oregano"
+        ],
+        "instructions": [
+          "Preheat oven to 500°F (260°C)",
+          "Roll out dough on floured surface",
+          "Place on oiled baking sheet or pizza stone",
+          "Spread tomato sauce evenly over dough",
+          "Arrange mozzarella slices on top",
+          "Sprinkle with garlic and oregano",
+          "Drizzle with olive oil",
+          "Bake for 10-12 minutes until crust is golden",
+          "Garnish with fresh basil before serving"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍅",
+        "tags": [
+          "italian"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 65,
+        "name": "dish.osso_buco",
+        "description": "description.description_osso_buco",
+        "ingredients": [
+          "ingredient.vealshanks",
+          "ingredient.vegetables",
+          "ingredient.whitewine",
+          "ingredient.tomatoes",
+          "ingredient.herbs"
+        ],
+        "ingredientsWithAmounts": [
+          "4 veal shanks",
+          "Mixed vegetables",
+          "1 cup white wine",
+          "2 ingredient.cups_tomatoes",
+          "Fresh herbs",
+          "Flour",
+          "Stock"
+        ],
+        "instructions": [
+          "Dredge shanks in flour",
+          "Brown on all sides",
+          "Add vegetables",
+          "Add wine and tomatoes",
+          "Add herbs and stock",
+          "Simmer for 2 hours",
+          "Serve with risotto",
+          "Garnish with gremolata"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🍅",
+        "prep_time": "180 min",
+        "cook_time": "180 min",
+        "total_time": "180 min"
+      },
+      {
+        "id": 67,
+        "name": "dish.risotto",
+        "description": "description.description_risotto",
+        "ingredients": [
+          "ingredient.arboriorice",
+          "ingredient.stock",
+          "ingredient.onion",
+          "ingredient.parmesan",
+          "ingredient.whitewine"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups arborio rice",
+          "6 cups stock",
+          "1 onion",
+          "1 cup parmesan",
+          "1/2 cup white wine",
+          "Butter",
+          "Salt"
+        ],
+        "instructions": [
+          "Sauté onion until soft",
+          "Add rice and stir",
+          "Add wine and cook",
+          "Add hot stock gradually",
+          "Stir constantly",
+          "Cook until creamy",
+          "Add parmesan and butter",
+          "Serve immediately"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍚",
+        "prep_time": "35 min",
+        "cook_time": "35 min",
+        "total_time": "35 min"
+      },
+      {
+        "id": 68,
+        "name": "dish.lasagna",
+        "description": "description.description_lasagna",
+        "ingredients": [
+          "ingredient.lasagnanoodles",
+          "ingredient.groundbeef",
+          "ingredient.ricotta",
+          "ingredient.mozzarella",
+          "ingredient.tomatosauce"
+        ],
+        "ingredientsWithAmounts": [
+          "12 lasagna noodles",
+          "1 lb ground beef",
+          "2 cups ricotta",
+          "3 cups mozzarella",
+          "4 cups tomato sauce",
+          "Parmesan",
+          "Eggs"
+        ],
+        "instructions": [
+          "Cook noodles",
+          "Brown beef",
+          "Mix ricotta with eggs",
+          "Layer noodles, sauce, cheese",
+          "Repeat layers",
+          "Top with mozzarella",
+          "Bake at 375°F (190°C) for 45 minutes",
+          "Let rest before serving"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍜",
+        "prep_time": "90 min",
+        "cook_time": "90 min",
+        "total_time": "90 min"
+      },
+      {
+        "id": 69,
+        "name": "dish.gnocchi",
+        "description": "description.description_gnocchi",
+        "ingredients": [
+          "ingredient.potatoes",
+          "ingredient.flour",
+          "ingredient.eggs",
+          "ingredient.tomatosauce",
+          "ingredient.basil"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb potatoes",
+          "2 cups flour",
+          "2 eggs",
+          "3 cups tomato sauce",
+          "Fresh basil",
+          "Salt",
+          "Parmesan"
+        ],
+        "instructions": [
+          "Boil potatoes until tender",
+          "Rice potatoes",
+          "Add flour and eggs",
+          "Knead into dough",
+          "Roll into ropes",
+          "Cut into pieces",
+          "Boil until float",
+          "Serve with sauce"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥔",
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 70,
+        "name": "dish.bruschetta",
+        "description": "description.description_bruschetta",
+        "ingredients": [
+          "ingredient.bread",
+          "ingredient.tomatoes",
+          "ingredient.basil",
+          "ingredient.garlic",
+          "ingredient.oliveoil"
+        ],
+        "ingredientsWithAmounts": [
+          "1 loaf bread",
+          "4 ingredient.tomato",
+          "Fresh basil",
+          "4 garlic cloves",
+          "1/4 cup olive oil",
+          "Balsamic vinegar",
+          "Salt"
+        ],
+        "instructions": [
+          "Slice bread thickly",
+          "Toast until golden",
+          "Rub with garlic",
+          "Dice tomatoes",
+          "Add basil and oil",
+          "Season with salt",
+          "Top bread with mixture",
+          "Drizzle with balsamic"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍞",
+        "prep_time": "15 min",
+        "cook_time": "15 min",
+        "total_time": "15 min"
+      },
+      {
+        "id": 71,
+        "name": "dish.fettuccine_alfredo",
+        "description": "description.description_fettuccine_alfredo",
+        "ingredients": [
+          "ingredient.fettuccine",
+          "ingredient.butter",
+          "ingredient.parmesan",
+          "ingredient.cream",
+          "ingredient.garlic"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb fettuccine",
+          "1/2 cup butter",
+          "1 cup parmesan",
+          "1 cup cream",
+          "4 garlic cloves",
+          "Black pepper",
+          "Salt"
+        ],
+        "instructions": [
+          "Cook pasta al dente",
+          "Melt butter in pan",
+          "Add garlic",
+          "Add cream",
+          "Add parmesan",
+          "Toss with pasta",
+          "Season with pepper",
+          "Serve immediately"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🧄",
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 72,
+        "name": "dish.chicken_parmigiana",
+        "description": "description.description_chicken_parmigiana",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.breadcrumbs",
+          "ingredient.eggs",
+          "ingredient.tomatosauce",
+          "ingredient.mozzarella"
+        ],
+        "ingredientsWithAmounts": [
+          "4 chicken breasts",
+          "2 cups breadcrumbs",
+          "3 eggs",
+          "3 cups tomato sauce",
+          "2 cups mozzarella",
+          "Parmesan",
+          "Flour"
+        ],
+        "instructions": [
+          "Pound chicken thin",
+          "Dredge in flour, egg, breadcrumbs",
+          "Fry until golden",
+          "Place in baking dish",
+          "Top with sauce",
+          "Add mozzarella",
+          "Bake at 375°F (190°C) for 20 minutes",
+          "Serve with pasta"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 73,
+        "name": "dish.minestrone",
+        "description": "description.description_minestrone",
+        "ingredients": [
+          "ingredient.vegetables",
+          "ingredient.pasta",
+          "ingredient.beans",
+          "ingredient.tomatoes",
+          "ingredient.herbs"
+        ],
+        "ingredientsWithAmounts": [
+          "Mixed vegetables",
+          "1 cup pasta",
+          "1 can beans",
+          "2 ingredient.cups_tomatoes",
+          "Fresh herbs",
+          "Stock",
+          "Parmesan"
+        ],
+        "instructions": [
+          "Sauté vegetables",
+          "Add tomatoes",
+          "Add stock and herbs",
+          "Simmer for 30 minutes",
+          "Add pasta and beans",
+          "Cook until pasta done",
+          "Season with salt",
+          "Serve with parmesan"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍝",
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 75,
+        "name": "dish.saltimbocca",
+        "description": "description.description_saltimbocca",
+        "ingredients": [
+          "ingredient.veal",
+          "ingredient.prosciutto",
+          "ingredient.sage",
+          "ingredient.whitewine",
+          "ingredient.butter"
+        ],
+        "ingredientsWithAmounts": [
+          "8 veal cutlets",
+          "8 slices prosciutto",
+          "Fresh sage",
+          "1/2 cup white wine",
+          "4 tbsp butter",
+          "Flour",
+          "Salt"
+        ],
+        "instructions": [
+          "Pound veal thin",
+          "Top with prosciutto and sage",
+          "Secure with toothpicks",
+          "Dredge in flour",
+          "Cook in butter",
+          "Add wine",
+          "Simmer briefly",
+          "Remove toothpicks and serve"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🌾",
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 76,
+        "name": "dish.panzanella",
+        "description": "description.description_panzanella",
+        "ingredients": [
+          "ingredient.bread",
+          "ingredient.tomatoes",
+          "ingredient.cucumber",
+          "ingredient.onion",
+          "ingredient.basil"
+        ],
+        "ingredientsWithAmounts": [
+          "1 loaf bread",
+          "4 ingredient.tomato",
+          "1 cucumber",
+          "1 red onion",
+          "Fresh basil",
+          "Olive oil",
+          "Balsamic vinegar"
+        ],
+        "instructions": [
+          "Cut bread into cubes",
+          "Toast until golden",
+          "Dice tomatoes and cucumber",
+          "Slice onion thinly",
+          "Combine vegetables",
+          "Add bread cubes",
+          "Dress with oil and vinegar",
+          "Add basil and serve"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍞",
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 77,
+        "name": "dish.arancini",
+        "description": "description.description_arancini",
+        "ingredients": [
+          "ingredient.rice",
+          "ingredient.mozzarella",
+          "ingredient.breadcrumbs",
+          "ingredient.eggs",
+          "ingredient.tomatosauce"
+        ],
+        "ingredientsWithAmounts": [
+          "3 cups cooked rice",
+          "1 cup mozzarella",
+          "2 cups breadcrumbs",
+          "3 eggs",
+          "1 cup tomato sauce",
+          "Parmesan",
+          "Oil for frying"
+        ],
+        "instructions": [
+          "Mix rice with parmesan",
+          "Form into balls",
+          "Add mozzarella center",
+          "Dredge in flour, egg, breadcrumbs",
+          "Fry until golden",
+          "Drain on paper towels",
+          "Serve with tomato sauce",
+          "Garnish with herbs"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍚",
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 79,
+        "name": "dish.cioppino",
+        "description": "description.description_cioppino",
+        "ingredients": [
+          "ingredient.seafood",
+          "ingredient.tomatoes",
+          "ingredient.whitewine",
+          "ingredient.fennel",
+          "ingredient.garlic"
+        ],
+        "ingredientsWithAmounts": [
+          "Mixed seafood",
+          "2 ingredient.cups_tomatoes",
+          "1 cup white wine",
+          "1 fennel bulb",
+          "6 garlic cloves",
+          "Stock",
+          "Herbs"
+        ],
+        "instructions": [
+          "Sauté fennel and garlic",
+          "Add tomatoes and wine",
+          "Add stock and herbs",
+          "Simmer for 20 minutes",
+          "Add seafood",
+          "Cook until done",
+          "Season with salt",
+          "Serve with bread"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍅",
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      }
+    ],
+    "French": [
+      {
+        "id": 81,
+        "name": "dish.coq_au_vin",
+        "description": "description.description_coq_au_vin",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.redwine",
+          "ingredient.mushrooms",
+          "ingredient.bacon",
+          "ingredient.onion"
+        ],
+        "ingredientsWithAmounts": [
+          "1 whole chicken, cut up",
+          "2 cups red wine",
+          "1 lb mushrooms",
+          "4 oz bacon",
+          "2 onions",
+          "Carrots",
+          "Garlic",
+          "Thyme"
+        ],
+        "instructions": [
+          "Season chicken with salt and pepper",
+          "Cook bacon until crispy, remove",
+          "Brown chicken in bacon fat",
+          "Add onions, carrots, and garlic",
+          "Add wine and bring to boil",
+          "Add mushrooms and herbs",
+          "Simmer for 45 minutes",
+          "Serve with crusty bread"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "french",
+          "braised",
+          "wine"
+        ],
+        "prep_time": "90 min",
+        "cook_time": "90 min",
+        "total_time": "90 min"
+      },
+      {
+        "id": 82,
+        "name": "dish.beef_bourguignon",
+        "description": "description.description_beef_bourguignon",
+        "ingredients": [
+          "ingredient.beef",
+          "ingredient.redwine",
+          "ingredient.mushrooms",
+          "ingredient.onions",
+          "ingredient.bacon"
+        ],
+        "ingredientsWithAmounts": [
+          "3 lb beef chuck",
+          "2 bottles red wine",
+          "1 lb mushrooms",
+          "12 pearl onions",
+          "6 oz bacon",
+          "Carrots",
+          "Thyme",
+          "Bay leaves"
+        ],
+        "instructions": [
+          "Cut beef into large chunks",
+          "Marinate in wine overnight",
+          "Cook bacon until crispy",
+          "Brown beef in bacon fat",
+          "Add wine and bring to boil",
+          "Add vegetables and herbs",
+          "Simmer for 2 hours",
+          "Serve with mashed potatoes"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🥩",
+        "tags": [
+          "french",
+          "stew",
+          "bourguignon"
+        ],
+        "prep_time": "180 min",
+        "cook_time": "180 min",
+        "total_time": "180 min"
+      },
+      {
+        "id": 83,
+        "name": "dish.ratatouille",
+        "description": "description.description_ratatouille",
+        "ingredients": [
+          "ingredient.eggplant",
+          "ingredient.zucchini",
+          "ingredient.tomatoes",
+          "ingredient.bellpeppers",
+          "ingredient.onion"
+        ],
+        "ingredientsWithAmounts": [
+          "2 ingredient.eggplant",
+          "3 ingredient.zucchini",
+          "4 ingredient.tomato",
+          "2 ingredient.bell_peppers",
+          "2 onions",
+          "Garlic",
+          "Herbs de Provence",
+          "Olive oil"
+        ],
+        "instructions": [
+          "Slice all vegetables thinly",
+          "Sauté onions and garlic",
+          "Add bell peppers and cook",
+          "Add tomatoes and herbs",
+          "Layer vegetables in baking dish",
+          "Drizzle with olive oil",
+          "Bake at 375°F (190°C) for 45 minutes",
+          "Serve warm or cold"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍆",
+        "tags": [
+          "french",
+          "vegetarian",
+          "provençal"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 84,
+        "name": "dish.quiche_lorraine",
+        "description": "description.description_quiche_lorraine",
+        "ingredients": [
+          "ingredient.piecrust",
+          "ingredient.bacon",
+          "ingredient.eggs",
+          "ingredient.cream",
+          "ingredient.cheese"
+        ],
+        "ingredientsWithAmounts": [
+          "1 pie crust",
+          "8 oz bacon",
+          "4 eggs",
+          "1 cup heavy cream",
+          "1 cup cheese",
+          "Nutmeg",
+          "Salt and pepper"
+        ],
+        "instructions": [
+          "Preheat oven to 375°F (190°C)",
+          "Cook bacon until crispy",
+          "Beat eggs with cream",
+          "Add cheese and seasonings",
+          "Place bacon in pie crust",
+          "Pour egg mixture over",
+          "Bake for 35 minutes",
+          "Let cool before serving"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥚",
+        "tags": [
+          "french",
+          "quiche",
+          "bacon"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 85,
+        "name": "dish.bouillabaisse",
+        "description": "description.description_bouillabaisse",
+        "ingredients": [
+          "ingredient.fish",
+          "ingredient.shellfish",
+          "ingredient.saffron",
+          "ingredient.fennel",
+          "ingredient.tomatoes"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb mixed fish",
+          "1 lb shellfish",
+          "Pinch of saffron",
+          "1 fennel bulb",
+          "4 ingredient.tomato",
+          "Orange peel",
+          "Herbs",
+          "Rouille"
+        ],
+        "instructions": [
+          "Make fish stock with bones",
+          "Sauté fennel and onions",
+          "Add tomatoes and saffron",
+          "Add fish stock and bring to boil",
+          "Add fish and shellfish",
+          "Simmer for 15 minutes",
+          "Serve with rouille and bread",
+          "Garnish with herbs"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🐟",
+        "tags": [
+          "french",
+          "seafood",
+          "provençal"
+        ],
+        "prep_time": "90 min",
+        "cook_time": "90 min",
+        "total_time": "90 min"
+      },
+      {
+        "id": 86,
+        "name": "dish.croque_monsieur",
+        "description": "description.description_croque_monsieur",
+        "ingredients": [
+          "ingredient.bread",
+          "ingredient.ham",
+          "ingredient.cheese",
+          "ingredient.bechamel",
+          "ingredient.butter"
+        ],
+        "ingredientsWithAmounts": [
+          "8 slices bread",
+          "8 slices ham",
+          "2 cups cheese",
+          "1 cup béchamel sauce",
+          "4 tbsp butter",
+          "Dijon mustard"
+        ],
+        "instructions": [
+          "Spread mustard on bread",
+          "Layer ham and cheese",
+          "Top with second slice",
+          "Spread butter on outside",
+          "Cook in pan until golden",
+          "Flip and cook other side",
+          "Serve hot",
+          "Optional: add béchamel on top"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍞",
+        "tags": [
+          "french",
+          "sandwich",
+          "quick"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 87,
+        "name": "dish.cassoulet",
+        "description": "description.description_cassoulet",
+        "ingredients": [
+          "ingredient.whitebeans",
+          "ingredient.duck",
+          "ingredient.sausage",
+          "ingredient.tomatoes",
+          "ingredient.herbs"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups white beans",
+          "4 duck legs",
+          "1 lb sausage",
+          "2 ingredient.cups_tomatoes",
+          "Herbs",
+          "Garlic",
+          "Onions",
+          "Breadcrumbs"
+        ],
+        "instructions": [
+          "Soak beans overnight",
+          "Cook beans until tender",
+          "Brown duck legs and sausage",
+          "Sauté onions and garlic",
+          "Layer beans, meat, and tomatoes",
+          "Add herbs and seasonings",
+          "Bake at 300°F (150°C) for 3 hours",
+          "Top with breadcrumbs"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🦆",
+        "tags": [
+          "french",
+          "stew",
+          "traditional"
+        ],
+        "prep_time": "240 min",
+        "cook_time": "240 min",
+        "total_time": "240 min"
+      },
+      {
+        "id": 88,
+        "name": "dish.sole_meunire",
+        "description": "description.description_sole_meunire",
+        "ingredients": [
+          "ingredient.sole",
+          "ingredient.butter",
+          "ingredient.flour",
+          "ingredient.lemon",
+          "ingredient.parsley"
+        ],
+        "ingredientsWithAmounts": [
+          "4 sole fillets",
+          "8 tbsp butter",
+          "1/2 cup flour",
+          "2 lemons",
+          "Fresh parsley",
+          "Salt and pepper"
+        ],
+        "instructions": [
+          "Season fish with salt and pepper",
+          "Dredge in flour",
+          "Heat butter in pan",
+          "Cook fish until golden",
+          "Flip and cook other side",
+          "Remove fish and keep warm",
+          "Brown remaining butter",
+          "Add lemon juice and parsley",
+          "Pour sauce over fish"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🌾",
+        "tags": [
+          "french",
+          "fish",
+          "butter"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 89,
+        "name": "dish.confit_de_canard",
+        "description": "description.description_confit_de_canard",
+        "ingredients": [
+          "ingredient.ducklegs",
+          "ingredient.duckfat",
+          "ingredient.garlic",
+          "ingredient.thyme",
+          "ingredient.salt"
+        ],
+        "ingredientsWithAmounts": [
+          "4 duck legs",
+          "2 cups duck fat",
+          "8 garlic cloves",
+          "Fresh thyme",
+          "Coarse salt",
+          "Black pepper"
+        ],
+        "instructions": [
+          "Salt duck legs heavily",
+          "Refrigerate for 24 hours",
+          "Rinse and pat dry",
+          "Melt duck fat in oven",
+          "Add duck legs and garlic",
+          "Cook at 200°F (95°C) for 3 hours",
+          "Crisp skin in hot pan",
+          "Serve with potatoes"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🦆",
+        "tags": [
+          "french",
+          "duck",
+          "confit"
+        ],
+        "prep_time": "180 min",
+        "cook_time": "180 min",
+        "total_time": "180 min"
+      },
+      {
+        "id": 90,
+        "name": "dish.salade_nioise",
+        "description": "description.description_salade_nioise",
+        "ingredients": [
+          "ingredient.tuna",
+          "ingredient.eggs",
+          "ingredient.olives",
+          "ingredient.tomatoes",
+          "ingredient.greenbeans"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cans tuna",
+          "4 hard-boiled eggs",
+          "1/2 cup olives",
+          "4 ingredient.tomato",
+          "1 lb green beans",
+          "Anchovies",
+          "Vinaigrette"
+        ],
+        "instructions": [
+          "Cook green beans until tender",
+          "Hard boil eggs",
+          "Arrange lettuce on plates",
+          "Add tuna, eggs, and vegetables",
+          "Top with olives and anchovies",
+          "Drizzle with vinaigrette",
+          "Serve immediately"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐟",
+        "tags": [
+          "french",
+          "salad",
+          "nicoise"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 91,
+        "name": "dish.french_onion_soup",
+        "description": "description.description_french_onion_soup",
+        "ingredients": [
+          "ingredient.onions",
+          "ingredient.beefbroth",
+          "ingredient.cheese",
+          "ingredient.bread",
+          "ingredient.butter"
+        ],
+        "ingredientsWithAmounts": [
+          "6 large onions",
+          "6 cups beef broth",
+          "2 cups cheese",
+          "4 slices bread",
+          "4 tbsp butter",
+          "White wine",
+          "Thyme"
+        ],
+        "instructions": [
+          "Slice onions thinly",
+          "Cook slowly in butter for 45 minutes",
+          "Add wine and broth",
+          "Simmer for 30 minutes",
+          "Season with salt and pepper",
+          "Toast bread slices",
+          "Ladle soup into bowls",
+          "Top with bread and cheese",
+          "Broil until bubbly"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🧅",
+        "tags": [
+          "french",
+          "soup",
+          "onion"
+        ],
+        "prep_time": "75 min",
+        "cook_time": "75 min",
+        "total_time": "75 min"
+      },
+      {
+        "id": 92,
+        "name": "dish.escargots",
+        "description": "description.description_escargots",
+        "ingredients": [
+          "ingredient.snails",
+          "ingredient.butter",
+          "ingredient.garlic",
+          "ingredient.parsley",
+          "ingredient.whitewine"
+        ],
+        "ingredientsWithAmounts": [
+          "24 snails",
+          "1/2 cup butter",
+          "6 garlic cloves",
+          "1/4 cup parsley",
+          "2 tbsp white wine",
+          "Salt and pepper"
+        ],
+        "instructions": [
+          "Rinse snails thoroughly",
+          "Make garlic herb butter",
+          "Mix butter with garlic and parsley",
+          "Add wine and seasonings",
+          "Place snails in shells",
+          "Top with butter mixture",
+          "Bake at 400°F (200°C) for 10 minutes",
+          "Serve with bread"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🧄",
+        "tags": [
+          "french",
+          "appetizer",
+          "snails"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 93,
+        "name": "dish.steak_frites",
+        "description": "description.description_steak_frites",
+        "ingredients": [
+          "ingredient.steak",
+          "ingredient.potatoes",
+          "ingredient.butter",
+          "ingredient.herbs",
+          "ingredient.oil"
+        ],
+        "ingredientsWithAmounts": [
+          "4 steaks",
+          "4 large potatoes",
+          "4 tbsp butter",
+          "Fresh herbs",
+          "Oil for frying",
+          "Salt and pepper"
+        ],
+        "instructions": [
+          "Cut potatoes into fries",
+          "Soak in cold water",
+          "Heat oil to 350°F (175°C)",
+          "Fry potatoes until golden",
+          "Season steaks with salt and pepper",
+          "Cook steaks to desired doneness",
+          "Add butter and herbs to steaks",
+          "Serve with fries"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥔",
+        "tags": [
+          "french",
+          "steak",
+          "fries"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 94,
+        "name": "dish.duck_lorange",
+        "description": "description.description_duck_lorange",
+        "ingredients": [
+          "ingredient.duck",
+          "ingredient.oranges",
+          "ingredient.grandmarnier",
+          "ingredient.stock",
+          "ingredient.herbs"
+        ],
+        "ingredientsWithAmounts": [
+          "1 whole duck",
+          "4 oranges",
+          "1/4 cup Grand Marnier",
+          "2 cups duck stock",
+          "Fresh herbs",
+          "Sugar",
+          "Vinegar"
+        ],
+        "instructions": [
+          "Season duck inside and out",
+          "Roast at 425°F (220°C) for 30 minutes",
+          "Reduce heat to 350°F (175°C)",
+          "Continue roasting for 1 hour",
+          "Make orange sauce",
+          "Add Grand Marnier and stock",
+          "Reduce until thickened",
+          "Carve duck and serve with sauce"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🦆",
+        "tags": [
+          "french",
+          "duck",
+          "orange"
+        ],
+        "prep_time": "120 min",
+        "cook_time": "120 min",
+        "total_time": "120 min"
+      },
+      {
+        "id": 99,
+        "name": "dish.moules_marinires",
+        "description": "description.description_moules_marinires",
+        "ingredients": [
+          "ingredient.mussels",
+          "ingredient.whitewine",
+          "ingredient.shallots",
+          "ingredient.garlic",
+          "ingredient.parsley"
+        ],
+        "ingredientsWithAmounts": [
+          "4 lbs mussels",
+          "1 cup white wine",
+          "4 shallots",
+          "4 garlic cloves",
+          "1/2 cup parsley",
+          "Butter",
+          "Crusty bread"
+        ],
+        "instructions": [
+          "Clean and debeard mussels",
+          "Sauté shallots and garlic",
+          "Add wine and bring to boil",
+          "Add mussels and cover",
+          "Cook until shells open",
+          "Discard unopened mussels",
+          "Add butter and parsley",
+          "Serve with bread"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🦪",
+        "tags": [
+          "french",
+          "seafood",
+          "mussels"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 100,
+        "name": "dish.potaufeu",
+        "description": "description.description_potaufeu",
+        "ingredients": [
+          "ingredient.beef",
+          "ingredient.vegetables",
+          "ingredient.bouquetgarni",
+          "ingredient.onions",
+          "ingredient.carrots"
+        ],
+        "ingredientsWithAmounts": [
+          "3 lb beef chuck",
+          "Mixed vegetables",
+          "Bouquet garni",
+          "2 onions",
+          "4 carrots",
+          "Turnips",
+          "Leeks",
+          "Salt"
+        ],
+        "instructions": [
+          "Place beef in large pot",
+          "Add cold water and salt",
+          "Bring to gentle boil",
+          "Skim foam from surface",
+          "Add bouquet garni",
+          "Simmer for 2 hours",
+          "Add vegetables",
+          "Continue cooking for 1 hour",
+          "Serve with mustard and pickles"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥩",
+        "tags": [
+          "french",
+          "stew",
+          "traditional"
+        ],
+        "prep_time": "180 min",
+        "cook_time": "180 min",
+        "total_time": "180 min"
+      }
+    ],
+    "Indian": [
+      {
+        "id": 101,
+        "name": "dish.butter_chicken",
+        "description": "description.description_butter_chicken",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.butter",
+          "ingredient.cream",
+          "ingredient.tomatoes",
+          "ingredient.garammasala"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb chicken breast, cubed",
+          "4 tbsp butter",
+          "1 cup heavy cream",
+          "2 cups tomato puree",
+          "2 tsp garam masala",
+          "1 tsp turmeric",
+          "1 tbsp ginger-garlic paste"
+        ],
+        "instructions": [
+          "Marinate chicken with yogurt and spices for 30 minutes",
+          "Heat butter in a pan and cook chicken until golden",
+          "Remove chicken and set aside",
+          "In the same pan, add tomato puree and cook for 10 minutes",
+          "Add cream, garam masala, and salt",
+          "Return chicken to pan and simmer for 15 minutes",
+          "Garnish with cilantro and serve with naan"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "indian",
+          "curry",
+          "chicken"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 102,
+        "name": "dish.chicken_tikka_masala",
+        "description": "description.description_chicken_tikka_masala",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.yogurt",
+          "ingredient.tomatoes",
+          "ingredient.cream",
+          "ingredient.spices"
+        ],
+        "ingredientsWithAmounts": [
+          "1.5 lb chicken thighs, cubed",
+          "1 cup yogurt",
+          "2 cups tomato sauce",
+          "1 cup cream",
+          "2 tbsp tikka masala spice",
+          "1 tbsp ginger-garlic paste"
+        ],
+        "instructions": [
+          "Marinate chicken in yogurt and tikka spices for 2 hours",
+          "Grill or broil chicken until charred",
+          "Heat oil in pan, add onions and cook until soft",
+          "Add tomato sauce and cook for 15 minutes",
+          "Add grilled chicken and cream",
+          "Simmer for 10 minutes",
+          "Serve with basmati rice"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "indian",
+          "curry",
+          "grilled"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 103,
+        "name": "dish.palak_paneer",
+        "description": "description.description_palak_paneer",
+        "ingredients": [
+          "ingredient.spinach",
+          "ingredient.paneer",
+          "ingredient.cream",
+          "ingredient.spices",
+          "ingredient.onion"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb spinach, blanched",
+          "8 oz paneer, cubed",
+          "1/2 cup cream",
+          "1 onion, diced",
+          "2 tsp cumin seeds",
+          "1 tbsp ginger-garlic paste"
+        ],
+        "instructions": [
+          "Blanch spinach and blend into smooth puree",
+          "Heat oil, add cumin seeds",
+          "Add onions and cook until golden",
+          "Add ginger-garlic paste and spices",
+          "Pour spinach puree and cook for 10 minutes",
+          "Add paneer cubes and cream",
+          "Simmer for 5 minutes and serve"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥬",
+        "tags": [
+          "indian",
+          "vegetarian",
+          "curry"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 104,
+        "name": "dish.chicken_biryani",
+        "description": "description.description_chicken_biryani",
+        "ingredients": [
+          "ingredient.rice",
+          "ingredient.chicken",
+          "ingredient.yogurt",
+          "ingredient.saffron",
+          "ingredient.spices"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups basmati rice",
+          "1 lb chicken, cubed",
+          "1 cup yogurt",
+          "Pinch of saffron",
+          "2 tbsp biryani masala",
+          "4 tbsp ghee",
+          "2 onions, sliced"
+        ],
+        "instructions": [
+          "Marinate chicken in yogurt and spices for 1 hour",
+          "Cook rice 70% done and set aside",
+          "Fry onions until golden and crispy",
+          "Layer marinated chicken, rice, fried onions, and saffron milk",
+          "Cover tightly and cook on low heat for 30 minutes",
+          "Let it rest for 10 minutes",
+          "Serve with raita"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🍚",
+        "tags": [
+          "indian",
+          "rice",
+          "one-pot"
+        ],
+        "prep_time": "90 min",
+        "cook_time": "90 min",
+        "total_time": "90 min"
+      },
+      {
+        "id": 105,
+        "name": "dish.samosas",
+        "description": "description.description_samosas",
+        "ingredients": [
+          "ingredient.potatoes",
+          "ingredient.peas",
+          "ingredient.flour",
+          "ingredient.spices",
+          "ingredient.oil"
+        ],
+        "ingredientsWithAmounts": [
+          "4 large potatoes, boiled and mashed",
+          "1 cup green peas",
+          "2 cups flour",
+          "1 tsp cumin seeds",
+          "1 tsp garam masala",
+          "Oil for frying"
+        ],
+        "instructions": [
+          "Make dough with flour, oil, and water, rest for 30 minutes",
+          "Cook cumin seeds, add mashed potatoes, peas, and spices",
+          "Roll dough into thin circles, cut in half",
+          "Form cone shape, fill with potato mixture",
+          "Seal edges with water",
+          "Deep fry until golden brown",
+          "Serve hot with chutney"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥔",
+        "tags": [
+          "indian",
+          "snack",
+          "fried"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 106,
+        "name": "dish.tandoori_chicken",
+        "description": "description.description_tandoori_chicken",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.yogurt",
+          "ingredient.tandoorimasala",
+          "ingredient.lemon",
+          "ingredient.ginger"
+        ],
+        "ingredientsWithAmounts": [
+          "1 whole chicken, cut into pieces",
+          "1 cup yogurt",
+          "3 tbsp tandoori masala",
+          "2 tbsp lemon juice",
+          "2 tbsp ginger-garlic paste"
+        ],
+        "instructions": [
+          "Make deep cuts in chicken pieces",
+          "Mix yogurt, tandoori masala, lemon juice, and ginger-garlic paste",
+          "Marinate chicken for at least 2 hours or overnight",
+          "Preheat oven to 450°F (230°C)",
+          "Place chicken on a wire rack",
+          "Roast for 30-40 minutes, turning once",
+          "Char under broiler for 2-3 minutes",
+          "Serve with mint chutney"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "indian",
+          "grilled",
+          "chicken"
+        ],
+        "prep_time": "120 min",
+        "cook_time": "120 min",
+        "total_time": "120 min"
+      },
+      {
+        "id": 107,
+        "name": "dish.dal_makhani",
+        "description": "description.description_dal_makhani",
+        "ingredients": [
+          "ingredient.blacklentils",
+          "ingredient.butter",
+          "ingredient.cream",
+          "ingredient.tomatoes",
+          "ingredient.spices"
+        ],
+        "ingredientsWithAmounts": [
+          "1 cup black lentils",
+          "4 tbsp butter",
+          "1/2 cup cream",
+          "1 cup tomato puree",
+          "1 tsp garam masala",
+          "1 tbsp ginger-garlic paste"
+        ],
+        "instructions": [
+          "Soak lentils overnight, pressure cook until soft",
+          "Heat butter in pan, add ginger-garlic paste",
+          "Add tomato puree and cook for 10 minutes",
+          "Add cooked lentils and simmer for 20 minutes",
+          "Stir in cream and garam masala",
+          "Simmer for another 10 minutes",
+          "Serve with naan or rice"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍅",
+        "tags": [
+          "indian",
+          "vegetarian",
+          "lentils"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 108,
+        "name": "dish.rogan_josh",
+        "description": "description.description_rogan_josh",
+        "ingredients": [
+          "ingredient.lamb",
+          "ingredient.yogurt",
+          "ingredient.kashmirichili",
+          "ingredient.fennel",
+          "ingredient.ginger"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb lamb, cubed",
+          "1 cup yogurt",
+          "2 tbsp Kashmiri chili powder",
+          "1 tsp fennel powder",
+          "2 tbsp ginger-garlic paste",
+          "4 tbsp oil"
+        ],
+        "instructions": [
+          "Heat oil and brown lamb pieces",
+          "Remove lamb and set aside",
+          "Add whole spices and fry until fragrant",
+          "Add ginger-garlic paste and cook for 2 minutes",
+          "Add yogurt gradually, stirring constantly",
+          "Return lamb, add water, and simmer for 45 minutes",
+          "Garnish with cilantro and serve"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐑",
+        "tags": [
+          "indian",
+          "lamb",
+          "curry"
+        ],
+        "prep_time": "75 min",
+        "cook_time": "75 min",
+        "total_time": "75 min"
+      },
+      {
+        "id": 109,
+        "name": "dish.chana_masala",
+        "description": "description.description_chana_masala",
+        "ingredients": [
+          "ingredient.chickpeas",
+          "ingredient.tomatoes",
+          "ingredient.onion",
+          "ingredient.spices",
+          "ingredient.cilantro"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups chickpeas, cooked",
+          "2 ingredient.large_tomatoes_pureed",
+          "1 large onion, diced",
+          "2 tsp chana masala",
+          "1 tsp cumin seeds",
+          "Fresh cilantro"
+        ],
+        "instructions": [
+          "Heat oil, add cumin seeds",
+          "Add onions and cook until golden",
+          "Add tomato puree and cook for 10 minutes",
+          "Add chana masala and other spices",
+          "Add chickpeas and simmer for 15 minutes",
+          "Garnish with cilantro",
+          "Serve with bhatura or rice"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍅",
+        "tags": [
+          "indian",
+          "vegetarian",
+          "chickpeas"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 111,
+        "name": "dish.aloo_gobi",
+        "description": "description.description_aloo_gobi",
+        "ingredients": [
+          "ingredient.potatoes",
+          "ingredient.cauliflower",
+          "ingredient.turmeric",
+          "ingredient.cumin",
+          "ingredient.tomatoes"
+        ],
+        "ingredientsWithAmounts": [
+          "3 large potatoes, cubed",
+          "1 small cauliflower, florets",
+          "1 tsp turmeric",
+          "1 tsp cumin seeds",
+          "2 ingredient.tomatoes_chopped",
+          "Fresh cilantro"
+        ],
+        "instructions": [
+          "Heat oil, add cumin seeds",
+          "Add potatoes and fry for 5 minutes",
+          "Add cauliflower and turmeric",
+          "Cover and cook for 15 minutes, stirring occasionally",
+          "Add tomatoes and spices",
+          "Cook until vegetables are tender",
+          "Garnish with cilantro"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥔",
+        "tags": [
+          "indian",
+          "vegetarian",
+          "dry-curry"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 112,
+        "name": "dish.vindaloo",
+        "description": "description.description_vindaloo",
+        "ingredients": [
+          "ingredient.pork",
+          "ingredient.vinegar",
+          "ingredient.kashmirichili",
+          "ingredient.garlic",
+          "ingredient.spices"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb pork, cubed",
+          "1/4 cup vinegar",
+          "3 tbsp Kashmiri chili powder",
+          "10 garlic cloves",
+          "2 tsp cumin seeds",
+          "1 tsp mustard seeds"
+        ],
+        "instructions": [
+          "Make paste of garlic, chilies, cumin, and vinegar",
+          "Marinate pork in paste for 30 minutes",
+          "Heat oil, add mustard seeds",
+          "Add marinated pork and cook on high heat",
+          "Add water and simmer for 40 minutes",
+          "Adjust seasoning with salt and sugar",
+          "Serve with rice or bread"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "indian",
+          "pork",
+          "spicy"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 113,
+        "name": "dish.korma",
+        "description": "description.description_korma",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.yogurt",
+          "ingredient.cashews",
+          "ingredient.cream",
+          "ingredient.cardamom"
+        ],
+        "ingredientsWithAmounts": [
+          "1.5 lb chicken, cubed",
+          "1 cup yogurt",
+          "1/2 cup cashews",
+          "1/2 cup cream",
+          "4 cardamom pods",
+          "1 onion, pureed",
+          "2 tbsp ghee"
+        ],
+        "instructions": [
+          "Grind cashews with water to make paste",
+          "Heat ghee, add cardamom and whole spices",
+          "Add onion puree and cook until golden",
+          "Add chicken and brown",
+          "Add yogurt and cook for 5 minutes",
+          "Add cashew paste and cream",
+          "Simmer until chicken is cooked, about 20 minutes"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "indian",
+          "mild",
+          "creamy"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 114,
+        "name": "dish.pav_bhaji",
+        "description": "description.description_pav_bhaji",
+        "ingredients": [
+          "ingredient.potatoes",
+          "ingredient.mixedvegetables",
+          "ingredient.pavbhajimasala",
+          "ingredient.butter",
+          "ingredient.breadrolls"
+        ],
+        "ingredientsWithAmounts": [
+          "4 potatoes, boiled",
+          "2 cups mixed vegetables",
+          "3 tbsp pav bhaji masala",
+          "6 tbsp butter",
+          "8 pav (bread rolls)",
+          "2 onions, chopped"
+        ],
+        "instructions": [
+          "Boil and mash all vegetables together",
+          "Heat butter in pan, add onions",
+          "Add pav bhaji masala and cook for 2 minutes",
+          "Add mashed vegetables and mix well",
+          "Cook for 15 minutes, mashing and stirring",
+          "Toast pav with butter on griddle",
+          "Serve bhaji with buttered pav"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥔",
+        "tags": [
+          "indian",
+          "street-food",
+          "vegetarian"
+        ],
+        "prep_time": "40 min",
+        "cook_time": "40 min",
+        "total_time": "40 min"
+      },
+      {
+        "id": 115,
+        "name": "dish.masala_dosa",
+        "description": "description.description_masala_dosa",
+        "ingredients": [
+          "ingredient.dosabatter",
+          "ingredient.potatoes",
+          "ingredient.mustardseeds",
+          "ingredient.curryleaves",
+          "ingredient.turmeric"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups dosa batter",
+          "4 potatoes, boiled and mashed",
+          "1 tsp mustard seeds",
+          "10 curry leaves",
+          "1/2 tsp turmeric",
+          "2 green chilies"
+        ],
+        "instructions": [
+          "Heat oil, add mustard seeds and curry leaves",
+          "Add turmeric, chilies, and onions",
+          "Add mashed potatoes and mix well",
+          "Heat dosa pan, pour batter in circular motion",
+          "Drizzle oil around edges",
+          "Place potato filling in center",
+          "Fold and serve with chutney and sambar"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥔",
+        "tags": [
+          "indian",
+          "south-indian",
+          "breakfast"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 116,
+        "name": "dish.idli",
+        "description": "description.description_idli",
+        "ingredients": [
+          "ingredient.idlibatter",
+          "ingredient.dal",
+          "ingredient.vegetables",
+          "ingredient.tamarind",
+          "ingredient.mustardseeds"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups idli batter",
+          "1/2 cup toor dal",
+          "1 cup mixed vegetables",
+          "Small tamarind ball",
+          "1 tsp mustard seeds",
+          "Curry leaves"
+        ],
+        "instructions": [
+          "Grease idli molds with oil",
+          "Pour idli batter into molds",
+          "Steam for 10-12 minutes",
+          "For sambar: Cook dal and vegetables with tamarind",
+          "Temper with mustard seeds and curry leaves",
+          "Serve hot idlis with sambar and coconut chutney"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍽️",
+        "tags": [
+          "indian",
+          "south-indian",
+          "steamed"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 117,
+        "name": "dish.malai_kofta",
+        "description": "description.description_malai_kofta",
+        "ingredients": [
+          "ingredient.potatoes",
+          "ingredient.paneer",
+          "ingredient.cream",
+          "ingredient.tomatoes",
+          "ingredient.cashews"
+        ],
+        "ingredientsWithAmounts": [
+          "3 potatoes, boiled",
+          "1 cup paneer, grated",
+          "1 cup cream",
+          "2 cups tomato puree",
+          "1/2 cup cashews",
+          "2 tbsp cornstarch"
+        ],
+        "instructions": [
+          "Mix mashed potatoes, paneer, and spices",
+          "Form into balls, deep fry until golden",
+          "Grind cashews and tomatoes separately",
+          "Cook tomato puree with cashew paste",
+          "Add cream and spices",
+          "Add fried koftas just before serving",
+          "Garnish with cream and serve with naan"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🥔",
+        "tags": [
+          "indian",
+          "vegetarian",
+          "fried"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 118,
+        "name": "dish.chole_bhature",
+        "description": "description.description_chole_bhature",
+        "ingredients": [
+          "ingredient.chickpeas",
+          "ingredient.flour",
+          "ingredient.yogurt",
+          "ingredient.cholemasala",
+          "ingredient.tomatoes"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups chickpeas, soaked",
+          "2 cups flour",
+          "1/2 cup yogurt",
+          "2 tbsp chole masala",
+          "2 ingredient.tomatoes_pureed",
+          "Oil for frying"
+        ],
+        "instructions": [
+          "Pressure cook chickpeas until soft",
+          "Make dough with flour, yogurt, and oil, rest 1 hour",
+          "Cook tomatoes with chole masala",
+          "Add chickpeas and simmer for 20 minutes",
+          "Roll dough into circles, deep fry until puffed",
+          "Serve hot bhature with chole",
+          "Garnish with onions and lemon"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🌾",
+        "tags": [
+          "indian",
+          "punjabi",
+          "fried-bread"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 119,
+        "name": "dish.raita",
+        "description": "description.description_raita",
+        "ingredients": [
+          "ingredient.yogurt",
+          "ingredient.cucumber",
+          "ingredient.cumin",
+          "ingredient.mint",
+          "ingredient.cilantro"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups yogurt",
+          "1 cucumber, grated",
+          "1 tsp roasted cumin powder",
+          "Fresh mint leaves",
+          "Fresh cilantro",
+          "Salt to taste"
+        ],
+        "instructions": [
+          "Whisk yogurt until smooth",
+          "Grate cucumber and squeeze out excess water",
+          "Mix cucumber with yogurt",
+          "Add roasted cumin powder and salt",
+          "Chop mint and cilantro finely",
+          "Mix everything together",
+          "Chill and serve with biryani or paratha"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥒",
+        "tags": [
+          "indian",
+          "side-dish",
+          "yogurt"
+        ],
+        "prep_time": "10 min",
+        "cook_time": "10 min",
+        "total_time": "10 min"
+      }
+    ],
+    "Thai": [
+      {
+        "id": 121,
+        "name": "dish.pad_thai",
+        "description": "description.description_pad_thai",
+        "ingredients": [
+          "ingredient.ricenoodles",
+          "ingredient.shrimp",
+          "ingredient.peanuts",
+          "ingredient.tamarind",
+          "ingredient.fishsauce"
+        ],
+        "ingredientsWithAmounts": [
+          "8 oz rice noodles",
+          "1 lb shrimp, peeled",
+          "1/2 cup roasted peanuts",
+          "3 tbsp tamarind paste",
+          "3 tbsp fish sauce",
+          "2 tbsp palm sugar",
+          "2 eggs",
+          "Bean sprouts"
+        ],
+        "instructions": [
+          "Soak rice noodles in warm water for 30 minutes",
+          "Heat oil in wok, add shrimp and cook until pink",
+          "Push shrimp to side, add beaten eggs and scramble",
+          "Add noodles and stir-fry for 2 minutes",
+          "Add tamarind, fish sauce, and palm sugar",
+          "Toss everything together",
+          "Add bean sprouts and peanuts",
+          "Serve with lime wedges and chili flakes"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍚",
+        "tags": [
+          "thai",
+          "noodles",
+          "stir-fry"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 122,
+        "name": "dish.green_curry",
+        "description": "description.description_green_curry",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.coconutmilk",
+          "ingredient.greencurrypaste",
+          "ingredient.thaibasil",
+          "ingredient.eggplant"
+        ],
+        "ingredientsWithAmounts": [
+          "1.5 lb chicken, cubed",
+          "2 cups coconut milk",
+          "3 tbsp green curry paste",
+          "1 cup Thai basil leaves",
+          "1 cup Thai eggplant",
+          "2 tbsp fish sauce",
+          "1 tbsp palm sugar"
+        ],
+        "instructions": [
+          "Heat half the coconut milk in a pot",
+          "Add green curry paste and cook until fragrant",
+          "Add chicken and cook until sealed",
+          "Add remaining coconut milk and bring to boil",
+          "Add eggplant and simmer for 15 minutes",
+          "Season with fish sauce and palm sugar",
+          "Add Thai basil just before serving",
+          "Serve with jasmine rice"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "thai",
+          "curry",
+          "coconut"
+        ],
+        "prep_time": "40 min",
+        "cook_time": "40 min",
+        "total_time": "40 min"
+      },
+      {
+        "id": 123,
+        "name": "dish.tom_yum_soup",
+        "description": "description.description_tom_yum_soup",
+        "ingredients": [
+          "ingredient.shrimp",
+          "ingredient.lemongrass",
+          "ingredient.galangal",
+          "ingredient.limeleaves",
+          "ingredient.chili"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb shrimp, peeled",
+          "3 stalks lemongrass",
+          "2 inch galangal",
+          "6 kaffir lime leaves",
+          "3 Thai chilies",
+          "3 tbsp fish sauce",
+          "2 tbsp lime juice",
+          "Mushrooms"
+        ],
+        "instructions": [
+          "Bring water to boil with lemongrass, galangal, and lime leaves",
+          "Add mushrooms and simmer for 5 minutes",
+          "Add shrimp and cook until pink",
+          "Season with fish sauce and lime juice",
+          "Add chilies and remove from heat",
+          "Garnish with cilantro",
+          "Serve hot"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🦐",
+        "tags": [
+          "thai",
+          "soup",
+          "spicy"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 124,
+        "name": "dish.massaman_curry",
+        "description": "description.description_massaman_curry",
+        "ingredients": [
+          "ingredient.beef",
+          "ingredient.coconutmilk",
+          "ingredient.massamanpaste",
+          "ingredient.peanuts",
+          "ingredient.potatoes"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb beef, cubed",
+          "2 cups coconut milk",
+          "4 tbsp massaman paste",
+          "1/2 cup roasted peanuts",
+          "3 potatoes, cubed",
+          "2 tbsp fish sauce",
+          "1 tbsp palm sugar"
+        ],
+        "instructions": [
+          "Heat coconut milk and add massaman paste",
+          "Cook until oil separates",
+          "Add beef and brown on all sides",
+          "Add water and simmer for 30 minutes",
+          "Add potatoes and peanuts",
+          "Simmer until beef is tender",
+          "Season with fish sauce and palm sugar",
+          "Serve with jasmine rice"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥩",
+        "tags": [
+          "thai",
+          "curry",
+          "beef"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 125,
+        "name": "dish.som_tam",
+        "description": "description.description_som_tam",
+        "ingredients": [
+          "ingredient.greenpapaya",
+          "ingredient.tomatoes",
+          "ingredient.peanuts",
+          "ingredient.lime",
+          "ingredient.fishsauce"
+        ],
+        "ingredientsWithAmounts": [
+          "1 green papaya, shredded",
+          "2 ingredient.tomatoes_sliced",
+          "1/2 cup roasted peanuts",
+          "2 limes, juiced",
+          "3 tbsp fish sauce",
+          "2 tbsp palm sugar",
+          "3 Thai chilies",
+          "Green beans"
+        ],
+        "instructions": [
+          "Pound chilies and garlic in mortar",
+          "Add fish sauce, lime juice, and palm sugar",
+          "Mix until sugar dissolves",
+          "Add green beans and pound lightly",
+          "Add papaya and tomatoes",
+          "Toss everything together",
+          "Top with peanuts",
+          "Serve immediately"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍅",
+        "tags": [
+          "thai",
+          "salad",
+          "spicy"
+        ],
+        "prep_time": "15 min",
+        "cook_time": "15 min",
+        "total_time": "15 min"
+      },
+      {
+        "id": 126,
+        "name": "dish.pad_krapow",
+        "description": "description.description_pad_krapow",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.thaibasil",
+          "ingredient.chili",
+          "ingredient.garlic",
+          "ingredient.fishsauce"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb ground chicken",
+          "2 cups Thai basil leaves",
+          "5 Thai chilies",
+          "6 garlic cloves",
+          "3 tbsp fish sauce",
+          "1 tbsp soy sauce",
+          "1 tbsp oyster sauce",
+          "4 eggs"
+        ],
+        "instructions": [
+          "Heat oil in wok, add garlic and chilies",
+          "Add ground chicken and cook until done",
+          "Add fish sauce, soy sauce, and oyster sauce",
+          "Add Thai basil and stir until wilted",
+          "Fry eggs sunny-side up",
+          "Serve chicken over rice with fried egg",
+          "Garnish with more basil"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐔",
+        "tags": [
+          "thai",
+          "chicken",
+          "basil"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 127,
+        "name": "dish.red_curry",
+        "description": "description.description_red_curry",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.coconutmilk",
+          "ingredient.redcurrypaste",
+          "ingredient.bambooshoots",
+          "ingredient.thaibasil"
+        ],
+        "ingredientsWithAmounts": [
+          "1.5 lb chicken, cubed",
+          "2 cups coconut milk",
+          "3 tbsp red curry paste",
+          "1 cup bamboo shoots",
+          "1 cup Thai basil",
+          "2 tbsp fish sauce",
+          "1 tbsp palm sugar"
+        ],
+        "instructions": [
+          "Heat half coconut milk, add red curry paste",
+          "Cook until fragrant and oil separates",
+          "Add chicken and cook until sealed",
+          "Add remaining coconut milk",
+          "Add bamboo shoots and simmer 15 minutes",
+          "Season with fish sauce and palm sugar",
+          "Add Thai basil before serving",
+          "Serve with jasmine rice"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "thai",
+          "curry",
+          "red"
+        ],
+        "prep_time": "35 min",
+        "cook_time": "35 min",
+        "total_time": "35 min"
+      },
+      {
+        "id": 128,
+        "name": "dish.khao_soi",
+        "description": "description.description_khao_soi",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.coconutmilk",
+          "ingredient.currypaste",
+          "ingredient.noodles",
+          "ingredient.lime"
+        ],
+        "ingredientsWithAmounts": [
+          "1.5 lb chicken, cubed",
+          "2 cups coconut milk",
+          "3 tbsp curry paste",
+          "1 lb noodles",
+          "2 limes, juiced",
+          "2 tbsp fish sauce",
+          "Pickled mustard greens"
+        ],
+        "instructions": [
+          "Heat coconut milk, add curry paste",
+          "Cook until oil separates",
+          "Add chicken and brown",
+          "Add water and simmer 20 minutes",
+          "Cook half the noodles soft, half crispy",
+          "Season with fish sauce and lime juice",
+          "Serve with both noodles",
+          "Top with pickled greens and shallots"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "thai",
+          "noodles",
+          "curry"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 129,
+        "name": "dish.larb",
+        "description": "description.description_larb",
+        "ingredients": [
+          "ingredient.groundpork",
+          "ingredient.mint",
+          "ingredient.cilantro",
+          "ingredient.lime",
+          "ingredient.chili"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb ground pork",
+          "1/2 cup mint leaves",
+          "1/2 cup cilantro",
+          "2 limes, juiced",
+          "3 Thai chilies",
+          "2 tbsp fish sauce",
+          "1 tbsp roasted rice powder"
+        ],
+        "instructions": [
+          "Cook ground pork until done",
+          "Remove from heat and cool slightly",
+          "Add fish sauce and lime juice",
+          "Add chopped chilies and herbs",
+          "Toss with roasted rice powder",
+          "Serve with lettuce leaves",
+          "Garnish with more herbs"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐷",
+        "tags": [
+          "thai",
+          "salad",
+          "pork"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 130,
+        "name": "dish.satay",
+        "description": "description.description_satay",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.peanuts",
+          "ingredient.coconutmilk",
+          "ingredient.currypaste",
+          "ingredient.lime"
+        ],
+        "ingredientsWithAmounts": [
+          "1.5 lb chicken, cubed",
+          "1 cup roasted peanuts",
+          "1/2 cup coconut milk",
+          "2 tbsp curry paste",
+          "2 limes, juiced",
+          "2 tbsp fish sauce",
+          "Bamboo skewers"
+        ],
+        "instructions": [
+          "Marinate chicken in curry paste and coconut milk",
+          "Thread chicken onto skewers",
+          "Grill until cooked through",
+          "For sauce: blend peanuts, coconut milk, curry paste",
+          "Season with fish sauce and lime juice",
+          "Serve skewers with peanut sauce",
+          "Garnish with cucumber and onion"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐔",
+        "tags": [
+          "thai",
+          "grilled",
+          "peanut"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 131,
+        "name": "dish.panang_curry",
+        "description": "description.description_panang_curry",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.coconutmilk",
+          "ingredient.panangpaste",
+          "ingredient.peanuts",
+          "ingredient.thaibasil"
+        ],
+        "ingredientsWithAmounts": [
+          "1.5 lb chicken, cubed",
+          "2 cups coconut milk",
+          "3 tbsp panang paste",
+          "1/4 cup peanuts",
+          "1 cup Thai basil",
+          "2 tbsp fish sauce",
+          "1 tbsp palm sugar"
+        ],
+        "instructions": [
+          "Heat coconut milk, add panang paste",
+          "Cook until fragrant",
+          "Add chicken and cook until sealed",
+          "Add remaining coconut milk",
+          "Simmer for 15 minutes",
+          "Add peanuts and basil",
+          "Season with fish sauce and palm sugar",
+          "Serve with jasmine rice"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "thai",
+          "curry",
+          "panang"
+        ],
+        "prep_time": "35 min",
+        "cook_time": "35 min",
+        "total_time": "35 min"
+      },
+      {
+        "id": 132,
+        "name": "dish.tom_kha_gai",
+        "description": "description.description_tom_kha_gai",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.coconutmilk",
+          "ingredient.galangal",
+          "ingredient.lemongrass",
+          "ingredient.limeleaves"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb chicken, cubed",
+          "2 cups coconut milk",
+          "2 inch galangal",
+          "3 stalks lemongrass",
+          "6 kaffir lime leaves",
+          "3 tbsp fish sauce",
+          "2 tbsp lime juice",
+          "Mushrooms"
+        ],
+        "instructions": [
+          "Bring coconut milk to boil with galangal, lemongrass, lime leaves",
+          "Add chicken and mushrooms",
+          "Simmer until chicken is cooked",
+          "Season with fish sauce and lime juice",
+          "Add chilies if desired",
+          "Garnish with cilantro",
+          "Serve hot"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐔",
+        "tags": [
+          "thai",
+          "soup",
+          "coconut"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 133,
+        "name": "dish.pad_see_ew",
+        "description": "description.description_pad_see_ew",
+        "ingredients": [
+          "ingredient.widenoodles",
+          "ingredient.chicken",
+          "ingredient.chinesebroccoli",
+          "ingredient.soysauce",
+          "ingredient.oystersauce"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb wide rice noodles",
+          "1 lb chicken, sliced",
+          "2 cups Chinese broccoli",
+          "3 tbsp soy sauce",
+          "2 tbsp oyster sauce",
+          "2 tbsp fish sauce",
+          "2 eggs"
+        ],
+        "instructions": [
+          "Heat oil in wok, add chicken and cook",
+          "Add Chinese broccoli and stir-fry",
+          "Add noodles and toss",
+          "Add soy sauce, oyster sauce, fish sauce",
+          "Push everything to side, add beaten eggs",
+          "Scramble eggs and mix with noodles",
+          "Serve hot"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍜",
+        "tags": [
+          "thai",
+          "noodles",
+          "stir-fry"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 134,
+        "name": "dish.mango_sticky_rice",
+        "description": "description.description_mango_sticky_rice",
+        "ingredients": [
+          "ingredient.stickyrice",
+          "ingredient.coconutmilk",
+          "ingredient.mango",
+          "ingredient.sugar",
+          "ingredient.salt"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups sticky rice",
+          "1 cup coconut milk",
+          "2 ripe mangoes",
+          "1/2 cup sugar",
+          "1/2 tsp salt",
+          "Sesame seeds"
+        ],
+        "instructions": [
+          "Soak sticky rice for 4 hours",
+          "Steam rice for 20 minutes",
+          "Heat coconut milk with sugar and salt",
+          "Pour over hot rice and let absorb",
+          "Slice mangoes",
+          "Serve rice with mango slices",
+          "Sprinkle with sesame seeds"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍚",
+        "tags": [
+          "thai",
+          "dessert",
+          "sweet"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 135,
+        "name": "dish.spring_rolls",
+        "description": "description.description_spring_rolls",
+        "ingredients": [
+          "ingredient.ricepaper",
+          "ingredient.shrimp",
+          "ingredient.vermicelli",
+          "ingredient.herbs",
+          "ingredient.vegetables"
+        ],
+        "ingredientsWithAmounts": [
+          "12 rice paper sheets",
+          "1 lb shrimp, cooked",
+          "4 oz vermicelli noodles",
+          "Fresh herbs (mint, cilantro)",
+          "Lettuce, cucumber, carrots",
+          "Dipping sauce"
+        ],
+        "instructions": [
+          "Soak vermicelli noodles",
+          "Prepare all vegetables and herbs",
+          "Soak rice paper in warm water",
+          "Place shrimp and vegetables on rice paper",
+          "Add herbs and noodles",
+          "Roll tightly",
+          "Serve with dipping sauce"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍚",
+        "tags": [
+          "thai",
+          "appetizer",
+          "fresh"
+        ],
+        "prep_time": "40 min",
+        "cook_time": "40 min",
+        "total_time": "40 min"
+      },
+      {
+        "id": 136,
+        "name": "dish.crying_tiger",
+        "description": "description.description_crying_tiger",
+        "ingredients": [
+          "ingredient.beef",
+          "ingredient.garlic",
+          "ingredient.cilantro",
+          "ingredient.lime",
+          "ingredient.chili"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb beef sirloin",
+          "6 garlic cloves",
+          "1/2 cup cilantro",
+          "2 limes, juiced",
+          "3 Thai chilies",
+          "2 tbsp fish sauce",
+          "1 tbsp soy sauce"
+        ],
+        "instructions": [
+          "Marinate beef with garlic, soy sauce, and lime juice",
+          "Grill beef to desired doneness",
+          "Slice thinly against the grain",
+          "Make sauce with chilies, fish sauce, lime juice",
+          "Add cilantro to sauce",
+          "Serve beef with spicy sauce",
+          "Garnish with more herbs"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥩",
+        "tags": [
+          "thai",
+          "beef",
+          "grilled"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 137,
+        "name": "dish.kai_jeow",
+        "description": "description.description_kai_jeow",
+        "ingredients": [
+          "ingredient.eggs",
+          "ingredient.fishsauce",
+          "ingredient.oil",
+          "ingredient.cilantro",
+          "ingredient.greenonions"
+        ],
+        "ingredientsWithAmounts": [
+          "4 eggs",
+          "2 tbsp fish sauce",
+          "1/4 cup oil",
+          "Fresh cilantro",
+          "2 green onions",
+          "White pepper"
+        ],
+        "instructions": [
+          "Beat eggs with fish sauce and white pepper",
+          "Heat oil in wok until very hot",
+          "Pour eggs into hot oil",
+          "Let bottom set, then fold over",
+          "Cook until golden and fluffy",
+          "Garnish with cilantro and green onions",
+          "Serve with rice"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥚",
+        "tags": [
+          "thai",
+          "eggs",
+          "simple"
+        ],
+        "prep_time": "10 min",
+        "cook_time": "10 min",
+        "total_time": "10 min"
+      },
+      {
+        "id": 138,
+        "name": "dish.gaeng_keow_wan",
+        "description": "description.description_gaeng_keow_wan",
+        "ingredients": [
+          "ingredient.vegetables",
+          "ingredient.coconutmilk",
+          "ingredient.greencurrypaste",
+          "ingredient.thaibasil",
+          "ingredient.eggplant"
+        ],
+        "ingredientsWithAmounts": [
+          "Mixed vegetables (eggplant, bamboo shoots)",
+          "2 cups coconut milk",
+          "3 tbsp green curry paste",
+          "1 cup Thai basil",
+          "2 tbsp fish sauce",
+          "1 tbsp palm sugar"
+        ],
+        "instructions": [
+          "Heat coconut milk, add green curry paste",
+          "Cook until fragrant",
+          "Add vegetables and cook until tender",
+          "Season with fish sauce and palm sugar",
+          "Add Thai basil before serving",
+          "Serve with jasmine rice",
+          "Garnish with more basil"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍆",
+        "tags": [
+          "thai",
+          "vegetarian",
+          "green-curry"
+        ],
+        "prep_time": "40 min",
+        "cook_time": "40 min",
+        "total_time": "40 min"
+      },
+      {
+        "id": 139,
+        "name": "dish.yum_woon_sen",
+        "description": "description.description_yum_woon_sen",
+        "ingredients": [
+          "ingredient.glassnoodles",
+          "ingredient.shrimp",
+          "ingredient.lime",
+          "ingredient.fishsauce",
+          "ingredient.chili"
+        ],
+        "ingredientsWithAmounts": [
+          "4 oz glass noodles",
+          "1 lb shrimp, cooked",
+          "2 limes, juiced",
+          "3 tbsp fish sauce",
+          "3 Thai chilies",
+          "1/2 cup cilantro",
+          "1/2 cup mint"
+        ],
+        "instructions": [
+          "Soak glass noodles in warm water",
+          "Drain and set aside",
+          "Mix lime juice, fish sauce, and chilies",
+          "Add shrimp and noodles",
+          "Toss with herbs",
+          "Let marinate for 10 minutes",
+          "Serve chilled"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍜",
+        "tags": [
+          "thai",
+          "salad",
+          "glass-noodles"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 140,
+        "name": "dish.khao_pad",
+        "description": "description.description_khao_pad",
+        "ingredients": [
+          "ingredient.jasminerice",
+          "ingredient.eggs",
+          "ingredient.vegetables",
+          "ingredient.soysauce",
+          "ingredient.fishsauce"
+        ],
+        "ingredientsWithAmounts": [
+          "4 cups cooked jasmine rice",
+          "3 eggs",
+          "Mixed vegetables",
+          "3 tbsp soy sauce",
+          "1 tbsp fish sauce",
+          "2 tbsp oil",
+          "Green onions"
+        ],
+        "instructions": [
+          "Heat oil in wok",
+          "Add beaten eggs and scramble",
+          "Add vegetables and stir-fry",
+          "Add rice and break up clumps",
+          "Add soy sauce and fish sauce",
+          "Toss everything together",
+          "Garnish with green onions",
+          "Serve hot"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍚",
+        "tags": [
+          "thai",
+          "fried-rice",
+          "simple"
+        ],
+        "prep_time": "15 min",
+        "cook_time": "15 min",
+        "total_time": "15 min"
+      }
+    ],
+    "Mexican": [
+      {
+        "id": 141,
+        "name": "dish.tacos_al_pastor",
+        "description": "description.description_tacos_al_pastor",
+        "ingredients": [
+          "ingredient.pork",
+          "ingredient.pineapple",
+          "ingredient.chili",
+          "ingredient.onion",
+          "ingredient.cilantro"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb pork shoulder, sliced",
+          "1 cup pineapple chunks",
+          "3 dried ancho chilies",
+          "1 onion, sliced",
+          "Fresh cilantro",
+          "Corn tortillas",
+          "Lime wedges"
+        ],
+        "instructions": [
+          "Make marinade with chilies, vinegar, and spices",
+          "Marinate pork for 2 hours",
+          "Grill pork until cooked through",
+          "Grill pineapple until caramelized",
+          "Warm tortillas",
+          "Slice pork and pineapple",
+          "Serve in tortillas with onion and cilantro",
+          "Add lime juice"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "mexican",
+          "tacos",
+          "pork"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 142,
+        "name": "dish.enchiladas",
+        "description": "description.description_enchiladas",
+        "ingredients": [
+          "ingredient.tortillas",
+          "ingredient.chicken",
+          "ingredient.cheese",
+          "ingredient.enchiladasauce",
+          "ingredient.onion"
+        ],
+        "ingredientsWithAmounts": [
+          "12 corn tortillas",
+          "2 cups shredded chicken",
+          "2 cups cheese",
+          "3 cups enchilada sauce",
+          "1 onion, diced",
+          "Sour cream",
+          "Cilantro"
+        ],
+        "instructions": [
+          "Heat enchilada sauce",
+          "Dip tortillas in sauce to soften",
+          "Fill with chicken and cheese",
+          "Roll and place in baking dish",
+          "Pour remaining sauce over top",
+          "Sprinkle with cheese",
+          "Bake at 350°F (175°C) for 20 minutes",
+          "Garnish with sour cream and cilantro"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "mexican",
+          "baked",
+          "cheese"
+        ],
+        "prep_time": "40 min",
+        "cook_time": "40 min",
+        "total_time": "40 min"
+      },
+      {
+        "id": 143,
+        "name": "dish.guacamole",
+        "description": "description.description_guacamole",
+        "ingredients": [
+          "ingredient.avocado",
+          "ingredient.lime",
+          "ingredient.cilantro",
+          "ingredient.tomato",
+          "ingredient.onion"
+        ],
+        "ingredientsWithAmounts": [
+          "4 ripe avocados",
+          "2 limes, juiced",
+          "1/2 cup cilantro",
+          "2 ingredient.tomatoes_diced",
+          "1/2 onion, diced",
+          "2 jalapeños",
+          "Salt to taste"
+        ],
+        "instructions": [
+          "Cut avocados in half and remove pits",
+          "Mash avocados with lime juice",
+          "Add diced tomatoes and onion",
+          "Chop cilantro and jalapeños",
+          "Mix everything together",
+          "Season with salt",
+          "Serve immediately with chips"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍅",
+        "tags": [
+          "mexican",
+          "dip",
+          "avocado"
+        ],
+        "prep_time": "10 min",
+        "cook_time": "10 min",
+        "total_time": "10 min"
+      },
+      {
+        "id": 144,
+        "name": "dish.chiles_rellenos",
+        "description": "description.description_chiles_rellenos",
+        "ingredients": [
+          "ingredient.poblanopeppers",
+          "ingredient.cheese",
+          "ingredient.eggs",
+          "ingredient.flour",
+          "ingredient.tomatosauce"
+        ],
+        "ingredientsWithAmounts": [
+          "6 poblano peppers",
+          "2 cups cheese",
+          "4 eggs",
+          "1/2 cup flour",
+          "2 cups tomato sauce",
+          "Oil for frying"
+        ],
+        "instructions": [
+          "Roast peppers until charred",
+          "Peel and remove seeds carefully",
+          "Stuff with cheese",
+          "Separate eggs and beat whites",
+          "Fold in yolks and flour",
+          "Dip peppers in batter",
+          "Fry until golden",
+          "Serve with tomato sauce"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🥚",
+        "tags": [
+          "mexican",
+          "stuffed",
+          "peppers"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 145,
+        "name": "dish.mole_poblano",
+        "description": "description.description_mole_poblano",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.chocolate",
+          "ingredient.chilies",
+          "ingredient.nuts",
+          "ingredient.spices"
+        ],
+        "ingredientsWithAmounts": [
+          "1 whole chicken",
+          "2 oz dark chocolate",
+          "6 dried chilies",
+          "1/4 cup almonds",
+          "1/4 cup raisins",
+          "2 tbsp sesame seeds",
+          "Cinnamon, cloves"
+        ],
+        "instructions": [
+          "Soak chilies and remove seeds",
+          "Toast nuts and seeds",
+          "Blend chilies with nuts and spices",
+          "Cook chicken and remove meat",
+          "Make sauce with chicken broth",
+          "Add chocolate and simmer",
+          "Return chicken to sauce",
+          "Serve with rice and tortillas"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🐔",
+        "tags": [
+          "mexican",
+          "mole",
+          "chicken"
+        ],
+        "prep_time": "120 min",
+        "cook_time": "120 min",
+        "total_time": "120 min"
+      },
+      {
+        "id": 146,
+        "name": "dish.carnitas",
+        "description": "description.description_carnitas",
+        "ingredients": [
+          "ingredient.porkshoulder",
+          "ingredient.orange",
+          "ingredient.lime",
+          "ingredient.garlic",
+          "ingredient.cumin"
+        ],
+        "ingredientsWithAmounts": [
+          "3 lb pork shoulder",
+          "2 oranges, juiced",
+          "2 limes, juiced",
+          "8 garlic cloves",
+          "2 tbsp cumin",
+          "Bay leaves",
+          "Salt"
+        ],
+        "instructions": [
+          "Cut pork into large chunks",
+          "Season with salt and cumin",
+          "Place in Dutch oven with citrus juice",
+          "Add garlic and bay leaves",
+          "Cover and cook at 300°F (150°C) for 3 hours",
+          "Remove and shred meat",
+          "Broil until crispy",
+          "Serve with tortillas and salsa"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "mexican",
+          "slow-cooked",
+          "pork"
+        ],
+        "prep_time": "180 min",
+        "cook_time": "180 min",
+        "total_time": "180 min"
+      },
+      {
+        "id": 147,
+        "name": "dish.pozole",
+        "description": "description.description_pozole",
+        "ingredients": [
+          "ingredient.pork",
+          "ingredient.hominy",
+          "ingredient.chilies",
+          "ingredient.garlic",
+          "ingredient.onion"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb pork shoulder",
+          "2 cans hominy",
+          "6 dried chilies",
+          "8 garlic cloves",
+          "2 onions",
+          "Cumin, oregano",
+          "Lime wedges"
+        ],
+        "instructions": [
+          "Cook pork in water with garlic and onion",
+          "Remove pork and shred",
+          "Strain broth",
+          "Soak and blend chilies",
+          "Add hominy to broth",
+          "Add shredded pork and chili puree",
+          "Simmer for 30 minutes",
+          "Serve with lime and toppings"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "mexican",
+          "soup",
+          "hominy"
+        ],
+        "prep_time": "120 min",
+        "cook_time": "120 min",
+        "total_time": "120 min"
+      },
+      {
+        "id": 148,
+        "name": "dish.quesadillas",
+        "description": "description.description_quesadillas",
+        "ingredients": [
+          "ingredient.tortillas",
+          "ingredient.cheese",
+          "ingredient.chicken",
+          "ingredient.vegetables",
+          "ingredient.salsa"
+        ],
+        "ingredientsWithAmounts": [
+          "8 flour tortillas",
+          "2 cups cheese",
+          "1 cup cooked chicken",
+          "Bell peppers, onions",
+          "Salsa",
+          "Sour cream"
+        ],
+        "instructions": [
+          "Heat skillet over medium heat",
+          "Place tortilla in pan",
+          "Add cheese and fillings",
+          "Top with second tortilla",
+          "Cook until golden",
+          "Flip and cook other side",
+          "Cut into wedges",
+          "Serve with salsa and sour cream"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐔",
+        "tags": [
+          "mexican",
+          "quick",
+          "cheese"
+        ],
+        "prep_time": "15 min",
+        "cook_time": "15 min",
+        "total_time": "15 min"
+      },
+      {
+        "id": 149,
+        "name": "dish.chilaquiles",
+        "description": "description.description_chilaquiles",
+        "ingredients": [
+          "ingredient.tortillachips",
+          "ingredient.salsa",
+          "ingredient.eggs",
+          "ingredient.cheese",
+          "ingredient.crema"
+        ],
+        "ingredientsWithAmounts": [
+          "4 cups tortilla chips",
+          "2 cups salsa",
+          "4 eggs",
+          "1 cup cheese",
+          "1/2 cup crema",
+          "Cilantro",
+          "Onion"
+        ],
+        "instructions": [
+          "Heat salsa in large pan",
+          "Add tortilla chips",
+          "Toss to coat with salsa",
+          "Fry eggs sunny-side up",
+          "Top chips with cheese",
+          "Place eggs on top",
+          "Drizzle with crema",
+          "Garnish with cilantro and onion"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥚",
+        "tags": [
+          "mexican",
+          "breakfast",
+          "eggs"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 150,
+        "name": "dish.tamales",
+        "description": "description.description_tamales",
+        "ingredients": [
+          "ingredient.masa",
+          "ingredient.pork",
+          "ingredient.chilies",
+          "ingredient.cornhusks",
+          "ingredient.lard"
+        ],
+        "ingredientsWithAmounts": [
+          "4 cups masa harina",
+          "1 lb pork shoulder",
+          "6 dried chilies",
+          "Corn husks",
+          "1/2 cup lard",
+          "Baking powder"
+        ],
+        "instructions": [
+          "Soak corn husks in warm water",
+          "Cook pork with chilies and spices",
+          "Shred pork and mix with sauce",
+          "Mix masa with lard and broth",
+          "Spread masa on husks",
+          "Add pork filling",
+          "Fold and tie husks",
+          "Steam for 1 hour"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🐷",
+        "tags": [
+          "mexican",
+          "steamed",
+          "traditional"
+        ],
+        "prep_time": "120 min",
+        "cook_time": "120 min",
+        "total_time": "120 min"
+      },
+      {
+        "id": 151,
+        "name": "dish.fajitas",
+        "description": "description.description_fajitas",
+        "ingredients": [
+          "ingredient.beef",
+          "ingredient.bellpeppers",
+          "ingredient.onion",
+          "ingredient.lime",
+          "ingredient.spices"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb beef skirt steak",
+          "3 ingredient.bell_peppers",
+          "2 onions",
+          "2 limes, juiced",
+          "Cumin, chili powder",
+          "Tortillas",
+          "Sour cream"
+        ],
+        "instructions": [
+          "Marinate beef with lime juice and spices",
+          "Slice peppers and onions",
+          "Heat cast iron skillet",
+          "Cook beef until desired doneness",
+          "Remove and slice thinly",
+          "Cook peppers and onions",
+          "Serve with warm tortillas",
+          "Add sour cream and salsa"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥩",
+        "tags": [
+          "mexican",
+          "grilled",
+          "beef"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 152,
+        "name": "dish.ceviche",
+        "description": "description.description_ceviche",
+        "ingredients": [
+          "ingredient.freshfish",
+          "ingredient.lime",
+          "ingredient.onion",
+          "ingredient.cilantro",
+          "ingredient.tomato"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb fresh white fish",
+          "1 cup lime juice",
+          "1 red onion",
+          "1/2 cup cilantro",
+          "2 ingredient.tomato",
+          "Jalapeño",
+          "Avocado"
+        ],
+        "instructions": [
+          "Cut fish into small cubes",
+          "Marinate in lime juice for 2 hours",
+          "Dice onion and tomatoes",
+          "Chop cilantro and jalapeño",
+          "Drain fish and mix with vegetables",
+          "Add salt and pepper",
+          "Serve with avocado",
+          "Accompany with tortilla chips"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐟",
+        "tags": [
+          "mexican",
+          "seafood",
+          "fresh"
+        ],
+        "prep_time": "120 min",
+        "cook_time": "120 min",
+        "total_time": "120 min"
+      },
+      {
+        "id": 153,
+        "name": "dish.elote",
+        "description": "description.description_elote",
+        "ingredients": [
+          "ingredient.corn",
+          "ingredient.mayonnaise",
+          "ingredient.cheese",
+          "ingredient.chilipowder",
+          "ingredient.lime"
+        ],
+        "ingredientsWithAmounts": [
+          "4 ears corn",
+          "1/2 cup mayonnaise",
+          "1/2 cup cotija cheese",
+          "2 tbsp chili powder",
+          "2 limes",
+          "Cilantro"
+        ],
+        "instructions": [
+          "Grill corn until charred",
+          "Brush with mayonnaise",
+          "Sprinkle with cheese",
+          "Add chili powder",
+          "Squeeze lime juice over top",
+          "Garnish with cilantro",
+          "Serve immediately"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🌽",
+        "tags": [
+          "mexican",
+          "street-food",
+          "corn"
+        ],
+        "prep_time": "15 min",
+        "cook_time": "15 min",
+        "total_time": "15 min"
+      },
+      {
+        "id": 154,
+        "name": "dish.birria",
+        "description": "description.description_birria",
+        "ingredients": [
+          "ingredient.beef",
+          "ingredient.chilies",
+          "ingredient.garlic",
+          "ingredient.cinnamon",
+          "ingredient.vinegar"
+        ],
+        "ingredientsWithAmounts": [
+          "3 lb beef chuck",
+          "8 dried chilies",
+          "10 garlic cloves",
+          "2 cinnamon sticks",
+          "1/4 cup vinegar",
+          "Bay leaves",
+          "Oregano"
+        ],
+        "instructions": [
+          "Soak chilies in hot water",
+          "Blend chilies with garlic and spices",
+          "Sear beef on all sides",
+          "Add chili puree and water",
+          "Add bay leaves and oregano",
+          "Simmer for 3 hours",
+          "Shred meat and return to broth",
+          "Serve with tortillas and lime"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🥩",
+        "tags": [
+          "mexican",
+          "stew",
+          "spicy"
+        ],
+        "prep_time": "180 min",
+        "cook_time": "180 min",
+        "total_time": "180 min"
+      },
+      {
+        "id": 155,
+        "name": "dish.tortas",
+        "description": "description.description_tortas",
+        "ingredients": [
+          "ingredient.bolillorolls",
+          "ingredient.meat",
+          "ingredient.avocado",
+          "ingredient.refriedbeans",
+          "ingredient.cheese"
+        ],
+        "ingredientsWithAmounts": [
+          "4 bolillo rolls",
+          "Cooked meat (carnitas, chicken)",
+          "2 avocados",
+          "1 cup refried beans",
+          "Cheese",
+          "Lettuce",
+          "Tomato"
+        ],
+        "instructions": [
+          "Slice rolls lengthwise",
+          "Spread refried beans on bottom",
+          "Add sliced meat",
+          "Top with cheese",
+          "Add avocado slices",
+          "Add lettuce and tomato",
+          "Close sandwich",
+          "Serve with chips"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐔",
+        "tags": [
+          "mexican",
+          "sandwich",
+          "quick"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 156,
+        "name": "dish.sopes",
+        "description": "description.description_sopes",
+        "ingredients": [
+          "ingredient.masa",
+          "ingredient.refriedbeans",
+          "ingredient.meat",
+          "ingredient.cheese",
+          "ingredient.salsa"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups masa harina",
+          "1 cup refried beans",
+          "Cooked meat",
+          "1 cup cheese",
+          "Salsa",
+          "Lettuce",
+          "Crema"
+        ],
+        "instructions": [
+          "Mix masa with water and salt",
+          "Form into thick discs",
+          "Cook on griddle until set",
+          "Pinch edges to form walls",
+          "Fry until golden",
+          "Top with beans and meat",
+          "Add cheese and salsa",
+          "Garnish with lettuce and crema"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥬",
+        "tags": [
+          "mexican",
+          "appetizer",
+          "corn"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 157,
+        "name": "dish.cochinita_pibil",
+        "description": "description.description_cochinita_pibil",
+        "ingredients": [
+          "ingredient.pork",
+          "ingredient.achiote",
+          "ingredient.orange",
+          "ingredient.garlic",
+          "ingredient.bananaleaves"
+        ],
+        "ingredientsWithAmounts": [
+          "3 lb pork shoulder",
+          "4 tbsp achiote paste",
+          "2 oranges, juiced",
+          "8 garlic cloves",
+          "Banana leaves",
+          "Cumin, oregano"
+        ],
+        "instructions": [
+          "Make marinade with achiote and citrus",
+          "Marinate pork overnight",
+          "Line baking dish with banana leaves",
+          "Place pork in dish",
+          "Cover with more banana leaves",
+          "Bake at 300°F (150°C) for 4 hours",
+          "Shred meat",
+          "Serve with pickled onions"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🐷",
+        "tags": [
+          "mexican",
+          "yucatan",
+          "slow-cooked"
+        ],
+        "prep_time": "240 min",
+        "cook_time": "240 min",
+        "total_time": "240 min"
+      },
+      {
+        "id": 158,
+        "name": "dish.tostadas",
+        "description": "description.description_tostadas",
+        "ingredients": [
+          "ingredient.tortillas",
+          "ingredient.refriedbeans",
+          "ingredient.meat",
+          "ingredient.lettuce",
+          "ingredient.cheese"
+        ],
+        "ingredientsWithAmounts": [
+          "8 corn tortillas",
+          "1 cup refried beans",
+          "Cooked meat",
+          "Shredded lettuce",
+          "1 cup cheese",
+          "Salsa",
+          "Crema"
+        ],
+        "instructions": [
+          "Fry tortillas until crispy",
+          "Spread with refried beans",
+          "Add shredded meat",
+          "Top with lettuce",
+          "Add cheese",
+          "Drizzle with salsa",
+          "Add crema",
+          "Serve immediately"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥬",
+        "tags": [
+          "mexican",
+          "crispy",
+          "quick"
+        ],
+        "prep_time": "15 min",
+        "cook_time": "15 min",
+        "total_time": "15 min"
+      },
+      {
+        "id": 159,
+        "name": "dish.salsa_verde",
+        "description": "description.description_salsa_verde",
+        "ingredients": [
+          "ingredient.tomatillos",
+          "ingredient.greenchilies",
+          "ingredient.onion",
+          "ingredient.garlic",
+          "ingredient.cilantro"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb tomatillos",
+          "4 green chilies",
+          "1 onion",
+          "4 garlic cloves",
+          "1/2 cup cilantro",
+          "Lime juice",
+          "Salt"
+        ],
+        "instructions": [
+          "Remove husks from tomatillos",
+          "Roast tomatillos and chilies",
+          "Blend with onion and garlic",
+          "Add cilantro and lime juice",
+          "Season with salt",
+          "Let cool",
+          "Serve with chips or as condiment"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🧅",
+        "tags": [
+          "mexican",
+          "salsa",
+          "green"
+        ],
+        "prep_time": "15 min",
+        "cook_time": "15 min",
+        "total_time": "15 min"
+      }
+    ],
+    "American": [
+      {
+        "id": 161,
+        "name": "dish.beef_burger",
+        "description": "description.description_beef_burger",
+        "ingredients": [
+          "ingredient.groundbeef",
+          "ingredient.burgerbuns",
+          "ingredient.cheddarcheese",
+          "ingredient.tomato",
+          "ingredient.lettuce",
+          "ingredient.onion",
+          "ingredient.pickles",
+          "ingredient.ketchup",
+          "ingredient.mustard"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb ground beef",
+          "4 burger buns",
+          "4 slices cheddar cheese",
+          "1 tomato, sliced",
+          "lettuce leaves",
+          "1 onion, sliced",
+          "pickles",
+          "ketchup",
+          "mustard"
+        ],
+        "instructions": [
+          "Form ground beef into 4 patties",
+          "Season with salt and pepper",
+          "Heat grill or pan to medium-high heat",
+          "Cook patties for 4-5 minutes per side",
+          "Add cheese during last minute of cooking",
+          "Toast burger buns lightly",
+          "Assemble burgers with all toppings",
+          "Serve with fries or salad"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥩",
+        "tags": [
+          "american"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 162,
+        "name": "dish.bbq_ribs",
+        "description": "description.description_bbq_ribs",
+        "ingredients": [
+          "ingredient.porkribs",
+          "ingredient.bbqsauce"
+        ],
+        "ingredientsWithAmounts": [
+          "3 lb pork ribs",
+          "2 cups BBQ sauce"
+        ],
+        "instructions": [
+          "Season ribs",
+          "Cook slowly",
+          "Add sauce"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐷",
+        "tags": [
+          "american",
+          "bbq",
+          "ribs"
+        ],
+        "prep_time": "180 min",
+        "cook_time": "180 min",
+        "total_time": "180 min"
+      },
+      {
+        "id": 163,
+        "name": "dish.mac_and_cheese",
+        "description": "description.description_mac_and_cheese",
+        "ingredients": [
+          "ingredient.macaroni",
+          "ingredient.cheddar"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb macaroni",
+          "3 cups cheddar"
+        ],
+        "instructions": [
+          "Cook pasta",
+          "Make cheese sauce",
+          "Combine"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍽️",
+        "tags": [
+          "american",
+          "pasta",
+          "cheese"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 164,
+        "name": "dish.buffalo_wings",
+        "description": "description.description_buffalo_wings",
+        "ingredients": [
+          "ingredient.chickenwings",
+          "ingredient.hotsauce"
+        ],
+        "ingredientsWithAmounts": [
+          "3 lb chicken wings",
+          "1/2 cup hot sauce"
+        ],
+        "instructions": [
+          "Fry wings",
+          "Make sauce",
+          "Toss together"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐔",
+        "tags": [
+          "american",
+          "wings",
+          "spicy"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 165,
+        "name": "dish.clam_chowder",
+        "description": "description.description_clam_chowder",
+        "ingredients": [
+          "ingredient.clams",
+          "ingredient.potatoes"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lbs clams",
+          "4 potatoes"
+        ],
+        "instructions": [
+          "Cook clams",
+          "Add potatoes",
+          "Make creamy"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🦪",
+        "tags": [
+          "american",
+          "soup",
+          "seafood"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 167,
+        "name": "dish.fried_chicken",
+        "description": "description.description_fried_chicken",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.flour"
+        ],
+        "ingredientsWithAmounts": [
+          "1 whole chicken",
+          "2 cups flour"
+        ],
+        "instructions": [
+          "Season chicken",
+          "Dredge in flour",
+          "Fry until golden"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "american",
+          "fried",
+          "chicken"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 169,
+        "name": "dish.caesar_salad",
+        "description": "description.description_caesar_salad",
+        "ingredients": [
+          "ingredient.romaine",
+          "ingredient.parmesan"
+        ],
+        "ingredientsWithAmounts": [
+          "2 heads romaine",
+          "1/2 cup parmesan"
+        ],
+        "instructions": [
+          "Wash lettuce",
+          "Make dressing",
+          "Toss and serve"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥗",
+        "tags": [
+          "american",
+          "salad",
+          "caesar"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      },
+      {
+        "id": 171,
+        "name": "dish.chili",
+        "description": "description.description_chili",
+        "ingredients": [
+          "ingredient.groundbeef",
+          "ingredient.beans"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb ground beef",
+          "2 cans beans"
+        ],
+        "instructions": [
+          "Brown meat",
+          "Add beans and spices",
+          "Simmer"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥩",
+        "tags": [
+          "american",
+          "chili",
+          "spicy"
+        ],
+        "prep_time": "90 min",
+        "cook_time": "90 min",
+        "total_time": "90 min"
+      },
+      {
+        "id": 173,
+        "name": "dish.pot_roast",
+        "description": "description.description_pot_roast",
+        "ingredients": [
+          "ingredient.beef",
+          "ingredient.potatoes"
+        ],
+        "ingredientsWithAmounts": [
+          "3 lb beef chuck roast",
+          "6 potatoes"
+        ],
+        "instructions": [
+          "Brown meat",
+          "Add vegetables",
+          "Slow cook"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥩",
+        "tags": [
+          "american",
+          "roast",
+          "beef"
+        ],
+        "prep_time": "180 min",
+        "cook_time": "180 min",
+        "total_time": "180 min"
+      },
+      {
+        "id": 174,
+        "name": "dish.cobb_salad",
+        "description": "description.description_cobb_salad",
+        "ingredients": [
+          "ingredient.lettuce",
+          "ingredient.bacon"
+        ],
+        "ingredientsWithAmounts": [
+          "Mixed lettuce",
+          "8 oz bacon"
+        ],
+        "instructions": [
+          "Cook bacon",
+          "Arrange ingredients",
+          "Add dressing"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥬",
+        "tags": [
+          "american",
+          "salad",
+          "cobb"
+        ],
+        "prep_time": "25 min",
+        "cook_time": "25 min",
+        "total_time": "25 min"
+      },
+      {
+        "id": 176,
+        "name": "dish.reuben_sandwich",
+        "description": "description.description_reuben_sandwich",
+        "ingredients": [
+          "ingredient.ryebread",
+          "ingredient.cornedbeef"
+        ],
+        "ingredientsWithAmounts": [
+          "8 slices rye bread",
+          "1 lb corned beef"
+        ],
+        "instructions": [
+          "Layer ingredients",
+          "Grill sandwich",
+          "Serve hot"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍞",
+        "tags": [
+          "american",
+          "sandwich",
+          "reuben"
+        ],
+        "prep_time": "15 min",
+        "cook_time": "15 min",
+        "total_time": "15 min"
+      },
+      {
+        "id": 177,
+        "name": "dish.jambalaya",
+        "description": "description.description_jambalaya",
+        "ingredients": [
+          "ingredient.rice",
+          "ingredient.sausage"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups rice",
+          "1 lb sausage"
+        ],
+        "instructions": [
+          "Cook meat",
+          "Add rice",
+          "Simmer"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍚",
+        "tags": [
+          "american",
+          "rice",
+          "spicy"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 178,
+        "name": "dish.cheeseburger",
+        "description": "description.description_cheeseburger",
+        "ingredients": [
+          "ingredient.groundbeef",
+          "ingredient.cheese"
+        ],
+        "ingredientsWithAmounts": [
+          "1.5 lb ground beef",
+          "4 slices cheese"
+        ],
+        "instructions": [
+          "Form patties",
+          "Grill",
+          "Add toppings"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥩",
+        "tags": [
+          "american",
+          "burger",
+          "cheese"
+        ],
+        "prep_time": "20 min",
+        "cook_time": "20 min",
+        "total_time": "20 min"
+      }
+    ],
+    "Greek": [
+      {
+        "id": 181,
+        "name": "dish.moussaka",
+        "description": "description.description_moussaka",
+        "ingredients": [
+          "ingredient.eggplant",
+          "ingredient.groundlamb",
+          "ingredient.groundbeef",
+          "ingredient.onion",
+          "ingredient.garlic",
+          "ingredient.tomato",
+          "ingredient.redwine",
+          "ingredient.cheese",
+          "ingredient.milk",
+          "ingredient.flour",
+          "ingredient.butter"
+        ],
+        "ingredientsWithAmounts": [
+          "2 ingredient.large_eggplants_sliced",
+          "1 lb ground lamb",
+          "1 lb ground beef",
+          "1 large onion, diced",
+          "4 cloves garlic, minced",
+          "2 ingredient.cans_crushed_tomatoes",
+          "1/2 cup red wine",
+          "1 cup grated cheese",
+          "2 cups milk",
+          "4 tbsp flour",
+          "4 tbsp butter"
+        ],
+        "instructions": [
+          "Salt eggplant slices and let sit for 30 minutes",
+          "Rinse and pat dry, then fry until golden",
+          "Brown meat with onion and garlic",
+          "Add tomatoes, wine, and spices",
+          "Simmer meat sauce for 30 minutes",
+          "Make béchamel sauce with butter, flour, and milk",
+          "Layer eggplant, meat sauce, and béchamel",
+          "Top with cheese and bake at 375°F (190°C) for 45 minutes",
+          "Let rest 15 minutes before serving"
+        ],
+        "servings": 8,
+        "difficulty": "Hard",
+        "emoji": "🍆",
+        "tags": [
+          "greek"
+        ],
+        "prep_time": "90 min",
+        "cook_time": "90 min",
+        "total_time": "90 min"
+      },
+      {
+        "id": 183,
+        "name": "dish.spanakopita",
+        "description": "description.description_spanakopita",
+        "ingredients": [
+          "ingredient.spinach",
+          "ingredient.feta"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lbs spinach",
+          "1 lb feta"
+        ],
+        "instructions": [
+          "Make filling",
+          "Layer phyllo",
+          "Bake"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥬",
+        "tags": [
+          "greek",
+          "pie",
+          "spinach"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 184,
+        "name": "dish.souvlaki",
+        "description": "description.description_souvlaki",
+        "ingredients": [
+          "ingredient.lamb",
+          "ingredient.oliveoil"
+        ],
+        "ingredientsWithAmounts": [
+          "2 lb lamb",
+          "1/2 cup olive oil"
+        ],
+        "instructions": [
+          "Marinate meat",
+          "Skewer",
+          "Grill"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🐑",
+        "tags": [
+          "greek",
+          "grilled",
+          "lamb"
+        ],
+        "prep_time": "30 min",
+        "cook_time": "30 min",
+        "total_time": "30 min"
+      },
+      {
+        "id": 185,
+        "name": "dish.tzatziki",
+        "description": "description.description_tzatziki",
+        "ingredients": [
+          "ingredient.yogurt",
+          "ingredient.cucumber"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups yogurt",
+          "1 cucumber"
+        ],
+        "instructions": [
+          "Grate cucumber",
+          "Mix with yogurt",
+          "Season"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🥒",
+        "tags": [
+          "greek",
+          "dip",
+          "yogurt"
+        ],
+        "prep_time": "15 min",
+        "cook_time": "15 min",
+        "total_time": "15 min"
+      },
+      {
+        "id": 186,
+        "name": "dish.pastitsio",
+        "description": "description.description_pastitsio",
+        "ingredients": [
+          "ingredient.pasta",
+          "ingredient.groundbeef"
+        ],
+        "ingredientsWithAmounts": [
+          "1 lb pasta",
+          "1.5 lb ground beef"
+        ],
+        "instructions": [
+          "Cook pasta",
+          "Make meat sauce",
+          "Layer and bake"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🍝",
+        "tags": [
+          "greek",
+          "pasta",
+          "baked"
+        ],
+        "prep_time": "90 min",
+        "cook_time": "90 min",
+        "total_time": "90 min"
+      },
+      {
+        "id": 187,
+        "name": "dish.greek_salad",
+        "description": "description.description_greek_salad",
+        "ingredients": [
+          "ingredient.tomatoes",
+          "ingredient.feta"
+        ],
+        "ingredientsWithAmounts": [
+          "4 ingredient.tomato",
+          "1/2 lb feta"
+        ],
+        "instructions": [
+          "Chop vegetables",
+          "Add feta",
+          "Dress with oil"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍅",
+        "tags": [
+          "greek",
+          "salad",
+          "fresh"
+        ],
+        "prep_time": "15 min",
+        "cook_time": "15 min",
+        "total_time": "15 min"
+      },
+      {
+        "id": 188,
+        "name": "dish.dolmades",
+        "description": "description.description_dolmades",
+        "ingredients": [
+          "ingredient.grapeleaves",
+          "ingredient.rice"
+        ],
+        "ingredientsWithAmounts": [
+          "1 jar grape leaves",
+          "1 cup rice"
+        ],
+        "instructions": [
+          "Fill leaves",
+          "Roll tightly",
+          "Simmer"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍚",
+        "tags": [
+          "greek",
+          "stuffed",
+          "rice"
+        ],
+        "prep_time": "90 min",
+        "cook_time": "90 min",
+        "total_time": "90 min"
+      },
+      {
+        "id": 190,
+        "name": "dish.keftedes",
+        "description": "description.description_keftedes",
+        "ingredients": [
+          "ingredient.groundbeef",
+          "ingredient.herbs"
+        ],
+        "ingredientsWithAmounts": [
+          "1.5 lb ground beef",
+          "Fresh herbs"
+        ],
+        "instructions": [
+          "Mix ingredients",
+          "Form balls",
+          "Fry"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🥩",
+        "tags": [
+          "greek",
+          "meatballs",
+          "herbs"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 191,
+        "name": "dish.avgolemono",
+        "description": "description.description_avgolemono",
+        "ingredients": [
+          "ingredient.chicken",
+          "ingredient.lemon"
+        ],
+        "ingredientsWithAmounts": [
+          "1 whole chicken",
+          "3 lemons"
+        ],
+        "instructions": [
+          "Cook chicken",
+          "Make soup",
+          "Add lemon"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🐔",
+        "tags": [
+          "greek",
+          "soup",
+          "lemon"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 192,
+        "name": "dish.loukoumades",
+        "description": "description.description_loukoumades",
+        "ingredients": [
+          "ingredient.flour",
+          "ingredient.honey"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups flour",
+          "1/2 cup honey"
+        ],
+        "instructions": [
+          "Make dough",
+          "Fry balls",
+          "Drizzle honey"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🌾",
+        "tags": [
+          "greek",
+          "dessert",
+          "donuts"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 193,
+        "name": "dish.horiatiki",
+        "description": "description.description_horiatiki",
+        "ingredients": [
+          "ingredient.tomatoes",
+          "ingredient.cucumber"
+        ],
+        "ingredientsWithAmounts": [
+          "4 ingredient.tomato",
+          "1 cucumber"
+        ],
+        "instructions": [
+          "Chop vegetables",
+          "Add olives",
+          "Dress"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍅",
+        "tags": [
+          "greek",
+          "salad",
+          "village"
+        ],
+        "prep_time": "10 min",
+        "cook_time": "10 min",
+        "total_time": "10 min"
+      },
+      {
+        "id": 194,
+        "name": "dish.kleftiko",
+        "description": "description.description_kleftiko",
+        "ingredients": [
+          "ingredient.lamb",
+          "ingredient.herbs"
+        ],
+        "ingredientsWithAmounts": [
+          "3 lb lamb leg",
+          "Fresh herbs"
+        ],
+        "instructions": [
+          "Season lamb",
+          "Wrap tightly",
+          "Slow cook"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🐑",
+        "tags": [
+          "greek",
+          "lamb",
+          "slow-cooked"
+        ],
+        "prep_time": "240 min",
+        "cook_time": "240 min",
+        "total_time": "240 min"
+      },
+      {
+        "id": 195,
+        "name": "dish.galaktoboureko",
+        "description": "description.description_galaktoboureko",
+        "ingredients": [
+          "ingredient.phyllo",
+          "ingredient.milk"
+        ],
+        "ingredientsWithAmounts": [
+          "1 package phyllo",
+          "4 cups milk"
+        ],
+        "instructions": [
+          "Make custard",
+          "Layer phyllo",
+          "Bake"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🍽️",
+        "tags": [
+          "greek",
+          "dessert",
+          "custard"
+        ],
+        "prep_time": "90 min",
+        "cook_time": "90 min",
+        "total_time": "90 min"
+      },
+      {
+        "id": 196,
+        "name": "dish.fasolada",
+        "description": "description.description_fasolada",
+        "ingredients": [
+          "ingredient.whitebeans",
+          "ingredient.vegetables"
+        ],
+        "ingredientsWithAmounts": [
+          "2 cups white beans",
+          "Mixed vegetables"
+        ],
+        "instructions": [
+          "Soak beans",
+          "Cook with vegetables",
+          "Season"
+        ],
+        "servings": 4,
+        "difficulty": "Easy",
+        "emoji": "🍽️",
+        "tags": [
+          "greek",
+          "soup",
+          "beans"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      },
+      {
+        "id": 197,
+        "name": "dish.koulourakia",
+        "description": "description.description_koulourakia",
+        "ingredients": [
+          "ingredient.flour",
+          "ingredient.butter"
+        ],
+        "ingredientsWithAmounts": [
+          "4 cups flour",
+          "1 cup butter"
+        ],
+        "instructions": [
+          "Mix dough",
+          "Shape cookies",
+          "Bake"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🌾",
+        "tags": [
+          "greek",
+          "cookies",
+          "butter"
+        ],
+        "prep_time": "45 min",
+        "cook_time": "45 min",
+        "total_time": "45 min"
+      },
+      {
+        "id": 198,
+        "name": "dish.revani",
+        "description": "description.description_revani",
+        "ingredients": [
+          "ingredient.semolina",
+          "ingredient.sugar"
+        ],
+        "ingredientsWithAmounts": [
+          "1 cup semolina",
+          "1 cup sugar"
+        ],
+        "instructions": [
+          "Make cake",
+          "Bake",
+          "Add syrup"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🍽️",
+        "tags": [
+          "greek",
+          "cake",
+          "semolina"
+        ],
+        "prep_time": "75 min",
+        "cook_time": "75 min",
+        "total_time": "75 min"
+      },
+      {
+        "id": 199,
+        "name": "dish.kokoretsi",
+        "description": "description.description_kokoretsi",
+        "ingredients": [
+          "ingredient.lamboffal",
+          "ingredient.herbs"
+        ],
+        "ingredientsWithAmounts": [
+          "Lamb offal",
+          "Fresh herbs"
+        ],
+        "instructions": [
+          "Prepare offal",
+          "Wrap",
+          "Grill"
+        ],
+        "servings": 4,
+        "difficulty": "Hard",
+        "emoji": "🐑",
+        "tags": [
+          "greek",
+          "lamb",
+          "grilled"
+        ],
+        "prep_time": "180 min",
+        "cook_time": "180 min",
+        "total_time": "180 min"
+      },
+      {
+        "id": 200,
+        "name": "dish.melomakarona",
+        "description": "description.description_melomakarona",
+        "ingredients": [
+          "ingredient.flour",
+          "ingredient.honey"
+        ],
+        "ingredientsWithAmounts": [
+          "4 cups flour",
+          "1/2 cup honey"
+        ],
+        "instructions": [
+          "Make cookies",
+          "Bake",
+          "Dip in honey"
+        ],
+        "servings": 4,
+        "difficulty": "Medium",
+        "emoji": "🌾",
+        "tags": [
+          "greek",
+          "cookies",
+          "honey"
+        ],
+        "prep_time": "60 min",
+        "cook_time": "60 min",
+        "total_time": "60 min"
+      }
+    ]
+  },
+  "basic": {},
+  "metadata": {
+    "version": "2.2.0",
+    "lastUpdated": "2025-01-12T12:39:24.022Z"
+  }
+}

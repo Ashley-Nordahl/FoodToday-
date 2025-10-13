@@ -1,0 +1,902 @@
+{
+  "popularDrinks": [
+    {
+      "id": "pop1",
+      "drinkId": 401,
+      "name": "Iskaffe",
+      "emoji": "☕",
+      "description": "Kall bryggning perfektion"
+    },
+    {
+      "id": "pop2",
+      "drinkId": 101,
+      "name": "Färsk Apelsinjuice",
+      "emoji": "🍊",
+      "description": "Vitamin C boost"
+    },
+    {
+      "id": "pop3",
+      "drinkId": 201,
+      "name": "Grön Smoothie",
+      "emoji": "🥤",
+      "description": "Hälsosam & energigivande"
+    },
+    {
+      "id": "pop4",
+      "drinkId": 402,
+      "name": "Bubble Tea",
+      "emoji": "🧋",
+      "description": "Taiwanesisk favorit"
+    },
+    {
+      "id": "pop5",
+      "drinkId": 102,
+      "name": "Limonad",
+      "emoji": "🍋",
+      "description": "Klassisk uppfriskning"
+    },
+    {
+      "id": "pop6",
+      "drinkId": 301,
+      "name": "Mojito",
+      "emoji": "🍹",
+      "description": "Myntig färsk cocktail"
+    }
+  ],
+  "drinksByCategory": {
+    "Juice": {
+      "emoji": "🍹",
+      "drinks": [
+        {
+          "id": 101,
+          "name": "Färsk Apelsinjuice",
+          "description": "Färskpressad apelsinjuice fullpackad med C-vitamin",
+          "emoji": "🍊",
+          "recipe": {
+            "ingredients": [
+              "4-5 stora apelsiner",
+              "1 msk honung eller socker (valfritt)",
+              "Istärningar",
+              "Färska myntablad (valfritt)"
+            ],
+            "instructions": [
+              "Tvätta apelsinerna grundligt och skär dem på mitten.",
+              "Pressa apelsinerna med en citrusjuicer eller manuell juicer.",
+              "Sil juicen genom ett fint nät för att ta bort fruktkött om önskat.",
+              "Tillsätt honung eller socker om du föredrar sötare juice.",
+              "Rör om väl och smaka. Justera sötman efter behov.",
+              "Servera med is och färska myntablad om önskat.",
+              "Bäst konsumerat färskt inom 24 timmar."
+            ],
+            "prepTime": "10 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "2 koppar (2 portioner)"
+          }
+        },
+        {
+          "id": 102,
+          "name": "Limonad",
+          "description": "Klassisk hemlagad limonad med färska citroner och mynta",
+          "emoji": "🍋",
+          "recipe": {
+            "ingredients": [
+              "1 kopp färsk citronjuice (ca 6-8 citroner)",
+              "1 kopp socker",
+              "6 koppar kallt vatten",
+              "1 citron, skivad till garnering",
+              "Färska myntablad",
+              "Istärningar"
+            ],
+            "instructions": [
+              "Gör enkelt sockerlag: Värm 1 kopp vatten och socker i en kastrull, rör om tills sockret lösts upp. Låt svalna.",
+              "Pressa citronerna och sil för att ta bort frön och fruktkött.",
+              "I en stor kanna, kombinera citronjuice, sockerlag och återstående 5 koppar kallt vatten.",
+              "Rör om väl och smaka. Tillsätt mer socker eller vatten för att justera sötman/syran.",
+              "Tillsätt citronskivor och mosade myntablad.",
+              "Kyl i minst 1 timme före servering.",
+              "Servera med is. Håller i kylskåp i upp till 1 vecka."
+            ],
+            "prepTime": "15 minuter",
+            "cookTime": "5 minuter + 1 timme kylning",
+            "yield": "8 koppar (6-8 portioner)"
+          }
+        },
+        {
+          "id": 103,
+          "name": "Tropisk Soluppgång",
+          "description": "Vattenmelon, mango och lime blandning",
+          "emoji": "🍉",
+          "recipe": {
+            "ingredients": [
+              "2 koppar kubad vattenmelon",
+              "1 kopp kubad mango",
+              "2 msk färsk limejuice",
+              "1 msk honung",
+              "1/2 kopp kokosvatten",
+              "Istärningar",
+              "Färsk mynta till garnering"
+            ],
+            "instructions": [
+              "Ta bort frön från vattenmelon och kub kottet.",
+              "Skala och kub mangon.",
+              "Tillsätt vattenmelon och mango till mixer.",
+              "Tillsätt limejuice, honung och kokosvatten.",
+              "Mixa på hög hastighet tills jämn.",
+              "Sil genom fint nät om önskat för smidigare konsistens.",
+              "Servera med is och färsk mynta garnering.",
+              "Bäst serverat omedelbart medan färskt."
+            ],
+            "prepTime": "10 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "3-4 portioner"
+          }
+        },
+        {
+          "id": 104,
+          "name": "Äpple Ingefära Uppfriskare",
+          "description": "Äpple, ingefära och citron blandning",
+          "emoji": "🍎",
+          "recipe": {
+            "ingredients": [
+              "3 stora äpplen (vilken sort som helst)",
+              "1 tum färsk ingefärsrot",
+              "2 msk färsk citronjuice",
+              "1 msk honung eller lönnsirap",
+              "1 kopp kallt vatten",
+              "Istärningar",
+              "Kanelpinne till garnering"
+            ],
+            "instructions": [
+              "Tvätta och kärna ur äpplena, skär i bitar.",
+              "Skala och hacka grovt färsk ingefära.",
+              "Tillsätt äpplen och ingefära till mixer med vatten.",
+              "Mixa på hög hastighet tills jämn.",
+              "Sil genom fint nät eller ostduk.",
+              "Tillsätt citronjuice och honung, rör om väl.",
+              "Smaka och justera sötman om nödvändigt.",
+              "Servera med is och kanelpinne garnering."
+            ],
+            "prepTime": "15 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "2-3 portioner"
+          }
+        },
+        {
+          "id": 105,
+          "name": "Ananas Mynta Kylare",
+          "description": "Ananas, mynta och lime blandning",
+          "emoji": "🍍",
+          "recipe": {
+            "ingredients": [
+              "2 koppar färska ananasbitar",
+              "1/4 kopp färska myntablad",
+              "3 msk färsk limejuice",
+              "2 msk honung",
+              "1 kopp kokosvatten",
+              "Istärningar",
+              "Ananasbit till garnering"
+            ],
+            "instructions": [
+              "Skär färsk ananas i bitar, ta bort kärnan.",
+              "Tillsätt ananasbitar till mixer.",
+              "Tillsätt färska myntablad, limejuice och honung.",
+              "Häll i kokosvatten och mixa tills jämn.",
+              "Sil genom fint nät för att ta bort eventuella fiberbitar.",
+              "Smaka och justera sötman eller syran efter behov.",
+              "Servera med is och ananasbit garnering.",
+              "Förvara i kylskåp i upp till 2 dagar."
+            ],
+            "prepTime": "12 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "2-3 portioner"
+          }
+        },
+        {
+          "id": 106,
+          "name": "Grön Detox Juice",
+          "description": "Kokosvatten, spenat och gurka blandning",
+          "emoji": "🥥",
+          "recipe": {
+            "ingredients": [
+              "1 kopp kokosvatten",
+              "2 koppar färska spenatblad",
+              "1 stor gurka, skalad",
+              "2 stjälkar selleri",
+              "1 grönt äpple, urkärnat",
+              "1 tum färsk ingefära",
+              "1 msk citronjuice",
+              "Istärningar"
+            ],
+            "instructions": [
+              "Tvätta alla grönsaker grundligt.",
+              "Skär gurka och selleri i bitar.",
+              "Kärna ur det gröna äpplet och skär i bitar.",
+              "Tillsätt spenat, gurka, selleri och äpple till mixer.",
+              "Tillsätt kokosvatten och mixa tills jämn.",
+              "Sil genom fint nät eller ostduk.",
+              "Tillsätt ingefära och citronjuice, rör om väl.",
+              "Servera med is omedelbart för bästa näring.",
+              "Drick inom 24 timmar för maximal fördel."
+            ],
+            "prepTime": "15 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "2 portioner"
+          }
+        },
+        {
+          "id": 107,
+          "name": "Morot Apelsin Kickare",
+          "description": "Morot, apelsin och gurkmeja blandning",
+          "emoji": "🥕",
+          "recipe": {
+            "ingredients": [
+              "4 stora morötter, tvättade och hackade",
+              "2 apelsiner, skalade och segmenterade",
+              "1 tum färsk gurkmejarot",
+              "1 tum färsk ingefära",
+              "1 msk honung",
+              "1/2 kopp kallt vatten",
+              "Istärningar",
+              "Apelsinskiva till garnering"
+            ],
+            "instructions": [
+              "Tvätta och hacka grovt morötter (behöver inte skalas).",
+              "Skala apelsiner och ta bort eventuella frön.",
+              "Skala och hacka gurkmeja och ingefära.",
+              "Tillsätt morötter, apelsiner, gurkmeja och ingefära till mixer.",
+              "Tillsätt vatten och mixa tills helt jämn.",
+              "Sil genom fint nät eller ostduk.",
+              "Tillsätt honung och rör om väl.",
+              "Smaka och justera sötman om nödvändigt.",
+              "Servera med is och apelsinskiva garnering.",
+              "Bäst konsumerat färskt för maximal vitamininnehåll."
+            ],
+            "prepTime": "15 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "2-3 portioner"
+          }
+        },
+        {
+          "id": 108,
+          "name": "Bär Antioxidant Mix",
+          "description": "Tranbär, blåbär och granatäpple blandning",
+          "emoji": "🫐",
+          "recipe": {
+            "ingredients": [
+              "1 kopp färska tranbär",
+              "1/2 kopp blåbär",
+              "1/2 kopp granatäppeljuice",
+              "2 msk honung eller agave",
+              "1 msk färsk citronjuice",
+              "1 kopp kallt vatten",
+              "Istärningar",
+              "Färska bär till garnering"
+            ],
+            "instructions": [
+              "Tvätta tranbär och blåbär grundligt.",
+              "Tillsätt tranbär och blåbär till mixer.",
+              "Tillsätt granatäppeljuice, honung och citronjuice.",
+              "Häll i vatten och mixa tills jämn.",
+              "Sil genom fint nät för att ta bort bärskal.",
+              "Smaka och justera sötman om nödvändigt.",
+              "Tillsätt mer vatten om för tjockt.",
+              "Servera med is och färska bär som garnering.",
+              "Förvara i kylskåp i upp till 3 dagar."
+            ],
+            "prepTime": "10 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "2-3 portioner"
+          }
+        }
+      ]
+    },
+    "Smoothie": {
+      "emoji": "🥤",
+      "drinks": [
+        {
+          "id": 201,
+          "name": "Grön Smoothie",
+          "description": "Spenat, banan och mango smoothie",
+          "emoji": "🥤",
+          "recipe": {
+            "ingredients": [
+              "2 koppar färsk spenat",
+              "1 mogen banan",
+              "1 kopp frysta mangobitar",
+              "1 kopp kokosvatten",
+              "1 msk chiafrön",
+              "1 msk honung",
+              "Istärningar"
+            ],
+            "instructions": [
+              "Tvätta spenatblad grundligt.",
+              "Skala bananen och bryt i bitar.",
+              "Tillsätt spenat, banan och mango till mixer.",
+              "Häll i kokosvatten och tillsätt chiafrön.",
+              "Tillsätt honung och mixa på hög hastighet tills jämn.",
+              "Tillsätt istärningar och mixa tills önskad konsistens.",
+              "Smaka och justera sötman om nödvändigt.",
+              "Servera omedelbart i ett högt glas.",
+              "Bäst konsumerat inom 30 minuter för maximal näring."
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "2 portioner"
+          }
+        },
+        {
+          "id": 202,
+          "name": "Bär Protein Smoothie",
+          "description": "Blandade bär med proteinpulver",
+          "emoji": "🫐",
+          "recipe": {
+            "ingredients": [
+              "1 kopp blandade bär (jordgubbar, blåbär, hallon)",
+              "1 skopa vaniljproteinpulver",
+              "1 kopp mandelmjölk",
+              "1 msk mandelsmör",
+              "1 msk honung",
+              "1/2 tsk vaniljextrakt",
+              "Istärningar"
+            ],
+            "instructions": [
+              "Tvätta färska bär eller använd frysta bär.",
+              "Tillsätt bär till mixer med mandelmjölk.",
+              "Tillsätt proteinpulver, mandelsmör och honung.",
+              "Tillsätt vaniljextrakt och mixa tills jämn.",
+              "Tillsätt istärningar och mixa tills tjock och krämig.",
+              "Smaka och justera sötman eller proteinpulver efter behov.",
+              "Häll i glas och servera omedelbart.",
+              "Perfekt för återhämtning efter träning."
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "1 stor portion"
+          }
+        },
+        {
+          "id": 203,
+          "name": "Choklad Banan Smoothie",
+          "description": "Choklad, banan och jordnötssmör smoothie",
+          "emoji": "🍫",
+          "recipe": {
+            "ingredients": [
+              "2 mogna bananer",
+              "2 msk kakaopulver",
+              "2 msk jordnötssmör",
+              "1 kopp mjölk (mjölk eller växtbaserad)",
+              "1 msk honung",
+              "1/2 tsk vaniljextrakt",
+              "Istärningar"
+            ],
+            "instructions": [
+              "Skala bananer och bryt i bitar.",
+              "Tillsätt bananer, kakaopulver och jordnötssmör till mixer.",
+              "Häll i mjölk och tillsätt honung och vanilj.",
+              "Mixa på hög hastighet tills jämn och krämig.",
+              "Tillsätt istärningar och mixa tills tjock.",
+              "Smaka och justera sötman eller kakaopulver efter behov.",
+              "Häll i glas och servera omedelbart.",
+              "Perfekt för en hälsosam efterrätt eller frukost."
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "2 portioner"
+          }
+        },
+        {
+          "id": 204,
+          "name": "Tropisk Smoothie",
+          "description": "Ananas, kokos och mango smoothie",
+          "emoji": "🥥",
+          "recipe": {
+            "ingredients": [
+              "1 kopp frysta ananasbitar",
+              "1 kopp frysta mangobitar",
+              "1/2 kopp kokosmjölk",
+              "1/2 kopp apelsinjuice",
+              "1 msk kokosflingor",
+              "1 msk honung",
+              "Istärningar"
+            ],
+            "instructions": [
+              "Tillsätt fryst ananas och mango till mixer.",
+              "Häll i kokosmjölk och apelsinjuice.",
+              "Tillsätt kokosflingor och honung.",
+              "Mixa på hög hastighet tills jämn.",
+              "Tillsätt istärningar och mixa tills tjock och krämig.",
+              "Smaka och justera sötman om nödvändigt.",
+              "Häll i glas och garnera med fler kokosflingor.",
+              "För dig till ett tropiskt paradis!"
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "2 portioner"
+          }
+        },
+        {
+          "id": 205,
+          "name": "Havregryn Kaka Smoothie",
+          "description": "Havre, banan och kanel smoothie",
+          "emoji": "🥣",
+          "recipe": {
+            "ingredients": [
+              "1/2 kopp havregryn",
+              "1 mogen banan",
+              "1 kopp mjölk (mjölk eller växtbaserad)",
+              "1 msk mandelsmör",
+              "1 msk honung",
+              "1/2 tsk kanel",
+              "1/4 tsk vaniljextrakt",
+              "Istärningar"
+            ],
+            "instructions": [
+              "Tillsätt havregryn till mixer och mixa tills grovt malet.",
+              "Skala bananen och tillsätt till mixer.",
+              "Häll i mjölk och tillsätt mandelsmör, honung och kryddor.",
+              "Mixa på hög hastighet tills jämn och krämig.",
+              "Tillsätt istärningar och mixa tills tjock.",
+              "Smaka och justera sötman eller kanel efter behov.",
+              "Häll i glas och servera omedelbart.",
+              "Smakar som en hälsosam havregrynskaka i ett glas!"
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "2 portioner"
+          }
+        }
+      ]
+    },
+    "Kaffe": {
+      "emoji": "☕",
+      "drinks": [
+        {
+          "id": 401,
+          "name": "Iskaffe",
+          "description": "Kall bryggkaffe med is och en skvätt mjölk",
+          "emoji": "☕",
+          "recipe": {
+            "ingredients": [
+              "1 kopp grovmalet kaffe",
+              "4 koppar kallt vatten",
+              "2 koppar istärningar",
+              "Mjölk eller grädde efter smak",
+              "Socker eller enkelt sockerlag (valfritt)",
+              "Vaniljextrakt (valfritt)"
+            ],
+            "instructions": [
+              "Kombinera grovmalet kaffe och kallt vatten i en stor burk.",
+              "Rör om försiktigt för att säkerställa att allt kaffe blir vått.",
+              "Täck och kyl i 12-24 timmar.",
+              "Sil kaffe koncentrat genom ett fint nät eller kaffefilter.",
+              "Fyll glas med istärningar.",
+              "Häll kaffe koncentrat över is, fyll ungefär 2/3 av glaset.",
+              "Tillsätt mjölk eller grädde efter smak.",
+              "Söt med socker eller enkelt sockerlag om önskat.",
+              "Tillsätt en droppe vaniljextrakt för extra smak.",
+              "Rör om och servera omedelbart."
+            ],
+            "prepTime": "5 minuter + 12-24 timmar bryggning",
+            "cookTime": "Ingen tillagning",
+            "yield": "4-6 portioner"
+          }
+        },
+        {
+          "id": 402,
+          "name": "Bubble Tea",
+          "description": "Taiwanesisk te med seg tapioka perlor",
+          "emoji": "🧋",
+          "recipe": {
+            "ingredients": [
+              "2 msk svarta teblad",
+              "2 koppar varmt vatten",
+              "1/2 kopp tapioka perlor",
+              "1/4 kopp brunt socker",
+              "1/4 kopp mjölk eller grädde",
+              "Istärningar"
+            ],
+            "instructions": [
+              "Brygg svarta teblad i varmt vatten i 5 minuter, låt sedan svalna.",
+              "Koka tapioka perlor enligt paketinstruktioner.",
+              "Gör brunt sockerlag genom att värma brunt socker med 1/4 kopp vatten.",
+              "Tillsätt kokta perlor till sockerlag och låt dem dra i 10 minuter.",
+              "Fyll glas med istärningar.",
+              "Tillsätt bruna sockerperlor i botten av glaset.",
+              "Häll kyld te över is, fyll 3/4 av glaset.",
+              "Tillsätt mjölk eller grädde på toppen.",
+              "Rör om väl före drickning och njut med ett brett sugrör!"
+            ],
+            "prepTime": "20 minuter",
+            "cookTime": "15 minuter",
+            "yield": "2 portioner"
+          }
+        },
+        {
+          "id": 403,
+          "name": "Cappuccino",
+          "description": "Espresso med ångad mjölk och skum",
+          "emoji": "☕",
+          "recipe": {
+            "ingredients": [
+              "2 shots espresso",
+              "4 oz mjölk",
+              "Kakaopulver till garnering",
+              "Socker efter smak"
+            ],
+            "instructions": [
+              "Dra 2 shots espresso i en cappuccino kopp.",
+              "Värm mjölk i en liten kastrull eller ångstav till 150°F (65°C).",
+              "Skumma mjölken för att skapa mikroskum med mjölkskummare eller visp.",
+              "Häll ångad mjölk över espresso i cirkulär rörelse.",
+              "Skapa latte konst eller enkelt toppa med skum.",
+              "Garnera med kakaopulver om önskat.",
+              "Tillsätt socker efter smak och servera omedelbart.",
+              "Perfekt ratio: 1/3 espresso, 1/3 ångad mjölk, 1/3 skum."
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "3 minuter",
+            "yield": "1 portion"
+          }
+        },
+        {
+          "id": 404,
+          "name": "Dalgona Kaffe",
+          "description": "Koreansk vispad kaffedryck",
+          "emoji": "☁️",
+          "recipe": {
+            "ingredients": [
+              "2 msk snabbkaffe",
+              "2 msk socker",
+              "2 msk varmt vatten",
+              "1 kopp mjölk (kall eller varm)",
+              "Istärningar (valfritt)"
+            ],
+            "instructions": [
+              "Kombinera snabbkaffe, socker och varmt vatten i en skål.",
+              "Visp kraftigt i 5-10 minuter tills tjock och krämig.",
+              "Blandningen ska bilda styva toppar som vispad grädde.",
+              "Fyll glas med istärningar om du gör isversion.",
+              "Häll mjölk i glaset, lämna utrymme på toppen.",
+              "Skopa upp den vispade kaffeblandningen på toppen av mjölken.",
+              "Blanda före drickning för att kombinera smaker.",
+              "Njut av den krämiga, skummiga texturen!"
+            ],
+            "prepTime": "15 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "1 portion"
+          }
+        },
+        {
+          "id": 405,
+          "name": "Frappé",
+          "description": "Blandad iskaffedryck",
+          "emoji": "🧊",
+          "recipe": {
+            "ingredients": [
+              "1 kopp starkt kaffe, kyld",
+              "1 kopp istärningar",
+              "2 msk socker",
+              "2 msk mjölk",
+              "1/2 tsk vaniljextrakt",
+              "Vispad grädde (valfritt)",
+              "Chokladsås (valfritt)"
+            ],
+            "instructions": [
+              "Brygg starkt kaffe och låt det svalna helt.",
+              "Tillsätt kyld kaffe, istärningar, socker och mjölk till mixer.",
+              "Tillsätt vaniljextrakt och mixa på hög hastighet tills jämn.",
+              "Mixa tills blandningen är tjock och slaskig.",
+              "Smaka och justera sötman om nödvändigt.",
+              "Häll i ett högt glas.",
+              "Toppa med vispad grädde och droppa med chokladsås om önskat.",
+              "Servera omedelbart med sugrör."
+            ],
+            "prepTime": "10 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "1 stor portion"
+          }
+        }
+      ]
+    },
+    "Cocktail": {
+      "emoji": "🍹",
+      "drinks": [
+        {
+          "id": 301,
+          "name": "Mojito",
+          "description": "Kubansk cocktail med rom, mynta och lime",
+          "emoji": "🍹",
+          "recipe": {
+            "ingredients": [
+              "2 oz vit rom",
+              "1 oz färsk limejuice",
+              "2 tsk socker",
+              "8-10 färska myntablad",
+              "Soda vatten",
+              "Istärningar",
+              "Limebit och myntagren till garnering"
+            ],
+            "instructions": [
+              "Mosa myntablad med socker i ett glas.",
+              "Tillsätt limejuice och fortsätt mosa.",
+              "Fyll glas med istärningar.",
+              "Häll rom över is och rör om väl.",
+              "Toppa med soda vatten.",
+              "Garnera med limebit och myntagren.",
+              "Rör om försiktigt och servera omedelbart.",
+              "Perfekt för varma sommardagar!"
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "1 cocktail"
+          }
+        },
+        {
+          "id": 302,
+          "name": "Piña Colada",
+          "description": "Tropisk cocktail med rom, ananas och kokos",
+          "emoji": "🍍",
+          "recipe": {
+            "ingredients": [
+              "2 oz vit rom",
+              "2 oz ananasjuice",
+              "2 oz kokosgrädde",
+              "1 kopp istärningar",
+              "Ananasbit till garnering",
+              "Maraschino körsbär till garnering"
+            ],
+            "instructions": [
+              "Tillsätt rom, ananasjuice och kokosgrädde till mixer.",
+              "Tillsätt istärningar och mixa tills jämn och krämig.",
+              "Smaka och justera ingredienser om nödvändigt.",
+              "Häll i ett hurricane glas eller högt glas.",
+              "Garnera med ananasbit och körsbär.",
+              "Servera omedelbart med sugrör.",
+              "För dig till Karibien!"
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "1 cocktail"
+          }
+        },
+        {
+          "id": 303,
+          "name": "Margarita",
+          "description": "Klassisk tequilacocktail med lime och salt",
+          "emoji": "🍋",
+          "recipe": {
+            "ingredients": [
+              "2 oz tequila",
+              "1 oz färsk limejuice",
+              "1 oz triple sec eller Cointreau",
+              "1 tsk agave nektar eller enkelt sockerlag",
+              "Salt till kant",
+              "Istärningar",
+              "Limehjul till garnering"
+            ],
+            "instructions": [
+              "Kanta glas med salt genom att köra lime runt kanten och doppa i salt.",
+              "Fyll cocktail shaker med is.",
+              "Tillsätt tequila, limejuice, triple sec och agave nektar.",
+              "Skaka kraftigt i 15-20 sekunder.",
+              "Sil i förberett glas med färsk is.",
+              "Garnera med limehjul.",
+              "Servera omedelbart och njut av de syrliga, salta smakerna!"
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "1 cocktail"
+          }
+        },
+        {
+          "id": 304,
+          "name": "Cosmopolitan",
+          "description": "Elegant vodkacocktail med tranbär och lime",
+          "emoji": "🍸",
+          "recipe": {
+            "ingredients": [
+              "2 oz vodka",
+              "1 oz tranbärsjuice",
+              "1/2 oz färsk limejuice",
+              "1/2 oz triple sec eller Cointreau",
+              "Istärningar",
+              "Limehjul till garnering"
+            ],
+            "instructions": [
+              "Fyll cocktail shaker med istärningar.",
+              "Tillsätt vodka, tranbärsjuice, limejuice och triple sec.",
+              "Skaka kraftigt i 15-20 sekunder.",
+              "Sil i ett kyld martini glas.",
+              "Garnera med limehjul.",
+              "Servera omedelbart och njut av den sofistikerade rosa nyansen!",
+              "Perfekt för speciella tillfällen."
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "1 cocktail"
+          }
+        },
+        {
+          "id": 305,
+          "name": "Old Fashioned",
+          "description": "Klassisk whiskey cocktail med bitter och socker",
+          "emoji": "🥃",
+          "recipe": {
+            "ingredients": [
+              "2 oz bourbon eller råg whiskey",
+              "1 sockerbit eller 1 tsk socker",
+              "2-3 droppar Angostura bitter",
+              "Apelsinskal",
+              "Istärningar",
+              "Körsbär till garnering"
+            ],
+            "instructions": [
+              "Placera sockerbit i old fashioned glas.",
+              "Tillsätt bitter och mosa tills socker lösts upp.",
+              "Tillsätt istärningar i glaset.",
+              "Häll whiskey över is.",
+              "Rör om försiktigt i 30 sekunder.",
+              "Pressa apelsinskal över drinken och släpp i glaset.",
+              "Garnera med körsbär om önskat.",
+              "Servera omedelbart och njut av de klassiska smakerna!"
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "1 cocktail"
+          }
+        }
+      ]
+    },
+    "Te": {
+      "emoji": "🍵",
+      "drinks": [
+        {
+          "id": 501,
+          "name": "Grönt Te",
+          "description": "Klassiskt japanskt grönt te",
+          "emoji": "🍵",
+          "recipe": {
+            "ingredients": [
+              "1 tsk gröna teblad",
+              "1 kopp varmt vatten (175°F / 80°C)",
+              "Honung (valfritt)",
+              "Citronskiva (valfritt)"
+            ],
+            "instructions": [
+              "Värm vatten till 175°F (80°C, inte kokande).",
+              "Tillsätt gröna teblad till tekanna eller infuserare.",
+              "Häll varmt vatten över teblad.",
+              "Dra i 2-3 minuter (inte längre för att undvika bitterhet).",
+              "Sil teblad eller ta bort infuserare.",
+              "Tillsätt honung och citron om önskat.",
+              "Servera omedelbart för bästa smak.",
+              "Grönt te är rikt på antioxidanter!"
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "1 kopp"
+          }
+        },
+        {
+          "id": 502,
+          "name": "Chai Latte",
+          "description": "Kryddat indiskt te med mjölk",
+          "emoji": "☕",
+          "recipe": {
+            "ingredients": [
+              "1 kopp vatten",
+              "1 kopp mjölk",
+              "2 tsk löst svart te",
+              "2 kardemummabälgar",
+              "1 kanelpinne",
+              "4 hela kryddnejlikor",
+              "1/2 tum färsk ingefära",
+              "2 msk socker",
+              "En nypa svartpeppar"
+            ],
+            "instructions": [
+              "Krossa kardemummabälgar och tillsätt till kastrull med vatten.",
+              "Tillsätt kanel, nejlikor, ingefära och svartpeppar.",
+              "Koka upp och sjud i 5 minuter.",
+              "Tillsätt teblad och sjud i 2 minuter.",
+              "Tillsätt mjölk och socker, koka upp försiktigt.",
+              "Sjud i 2-3 minuter tills väl kombinerat.",
+              "Sil genom fint nät i koppar.",
+              "Servera varmt och njut av de aromatiska kryddorna!"
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "10 minuter",
+            "yield": "2 koppar"
+          }
+        },
+        {
+          "id": 503,
+          "name": "Isat Te",
+          "description": "Uppfriskande kallt te med citron",
+          "emoji": "🧊",
+          "recipe": {
+            "ingredients": [
+              "4 svarta tepåsar",
+              "4 koppar varmt vatten",
+              "4 koppar kallt vatten",
+              "1/4 kopp socker",
+              "2 citroner, skivade",
+              "Färska myntablad",
+              "Istärningar"
+            ],
+            "instructions": [
+              "Brygg tepåsar i varmt vatten i 5 minuter.",
+              "Ta bort tepåsar och rör om socker tills det lösts upp.",
+              "Tillsätt kallt vatten för att späda ut teet.",
+              "Låt svalna till rumstemperatur.",
+              "Kyl i minst 2 timmar.",
+              "Fyll glas med istärningar.",
+              "Häll te över is och tillsätt citronskivor.",
+              "Garnera med färska myntablad.",
+              "Perfekt för varma sommardagar!"
+            ],
+            "prepTime": "10 minuter",
+            "cookTime": "Ingen tillagning + 2 timmar kylning",
+            "yield": "8 koppar"
+          }
+        },
+        {
+          "id": 504,
+          "name": "Matcha Latte",
+          "description": "Japanskt pulveriserat grönt te med mjölk",
+          "emoji": "🍃",
+          "recipe": {
+            "ingredients": [
+              "1 tsk matcha pulver",
+              "2 msk varmt vatten (175°F / 80°C)",
+              "1 kopp mjölk (mjölk eller växtbaserad)",
+              "1 msk honung eller socker",
+              "Vaniljextrakt (valfritt)"
+            ],
+            "instructions": [
+              "Sikt matcha pulver för att ta bort klumpar.",
+              "Tillsätt varmt vatten till matcha och visp kraftigt tills skummig.",
+              "Värm mjölk i kastrull eller ångstav.",
+              "Tillsätt honung och vanilj till mjölk om önskat.",
+              "Häll matcha blandning i kopp.",
+              "Häll långsamt ångad mjölk över matcha.",
+              "Skapa latte konst eller enkelt blanda ihop.",
+              "Servera omedelbart och njut av de jordiga smakerna!"
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "3 minuter",
+            "yield": "1 portion"
+          }
+        },
+        {
+          "id": 505,
+          "name": "Earl Grey",
+          "description": "Klassiskt bergamotsmakande svart te",
+          "emoji": "🫖",
+          "recipe": {
+            "ingredients": [
+              "1 tsk Earl Grey teblad",
+              "1 kopp varmt vatten (200°F / 95°C)",
+              "Mjölk (valfritt)",
+              "Socker eller honung (valfritt)",
+              "Citronskiva (valfritt)"
+            ],
+            "instructions": [
+              "Värm vatten till 200°F (95°C, precis före kokning).",
+              "Tillsätt Earl Grey teblad till tekanna eller infuserare.",
+              "Häll varmt vatten över teblad.",
+              "Dra i 3-5 minuter beroende på önskad styrka.",
+              "Ta bort teblad eller sil.",
+              "Tillsätt mjölk, socker eller citron som önskat.",
+              "Servera omedelbart för bästa smak.",
+              "Bergamotten ger det en unik citrusig arom!"
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "Ingen tillagning",
+            "yield": "1 kopp"
+          }
+        }
+      ]
+    }
+  }
+}

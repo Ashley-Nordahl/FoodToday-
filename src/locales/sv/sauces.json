@@ -1,0 +1,787 @@
+{
+  "sauceUseCases": {
+    "BBQ & Grilling": { "emoji": "🔥", "description": "Perfekt för grillade kött och BBQ" },
+    "Meat Dishes": { "emoji": "🥩", "description": "Idealiskt för nötkött, fläsk, kyckling, lamm" },
+    "Seafood": { "emoji": "🐟", "description": "Utmärkt med fisk, räkor och skaldjur" },
+    "Vegetables": { "emoji": "🥬", "description": "Förbättrar grönsaksrätter och sallader" },
+    "Pasta & Noodles": { "emoji": "🍝", "description": "Perfekt för pasta- och nudelrätter" },
+    "Rice & Grains": { "emoji": "🍚", "description": "Kompletterar ris- och spannmålsrätter" },
+    "Dipping & Dressing": { "emoji": "🥗", "description": "Utmärkt som dopp och salladsdressingar" },
+    "Marinades": { "emoji": "🧄", "description": "Utmärkt för att marinera kött" }
+  },
+  "saucesByCountry": {
+    "Asian": {
+      "flag": "🥢",
+      "sauces": [
+        {
+          "id": 201,
+          "name": "Sojasås",
+          "description": "Traditionell japansk sojasås för umami-smak",
+          "emoji": "🥢",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 5,
+          "sour": 1,
+          "useCases": ["Meat Dishes", "Seafood", "Rice & Grains", "Vegetables"],
+          "availability": ["buy"]
+        },
+        {
+          "id": 202,
+          "name": "Teriyakisås",
+          "description": "Söt japansk glasyr med sojasås och ingefära",
+          "emoji": "🍜",
+          "spicy": 1,
+          "sweet": 4,
+          "salty": 3,
+          "sour": 2,
+          "useCases": ["Meat Dishes", "Seafood", "Marinades"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1/2 kopp sojasås",
+              "1/4 kopp mirin (eller sake)",
+              "1/4 kopp muscovadosocker",
+              "2 vitlöksklyftor, hackade",
+              "1 tsk färsk ingefära, riven",
+              "1 msk majsstärkelse",
+              "2 msk vatten"
+            ],
+            "instructions": [
+              "Kombinera sojasås, mirin och muscovadosocker i en liten kastrull på medelvärme.",
+              "Tillsätt hackad vitlök och riven ingefära. Rör om väl.",
+              "Koka upp och låt koka i 3-4 minuter.",
+              "Blanda majsstärkelse med vatten för att göra en redning.",
+              "Tillsätt redningen till såsen och rör kontinuerligt tills den tjocknar (ca 1-2 minuter).",
+              "Ta bort från värmen och låt svalna. Förvara i kylskåp i upp till 2 veckor."
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "10 minuter",
+            "yield": "Cirka 1 kopp"
+          }
+        },
+        {
+          "id": 203,
+          "name": "Sriracha",
+          "description": "Thailändsk het sås gjord på chilipeppar och vitlök",
+          "emoji": "🔥",
+          "spicy": 5,
+          "sweet": 2,
+          "salty": 2,
+          "sour": 1,
+          "useCases": ["Meat Dishes", "Seafood", "Vegetables", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 pund röda jalapeño- eller Fresno-peppar, utan stjälk",
+              "8 vitlöksklyftor, skalade",
+              "1/4 kopp muscovadosocker",
+              "1 msk salt",
+              "1/2 kopp vit vinäger",
+              "2 msk fisksås (valfritt)"
+            ],
+            "instructions": [
+              "Hacka grovt peppar och vitlök, mixa sedan i matberedare tills det är slätt.",
+              "Överför till en skål, täck med plastfolie och låt jäsa i rumstemperatur i 3-5 dagar, rör dagligen.",
+              "Efter jäsningen, överför blandningen till en kastrull.",
+              "Tillsätt socker, salt, vinäger och fisksås. Koka upp.",
+              "Sänk värmen och sjud i 5 minuter, rör då och då.",
+              "Låt svalna, mixa sedan igen tills mycket slät.",
+              "Sila genom finmaskigt nät om du vill ha slät konsistens (valfritt).",
+              "Förvara i steriliserade flaskor. Håller i flera månader i kylskåp."
+            ],
+            "prepTime": "20 minuter",
+            "cookTime": "10 minuter + 3-5 dagars jäsning",
+            "yield": "Cirka 2 koppar"
+          }
+        },
+        {
+          "id": 204,
+          "name": "Hoisinsås",
+          "description": "Söt och salt kinesisk sås med jästa bönor",
+          "emoji": "🍯",
+          "spicy": 2,
+          "sweet": 4,
+          "salty": 3,
+          "sour": 2,
+          "useCases": ["Meat Dishes", "Vegetables", "Dipping & Dressing"],
+          "availability": ["buy"]
+        },
+        {
+          "id": 205,
+          "name": "Ostronsås",
+          "description": "Rik och smakrik sås gjord på ostronextrakt",
+          "emoji": "🦪",
+          "spicy": 1,
+          "sweet": 2,
+          "salty": 4,
+          "sour": 1,
+          "useCases": ["Meat Dishes", "Vegetables", "Rice & Grains"],
+          "availability": ["buy"]
+        },
+        {
+          "id": 206,
+          "name": "Gochujang",
+          "description": "Koreansk jäst chilipasta med söta och kryddiga toner",
+          "emoji": "🌶️",
+          "spicy": 4,
+          "sweet": 3,
+          "salty": 2,
+          "sour": 2,
+          "useCases": ["Meat Dishes", "Vegetables", "Marinades"],
+          "availability": ["buy"]
+        },
+        {
+          "id": 207,
+          "name": "Chiliolja",
+          "description": "Kryddig olja infuserad med chilipeppar och aromer",
+          "emoji": "🫒",
+          "spicy": 4,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 1,
+          "useCases": ["Pasta & Noodles", "Vegetables", "Dipping & Dressing", "Rice & Grains"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 kopp neutral olja (vegetabilisk eller rapsolja)",
+              "1/4 kopp röda chiliflingor",
+              "2 msk Sichuan-peppar (valfritt)",
+              "4 vitlöksklyftor, hackade",
+              "2 tum ingefära, skivad",
+              "2 stjärnanis",
+              "1 kanelstång",
+              "1 tsk salt",
+              "1 tsk socker"
+            ],
+            "instructions": [
+              "Värm olja i en kastrull på medellåg värme till 250°F (120°C).",
+              "Tillsätt vitlök, ingefära, stjärnanis och kanelstång. Stek försiktigt i 5 minuter.",
+              "Ta bort aromerna och sila oljan om så önskas.",
+              "Lägg chiliflingor, Sichuan-peppar, salt och socker i en värmetålig skål.",
+              "Värm oljan till 375°F (190°C) och häll försiktigt över chiliblandningen.",
+              "Rör om väl och låt svalna helt.",
+              "Förvara i en lufttät burk. Bäst efter 24 timmar. Håller i månader!"
+            ],
+            "prepTime": "10 minuter",
+            "cookTime": "15 minuter",
+            "yield": "Cirka 1 kopp"
+          }
+        },
+        {
+          "id": 208,
+          "name": "Söt chilisås",
+          "description": "Söt och syrlig sås med chilipeppar",
+          "emoji": "🌶️",
+          "spicy": 3,
+          "sweet": 4,
+          "salty": 1,
+          "sour": 2,
+          "useCases": ["Seafood", "Vegetables", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 kopp vit vinäger",
+              "1 kopp socker",
+              "1/2 kopp vatten",
+              "4 vitlöksklyftor, hackade",
+              "2 röda chilipeppar, finhackade",
+              "1 tsk salt",
+              "2 msk majsstärkelse",
+              "3 msk vatten (för redning)"
+            ],
+            "instructions": [
+              "Kombinera vinäger, socker, vatten, vitlök, chili och salt i en kastrull.",
+              "Koka upp på medelhög värme, rör tills sockret löses upp.",
+              "Sänk värmen och sjud i 5 minuter.",
+              "Blanda majsstärkelse med 3 msk vatten för att göra en redning.",
+              "Tillsätt redningen till såsen och rör tills den tjocknar (ca 2 minuter).",
+              "Ta bort från värmen och låt svalna helt.",
+              "Förvara i lufttät burk i kylskåp i upp till 1 månad."
+            ],
+            "prepTime": "10 minuter",
+            "cookTime": "10 minuter",
+            "yield": "Cirka 1,5 kopp"
+          }
+        }
+      ]
+    },
+    "American": {
+      "flag": "🇺🇸",
+      "sauces": [
+        {
+          "id": 209,
+          "name": "BBQ-sås",
+          "description": "Söt och rökig grillsås med melass",
+          "emoji": "🍖",
+          "spicy": 2,
+          "sweet": 4,
+          "salty": 2,
+          "sour": 3,
+          "useCases": ["BBQ & Grilling", "Meat Dishes", "Marinades"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 kopp ketchup",
+              "1/2 kopp äppelcidervinäger",
+              "1/4 kopp muscovadosocker",
+              "2 msk melass",
+              "2 msk Worcestershire-sås",
+              "1 msk Dijon-senap",
+              "2 tsk rökig paprika",
+              "1 tsk vitlökspulver",
+              "1 tsk lökpulver",
+              "1/2 tsk svartpeppar",
+              "1/4 tsk cayennepeppar (valfritt)"
+            ],
+            "instructions": [
+              "Kombinera alla ingredienser i en medelstor kastrull.",
+              "Vispa ihop tills väl blandade.",
+              "Koka upp på medelvärme.",
+              "Sänk värmen till låg och låt sjuda i 15-20 minuter, rör då och då.",
+              "Såsen ska tjockna och smakerna smälta samman.",
+              "Smaka av och justera kryddningen efter behov.",
+              "Låt svalna före användning. Förvara i kylskåp i upp till 2 veckor."
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "20 minuter",
+            "yield": "Cirka 1,5 kopp"
+          }
+        },
+        {
+          "id": 210,
+          "name": "Ranch-dressing",
+          "description": "Klassisk amerikansk ranch med örter och kärnmjölk",
+          "emoji": "🥗",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 3,
+          "sour": 2,
+          "useCases": ["Vegetables", "Dipping & Dressing", "Meat Dishes"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 kopp majonnäs",
+              "1/2 kopp gräddfil",
+              "1/2 kopp kärnmjölk",
+              "2 vitlöksklyftor, hackade",
+              "2 msk färsk dill, hackad (eller 2 tsk torkad)",
+              "1 msk färsk gräslök, hackad",
+              "1 msk färsk persilja, hackad",
+              "1 tsk lökpulver",
+              "1/2 tsk salt",
+              "1/4 tsk svartpeppar",
+              "1 tsk citronsaft"
+            ],
+            "instructions": [
+              "I en skål, vispa ihop majonnäs, gräddfil och kärnmjölk tills slätt.",
+              "Tillsätt hackad vitlök, dill, gräslök, persilja och lökpulver.",
+              "Krydda med salt, peppar och citronsaft.",
+              "Vispa tills väl blandat.",
+              "Smaka av och justera kryddningen efter behov.",
+              "Täck och kyl i minst 30 minuter före servering för att låta smakerna utvecklas.",
+              "Förvara i kylskåp i upp till 1 vecka. Späd med mer kärnmjölk om behövs."
+            ],
+            "prepTime": "10 minuter",
+            "cookTime": "Ingen kokning + 30 min kyltid",
+            "yield": "Cirka 2 koppar"
+          }
+        },
+        {
+          "id": 211,
+          "name": "Buffalo-sås",
+          "description": "Syrlig och kryddig sås perfekt för wings",
+          "emoji": "🍗",
+          "spicy": 4,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 4,
+          "useCases": ["Meat Dishes", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1/2 kopp het sås (Frank's RedHot rekommenderas)",
+              "1/2 kopp (1 bit) osaltat smör",
+              "1 msk vit vinäger",
+              "1/4 tsk Worcestershire-sås",
+              "1/4 tsk cayennepeppar",
+              "1/8 tsk vitlökspulver",
+              "Nypa salt"
+            ],
+            "instructions": [
+              "Smält smör i en liten kastrull på låg värme.",
+              "Tillsätt het sås, vinäger, Worcestershire-sås och kryddor.",
+              "Vispa kontinuerligt tills väl blandat och uppvärmt.",
+              "Låt det inte koka - håll låg värme för att förhindra separation.",
+              "Sjud i 2-3 minuter, vispa då och då.",
+              "Ta bort från värmen och använd omedelbart, eller låt svalna och förvara.",
+              "Förvara i kylskåp i upp till 2 veckor. Värm upp försiktigt före användning."
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "5 minuter",
+            "yield": "Cirka 1 kopp"
+          }
+        },
+        {
+          "id": 212,
+          "name": "Honungssenap",
+          "description": "Söt och syrlig senap med honung",
+          "emoji": "🍯",
+          "spicy": 1,
+          "sweet": 4,
+          "salty": 1,
+          "sour": 3,
+          "useCases": ["Meat Dishes", "Vegetables", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1/2 kopp Dijon-senap",
+              "1/4 kopp honung",
+              "1/4 kopp majonnäs",
+              "2 msk gul senap",
+              "1 msk citronsaft",
+              "1/4 tsk vitlökspulver",
+              "Nypa salt",
+              "Nypa svartpeppar"
+            ],
+            "instructions": [
+              "I en skål, vispa ihop Dijon-senap, honung och majonnäs tills slätt.",
+              "Tillsätt gul senap och citronsaft, vispa väl.",
+              "Krydda med vitlökspulver, salt och peppar.",
+              "Smaka av och justera sötman genom att tillsätta mer honung om så önskas.",
+              "Täck och kyl i minst 15 minuter före servering.",
+              "Förvara i lufttät behållare i kylskåp i upp till 3 veckor."
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "Ingen kokning",
+            "yield": "Cirka 1 kopp"
+          }
+        }
+      ]
+    },
+    "European": {
+      "flag": "🇪🇺",
+      "sauces": [
+        {
+          "id": 217,
+          "name": "Pesto",
+          "description": "Färsk basilika, pinjenötter, parmesan och olivolja",
+          "emoji": "🌿",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 2,
+          "useCases": ["Pasta & Noodles", "Vegetables", "Rice & Grains"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "2 koppar färska basilikablad, packade",
+              "1/2 kopp extra virgin olivolja",
+              "1/3 kopp pinjenötter (eller valnötter)",
+              "3 vitlöksklyftor, skalade",
+              "1/2 kopp färskriven parmesanost",
+              "1/2 tsk salt",
+              "1/4 tsk svartpeppar",
+              "1 msk citronsaft"
+            ],
+            "instructions": [
+              "Rosta pinjenötter i en torr panna på medelvärme i 2-3 minuter tills doftande. Låt svalna.",
+              "I en matberedare, pulsera basilika, pinjenötter och vitlök tills grovt hackade.",
+              "Tillsätt parmesanost och pulsera för att blanda.",
+              "Medan matberedaren körs, droppa långsamt i olivolja tills slätt.",
+              "Tillsätt salt, peppar och citronsaft. Pulsera för att blanda.",
+              "Smaka av och justera kryddningen efter behov.",
+              "Förvara i lufttät behållare med tunt lager olivolja ovanpå. Håller 1 vecka i kylskåp eller frys i 3 månader."
+            ],
+            "prepTime": "10 minuter",
+            "cookTime": "3 minuter",
+            "yield": "Cirka 1 kopp"
+          }
+        },
+        {
+          "id": 218,
+          "name": "Vitlöksaioli",
+          "description": "Krämig vitlöksmajonnäs med citronskal",
+          "emoji": "🧄",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 3,
+          "useCases": ["Seafood", "Vegetables", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "2 stora äggulor, rumstemperatur",
+              "4-6 vitlöksklyftor, hackade",
+              "1 msk citronsaft",
+              "1 tsk Dijon-senap",
+              "3/4 kopp olivolja",
+              "1/4 tsk salt",
+              "Nypa vitpeppar",
+              "1 tsk citronskal (valfritt)"
+            ],
+            "instructions": [
+              "I en skål, vispa ihop äggulor, hackad vitlök, citronsaft och senap.",
+              "Droppa mycket långsamt i olivolja medan du vispar kontinuerligt. Börja med bara droppar.",
+              "När blandningen börjar emulgera och tjockna, kan du tillsätta olja i en tunn ström.",
+              "Fortsätt vispa tills all olja är inblandad och aiolien är tjock och krämig.",
+              "Krydda med salt, peppar och citronskal om det används.",
+              "Om för tjockt, späd med en tesked vatten eller citronsaft.",
+              "Kyl i minst 30 minuter före servering. Använd inom 3 dagar."
+            ],
+            "prepTime": "15 minuter",
+            "cookTime": "Ingen kokning",
+            "yield": "Cirka 1 kopp"
+          }
+        },
+        {
+          "id": 219,
+          "name": "Tartarsås",
+          "description": "Krämig sås med pickles och kapris",
+          "emoji": "🥒",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 4,
+          "useCases": ["Seafood", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 kopp majonnäs",
+              "2 msk dillgurka, finhackad",
+              "1 msk kapris, hackad",
+              "1 msk färsk citronsaft",
+              "1 msk färsk dill, hackad (eller 1 tsk torkad)",
+              "1 msk färsk persilja, hackad",
+              "1 tsk Dijon-senap",
+              "1/2 tsk lökpulver",
+              "1/4 tsk svartpeppar",
+              "Nypa salt"
+            ],
+            "instructions": [
+              "I en skål, blanda majonnäs, pickles och kapris.",
+              "Tillsätt citronsaft, dill, persilja och senap.",
+              "Krydda med lökpulver, peppar och salt.",
+              "Blanda väl tills alla ingredienser är jämnt fördelade.",
+              "Smaka av och justera kryddningen efter behov.",
+              "Täck och kyl i minst 1 timme före servering för att låta smakerna smälta samman.",
+              "Förvara i kylskåp i upp till 1 vecka."
+            ],
+            "prepTime": "10 minuter",
+            "cookTime": "Ingen kokning + 1 timmes kyltid",
+            "yield": "Cirka 1,25 kopp"
+          }
+        },
+        {
+          "id": 220,
+          "name": "Hollandaise",
+          "description": "Rik och smörig fransk sås med citron",
+          "emoji": "🧈",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 3,
+          "useCases": ["Eggs", "Vegetables", "Seafood"],
+          "availability": ["homemade"],
+          "recipe": {
+            "ingredients": [
+              "3 stora äggulor",
+              "1 msk citronsaft",
+              "1/2 kopp (1 bit) osaltat smör, smält och varmt",
+              "1/4 tsk salt",
+              "Nypa cayennepeppar",
+              "1 msk varmt vatten (om behövs)"
+            ],
+            "instructions": [
+              "Fyll en kastrull med 1-2 tum vatten och koka upp till låg sjud.",
+              "I en värmetålig skål som passar över kastrullen (utan att röra vattnet), vispa äggulor och citronsaft.",
+              "Placera skålen över det sjudande vattnet och vispa kontinuerligt i 2-3 minuter tills lätt tjocknat.",
+              "Droppa mycket långsamt i varmt smält smör medan du vispar kontinuerligt.",
+              "Fortsätt vispa tills såsen tjocknar och blir krämig (5-7 minuter).",
+              "Om såsen blir för tjock, vispa in varmt vatten 1 tsk i taget.",
+              "Krydda med salt och cayennepeppar.",
+              "Servera omedelbart. Kan inte förvaras - bäst färsk."
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "10 minuter",
+            "yield": "Cirka 3/4 kopp"
+          }
+        }
+      ]
+    },
+    "Mexican": {
+      "flag": "🇲🇽",
+      "sauces": [
+        {
+          "id": 213,
+          "name": "Salsa Verde",
+          "description": "Syrlig grön sås med tomatillos och jalapeños",
+          "emoji": "🫑",
+          "spicy": 3,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 4,
+          "useCases": ["Meat Dishes", "Vegetables", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 pund tomatillos, skalade och sköljda",
+              "1-2 jalapeñopeppar",
+              "1/2 vit lök, grovt hackad",
+              "3 vitlöksklyftor, skalade",
+              "1/2 kopp färsk koriander",
+              "1 lime, pressad",
+              "1 tsk salt",
+              "1/2 tsk spiskummin (valfritt)"
+            ],
+            "instructions": [
+              "Förvärm grillen. Lägg tomatillos och jalapeños på en plåt.",
+              "Grilla i 5-7 minuter tills förkolnade och blåsor, vänd en gång.",
+              "Låt svalna något, ta sedan bort stjälkar från jalapeños.",
+              "Tillsätt tomatillos, jalapeños, lök och vitlök till en mixer eller matberedare.",
+              "Tillsätt koriander, limesaft, salt och spiskummin om det används.",
+              "Mixa tills du når önskad konsistens (grov eller slät).",
+              "Smaka av och justera kryddningen. Tillsätt mer salt eller limesaft efter behov.",
+              "Förvara i kylskåp i upp till 1 vecka eller frys i 3 månader."
+            ],
+            "prepTime": "10 minuter",
+            "cookTime": "7 minuter",
+            "yield": "Cirka 2 koppar"
+          }
+        },
+        {
+          "id": 214,
+          "name": "Pico de Gallo",
+          "description": "Färsk tomatsalsa med lök och koriander",
+          "emoji": "🍅",
+          "spicy": 2,
+          "sweet": 2,
+          "salty": 1,
+          "sour": 3,
+          "useCases": ["Meat Dishes", "Vegetables", "Dipping & Dressing"],
+          "availability": ["homemade"],
+          "recipe": {
+            "ingredients": [
+              "4 medelstora tomater, tärnade",
+              "1/2 vit lök, finhackad",
+              "1-2 jalapeñopeppar, urkärnade och finhackade",
+              "1/2 kopp färsk koriander, hackad",
+              "2 limefrukter, pressade",
+              "1/2 tsk salt",
+              "1/4 tsk svartpeppar"
+            ],
+            "instructions": [
+              "Tärna tomater och lägg i en skål. Dränera överskottsvätska om behövs.",
+              "Tillsätt finhackad lök, jalapeños och koriander.",
+              "Häll limesaft över blandningen.",
+              "Krydda med salt och peppar.",
+              "Vänd försiktigt alla ingredienser tills väl blandade.",
+              "Låt stå i 10-15 minuter för att låta smakerna smälta samman.",
+              "Smaka av och justera kryddningen. Tillsätt mer lime eller salt om behövs.",
+              "Bäst serverad färsk. Kan förvaras i kylskåp i 2-3 dagar men kan bli vattnig."
+            ],
+            "prepTime": "15 minuter",
+            "cookTime": "Ingen kokning",
+            "yield": "Cirka 2,5 koppar"
+          }
+        },
+        {
+          "id": 215,
+          "name": "Chipotlesås",
+          "description": "Rökig och kryddig sås med chipotlepeppar",
+          "emoji": "🌶️",
+          "spicy": 4,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 2,
+          "useCases": ["Meat Dishes", "Vegetables", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 burk (7 oz) chipotlepeppar i adobo-sås",
+              "1/2 kopp majonnäs",
+              "1/4 kopp gräddfil",
+              "2 vitlöksklyftor, hackade",
+              "2 msk limesaft",
+              "1 tsk honung",
+              "1/2 tsk spiskummin",
+              "1/4 tsk salt"
+            ],
+            "instructions": [
+              "Tillsätt chipotlepeppar med lite adobo-sås till en mixer eller matberedare.",
+              "Tillsätt majonnäs, gräddfil och hackad vitlök.",
+              "Tillsätt limesaft, honung, spiskummin och salt.",
+              "Mixa tills slätt och krämigt.",
+              "Smaka av och justera hettan genom att tillsätta mer chipotle eller balansera med mer gräddfil.",
+              "Justera kryddningen efter behov.",
+              "Överför till lufttät behållare och kyl i minst 30 minuter.",
+              "Förvara i kylskåp i upp till 2 veckor."
+            ],
+            "prepTime": "10 minuter",
+            "cookTime": "Ingen kokning",
+            "yield": "Cirka 1,5 kopp"
+          }
+        },
+        {
+          "id": 216,
+          "name": "Molesås",
+          "description": "Rik mexikansk sås med choklad och kryddor",
+          "emoji": "🍫",
+          "spicy": 3,
+          "sweet": 3,
+          "salty": 2,
+          "sour": 1,
+          "useCases": ["Meat Dishes", "Vegetables"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "3 torkade ancho-chili, utan stjälk och frön",
+              "2 torkade pasilla-chili, utan stjälk och frön",
+              "3 msk vegetabilisk olja",
+              "1 lök, hackad",
+              "4 vitlöksklyftor, hackade",
+              "1/4 kopp mandlar",
+              "2 msk sesamfrön",
+              "1 tsk kanel",
+              "1/2 tsk spiskummin",
+              "2 koppar kycklingbuljong",
+              "2 oz mörk choklad (70% kakao), hackad",
+              "2 msk tomatpuré",
+              "1 msk muscovadosocker",
+              "Salt efter smak"
+            ],
+            "instructions": [
+              "Rosta torkade chili i en torr panna i 1-2 minuter. Täck med varmt vatten och blötlägg i 20 minuter.",
+              "Värm olja i en stor panna. Fräs lök och vitlök tills mjuka.",
+              "I samma panna, rosta mandlar och sesamfrön tills doftande.",
+              "Dränera chili och tillsätt till en mixer med lökblandning, nötter, kryddor och 1 kopp buljong.",
+              "Mixa tills mycket slät, tillsätt mer buljong efter behov.",
+              "Häll såsen tillbaka i pannan. Tillsätt återstående buljong, choklad, tomatpuré och socker.",
+              "Sjud på låg värme i 30-40 minuter, rör då och då tills tjocknat.",
+              "Krydda med salt. Förvara i kylskåp i 1 vecka eller frys i 3 månader."
+            ],
+            "prepTime": "30 minuter",
+            "cookTime": "45 minuter",
+            "yield": "Cirka 3 koppar"
+          }
+        }
+      ]
+    },
+    "Middle Eastern": {
+      "flag": "🌍",
+      "sauces": [
+        {
+          "id": 221,
+          "name": "Tahini",
+          "description": "Krämig sesampasta-sås med citron",
+          "emoji": "🫒",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 3,
+          "useCases": ["Vegetables", "Dipping & Dressing", "Rice & Grains"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1/2 kopp tahinipasta",
+              "1/4 kopp citronsaft (ca 2 citroner)",
+              "2-3 vitlöksklyftor, hackade",
+              "1/2 tsk spiskummin",
+              "1/2 tsk salt",
+              "1/4 kopp kallt vatten (plus mer efter behov)",
+              "2 msk färsk persilja, hackad (valfritt)",
+              "Nypa cayennepeppar (valfritt)"
+            ],
+            "instructions": [
+              "I en skål, vispa tahinipasta tills slät.",
+              "Tillsätt citronsaft och vispa - blandningen kommer att stelna och tjockna (detta är normalt).",
+              "Tillsätt hackad vitlök, spiskummin och salt. Vispa för att blanda.",
+              "Tillsätt gradvis kallt vatten, 1 matsked i taget, vispandes kontinuerligt.",
+              "Fortsätt tillsätta vatten tills såsen når önskad konsistens (slät och hällbar).",
+              "Smaka av och justera kryddningen. Tillsätt mer citron, salt eller vitlök efter behov.",
+              "Rör i färsk persilja och cayennepeppar om det används.",
+              "Förvara i kylskåp i upp till 1 vecka. Späd med vatten om den tjocknar."
+            ],
+            "prepTime": "10 minuter",
+            "cookTime": "Ingen kokning",
+            "yield": "Cirka 1 kopp"
+          }
+        },
+        {
+          "id": 222,
+          "name": "Harissa",
+          "description": "Nordafrikansk het chilipepparpasta",
+          "emoji": "🌶️",
+          "spicy": 5,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 2,
+          "useCases": ["Meat Dishes", "Vegetables", "Marinades"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "6-8 torkade röda chili (guajillo eller New Mexico)",
+              "4 vitlöksklyftor, skalade",
+              "1 tsk kumminfrön",
+              "1 tsk korianderfrön",
+              "1 tsk spiskumminfrön",
+              "1/2 tsk rökig paprika",
+              "1/4 kopp olivolja",
+              "2 msk citronsaft",
+              "1 tsk tomatpuré",
+              "1 tsk salt"
+            ],
+            "instructions": [
+              "Ta bort stjälkar och de flesta frön från torkade chili. Blötlägg i varmt vatten i 20 minuter.",
+              "Rosta kummin-, koriander- och spiskumminfrön i en torr panna tills doftande. Mal i kryddkvarn.",
+              "Dränera chili och tillsätt till matberedare med vitlök och malda kryddor.",
+              "Tillsätt paprika, olivolja, citronsaft, tomatpuré och salt.",
+              "Bearbeta tills slät, skrapa ner sidorna efter behov.",
+              "Tillsätt 1-2 matskedar vatten om blandningen är för tjock.",
+              "Smaka av och justera kryddningen. Tillsätt mer salt eller citron efter behov.",
+              "Förvara i burk täckt med tunt lager olivolja. Håller 2 veckor i kylskåp eller frys i 3 månader."
+            ],
+            "prepTime": "15 minuter",
+            "cookTime": "5 minuter + 20 min blötläggning",
+            "yield": "Cirka 1 kopp"
+          }
+        },
+        {
+          "id": 223,
+          "name": "Za'atar-olja",
+          "description": "Örtrik olja med timjan, sumak och sesam",
+          "emoji": "🌿",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 3,
+          "useCases": ["Vegetables", "Rice & Grains", "Dipping & Dressing"],
+          "availability": ["homemade"],
+          "recipe": {
+            "ingredients": [
+              "1/2 kopp extra virgin olivolja",
+              "3 msk za'atar-kryddblandning",
+              "1 msk sesamfrön",
+              "1/2 tsk sumak",
+              "1/4 tsk salt",
+              "1 vitlöksklyfta, hackad (valfritt)",
+              "1 tsk citronskal (valfritt)"
+            ],
+            "instructions": [
+              "Om du gör za'atar-blandning: kombinera torkad timjan, sesamfrön, sumak och salt.",
+              "I en liten skål, blanda olivolja och za'atar-blandning.",
+              "Tillsätt sesamfrön, sumak och salt. Blanda väl.",
+              "Tillsätt hackad vitlök och citronskal om det används.",
+              "Låt blandningen stå i minst 30 minuter för att låta smakerna infuseras.",
+              "Rör om väl före användning. Olja kommer att separera - detta är normalt.",
+              "Förvara i lufttät burk i rumstemperatur i upp till 2 veckor eller i kylskåp i 1 månad.",
+              "Låt komma till rumstemperatur före servering om kyld."
+            ],
+            "prepTime": "5 minuter",
+            "cookTime": "30 minuter infusion",
+            "yield": "Cirka 1/2 kopp"
+          }
+        }
+      ]
+    }
+  }
+}

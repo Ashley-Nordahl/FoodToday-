@@ -1,0 +1,184 @@
+{
+  "partyTypes": [
+    {
+      "id": 401,
+      "name": "Birthday Celebration",
+      "description": "Make your special day unforgettable with our birthday party packages",
+      "emoji": "🎂",
+      "category": "Birthday",
+      "price": "$299",
+      "duration": "4 hours"
+    },
+    {
+      "id": 402,
+      "name": "Corporate Events",
+      "description": "Professional catering for your business meetings and corporate gatherings",
+      "emoji": "💼",
+      "category": "Business",
+      "price": "$199",
+      "duration": "3 hours"
+    },
+    {
+      "id": 403,
+      "name": "Wedding Reception",
+      "description": "Elegant dining experience for your most important day",
+      "emoji": "💒",
+      "category": "Wedding",
+      "price": "$899",
+      "duration": "6 hours"
+    },
+    {
+      "id": 404,
+      "name": "Graduation Party",
+      "description": "Celebrate academic achievements with friends and family",
+      "emoji": "🎓",
+      "category": "Graduation",
+      "price": "$349",
+      "duration": "5 hours"
+    },
+    {
+      "id": 405,
+      "name": "Holiday Gathering",
+      "description": "Festive meals for Christmas, New Year, and special holidays",
+      "emoji": "🎄",
+      "category": "Holiday",
+      "price": "$449",
+      "duration": "4 hours"
+    },
+    {
+      "id": 406,
+      "name": "Anniversary Dinner",
+      "description": "Romantic and intimate dining for milestone celebrations",
+      "emoji": "💕",
+      "category": "Anniversary",
+      "price": "$249",
+      "duration": "3 hours"
+    },
+    {
+      "id": 407,
+      "name": "Kids Party",
+      "description": "Fun and exciting food options for children's celebrations",
+      "emoji": "🎈",
+      "category": "Kids",
+      "price": "$179",
+      "duration": "3 hours"
+    },
+    {
+      "id": 408,
+      "name": "Sports Viewing Party",
+      "description": "Game day favorites for watching sports with friends",
+      "emoji": "⚽",
+      "category": "Sports",
+      "price": "$129",
+      "duration": "4 hours"
+    }
+  ],
+  "ingredientCategories": [
+    {
+      "value": "meat",
+      "label": "Meat",
+      "emoji": "🥩"
+    },
+    {
+      "value": "seafood",
+      "label": "Seafood",
+      "emoji": "🦞"
+    },
+    {
+      "value": "vegetables",
+      "label": "Vegetables",
+      "emoji": "🥬"
+    },
+    {
+      "value": "grains",
+      "label": "Grains",
+      "emoji": "🌾"
+    },
+    {
+      "value": "egg",
+      "label": "Egg",
+      "emoji": "🥚"
+    }
+  ],
+  "tastePreferences": [
+    {
+      "value": "rich",
+      "label": "Rich",
+      "emoji": "🍗"
+    },
+    {
+      "value": "spicy",
+      "label": "Spicy",
+      "emoji": "🌶️"
+    },
+    {
+      "value": "sweet",
+      "label": "Sweet",
+      "emoji": "🍯"
+    },
+    {
+      "value": "sour",
+      "label": "Sour",
+      "emoji": "🍋"
+    },
+    {
+      "value": "salty",
+      "label": "Salty",
+      "emoji": "🧂"
+    },
+    {
+      "value": "light",
+      "label": "Light",
+      "emoji": "🌿"
+    }
+  ],
+  "cuisineStyles": [
+    {
+      "value": "mixed",
+      "label": "Mixed Cuisine",
+      "emoji": "🌍"
+    },
+    {
+      "value": "chinese",
+      "label": "Chinese Style",
+      "emoji": "🥢"
+    },
+    {
+      "value": "western",
+      "label": "Western Style",
+      "emoji": "🍽️"
+    },
+    {
+      "value": "japanese",
+      "label": "Japanese Style",
+      "emoji": "🍱"
+    }
+  ],
+  "diningScenarios": [
+    {
+      "value": "family",
+      "label": "Family Gathering",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "value": "friends",
+      "label": "Friends Gathering",
+      "emoji": "👯"
+    },
+    {
+      "value": "romantic",
+      "label": "Romantic Dinner",
+      "emoji": "💕"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-01-27T12:00:00.000Z",
+    "totalPartyTypes": 8,
+    "totalIngredientCategories": 5,
+    "totalTastePreferences": 6,
+    "totalCuisineStyles": 4,
+    "totalDiningScenarios": 3,
+    "description": "Party UI data and preferences for the Parties feature"
+  }
+}

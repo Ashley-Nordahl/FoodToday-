@@ -1,0 +1,788 @@
+{
+  "sauceUseCases": {
+    "BBQ & Grilling": { "emoji": "🔥", "description": "Perfect for grilled meats and BBQ" },
+    "Meat Dishes": { "emoji": "🥩", "description": "Ideal for beef, pork, chicken, lamb" },
+    "Seafood": { "emoji": "🐟", "description": "Great with fish, shrimp, and seafood" },
+    "Vegetables": { "emoji": "🥬", "description": "Enhances vegetable dishes and salads" },
+    "Pasta & Noodles": { "emoji": "🍝", "description": "Perfect for pasta and noodle dishes" },
+    "Rice & Grains": { "emoji": "🍚", "description": "Complements rice and grain dishes" },
+    "Dipping & Dressing": { "emoji": "🥗", "description": "Great as dips and salad dressings" },
+    "Marinades": { "emoji": "🧄", "description": "Excellent for marinating meats" }
+  },
+  "saucesByCountry": {
+    "Asian": {
+      "flag": "🥢",
+      "sauces": [
+        {
+          "id": 201,
+          "name": "Soy Sauce",
+          "description": "Traditional Japanese soy sauce for umami flavor",
+          "emoji": "🥢",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 5,
+          "sour": 1,
+          "useCases": ["Meat Dishes", "Seafood", "Rice & Grains", "Vegetables"],
+          "availability": ["buy"]
+        },
+        {
+          "id": 202,
+          "name": "Teriyaki Sauce",
+          "description": "Sweet Japanese glaze with soy sauce and ginger",
+          "emoji": "🍜",
+          "spicy": 1,
+          "sweet": 4,
+          "salty": 3,
+          "sour": 2,
+          "useCases": ["Meat Dishes", "Seafood", "Marinades"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1/2 cup soy sauce",
+              "1/4 cup mirin (or sake)",
+              "1/4 cup brown sugar",
+              "2 cloves garlic, minced",
+              "1 tsp fresh ginger, grated",
+              "1 tbsp cornstarch",
+              "2 tbsp water"
+            ],
+            "instructions": [
+              "Combine soy sauce, mirin, and brown sugar in a small saucepan over medium heat.",
+              "Add minced garlic and grated ginger. Stir well.",
+              "Bring to a simmer and cook for 3-4 minutes.",
+              "Mix cornstarch with water to create a slurry.",
+              "Add slurry to the sauce and stir continuously until thickened (about 1-2 minutes).",
+              "Remove from heat and let cool. Store in refrigerator for up to 2 weeks."
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "10 minutes",
+            "yield": "About 1 cup"
+          }
+        },
+        {
+          "id": 203,
+          "name": "Sriracha",
+          "description": "Thai hot sauce made from chili peppers and garlic",
+          "emoji": "🔥",
+          "spicy": 5,
+          "sweet": 2,
+          "salty": 2,
+          "sour": 1,
+          "useCases": ["Meat Dishes", "Seafood", "Vegetables", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 lb red jalapeño or Fresno peppers, stems removed",
+              "8 cloves garlic, peeled",
+              "1/4 cup brown sugar",
+              "1 tbsp salt",
+              "1/2 cup white vinegar",
+              "2 tbsp fish sauce (optional)"
+            ],
+            "instructions": [
+              "Roughly chop peppers and garlic, then blend in food processor until smooth.",
+              "Transfer to a bowl, cover with plastic wrap, and let ferment at room temperature for 3-5 days, stirring daily.",
+              "After fermentation, transfer mixture to a saucepan.",
+              "Add sugar, salt, vinegar, and fish sauce. Bring to a boil.",
+              "Reduce heat and simmer for 5 minutes, stirring occasionally.",
+              "Let cool, then blend again until very smooth.",
+              "Strain through fine mesh if you want smooth texture (optional).",
+              "Store in sterilized bottles. Keeps for several months in refrigerator."
+            ],
+            "prepTime": "20 minutes",
+            "cookTime": "10 minutes + 3-5 days fermentation",
+            "yield": "About 2 cups"
+          }
+        },
+        {
+          "id": 204,
+          "name": "Hoisin Sauce",
+          "description": "Sweet and savory Chinese sauce with fermented beans",
+          "emoji": "🍯",
+          "spicy": 2,
+          "sweet": 4,
+          "salty": 3,
+          "sour": 2,
+          "useCases": ["Meat Dishes", "Vegetables", "Dipping & Dressing"],
+          "availability": ["buy"]
+        },
+        {
+          "id": 205,
+          "name": "Oyster Sauce",
+          "description": "Rich and savory sauce made from oyster extracts",
+          "emoji": "🦪",
+          "spicy": 1,
+          "sweet": 2,
+          "salty": 4,
+          "sour": 1,
+          "useCases": ["Meat Dishes", "Vegetables", "Rice & Grains"],
+          "availability": ["buy"]
+        },
+        {
+          "id": 206,
+          "name": "Gochujang",
+          "description": "Korean fermented chili paste with sweet and spicy notes",
+          "emoji": "🌶️",
+          "spicy": 4,
+          "sweet": 3,
+          "salty": 2,
+          "sour": 2,
+          "useCases": ["Meat Dishes", "Vegetables", "Marinades"],
+          "availability": ["buy"]
+        },
+        {
+          "id": 207,
+          "name": "Chili Oil",
+          "description": "Spicy oil infused with chili peppers and aromatics",
+          "emoji": "🫒",
+          "spicy": 4,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 1,
+          "useCases": ["Pasta & Noodles", "Vegetables", "Dipping & Dressing", "Rice & Grains"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 cup neutral oil (vegetable or canola)",
+              "1/4 cup red chili flakes",
+              "2 tbsp Sichuan peppercorns (optional)",
+              "4 cloves garlic, minced",
+              "2 inch ginger, sliced",
+              "2 star anise",
+              "1 cinnamon stick",
+              "1 tsp salt",
+              "1 tsp sugar"
+            ],
+            "instructions": [
+              "Heat oil in a saucepan over medium-low heat to 250°F (120°C).",
+              "Add garlic, ginger, star anise, and cinnamon stick. Fry gently for 5 minutes.",
+              "Remove aromatics and strain oil if desired.",
+              "Place chili flakes, Sichuan peppercorns, salt, and sugar in a heat-proof bowl.",
+              "Heat oil to 375°F (190°C) and carefully pour over the chili mixture.",
+              "Stir well and let cool completely.",
+              "Store in an airtight jar. Best after 24 hours. Lasts for months!"
+            ],
+            "prepTime": "10 minutes",
+            "cookTime": "15 minutes",
+            "yield": "About 1 cup"
+          }
+        },
+        {
+          "id": 208,
+          "name": "Sweet Chili Sauce",
+          "description": "Sweet and tangy sauce with chili peppers",
+          "emoji": "🌶️",
+          "spicy": 3,
+          "sweet": 4,
+          "salty": 1,
+          "sour": 2,
+          "useCases": ["Seafood", "Vegetables", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 cup white vinegar",
+              "1 cup sugar",
+              "1/2 cup water",
+              "4 cloves garlic, minced",
+              "2 red chili peppers, finely chopped",
+              "1 tsp salt",
+              "2 tbsp cornstarch",
+              "3 tbsp water (for slurry)"
+            ],
+            "instructions": [
+              "Combine vinegar, sugar, water, garlic, chilies, and salt in a saucepan.",
+              "Bring to a boil over medium-high heat, stirring until sugar dissolves.",
+              "Reduce heat and simmer for 5 minutes.",
+              "Mix cornstarch with 3 tbsp water to create a slurry.",
+              "Add slurry to the sauce and stir until thickened (about 2 minutes).",
+              "Remove from heat and let cool completely.",
+              "Store in airtight jar in refrigerator for up to 1 month."
+            ],
+            "prepTime": "10 minutes",
+            "cookTime": "10 minutes",
+            "yield": "About 1.5 cups"
+          }
+        }
+      ]
+    },
+    "American": {
+      "flag": "🇺🇸",
+      "sauces": [
+        {
+          "id": 209,
+          "name": "BBQ Sauce",
+          "description": "Sweet and smoky barbecue sauce with molasses",
+          "emoji": "🍖",
+          "spicy": 2,
+          "sweet": 4,
+          "salty": 2,
+          "sour": 3,
+          "useCases": ["BBQ & Grilling", "Meat Dishes", "Marinades"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 cup ketchup",
+              "1/2 cup apple cider vinegar",
+              "1/4 cup brown sugar",
+              "2 tbsp molasses",
+              "2 tbsp Worcestershire sauce",
+              "1 tbsp Dijon mustard",
+              "2 tsp smoked paprika",
+              "1 tsp garlic powder",
+              "1 tsp onion powder",
+              "1/2 tsp black pepper",
+              "1/4 tsp cayenne pepper (optional)"
+            ],
+            "instructions": [
+              "Combine all ingredients in a medium saucepan.",
+              "Whisk together until well combined.",
+              "Bring to a boil over medium heat.",
+              "Reduce heat to low and simmer for 15-20 minutes, stirring occasionally.",
+              "The sauce should thicken and flavors will meld together.",
+              "Taste and adjust seasonings as needed.",
+              "Let cool before using. Store in refrigerator for up to 2 weeks."
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "20 minutes",
+            "yield": "About 1.5 cups"
+          }
+        },
+        {
+          "id": 210,
+          "name": "Ranch Dressing",
+          "description": "Classic American ranch with herbs and buttermilk",
+          "emoji": "🥗",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 3,
+          "sour": 2,
+          "useCases": ["Vegetables", "Dipping & Dressing", "Meat Dishes"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 cup mayonnaise",
+              "1/2 cup sour cream",
+              "1/2 cup buttermilk",
+              "2 cloves garlic, minced",
+              "2 tbsp fresh dill, chopped (or 2 tsp dried)",
+              "1 tbsp fresh chives, chopped",
+              "1 tbsp fresh parsley, chopped",
+              "1 tsp onion powder",
+              "1/2 tsp salt",
+              "1/4 tsp black pepper",
+              "1 tsp lemon juice"
+            ],
+            "instructions": [
+              "In a bowl, whisk together mayonnaise, sour cream, and buttermilk until smooth.",
+              "Add minced garlic, dill, chives, parsley, and onion powder.",
+              "Season with salt, pepper, and lemon juice.",
+              "Whisk until well combined.",
+              "Taste and adjust seasonings as needed.",
+              "Cover and refrigerate for at least 30 minutes before serving to let flavors develop.",
+              "Store in refrigerator for up to 1 week. Thin with more buttermilk if needed."
+            ],
+            "prepTime": "10 minutes",
+            "cookTime": "No cooking + 30 min chill time",
+            "yield": "About 2 cups"
+          }
+        },
+        {
+          "id": 211,
+          "name": "Buffalo Sauce",
+          "description": "Tangy and spicy sauce perfect for wings",
+          "emoji": "🍗",
+          "spicy": 4,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 4,
+          "useCases": ["Meat Dishes", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1/2 cup hot sauce (Frank's RedHot recommended)",
+              "1/2 cup (1 stick) unsalted butter",
+              "1 tbsp white vinegar",
+              "1/4 tsp Worcestershire sauce",
+              "1/4 tsp cayenne pepper",
+              "1/8 tsp garlic powder",
+              "Pinch of salt"
+            ],
+            "instructions": [
+              "Melt butter in a small saucepan over low heat.",
+              "Add hot sauce, vinegar, Worcestershire sauce, and spices.",
+              "Whisk continuously until well combined and heated through.",
+              "Do not let it boil - keep heat low to prevent separation.",
+              "Simmer for 2-3 minutes, whisking occasionally.",
+              "Remove from heat and use immediately, or let cool and store.",
+              "Store in refrigerator for up to 2 weeks. Reheat gently before using."
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "5 minutes",
+            "yield": "About 1 cup"
+          }
+        },
+        {
+          "id": 212,
+          "name": "Honey Mustard",
+          "description": "Sweet and tangy mustard with honey",
+          "emoji": "🍯",
+          "spicy": 1,
+          "sweet": 4,
+          "salty": 1,
+          "sour": 3,
+          "useCases": ["Meat Dishes", "Vegetables", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1/2 cup Dijon mustard",
+              "1/4 cup honey",
+              "1/4 cup mayonnaise",
+              "2 tbsp yellow mustard",
+              "1 tbsp lemon juice",
+              "1/4 tsp garlic powder",
+              "Pinch of salt",
+              "Pinch of black pepper"
+            ],
+            "instructions": [
+              "In a bowl, whisk together Dijon mustard, honey, and mayonnaise until smooth.",
+              "Add yellow mustard and lemon juice, whisk well.",
+              "Season with garlic powder, salt, and pepper.",
+              "Taste and adjust sweetness by adding more honey if desired.",
+              "Cover and refrigerate for at least 15 minutes before serving.",
+              "Store in airtight container in refrigerator for up to 3 weeks."
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "No cooking",
+            "yield": "About 1 cup"
+          }
+        }
+      ]
+    },
+    "European": {
+      "flag": "🇪🇺",
+      "sauces": [
+        {
+          "id": 217,
+          "name": "Pesto",
+          "description": "Fresh basil, pine nuts, parmesan, and olive oil",
+          "emoji": "🌿",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 2,
+          "useCases": ["Pasta & Noodles", "Vegetables", "Rice & Grains"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "2 cups fresh basil leaves, packed",
+              "1/2 cup extra virgin olive oil",
+              "1/3 cup pine nuts (or walnuts)",
+              "3 cloves garlic, peeled",
+              "1/2 cup freshly grated Parmesan cheese",
+              "1/2 tsp salt",
+              "1/4 tsp black pepper",
+              "1 tbsp lemon juice"
+            ],
+            "instructions": [
+              "Toast pine nuts in a dry pan over medium heat for 2-3 minutes until fragrant. Let cool.",
+              "In a food processor, pulse basil, pine nuts, and garlic until coarsely chopped.",
+              "Add Parmesan cheese and pulse to combine.",
+              "With processor running, slowly drizzle in olive oil until smooth.",
+              "Add salt, pepper, and lemon juice. Pulse to combine.",
+              "Taste and adjust seasonings as needed.",
+              "Store in airtight container with thin layer of olive oil on top. Keeps 1 week in fridge or freeze for 3 months."
+            ],
+            "prepTime": "10 minutes",
+            "cookTime": "3 minutes",
+            "yield": "About 1 cup"
+          }
+        },
+        {
+          "id": 218,
+          "name": "Garlic Aioli",
+          "description": "Creamy garlic mayonnaise with lemon zest",
+          "emoji": "🧄",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 3,
+          "useCases": ["Seafood", "Vegetables", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "2 large egg yolks, room temperature",
+              "4-6 cloves garlic, minced",
+              "1 tbsp lemon juice",
+              "1 tsp Dijon mustard",
+              "3/4 cup olive oil",
+              "1/4 tsp salt",
+              "Pinch of white pepper",
+              "1 tsp lemon zest (optional)"
+            ],
+            "instructions": [
+              "In a bowl, whisk together egg yolks, minced garlic, lemon juice, and mustard.",
+              "Very slowly drizzle in olive oil while whisking constantly. Start with just drops.",
+              "As mixture begins to emulsify and thicken, you can add oil in a thin stream.",
+              "Continue whisking until all oil is incorporated and aioli is thick and creamy.",
+              "Season with salt, pepper, and lemon zest if using.",
+              "If too thick, thin with a teaspoon of water or lemon juice.",
+              "Refrigerate for at least 30 minutes before serving. Use within 3 days."
+            ],
+            "prepTime": "15 minutes",
+            "cookTime": "No cooking",
+            "yield": "About 1 cup"
+          }
+        },
+        {
+          "id": 219,
+          "name": "Tartar Sauce",
+          "description": "Creamy sauce with pickles and capers",
+          "emoji": "🥒",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 4,
+          "useCases": ["Seafood", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 cup mayonnaise",
+              "2 tbsp dill pickles, finely chopped",
+              "1 tbsp capers, chopped",
+              "1 tbsp fresh lemon juice",
+              "1 tbsp fresh dill, chopped (or 1 tsp dried)",
+              "1 tbsp fresh parsley, chopped",
+              "1 tsp Dijon mustard",
+              "1/2 tsp onion powder",
+              "1/4 tsp black pepper",
+              "Pinch of salt"
+            ],
+            "instructions": [
+              "In a bowl, combine mayonnaise, pickles, and capers.",
+              "Add lemon juice, dill, parsley, and mustard.",
+              "Season with onion powder, pepper, and salt.",
+              "Mix well until all ingredients are evenly distributed.",
+              "Taste and adjust seasonings as needed.",
+              "Cover and refrigerate for at least 1 hour before serving to let flavors meld.",
+              "Store in refrigerator for up to 1 week."
+            ],
+            "prepTime": "10 minutes",
+            "cookTime": "No cooking + 1 hour chill time",
+            "yield": "About 1.25 cups"
+          }
+        },
+        {
+          "id": 220,
+          "name": "Hollandaise",
+          "description": "Rich and buttery French sauce with lemon",
+          "emoji": "🧈",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 3,
+          "useCases": ["Eggs", "Vegetables", "Seafood"],
+          "availability": ["homemade"],
+          "recipe": {
+            "ingredients": [
+              "3 large egg yolks",
+              "1 tbsp lemon juice",
+              "1/2 cup (1 stick) unsalted butter, melted and hot",
+              "1/4 tsp salt",
+              "Pinch of cayenne pepper",
+              "1 tbsp warm water (if needed)"
+            ],
+            "instructions": [
+              "Fill a saucepan with 1-2 inches of water and bring to a simmer.",
+              "In a heatproof bowl that fits over the pan (not touching water), whisk egg yolks and lemon juice.",
+              "Place bowl over simmering water and whisk constantly for 2-3 minutes until slightly thickened.",
+              "Very slowly drizzle in hot melted butter while whisking constantly.",
+              "Continue whisking until sauce thickens and becomes creamy (5-7 minutes).",
+              "If sauce gets too thick, whisk in warm water 1 tsp at a time.",
+              "Season with salt and cayenne pepper.",
+              "Serve immediately. Cannot be stored - best made fresh."
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "10 minutes",
+            "yield": "About 3/4 cup"
+          }
+        }
+      ]
+    },
+    "Mexican": {
+      "flag": "🇲🇽",
+      "sauces": [
+        {
+          "id": 213,
+          "name": "Salsa Verde",
+          "description": "Tangy green sauce with tomatillos and jalapeños",
+          "emoji": "🫑",
+          "spicy": 3,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 4,
+          "useCases": ["Meat Dishes", "Vegetables", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 lb tomatillos, husks removed and rinsed",
+              "1-2 jalapeño peppers",
+              "1/2 white onion, roughly chopped",
+              "3 cloves garlic, peeled",
+              "1/2 cup fresh cilantro",
+              "1 lime, juiced",
+              "1 tsp salt",
+              "1/2 tsp cumin (optional)"
+            ],
+            "instructions": [
+              "Preheat broiler. Place tomatillos and jalapeños on a baking sheet.",
+              "Broil for 5-7 minutes until charred and blistered, turning once.",
+              "Let cool slightly, then remove stems from jalapeños.",
+              "Add tomatillos, jalapeños, onion, and garlic to a blender or food processor.",
+              "Add cilantro, lime juice, salt, and cumin if using.",
+              "Pulse until you reach desired consistency (chunky or smooth).",
+              "Taste and adjust seasonings. Add more salt or lime juice as needed.",
+              "Store in refrigerator for up to 1 week or freeze for 3 months."
+            ],
+            "prepTime": "10 minutes",
+            "cookTime": "7 minutes",
+            "yield": "About 2 cups"
+          }
+        },
+        {
+          "id": 214,
+          "name": "Pico de Gallo",
+          "description": "Fresh tomato salsa with onions and cilantro",
+          "emoji": "🍅",
+          "spicy": 2,
+          "sweet": 2,
+          "salty": 1,
+          "sour": 3,
+          "useCases": ["Meat Dishes", "Vegetables", "Dipping & Dressing"],
+          "availability": ["homemade"],
+          "recipe": {
+            "ingredients": [
+              "4 medium tomatoes, diced",
+              "1/2 white onion, finely chopped",
+              "1-2 jalapeño peppers, seeded and finely chopped",
+              "1/2 cup fresh cilantro, chopped",
+              "2 limes, juiced",
+              "1/2 tsp salt",
+              "1/4 tsp black pepper"
+            ],
+            "instructions": [
+              "Dice tomatoes and place in a bowl. Drain excess liquid if needed.",
+              "Add finely chopped onion, jalapeños, and cilantro.",
+              "Pour lime juice over the mixture.",
+              "Season with salt and pepper.",
+              "Gently toss all ingredients together until well combined.",
+              "Let sit for 10-15 minutes to let flavors meld.",
+              "Taste and adjust seasonings. Add more lime or salt if needed.",
+              "Best served fresh. Can be refrigerated for 2-3 days but may become watery."
+            ],
+            "prepTime": "15 minutes",
+            "cookTime": "No cooking",
+            "yield": "About 2.5 cups"
+          }
+        },
+        {
+          "id": 215,
+          "name": "Chipotle Sauce",
+          "description": "Smoky and spicy sauce with chipotle peppers",
+          "emoji": "🌶️",
+          "spicy": 4,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 2,
+          "useCases": ["Meat Dishes", "Vegetables", "Dipping & Dressing"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1 can (7 oz) chipotle peppers in adobo sauce",
+              "1/2 cup mayonnaise",
+              "1/4 cup sour cream",
+              "2 cloves garlic, minced",
+              "2 tbsp lime juice",
+              "1 tsp honey",
+              "1/2 tsp cumin",
+              "1/4 tsp salt"
+            ],
+            "instructions": [
+              "Add chipotle peppers with some adobo sauce to a blender or food processor.",
+              "Add mayonnaise, sour cream, and minced garlic.",
+              "Add lime juice, honey, cumin, and salt.",
+              "Blend until smooth and creamy.",
+              "Taste and adjust heat by adding more chipotles or balance with more sour cream.",
+              "Adjust seasonings as needed.",
+              "Transfer to airtight container and refrigerate for at least 30 minutes.",
+              "Store in refrigerator for up to 2 weeks."
+            ],
+            "prepTime": "10 minutes",
+            "cookTime": "No cooking",
+            "yield": "About 1.5 cups"
+          }
+        },
+        {
+          "id": 216,
+          "name": "Mole Sauce",
+          "description": "Rich Mexican sauce with chocolate and spices",
+          "emoji": "🍫",
+          "spicy": 3,
+          "sweet": 3,
+          "salty": 2,
+          "sour": 1,
+          "useCases": ["Meat Dishes", "Vegetables"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "3 dried ancho chilies, stemmed and seeded",
+              "2 dried pasilla chilies, stemmed and seeded",
+              "3 tbsp vegetable oil",
+              "1 onion, chopped",
+              "4 cloves garlic, minced",
+              "1/4 cup almonds",
+              "2 tbsp sesame seeds",
+              "1 tsp cinnamon",
+              "1/2 tsp cumin",
+              "2 cups chicken broth",
+              "2 oz dark chocolate (70% cacao), chopped",
+              "2 tbsp tomato paste",
+              "1 tbsp brown sugar",
+              "Salt to taste"
+            ],
+            "instructions": [
+              "Toast dried chilies in a dry pan for 1-2 minutes. Cover with hot water and soak for 20 minutes.",
+              "Heat oil in a large pan. Sauté onion and garlic until softened.",
+              "In the same pan, toast almonds and sesame seeds until fragrant.",
+              "Drain chilies and add to a blender with onion mixture, nuts, spices, and 1 cup broth.",
+              "Blend until very smooth, adding more broth as needed.",
+              "Pour sauce back into pan. Add remaining broth, chocolate, tomato paste, and sugar.",
+              "Simmer on low heat for 30-40 minutes, stirring occasionally until thickened.",
+              "Season with salt. Store in refrigerator for 1 week or freeze for 3 months."
+            ],
+            "prepTime": "30 minutes",
+            "cookTime": "45 minutes",
+            "yield": "About 3 cups"
+          }
+        }
+      ]
+    },
+    "Middle Eastern": {
+      "flag": "🌍",
+      "sauces": [
+        {
+          "id": 221,
+          "name": "Tahini",
+          "description": "Creamy sesame paste sauce with lemon",
+          "emoji": "🫒",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 3,
+          "useCases": ["Vegetables", "Dipping & Dressing", "Rice & Grains"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "1/2 cup tahini paste",
+              "1/4 cup lemon juice (about 2 lemons)",
+              "2-3 cloves garlic, minced",
+              "1/2 tsp cumin",
+              "1/2 tsp salt",
+              "1/4 cup cold water (plus more as needed)",
+              "2 tbsp fresh parsley, chopped (optional)",
+              "Pinch of cayenne pepper (optional)"
+            ],
+            "instructions": [
+              "In a bowl, whisk tahini paste until smooth.",
+              "Add lemon juice and whisk - mixture will seize up and thicken (this is normal).",
+              "Add minced garlic, cumin, and salt. Whisk to combine.",
+              "Gradually add cold water, 1 tablespoon at a time, whisking constantly.",
+              "Continue adding water until sauce reaches desired consistency (smooth and pourable).",
+              "Taste and adjust seasonings. Add more lemon, salt, or garlic as needed.",
+              "Stir in fresh parsley and cayenne if using.",
+              "Store in refrigerator for up to 1 week. Thin with water if it thickens."
+            ],
+            "prepTime": "10 minutes",
+            "cookTime": "No cooking",
+            "yield": "About 1 cup"
+          }
+        },
+        {
+          "id": 222,
+          "name": "Harissa",
+          "description": "North African hot chili pepper paste",
+          "emoji": "🌶️",
+          "spicy": 5,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 2,
+          "useCases": ["Meat Dishes", "Vegetables", "Marinades"],
+          "availability": ["homemade", "buy"],
+          "recipe": {
+            "ingredients": [
+              "6-8 dried red chilies (guajillo or New Mexico)",
+              "4 cloves garlic, peeled",
+              "1 tsp caraway seeds",
+              "1 tsp coriander seeds",
+              "1 tsp cumin seeds",
+              "1/2 tsp smoked paprika",
+              "1/4 cup olive oil",
+              "2 tbsp lemon juice",
+              "1 tsp tomato paste",
+              "1 tsp salt"
+            ],
+            "instructions": [
+              "Remove stems and most seeds from dried chilies. Soak in hot water for 20 minutes.",
+              "Toast caraway, coriander, and cumin seeds in a dry pan until fragrant. Grind in spice grinder.",
+              "Drain chilies and add to food processor with garlic and ground spices.",
+              "Add paprika, olive oil, lemon juice, tomato paste, and salt.",
+              "Process until smooth, scraping down sides as needed.",
+              "Add 1-2 tablespoons of water if mixture is too thick.",
+              "Taste and adjust seasonings. Add more salt or lemon as needed.",
+              "Store in jar covered with thin layer of olive oil. Keeps 2 weeks in fridge or freeze for 3 months."
+            ],
+            "prepTime": "15 minutes",
+            "cookTime": "5 minutes + 20 min soaking",
+            "yield": "About 1 cup"
+          }
+        },
+        {
+          "id": 223,
+          "name": "Za'atar Oil",
+          "description": "Herbal oil with thyme, sumac, and sesame",
+          "emoji": "🌿",
+          "spicy": 1,
+          "sweet": 1,
+          "salty": 2,
+          "sour": 3,
+          "useCases": ["Vegetables", "Rice & Grains", "Dipping & Dressing"],
+          "availability": ["homemade"],
+          "recipe": {
+            "ingredients": [
+              "1/2 cup extra virgin olive oil",
+              "3 tbsp za'atar spice blend",
+              "1 tbsp sesame seeds",
+              "1/2 tsp sumac",
+              "1/4 tsp salt",
+              "1 clove garlic, minced (optional)",
+              "1 tsp lemon zest (optional)"
+            ],
+            "instructions": [
+              "If making za'atar blend: combine dried thyme, sesame seeds, sumac, and salt.",
+              "In a small bowl, combine olive oil and za'atar blend.",
+              "Add sesame seeds, sumac, and salt. Mix well.",
+              "Add minced garlic and lemon zest if using.",
+              "Let mixture sit for at least 30 minutes to let flavors infuse.",
+              "Stir well before using. Oil will separate - this is normal.",
+              "Store in airtight jar at room temperature for up to 2 weeks or refrigerate for 1 month.",
+              "Bring to room temperature before serving if refrigerated."
+            ],
+            "prepTime": "5 minutes",
+            "cookTime": "30 minutes infusing",
+            "yield": "About 1/2 cup"
+          }
+        }
+      ]
+    }
+  }
+}
+

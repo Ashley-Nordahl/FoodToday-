@@ -1,30 +1,39 @@
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 
 const cuisines = [
-  // Chinese cuisines
-  { name: 'Jiangsu', color: '#FF6B9D', emoji: '🥟' },
-  { name: 'Shandong', color: '#4ECDC4', emoji: '🍜' },
-  { name: 'Sichuan', color: '#45B7D1', emoji: '🌶️' },
-  { name: 'Cantonese', color: '#96CEB4', emoji: '🦐' },
-  { name: 'Zhejiang', color: '#FFEAA7', emoji: '🐟' },
-  { name: 'Hunan', color: '#DDA0DD', emoji: '🌶️' },
-  { name: 'Fujian', color: '#98D8C8', emoji: '🍲' },
-  { name: 'Anhui', color: '#F7DC6F', emoji: '🥢' },
+  // Chinese cuisine (consolidated)
+  { name: 'Chinese', color: '#2ECC71', emoji: '🍚' },
   
-  // International cuisines
-  { name: 'Japanese', color: '#FF7675', emoji: '🍣' },
-  { name: 'Korean', color: '#74B9FF', emoji: '🥘' },
-  { name: 'Italian', color: '#A29BFE', emoji: '🍝' },
-  { name: 'French', color: '#FD79A8', emoji: '🥐' },
-  { name: 'Indian', color: '#FDCB6E', emoji: '🍛' },
-  { name: 'Thai', color: '#6C5CE7', emoji: '🌶️' },
-  { name: 'Mexican', color: '#00B894', emoji: '🌮' }
+  // International cuisines - each with unique colors
+  { name: 'Japanese', color: '#E74C3C', emoji: '🍣' },
+  { name: 'Korean', color: '#3498DB', emoji: '🥘' },
+  { name: 'Italian', color: '#9B59B6', emoji: '🍝' },
+  { name: 'French', color: '#E67E22', emoji: '🥐' },
+  { name: 'Indian', color: '#E17055', emoji: '🍛' },
+  { name: 'Thai', color: '#1ABC9C', emoji: '🌶️' },
+  { name: 'Mexican', color: '#00B894', emoji: '🌮' },
+  { name: 'American', color: '#34495E', emoji: '🍔' },
+  { name: 'Greek', color: '#F1C40F', emoji: '🫒' }
 ]
 
 function FoodWheel({ isOpen, onClose, onSelect }) {
+  const { t, i18n } = useTranslation()
   const [isSpinning, setIsSpinning] = useState(false)
   const [selectedCuisine, setSelectedCuisine] = useState(null)
   const [rotation, setRotation] = useState(0)
+
+  // Clear state when language changes to prevent mixing
+  useEffect(() => {
+    setSelectedCuisine(null)
+    setIsSpinning(false)
+  }, [i18n.language])
+
+  // Helper function to get translated cuisine name
+  const getTranslatedCuisineName = (cuisineName) => {
+    const translated = t(`cuisines.${cuisineName}`)
+    return translated !== `cuisines.${cuisineName}` ? translated : cuisineName
+  }
 
   const spinWheel = () => {
     if (isSpinning) return
@@ -102,15 +111,15 @@ function FoodWheel({ isOpen, onClose, onSelect }) {
                 
                 const largeArcFlag = segmentAngle > 180 ? 1 : 0
                 
-                const x1 = 200 + 200 * Math.cos(startAngleRad - Math.PI / 2)
-                const y1 = 200 + 200 * Math.sin(startAngleRad - Math.PI / 2)
-                const x2 = 200 + 200 * Math.cos(endAngleRad - Math.PI / 2)
-                const y2 = 200 + 200 * Math.sin(endAngleRad - Math.PI / 2)
+                const x1 = 200 + 155 * Math.cos(startAngleRad - Math.PI / 2)
+                const y1 = 200 + 155 * Math.sin(startAngleRad - Math.PI / 2)
+                const x2 = 200 + 155 * Math.cos(endAngleRad - Math.PI / 2)
+                const y2 = 200 + 155 * Math.sin(endAngleRad - Math.PI / 2)
                 
                 const pathData = [
                   `M 200 200`,
                   `L ${x1} ${y1}`,
-                  `A 200 200 0 ${largeArcFlag} 1 ${x2} ${y2}`,
+                  `A 155 155 0 ${largeArcFlag} 1 ${x2} ${y2}`,
                   `Z`
                 ].join(' ')
                 
@@ -123,30 +132,30 @@ function FoodWheel({ isOpen, onClose, onSelect }) {
                       strokeWidth="2"
                     />
                     <text
-                      x={200 + 120 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                      y={200 + 120 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                      x={200 + 110 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                      y={200 + 110 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                      textAnchor="middle"
+                      dominantBaseline="middle"
+                      fill="white"
+                      fontSize="16"
+                      fontWeight="600"
+                      textShadow="0 1px 2px rgba(0,0,0,0.5)"
+                      transform={`rotate(${(startAngle + endAngle) / 2}, ${200 + 110 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${200 + 110 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
+                    >
+                      {cuisine.emoji}
+                    </text>
+                    <text
+                      x={200 + 130 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                      y={200 + 130 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
                       textAnchor="middle"
                       dominantBaseline="middle"
                       fill="white"
                       fontSize="12"
                       fontWeight="600"
                       textShadow="0 1px 2px rgba(0,0,0,0.5)"
-                      transform={`rotate(${(startAngle + endAngle) / 2}, ${200 + 120 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${200 + 120 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
+                      transform={`rotate(${(startAngle + endAngle) / 2}, ${200 + 130 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${200 + 130 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
                     >
-                      {cuisine.emoji}
-                    </text>
-                    <text
-                      x={200 + 140 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                      y={200 + 140 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                      textAnchor="middle"
-                      dominantBaseline="middle"
-                      fill="white"
-                      fontSize="10"
-                      fontWeight="600"
-                      textShadow="0 1px 2px rgba(0,0,0,0.5)"
-                      transform={`rotate(${(startAngle + endAngle) / 2}, ${200 + 140 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${200 + 140 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
-                    >
-                      {cuisine.name}
+                      {getTranslatedCuisineName(cuisine.name)}
                     </text>
                   </g>
                 )
@@ -180,7 +189,7 @@ function FoodWheel({ isOpen, onClose, onSelect }) {
                 <h3>🎉 Selected Cuisine!</h3>
                 <div className="selected-cuisine">
                   <span className="selected-emoji">{selectedCuisine.emoji}</span>
-                  <span className="selected-name">{selectedCuisine.name}</span>
+                  <span className="selected-name">{getTranslatedCuisineName(selectedCuisine.name)}</span>
                 </div>
                 <button 
                   className="select-button"

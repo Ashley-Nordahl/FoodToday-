@@ -1,85 +1,48 @@
-import { useState } from 'react'
-
-const sauces = [
-  {
-    id: 201,
-    name: 'Hot Chili Sauce',
-    description: 'Spicy red chili sauce with a kick of heat',
-    emoji: '🌶️',
-    category: 'Spicy',
-    level: 'Very Hot'
-  },
-  {
-    id: 202,
-    name: 'BBQ Sauce',
-    description: 'Sweet and smoky barbecue sauce with molasses',
-    emoji: '🍖',
-    category: 'Sweet',
-    level: 'Mild'
-  },
-  {
-    id: 203,
-    name: 'Garlic Aioli',
-    description: 'Creamy garlic mayonnaise with lemon zest',
-    emoji: '🧄',
-    category: 'Creamy',
-    level: 'Mild'
-  },
-  {
-    id: 204,
-    name: 'Soy Sauce',
-    description: 'Traditional Japanese soy sauce for umami flavor',
-    emoji: '🥢',
-    category: 'Savory',
-    level: 'Mild'
-  },
-  {
-    id: 205,
-    name: 'Pesto',
-    description: 'Fresh basil, pine nuts, parmesan, and olive oil',
-    emoji: '🌿',
-    category: 'Herbal',
-    level: 'Mild'
-  },
-  {
-    id: 206,
-    name: 'Sriracha',
-    description: 'Thai hot sauce made from chili peppers and garlic',
-    emoji: '🔥',
-    category: 'Spicy',
-    level: 'Hot'
-  },
-  {
-    id: 207,
-    name: 'Ranch Dressing',
-    description: 'Classic American ranch with herbs and buttermilk',
-    emoji: '🥗',
-    category: 'Creamy',
-    level: 'Mild'
-  },
-  {
-    id: 208,
-    name: 'Teriyaki Sauce',
-    description: 'Sweet Japanese glaze with soy sauce and ginger',
-    emoji: '🍜',
-    category: 'Sweet',
-    level: 'Mild'
-  },
-  {
-    id: 209,
-    name: 'Salsa Verde',
-    description: 'Tangy green sauce with tomatillos and jalapeños',
-    emoji: '🫑',
-    category: 'Spicy',
-    level: 'Medium'
-  }
-]
+import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
+import { useAuth } from '../contexts/AuthContext'
+import { trackSelection } from '../lib/supabase'
+import ShoppingList from '../components/ShoppingList'
+import i18n from '../i18n'
 
 function Sauce() {
+  const { t } = useTranslation()
+  const { user } = useAuth()
+
+  // Get translated sauce data
+  const getSauces = () => {
+    const currentLanguage = i18n.language || 'en'
+    const sauceData = i18n.getResourceBundle(currentLanguage, 'sauces')
+    return sauceData || { sauceUseCases: {}, saucesByCountry: {} }
+  }
+
+  const sauces = getSauces()
+  const sauceUseCases = sauces.sauceUseCases || {}
+  const saucesByCountry = sauces.saucesByCountry || {}
+
   const [favorites, setFavorites] = useState(() => {
     const saved = localStorage.getItem('favorites')
     return saved ? JSON.parse(saved) : []
   })
+
+  const [selectedUseCase, setSelectedUseCase] = useState(null)
+  const [showHomemadeOnly, setShowHomemadeOnly] = useState(true)
+  const [selectedSauce, setSelectedSauce] = useState(null)
+  const [tastePreferences, setTastePreferences] = useState({
+    spicy: 3,
+    sweet: 2,
+    salty: 3,
+    sour: 2
+  })
+  
+  // Die-related state
+  const [isRolling, setIsRolling] = useState(false)
+  const [rollResult, setRollResult] = useState(null)
+  const [diePosition, setDiePosition] = useState({ x: 0, y: 0, isMoving: false })
+  const [highlightedSauce, setHighlightedSauce] = useState(null)
+  
+  // Shopping list state
+  const [showShoppingList, setShowShoppingList] = useState(false)
 
   const toggleFavorite = (sauceId) => {
     const newFavorites = favorites.includes(sauceId)
@@ -90,41 +53,409 @@ function Sauce() {
     localStorage.setItem('favorites', JSON.stringify(newFavorites))
   }
 
+  // Helper function to get translated use case name
+  const getTranslatedUseCaseName = (useCase) => {
+    const useCaseMap = {
+      'BBQ & Grilling': 'sauceUseCaseBBQGrilling',
+      'Meat Dishes': 'sauceUseCaseMeatDishes',
+      'Seafood': 'sauceUseCaseSeafood',
+      'Vegetables': 'sauceUseCaseVegetables',
+      'Pasta & Noodles': 'sauceUseCasePastaNoodles',
+      'Rice & Grains': 'sauceUseCaseRiceGrains',
+      'Dipping & Dressing': 'sauceUseCaseDippingDressing',
+      'Marinades': 'sauceUseCaseMarinades'
+    }
+    const key = useCaseMap[useCase] || useCase
+    return t(key)
+  }
+
+  // Helper function to get translated taste label
+  const getTranslatedTasteLabel = (taste) => {
+    const tasteMap = {
+      'spicy': 'sauceTasteSpicy',
+      'sweet': 'sauceTasteSweet',
+      'salty': 'sauceTasteSalty',
+      'sour': 'sauceTasteSour'
+    }
+    const key = tasteMap[taste] || taste
+    return t(key)
+  }
+
+  // Helper function to get translated country name
+  const getTranslatedCountryName = (country) => {
+    const countryMap = {
+      'Asian': 'sauceCountryAsian',
+      'American': 'sauceCountryAmerican',
+      'European': 'sauceCountryEuropean',
+      'Mexican': 'sauceCountryMexican'
+    }
+    const key = countryMap[country] || country
+    return t(key)
+  }
+
+  const handleTasteChange = (taste, value) => {
+    setTastePreferences(prev => ({
+      ...prev,
+      [taste]: parseInt(value)
+    }))
+  }
+
+  const toggleUseCase = (useCase) => {
+    setSelectedUseCase(prev => prev === useCase ? null : useCase)
+  }
+
+  const getFilteredSauces = () => {
+    let allSauces = []
+    
+    // Get all sauces from all countries
+    Object.values(saucesByCountry).forEach(country => {
+      allSauces = [...allSauces, ...country.sauces]
+    })
+
+    // Filter by use case, availability preference, and taste preferences
+    return allSauces.filter(sauce => {
+      // Filter by use case - show all if none selected, or match if one is selected
+      const useCaseMatch = selectedUseCase === null || 
+        (sauce.useCases && sauce.useCases.includes(selectedUseCase))
+      
+      // Filter by availability preference (homemade or buy)
+      const availabilityMatch = showHomemadeOnly 
+        ? sauce.availability && sauce.availability.includes('homemade')
+        : sauce.availability && sauce.availability.includes('buy')
+      
+      // Filter by taste preferences
+      const tasteMatch = (
+        Math.abs(sauce.spicy - tastePreferences.spicy) <= 2 &&
+        Math.abs(sauce.sweet - tastePreferences.sweet) <= 2 &&
+        Math.abs(sauce.salty - tastePreferences.salty) <= 2 &&
+        Math.abs(sauce.sour - tastePreferences.sour) <= 2
+      )
+      
+      return useCaseMatch && availabilityMatch && tasteMatch
+    })
+  }
+
+  const filteredSauces = getFilteredSauces()
+
+  // Die functionality
+  const resetDieState = () => {
+    setDiePosition({ x: 0, y: 0, isMoving: false })
+    setHighlightedSauce(null)
+  }
+
+  const handleDieHover = () => {
+    // Only reset if die has moved to a selection
+    if (diePosition.isMoving || highlightedSauce) {
+      resetDieState()
+    }
+  }
+
+  const handleDieRoll = () => {
+    if (isRolling) return
+    
+    setIsRolling(true)
+    setRollResult(null)
+    setHighlightedSauce(null)
+    setDiePosition({ x: 0, y: 0, isMoving: false })
+    
+    // Roll animation duration
+    setTimeout(() => {
+      // Use filtered sauces to ensure the selected sauce is visible
+      if (filteredSauces.length === 0) {
+        setIsRolling(false)
+        return
+      }
+      
+      const randomSauce = filteredSauces[Math.floor(Math.random() * filteredSauces.length)]
+      
+      setRollResult(randomSauce)
+      
+      // Wait for rendering
+      setTimeout(() => {
+        const selectedSauceElement = document.querySelector(`[data-sauce-id="${randomSauce.id}"]`)
+        if (selectedSauceElement) {
+          const rect = selectedSauceElement.getBoundingClientRect()
+          const containerRect = document.querySelector('.die-container').getBoundingClientRect()
+          
+          // Calculate relative position (same as Drink page)
+          const x = rect.left + (rect.width / 2) - (containerRect.left + containerRect.width / 2)
+          const y = rect.top + (rect.height / 2) - (containerRect.top + containerRect.height / 2)
+          
+          // Move die to selected sauce
+          setDiePosition({ x, y, isMoving: true })
+          
+          // Highlight the selected sauce
+          setHighlightedSauce(randomSauce.id)
+          
+          // Auto-scroll to bring selection into view
+          setTimeout(() => {
+            selectedSauceElement.scrollIntoView({ 
+              behavior: 'smooth', 
+              block: 'center',
+              inline: 'center'
+            })
+          }, 300)
+        }
+      }, 100) // Small delay to ensure DOM is updated
+      
+      setIsRolling(false)
+    }, 1500) // 1.5 second rolling animation
+  }
+
+  // Clear state when language changes to prevent mixing
+  useEffect(() => {
+    setSelectedUseCase(null)
+    setSelectedSauce(null)
+    setShowShoppingList(false)
+    setIsRolling(false)
+    setRollResult(null)
+    setDiePosition({ x: 0, y: 0, isMoving: false })
+    setHighlightedSauce(null)
+  }, [i18n.language])
+
+  // Reset die state when filters change
+  useEffect(() => {
+    resetDieState()
+  }, [selectedUseCase, showHomemadeOnly, tastePreferences])
+
+  const getTasteColor = (taste) => {
+    const colors = {
+      spicy: '#ff4757',
+      sweet: '#ffa502',
+      salty: '#3742fa',
+      sour: '#2ed573'
+    }
+    return colors[taste]
+  }
+
+  const getTasteEmoji = (taste) => {
+    const emojis = {
+      spicy: '🌶️',
+      sweet: '🍯',
+      salty: '🧂',
+      sour: '🍋'
+    }
+    return emojis[taste]
+  }
+
   return (
     <div className="page-container">
+      {/* Animated Die Button */}
+      <div 
+        className={`die-container sauce-page-die ${diePosition.isMoving ? 'moving' : ''}`}
+        style={{
+          transform: diePosition.isMoving ? `translate(${diePosition.x}px, ${diePosition.y}px)` : 'none'
+        }}
+      >
+        <button 
+          className={`die-button ${isRolling ? 'rolling' : ''}`}
+          onClick={handleDieRoll}
+          onMouseEnter={handleDieHover}
+          disabled={isRolling}
+          title={diePosition.isMoving || highlightedSauce ? "Hover to reset die position" : "Roll for a random sauce!"}
+        >
+          <span className="die-icon">🎲</span>
+        </button>
+        
+        {/* Lucky Pick Label */}
+        <div className="die-label">
+          {isRolling ? 'Rolling...' : highlightedSauce ? t('sauce.hoverToReset') : t('sauce.luckyPick')}
+        </div>
+      </div>
       <div className="page-header">
-        <h1 className="page-title">🍯 Sauces</h1>
-        <p className="page-subtitle">Add flavor to your meals with our delicious sauces</p>
+        <h1 className="page-title">🍯 {t('sauce.title')}</h1>
+        <p className="page-subtitle">{t('sauce.subtitle')}</p>
       </div>
 
-      <div className="card-grid">
-        {sauces.map(sauce => (
-          <div key={sauce.id} className="card">
-            <div className="card-image">
-              <span>{sauce.emoji}</span>
+      {/* Filters Row - Where to Use and Taste Preferences */}
+      <div className="filters-row">
+        {/* Where to Use Filter */}
+        <div className="use-case-filter">
+          <h3 className="filter-title">{t('sauce.whereToUse')}</h3>
+          <div className="use-case-buttons">
+            {Object.entries(sauceUseCases).map(([useCase, data]) => (
+              <button
+                key={useCase}
+                className={`use-case-btn ${selectedUseCase === useCase ? 'active' : ''}`}
+                onClick={() => toggleUseCase(useCase)}
+                title={data.description}
+              >
+                {data.emoji} {getTranslatedUseCaseName(useCase)}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Taste Preferences */}
+        <div className="taste-preferences">
+          <h3 className="preferences-title">{t('sauce.tastePreferences')}</h3>
+          <div className="preference-sliders">
+            {Object.entries(tastePreferences).map(([taste, value]) => (
+              <div key={taste} className="preference-row">
+                <div className="preference-label">
+                  <span className="preference-emoji">{getTasteEmoji(taste)}</span>
+                  <span className="preference-name">{getTranslatedTasteLabel(taste)}</span>
+                </div>
+                <div className="slider-container">
+                  <input
+                    type="range"
+                    min="1"
+                    max="5"
+                    value={value}
+                    onChange={(e) => handleTasteChange(taste, e.target.value)}
+                    className={`taste-slider ${taste}-slider`}
+                    style={{
+                      '--slider-color': getTasteColor(taste)
+                    }}
+                  />
             </div>
-            <div className="card-content">
-              <h3 className="card-title">{sauce.name}</h3>
-              <p className="card-description">{sauce.description}</p>
-              <div className="card-meta">
-                <span className="card-tag">{sauce.category}</span>
-                <button 
-                  className={`favorite-btn ${favorites.includes(sauce.id) ? 'active' : ''}`}
-                  onClick={() => toggleFavorite(sauce.id)}
+                <div 
+                  className="preference-value"
+                  style={{ color: getTasteColor(taste) }}
                 >
-                  {favorites.includes(sauce.id) ? '❤️' : '🤍'}
+                  {value}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+
+      {/* Recipe Type Filter */}
+      <div className="recipe-type-buttons-only">
+        <button
+          className={`recipe-type-btn ${showHomemadeOnly ? 'active' : ''}`}
+          onClick={() => setShowHomemadeOnly(true)}
+          title="Show only homemade sauces with recipes"
+        >
+          🏠 {t('sauce.homemade')}
+        </button>
+        <button
+          className={`recipe-type-btn ${!showHomemadeOnly ? 'active' : ''}`}
+          onClick={() => setShowHomemadeOnly(false)}
+          title="Show all sauces (homemade and store-bought)"
+        >
+          🛒 {t('sauce.buy')}
+                </button>
+      </div>
+
+      {/* Sauces by Country - Ingredient-style Layout */}
+      <div className="sauce-categories">
+        {Object.entries(saucesByCountry).map(([country, countryData]) => {
+          // Get sauces for this country that are in the filtered list
+          const countrySauces = countryData.sauces.filter(sauce => 
+            filteredSauces.some(filtered => filtered.id === sauce.id)
+          )
+
+          if (countrySauces.length === 0) return null
+
+          return (
+            <div key={country} className="category-section">
+              <h3 className="category-title">
+                {countryData.flag} {getTranslatedCountryName(country)}
+              </h3>
+              <div className="ingredient-grid-compact">
+                {countrySauces.map(sauce => (
+                  <div
+                    key={sauce.id}
+                    data-sauce-id={sauce.id}
+                    className={`ingredient-item-compact sauce-item ${sauce.recipe ? 'has-recipe' : ''} ${highlightedSauce === sauce.id ? 'highlighted' : ''}`}
+                    title={sauce.recipe ? 'Click to view recipe' : sauce.description}
+                    onClick={async () => {
+                      if (sauce.recipe) {
+                        setSelectedSauce(sauce)
+                        // Track sauce selection
+                        if (user) {
+                          await trackSelection(user.id, sauce, 'sauce')
+                        }
+                      }
+                    }}
+                  >
+                    <span className="ingredient-name-compact">{sauce.name}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )
+        })}
+      </div>
+
+      {filteredSauces.length === 0 && (
+        <div className="no-results">
+          <p>{t('sauce.noSaucesFound')}</p>
+        </div>
+      )}
+
+      {/* Recipe Modal */}
+      {selectedSauce && selectedSauce.recipe && (
+        <div className="recipe-modal-overlay" onClick={() => setSelectedSauce(null)}>
+          <div className="recipe-modal" onClick={(e) => e.stopPropagation()}>
+            <button className="close-btn" onClick={() => setSelectedSauce(null)}>×</button>
+            
+            <div className="recipe-header">
+              <h2>{selectedSauce.name}</h2>
+              <p className="recipe-description">{selectedSauce.description}</p>
+              <div className="recipe-meta" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'nowrap', gap: '15px' }}>
+                <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap', flex: '1' }}>
+                  <span>⏱️ Prep: {selectedSauce.recipe.prepTime}</span>
+                  <span>🍳 Cook: {selectedSauce.recipe.cookTime}</span>
+                  <span>📊 Yield: {selectedSauce.recipe.yield}</span>
+                </div>
+                <button 
+                  className="btn btn-shopping btn-small"
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    setShowShoppingList(true)
+                  }}
+                  style={{ flexShrink: 0 }}
+                >
+                  🛒 {t('button.createShoppingList')}
                 </button>
               </div>
-              <div style={{ marginTop: '0.5rem', color: 'var(--gray-color)', fontSize: '0.9rem' }}>
-                🌡️ {sauce.level}
+            </div>
+
+            <div className="recipe-content">
+              <div className="recipe-section">
+                <h3>{t('sauce.recipe.ingredients')}</h3>
+                <ul className="recipe-ingredients">
+                  {selectedSauce.recipe.ingredients.map((ingredient, index) => (
+                    <li key={index}>{ingredient}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="recipe-section">
+                <h3>{t('sauce.recipe.instructions')}</h3>
+                <ol className="recipe-instructions">
+                  {selectedSauce.recipe.instructions.map((instruction, index) => (
+                    <li key={index}>{instruction}</li>
+                  ))}
+                </ol>
               </div>
             </div>
           </div>
-        ))}
       </div>
+      )}
+
+      {/* Shopping List Modal */}
+      {showShoppingList && selectedSauce && selectedSauce.recipe && (
+        <ShoppingList
+          recipe={{
+            name: selectedSauce.name,
+            emoji: '🍯',
+            description: selectedSauce.description || '',
+            ingredientsWithAmounts: selectedSauce.recipe.ingredients,
+            instructions: selectedSauce.recipe.instructions,
+            cookTime: selectedSauce.recipe.cookTime || 'N/A',
+            servings: selectedSauce.recipe.yield || 'N/A',
+            difficulty: 'Medium'
+          }}
+          onClose={() => setShowShoppingList(false)}
+        />
+      )}
     </div>
   )
 }
 
 export default Sauce
-

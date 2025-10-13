@@ -1,0 +1,184 @@
+{
+  "partyTypes": [
+    {
+      "id": 401,
+      "name": "Födelsedagsfirande",
+      "description": "Gör din speciella dag oförglömlig med våra födelsedagsfestpaket",
+      "emoji": "🎂",
+      "category": "Födelsedag",
+      "price": "299 kr",
+      "duration": "4 timmar"
+    },
+    {
+      "id": 402,
+      "name": "Företagsevenemang",
+      "description": "Professionell catering för dina affärsmöten och företagssamlingar",
+      "emoji": "💼",
+      "category": "Affärer",
+      "price": "199 kr",
+      "duration": "3 timmar"
+    },
+    {
+      "id": 403,
+      "name": "Bröllopsreception",
+      "description": "Elegant matupplevelse för din viktigaste dag",
+      "emoji": "💒",
+      "category": "Bröllop",
+      "price": "899 kr",
+      "duration": "6 timmar"
+    },
+    {
+      "id": 404,
+      "name": "Examensfest",
+      "description": "Fira akademiska prestationer med vänner och familj",
+      "emoji": "🎓",
+      "category": "Examen",
+      "price": "349 kr",
+      "duration": "5 timmar"
+    },
+    {
+      "id": 405,
+      "name": "Högtidsfest",
+      "description": "Festliga måltider för jul, nyår och speciella helger",
+      "emoji": "🎄",
+      "category": "Högtid",
+      "price": "449 kr",
+      "duration": "4 timmar"
+    },
+    {
+      "id": 406,
+      "name": "Årsdagssmiddag",
+      "description": "Romantisk och intim mat för milstolpefiranden",
+      "emoji": "💕",
+      "category": "Årsdag",
+      "price": "249 kr",
+      "duration": "3 timmar"
+    },
+    {
+      "id": 407,
+      "name": "Barnfest",
+      "description": "Roliga och spännande matalternativ för barnens fester",
+      "emoji": "🎈",
+      "category": "Barn",
+      "price": "179 kr",
+      "duration": "3 timmar"
+    },
+    {
+      "id": 408,
+      "name": "Sporttittarparty",
+      "description": "Favoriter för matchen för att titta på sport med vänner",
+      "emoji": "⚽",
+      "category": "Sport",
+      "price": "129 kr",
+      "duration": "4 timmar"
+    }
+  ],
+  "ingredientCategories": [
+    {
+      "value": "meat",
+      "label": "Kött",
+      "emoji": "🥩"
+    },
+    {
+      "value": "seafood",
+      "label": "Skaldjur",
+      "emoji": "🦞"
+    },
+    {
+      "value": "vegetables",
+      "label": "Grönsaker",
+      "emoji": "🥬"
+    },
+    {
+      "value": "grains",
+      "label": "Spannmål",
+      "emoji": "🌾"
+    },
+    {
+      "value": "egg",
+      "label": "Ägg",
+      "emoji": "🥚"
+    }
+  ],
+  "tastePreferences": [
+    {
+      "value": "rich",
+      "label": "Rik",
+      "emoji": "🍗"
+    },
+    {
+      "value": "spicy",
+      "label": "Kryddig",
+      "emoji": "🌶️"
+    },
+    {
+      "value": "sweet",
+      "label": "Söt",
+      "emoji": "🍯"
+    },
+    {
+      "value": "sour",
+      "label": "Sur",
+      "emoji": "🍋"
+    },
+    {
+      "value": "salty",
+      "label": "Salt",
+      "emoji": "🧂"
+    },
+    {
+      "value": "light",
+      "label": "Lätt",
+      "emoji": "🌿"
+    }
+  ],
+  "cuisineStyles": [
+    {
+      "value": "mixed",
+      "label": "Blandad Matkultur",
+      "emoji": "🌍"
+    },
+    {
+      "value": "chinese",
+      "label": "Kinesisk Stil",
+      "emoji": "🥢"
+    },
+    {
+      "value": "western",
+      "label": "Västerländsk Stil",
+      "emoji": "🍽️"
+    },
+    {
+      "value": "japanese",
+      "label": "Japansk Stil",
+      "emoji": "🍱"
+    }
+  ],
+  "diningScenarios": [
+    {
+      "value": "family",
+      "label": "Familjesamling",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "value": "friends",
+      "label": "Vänsamling",
+      "emoji": "👯"
+    },
+    {
+      "value": "romantic",
+      "label": "Romantisk Middag",
+      "emoji": "💕"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-01-27T12:00:00.000Z",
+    "totalPartyTypes": 8,
+    "totalIngredientCategories": 5,
+    "totalTastePreferences": 6,
+    "totalCuisineStyles": 4,
+    "totalDiningScenarios": 3,
+    "description": "Partydata och preferenser för Partys-funktionen"
+  }
+}

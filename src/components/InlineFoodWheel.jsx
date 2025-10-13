@@ -1,31 +1,41 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 
 const cuisines = [
-  // Chinese cuisines
-  { name: 'Jiangsu', color: '#FF6B9D', emoji: '🥟', flag: '🇨🇳' },
-  { name: 'Shandong', color: '#4ECDC4', emoji: '🍜', flag: '🇨🇳' },
-  { name: 'Sichuan', color: '#45B7D1', emoji: '🌶️', flag: '🇨🇳' },
-  { name: 'Cantonese', color: '#96CEB4', emoji: '🦐', flag: '🇨🇳' },
-  { name: 'Zhejiang', color: '#FFEAA7', emoji: '🐟', flag: '🇨🇳' },
-  { name: 'Hunan', color: '#DDA0DD', emoji: '🌶️', flag: '🇨🇳' },
-  { name: 'Fujian', color: '#98D8C8', emoji: '🍲', flag: '🇨🇳' },
-  { name: 'Anhui', color: '#F7DC6F', emoji: '🥢', flag: '🇨🇳' },
+  // Chinese cuisine (consolidated)
+  { name: 'Chinese', color: '#2ECC71', emoji: '🍚', flag: '🇨🇳' },
   
-  // International cuisines
-  { name: 'Japanese', color: '#FF7675', emoji: '🍣', flag: '🇯🇵' },
-  { name: 'Korean', color: '#74B9FF', emoji: '🥘', flag: '🇰🇷' },
-  { name: 'Italian', color: '#A29BFE', emoji: '🍝', flag: '🇮🇹' },
-  { name: 'French', color: '#FD79A8', emoji: '🥐', flag: '🇫🇷' },
-  { name: 'Indian', color: '#FDCB6E', emoji: '🍛', flag: '🇮🇳' },
-  { name: 'Thai', color: '#6C5CE7', emoji: '🌶️', flag: '🇹🇭' },
-  { name: 'Mexican', color: '#00B894', emoji: '🌮', flag: '🇲🇽' }
+  // International cuisines - each with unique colors
+  { name: 'Japanese', color: '#E74C3C', emoji: '🍣', flag: '🇯🇵' },
+  { name: 'Korean', color: '#3498DB', emoji: '🥘', flag: '🇰🇷' },
+  { name: 'Italian', color: '#9B59B6', emoji: '🍝', flag: '🇮🇹' },
+  { name: 'French', color: '#E67E22', emoji: '🥐', flag: '🇫🇷' },
+  { name: 'Indian', color: '#E17055', emoji: '🍛', flag: '🇮🇳' },
+  { name: 'Thai', color: '#1ABC9C', emoji: '🌶️', flag: '🇹🇭' },
+  { name: 'Mexican', color: '#00B894', emoji: '🌮', flag: '🇲🇽' },
+  { name: 'American', color: '#34495E', emoji: '🍔', flag: '🇺🇸' },
+  { name: 'Greek', color: '#F1C40F', emoji: '🫒', flag: '🇬🇷' }
 ]
 
 function InlineFoodWheel({ onSelect }) {
+  const { t, i18n } = useTranslation()
   const [isSpinning, setIsSpinning] = useState(false)
   const [selectedCuisine, setSelectedCuisine] = useState(null)
   const [rotation, setRotation] = useState(0)
   const [isSelected, setIsSelected] = useState(false)
+
+  // Clear state when language changes to prevent mixing
+  useEffect(() => {
+    setSelectedCuisine(null)
+    setIsSpinning(false)
+    setIsSelected(false)
+  }, [i18n.language])
+
+  // Helper function to get translated cuisine name
+  const getTranslatedCuisineName = (cuisineName) => {
+    const translated = t(`cuisines.${cuisineName}`)
+    return translated !== `cuisines.${cuisineName}` ? translated : cuisineName
+  }
 
   const spinWheel = () => {
     if (isSpinning) return
@@ -62,9 +72,9 @@ function InlineFoodWheel({ onSelect }) {
   }
 
   const getButtonText = () => {
-    if (isSpinning) return "Spinning..."
-    if (selectedCuisine && !isSelected) return "Try Again"
-    return "Start"
+    if (isSpinning) return t('foodWheel.spinning')
+    if (selectedCuisine && !isSelected) return t('foodWheel.tryAgain')
+    return t('foodWheel.start')
   }
 
   return (
@@ -77,9 +87,9 @@ function InlineFoodWheel({ onSelect }) {
             <svg 
               className={`wheel ${isSpinning ? 'spinning' : ''}`}
               style={{ transform: `rotate(${rotation}deg)` }}
-              viewBox="0 0 300 300"
-              width="300"
-              height="300"
+              viewBox="0 0 250 250"
+              width="250"
+              height="250"
             >
               {cuisines.map((cuisine, index) => {
                 const segmentAngle = 360 / cuisines.length
@@ -91,23 +101,23 @@ function InlineFoodWheel({ onSelect }) {
                 
                 const largeArcFlag = segmentAngle > 180 ? 1 : 0
                 
-                // Outer edge points (at radius 150)
-                const x1 = 150 + 150 * Math.cos(startAngleRad - Math.PI / 2)
-                const y1 = 150 + 150 * Math.sin(startAngleRad - Math.PI / 2)
-                const x2 = 150 + 150 * Math.cos(endAngleRad - Math.PI / 2)
-                const y2 = 150 + 150 * Math.sin(endAngleRad - Math.PI / 2)
+                // Outer edge points (at radius 115 - adjusted for smaller wheel)
+                const x1 = 125 + 115 * Math.cos(startAngleRad - Math.PI / 2)
+                const y1 = 125 + 115 * Math.sin(startAngleRad - Math.PI / 2)
+                const x2 = 125 + 115 * Math.cos(endAngleRad - Math.PI / 2)
+                const y2 = 125 + 115 * Math.sin(endAngleRad - Math.PI / 2)
                 
-                // Inner edge points (at radius 60 to leave room for center)
-                const x3 = 150 + 60 * Math.cos(endAngleRad - Math.PI / 2)
-                const y3 = 150 + 60 * Math.sin(endAngleRad - Math.PI / 2)
-                const x4 = 150 + 60 * Math.cos(startAngleRad - Math.PI / 2)
-                const y4 = 150 + 60 * Math.sin(startAngleRad - Math.PI / 2)
+                // Inner edge points (at radius 80 - adjusted for smaller wheel)
+                const x3 = 125 + 80 * Math.cos(endAngleRad - Math.PI / 2)
+                const y3 = 125 + 80 * Math.sin(endAngleRad - Math.PI / 2)
+                const x4 = 125 + 80 * Math.cos(startAngleRad - Math.PI / 2)
+                const y4 = 125 + 80 * Math.sin(startAngleRad - Math.PI / 2)
                 
                 const pathData = [
                   `M ${x1} ${y1}`,
-                  `A 150 150 0 ${largeArcFlag} 1 ${x2} ${y2}`,
+                  `A 115 115 0 ${largeArcFlag} 1 ${x2} ${y2}`,
                   `L ${x3} ${y3}`,
-                  `A 60 60 0 ${largeArcFlag} 0 ${x4} ${y4}`,
+                  `A 80 80 0 ${largeArcFlag} 0 ${x4} ${y4}`,
                   `Z`
                 ].join(' ')
                 
@@ -120,28 +130,28 @@ function InlineFoodWheel({ onSelect }) {
                       strokeWidth="3"
                     />
                     <text
-                      x={150 + 125 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                      y={150 + 125 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                      x={125 + 95 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                      y={125 + 95 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
                       textAnchor="middle"
                       dominantBaseline="middle"
                       fill="white"
-                      fontSize="11"
+                      fontSize="10"
                       fontWeight="600"
-                      textShadow="0 1px 2px rgba(0,0,0,0.5)"
-                      transform={`rotate(${(startAngle + endAngle) / 2}, ${150 + 125 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${150 + 125 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
+                      style={{ textShadow: "0 1px 2px rgba(0,0,0,0.5)" }}
+                      transform={`rotate(${(startAngle + endAngle) / 2}, ${125 + 95 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${125 + 95 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
                     >
-                      {cuisine.name}
+                      {getTranslatedCuisineName(cuisine.name)}
                     </text>
                     <text
-                      x={150 + 140 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                      y={150 + 140 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                      x={125 + 105 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                      y={125 + 105 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
                       textAnchor="middle"
                       dominantBaseline="middle"
                       fill="white"
-                      fontSize="13"
+                      fontSize="12"
                       fontWeight="600"
-                      textShadow="0 1px 2px rgba(0,0,0,0.5)"
-                      transform={`rotate(${(startAngle + endAngle) / 2}, ${150 + 140 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${150 + 140 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
+                      style={{ textShadow: "0 1px 2px rgba(0,0,0,0.5)" }}
+                      transform={`rotate(${(startAngle + endAngle) / 2}, ${125 + 105 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${125 + 105 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
                     >
                       {cuisine.flag}
                     </text>
@@ -171,7 +181,7 @@ function InlineFoodWheel({ onSelect }) {
                 <div className="cuisine-name-row">
                   <div className="cuisine-text">
                     <span className="selected-flag">{selectedCuisine.flag}</span>
-                    <span className="selected-name">{selectedCuisine.name} Food</span>
+                    <span className="selected-name">{getTranslatedCuisineName(selectedCuisine.name)}{t('foodWheel.cuisineSuffix')}</span>
                   </div>
                   <div className="checkbox-section">
                     <label className="checkbox-container">
@@ -183,7 +193,7 @@ function InlineFoodWheel({ onSelect }) {
                       />
                       <span className="checkmark"></span>
                     </label>
-                    {isSelected && <p className="selected-label">Selected</p>}
+                    {isSelected && <p className="selected-label">{t('foodWheel.selected')}</p>}
                   </div>
                 </div>
               </div>

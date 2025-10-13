@@ -1,0 +1,350 @@
+{
+  "ingredients": {
+    "pork-belly": "五花肉",
+    "pork-shoulder": "猪肩肉",
+    "pork-chops": "猪排",
+    "pork-ribs": "猪肋骨",
+    "ground-pork": "猪肉馅",
+    "pork-tenderloin": "猪里脊",
+    "beef-steak": "牛排",
+    "ground-beef": "牛肉馅",
+    "beef-brisket": "牛胸肉",
+    "beef-ribs": "牛肋骨",
+    "beef-roast": "烤牛肉",
+    "beef-tenderloin": "牛里脊",
+    "lamb-chops": "羊排",
+    "ground-lamb": "羊肉馅",
+    "lamb-shoulder": "羊肩肉",
+    "lamb-leg": "羊腿",
+    "lamb-ribs": "羊肋骨",
+    "chicken-breast": "鸡胸肉",
+    "chicken-thighs": "鸡腿肉",
+    "chicken-wings": "鸡翅",
+    "whole-chicken": "整鸡",
+    "ground-chicken": "鸡肉馅",
+    "duck-breast": "鸭胸肉",
+    "whole-duck": "整鸭",
+    "duck-legs": "鸭腿",
+    "bacon": "培根",
+    "sausage": "香肠",
+    "ham": "火腿",
+    "prosciutto": "意大利火腿",
+    "salmon": "三文鱼",
+    "tuna": "金枪鱼",
+    "cod": "鳕鱼",
+    "sea-bass": "鲈鱼",
+    "mackerel": "鲭鱼",
+    "shrimp": "虾",
+    "scallops": "扇贝",
+    "oysters": "牡蛎",
+    "crab-meat": "蟹肉",
+    "clams": "蛤蜊",
+    "squid": "鱿鱼",
+    "octopus": "章鱼",
+    "cuttlefish": "墨鱼",
+    "crab": "螃蟹",
+    "lobster": "龙虾",
+    "prawns": "大虾",
+    "crawfish": "小龙虾",
+    "king-crab": "帝王蟹",
+    "mussels": "青口贝",
+    "cockles": "鸟蛤",
+    "abalone": "鲍鱼",
+    "smoked-salmon": "烟熏三文鱼",
+    "canned-tuna": "金枪鱼罐头",
+    "fish-sticks": "鱼条",
+    "surimi": "鱼糜",
+    "dried-fish": "鱼干",
+    "whole-egg": "全蛋",
+    "egg-white": "蛋白",
+    "egg-yolk": "蛋黄",
+    "poached-egg": "水煮蛋",
+    "chicken-eggs": "鸡蛋",
+    "duck-egg": "鸭蛋",
+    "quail-egg": "鹌鹑蛋",
+    "goose-egg": "鹅蛋",
+    "turkey-egg": "火鸡蛋",
+    "ostrich-egg": "鸵鸟蛋",
+    "pheasant-egg": "野鸡蛋",
+    "salted-egg": "咸蛋",
+    "century-egg": "皮蛋",
+    "pickled-egg": "腌蛋",
+    "powdered-egg": "蛋粉",
+    "egg-noodles": "鸡蛋面",
+    "liquid-egg": "液态蛋",
+    "broccoli": "西兰花",
+    "cauliflower": "花椰菜",
+    "spinach": "菠菜",
+    "kale": "羽衣甘蓝",
+    "carrot": "胡萝卜",
+    "carrots": "胡萝卜",
+    "zucchini": "西葫芦",
+    "bell-pepper": "甜椒",
+    "bell-peppers": "甜椒",
+    "button-mushroom": "蘑菇",
+    "button-mushrooms": "蘑菇",
+    "shiitake": "香菇",
+    "portobello": "大蘑菇",
+    "oyster-mushroom": "平菇",
+    "enoki": "金针菇",
+    "morel": "羊肚菌",
+    "chanterelle": "鸡油菌",
+    "green-beans": "绿豆",
+    "kidney-beans": "芸豆",
+    "chickpeas": "鹰嘴豆",
+    "black-beans": "黑豆",
+    "lentils": "扁豆",
+    "edamame": "毛豆",
+    "white-beans": "白豆",
+    "firm-tofu": "老豆腐",
+    "silken-tofu": "嫩豆腐",
+    "smoked-tofu": "烟熏豆腐",
+    "tempeh": "豆豉",
+    "tofu-skin": "豆腐皮",
+    "fried-tofu": "炸豆腐",
+    "rice": "大米",
+    "brown-rice": "糙米",
+    "quinoa": "藜麦",
+    "oats": "燕麦",
+    "barley": "大麦",
+    "millet": "小米",
+    "buckwheat": "荞麦",
+    "bulgur": "碾碎小麦",
+    "white-rice": "白米",
+    "all-purpose-flour": "中筋面粉",
+    "couscous": "蒸粗麦粉",
+    "semolina": "粗粒小麦粉",
+    "cornmeal": "玉米粉",
+    "white-bread": "白面包",
+    "pasta": "意大利面",
+    "amaranth": { "category": "谷物", "subcategory": "古代谷物" },
+    "farro": { "category": "谷物", "subcategory": "古代谷物" },
+    "spelt": { "category": "谷物", "subcategory": "古代谷物" },
+    "teff": { "category": "谷物", "subcategory": "古代谷物" },
+    "khorasan": { "category": "谷物", "subcategory": "古代谷物" },
+    "einkorn": { "category": "谷物", "subcategory": "古代谷物" },
+    "sorghum": { "category": "谷物", "subcategory": "古代谷物" },
+    "bamboo-shoots": "竹笋",
+    "basil": "罗勒",
+    "beef": "牛肉",
+    "black-pepper": "黑胡椒",
+    "cabbage": "卷心菜",
+    "cheese": "奶酪",
+    "chicken": "鸡肉",
+    "chili": "辣椒",
+    "chili-bean-paste": "豆瓣酱",
+    "cilantro": "香菜",
+    "coconut-milk": "椰浆",
+    "cream": "奶油",
+    "eggplant": "茄子",
+    "eggs": "鸡蛋",
+    "enchilada-sauce": "辣椒酱",
+    "fish": "鱼",
+    "five-spice": "五香粉",
+    "flour": "面粉",
+    "garlic": "大蒜",
+    "ginger": "生姜",
+    "green-curry-paste": "绿咖喱酱",
+    "herbs": "香草",
+    "hoisin-sauce": "海鲜酱",
+    "honey": "蜂蜜",
+    "lime": "青柠",
+    "mirin": "味醂",
+    "miso-paste": "味噌",
+    "mushroom": "蘑菇",
+    "noodles": "面条",
+    "olive-oil": "橄榄油",
+    "onion": "洋葱",
+    "pancetta": "意式培根",
+    "peanuts": "花生",
+    "pear": "梨",
+    "pizza-dough": "披萨面团",
+    "pork": "猪肉",
+    "red-wine": "红酒",
+    "rice-wine": "米酒",
+    "rock-sugar": "冰糖",
+    "scallions": "大葱",
+    "sesame-oil": "芝麻油",
+    "soy-sauce": "酱油",
+    "star-anise": "八角",
+    "sugar": "糖",
+    "tofu": "豆腐",
+    "tomato": "西红柿",
+    "tomato-sauce": "番茄酱",
+    "tortillas": "玉米饼",
+    "wine": "酒"
+  },
+  "categories": {
+    "肉类": {
+      "emoji": "🥩",
+      "subcategories": {
+        "猪肉": {
+          "emoji": "🐷",
+          "items": ["pork-belly", "pork-shoulder", "pork-chops", "pork-ribs", "ground-pork", "pork-tenderloin"]
+        },
+        "牛肉": {
+          "emoji": "🐄",
+          "items": ["beef-steak", "ground-beef", "beef-brisket", "beef-ribs", "beef-tenderloin"]
+        },
+        "羊肉": {
+          "emoji": "🐑",
+          "items": ["lamb-chops", "ground-lamb", "lamb-shoulder", "lamb-leg", "lamb-ribs"]
+        },
+        "鸡肉": {
+          "emoji": "🐔",
+          "items": ["chicken-breast", "chicken-thighs", "chicken-wings", "whole-chicken", "ground-chicken"]
+        },
+        "鸭肉": {
+          "emoji": "🦆",
+          "items": ["duck-breast", "whole-duck", "duck-legs"]
+        },
+        "加工肉类": {
+          "emoji": "🥓",
+          "items": ["bacon", "sausage", "ham", "prosciutto"]
+        }
+      }
+    },
+    "海鲜": {
+      "emoji": "🐟",
+      "subcategories": {
+        "鱼类": {
+          "emoji": "🐟",
+          "items": ["salmon", "tuna", "cod", "sea-bass", "mackerel"]
+        },
+        "贝类": {
+          "emoji": "🦐",
+          "items": ["shrimp", "scallops", "oysters", "crab-meat", "clams"]
+        },
+        "头足类": {
+          "emoji": "🦑",
+          "items": ["squid", "octopus", "cuttlefish"]
+        },
+        "甲壳类": {
+          "emoji": "🦀",
+          "items": ["crab", "lobster", "prawns", "crawfish", "king-crab"]
+        },
+        "软体类": {
+          "emoji": "🦪",
+          "items": ["clams", "mussels", "cockles", "abalone", "scallops"]
+        },
+        "加工海鲜": {
+          "emoji": "🧂",
+          "items": ["smoked-salmon", "canned-tuna", "fish-sticks", "surimi", "dried-fish"]
+        }
+      }
+    },
+    "蛋类": {
+      "emoji": "🥚",
+      "subcategories": {
+        "鸡蛋": {
+          "emoji": "🥚",
+          "items": ["whole-egg", "egg-white", "egg-yolk", "poached-egg"]
+        },
+        "其他禽蛋": {
+          "emoji": "🪶",
+          "items": ["duck-egg", "quail-egg", "goose-egg", "turkey-egg", "ostrich-egg", "pheasant-egg"]
+        },
+        "加工/特殊蛋类": {
+          "emoji": "🧈",
+          "items": ["salted-egg", "century-egg", "pickled-egg", "powdered-egg", "egg-noodles", "liquid-egg"]
+        }
+      }
+    },
+    "蔬菜": {
+      "emoji": "🥬",
+      "subcategories": {
+        "一般蔬菜": {
+          "emoji": "🥬",
+          "items": ["broccoli", "cauliflower", "spinach", "kale", "carrot", "zucchini", "bell-pepper"]
+        },
+        "蘑菇": {
+          "emoji": "🍄",
+          "items": ["button-mushroom", "shiitake", "portobello", "oyster-mushroom", "enoki", "morel", "chanterelle"]
+        },
+        "豆类": {
+          "emoji": "🫘",
+          "items": ["green-beans", "kidney-beans", "chickpeas", "black-beans", "lentils", "edamame", "white-beans"]
+        },
+        "豆腐和豆制品": {
+          "emoji": "🍢",
+          "items": ["firm-tofu", "silken-tofu", "smoked-tofu", "tempeh", "tofu-skin", "fried-tofu"]
+        }
+      }
+    },
+    "谷物": {
+      "emoji": "🌾",
+      "subcategories": {
+        "全谷物": {
+          "emoji": "🌾",
+          "items": ["rice", "quinoa", "oats", "barley", "millet", "buckwheat", "bulgur"]
+        },
+        "精制谷物": {
+          "emoji": "🍞",
+          "items": ["white-rice", "all-purpose-flour", "couscous", "semolina", "cornmeal", "white-bread", "pasta"]
+        },
+        "古代谷物": {
+          "emoji": "🌿",
+          "items": ["amaranth", "farro", "spelt", "teff", "khorasan", "einkorn", "sorghum"]
+        }
+      }
+    }
+  },
+  "cuisines": {
+    "Jiangsu": {
+      "name": "江苏菜",
+      "description": "以精致口味和艺术摆盘著称",
+      "emoji": "🥢",
+      "characteristics": ["甜", "精致", "艺术"]
+    },
+    "Shandong": {
+      "name": "山东菜",
+      "description": "八大菜系之一，以海鲜和清汤著称",
+      "emoji": "🐟",
+      "characteristics": ["咸", "鲜", "清"]
+    },
+    "Guangdong": {
+      "name": "广东菜",
+      "description": "粤菜以点心和新鲜食材著称",
+      "emoji": "🥟",
+      "characteristics": ["鲜", "淡", "平衡"]
+    },
+    "Sichuan": {
+      "name": "四川菜",
+      "description": "以麻辣口味和花椒著称",
+      "emoji": "🌶️",
+      "characteristics": ["辣", "浓", "麻"]
+    },
+    "Zhejiang": {
+      "name": "浙江菜",
+      "description": "以新鲜嫩滑的食材和清淡口味著称",
+      "emoji": "🍃",
+      "characteristics": ["鲜", "嫩", "淡"]
+    },
+    "Fujian": {
+      "name": "福建菜",
+      "description": "以海鲜、汤品和酸甜口味著称",
+      "emoji": "🦐",
+      "characteristics": ["海鲜", "汤", "酸甜"]
+    },
+    "Hunan": {
+      "name": "湖南菜",
+      "description": "以热辣口味和熏制食材著称",
+      "emoji": "🔥",
+      "characteristics": ["热", "辣", "熏"]
+    },
+    "Anhui": {
+      "name": "安徽菜",
+      "description": "以野味食材和慢煮方法著称",
+      "emoji": "🏔️",
+      "characteristics": ["野", "慢煮", "土"]
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-01-27T12:00:00.000Z",
+    "totalIngredients": 242,
+    "totalCategories": 6,
+    "totalCuisines": 8,
+    "description": "完整的食材注册表，包含分类和菜系定义"
+  }
+}
