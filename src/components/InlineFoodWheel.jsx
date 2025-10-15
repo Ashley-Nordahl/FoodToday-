@@ -23,12 +23,14 @@ function InlineFoodWheel({ onSelect }) {
   const [selectedCuisine, setSelectedCuisine] = useState(null)
   const [rotation, setRotation] = useState(0)
   const [isSelected, setIsSelected] = useState(false)
+  const [recentCuisines, setRecentCuisines] = useState([]) // Track recently shown cuisines
 
   // Clear state when language changes to prevent mixing
   useEffect(() => {
     setSelectedCuisine(null)
     setIsSpinning(false)
     setIsSelected(false)
+    setRecentCuisines([])
   }, [i18n.language])
 
   // Helper function to get translated cuisine name
@@ -44,31 +46,57 @@ function InlineFoodWheel({ onSelect }) {
     setSelectedCuisine(null)
     setIsSelected(false)
     
-    // Random rotation (5-10 full rotations + random angle)
+    // Determine target cuisine - prioritize different ones
+    let targetCuisine
+    const availableCuisines = cuisines.filter(c => !recentCuisines.includes(c.name))
+    
+    if (availableCuisines.length > 0) {
+      // Pick from cuisines not recently shown
+      targetCuisine = availableCuisines[Math.floor(Math.random() * availableCuisines.length)]
+    } else {
+      // If all cuisines have been shown, reset and pick any
+      setRecentCuisines([])
+      targetCuisine = cuisines[Math.floor(Math.random() * cuisines.length)]
+    }
+    
+    // Find the index of the target cuisine
+    const targetIndex = cuisines.findIndex(c => c.name === targetCuisine.name)
+    
+    // Calculate rotation needed to land on target cuisine
+    const segmentAngle = 360 / cuisines.length
+    const targetAngle = targetIndex * segmentAngle + (segmentAngle / 2) // Center of segment
+    
+    // Add random full rotations (5-10) for visual effect
     const randomRotations = 5 + Math.random() * 5
-    const randomAngle = Math.random() * 360
-    const totalRotation = rotation + (randomRotations * 360) + randomAngle
+    const totalRotation = rotation + (randomRotations * 360) + (360 - targetAngle)
     
     setRotation(totalRotation)
     
-    // Calculate selected cuisine based on final rotation
+    // Set the selected cuisine after spin animation
     setTimeout(() => {
-      const normalizedAngle = ((totalRotation % 360) + 360) % 360
-      const segmentAngle = 360 / cuisines.length
-      const selectedIndex = Math.floor((360 - normalizedAngle) / segmentAngle) % cuisines.length
-      const cuisine = cuisines[selectedIndex]
-      
-      setSelectedCuisine(cuisine)
+      setSelectedCuisine(targetCuisine)
       setIsSpinning(false)
+      
+      // Add to recent cuisines (keep last 3-4 cuisines)
+      setRecentCuisines(prev => {
+        const updated = [...prev, targetCuisine.name]
+        // Keep only the last 3 cuisines to ensure variety
+        return updated.length > 3 ? updated.slice(-3) : updated
+      })
     }, 3000)
   }
 
-  const handleCheckboxChange = (event) => {
-    const checked = event.target.checked
-    setIsSelected(checked)
-    if (checked && selectedCuisine) {
+  const handleConfirmSelection = () => {
+    setIsSelected(true)
+    if (selectedCuisine) {
       onSelect(selectedCuisine)
     }
+  }
+
+  const handleTryAgain = () => {
+    setSelectedCuisine(null)
+    setIsSelected(false)
+    spinWheel()
   }
 
   const getButtonText = () => {
@@ -178,23 +206,40 @@ function InlineFoodWheel({ onSelect }) {
           <div className="result-content">
             <div className="selected-cuisine">
               <div className="cuisine-info">
-                <div className="cuisine-name-row">
-                  <div className="cuisine-text">
+                <div className="cuisine-selection-container">
+                  <div className="cuisine-text-centered">
                     <span className="selected-flag">{selectedCuisine.flag}</span>
                     <span className="selected-name">{getTranslatedCuisineName(selectedCuisine.name)}{t('foodWheel.cuisineSuffix')}</span>
                   </div>
-                  <div className="checkbox-section">
-                    <label className="checkbox-container">
-                      <input 
-                        type="checkbox" 
-                        checked={isSelected}
-                        onChange={handleCheckboxChange}
-                        className="choice-checkbox"
-                      />
-                      <span className="checkmark"></span>
-                    </label>
-                    {isSelected && <p className="selected-label">{t('foodWheel.selected')}</p>}
-                  </div>
+                  {!isSelected && (
+                    <div className="action-buttons-section">
+                      <button 
+                        className="btn btn-confirm"
+                        onClick={handleConfirmSelection}
+                      >
+                        {t('foodWheel.letsHaveThis')}
+                      </button>
+                      <button 
+                        className="btn btn-try-again"
+                        onClick={handleTryAgain}
+                      >
+                        {t('foodWheel.anotherOne')}
+                      </button>
+                    </div>
+                  )}
+                  {isSelected && (
+                    <div className="confirmed-section">
+                      <span className="confirmed-message">
+                        ✅ {t('foodWheel.confirmed')}
+                      </span>
+                      <button 
+                        className="btn btn-try-again"
+                        onClick={handleTryAgain}
+                      >
+                        {t('foodWheel.anotherOne')}
+                      </button>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

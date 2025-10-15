@@ -12,6 +12,10 @@ const RecipeChoiceCards = ({ selectedCuisine, onChoiceSelect, isRecipeSelected =
   const [searchResultSelected, setSearchResultSelected] = useState(false)
   const previousIsRecipeSelected = useRef(false)
 
+  // Get recipes from translation files
+  const currentLanguage = i18n.language || 'en'
+  const recipes = i18n.getResourceBundle(currentLanguage, 'recipes') || { cultural: {}, basic: {}, metadata: {} }
+
   // Clear state when language changes to prevent mixing
   useEffect(() => {
     setActiveTab('random')
@@ -62,11 +66,22 @@ const RecipeChoiceCards = ({ selectedCuisine, onChoiceSelect, isRecipeSelected =
             )
             const cuisineMatch = cuisineName.toLowerCase().includes(searchLower)
             
+            // Also search in translated dish names
+            let translatedNameMatch = false
+            if (recipe.name && recipe.name.startsWith('dish.')) {
+              try {
+                const translatedName = t(`dish.${recipe.name.replace('dish.', '')}`)
+                translatedNameMatch = translatedName && translatedName.toLowerCase().includes(searchLower)
+              } catch (e) {
+                translatedNameMatch = false
+              }
+            }
+            
             // Also search in translated cuisine names
             const translatedCuisineName = t(`cuisines.${cuisineName}`, cuisineName).toLowerCase()
             const translatedCuisineMatch = translatedCuisineName.includes(searchLower)
             
-            if (nameMatch || ingredientMatch || cuisineMatch || translatedCuisineMatch) {
+            if (nameMatch || ingredientMatch || cuisineMatch || translatedNameMatch || translatedCuisineMatch) {
               matchingRecipes.push({
                 ...recipe,
                 cuisine: cuisineName
@@ -75,6 +90,43 @@ const RecipeChoiceCards = ({ selectedCuisine, onChoiceSelect, isRecipeSelected =
           }
         })
       }
+    })
+    
+    // Sort results: prioritize better matches
+    matchingRecipes.sort((a, b) => {
+      const queryLower = query.toLowerCase()
+      
+      // Get translated names for comparison
+      const aName = t(`dish.${a.name.replace('dish.', '')}`).toLowerCase()
+      const bName = t(`dish.${b.name.replace('dish.', '')}`).toLowerCase()
+      const aCuisine = t(`cuisines.${a.cuisine}`, a.cuisine).toLowerCase()
+      const bCuisine = t(`cuisines.${b.cuisine}`, b.cuisine).toLowerCase()
+      
+      // Priority 1: Cuisine name starts with query (e.g., "me" matches "Mexican")
+      const aCuisineStarts = aCuisine.startsWith(queryLower)
+      const bCuisineStarts = bCuisine.startsWith(queryLower)
+      if (aCuisineStarts && !bCuisineStarts) return -1
+      if (!aCuisineStarts && bCuisineStarts) return 1
+      
+      // Priority 2: Dish name starts with query
+      const aNameStarts = aName.startsWith(queryLower)
+      const bNameStarts = bName.startsWith(queryLower)
+      if (aNameStarts && !bNameStarts) return -1
+      if (!aNameStarts && bNameStarts) return 1
+      
+      // Priority 3: Query matches start of any word in cuisine name
+      const aCuisineWordStart = new RegExp(`\\b${queryLower}`, 'i').test(aCuisine)
+      const bCuisineWordStart = new RegExp(`\\b${queryLower}`, 'i').test(bCuisine)
+      if (aCuisineWordStart && !bCuisineWordStart) return -1
+      if (!aCuisineWordStart && bCuisineWordStart) return 1
+      
+      // Priority 4: Query matches start of any word in dish name
+      const aNameWordStart = new RegExp(`\\b${queryLower}`, 'i').test(aName)
+      const bNameWordStart = new RegExp(`\\b${queryLower}`, 'i').test(bName)
+      if (aNameWordStart && !bNameWordStart) return -1
+      if (!aNameWordStart && bNameWordStart) return 1
+      
+      return 0
     })
     
     return matchingRecipes
@@ -117,15 +169,25 @@ const RecipeChoiceCards = ({ selectedCuisine, onChoiceSelect, isRecipeSelected =
       }, 100)
     }
     
-    if (!query.trim()) {
-      setSearchResults([])
-      return
-    }
-    
     if (selectedCuisine) {
       // Search within specific cuisine (REACTIVE)
       const culturalRecipes = recipes.cultural || {}
       const cuisineRecipes = culturalRecipes[selectedCuisine.name] || []
+      
+      // If query is empty, show ALL dishes from the selected cuisine
+      if (!query.trim()) {
+        // Filter to only include complete recipes with amounts and instructions
+        const allCuisineDishes = cuisineRecipes.filter(recipe => 
+          recipe.ingredientsWithAmounts && 
+          recipe.instructions && 
+          Array.isArray(recipe.ingredientsWithAmounts) && 
+          Array.isArray(recipe.instructions) &&
+          recipe.ingredientsWithAmounts.length > 0 &&
+          recipe.instructions.length > 0
+        )
+        setSearchResults(allCuisineDishes)
+        return
+      }
       
       // Search by dish name (both raw and translated, case insensitive)
       const results = cuisineRecipes.filter(recipe => {
@@ -136,19 +198,51 @@ const RecipeChoiceCards = ({ selectedCuisine, onChoiceSelect, isRecipeSelected =
         let translatedNameMatch = false
         if (recipe.name && recipe.name.startsWith('dish.')) {
           try {
-            const translatedName = t(`dishes.${recipe.name.replace('dish.', '')}`)
+            const translatedName = t(`dish.${recipe.name.replace('dish.', '')}`)
             translatedNameMatch = translatedName && translatedName.toLowerCase().includes(queryLower)
           } catch (e) {
             translatedNameMatch = false
           }
         }
         
-        return nameMatch || translatedNameMatch
+        // Also search in ingredients
+        const ingredientMatch = recipe.ingredients && recipe.ingredients.some(ingredient => 
+          ingredient.toLowerCase().includes(queryLower)
+        )
+        
+        return nameMatch || translatedNameMatch || ingredientMatch
+      })
+      
+      // Sort results: prioritize matches at start of words
+      results.sort((a, b) => {
+        const aName = t(`dish.${a.name.replace('dish.', '')}`).toLowerCase()
+        const bName = t(`dish.${b.name.replace('dish.', '')}`).toLowerCase()
+        const queryLower = query.toLowerCase()
+        
+        const aStartsWith = aName.startsWith(queryLower)
+        const bStartsWith = bName.startsWith(queryLower)
+        
+        if (aStartsWith && !bStartsWith) return -1
+        if (!aStartsWith && bStartsWith) return 1
+        
+        // Check if query matches start of any word
+        const aWordStart = new RegExp(`\\b${queryLower}`, 'i').test(aName)
+        const bWordStart = new RegExp(`\\b${queryLower}`, 'i').test(bName)
+        
+        if (aWordStart && !bWordStart) return -1
+        if (!aWordStart && bWordStart) return 1
+        
+        return 0
       })
       
       setSearchResults(results)
     } else {
-      // Search across all cuisines
+      // No cuisine selected - search across all cuisines
+      if (!query.trim()) {
+        setSearchResults([])
+        return
+      }
+      
       const results = searchRecipesFromAll(query)
       setSearchResults(results)
     }
@@ -187,6 +281,32 @@ const RecipeChoiceCards = ({ selectedCuisine, onChoiceSelect, isRecipeSelected =
         handleSelectSearchResult(searchResults[0])
       }
     }
+  }
+
+  const handleSearchFocus = () => {
+    // If cuisine is selected and search is empty, show all dishes from that cuisine
+    if (selectedCuisine && !searchQuery.trim()) {
+      handleSearch('') // This will trigger showing all cuisine dishes
+    }
+    
+    // Scroll to keep search field visible above keyboard on mobile
+    setTimeout(() => {
+      const searchInput = document.querySelector('.search-input')
+      if (searchInput) {
+        // Get the position of the search input
+        const searchRect = searchInput.getBoundingClientRect()
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop
+        
+        // Calculate position to keep search field visible above keyboard
+        // On mobile, we want the search field to be about 100px from top of viewport
+        const targetPosition = searchRect.top + scrollTop - 100
+        
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        })
+      }
+    }, 300) // Small delay to allow keyboard to appear
   }
 
   const handleTabClick = (tab) => {
@@ -275,18 +395,27 @@ const RecipeChoiceCards = ({ selectedCuisine, onChoiceSelect, isRecipeSelected =
           <input
             type="text"
             className={`search-input ${isRecipeSelected ? 'disabled' : ''}`}
-            placeholder={isRecipeSelected ? t('recipe.closeRecipeToSearch') : t('recipe.searchPlaceholder')}
+            placeholder={
+              isRecipeSelected 
+                ? t('recipe.closeRecipeToSearch') 
+                : selectedCuisine 
+                  ? t('recipe.searchByDishOrIngredient')
+                  : t('recipe.searchPlaceholder')
+            }
             value={searchQuery}
             onChange={(e) => !isRecipeSelected && handleSearch(e.target.value)}
             onKeyDown={handleSearchKeyDown}
+            onFocus={handleSearchFocus}
             autoFocus={!isRecipeSelected}
             disabled={isRecipeSelected}
           />
           
-          {searchQuery && searchResults.length > 0 && !searchResultSelected && (
+          {((searchQuery || selectedCuisine) && searchResults.length > 0 && !searchResultSelected) && (
             <div className="search-results">
               <div className="search-results-header">
-                {t('recipe.foundRecipes', { count: searchResults.length })}
+                {selectedCuisine && !searchQuery 
+                  ? t('recipe.allDishesFromCuisine', { cuisine: selectedCuisine.name ? t(`cuisines.${selectedCuisine.name}`) : 'Unknown Cuisine' })
+                  : t('recipe.foundRecipes', { count: searchResults.length })}
               </div>
               {searchResults.map((recipe) => (
                 <div 

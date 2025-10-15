@@ -15,7 +15,6 @@ const convertRegistryToComponentFormat = (registry) => {
     
     Object.entries(categoryData.subcategories).forEach(([subcategory, subcategoryData]) => {
       result[category].subcategories[subcategory] = {
-        emoji: subcategoryData.emoji,
         items: subcategoryData.items.map(id => ({ id, name: id })) // name will be translated
       }
     })
@@ -30,13 +29,38 @@ const ingredients = convertRegistryToComponentFormat(INGREDIENT_CATEGORIES)
 const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
   const { t, i18n } = useTranslation()
   const [selectedIngredients, setSelectedIngredients] = useState([])
+  const [expandedSubcategories, setExpandedSubcategories] = useState({})
 
   // Clear state when language changes to prevent mixing
   useEffect(() => {
     setSelectedIngredients([])
     setShowAddInput({})
     setNewIngredientName({})
+    setExpandedSubcategories({})
   }, [i18n.language])
+
+  // Close dropdowns when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      // Check if click is outside any subcategory section
+      if (!event.target.closest('.subcategory-section')) {
+        closeAllDropdowns()
+      }
+    }
+
+    // Add event listener when any dropdown is open
+    const hasOpenDropdowns = Object.values(expandedSubcategories).some(Boolean)
+    if (hasOpenDropdowns) {
+      document.addEventListener('mousedown', handleClickOutside)
+      document.addEventListener('touchstart', handleClickOutside)
+    }
+
+    // Cleanup
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+      document.removeEventListener('touchstart', handleClickOutside)
+    }
+  }, [expandedSubcategories])
 
   // Helper function to get translated ingredient name
   const getTranslatedIngredientName = (ingredient) => {
@@ -98,6 +122,20 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
     const key = subcategoryMap[subcategory] || subcategory.toLowerCase().replace(/\s+/g, '')
     const translated = t(`subcategories.${key}`, { ns: 'ingredients' })
     return translated !== `subcategories.${key}` ? translated : subcategory
+  }
+
+  // Toggle subcategory expansion
+  const toggleSubcategory = (category, subcategory) => {
+    const key = `${category}-${subcategory}`
+    setExpandedSubcategories(prev => ({
+      ...prev,
+      [key]: !prev[key]
+    }))
+  }
+
+  // Close all dropdowns
+  const closeAllDropdowns = () => {
+    setExpandedSubcategories({})
   }
   const [dynamicIngredients, setDynamicIngredients] = useState(() => {
     // Load saved ingredients from localStorage on component mount
@@ -345,7 +383,7 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
   }
 
   return (
-    <div className="ingredient-selector">
+    <div className="ingredient-selector ingredient-selector-mobile">
       <div className="ingredient-categories">
         {Object.entries(dynamicIngredients).map(([category, categoryData]) => (
           <div key={category} className="category-section">
@@ -356,14 +394,39 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
             <div className="ingredient-grid-compact subcategories-container">
               {/* Check if this category has subcategories */}
               {categoryData.subcategories ? (
-                // Render subcategories in consistent tabular format
-                Object.entries(categoryData.subcategories).map(([subcategory, subcategoryData]) => (
-                  <div key={subcategory} className="subcategory-section">
-                    <h5 className="subcategory-title">
-                      <span className="subcategory-emoji">{subcategoryData.emoji}</span>
-                      {getTranslatedSubcategoryName(subcategory)}:
-                    </h5>
-                    <div className="subcategory-items">
+                // Render subcategories as horizontal collapsible sections
+                Object.entries(categoryData.subcategories).map(([subcategory, subcategoryData]) => {
+                  const isExpanded = expandedSubcategories[`${category}-${subcategory}`]
+                  
+                  return (
+                    <div key={subcategory} className="subcategory-section">
+                      <div 
+                        className="subcategory-header"
+                        onClick={() => toggleSubcategory(category, subcategory)}
+                      >
+                        <h5 className="subcategory-title">
+                          {getTranslatedSubcategoryName(subcategory)}:
+                        </h5>
+                        <div className="subcategory-controls">
+                          {isExpanded && (
+                            <span 
+                              className="subcategory-close"
+                              onClick={(e) => {
+                                e.stopPropagation()
+                                toggleSubcategory(category, subcategory)
+                              }}
+                              title="Close dropdown"
+                            >
+                              ×
+                            </span>
+                          )}
+                          <span className="subcategory-toggle">
+                            {isExpanded ? '▲' : '▼'}
+                          </span>
+                        </div>
+                      </div>
+                      
+                      <div className={`subcategory-items ${isExpanded ? 'expanded' : 'collapsed'}`}>
                       {subcategoryData.items.map(ingredient => {
                         // Check if this is a custom ingredient
                         const isCustomIngredient = !ingredients[category]?.subcategories?.[subcategory]?.items?.some(defaultItem => defaultItem.id === ingredient.id)
@@ -432,12 +495,13 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
                           onClick={() => handleAddIngredientSubcategory(category, subcategory)}
                           title={`Add new ingredient to ${subcategory}`}
                         >
-                          +
+                          + Add
                         </button>
                       )}
+                      </div>
                     </div>
-                  </div>
-                ))
+                  )
+                })
               ) : (
                 // Render regular items (for categories without subcategories)
                 categoryData.items.map(ingredient => {

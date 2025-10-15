@@ -56,8 +56,10 @@
     "searchTitle": "Sök",
     "searchSubtitle": "Hitta efter rättnamn",
     "searchPlaceholder": "Sök efter rättnamn",
+    "searchByDishOrIngredient": "Sök efter rättnamn eller ingrediens",
     "closeRecipeToSearch": "Stäng recept för att söka",
     "foundRecipes": "Hittade {{count}} recept",
+    "allDishesFromCuisine": "Alla {{cuisine}} rätter",
     "pleaseSelectCuisine": "Snurra hjulet ovan för att välja ett kök först",
     "selectIngredients": "Välj Dina Ingredienser",
     "selectIngredientsDesc": "Välj de ingredienser du har tillgängliga:",
@@ -1407,6 +1409,9 @@
     "tryAgain": "Försök Igen",
     "spinning": "Snurrar...",
     "selected": "Vald",
+    "letsHaveThis": "Låt oss ha detta!",
+    "anotherOne": "En till",
+    "confirmed": "Bekräftat!",
     "cuisineSuffix": " Mat"
   },
   "myFavorite": {
@@ -1455,7 +1460,7 @@
     "generateWithAI": "Lämna till AI-kock",
     "generating": "Genererar rätter...",
     "generateInstruction": "Generera rätter som matchar dina preferenser och val",
-    "dragInstruction": "Dra ingredienser till tallrikar eller klicka för att ta bort",
+    "dragInstruction": "Dubbelklicka på en ingrediens för att flytta den till en tallrik, och dubbelklicka på en ingrediens på en tallrik för att ta bort den",
     "yourCustomMenu": "Din Anpassade Meny",
     "generatedDishes": "Genererade {{count}} rätter för din {{scenario}}",
     "recipe": "Recept",
@@ -1473,6 +1478,8 @@
     "clear": "Rensa",
     "noRecipeFound": "Inget recept hittades för denna rätt",
     "assignIngredientsFirst": "Tilldela ingredienskategorier till dina tallrikar först! Dra ingrediensknapparna (Kött, Skaldjur, Grönsaker, Spannmål, Ägg) till tallrikarna ovan.",
+    "allPlatesFull": "Alla tallrikar är fulla! Ta bort en ingrediens från en tallrik först.",
+    "noIngredientsSelected": "Välj minst en ingredienskategori för dina tallrikar innan du genererar rätter.",
     "categories": {
       "birthday": "Födelsedag",
       "business": "Företag",

@@ -268,27 +268,21 @@ export const INGREDIENT_CATEGORIES = {
     emoji: '🦞',
     subcategories: {
       'Fish': {
-        emoji: '🐟',
         items: ['salmon', 'tuna', 'cod', 'sea-bass', 'mackerel', 'fish']
       },
       'Shellfish': {
-        emoji: '🦐',
         items: ['shrimp', 'scallops', 'oysters', 'crab-meat', 'clams']
       },
       'Cephalopods': {
-        emoji: '🦑',
         items: ['squid', 'octopus', 'cuttlefish']
       },
       'Crustaceans': {
-        emoji: '🦀',
         items: ['crab', 'lobster', 'prawns', 'crawfish', 'king-crab']
       },
       'Mollusks': {
-        emoji: '🦪',
         items: ['clams', 'mussels', 'cockles', 'abalone', 'scallops']
       },
       'Processed': {
-        emoji: '🧂',
         items: ['smoked-salmon', 'canned-tuna', 'fish-sticks', 'surimi', 'dried-fish']
       }
     }
@@ -297,15 +291,12 @@ export const INGREDIENT_CATEGORIES = {
     emoji: '🥚',
     subcategories: {
       'Chicken Eggs': {
-        emoji: '🥚',
         items: ['eggs', 'egg-white', 'egg-yolk']
       },
       'Other Bird Eggs': {
-        emoji: '🪶',
         items: ['duck-egg', 'quail-egg', 'goose-egg', 'turkey-egg', 'ostrich-egg', 'pheasant-egg']
       },
       'Processed / Specialty': {
-        emoji: '🧈',
         items: ['salted-egg', 'century-egg', 'pickled-egg']
       }
     }
@@ -314,7 +305,6 @@ export const INGREDIENT_CATEGORIES = {
     emoji: '🥬',
     subcategories: {
       'General': {
-        emoji: '🥬',
         items: [
           'broccoli', 'cauliflower', 'spinach', 'kale', 'carrots', 'zucchini', 
           'bell-pepper', 'bamboo-shoots', 'basil', 'cabbage', 'chili',
@@ -323,15 +313,12 @@ export const INGREDIENT_CATEGORIES = {
         ]
       },
       'Mushrooms': {
-        emoji: '🍄',
         items: ['button-mushroom', 'shiitake', 'portobello', 'oyster-mushroom', 'enoki', 'morel', 'chanterelle', 'mushroom']
       },
       'Beans': {
-        emoji: '🫘',
         items: ['green-beans', 'kidney-beans', 'chickpeas', 'black-beans', 'lentils', 'edamame', 'white-beans', 'peanuts']
       },
       'Tofu & Soy': {
-        emoji: '🍢',
         items: ['firm-tofu', 'silken-tofu', 'smoked-tofu', 'tempeh', 'tofu-skin', 'fried-tofu', 'tofu']
       }
     }
@@ -340,15 +327,12 @@ export const INGREDIENT_CATEGORIES = {
     emoji: '🌾',
     subcategories: {
       'Whole Grains': {
-        emoji: '🌾',
         items: ['rice', 'brown-rice', 'quinoa', 'oats', 'barley', 'millet', 'buckwheat', 'bulgur']
       },
       'Refined Grains': {
-        emoji: '🍞',
         items: ['white-rice', 'all-purpose-flour', 'couscous', 'semolina', 'cornmeal', 'white-bread', 'pasta', 'flour', 'noodles', 'pizza-dough', 'tortillas']
       },
       'Ancient Grains': {
-        emoji: '🌿',
         items: ['amaranth', 'farro', 'spelt', 'teff', 'khorasan', 'einkorn', 'sorghum']
       }
     }

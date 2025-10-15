@@ -331,7 +331,7 @@ export const useIngredientCategories = () => {
   // This would normally use i18n, but for now return static data
   return [
     { value: 'meat', label: 'Meat', emoji: '🥩' },
-    { value: 'seafood', label: 'Seafood', emoji: '🐟' },
+    { value: 'seafood', label: 'Seafood', emoji: '🦞' },
     { value: 'vegetables', label: 'Vegetables', emoji: '🥬' },
     { value: 'grains', label: 'Grains', emoji: '🌾' },
     { value: 'egg', label: 'Egg', emoji: '🥚' }

@@ -89,23 +89,23 @@ const getCategoryEmoji = (recipe) => {
     primaryCategory = 'seafood'
   }
   
-  // Return appropriate emoji based on primary category and subcategory
+  // Return appropriate emoji based on primary category (category-level emojis)
   let emoji = '🍽️' // Default
   switch (primaryCategory) {
     case 'meat':
-      emoji = '🥩' // Generic meat emoji
+      emoji = '🥩' // Meat emoji
       break
       
     case 'seafood':
-      emoji = '🦞' // Generic seafood emoji
+      emoji = '🦞' // Lobster emoji for seafood category
       break
       
     case 'vegetables':
-      emoji = '🥬' // Generic vegetable emoji
+      emoji = '🥬' // Vegetable emoji
       break
       
     case 'grains':
-      emoji = '🍚' // Generic rice emoji
+      emoji = '🍚' // Rice emoji
       break
       
     case 'egg':
@@ -629,8 +629,9 @@ function Parties() {
     setGeneratedDishes(null)
     setSelectedRecipe(null)
     setShowShoppingList(false)
-    setDraggedCategory(null)
+    setSelectedCategory(null)
     setRegeneratingDishIndex(null)
+    setShowTemporaryFeedback(false)
   }, [i18n.language])
 
   // Load saved phone numbers from localStorage
@@ -645,37 +646,66 @@ function Parties() {
     }
   }, [])
 
-  const [draggedCategory, setDraggedCategory] = useState(null)
+  const [selectedCategory, setSelectedCategory] = useState(null)
+  const [showTemporaryFeedback, setShowTemporaryFeedback] = useState(false)
 
-  // Drag and drop handlers
-  const handleDragStart = (e, category) => {
-    setDraggedCategory(category)
-    e.dataTransfer.effectAllowed = 'move'
-  }
+  // Clear temporary feedback when plates change (e.g., when a plate becomes empty)
+  useEffect(() => {
+    const filledPlates = dishCategories.filter(cat => cat !== null).length
+    const totalPlates = numberOfDishes
+    const allPlatesFull = filledPlates >= totalPlates && totalPlates > 0
+    
+    // If not all plates are full, clear the temporary feedback
+    if (!allPlatesFull && showTemporaryFeedback) {
+      setShowTemporaryFeedback(false)
+    }
+  }, [dishCategories, numberOfDishes, showTemporaryFeedback])
 
-  const handleDragOver = (e) => {
-    e.preventDefault()
-    e.dataTransfer.dropEffect = 'move'
-  }
-
-  const handleDrop = (e, plateIndex) => {
-    e.preventDefault()
-    if (draggedCategory) {
-      const newCategories = [...dishCategories]
-      newCategories[plateIndex] = draggedCategory
+  // Double-click handlers
+  const handleCategoryDoubleClick = (category) => {
+    // Check if all plates are full
+    const filledPlates = dishCategories.filter(cat => cat !== null).length
+    const totalPlates = numberOfDishes
+    
+    if (filledPlates >= totalPlates) {
+      // All plates are full, show temporary feedback for 5 seconds
+      setShowTemporaryFeedback(true)
+      setTimeout(() => {
+        setShowTemporaryFeedback(false)
+      }, 5000)
+      return
+    }
+    
+    // When an ingredient is double-clicked, store it as selected
+    setSelectedCategory(category)
+    
+    // Find the first empty plate and assign the category
+    const newCategories = [...dishCategories]
+    const emptyPlateIndex = newCategories.findIndex(cat => cat === null)
+    
+    if (emptyPlateIndex !== -1) {
+      newCategories[emptyPlateIndex] = category
       setDishCategories(newCategories)
-      setDraggedCategory(null)
+      setSelectedCategory(null) // Reset selection after adding
+    } else {
+      // This shouldn't happen with the check above, but just in case
+      alert(t('parties.noEmptyPlates', 'All plates are full! Double-click on a plate to replace its ingredient.'))
     }
   }
 
-  const handleDragEnd = () => {
-    setDraggedCategory(null)
-  }
-
-  const handleRemoveFromPlate = (plateIndex) => {
+  const handlePlateDoubleClick = (plateIndex) => {
     const newCategories = [...dishCategories]
-    newCategories[plateIndex] = null
-    setDishCategories(newCategories)
+    
+    if (newCategories[plateIndex] !== null) {
+      // If plate has an ingredient, remove it
+      newCategories[plateIndex] = null
+      setDishCategories(newCategories)
+    } else if (selectedCategory) {
+      // If plate is empty and there's a selected category, add it
+      newCategories[plateIndex] = selectedCategory
+      setDishCategories(newCategories)
+      setSelectedCategory(null)
+    }
   }
 
   // Taste preference handlers
@@ -768,18 +798,28 @@ function Parties() {
     setIsGenerating(true)
     
     try {
-    const selections = {
-        dishCategories: dishCategories.filter(cat => cat !== null).map(cat => cat.value),
-      tastePreferences: selectedTastes,
-      cuisineStyle: selectedCuisine,
+      // Get the actual number of filled plates
+      const filledPlates = dishCategories.filter(cat => cat !== null)
+      const actualNumberOfDishes = filledPlates.length
+      
+      if (actualNumberOfDishes === 0) {
+        alert(t('parties.noIngredientsSelected', 'Please select at least one ingredient category for your plates before generating dishes.'))
+        setIsGenerating(false)
+        return
+      }
+      
+      const selections = {
+        dishCategories: filledPlates.map(cat => cat.value),
+        tastePreferences: selectedTastes,
+        cuisineStyle: selectedCuisine,
         diningScenario: selectedScenario,
-        numberOfDishes: numberOfDishes
+        numberOfDishes: actualNumberOfDishes
       }
 
       // Debug logging
       console.log('🔍 Debug - dishCategories state:', dishCategories)
-      console.log('🔍 Debug - filtered dishCategories:', dishCategories.filter(cat => cat !== null))
-      console.log('🔍 Debug - mapped dishCategories:', dishCategories.filter(cat => cat !== null).map(cat => cat.value))
+      console.log('🔍 Debug - filledPlates:', filledPlates)
+      console.log('🔍 Debug - actualNumberOfDishes:', actualNumberOfDishes)
       console.log('🔍 Debug - selections:', selections)
       
       const recipes = await generatePartyRecipes(selections, i18n.language)
@@ -1013,17 +1053,14 @@ function Parties() {
               <div 
                 key={index} 
                 className={`plate-container ${dishCategories[index] ? 'has-category' : ''}`}
-                onDragOver={handleDragOver}
-                onDrop={(e) => handleDrop(e, index)}
+                onDoubleClick={() => handlePlateDoubleClick(index)}
+                style={{ cursor: 'pointer' }}
+                title={dishCategories[index] ? "Double-click to remove ingredient" : "Double-click an ingredient below to add it"}
               >
                 {dishCategories[index] && (
                   <div 
-                    className="plate-category-badge draggable"
-                    draggable
-                    onDragStart={(e) => handleDragStart(e, dishCategories[index])}
-                    onDragEnd={handleDragEnd}
-                    onClick={() => handleRemoveFromPlate(index)}
-                    title="Drag back to remove or click to remove"
+                    className="plate-category-badge"
+                    title="Double-click the plate to remove"
                   >
                     {dishCategories[index].emoji}
                   </div>
@@ -1035,7 +1072,7 @@ function Parties() {
         </div>
         
         <div className="instruction-row" style={{display: 'flex', justifyContent: 'center', marginTop: '0.5rem'}}>
-          <p className="instruction-text" style={{fontSize: '0.8rem', color: '#ff6b35', margin: 0, textAlign: 'center'}}>{t('parties.dragInstruction')}</p>
+          <p className="instruction-text" style={{fontSize: '0.8rem', color: '#666', fontWeight: 'normal', margin: 0, textAlign: 'center'}}>{t('parties.dragInstruction')}</p>
         </div>
 
         <div className="common-categories">
@@ -1043,11 +1080,10 @@ function Parties() {
             {ingredientCategories.map((cat) => (
               <button
                 key={cat.value}
-                className="category-btn-common draggable"
-                draggable
-                onDragStart={(e) => handleDragStart(e, cat)}
-                onDragEnd={handleDragEnd}
-                title={`Drag ${cat.label} to a plate`}
+                className={`category-btn-common ${selectedCategory?.value === cat.value ? 'selected' : ''}`}
+                onDoubleClick={() => handleCategoryDoubleClick(cat)}
+                title={`Double-click ${cat.label} to add to a plate`}
+                style={{ cursor: 'pointer' }}
               >
                 {cat.emoji}
                 <span className="category-label">{cat.label}</span>
@@ -1055,6 +1091,36 @@ function Parties() {
             ))}
           </div>
         </div>
+        
+        {/* Visual feedback when all plates are full and user tried to add more */}
+        {(() => {
+          const filledPlates = dishCategories.filter(cat => cat !== null).length
+          const totalPlates = numberOfDishes
+          const allPlatesFull = filledPlates >= totalPlates && totalPlates > 0
+          
+          // Show feedback only if showTemporaryFeedback is true AND all plates are full
+          if (showTemporaryFeedback && allPlatesFull) {
+            return (
+              <div className="plates-full-feedback" style={{
+                display: 'flex',
+                justifyContent: 'center',
+                marginTop: '1.5rem',
+                marginBottom: '1rem'
+              }}>
+                <p style={{
+                  fontSize: '0.75rem',
+                  fontStyle: 'italic',
+                  color: '#ff6b35',
+                  margin: 0,
+                  textAlign: 'center'
+                }}>
+                  {t('parties.allPlatesFull')}
+                </p>
+              </div>
+            )
+          }
+          return null
+        })()}
       </div>
 
       {/* Taste Preferences Section */}

@@ -1,5 +1,6 @@
 /* ========================================================================
    🎨 DESIGN STANDARDS - READ BEFORE MAKING CHANGES
+   CACHE BUST: 2024-12-19-3-CARD-CAROUSEL-FIX
    ========================================================================
    
    📏 FONT SIZE STANDARD FOR CATEGORY TEXT:
@@ -254,6 +255,338 @@ p {
   transform: translateY(-2px);
 }
 
+/* Dot Navigation Styles */
+.dot-navigation {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  /* Removed background, border, shadow, and padding for a cleaner look */
+}
+
+.dot-container {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Removed padding to make dots closer and remove individual container feel */
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.dot-container:hover {
+  /* Removed background on hover */
+  transform: scale(1.1);
+}
+
+.page-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--gray-color);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.page-dot.active {
+  width: 24px;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--primary-color);
+  box-shadow: 0 0 10px rgba(255, 107, 53, 0.4);
+}
+
+.dot-tooltip {
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--dark-color);
+  color: var(--light-color);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  animation: tooltipFadeIn 0.2s ease-out;
+}
+
+.dot-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: var(--dark-color);
+}
+
+@keyframes tooltipFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* Mobile Menu Styles */
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 1001;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 18px;
+  position: relative;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--dark-color);
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+  position: absolute;
+}
+
+.hamburger span:nth-child(1) {
+  top: 0px;
+}
+
+.hamburger span:nth-child(2) {
+  top: 8px;
+}
+
+.hamburger span:nth-child(3) {
+  top: 16px;
+}
+
+.hamburger.open span:nth-child(1) {
+  top: 8px;
+  transform: rotate(135deg);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.hamburger.open span:nth-child(3) {
+  top: 8px;
+  transform: rotate(-135deg);
+}
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(247, 243, 240, 0.95);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.mobile-menu.open {
+  transform: translateX(0);
+}
+
+.mobile-menu-content {
+  padding: 5rem 1.5rem 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.mobile-nav-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.mobile-nav-links li {
+  width: 100%;
+  text-align: center;
+}
+
+.mobile-nav-links a {
+  display: block;
+  padding: 0.8rem 1.5rem;
+  color: var(--dark-color);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid transparent;
+}
+
+.mobile-nav-links a:hover,
+.mobile-nav-links a.active {
+  background: var(--primary-color);
+  color: var(--light-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+}
+
+.mobile-user-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 107, 53, 0.2);
+}
+
+.mobile-language-selector {
+  margin-bottom: 0.5rem;
+}
+
+.mobile-auth-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 250px;
+}
+
+.mobile-user-actions .btn-logout,
+.mobile-auth-buttons .btn-login,
+.mobile-auth-buttons .btn-signup {
+  width: 100%;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) { /* Tablet and Mobile: Dot navigation */
+  .traditional-nav {
+    display: none !important;
+  }
+  
+  .dot-navigation {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) { /* Mobile: Dots + Hamburger menu */
+  .traditional-nav {
+    display: none !important;
+  }
+  
+  .dot-navigation {
+    display: flex !important;
+  }
+  
+  .desktop-user {
+    display: none !important;
+  }
+  
+  .mobile-menu-toggle {
+    display: block;
+  }
+  
+  .mobile-menu {
+    display: block;
+  }
+  
+  .navbar-container {
+    justify-content: space-between;
+  }
+
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+
+  .navbar {
+    padding: 0.4rem 1rem;
+  }
+}
+
+@media (min-width: 1025px) { /* Desktop: Traditional navigation */
+  .dot-navigation {
+    display: none !important;
+  }
+  
+  .traditional-nav {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobile-menu-content {
+    padding: 4rem 1rem 1rem;
+  }
+  
+  .mobile-nav-links {
+    gap: 0.8rem;
+  }
+  
+  .mobile-nav-links a {
+    font-size: 0.95rem;
+    padding: 0.7rem 1.2rem;
+  }
+  
+  .mobile-user-actions {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    gap: 0.8rem;
+  }
+  
+  .mobile-user-actions .btn-logout,
+  .mobile-auth-buttons .btn-login,
+  .mobile-auth-buttons .btn-signup {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.95rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+}
+
 /* Button Styles */
 .btn {
   display: inline-block;
@@ -320,6 +653,146 @@ p {
   background: var(--primary-color);
   color: white;
   transform: translateY(-2px);
+}
+
+/* Action Buttons for Cuisine Selection */
+.cuisine-selection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cuisine-text-centered {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--dark-color);
+  text-align: center;
+}
+
+.action-buttons-section {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.confirmed-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.confirmed-message {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--success-color);
+  text-align: center;
+}
+
+.btn-confirm {
+  background: linear-gradient(135deg, var(--success-color) 0%, #26a69a 100%);
+  color: var(--light-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(78, 205, 196, 0.3);
+  min-width: 100px;
+}
+
+.btn-confirm:hover {
+  background: linear-gradient(135deg, #26a69a 0%, #1e7e72 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(78, 205, 196, 0.4);
+}
+
+.btn-confirm:disabled {
+  background: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.btn-try-again {
+  background: linear-gradient(135deg, var(--warning-color) 0%, #f39c12 100%);
+  color: var(--light-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(243, 156, 18, 0.3);
+  min-width: 100px;
+}
+
+.btn-try-again:hover {
+  background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(243, 156, 18, 0.4);
+}
+
+.btn-try-again:disabled {
+  background: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Mobile-friendly search input */
+.search-input {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid var(--gray-color);
+  border-radius: 12px;
+  font-size: 1rem;
+  background: var(--light-color);
+  color: var(--dark-color);
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
+  transform: none; /* Prevent zoom on iOS */
+}
+
+.search-input:disabled {
+  background: #f5f5f5;
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 768px) {
+  .search-input {
+    font-size: 16px; /* Prevents zoom on iOS */
+    padding: 1.2rem;
+  }
+  
+  .search-input:focus {
+    /* Ensure search field stays visible above keyboard */
+    position: relative;
+    z-index: 1000;
+  }
 }
 
 /* Card Styles */
@@ -720,11 +1193,11 @@ p {
   justify-content: space-between;
   gap: 1.5rem;
   margin-bottom: 0;
-  padding: 0.6rem 1.2rem;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  min-height: 35px;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  min-height: auto;
 }
 
 .cuisine-info {
@@ -750,11 +1223,11 @@ p {
 }
 
 .selected-flag {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .selected-name {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--dark-color);
 }
@@ -1347,6 +1820,19 @@ p {
   box-shadow: none;
 }
 
+/* Add bottom padding on mobile to prevent overlap with fixed bottom bar */
+@media (max-width: 768px) {
+  .ingredient-selector-mobile {
+    padding-bottom: 100px !important;
+    margin-bottom: 100px !important;
+  }
+  
+  /* Also add padding to the main content area */
+  body {
+    padding-bottom: 100px !important;
+  }
+}
+
 .selector-header {
   display: flex;
   justify-content: space-between;
@@ -1479,6 +1965,28 @@ p {
   align-items: stretch;
 }
 
+/* Override gap for subcategories container */
+.ingredient-grid-compact.subcategories-container {
+  gap: 1.5rem !important;
+}
+
+/* Override for mobile - force proper wrapping */
+@media (max-width: 768px) {
+  .ingredient-selector-mobile .ingredient-grid-compact {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.3rem !important;
+    overflow-x: visible !important; /* Allow wrapping instead of scrolling */
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  /* Override gap specifically for subcategories on mobile */
+  .ingredient-selector-mobile .ingredient-grid-compact.subcategories-container {
+    gap: 1.2rem !important;
+  }
+}
+
 .ingredient-item {
   display: flex;
   flex-direction: column;
@@ -1520,6 +2028,43 @@ p {
   white-space: nowrap;
   line-height: 1.2;
   flex-shrink: 0;
+}
+
+/* Override for mobile - force responsive sizing and wrapping */
+@media (max-width: 768px) {
+  .ingredient-selector-mobile .ingredient-item-compact {
+    flex: 1 1 calc(50% - 0.15rem) !important;
+    min-width: calc(50% - 0.15rem) !important;
+    max-width: calc(50% - 0.15rem) !important;
+    width: calc(50% - 0.15rem) !important;
+    padding: 0.4rem 0.2rem !important;
+    font-size: 0.7rem !important;
+    border-radius: 12px !important;
+    min-height: 28px !important;
+    box-sizing: border-box !important;
+    flex-shrink: 1 !important; /* Allow shrinking */
+    white-space: normal !important; /* Allow wrapping */
+  }
+}
+
+/* Override add ingredient buttons for mobile */
+@media (max-width: 768px) {
+  .ingredient-selector-mobile .add-ingredient-btn,
+  .ingredient-selector-mobile .subcategory-add-btn {
+    flex: 0 1 auto !important;
+    min-width: auto !important;
+    max-width: 80px !important;
+    width: auto !important;
+    height: 28px !important;
+    border-radius: 12px !important;
+    font-size: 0.65rem !important;
+    font-weight: bold !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    padding: 0.3rem 0.6rem !important;
+  }
 }
 
 .ingredient-item-compact:hover {
@@ -1742,9 +2287,11 @@ p {
   padding: 0.6rem;
   margin-top: 0.5rem;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 0.5rem;
   box-shadow: 0 2px 8px rgba(255, 107, 53, 0.1);
+  width: 100%;
+  min-width: 200px;
 }
 
 .add-ingredient-input input {
@@ -1756,6 +2303,9 @@ p {
   outline: none;
   transition: border-color 0.3s ease;
   background: #fafafa;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
 }
 
 .add-ingredient-input input:focus {
@@ -1766,14 +2316,19 @@ p {
 
 .add-ingredient-buttons {
   display: flex;
-  gap: 0.3rem;
+  gap: 0.5rem;
   align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .save-ingredient-btn,
 .cancel-ingredient-btn {
-  padding: 0.35rem 0.6rem;
+  padding: 0.4rem 0.8rem;
   border: none;
+  min-width: 60px;
+  white-space: nowrap;
   border-radius: 4px;
   font-size: 0.75rem;
   cursor: pointer;
@@ -1812,23 +2367,32 @@ p {
   border-color: #bbb;
 }
 
-/* Force refresh - 10:10 AM */
-/* Container for subcategories - vertical stacking */
+/* Force refresh - 10:20 AM - FIX MOBILE ADD BUTTON */
+/* Container for subcategories - horizontal rows */
 .subcategories-container {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.5rem !important;
+  align-items: flex-start !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  justify-content: flex-start !important;
 }
 
 /* Subcategory styling - horizontal layout */
 .subcategory-section {
-  margin-bottom: 0.4rem;
-  padding: 0.4rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  flex-wrap: nowrap;
+  flex: 0 1 auto !important;
+  min-width: 120px !important;
+  max-width: 150px !important;
+  margin-bottom: 0.5rem !important;
+  padding: 0.2rem 0.4rem !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.3rem !important;
+  flex-wrap: nowrap !important;
+  box-sizing: border-box !important;
 }
 
 .subcategory-section:last-child {
@@ -1836,13 +2400,13 @@ p {
 }
 
 .subcategory-title {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 600;
   color: var(--text-color);
   margin: 0;
   display: flex;
   align-items: center;
-  gap: 0.3rem;
+  gap: 0.15rem;
   min-width: 75px;
   white-space: nowrap;
   flex-shrink: 0;
@@ -1862,28 +2426,30 @@ p {
   padding-bottom: 0.1rem;
 }
 
-/* Add button for subcategories - smaller size */
+/* Add button for subcategories - consistent with main add button */
 .subcategory-add-btn {
-  background: white;
-  border: 2px dashed #ddd;
+  background: #f8f9fa;
+  border: 2px dashed #ccc;
   border-radius: 8px;
-  width: 32px;
-  height: 28px;
+  padding: 0.6rem 1rem;
+  color: #666;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  min-height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
-  color: #666;
-  cursor: pointer;
-  flex-shrink: 0;
-  transition: all 0.2s ease;
-  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  width: auto;
+  min-width: fit-content;
 }
 
 .subcategory-add-btn:hover {
+  background: #e9ecef;
   border-color: var(--primary-color);
   color: var(--primary-color);
-  background: #fff8f0;
 }
 
 .subcategory-add-input {
@@ -1931,10 +2497,480 @@ p {
   background: #777;
 }
 
-/* Ensure ingredient items stay horizontal */
+/* Ensure ingredient items stay horizontal - but allow wrapping on mobile */
 .subcategory-items .ingredient-item-compact {
   flex-shrink: 0;
   white-space: nowrap;
+}
+
+/* Collapsible Subcategory Styles */
+.subcategory-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.6rem 0.8rem;
+  background: rgba(255, 107, 53, 0.1);
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 107, 53, 0.2);
+}
+
+.subcategory-header:hover {
+  background: rgba(255, 107, 53, 0.15);
+  border-color: rgba(255, 107, 53, 0.3);
+  transform: translateY(-1px);
+}
+
+.subcategory-header:active {
+  transform: translateY(0);
+  background: rgba(255, 107, 53, 0.2);
+}
+
+.subcategory-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.subcategory-toggle {
+  font-size: 0.8rem;
+  color: var(--primary-color);
+  transition: transform 0.3s ease;
+  font-weight: bold;
+}
+
+.subcategory-close {
+  font-size: 1rem;
+  color: #999;
+  cursor: pointer;
+  padding: 0.2rem;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  font-weight: bold;
+}
+
+.subcategory-close:hover {
+  background: rgba(255, 0, 0, 0.1);
+  color: #ff4757;
+  transform: scale(1.1);
+}
+
+.subcategory-items {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: auto;
+  z-index: 100;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  background: rgba(255, 255, 255, 0.98);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 107, 53, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+/* Smart positioning for dropdowns near the right edge */
+.subcategory-section:nth-last-child(-n+3) .subcategory-items {
+  left: auto;
+  right: 0;
+}
+
+/* Ensure dropdowns don't go off-screen on the right */
+@media (max-width: 1200px) {
+  .subcategory-section:nth-last-child(-n+4) .subcategory-items {
+    left: auto;
+    right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .subcategory-section:nth-last-child(-n+5) .subcategory-items {
+    left: auto;
+    right: 0;
+  }
+}
+
+/* Collapsed state */
+.subcategory-items.collapsed {
+  max-height: 0;
+  opacity: 0;
+  padding: 0;
+  margin-top: 0;
+  border: none;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+/* Expanded state */
+.subcategory-items.expanded {
+  max-height: 400px;
+  opacity: 1;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-items: stretch;
+  width: fit-content;
+  min-width: 120px;
+  transition: width 0.3s ease, min-width 0.3s ease;
+  padding-bottom: 1.5rem;
+  justify-content: flex-start;
+}
+
+/* Ingredient buttons in dropdown should be left-aligned */
+.subcategory-items.expanded .ingredient-item-compact {
+  align-self: flex-start;
+  text-align: left;
+  width: auto;
+  min-width: fit-content;
+  order: 1;
+  font-size: 0.65rem;
+}
+
+/* Add ingredient input in dropdown should be full width */
+.subcategory-items.expanded .add-ingredient-input {
+  width: 100% !important;
+  min-width: 180px !important;
+  order: 2;
+  margin-top: 0.5rem;
+  align-self: stretch;
+}
+
+/* When add input is shown, expand the dropdown width */
+.subcategory-items.expanded:has(.add-ingredient-input) {
+  min-width: 200px;
+  width: 200px;
+}
+
+/* Add button should appear at the bottom as the last item */
+.subcategory-items.expanded .add-ingredient-btn {
+  align-self: flex-end;
+  text-align: right;
+  width: auto;
+  min-width: fit-content;
+  order: 9999 !important;
+  margin-top: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.65rem;
+  height: auto;
+  min-height: 28px;
+  flex-shrink: 0;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  z-index: 10;
+  position: relative;
+  margin-bottom: 0.5rem;
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+/* Custom scrollbar for dropdown */
+.subcategory-items.expanded::-webkit-scrollbar {
+  width: 6px;
+}
+
+.subcategory-items.expanded::-webkit-scrollbar-track {
+  background: rgba(255, 107, 53, 0.1);
+  border-radius: 3px;
+}
+
+.subcategory-items.expanded::-webkit-scrollbar-thumb {
+  background: rgba(255, 107, 53, 0.3);
+  border-radius: 3px;
+}
+
+.subcategory-items.expanded::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 107, 53, 0.5);
+}
+
+
+
+/* Override for mobile - allow wrapping */
+@media (max-width: 768px) {
+  /* Horizontal layout for mobile subcategories */
+  .ingredient-selector-mobile .subcategories-container {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 0.5rem !important;
+    align-items: flex-start !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-section {
+    position: relative !important;
+    flex: 0 1 auto !important;
+    min-width: 110px !important;
+    max-width: 140px !important;
+    margin-bottom: 0.5rem !important;
+    padding: 0.2rem 0.4rem !important;
+    box-sizing: border-box !important;
+  }
+  
+  .ingredient-selector-mobile .subcategory-items {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 100 !important;
+    flex-wrap: wrap !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    background: rgba(255, 255, 255, 0.98) !important;
+    border-radius: 6px !important;
+    border: 1px solid rgba(255, 107, 53, 0.2) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    padding: 0.4rem !important;
+    max-height: 250px !important;
+    min-width: 220px !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-items.collapsed {
+    max-height: 0 !important;
+    opacity: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    overflow: hidden !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-items.expanded {
+    max-height: 300px !important;
+    opacity: 1 !important;
+    overflow-y: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.3rem !important;
+    align-items: stretch !important;
+    width: fit-content !important;
+    min-width: 120px !important;
+    padding-bottom: 1.5rem !important;
+    transition: width 0.3s ease, min-width 0.3s ease !important;
+    justify-content: flex-start !important;
+  }
+
+  /* Mobile ingredient buttons should be left-aligned */
+  .ingredient-selector-mobile .subcategory-items.expanded .ingredient-item-compact {
+    align-self: flex-start !important;
+    text-align: left !important;
+    width: auto !important;
+    min-width: fit-content !important;
+    order: 1 !important;
+    font-size: 0.6rem !important;
+  }
+
+  /* Mobile add ingredient input should be full width */
+  .ingredient-selector-mobile .subcategory-items.expanded .add-ingredient-input {
+    width: 100% !important;
+    min-width: 150px !important;
+    order: 2 !important;
+    margin-top: 0.5rem !important;
+    align-self: stretch !important;
+    padding: 0.4rem !important;
+  }
+
+  /* When add input is shown on mobile, expand the dropdown width */
+  .ingredient-selector-mobile .subcategory-items.expanded:has(.add-ingredient-input) {
+    min-width: 180px !important;
+    width: 180px !important;
+  }
+
+  /* Mobile add button should appear at the bottom and be visible */
+  .ingredient-selector-mobile .subcategory-items.expanded .add-ingredient-btn {
+    align-self: flex-end !important;
+    text-align: right !important;
+    width: auto !important;
+    min-width: fit-content !important;
+    order: 9999 !important;
+    margin-top: 0.5rem !important;
+    padding: 0.4rem 0.6rem !important;
+    font-size: 0.6rem !important;
+    height: auto !important;
+    min-height: 28px !important;
+    background: var(--primary-color) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 6px !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    flex-shrink: 0 !important;
+    position: relative !important;
+    z-index: 10 !important;
+    margin-bottom: 0.5rem !important;
+  }
+  
+  .ingredient-selector-mobile .subcategory-items .ingredient-item-compact {
+    flex-shrink: 1 !important;
+    white-space: normal !important;
+  }
+
+  /* Mobile subcategory header */
+  .ingredient-selector-mobile .subcategory-header {
+    padding: 0.4rem 0.5rem !important;
+    font-size: 0.8rem !important;
+    min-height: 32px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-title {
+    font-size: 0.6rem !important;
+    margin: 0 !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-toggle {
+    font-size: 0.6rem !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-close {
+    font-size: 0.8rem !important;
+    width: 18px !important;
+    height: 18px !important;
+  }
+}
+
+/* Extra small screens - tighter horizontal layout */
+@media (max-width: 480px) {
+  .ingredient-selector-mobile {
+    padding-bottom: 90px !important;
+    margin-bottom: 90px !important;
+  }
+  
+  /* Also add padding to the main content area */
+  body {
+    padding-bottom: 90px !important;
+  }
+
+  .ingredient-selector-mobile .subcategories-container {
+    gap: 0.4rem !important;
+  }
+  
+  /* Override gap specifically for subcategories on extra small screens */
+  .ingredient-selector-mobile .ingredient-grid-compact.subcategories-container {
+    gap: 0.5rem !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-section {
+    position: relative !important;
+    min-width: 90px !important;
+    max-width: 120px !important;
+    flex: 0 1 auto !important;
+    padding: 0.15rem 0.3rem !important;
+    box-sizing: border-box !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-items {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    right: auto !important;
+    z-index: 100 !important;
+    max-height: 200px !important;
+    min-width: 160px !important;
+    max-width: 200px !important;
+  }
+
+  /* Extra small screens smart positioning for right-edge dropdowns */
+  .ingredient-selector-mobile .subcategory-section:nth-last-child(-n+1) .subcategory-items {
+    left: auto !important;
+    right: 0 !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-items.expanded {
+    max-height: 250px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.2rem !important;
+    align-items: stretch !important;
+    width: fit-content !important;
+    min-width: 100px !important;
+    padding-bottom: 1.5rem !important;
+    transition: width 0.3s ease, min-width 0.3s ease !important;
+    justify-content: flex-start !important;
+  }
+
+  /* Extra small screens ingredient buttons should be left-aligned */
+  .ingredient-selector-mobile .subcategory-items.expanded .ingredient-item-compact {
+    align-self: flex-start !important;
+    text-align: left !important;
+    width: auto !important;
+    min-width: fit-content !important;
+    order: 1 !important;
+    font-size: 0.65rem !important;
+  }
+
+  /* Extra small screens add ingredient input should be full width */
+  .ingredient-selector-mobile .subcategory-items.expanded .add-ingredient-input {
+    width: 100% !important;
+    min-width: 120px !important;
+    order: 2 !important;
+    margin-top: 0.4rem !important;
+    align-self: stretch !important;
+    padding: 0.3rem !important;
+  }
+
+  /* When add input is shown on extra small screens, expand the dropdown width */
+  .ingredient-selector-mobile .subcategory-items.expanded:has(.add-ingredient-input) {
+    min-width: 140px !important;
+    width: 140px !important;
+  }
+
+  /* Extra small screens add button should appear at the bottom and be visible */
+  .ingredient-selector-mobile .subcategory-items.expanded .add-ingredient-btn {
+    align-self: flex-end !important;
+    text-align: right !important;
+    width: auto !important;
+    min-width: fit-content !important;
+    order: 9999 !important;
+    margin-top: 0.4rem !important;
+    padding: 0.3rem 0.5rem !important;
+    font-size: 0.55rem !important;
+    height: auto !important;
+    min-height: 24px !important;
+    background: var(--primary-color) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 4px !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    flex-shrink: 0 !important;
+    position: relative !important;
+    z-index: 10 !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-header {
+    padding: 0.3rem 0.4rem !important;
+    font-size: 0.7rem !important;
+    min-height: 28px !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-title {
+    font-size: 0.55rem !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-toggle {
+    font-size: 0.5rem !important;
+  }
 }
 
 /* Flexible text styling for drink names */
@@ -2857,9 +3893,10 @@ p {
 }
 
 .use-case-buttons {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: stretch;
 }
 
 /* Recipe Type Filter Styles */
@@ -2924,15 +3961,18 @@ p {
   background: #f8f9fa;
   border: 2px solid transparent;
   border-radius: 8px;
-  padding: 0.5rem 0.75rem;
-  font-size: 0.75rem;
+  padding: 0.6rem 0.8rem;
+  flex: 1;
+  min-width: fit-content;
+  white-space: nowrap;
+  font-size: 0.8rem;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.3rem;
+  gap: 0.4rem;
   color: var(--dark-color);
   text-align: center;
   min-height: 36px;
@@ -3024,14 +4064,17 @@ p {
 
 .preference-sliders {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 
 .preference-row {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.5rem;
+  flex: 1;
+  min-width: 200px;
+  max-width: 280px;
 }
 
 .preference-label {
@@ -3436,7 +4479,7 @@ p {
 
 /* Carousel Container */
 .carousel-container {
-  overflow: hidden;
+  overflow: visible; /* Changed from hidden to visible for better mobile viewing */
   position: relative;
   width: 100%;
   max-width: 800px;
@@ -3461,7 +4504,7 @@ p {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-50% - 0.75rem));
+    transform: translateX(calc(-100% + 100vw - 2rem));
   }
 }
 
@@ -3480,9 +4523,9 @@ p {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
   height: 150px;
   justify-content: center;
-  opacity: 0.6;
-  transform: scale(0.85);
-  filter: blur(1px);
+  opacity: 0.8; /* Increased from 0.6 for better visibility */
+  transform: scale(0.9); /* Increased from 0.85 for better visibility */
+  filter: blur(0.5px); /* Reduced blur for better visibility */
   overflow: hidden;
 }
 
@@ -3756,73 +4799,534 @@ p {
   gap: 1rem;
 }
 
-/* Responsive Design for Drinks Page */
+/* Responsive Design for Drinks Page - Flexible Carousel & Visible Categories */
 @media (max-width: 768px) {
+  /* FORCE SINGLE ROW CATEGORY BUTTONS - LARGER COMFORTABLE SIZE + CENTERED */
+  .category-filters {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: 0.6rem !important;
+    padding: 0 1rem !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    justify-content: center !important;
+  }
+  
+  .category-btn {
+    flex-shrink: 0 !important;
+    padding: 0.7rem 0.9rem !important;
+    font-size: 0.9rem !important;
+    max-width: 90px !important;
+    min-height: 40px !important;
+    white-space: nowrap !important;
+  }
+  
+  /* Page header optimization */
+  .page-header {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .page-title {
+    font-size: 1.8rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .page-subtitle {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  /* Popular drinks section - simplified for mobile */
+  .popular-drinks-section {
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  .section-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  /* Animated carousel - 3 cards display */
   .carousel-container {
-    max-width: 700px;
+    width: 520px !important; /* Wider to accommodate 3 cards */
+    max-width: 100% !important;
+    margin: 0 auto 1.5rem !important;
+    padding: 0 1rem !important;
+    overflow: hidden !important;
+    position: relative !important;
   }
   
   .carousel-track {
-    padding-left: calc(50% - 120px);
-    animation: scroll 70s linear infinite;
+    display: flex !important;
+    gap: 0.8rem !important;
+    animation: scrollMobile3 60s linear infinite !important;
+    width: max-content !important;
+    padding-left: calc(50% - 120px) !important; /* Center 3 cards */
   }
   
   .popular-drink-card {
-    min-width: 240px;
-    max-width: 240px;
-    padding: 1rem;
-    height: 140px;
+    width: 140px !important; /* Smaller cards for 3-card display */
+    padding: 0.7rem !important;
+    height: 110px !important;
+    border-radius: 12px !important;
+    opacity: 0.8 !important;
+    transform: scale(0.9) !important;
+    filter: blur(0.5px) !important;
+    flex-shrink: 0 !important;
+  }
+  
+  /* Mobile animation for 3 cards */
+  @keyframes scrollMobile3 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-120px); /* Move by exactly one card width */
+    }
   }
   
   .popular-drink-emoji {
-    font-size: 2.3rem;
+    font-size: 1.4rem;
+    margin-bottom: 0.2rem;
   }
   
   .popular-drink-name {
-    font-size: 0.9rem;
+    font-size: 0.65rem;
+    font-weight: 600;
+    margin-bottom: 0.1rem;
+    line-height: 1.1;
+    word-wrap: break-word;
   }
   
   .popular-drink-desc {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
+    line-height: 1.1;
+    opacity: 0.9;
+    word-wrap: break-word;
+  }
+  
+  /* Category filters - simple horizontal scroll */
+  .category-filters {
+    display: flex;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scroll-behavior: smooth;
+    width: 100%;
+  }
+  
+  .category-filters::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
+  .category-btn {
+    padding: 0.6rem 0.8rem !important;
+    font-size: 0.8rem !important;
+    border-radius: 12px !important;
+    min-height: 36px !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+    min-width: 75px !important;
+    max-width: 85px !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-weight: 500 !important;
   }
   
   .category-tab {
-    padding: 0.7rem 0.8rem;
-    font-size: 0.9rem;
+    padding: 0.15rem 0.25rem !important;
+    font-size: 0.5rem !important;
+    flex-shrink: 0 !important; /* Prevent shrinking */
+    gap: 0.05rem !important;
+    border-radius: 8px !important;
+    min-height: 20px !important;
+    max-width: 55px !important;
   }
   
   .category-tab-emoji {
+    font-size: 0.55rem !important;
+  }
+  
+  /* Category tabs container for mobile */
+  .category-tabs-container {
+    margin: 0 0 1rem 0 !important;
+    padding: 0 !important;
+    overflow-x: auto !important; /* Allow horizontal scroll */
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important; /* Firefox */
+    -ms-overflow-style: none !important; /* IE and Edge */
+    width: 100% !important;
+  }
+  
+  .category-tabs-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
+  .category-tabs-row {
+    display: flex !important;
+    gap: 0.1rem !important;
+    padding: 0 0.3rem !important;
+    flex-wrap: nowrap !important;
+    min-width: max-content !important;
+    justify-content: flex-start !important;
+  }
+  
+  /* Drink grid optimization */
+  .ingredient-grid-compact {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0.5rem;
+    padding: 0 1rem;
+  }
+  
+  .ingredient-item-compact {
+    padding: 0.5rem 0.4rem;
+    min-height: 32px;
+    border-radius: 8px;
+    font-size: 0.75rem;
+  }
+  
+  .ingredient-name-compact {
+    font-size: 0.7rem;
+    line-height: 1.2;
+  }
+  
+  /* Die button positioning */
+  .drink-page-die {
+    top: 140px !important;
+    right: 20px !important;
+    z-index: 100;
+  }
+  
+  .die-button {
+    width: 48px;
+    height: 48px;
+    font-size: 1.1rem;
+  }
+  
+  .die-label {
+    font-size: 0.65rem;
+    bottom: -18px;
+  }
+  
+  /* Selected drink display */
+  .selected-drink-display {
+    padding: 1rem;
+    margin: 0 1rem;
+  }
+  
+  .selected-drink-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .selected-drink-description {
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+  
+  .recipe-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+  }
+  
+  .recipe-section h3 {
     font-size: 1rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .ingredients-list,
+  .instructions-list {
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+  
+  /* Shopping list button */
+  .btn-shopping {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    min-width: 120px;
   }
 }
 
 @media (max-width: 480px) {
+  /* Extra small screens - show 1-2 cards max */
+  .page-title {
+    font-size: 1.6rem;
+  }
+  
+  /* Popular drinks for small screens - show 1-2 cards */
+  .popular-drinks-section {
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .section-title {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+  
   .carousel-container {
-    max-width: 600px;
+    width: 420px !important; /* Narrower but still 3 cards */
+    max-width: 100% !important;
+    padding: 0 0.5rem !important;
+    margin: 0 auto 1rem !important;
   }
   
   .carousel-track {
-    padding-left: calc(50% - 100px);
-    animation: scroll 60s linear infinite;
+    animation: scrollMobile2 50s linear infinite !important;
+    gap: 0.6rem !important;
+    display: flex !important;
+    width: max-content !important;
+    padding-left: calc(50% - 90px) !important; /* Center 3 smaller cards */
   }
   
   .popular-drink-card {
-    min-width: 200px;
-    max-width: 200px;
-    padding: 0.85rem;
-    height: 130px;
+    width: 120px !important; /* Smaller cards for 3-card display */
+    padding: 0.6rem !important;
+    height: 95px !important;
+    opacity: 0.85 !important;
+    transform: scale(0.95) !important;
+    filter: blur(0.3px) !important;
+    flex-shrink: 0 !important;
+  }
+  
+  /* Mobile animation for 3 smaller cards */
+  @keyframes scrollMobile2 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-120px); /* Move by exactly one card width */
+    }
   }
   
   .popular-drink-emoji {
-    font-size: 2rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.1rem;
   }
   
   .popular-drink-name {
-    font-size: 0.85rem;
+    font-size: 0.55rem;
+    margin-bottom: 0.1rem;
   }
   
   .popular-drink-desc {
+    font-size: 0.4rem;
+    line-height: 1.1;
+  }
+  
+  /* Category filters for small screens - larger comfortable size + centered */
+  .category-filters {
+    gap: 0.5rem !important;
+    padding: 0.6rem 0.8rem !important;
+    margin-bottom: 0.8rem;
+    overflow-x: auto !important;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scroll-behavior: smooth;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+  }
+  
+  .category-filters::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
+  .category-btn {
+    padding: 0.5rem 0.7rem !important;
+    font-size: 0.75rem !important;
+    min-height: 32px !important;
+    min-width: 70px !important;
+    max-width: 80px !important;
+    flex-shrink: 0 !important;
+    border-radius: 12px !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+  }
+  
+  /* Drink grid for small screens */
+  .ingredient-grid-compact {
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 0.3rem;
+    padding: 0 0.5rem;
+  }
+  
+  .ingredient-item-compact {
+    padding: 0.4rem 0.3rem;
+    min-height: 28px;
+    font-size: 0.7rem;
+  }
+  
+  .ingredient-name-compact {
     font-size: 0.65rem;
+    line-height: 1.1;
+  }
+  
+  /* Die button for small screens */
+  .drink-page-die {
+    top: 120px !important;
+    right: 15px !important;
+  }
+  
+  .die-button {
+    width: 42px;
+    height: 42px;
+    font-size: 1rem;
+  }
+  
+  .die-label {
+    font-size: 0.6rem;
+    bottom: -16px;
+  }
+  
+  /* Selected drink for small screens */
+  .selected-drink-display {
+    padding: 0.8rem;
+    margin: 0 0.5rem;
+  }
+  
+  .selected-drink-title {
+    font-size: 1.1rem;
+  }
+  
+  .selected-drink-description {
+    font-size: 0.75rem;
+    line-height: 1.2;
+  }
+  
+  .recipe-section h3 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ingredients-list,
+  .instructions-list {
+    font-size: 0.75rem;
+    line-height: 1.2;
+  }
+  
+  .btn-shopping {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.75rem;
+    min-width: 100px;
+  }
+}
+
+/* Extra narrow screens - show 3 very small cards */
+@media (max-width: 360px) {
+  /* Category tabs container - ultra compact */
+  .category-tabs-container {
+    margin: 0 0 0.8rem 0;
+    padding: 0;
+  }
+  
+  .category-tabs-row {
+    gap: 0.05rem;
+    padding: 0 0.1rem;
+  }
+  .carousel-container {
+    width: 320px !important; /* Very compact 3 cards */
+    max-width: 100% !important;
+    padding: 0 0.3rem !important;
+    margin: 0 auto 1rem !important;
+  }
+  
+  .carousel-track {
+    animation: scrollMobile1 40s linear infinite !important;
+    display: flex !important;
+    width: max-content !important;
+    padding-left: calc(50% - 60px) !important; /* Center 3 very small cards */
+    gap: 0.3rem !important;
+  }
+  
+  .popular-drink-card {
+    width: 100px !important; /* Very small cards for 3-card display */
+    height: 80px !important;
+    padding: 0.5rem !important;
+    opacity: 0.9 !important;
+    transform: scale(1) !important;
+    filter: blur(0.2px) !important;
+    flex-shrink: 0 !important;
+  }
+  
+  /* Mobile animation for 3 very small cards */
+  @keyframes scrollMobile1 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100px); /* Move by exactly one card width */
+    }
+  }
+  
+  .popular-drink-emoji {
+    font-size: 0.9rem;
+  }
+  
+  .popular-drink-name {
+    font-size: 0.5rem;
+  }
+  
+  .popular-drink-desc {
+    font-size: 0.35rem;
+  }
+  
+  /* Comfortable category buttons for narrow screens + centered */
+  .category-btn {
+    padding: 0.45rem 0.6rem !important;
+    font-size: 0.7rem !important;
+    min-height: 30px !important;
+    min-width: 65px !important;
+    max-width: 75px !important;
+    border-radius: 12px !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+  }
+  
+  /* Ultra compact category tabs */
+  .category-tab {
+    padding: 0.1rem 0.15rem;
+    font-size: 0.45rem;
+    gap: 0.05rem;
+    border-radius: 6px;
+    min-height: 16px;
+    max-width: 45px;
+  }
+  
+  .category-tab-emoji {
+    font-size: 0.5rem;
+  }
+  
+  /* Smaller drink grid items */
+  .ingredient-grid-compact {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 0.25rem;
+  }
+  
+  .ingredient-item-compact {
+    padding: 0.3rem 0.25rem;
+    min-height: 24px;
+    font-size: 0.65rem;
+  }
+  
+  .ingredient-name-compact {
+    font-size: 0.6rem;
   }
 }
 
@@ -3834,32 +5338,77 @@ p {
   
   .filters-row {
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
   }
   
   .use-case-filter,
   .recipe-type-filter,
   .taste-preferences {
     min-width: auto;
+    padding: 1rem;
+    border-radius: 12px;
   }
   
   .use-case-buttons {
-    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 0.4rem;
+  }
+  
+  .use-case-btn {
+    padding: 0.5rem 0.6rem;
+    font-size: 0.75rem;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 90px;
+    max-width: 140px;
+    gap: 0.3rem;
+    min-height: 32px;
   }
   
   .preference-row {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.75rem;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 180px;
+    max-width: 240px;
   }
   
   .preference-label {
-    min-width: auto;
+    min-width: 60px;
     gap: 0.2rem;
+    font-size: 0.8rem;
   }
   
   .slider-container {
-    width: 100%;
+    flex: 1;
+    min-width: 0;
+  }
+  
+  .preference-value {
+    font-size: 0.8rem;
+    min-width: 20px;
+    text-align: center;
+  }
+  
+  .filter-title,
+  .preferences-title {
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .preference-sliders {
+    gap: 0.5rem;
+  }
+  
+  .recipe-type-buttons-only {
+    gap: 0.4rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .recipe-type-btn {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.7rem;
+    min-height: 32px;
   }
   
   .taste-bars {
@@ -3876,9 +5425,68 @@ p {
     font-size: 1.6rem;  /* Reduced from 1.8rem */
   }
   
+  .filters-row {
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .use-case-filter,
   .taste-preferences,
   .country-filter {
-    padding: 1rem;
+    padding: 0.75rem;
+    border-radius: 10px;
+  }
+  
+  .use-case-buttons {
+    gap: 0.3rem;
+  }
+  
+  .use-case-btn {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.7rem;
+    border-radius: 6px;
+    flex: 1;
+    min-width: 80px;
+    max-width: 120px;
+    gap: 0.25rem;
+    min-height: 28px;
+  }
+  
+  .preference-row {
+    gap: 0.4rem;
+    min-width: 160px;
+    max-width: 200px;
+  }
+  
+  .preference-label {
+    min-width: 50px;
+    font-size: 0.7rem;
+  }
+  
+  .preference-value {
+    font-size: 0.7rem;
+    min-width: 18px;
+  }
+  
+  .filter-title,
+  .preferences-title {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .preference-sliders {
+    gap: 0.4rem;
+  }
+  
+  .recipe-type-buttons-only {
+    gap: 0.3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .recipe-type-btn {
+    padding: 0.3rem 0.4rem;
+    font-size: 0.65rem;
+    min-height: 28px;
   }
   
   .taste-slider::-webkit-slider-thumb {
@@ -3892,27 +5500,46 @@ p {
   }
   
   .ingredient-grid-compact {
-    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
     gap: 0.1rem;
   }
   
   .ingredient-item-compact {
     padding: 0.1rem 0.25rem;
     height: 24px;
+    font-size: 0.7rem;
+  }
+  
+  .sauce-page-die {
+    top: 350px !important;
+    right: 15px !important;
+  }
+  
+  .die-button {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .die-label {
+    font-size: 0.6rem;
   }
   
   .category-tabs-row {
-    gap: 0.4rem;
+    gap: 0.08rem;
+    padding: 0 0.2rem;
   }
   
   .category-tab {
-    padding: 0.6rem 0.8rem;
-    font-size: 0.8rem;
-    gap: 0.3rem;
+    padding: 0.12rem 0.2rem;
+    font-size: 0.48rem;
+    gap: 0.05rem;
+    border-radius: 8px;
+    min-height: 18px;
+    max-width: 50px;
   }
   
   .category-tab-emoji {
-    font-size: 1rem;
+    font-size: 0.55rem;
   }
   
   .category-tab-count {
@@ -3922,6 +5549,11 @@ p {
   .die-container {
     top: 110px;
     right: 40px;
+  }
+  
+  .sauce-page-die {
+    top: 400px !important;
+    right: 20px !important;
   }
   
   .drink-page-die {
@@ -5250,6 +6882,7 @@ p {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  flex-wrap: nowrap;
 }
 
 .user-email {
@@ -5261,7 +6894,7 @@ p {
 .btn-logout,
 .btn-login,
 .btn-signup {
-  padding: 0.5rem 1.2rem;
+  padding: 0.5rem 0.8rem;
   border-radius: 8px;
   font-weight: 600;
   font-size: 0.9rem;
@@ -5269,17 +6902,23 @@ p {
   transition: all 0.3s ease;
   cursor: pointer;
   border: none;
+  width: fit-content;
+  min-width: fit-content;
 }
 
 .btn-logout {
-  background: var(--danger-color);
+  background: rgba(255, 107, 53, 0.9);
   color: white;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .btn-logout:hover {
-  background: #ff5555;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(255, 118, 117, 0.3);
+  background: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
 }
 
 .btn-login {
@@ -5318,21 +6957,23 @@ p {
   align-items: center;
   gap: 0.4rem;
   padding: 0.5rem 0.8rem;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   border: 2px solid var(--primary-color);
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--dark-color);
+  color: var(--primary-color);
   transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .language-selector-button:hover {
   background: var(--primary-color);
   color: white;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
 }
 
 .language-selector-button:disabled {
@@ -7424,9 +9065,11 @@ p {
 .btn-logout.btn-small,
 .btn-login.btn-small,
 .btn-signup.btn-small {
-  padding: 0.25rem 0.6rem;
+  padding: 0.25rem 0.5rem;
   font-size: 0.75rem;
   border-radius: 6px;
+  width: fit-content;
+  min-width: fit-content;
 }
 
 .language-selector-button.btn-small {
@@ -8072,5 +9715,347 @@ p {
   
   .checkbox-visual {
     font-size: 16px;
+  }
+}
+
+/* Mobile-responsive improvements for "What I Have" section - Compact View */
+@media (max-width: 768px) {
+  /* Ingredient Selector Container - Compact */
+  .ingredient-selector-mobile {
+    padding: 0.8rem !important;
+    margin: 0.5rem 0 !important;
+    max-height: 70vh !important;
+    overflow-y: auto !important;
+    width: 100% !important; /* Full width to use available space */
+    max-width: 100% !important; /* Prevent overflow */
+  }
+
+  /* Override existing category sections - Compact cards */
+  .ingredient-selector-mobile .category-section {
+    margin-bottom: 0.8rem !important;
+    margin-top: 0 !important;
+    padding: 0.6rem !important;
+    background: rgba(255, 255, 255, 0.95) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08) !important;
+    border: 1px solid rgba(255, 107, 53, 0.1) !important;
+  }
+
+  .ingredient-selector-mobile .category-title {
+    font-size: 1rem !important;
+    margin-bottom: 0.6rem !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.4rem !important;
+    color: var(--dark-color) !important;
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+  }
+
+  .ingredient-selector-mobile .category-emoji {
+    font-size: 1.1rem !important;
+  }
+
+  /* Override existing subcategory sections - Compact */
+  .ingredient-selector-mobile .subcategory-section {
+    margin-bottom: 0.5rem !important;
+    padding: 0.4rem !important;
+    background: rgba(248, 249, 250, 0.5) !important;
+    border-radius: 6px !important;
+    border-left: 2px solid var(--primary-color) !important;
+    border-bottom: none !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-title {
+    font-size: 0.7rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 0.4rem !important;
+    color: var(--primary-color) !important;
+  }
+
+  /* Compact ingredient grid - flexible wrapping */
+  .ingredient-selector-mobile .ingredient-grid-compact {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.3rem !important;
+    padding: 0.2rem 0 !important;
+    justify-content: flex-start !important;
+    overflow-x: visible !important;
+    width: 100% !important; /* Full width for proper wrapping */
+    max-width: 100% !important; /* Ensure no overflow */
+    box-sizing: border-box !important; /* Include padding in width calculation */
+  }
+
+  /* Compact ingredient items - flexible responsive */
+  .ingredient-selector-mobile .ingredient-item-compact {
+    flex: 1 1 calc(50% - 0.15rem) !important; /* 2 per row for better fit */
+    min-width: calc(50% - 0.15rem) !important;
+    max-width: calc(50% - 0.15rem) !important;
+    width: calc(50% - 0.15rem) !important; /* Explicit width for consistent sizing */
+    padding: 0.4rem 0.2rem !important;
+    font-size: 0.7rem !important;
+    border-radius: 12px !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+    min-height: 28px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: relative !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    box-sizing: border-box !important; /* Include padding in width calculation */
+  }
+
+  .ingredient-selector-mobile .ingredient-name-compact {
+    font-size: 0.75rem !important;
+    line-height: 1.2 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  /* Add Ingredient Buttons - flexible responsive */
+  .ingredient-selector-mobile .add-ingredient-btn,
+  .ingredient-selector-mobile .subcategory-add-btn {
+    flex: 0 1 auto !important;
+    min-width: auto !important;
+    max-width: 80px !important;
+    width: auto !important;
+    height: 28px !important;
+    border-radius: 12px !important;
+    font-size: 0.65rem !important;
+    font-weight: bold !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    padding: 0.3rem 0.6rem !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-add-btn {
+    flex: 0 1 auto !important;
+    min-width: auto !important;
+    max-width: 80px !important;
+    width: auto !important;
+    height: 28px !important;
+    border-radius: 12px !important;
+    font-size: 0.65rem !important;
+    font-weight: bold !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    padding: 0.3rem 0.6rem !important;
+  }
+
+  /* Add Ingredient Input - compact */
+  .ingredient-selector-mobile .add-ingredient-input,
+  .ingredient-selector-mobile .add-ingredient-input.subcategory-add {
+    width: 100% !important;
+    flex-shrink: 0 !important;
+    padding: 0.4rem !important;
+    background: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 6px !important;
+    border: 1px solid var(--primary-color) !important;
+    margin-bottom: 0.3rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.4rem !important;
+  }
+
+  .ingredient-selector-mobile .add-ingredient-field {
+    width: 100% !important;
+    padding: 0.4rem !important;
+    border: 1px solid #ddd !important;
+    border-radius: 6px !important;
+    font-size: 0.8rem !important;
+    margin-bottom: 0.3rem !important;
+  }
+
+  .ingredient-selector-mobile .add-ingredient-buttons {
+    display: flex !important;
+    gap: 0.4rem !important;
+    justify-content: flex-start !important;
+    width: 100% !important;
+    flex-wrap: wrap !important;
+  }
+
+  /* Mobile add ingredient input field */
+  .ingredient-selector-mobile .add-ingredient-input input {
+    width: 100% !important;
+    padding: 0.3rem 0.5rem !important;
+    font-size: 0.7rem !important;
+    box-sizing: border-box !important;
+    text-align: left !important;
+  }
+
+  .ingredient-selector-mobile .save-ingredient-btn,
+  .ingredient-selector-mobile .cancel-ingredient-btn {
+    padding: 0.3rem 0.6rem !important;
+    min-width: 50px !important;
+    font-size: 0.65rem !important;
+    white-space: nowrap !important;
+    border-radius: 6px !important;
+    min-height: 28px !important;
+  }
+
+  /* Delete Ingredient Button - compact */
+  .ingredient-selector-mobile .delete-ingredient-btn {
+    position: absolute !important;
+    top: -2px !important;
+    right: -2px !important;
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50% !important;
+    background: #ff4757 !important;
+    color: white !important;
+    border: none !important;
+    font-size: 0.6rem !important;
+    font-weight: bold !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+  }
+
+  /* Selector Actions */
+  .ingredient-selector-mobile .selector-actions {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    background: rgba(255, 255, 255, 0.98) !important;
+    backdrop-filter: blur(15px) !important;
+    padding: 0.6rem 1rem !important;
+    border-radius: 12px 12px 0 0 !important;
+    border-top: 2px solid var(--primary-color) !important;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15) !important;
+    z-index: 1000 !important;
+  }
+
+  .ingredient-selector-mobile .selected-count {
+    font-size: 0.9rem !important;
+    margin-bottom: 0.8rem !important;
+    text-align: center !important;
+    color: var(--dark-color) !important;
+  }
+
+  .ingredient-selector-mobile .generate-recipe-btn {
+    width: 100% !important;
+    padding: 0.7rem !important;
+    font-size: 0.95rem !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+    min-height: 40px !important;
+  }
+
+  /* Custom Ingredient Styling */
+  .ingredient-selector-mobile .custom-ingredient {
+    border: 2px dashed var(--primary-color) !important;
+    background: rgba(255, 107, 53, 0.1) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Extra small screens - further optimizations for "What I Have" */
+  .ingredient-selector-mobile {
+    padding: 0.8rem !important;
+  }
+
+  .ingredient-selector-mobile .category-section {
+    padding: 0.8rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .ingredient-selector-mobile .category-title {
+    font-size: 1.1rem !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-section {
+    padding: 0.6rem !important;
+    margin-bottom: 0.8rem !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-title {
+    font-size: 0.65rem !important;
+    margin-bottom: 0.6rem !important;
+  }
+
+  .ingredient-selector-mobile .ingredient-item-compact {
+    flex: 1 1 calc(50% - 0.1rem) !important; /* Keep 2 per row on small screens */
+    min-width: calc(50% - 0.1rem) !important;
+    max-width: calc(50% - 0.1rem) !important;
+    width: calc(50% - 0.1rem) !important; /* Explicit width for consistent sizing */
+    padding: 0.3rem 0.2rem !important;
+    font-size: 0.65rem !important;
+    min-height: 24px !important;
+    box-sizing: border-box !important;
+  }
+
+  .ingredient-selector-mobile .ingredient-name-compact {
+    font-size: 0.7rem !important;
+  }
+
+  .ingredient-selector-mobile .add-ingredient-btn {
+    flex: 0 1 auto !important;
+    min-width: auto !important;
+    max-width: 70px !important;
+    width: auto !important;
+    height: 24px !important;
+    font-size: 0.65rem !important;
+    border-radius: 10px !important;
+    box-sizing: border-box !important;
+    padding: 0.25rem 0.5rem !important;
+  }
+
+  .ingredient-selector-mobile .subcategory-add-btn {
+    flex: 0 1 auto !important;
+    min-width: auto !important;
+    max-width: 70px !important;
+    width: auto !important;
+    height: 24px !important;
+    font-size: 0.65rem !important;
+    font-weight: bold !important;
+    border-radius: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    padding: 0.25rem 0.5rem !important;
+  }
+
+  .ingredient-selector-mobile .selector-actions {
+    padding: 0.8rem !important;
+  }
+
+  .ingredient-selector-mobile .generate-recipe-btn {
+    padding: 0.6rem !important;
+    font-size: 0.85rem !important;
+    min-height: 36px !important;
+  }
+}
+
+/* Ultra narrow screens - iPhone SE and similar */
+@media (max-width: 320px) {
+  /* Category tabs - minimal spacing */
+  .category-tabs-container {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .category-tabs-row {
+    gap: 0.05rem;
+    padding: 0 0.1rem;
+  }
+  
+  .category-tab {
+    padding: 0.08rem 0.12rem;
+    font-size: 0.4rem;
+    min-height: 16px;
+    max-width: 42px;
+    gap: 0.03rem;
+  }
+  
+  .category-tab-emoji {
+    font-size: 0.45rem;
   }
 }

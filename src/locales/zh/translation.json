@@ -56,8 +56,10 @@
     "searchTitle": "搜索",
     "searchSubtitle": "按菜名、食材或菜系查找",
     "searchPlaceholder": "按菜名、食材或菜系搜索",
+    "searchByDishOrIngredient": "按菜名或食材搜索",
     "closeRecipeToSearch": "关闭食谱以搜索",
     "foundRecipes": "找到 {{count}} 个食谱",
+    "allDishesFromCuisine": "所有{{cuisine}}菜肴",
     "pleaseSelectCuisine": "请先转动上方转盘选择菜系",
     "selectIngredients": "选择您的食材",
     "selectIngredientsDesc": "选择您现有的食材：",
@@ -1151,6 +1153,9 @@
     "tryAgain": "再试一次",
     "spinning": "旋转中...",
     "selected": "已选择",
+    "letsHaveThis": "就选这个！",
+    "anotherOne": "再来一个",
+    "confirmed": "已确认！",
     "cuisineSuffix": ""
   },
   "myFavorite": {
@@ -1182,7 +1187,7 @@
     "generateWithAI": "交给AI厨师",
     "generating": "正在生成菜品...",
     "generateInstruction": "根据您的偏好和选择生成菜肴",
-    "dragInstruction": "将食材拖到盘子上，或点击移除",
+    "dragInstruction": "双击食材将其移动到盘子上，双击盘子上的食材将其移除",
     "yourCustomMenu": "您的定制菜单",
     "generatedDishes": "为您生成了{{count}}道{{scenario}}菜肴",
     "recipe": "食谱",
@@ -1200,6 +1205,8 @@
     "clear": "清除",
     "noRecipeFound": "未找到此菜品的食谱",
     "assignIngredientsFirst": "请先将食材类别分配到您的盘子上！将食材按钮（肉类、海鲜、蔬菜、谷物、蛋类）拖到上面的盘子上。",
+    "allPlatesFull": "所有盘子都已满！请先从盘子上移除一个食材。",
+    "noIngredientsSelected": "在生成菜肴之前，请为您的盘子选择至少一个食材类别。",
     "categories": {
       "birthday": "生日",
       "business": "商务",

@@ -56,8 +56,10 @@
     "searchTitle": "Search",
     "searchSubtitle": "Find by dish name, ingredient, or cuisine",
     "searchPlaceholder": "Search by dish name, ingredient, or cuisine",
+    "searchByDishOrIngredient": "Search by dish name or ingredient",
     "closeRecipeToSearch": "Close recipe to search",
     "foundRecipes": "Found {{count}} recipe(s)",
+    "allDishesFromCuisine": "All {{cuisine}} dishes",
     "pleaseSelectCuisine": "Please spin the wheel above to select a cuisine first",
     "selectIngredients": "Select Your Ingredients",
     "selectIngredientsDesc": "Choose the ingredients you have available:",
@@ -1365,6 +1367,9 @@
     "tryAgain": "Try Again",
     "spinning": "Spinning...",
     "selected": "Selected",
+    "letsHaveThis": "Let's have this!",
+    "anotherOne": "Another One",
+    "confirmed": "Confirmed!",
     "cuisineSuffix": " Food"
   },
   "myFavorite": {
@@ -1413,7 +1418,7 @@
     "generateWithAI": "Leave to AI Chef",
     "generating": "Generating dishes...",
     "generateInstruction": "Generate dishes matching your preferences and selections",
-    "dragInstruction": "Drag below ingredients to plates, or click on them to remove",
+    "dragInstruction": "Double click an ingredient to move it to a plate, and double click on an ingredient on a plate to remove it",
     "yourCustomMenu": "Your Custom Menu",
     "generatedDishes": "Generated {{count}} dishes for your {{scenario}}",
     "recipe": "Recipe",
@@ -1430,6 +1435,8 @@
     "clear": "Clear",
     "noRecipeFound": "No recipe found for this dish",
     "assignIngredientsFirst": "Please assign ingredient categories to your plates first! Drag the ingredient buttons (Meat, Seafood, Vegetables, Grains, Egg) to the plates above.",
+    "allPlatesFull": "All plates are full! Remove an ingredient from a plate first.",
+    "noIngredientsSelected": "Please select at least one ingredient category for your plates before generating dishes.",
     "categories": {
       "birthday": "Birthday",
       "business": "Business",
