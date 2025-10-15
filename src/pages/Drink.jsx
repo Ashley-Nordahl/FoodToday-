@@ -380,7 +380,7 @@ function Drink() {
                   onClick={async () => {
                     if (actualDrink.recipe) {
                       setSelectedDrink(actualDrink) // Show recipe popup
-                      moveDieToDrink(actualDrink) // Move die on manual selection
+                      // Don't move die on manual selection - only show recipe
                       if (user) {
                         await trackSelection(user.id, actualDrink, 'drink')
                       }
@@ -512,7 +512,7 @@ function Drink() {
                     onClick={async () => {
                       if (drink.recipe) {
                         setSelectedDrink(drink) // Show recipe popup
-                        moveDieToDrink(drink) // Move die on manual selection
+                        // Don't move die on manual selection - only show recipe
                         // Track drink selection
                         if (user) {
                           await trackSelection(user.id, drink, 'drink')
@@ -540,7 +540,7 @@ function Drink() {
                   onClick={async () => {
                     if (drink.recipe) {
                       setSelectedDrink(drink) // Show recipe popup
-                      moveDieToDrink(drink) // Move die on manual selection
+                      // Don't move die on manual selection - only show recipe
                       // Track drink selection
                       if (user) {
                         await trackSelection(user.id, drink, 'drink')

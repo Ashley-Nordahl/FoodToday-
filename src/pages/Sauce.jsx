@@ -139,7 +139,6 @@ function Sauce() {
 
   // Die functionality
   const resetDieState = () => {
-    console.log('Resetting die state')
     setDiePosition({ x: 0, y: 0, isMoving: false })
     setHighlightedSauce(null)
   }
@@ -162,66 +161,29 @@ function Sauce() {
     
     // Roll animation duration
     setTimeout(() => {
-      // Get ALL sauces from all countries for die roll (like Drink page)
-      let allSauces = []
-      Object.values(saucesByCountry).forEach(country => {
-        allSauces = [...allSauces, ...country.sauces]
-      })
-      
-      if (allSauces.length === 0) {
+      // Use only filtered (visible) sauces for die roll
+      if (filteredSauces.length === 0) {
         setIsRolling(false)
         return
       }
       
-      const randomSauce = allSauces[Math.floor(Math.random() * allSauces.length)]
-      
-      // Clear use case filter to make sure the selected sauce is visible (like Drink page switches category)
-      if (selectedUseCase !== null) {
-        setSelectedUseCase(null)
-      }
+      const randomSauce = filteredSauces[Math.floor(Math.random() * filteredSauces.length)]
       
       setRollResult(randomSauce)
       
-      // Wait for rendering with debugging
+      // Wait for rendering
       setTimeout(() => {
         const selectedSauceElement = document.querySelector(`[data-sauce-id="${randomSauce.id}"]`)
-        console.log('=== SAUCE DIE DEBUG ===')
-        console.log('Looking for sauce ID:', randomSauce.id)
-        console.log('Found element:', selectedSauceElement)
-        
         if (selectedSauceElement) {
           const rect = selectedSauceElement.getBoundingClientRect()
           const containerRect = document.querySelector('.die-container').getBoundingClientRect()
           
-          console.log('Sauce element rect:', rect)
-          console.log('Die container rect:', containerRect)
+          // Calculate relative position (exact same as Drink page)
+          const x = rect.left + (rect.width / 2) - (containerRect.left + containerRect.width / 2)
+          const y = rect.top + (rect.height / 2) - (containerRect.top + containerRect.height / 2)
           
-          // Calculate position to center die on the sauce element
-          // The issue is that we need to account for the die container's current position
-          const sauceCenterX = rect.left + (rect.width / 2)
-          const sauceCenterY = rect.top + (rect.height / 2)
-          const containerCenterX = containerRect.left + (containerRect.width / 2)
-          const containerCenterY = containerRect.top + (containerRect.height / 2)
-          
-          const x = sauceCenterX - containerCenterX
-          const y = sauceCenterY - containerCenterY
-          
-          console.log('Sauce center:', { x: sauceCenterX, y: sauceCenterY })
-          console.log('Container center:', { x: containerCenterX, y: containerCenterY })
-          console.log('Calculated position:', { x, y })
-          
-          // Check if position is reasonable (not off-screen)
-          if (Math.abs(x) > 2000 || Math.abs(y) > 2000) {
-            console.log('WARNING: Calculated position seems off-screen, using fallback')
-            // Use a smaller, safer position
-            const safeX = Math.max(-500, Math.min(500, x))
-            const safeY = Math.max(-500, Math.min(500, y))
-            console.log('Using safe position:', { x: safeX, y: safeY })
-            setDiePosition({ x: safeX, y: safeY, isMoving: true })
-          } else {
-            // Move die to selected sauce
-            setDiePosition({ x, y, isMoving: true })
-          }
+          // Move die to selected sauce (exact same as Drink page)
+          setDiePosition({ x, y, isMoving: true })
           
           // Highlight the selected sauce
           setHighlightedSauce(randomSauce.id)
@@ -234,16 +196,8 @@ function Sauce() {
               inline: 'center'
             })
           }, 300)
-        } else {
-          console.log('Could not find sauce element!')
-          // Debug: show all sauce elements
-          const allSauceElements = document.querySelectorAll('[data-sauce-id]')
-          console.log('All sauce elements:', Array.from(allSauceElements).map(el => ({
-            id: el.getAttribute('data-sauce-id'),
-            name: el.textContent?.trim()
-          })))
         }
-      }, 200)
+      }, 100) // Small delay to ensure DOM is updated
       
       setIsRolling(false)
     }, 1500) // 1.5 second rolling animation
@@ -261,17 +215,12 @@ function Sauce() {
   }, [i18n.language])
 
   // Debug: Log when die position changes
-  useEffect(() => {
-    console.log('Die position changed:', diePosition)
-  }, [diePosition])
 
 
-  // Reset die state when filters change (but not during die roll)
+  // Reset die state when filters change (exact same as Drink page)
   useEffect(() => {
-    if (!isRolling) {
-      resetDieState()
-    }
-  }, [selectedUseCase, showHomemadeOnly, tastePreferences, isRolling])
+    resetDieState()
+  }, [selectedUseCase, showHomemadeOnly, tastePreferences])
 
   const getTasteColor = (taste) => {
     const colors = {
