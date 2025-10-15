@@ -189,42 +189,33 @@ function Sauce() {
       
       setRollResult(randomSauce)
       
-      // Wait for rendering and DOM updates
+      // Wait for rendering (same as Drink page)
       setTimeout(() => {
-        // Try multiple times to find the element as DOM might still be updating
-        const findElement = (attempts = 0) => {
-          const selectedSauceElement = document.querySelector(`[data-sauce-id="${randomSauce.id}"]`)
+        const selectedSauceElement = document.querySelector(`[data-sauce-id="${randomSauce.id}"]`)
+        if (selectedSauceElement) {
+          const rect = selectedSauceElement.getBoundingClientRect()
+          const containerRect = document.querySelector('.die-container').getBoundingClientRect()
           
-          if (selectedSauceElement) {
-            const rect = selectedSauceElement.getBoundingClientRect()
-            const containerRect = document.querySelector('.die-container').getBoundingClientRect()
-            
-            // Calculate position to place die directly on top of the sauce element
-            const x = rect.left + (rect.width / 2) - (containerRect.left + containerRect.width / 2)
-            const y = rect.top + (rect.height / 2) - (containerRect.top + containerRect.height / 2)
-            
-            // Move die to selected sauce
-            setDiePosition({ x, y, isMoving: true })
-            
-            // Highlight the selected sauce
-            setHighlightedSauce(randomSauce.id)
-            
-            // Auto-scroll to bring selection into view
-            setTimeout(() => {
-              selectedSauceElement.scrollIntoView({ 
-                behavior: 'smooth', 
-                block: 'center',
-                inline: 'center'
-              })
-            }, 300)
-          } else if (attempts < 5) {
-            // Retry finding the element after a short delay
-            setTimeout(() => findElement(attempts + 1), 100)
-          }
+          // Calculate relative position (same as Drink page)
+          const x = rect.left + (rect.width / 2) - (containerRect.left + containerRect.width / 2)
+          const y = rect.top + (rect.height / 2) - (containerRect.top + containerRect.height / 2)
+          
+          // Move die to selected sauce
+          setDiePosition({ x, y, isMoving: true })
+          
+          // Highlight the selected sauce
+          setHighlightedSauce(randomSauce.id)
+          
+          // Auto-scroll to bring selection into view
+          setTimeout(() => {
+            selectedSauceElement.scrollIntoView({ 
+              behavior: 'smooth', 
+              block: 'center',
+              inline: 'center'
+            })
+          }, 300)
         }
-        
-        findElement()
-      }, 300)
+      }, 100) // Small delay to ensure DOM is updated (same as Drink page)
       
       setIsRolling(false)
     }, 1500) // 1.5 second rolling animation
