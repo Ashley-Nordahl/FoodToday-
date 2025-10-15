@@ -174,16 +174,8 @@ function Sauce() {
       
       const randomSauce = allSauces[Math.floor(Math.random() * allSauces.length)]
       
-      // Find which country this sauce belongs to and switch to it (like Drink page)
-      let sauceCountry = null
-      Object.entries(saucesByCountry).forEach(([country, countryData]) => {
-        if (countryData.sauces.some(sauce => sauce.id === randomSauce.id)) {
-          sauceCountry = country
-        }
-      })
-      
-      // Switch to the sauce's country if it's different from current
-      if (sauceCountry && selectedUseCase !== null) {
+      // Clear use case filter to make sure the selected sauce is visible (like Drink page switches category)
+      if (selectedUseCase !== null) {
         setSelectedUseCase(null)
       }
       
