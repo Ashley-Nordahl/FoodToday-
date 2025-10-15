@@ -5,6 +5,8 @@ import { trackSelection } from '../lib/supabase'
 import ShoppingList from '../components/ShoppingList'
 import i18n from '../i18n'
 
+// Force production redeploy - Drinks page die positioning fix
+
 function Drink() {
   const { t } = useTranslation()
   const { user } = useAuth()
