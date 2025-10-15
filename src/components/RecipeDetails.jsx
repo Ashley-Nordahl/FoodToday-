@@ -65,7 +65,9 @@ function RecipeDetails({ recipe, onClose }) {
             {emoji && <div className="recipe-emoji-large">{emoji}</div>}
             <div className="recipe-title-info">
               <h2 className="recipe-title">
-                {name?.startsWith('dish.') || name?.startsWith('dishes.') ? t(name) : name}
+                {name?.startsWith('dish.') 
+                  ? t(`dishes.${name.replace('dish.', '')}`) 
+                  : name}
               </h2>
               <div className="recipe-source-info">
                 {source_website && (

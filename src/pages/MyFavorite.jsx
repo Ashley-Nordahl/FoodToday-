@@ -276,7 +276,11 @@ function MyFavorite() {
               {getFilteredRecipes().map((recipe) => (
                 <div key={recipe.id} className="recipe-list-item">
                   <div className="recipe-list-content" onClick={() => handleViewRecipe(recipe)}>
-                    <span className="recipe-title">{recipe.name}</span>
+                    <span className="recipe-title">
+                      {recipe.name?.startsWith('dish.') 
+                        ? t(`dishes.${recipe.name.replace('dish.', '')}`) 
+                        : recipe.name}
+                    </span>
                     {recipe.source_website && (
                       <span className="recipe-source-badge">{recipe.source_website.replace('.se', '')}</span>
                     )}

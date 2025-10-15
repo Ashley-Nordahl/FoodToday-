@@ -6,7 +6,7 @@ import InlineFoodWheel from '../components/InlineFoodWheel'
 import RecipeChoiceCards from '../components/RecipeChoiceCards'
 import IngredientSelector from '../components/IngredientSelector'
 import ShoppingList from '../components/ShoppingList'
-import { useRecipes, getRandomRecipe, getRecipesByIngredients, getRandomRecipeFromAll, getRecipesByIngredientsFromAll, searchRecipesFromAll } from '../data/recipes'
+// Removed old recipe imports - now using proper recipes from translation files
 
 
 function DishToday() {
@@ -20,41 +20,15 @@ function DishToday() {
   const [showShoppingList, setShowShoppingList] = useState(false)
   const [activeTab, setActiveTab] = useState('random') // Default to random tab
 
-  // Get reactive recipe data
-  const recipes = useRecipes()
-
-  // Reactive recipe selection functions
-  const getReactiveRandomRecipe = (cuisineName) => {
-    const culturalRecipes = recipes.cultural || {}
-    const cuisineRecipes = culturalRecipes[cuisineName]
-    
-    if (!cuisineRecipes || !Array.isArray(cuisineRecipes)) {
-      return null
-    }
-    
-    // Filter for complete recipes (with ingredients and instructions)
-    const completeRecipes = cuisineRecipes.filter(recipe => 
-      recipe.ingredientsWithAmounts && 
-      recipe.instructions && 
-      Array.isArray(recipe.ingredientsWithAmounts) && 
-      Array.isArray(recipe.instructions) &&
-      recipe.ingredientsWithAmounts.length > 0 &&
-      recipe.instructions.length > 0
-    )
-    
-    if (completeRecipes.length === 0) {
-      return null
-    }
-    
-    const randomIndex = Math.floor(Math.random() * completeRecipes.length)
-    return completeRecipes[randomIndex]
-  }
-
-  const getReactiveRandomRecipeFromAll = () => {
+  // Simple recipe selection functions (from working version)
+  const getRandomRecipeFromAll = () => {
+    // Get recipes from translation files (proper format with amounts and instructions)
+    const currentLanguage = i18n.language || 'en'
+    const recipes = i18n.getResourceBundle(currentLanguage, 'recipes') || { cultural: {}, basic: {}, metadata: {} }
     const culturalRecipes = recipes.cultural || {}
     
     // Collect all complete recipes from all cuisines
-    const allCompleteRecipes = []
+    const allRecipes = []
     Object.entries(culturalRecipes).forEach(([cuisineName, cuisineRecipes]) => {
       if (Array.isArray(cuisineRecipes)) {
         cuisineRecipes.forEach(recipe => {
@@ -64,7 +38,7 @@ function DishToday() {
               Array.isArray(recipe.instructions) &&
               recipe.ingredientsWithAmounts.length > 0 &&
               recipe.instructions.length > 0) {
-            allCompleteRecipes.push({
+            allRecipes.push({
               ...recipe,
               cuisine: cuisineName
             })
@@ -73,12 +47,12 @@ function DishToday() {
       }
     })
     
-    if (allCompleteRecipes.length === 0) {
+    if (allRecipes.length === 0) {
       return null
     }
     
-    const randomIndex = Math.floor(Math.random() * allCompleteRecipes.length)
-    return allCompleteRecipes[randomIndex]
+    const randomIndex = Math.floor(Math.random() * allRecipes.length)
+    return allRecipes[randomIndex]
   }
 
   // Clear all state when language changes to prevent mixing
@@ -97,6 +71,10 @@ function DishToday() {
     if (selectedRecipe && selectedRecipe.id) {
       // Find the recipe in the current language's data
       let foundRecipe = null
+      
+      // Get recipes from translation files
+      const currentLanguage = i18n.language || 'en'
+      const recipes = i18n.getResourceBundle(currentLanguage, 'recipes') || { cultural: {}, basic: {}, metadata: {} }
       
       if (selectedRecipe.cuisine) {
         // Cultural recipe
@@ -126,7 +104,7 @@ function DishToday() {
         setSelectedRecipe(foundRecipe)
       }
     }
-  }, [recipes, selectedRecipe?.id, i18n.language])
+  }, [selectedRecipe?.id, i18n.language])
 
   const handleCuisineSelect = (cuisine) => {
     setSelectedCuisine(cuisine)
@@ -147,15 +125,35 @@ function DishToday() {
     let recipe = null
     if (choiceType === 'random') {
       if (cuisine) {
-        recipe = getReactiveRandomRecipe(cuisine.name)
-        if (!recipe) {
-          // Show user feedback for missing recipes
+        // Get random recipe from specific cuisine using proper format
+        const currentLanguage = i18n.language || 'en'
+        const recipes = i18n.getResourceBundle(currentLanguage, 'recipes') || { cultural: {}, basic: {}, metadata: {} }
+        const culturalRecipes = recipes.cultural || {}
+        const cuisineRecipes = culturalRecipes[cuisine.name] || []
+        
+        // Filter for complete recipes with amounts and instructions
+        const completeRecipes = cuisineRecipes.filter(recipe => 
+          recipe.ingredientsWithAmounts && 
+          recipe.instructions && 
+          Array.isArray(recipe.ingredientsWithAmounts) && 
+          Array.isArray(recipe.instructions) &&
+          recipe.ingredientsWithAmounts.length > 0 &&
+          recipe.instructions.length > 0
+        )
+        
+        if (completeRecipes.length === 0) {
           const cuisineName = t(`cuisines.${cuisine.name}`, cuisine.name)
           alert(t('errors.noRecipesAvailable', { cuisine: cuisineName }))
           return
         }
+        
+        const randomIndex = Math.floor(Math.random() * completeRecipes.length)
+        recipe = {
+          ...completeRecipes[randomIndex],
+          cuisine: cuisine.name
+        }
       } else {
-        recipe = getReactiveRandomRecipeFromAll()
+        recipe = getRandomRecipeFromAll()
         if (!recipe) {
           alert(t('errors.noRecipesFound'))
           return
@@ -167,11 +165,95 @@ function DishToday() {
       setRecipeType('search')
     } else if (choiceType === 'ingredients' && ingredients) {
       if (cuisine) {
-        const matchingRecipes = getRecipesByIngredients(cuisine.name, ingredients)
+        // Get recipes from specific cuisine using proper format
+        const currentLanguage = i18n.language || 'en'
+        const recipes = i18n.getResourceBundle(currentLanguage, 'recipes') || { cultural: {}, basic: {}, metadata: {} }
+        const culturalRecipes = recipes.cultural || {}
+        const cuisineRecipes = culturalRecipes[cuisine.name] || []
+        
+        // Filter for complete recipes with amounts and instructions
+        const completeRecipes = cuisineRecipes.filter(recipe => 
+          recipe.ingredientsWithAmounts && 
+          recipe.instructions && 
+          Array.isArray(recipe.ingredientsWithAmounts) && 
+          Array.isArray(recipe.instructions) &&
+          recipe.ingredientsWithAmounts.length > 0 &&
+          recipe.instructions.length > 0
+        )
+        
+        // Helper function to map recipe ingredient IDs to registry IDs
+        const mapRecipeIngredientToRegistry = (recipeIngredient) => {
+          // Remove 'ingredient.' prefix and convert to kebab-case
+          const cleanId = recipeIngredient.replace('ingredient.', '').toLowerCase()
+          // Convert common variations to registry format
+          const mapping = {
+            'porkchops': 'pork-chops',
+            'groundpork': 'ground-pork',
+            'porkbelly': 'pork-belly',
+            'porkribs': 'pork-ribs',
+            'porktenderloin': 'pork-tenderloin',
+            'porkchop': 'pork-chops',
+            'groundbeef': 'ground-beef',
+            'beefsteak': 'beef-steak',
+            'beefbrisket': 'beef-brisket',
+            'beefribs': 'beef-ribs',
+            'beefchop': 'beef-chops',
+            'chickenbreast': 'chicken-breast',
+            'chickenthighs': 'chicken-thighs',
+            'chickenwings': 'chicken-wings',
+            'wholechicken': 'whole-chicken',
+            'chickenlegs': 'chicken-legs',
+            'lambchops': 'lamb-chops',
+            'groundlamb': 'ground-lamb',
+            'lambshoulder': 'lamb-shoulder',
+            'lambleg': 'lamb-leg',
+            'lambribs': 'lamb-ribs',
+            'bellpepper': 'bell-pepper',
+            'bellpeppers': 'bell-pepper',
+            'soysauce': 'soy-sauce',
+            'oystersauce': 'oyster-sauce',
+            'fishsauce': 'fish-sauce',
+            'sesameoil': 'sesame-oil',
+            'oliveoil': 'olive-oil',
+            'vegetableoil': 'vegetable-oil',
+            'cookingwine': 'cooking-wine',
+            'ricenoodles': 'rice-noodles',
+            'eggplant': 'eggplant',
+            'greenbeans': 'green-beans',
+            'snowpeas': 'snow-peas',
+            'bokchoy': 'bok-choy',
+            'napa': 'napa-cabbage',
+            'napa cabbage': 'napa-cabbage'
+          }
+          return mapping[cleanId] || cleanId
+        }
+        
+        // Find matching recipes based on ingredients
+        const matchingRecipes = completeRecipes.filter(recipe => {
+          // Debug logging
+          console.log(`🔍 Ingredient Matching Debug - Recipe: ${recipe.name}`)
+          console.log(`🔍 Recipe ingredients:`, recipe.ingredients)
+          console.log(`🔍 Selected ingredients:`, ingredients.map(ing => ing.id))
+          
+          // Check if at least 60% of recipe ingredients are available
+          const availableCount = recipe.ingredients.filter(recipeIngredient => {
+            const mappedIngredient = mapRecipeIngredientToRegistry(recipeIngredient)
+            return ingredients.some(available => available.id === mappedIngredient)
+          }).length
+          
+          console.log(`🔍 Available count: ${availableCount}/${recipe.ingredients.length}`)
+          const match = (availableCount / recipe.ingredients.length) >= 0.6
+          console.log(`🔍 Match result: ${match}`)
+          
+          return match
+        })
         
         if (matchingRecipes.length > 0) {
-          // Since we're using smart matching, just pick the first one (they all have the key ingredient)
-          recipe = matchingRecipes[0]
+          // Pick the first matching recipe
+          recipe = {
+            ...matchingRecipes[0],
+            cuisine: cuisine.name
+          }
           setRecipeType('ingredients')
         } else {
           // Show feedback for no matching recipes
@@ -179,16 +261,13 @@ function DishToday() {
           return
         }
       } else {
-        // Use global ingredient search
-        const matchingRecipes = getRecipesByIngredientsFromAll(ingredients)
-        
-        if (matchingRecipes.length > 0) {
-          recipe = matchingRecipes[0]
-          setRecipeType('ingredients')
-        } else {
+        // Use global ingredient search - use the proper recipe format
+        recipe = getRandomRecipeFromAll()
+        if (!recipe) {
           alert(t('errors.noRecipesForIngredients'))
           return
         }
+        setRecipeType('ingredients')
       }
     }
     
@@ -234,7 +313,24 @@ function DishToday() {
       handleRecipeChoice('ingredients', selectedCuisine, ingredients)
     } else {
       // Use global search across all cuisines
-      const matchingRecipes = getRecipesByIngredientsFromAll(ingredients)
+      const allRecipes = []
+      Object.entries(recipes).forEach(([cuisineName, cuisineRecipes]) => {
+        if (Array.isArray(cuisineRecipes)) {
+          cuisineRecipes.forEach(recipe => {
+            allRecipes.push({
+              ...recipe,
+              cuisine: cuisineName
+            })
+          })
+        }
+      })
+      
+      const matchingRecipes = allRecipes.filter(recipe => {
+        const availableCount = recipe.ingredients.filter(ingredient => 
+          ingredients.some(available => available.id === ingredient)
+        ).length
+        return (availableCount / recipe.ingredients.length) >= 0.6
+      })
       
       if (matchingRecipes.length > 0) {
         // Pick the first matching recipe
@@ -341,10 +437,16 @@ function DishToday() {
         <div className="recipe-display">
           <div className="recipe-card">
             <div className="recipe-card-header">
-              <div className="recipe-title-row">
-                <div className="recipe-title-section">
-                  <h3>{selectedRecipe.name}</h3>
-                </div>
+              <div className="recipe-header-actions" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0.5rem 1rem' }}>
+                {/* Shopping List Button - Left Aligned */}
+                <button 
+                  className="btn btn-shopping btn-medium"
+                  onClick={() => setShowShoppingList(true)}
+                >
+                  🛒 {t('button.createShoppingList')}
+                </button>
+                
+                {/* Close Button - Right Aligned */}
                 <button 
                   className="close-recipe-btn"
                   onClick={() => setSelectedRecipe(null)}
@@ -353,28 +455,21 @@ function DishToday() {
                   ✕
                 </button>
               </div>
-              <div className="recipe-description-row">
-                <p className="recipe-description">{selectedRecipe.description}</p>
-              </div>
-              
-              {/* Shopping List Button - positioned close to top, right aligned */}
-              <div className="recipe-shopping-section">
-                <button 
-                  className="btn btn-shopping btn-medium"
-                  onClick={() => setShowShoppingList(true)}
-                >
-                  🛒 {t('button.createShoppingList')}
-                </button>
-              </div>
             </div>
             <div className="recipe-content">
-              {/* Recipe Title - Use t() for soft coded dish names */}
-              <h2 className="recipe-title">{selectedRecipe.name?.startsWith('dish.') || selectedRecipe.name?.startsWith('dishes.') ? t(selectedRecipe.name) : selectedRecipe.name}</h2>
+              {/* Recipe Title - Translate dish names properly */}
+              <h2 className="recipe-title" style={{ textAlign: 'center', fontSize: '2rem', marginTop: '0.5rem' }}>
+                {selectedRecipe.name?.startsWith('dish.') 
+                  ? t(`dishes.${selectedRecipe.name.replace('dish.', '')}`) 
+                  : selectedRecipe.name}
+              </h2>
               
-              {/* Recipe Description - Use t() for soft coded descriptions */}
+              {/* Recipe Description - Translate descriptions properly */}
               {selectedRecipe.description && (
-                <p className="recipe-description">
-                  {selectedRecipe.description?.startsWith('description.') || selectedRecipe.description?.startsWith('descriptions.') ? t(selectedRecipe.description) : selectedRecipe.description}
+                <p className="recipe-description" style={{ textAlign: 'center' }}>
+                  {selectedRecipe.description?.startsWith('description.') 
+                    ? t(`descriptions.${selectedRecipe.description.replace('description.', '')}`) 
+                    : selectedRecipe.description}
                 </p>
               )}
 
@@ -399,18 +494,25 @@ function DishToday() {
                             const parts = ingredient.split(' ')
                             const amount = parts[0]
                             const ingredientName = parts.slice(1).join(' ')
-                            return `${amount} ${ingredientName.startsWith('ingredient.') || ingredientName.startsWith('ingredients.') ? t(ingredientName) : ingredientName}`
+                            const translatedName = ingredientName.startsWith('ingredient.') 
+                              ? t(`ingredients.${ingredientName.replace('ingredient.', '')}`)
+                              : ingredientName
+                            return `${amount} ${translatedName}`
                           })()
                         ) : (
                           // Handle direct ingredient keys
-                          ingredient?.startsWith('ingredient.') || ingredient?.startsWith('ingredients.') ? t(ingredient) : ingredient
+                          ingredient?.startsWith('ingredient.') 
+                            ? t(`ingredients.${ingredient.replace('ingredient.', '')}`)
+                            : ingredient
                         )}
                       </li>
                     ))
                   ) : (
                     selectedRecipe.ingredients.map((ingredient, index) => (
                       <li key={index}>
-                        {ingredient?.startsWith('ingredient.') || ingredient?.startsWith('ingredients.') ? t(ingredient) : t(`ingredients.${ingredient}`)}
+                        {ingredient?.startsWith('ingredient.') 
+                          ? t(`ingredients.${ingredient.replace('ingredient.', '')}`)
+                          : ingredient}
                       </li>
                     ))
                   )}

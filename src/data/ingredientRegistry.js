@@ -124,7 +124,6 @@ export const INGREDIENT_REGISTRY = {
   'carrots': { category: 'Vegetables', subcategory: 'General' },
   'zucchini': { category: 'Vegetables', subcategory: 'General' },
   'bell-pepper': { category: 'Vegetables', subcategory: 'General' },
-  'bell-peppers': { category: 'Vegetables', subcategory: 'General' },
   
   // Mushrooms
   'button-mushroom': { category: 'Vegetables', subcategory: 'Mushrooms' },
@@ -318,7 +317,7 @@ export const INGREDIENT_CATEGORIES = {
         emoji: '🥬',
         items: [
           'broccoli', 'cauliflower', 'spinach', 'kale', 'carrots', 'zucchini', 
-          'bell-pepper', 'bell-peppers', 'bamboo-shoots', 'basil', 'cabbage', 'chili',
+          'bell-pepper', 'bamboo-shoots', 'basil', 'cabbage', 'chili',
           'cilantro', 'eggplant', 'garlic', 'ginger', 'herbs', 'lime', 'onion', 
           'scallions', 'tomato'
         ]

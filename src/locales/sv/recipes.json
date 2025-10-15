@@ -13,24 +13,24 @@
           "ingredient.soysauce"
         ],
         "ingredientsWithAmounts": [
-          "1 pund fläskkött kotletter, tärnad",
-          "2 paprika paprikor, skivad",
-          "1 Medel lök, tärnad",
-          "4 nejlikor vitlök, malen",
+          "1 pund fläskkött kotletter, tärnade",
+          "2 paprikor, skivade",
+          "1 Medelstora lök, tärnade",
+          "4 vitlöksklyftor, malen",
           "3 msk sojasås"
         ],
         "instructions": [
-          "skär fläskkött till bitstorlek bitar och krydda med salt och peppar",
-          "värme olja i a wok över hög värme",
-          "lägg tills fläskkött och rör-fry tills guld brun, om 5-6 minuter",
-          "ta bort fläskkött och set aside",
-          "lägg tills paprika paprikor och lök tills wok, rör-fry för 2-3 minuter",
-          "Return fläskkött tills wok med sås mixture",
-          "Toss allt tillsammans tills sås thickens",
+          "skär fläskköttet i lagom stora bitar och krydda med salt och peppar",
+          "värme olja i en wok över hög värme",
+          "lägg till fläskkött och woka tills gyllenbrun, cirka 5-6 minuter",
+          "ta bort fläskkött och lägg åt sidan",
+          "lägg till paprika och lök i woken, woka för 2-3 minuter",
+          "Lägg tillbaka fläskköttet i woken med sås blandning",
+          "Blanda allt tills såsen tjocknar",
           "servera omedelbart över ris"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "jiangsu"
@@ -50,18 +50,18 @@
           "ingredient.soysauce"
         ],
         "ingredientsWithAmounts": [
-          "1 pund malen fläskkött",
+          "1 pund malet fläskkött",
           "1/2 huvud kål, strimlad",
-          "1 msk färsk ingefära, riven",
+          "1 msk färska ingefära, riven",
           "3 msk sojasås"
         ],
         "instructions": [
-          "blanda malen fläskkött med ingefära, sojasås, och ägg",
-          "Form till 4-6 stor köttbullar",
-          "värme olja i a stor gryta och brun köttbullar på alla sides",
-          "lägg tills kål runt the köttbullar",
-          "häll i sojasås och vatten mixture",
-          "Bring tills a boil, then simmer för 30 minuter",
+          "blanda malet fläskkött med ingefära, sojasås, och ägg",
+          "Forma till 4-6 stora köttbullar",
+          "värme olja i en stora gryta och brun köttbullar på alla sidor",
+          "lägg till kål runt köttbullarna",
+          "häll i sojasås och vatten blandning",
+          "Koka upp, sedan Sjud för 30 minuter",
           "servera het med ångad ris"
         ],
         "servings": 4,
@@ -76,8 +76,8 @@
       },
       {
         "id": 3,
-        "name": "dish.shandong_dumplings",
-        "description": "description.description_shandong_dumplings",
+        "name": "dish.shochong_dumplings",
+        "description": "description.description_shochong_dumplings",
         "ingredients": [
           "ingredient.groundpork",
           "ingredient.cabbage",
@@ -86,26 +86,26 @@
           "ingredient.flour"
         ],
         "ingredientsWithAmounts": [
-          "1 pund malen fläskkött",
+          "1 pund malet fläskkött",
           "1/2 huvud kål, strimlad",
-          "1 msk färsk ingefära, riven",
+          "1 msk färska ingefära, riven",
           "3 msk sojasås",
           "2 koppar alla-purpose mjöl"
         ],
         "instructions": [
-          "göra deg med mjöl och vatten, kna tills slät",
+          "gör deg med mjöl och vatten, knåda tills den är slät",
           "blanda fläskkött med kål, ingefära, och sojasås",
-          "rulla out deg och skär till circles",
-          "Place fyllning i centrum av varje circle",
-          "vik och seal edges tills form dumplings",
-          "Boil dumplings i vatten för 8-10 minuter",
+          "kavla ut degen och skär till cirklar",
+          "Placera fyllning i mitten av varje cirkel",
+          "vik och förslut kanterna för att Forma dumplings",
+          "Koka dumplings i vatten för 8-10 minuter",
           "servera med dipping sås"
         ],
         "servings": 6,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
-          "shandong"
+          "shochong"
         ],
         "prep_time": "60 min",
         "cook_time": "60 min",
@@ -124,25 +124,25 @@
         ],
         "ingredientsWithAmounts": [
           "hel kyckling",
-          "1 msk färsk ingefära, riven",
-          "4 nejlikor vitlök, malen",
+          "1 msk färska ingefära, riven",
+          "4 vitlöksklyftor, malen",
           "3 msk sojasås",
-          "2 stjärna anise pods"
+          "2 stjärnanis pods"
         ],
         "instructions": [
           "krydda hel kyckling med sojasås och kryddor",
-          "värme olja i a stor gryta och brun kyckling på alla sides",
-          "lägg tills ingefära, vitlök, och stjärna anise",
-          "häll i sojasås och vatten mixture",
-          "Bring tills a boil, then simmer för 1 hour",
-          "Let kyckling rest innan carving",
+          "värme olja i en stora gryta och brun kyckling på alla sidor",
+          "lägg till ingefära, vitlök, och stjärnanis",
+          "häll i sojasås och vatten blandning",
+          "Koka upp, sedan Sjud i 1 timme",
+          "Låt kycklingen vila innan skärning",
           "servera med bräsering vätska"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
-          "shandong"
+          "shochong"
         ],
         "prep_time": "90 min",
         "cook_time": "90 min",
@@ -160,24 +160,24 @@
           "ingredient.chilibeanpaste"
         ],
         "ingredientsWithAmounts": [
-          "1 block (14 uns) snabb tofu, tärnad",
-          "1 pund malen fläskkött",
-          "4 nejlikor vitlök, malen",
-          "1 msk färsk ingefära, riven",
-          "chili Bean Paste"
+          "1 block (14 uns) snabb tofu, tärnade",
+          "1 pund malet fläskkött",
+          "4 vitlöksklyftor, malen",
+          "1 msk färska ingefära, riven",
+          "chilibönpasta"
         ],
         "instructions": [
-          "värme olja i a wok över Medel-hög värme",
-          "lägg tills malen fläskkött och rör-fry tills browned",
-          "lägg tills vitlök, ingefära, och chili bean paste",
-          "rör-fry för 1 minute tills doftande",
-          "lägg tills tofu och gently toss tills combine",
-          "lägg tills sojasås och simmer för 5 minuter",
-          "Thicken med cornstarch slurry if needed",
-          "garnera med grön onions och servera het"
+          "värme olja i en wok över medelhög värme",
+          "lägg till malet fläskkött och woka tills brynta",
+          "lägg till vitlök, ingefära, och chilibönpasta",
+          "woka i 1 minut tills det doftar",
+          "lägg till tofu och blanda försiktigt",
+          "lägg till sojasås och Sjud för 5 minuter",
+          "Tjockna med majsstärkelseblandning om det behövs",
+          "garnera med salladslök och servera het"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🧈",
         "tags": [
           "sichuan"
@@ -191,7 +191,7 @@
         "name": "dish.kung_pao_kyckling",
         "description": "description.description_kung_pao_kyckling",
         "ingredients": [
-          "ingredient.chickenbreast",
+          "ingredient.chickenbröst",
           "ingredient.peanuts",
           "ingredient.driedchilies",
           "ingredient.bellpepper",
@@ -204,33 +204,33 @@
           "ingredient.cornstarch"
         ],
         "ingredientsWithAmounts": [
-          "1 pund kyckling breast, tärnad",
+          "1 pund kycklingbröst, tärnade",
           "1/2 kopp rostad jordnötter",
           "8-10 torkad röd chilies",
-          "2 paprika paprikor, skivad",
-          "4 nejlikor vitlök, malen",
-          "1 msk färsk ingefära, riven",
-          "3 grön onions, skivad",
+          "2 paprikor, skivade",
+          "4 vitlöksklyftor, malen",
+          "1 msk färska ingefära, riven",
+          "3 salladslök, skivade",
           "3 msk sojasås",
           "2 msk ris vinäger",
           "1/4 kopp socker",
           "2 msk cornstarch"
         ],
         "instructions": [
-          "blanda sojasås, ris vinäger, socker, cornstarch, och vatten i a skål. Set aside",
-          "värme 2 msk olja i a wok över hög värme",
-          "lägg tills kyckling och rör-fry för 5-6 minuter tills guld. ta bort och set aside",
-          "lägg tills remaining olja, torkad chilies, och Sichuan peppercorns",
-          "rör-fry för 30 sekunder tills doftande",
-          "lägg tills paprika paprikor och rör-fry för 2-3 minuter tills slightly softened",
-          "lägg tills vitlök och ingefära, rör-fry för 30 sekunder tills doftande",
-          "Return kyckling tills wok och lägg tills sås mixture",
-          "Toss allt tillsammans för 2 minuter tills sås thickens",
-          "lägg tills jordnötter och grön onions, rör för 30 sekunder",
+          "blanda sojasås, ris vinäger, socker, cornstarch, och vatten i en skål. lägg åt sidan",
+          "värme 2 msk olja i en wok över hög värme",
+          "lägg till kyckling och woka för 5-6 minuter tills gyllene. ta bort och lägg åt sidan",
+          "lägg till resterande olja, torkad chilies, och Sichuan peppercorns",
+          "woka för 30 sekunder tills doftande",
+          "lägg till paprikor och woka för 2-3 minuter tills lätt mjuknade",
+          "lägg till vitlök och ingefära, woka för 30 sekunder tills doftande",
+          "Lägg tillbaka kycklingen i woken och lägg till sås blandning",
+          "Blanda allt i 2 minuter tills såsen tjocknar",
+          "lägg till jordnötter och salladslök, rör för 30 sekunder",
           "servera omedelbart över ångad ris"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
           "sichuan"
@@ -241,33 +241,33 @@
       },
       {
         "id": 7,
-        "name": "dish.flskktt_ribs_med_svart_bean_ss",
-        "description": "description.description_flskktt_ribs_med_svart_bean_ss",
+        "name": "dish.flskktt_revben_med_svart_bean_ss",
+        "description": "description.description_flskktt_revben_med_svart_bean_ss",
         "ingredients": [
-          "ingredient.porkribs",
+          "ingredient.porkrevben",
           "ingredient.blackbeans",
           "ingredient.garlic",
           "ingredient.ginger",
           "ingredient.soysauce"
         ],
         "ingredientsWithAmounts": [
-          "fläskkött Ribs",
+          "fläskrevben",
           "svart bönor",
-          "4 nejlikor vitlök, malen",
-          "1 msk färsk ingefära, riven",
+          "4 vitlöksklyftor, malen",
+          "1 msk färska ingefära, riven",
           "3 msk sojasås"
         ],
         "instructions": [
-          "krydda fläskkött ribs med salt och peppar",
-          "värme olja i a stor gryta och brun ribs på alla sides",
-          "lägg tills vitlök, ingefära, och svart bönor",
-          "rör-fry för 1 minute tills doftande",
-          "lägg tills sojasås och vatten mixture",
-          "Bring tills a boil, then simmer för 1 hour",
+          "krydda fläskrevben med salt och peppar",
+          "värme olja i en stora gryta och brun revben på alla sidor",
+          "lägg till vitlök, ingefära, och svart bönor",
+          "woka i 1 minut tills det doftar",
+          "lägg till sojasås och vatten blandning",
+          "Koka upp, sedan Sjud i 1 timme",
           "servera het med ångad ris"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "sichuan"
@@ -278,29 +278,29 @@
       },
       {
         "id": 8,
-        "name": "dish.ngad_fisk_med_ingefra_och_scallions",
-        "description": "description.description_ngad_fisk_med_ingefra_och_scallions",
+        "name": "dish.ngad_fisk_med_ingefra_och_salladslök",
+        "description": "description.description_ngad_fisk_med_ingefra_och_salladslök",
         "ingredients": [
           "ingredient.fish",
           "ingredient.ginger",
-          "ingredient.scallions",
+          "ingredient.salladslök",
           "ingredient.soysauce",
           "ingredient.sesameoil"
         ],
         "ingredientsWithAmounts": [
-          "1 pund fisk fillets",
-          "1 msk färsk ingefära, riven",
-          "3 scallions, skivad",
+          "1 pund fiskfiléer",
+          "1 msk färska ingefära, riven",
+          "3 salladslök, skivade",
           "3 msk sojasås",
-          "1 msk sesame olja"
+          "1 msk sesamolja"
         ],
         "instructions": [
-          "Place fisk på a heatproof lägg upp",
-          "Scatter ingefära och half the scallions över fisk",
-          "Steam fisk för 8-10 minuter tills kokt genom",
-          "värme sojasås och sesame olja i a liten panna",
+          "Placera fisken på ett eldfast fat",
+          "Strö ingefära och halva salladslöken över fisk",
+          "Ånga fisken i 8-10 minuter tills den är genomkokt",
+          "värm sojasås och sesamolja i en liten panna",
           "häll het sås över ångad fisk",
-          "garnera med remaining scallions",
+          "garnera med remaining salladslök",
           "servera omedelbart"
         ],
         "servings": 4,
@@ -318,30 +318,30 @@
         "name": "dish.char_siu_cantonese_bbq_flskktt",
         "description": "description.description_char_siu_cantonese_bbq_flskktt",
         "ingredients": [
-          "ingredient.porkshoulder",
+          "ingredient.porkbog",
           "ingredient.hoisinsauce",
           "ingredient.honey",
           "ingredient.garlic",
           "ingredient.fivespice"
         ],
         "ingredientsWithAmounts": [
-          "fläskkött Shoulder",
+          "fläskbog",
           "Hoisin sås",
           "2 msk honung",
-          "4 nejlikor vitlök, malen",
+          "4 vitlöksklyftor, malen",
           "Five krydda"
         ],
         "instructions": [
-          "blanda hoisin sås, honung, vitlök, och five-krydda powder",
-          "marinera fläskkött i sås för på least 2 timmar",
-          "Preheat oven tills 400°F (200°C)",
-          "Place fläskkött på a rack i a rostning panna",
-          "Roast för 45-60 minuter, basting varje 15 minuter",
-          "Let rest för 10 minuter innan skivning",
+          "blanda hoisinsås, honung, vitlök, och femkryddspulver",
+          "marinera fläskkött i sås för minst 2 timmar",
+          "Förvärm ugnen till 400°F (200°C)",
+          "Placera fläskkött på en rack i en ugnsform",
+          "Rosta i 45-60 minuter, pensla varje 15 minuter",
+          "Låt vila i 10 minuter innan skivning",
           "servera med ångad ris och vegetables"
         ],
         "servings": 6,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "cantonese"
@@ -352,28 +352,28 @@
       },
       {
         "id": 10,
-        "name": "dish.dongpo_flskktt_belly",
-        "description": "description.description_dongpo_flskktt_belly",
+        "name": "dish.dongpo_flskktt_buk",
+        "description": "description.description_dongpo_flskktt_buk",
         "ingredients": [
-          "ingredient.porkbelly",
+          "ingredient.porkbuk",
           "ingredient.soysauce",
           "ingredient.ricewine",
           "ingredient.ginger",
-          "ingredient.scallions"
+          "ingredient.salladslök"
         ],
         "ingredientsWithAmounts": [
-          "1 pund fläskkött belly, skär till stor chunks",
+          "1 pund fläskbuk, skär i stora bitar",
           "3 msk sojasås",
           "1/4 kopp ris vin",
-          "1 msk färsk ingefära, riven",
-          "3 scallions, skivad"
+          "1 msk färska ingefära, riven",
+          "3 salladslök, skivade"
         ],
         "instructions": [
-          "skär fläskkött belly till stor chunks",
-          "värme olja i a wok och brun fläskkött på alla sides",
-          "lägg tills ingefära och scallions, rör-fry för 1 minute",
-          "lägg tills sojasås, ris vin, och vatten",
-          "Bring tills a boil, then simmer för 2-3 timmar",
+          "skär fläskbuk till stora bitar",
+          "värme olja i en wok och brun fläskkött på alla sidor",
+          "lägg till ingefära och salladslök, woka för 1 minut",
+          "lägg till sojasås, ris vin, och vatten",
+          "Koka upp, sedan Sjud för 2-3 timmar",
           "servera het med ångad ris"
         ],
         "servings": 4,
@@ -399,22 +399,22 @@
         ],
         "ingredientsWithAmounts": [
           "nötkött Steak",
-          "2 paprika paprikor, skivad",
-          "1 Medel lök, tärnad",
-          "4 nejlikor vitlök, malen",
+          "2 paprikor, skivade",
+          "1 Medelstora lök, tärnade",
+          "4 vitlöksklyftor, malen",
           "chili"
         ],
         "instructions": [
-          "Slice nötkött till tunn strips",
-          "värme olja i a wok över hög värme",
-          "lägg tills nötkött och rör-fry tills browned, om 3-4 minuter",
-          "lägg tills paprika paprikor och lök, rör-fry för 2-3 minuter",
-          "lägg tills vitlök och chilies, rör-fry för 30 sekunder",
-          "lägg tills sojasås och rör-fry för 1 minute",
+          "skiva nötkött till tunna strimlor",
+          "värme olja i en wok över hög värme",
+          "lägg till nötkött och woka tills brynta, om 3-4 minuter",
+          "lägg till paprikor och lök, woka för 2-3 minuter",
+          "lägg till vitlök och chilies, woka för 30 sekunder",
+          "lägg till sojasås och woka för 1 minut",
           "servera het över ångad ris"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥩",
         "tags": [
           "hunan"
@@ -430,23 +430,23 @@
         "ingredients": [
           "ingredient.chicken",
           "ingredient.pork",
-          "ingredient.mushroom",
+          "ingredient.svamp",
           "ingredient.bambooshoots",
           "ingredient.wine"
         ],
         "ingredientsWithAmounts": [
-          "1 pund kyckling, tärnad",
-          "1 pund fläskkött, tärnad",
-          "8 uns mushrooms, skivad",
-          "Bamboo Shoots",
+          "1 pund kyckling, tärnade",
+          "1 pund fläskkött, tärnade",
+          "8 uns svampar, skivade",
+          "Bambuskott",
           "1/2 kopp vin"
         ],
         "instructions": [
-          "Prepare alla ingredients och skär till bitstorlek bitar",
-          "värme olja i a stor gryta och brun kyckling och fläskkött",
-          "lägg tills mushrooms och bamboo shoots",
-          "häll i vin och vatten mixture",
-          "Bring tills a boil, then simmer för 2-3 timmar",
+          "Prepare alla ingredients och skär till lagom stora bitar",
+          "värme olja i en stora gryta och brun kyckling och fläskkött",
+          "lägg till svamp och bambuskott",
+          "häll i vin och vatten blandning",
+          "Koka upp, sedan Sjud för 2-3 timmar",
           "krydda med salt och peppar",
           "servera het"
         ],
@@ -472,21 +472,21 @@
           "ingredient.wine"
         ],
         "ingredientsWithAmounts": [
-          "1 pund fläskkött, tärnad",
+          "1 pund fläskkött, tärnade",
           "3 msk sojasås",
           "Rock socker",
-          "1 msk färsk ingefära, riven",
+          "1 msk färska ingefära, riven",
           "1/2 kopp vin"
         ],
         "instructions": [
-          "värme olja i a wok och brun fläskkött på alla sides",
-          "lägg tills ingefära och rock socker, rör-fry tills socker melts",
-          "lägg tills sojasås och vin",
-          "Bring tills a boil, then simmer för 1 hour",
+          "värme olja i en wok och brun fläskkött på alla sidor",
+          "lägg till ingefära och rock socker, woka tills socker melts",
+          "lägg till sojasås och vin",
+          "Koka upp, sedan Sjud i 1 timme",
           "servera het med ångad ris"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "anhui"
@@ -501,7 +501,7 @@
         "description": "description.description_kyckling_stekt_ris",
         "ingredients": [
           "ingredient.rice",
-          "ingredient.chickenbreast",
+          "ingredient.chickenbröst",
           "ingredient.eggs",
           "ingredient.mixedvegetables",
           "ingredient.onion",
@@ -512,31 +512,31 @@
           "ingredient.greenonions"
         ],
         "ingredientsWithAmounts": [
-          "2 koppar kokt ris",
-          "1 pund kyckling breast, tärnad",
-          "3 stor ägg",
-          "blandad-vegetables",
-          "1 Medel lök, tärnad",
-          "4 nejlikor vitlök, malen",
+          "2 koppar kokta ris",
+          "1 pund kycklingbröst, tärnade",
+          "3 stora ägg",
+          "blandade-vegetables",
+          "1 Medelstora lök, tärnade",
+          "4 vitlöksklyftor, malen",
           "3 msk sojasås",
           "oyster-sås",
-          "1 msk sesame olja",
-          "3 grön onions, skivad"
+          "1 msk sesamolja",
+          "3 salladslök, skivade"
         ],
         "instructions": [
-          "värme 1 msk olja i a wok över hög värme",
-          "lägg tills beaten ägg och scramble tills bara set. ta bort och set aside",
-          "lägg tills 2 msk olja och kyckling tills wok",
-          "rör-fry kyckling för 5-6 minuter tills kokt genom. ta bort och set aside",
-          "lägg tills remaining olja och lök tills wok",
-          "rör-fry lök för 2-3 minuter tills softened",
-          "lägg tills vitlök och blandad vegetables, rör-fry för 2 minuter",
-          "lägg tills ris och break upp any clumps",
-          "rör-fry ris för 3-4 minuter tills heated genom",
-          "Return kyckling och ägg tills wok",
-          "lägg tills sojasås, oyster sås, sesame olja, och vit peppar",
-          "Toss allt tillsammans för 2 minuter",
-          "garnera med grön onions och servera het"
+          "värme 1 msk olja i en wok över hög värme",
+          "lägg till vispade ägg och rör om tills de precis har stelnat. ta bort och lägg åt sidan",
+          "lägg till 2 msk olja och kyckling i woken",
+          "woka kyckling för 5-6 minuter tills genomkokta. ta bort och lägg åt sidan",
+          "lägg till resterande olja och lök i woken",
+          "woka lök för 2-3 minuter tills mjuknade",
+          "lägg till vitlök och blandade vegetables, woka för 2 minuter",
+          "lägg till ris och dela upp eventuella klumpar",
+          "woka ris för 3-4 minuter tills uppvärmda",
+          "Lägg tillbaka kyckling och ägg i woken",
+          "lägg till sojasås, ostronsås, sesamolja, och vit peppar",
+          "Blanda allt i 2 minuter",
+          "garnera med salladslök och servera het"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -562,11 +562,11 @@
         ],
         "ingredientsWithAmounts": [
           "1 hel anka",
-          "1/2 kopp hoisin sås"
+          "1/2 kopp hoisinsås"
         ],
         "instructions": [
           "krydda anka",
-          "Roast långsamt",
+          "Rosta långsamt",
           "Carve och servera"
         ],
         "servings": 4,
@@ -591,15 +591,15 @@
         ],
         "ingredientsWithAmounts": [
           "1 block tofu",
-          "1/2 pund malen fläskkött"
+          "1/2 pund malet fläskkött"
         ],
         "instructions": [
-          "koka fläskkött",
-          "lägg tills tofu",
+          "Koka fläskkött",
+          "lägg till tofu",
           "krydda med kryddor"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🧈",
         "tags": [
           "chinese",
@@ -615,20 +615,20 @@
         "name": "dish.char_siu",
         "description": "description.description_char_siu",
         "ingredients": [
-          "ingredient.porkshoulder",
+          "ingredient.porkbog",
           "ingredient.hoisinsauce"
         ],
         "ingredientsWithAmounts": [
-          "2 pund fläskkött shoulder",
-          "1/4 kopp hoisin sås"
+          "2 pund fläskbog",
+          "1/4 kopp hoisinsås"
         ],
         "instructions": [
           "marinera fläskkött",
-          "Roast",
+          "Rosta",
           "glasera"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "chinese",
@@ -649,15 +649,15 @@
         ],
         "ingredientsWithAmounts": [
           "1 pund nudlar",
-          "1/2 pund malen fläskkött"
+          "1/2 pund malet fläskkött"
         ],
         "instructions": [
-          "koka nudlar",
-          "göra sås",
-          "Combine"
+          "Koka nudlar",
+          "gör sås",
+          "Blanda"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍜",
         "tags": [
           "chinese",
@@ -678,11 +678,11 @@
         ],
         "ingredientsWithAmounts": [
           "4 koppar buljong",
-          "Thinly skivad kött"
+          "Tunt skivade kött"
         ],
         "instructions": [
           "värme buljong",
-          "koka ingredients",
+          "Koka ingredients",
           "servera med sauces"
         ],
         "servings": 4,
@@ -690,7 +690,7 @@
         "emoji": "🍽️",
         "tags": [
           "chinese",
-          "hot-pot",
+          "hot pot",
           "interactive"
         ],
         "prep_time": "60 min",
@@ -717,20 +717,20 @@
           "2 koppar sushi ris",
           "2 msk ris vinäger",
           "1 msk socker",
-          "nori sheets",
-          "4 uns lax, skivad",
-          "4 uns tonfisk, skivad",
+          "noriarks",
+          "4 uns lax, skivade",
+          "4 uns tonfisk, skivade",
           "1 gurka, julienned",
-          "1 avokado, skivad"
+          "1 avokado, skivade"
         ],
         "instructions": [
-          "koka sushi ris according tills package directions",
-          "blanda ris vinäger och socker, then vik till varm ris",
-          "Place nori sheet på bamboo mat",
-          "Spread ris evenly över nori, leaving 1 inch border",
-          "lägg tills fisk och vegetables i a line över centrum",
-          "rulla tightly using bamboo mat",
-          "Slice till 6-8 bitar med sharp knife",
+          "Koka sushi ris enligt förpackningens anvisningar",
+          "blanda ris vinäger och socker, sedan vik till varm ris",
+          "Placera noriark på bambumatta",
+          "Bred ris jämnt över nori, lämna 1 tums kant",
+          "lägg till fisk och vegetables i en rad över mitten",
+          "rulla tightly using bambumatta",
+          "skiva till 6-8 bitar med sharp knife",
           "servera med sojasås, wasabi, och inlagd ingefära"
         ],
         "servings": 4,
@@ -757,18 +757,18 @@
           "ingredient.ginger"
         ],
         "ingredientsWithAmounts": [
-          "1 pund kyckling, tärnad",
+          "1 pund kyckling, tärnade",
           "3 msk sojasås",
           "Mirin",
           "1/4 kopp socker",
-          "1 msk färsk ingefära, riven"
+          "1 msk färska ingefära, riven"
         ],
         "instructions": [
           "blanda sojasås, mirin, socker, och ingefära för sås",
-          "marinera kyckling i half the sås för 30 minuter",
-          "värme olja i a wok över hög värme",
-          "lägg tills kyckling och rör-fry tills kokt genom",
-          "lägg tills remaining sås och simmer tills tjock",
+          "marinera kyckling i halva såsen för 30 minuter",
+          "värme olja i en wok över hög värme",
+          "lägg till kyckling och woka tills genomstekta",
+          "lägg till resterande sås och Sjud tills tjocka",
           "servera över ångad ris"
         ],
         "servings": 4,
@@ -790,26 +790,26 @@
           "ingredient.misopaste",
           "ingredient.pork",
           "ingredient.eggs",
-          "ingredient.scallions"
+          "ingredient.salladslök"
         ],
         "ingredientsWithAmounts": [
           "8 uns ramen nudlar",
           "Miso Paste",
-          "1 pund fläskkött, tärnad",
-          "3 stor ägg",
-          "3 scallions, skivad"
+          "1 pund fläskkött, tärnade",
+          "3 stora ägg",
+          "3 salladslök, skivade"
         ],
         "instructions": [
-          "Boil nudlar according tills package directions",
-          "värme olja i a gryta och brun fläskkött",
-          "lägg tills miso paste och vatten, bring tills a boil",
-          "Simmer för 20 minuter",
-          "lägg tills nudlar och ägg tills buljong",
-          "koka för 2-3 minuter tills ägg är set",
-          "garnera med scallions och servera het"
+          "Koka nudlar enligt förpackningens anvisningar",
+          "värme olja i en gryta och brun fläskkött",
+          "lägg till miso paste och vatten, Koka upp",
+          "Sjud för 20 minuter",
+          "lägg till nudlar och ägg tills buljong",
+          "Koka i 2-3 minuter tills äggen har stelnat",
+          "garnera med salladslök och servera het"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍜",
         "tags": [
           "japanese"
@@ -824,14 +824,14 @@
         "description": "description.description_tonkatsu",
         "ingredients": [
           "ingredient.pork",
-          "ingredient.breadcrumbs",
+          "ingredient.ströbröd",
           "ingredient.eggs",
           "ingredient.flour",
           "ingredient.cabbage"
         ],
         "ingredientsWithAmounts": [
-          "4 fläskkött cutlets",
-          "2 koppar panko breadcrumbs",
+          "4 fläskkotletter",
+          "2 koppar panko ströbröd",
           "3 ägg",
           "1 kopp mjöl",
           "1/2 huvud kål",
@@ -839,17 +839,17 @@
           "olja för stekning"
         ],
         "instructions": [
-          "pund fläskkött cutlets tunn",
+          "pund fläskkotletter tunna",
           "krydda med salt och peppar",
-          "Dredge i mjöl, ägg, then breadcrumbs",
+          "Vänd i mjöl, ägg, sedan ströbröd",
           "värme olja tills 350°F (175°C)",
-          "Fry cutlets tills guld brun",
-          "häll av på paper towels",
-          "Slice och servera med kål",
-          "Drizzle med tonkatsu sås"
+          "Fritera kotletter tills gyllenbrun",
+          "häll av på hushållspapper",
+          "skiva och servera med kål",
+          "Ringla över tonkatsu sås"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "japanese",
@@ -872,30 +872,30 @@
           "ingredient.sugar"
         ],
         "ingredientsWithAmounts": [
-          "2 pund kyckling thighs",
+          "2 pund kycklinglår",
           "1/2 kopp sojasås",
           "1/4 kopp mirin",
           "1/4 kopp sake",
           "2 msk socker",
-          "Bamboo skewers",
-          "Scallions"
+          "Bambo skewers",
+          "salladslök"
         ],
         "instructions": [
-          "skär kyckling till bitstorlek bitar",
+          "skär kyckling till lagom stora bitar",
           "Soak skewers i vatten",
           "Thread kyckling onto skewers",
-          "göra tare sås med soja, mirin, sake, socker",
-          "Grill skewers, brushing med sås",
-          "koka tills kyckling är klar",
-          "servera med more tare sås",
-          "garnera med scallions"
+          "gör tare sås med soja, mirin, sake, socker",
+          "Grilla skewers, brushing med sås",
+          "Koka tills kyckling är klar",
+          "servera med mer tare sås",
+          "garnera med salladslök"
         ],
         "servings": 4,
         "difficulty": "Lätt",
         "emoji": "🐔",
         "tags": [
           "japanese",
-          "grillad",
+          "Grillaad",
           "kyckling"
         ],
         "prep_time": "25 min",
@@ -917,7 +917,7 @@
           "1/2 huvud kål",
           "2 koppar mjöl",
           "4 ägg",
-          "8 slices fläskkött belly",
+          "8 skivor fläskbuk",
           "Okonomiyaki sås",
           "Mayonnaise",
           "Bonito flakes"
@@ -925,15 +925,15 @@
         "instructions": [
           "Shred kål finely",
           "blanda mjöl med vatten och ägg",
-          "lägg tills kål tills batter",
-          "värme griddle och häll batter",
-          "topp med fläskkött slices",
-          "Flip och koka other sida",
-          "Drizzle med sås och mayo",
+          "lägg till kål tills batter",
+          "värme platt stekpanna och häll batter",
+          "topp med fläskkött skivor",
+          "Vänd och Koka andra sidan",
+          "Ringla över sås och mayo",
           "topp med bonito flakes"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥬",
         "tags": [
           "japanese",
@@ -952,30 +952,30 @@
           "ingredient.eggs",
           "ingredient.dashi",
           "ingredient.shrimp",
-          "ingredient.mushrooms",
+          "ingredient.svampar",
           "ingredient.mitsuba"
         ],
         "ingredientsWithAmounts": [
           "4 ägg",
           "2 koppar dashi fond",
           "8 räkor",
-          "4 mushrooms",
+          "4 svampar",
           "Mitsuba blad",
           "sojasås",
           "Mirin"
         ],
         "instructions": [
           "vispa ägg med dashi",
-          "Strain mixture",
-          "Place räkor och mushrooms i koppar",
-          "häll ägg mixture över",
-          "Cover med foil",
-          "Steam för 15 minuter",
+          "Sila blandning",
+          "Placera räkor och svampar i koppar",
+          "häll ägg blandning över",
+          "Täck med folie",
+          "Ånga för 15 minuter",
           "garnera med mitsuba",
           "servera varm"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥚",
         "tags": [
           "japanese",
@@ -995,25 +995,25 @@
           "ingredient.soysauce",
           "ingredient.garlic",
           "ingredient.ginger",
-          "ingredient.potatostarch"
+          "ingredient.potatisstarch"
         ],
         "ingredientsWithAmounts": [
-          "2 pund kyckling thighs",
+          "2 pund kycklinglår",
           "3 msk sojasås",
-          "2 vitlök nejlikor",
+          "2 vitlöksklyftor",
           "1 tum ingefära",
           "1 kopp potatis starch",
           "olja för stekning",
           "citron wedges"
         ],
         "instructions": [
-          "skär kyckling till bitstorlek bitar",
+          "skär kyckling till lagom stora bitar",
           "marinera med sojasås, vitlök, ingefära",
-          "Let marinera för 30 minuter",
-          "Coat med potatis starch",
+          "Låt marinera i 30 minuter",
+          "Täck med potatis starch",
           "värme olja tills 350°F (175°C)",
-          "Fry kyckling tills guld",
-          "häll av på paper towels",
+          "Fritera kyckling tills gyllene",
+          "häll av på hushållspapper",
           "servera med citron wedges"
         ],
         "servings": 4,
@@ -1040,24 +1040,24 @@
           "ingredient.soysauce"
         ],
         "ingredientsWithAmounts": [
-          "1 pund kyckling thighs",
+          "1 pund kycklinglår",
           "4 ägg",
           "1 lök",
           "1 kopp dashi",
           "3 msk sojasås",
           "2 msk mirin",
           "ris",
-          "Scallions"
+          "salladslök"
         ],
         "instructions": [
-          "Slice kyckling och lök",
+          "skiva kyckling och lök",
           "värme dashi med sojasås och mirin",
-          "lägg tills kyckling och lök",
-          "koka tills kyckling är klar",
+          "lägg till kyckling och lök",
+          "Koka tills kyckling är klar",
           "vispa ägg lightly",
           "häll ägg över kyckling",
-          "Cover och koka tills set",
-          "servera över ris med scallions"
+          "Täck och koka tills det har stelnat",
+          "servera över ris med salladslök"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -1080,30 +1080,30 @@
           "ingredient.eggs",
           "ingredient.onion",
           "ingredient.dashi",
-          "ingredient.breadcrumbs"
+          "ingredient.ströbröd"
         ],
         "ingredientsWithAmounts": [
-          "4 fläskkött cutlets",
+          "4 fläskkotletter",
           "4 ägg",
           "1 lök",
           "1 kopp dashi",
           "3 msk sojasås",
           "2 msk mirin",
-          "Panko breadcrumbs",
+          "Panko ströbröd",
           "ris"
         ],
         "instructions": [
-          "göra tonkatsu (breaded fläskkött cutlets)",
-          "Slice tonkatsu till strips",
+          "gör tonkatsu (breaded fläskkotletter)",
+          "skiva tonkatsu till strimlor",
           "värme dashi med sojasås och mirin",
-          "lägg tills skivad lök",
-          "Place tonkatsu på topp",
+          "lägg till skivade lök",
+          "Placera tonkatsu ovanpå",
           "vispa ägg och häll över",
-          "Cover och koka tills ägg set",
+          "Täck och koka tills äggen har stelnat",
           "servera över ris"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "japanese",
@@ -1140,13 +1140,13 @@
           "blanda mjöl med ägg och dashi",
           "värme takoyaki panna",
           "häll batter till holes",
-          "lägg tills bläckfisk bitar",
-          "Turn med skewers tills form balls",
-          "koka tills guld",
+          "lägg till bläckfisk bitar",
+          "Vänd med skewers tills Forma kulor",
+          "Koka tills gyllene",
           "topp med sås, mayo, och flakes"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🦑",
         "tags": [
           "japanese",
@@ -1163,7 +1163,7 @@
         "description": "description.description_agedashi_tofu",
         "ingredients": [
           "ingredient.tofu",
-          "ingredient.potatostarch",
+          "ingredient.potatisstarch",
           "ingredient.dashi",
           "ingredient.soysauce",
           "ingredient.daikon"
@@ -1175,16 +1175,16 @@
           "2 msk sojasås",
           "1 msk mirin",
           "riven daikon",
-          "Scallions"
+          "salladslök"
         ],
         "instructions": [
-          "skär tofu till cubes",
+          "skär tofu till tärningar",
           "häll av och pat torr",
-          "Coat med potatis starch",
+          "Täck med potatis starch",
           "värme olja tills 350°F (175°C)",
-          "Fry tofu tills guld",
-          "göra dashi buljong med sojasås och mirin",
-          "Place tofu i bowls",
+          "Fritera tofu tills gyllene",
+          "gör dashi buljong med sojasås och mirin",
+          "Placera tofu i bowls",
           "häll buljong över och garnera"
         ],
         "servings": 4,
@@ -1212,21 +1212,21 @@
         ],
         "ingredientsWithAmounts": [
           "4 servings ramen nudlar",
-          "4 slices skinka",
+          "4 skivor skinka",
           "2 ägg",
           "1 gurka",
           "2 ingredient.tomato",
           "Sesame dressing",
-          "Nori strips"
+          "Nori strimlor"
         ],
         "instructions": [
-          "koka ramen nudlar",
+          "Koka ramen nudlar",
           "skölj med kall vatten",
-          "göra tunn omelet och slice",
-          "Slice skinka till strips",
-          "skär vegetables till strips",
-          "Arrange på kall nudlar",
-          "Drizzle med sesame dressing",
+          "gör en tunna omelett och skiva",
+          "skiva skinka till strimlor",
+          "skär vegetables till strimlor",
+          "Placera på kall nudlar",
+          "Ringla över sesame dressing",
           "garnera med nori"
         ],
         "servings": 4,
@@ -1234,7 +1234,7 @@
         "emoji": "🍜",
         "tags": [
           "japanese",
-          "cold",
+          "kall",
           "nudlar"
         ],
         "prep_time": "25 min",
@@ -1247,14 +1247,14 @@
         "description": "description.description_nikujaga",
         "ingredients": [
           "ingredient.beef",
-          "ingredient.potatoes",
+          "ingredient.potatis",
           "ingredient.onions",
           "ingredient.carrots",
           "ingredient.soysauce"
         ],
         "ingredientsWithAmounts": [
-          "1 pund nötkött, skivad",
-          "4 potatoes",
+          "1 pund nötkött, skivade",
+          "4 potatis",
           "2 onions",
           "2 carrots",
           "1/2 kopp sojasås",
@@ -1263,13 +1263,13 @@
           "Dashi"
         ],
         "instructions": [
-          "skär vegetables till chunks",
+          "skär grönsakerna i bitar",
           "brun nötkött i gryta",
-          "lägg tills vegetables",
-          "lägg tills dashi, sojasås, socker, mirin",
-          "Bring tills boil",
-          "Simmer för 30 minuter",
-          "koka tills vegetables är mör",
+          "lägg till vegetables",
+          "lägg till dashi, sojasås, socker, mirin",
+          "Koka upp tills Koka",
+          "Sjud för 30 minuter",
+          "Koka tills vegetables är mör",
           "servera med ris"
         ],
         "servings": 4,
@@ -1296,26 +1296,26 @@
           "ingredient.gyozawrappers"
         ],
         "ingredientsWithAmounts": [
-          "1 pund malen fläskkött",
+          "1 pund malet fläskkött",
           "1/2 huvud kål",
-          "2 vitlök nejlikor",
+          "2 vitlöksklyftor",
           "1 tum ingefära",
           "40 gyoza wrappers",
           "sojasås",
-          "Sesame olja"
+          "sesamolja"
         ],
         "instructions": [
-          "Chop kål och salt tills ta bort vatten",
+          "Hacka kålen och salt för att ta bort vatten",
           "blanda fläskkött med kål, vitlök, ingefära",
-          "lägg tills sojasås och sesame olja",
-          "Fill wrappers med mixture",
-          "Pleat edges tills seal",
-          "panna-fry tills botten är guld",
-          "lägg tills vatten och steam",
+          "lägg till sojasås och sesamolja",
+          "Fill wrappers med blandning",
+          "Pleat kanter tills förslut",
+          "stek i panna tills botten är gyllene",
+          "lägg till vatten och Ånga",
           "servera med dipping sås"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "japanese",
@@ -1335,24 +1335,24 @@
           "ingredient.dashi",
           "ingredient.tofu",
           "ingredient.wakame",
-          "ingredient.scallions"
+          "ingredient.salladslök"
         ],
         "ingredientsWithAmounts": [
           "4 msk miso paste",
           "4 koppar dashi",
           "1/2 block tofu",
           "2 msk wakame",
-          "2 scallions",
+          "2 salladslök",
           "sojasås"
         ],
         "instructions": [
           "Soak wakame i vatten",
           "värme dashi tills bara nedan kokning",
-          "lägg tills miso paste och vispa",
-          "skär tofu till liten cubes",
-          "lägg tills tofu och wakame",
-          "Simmer för 2 minuter",
-          "garnera med scallions",
+          "lägg till miso paste och vispa",
+          "skär tofu till liten tärningar",
+          "lägg till tofu och wakame",
+          "Sjud för 2 minuter",
+          "garnera med salladslök",
           "servera omedelbart"
         ],
         "servings": 4,
@@ -1379,22 +1379,22 @@
           "ingredient.sesame"
         ],
         "ingredientsWithAmounts": [
-          "4 koppar kokt ris",
+          "4 koppar kokta ris",
           "4 sheets nori",
-          "kokt lax",
+          "kokta lax",
           "Umeboshi plums",
           "Sesame seeds",
           "salt"
         ],
         "instructions": [
           "krydda ris med salt",
-          "våt hands med vatten",
-          "Form ris till triangulär shapes",
-          "lägg tills fyllning i centrum",
-          "Wrap med nori",
-          "kan lägg tills sesame seeds",
+          "våt hochs med vatten",
+          "Forma ris till triangulär former",
+          "lägg till fyllning i mitten",
+          "Rulla in med nori",
+          "kan lägg till sesame seeds",
           "servera på room temperatur",
-          "Keep covered tills prevent drying"
+          "Håll täckt för att förhindra uttorkning"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -1413,33 +1413,33 @@
         "name": "dish.korokke",
         "description": "description.description_korokke",
         "ingredients": [
-          "ingredient.potatoes",
+          "ingredient.potatis",
           "ingredient.groundbeef",
           "ingredient.onions",
-          "ingredient.breadcrumbs",
+          "ingredient.ströbröd",
           "ingredient.eggs"
         ],
         "ingredientsWithAmounts": [
-          "4 stor potatoes",
-          "1/2 pund malen nötkött",
+          "4 stora potatis",
+          "1/2 pund malet nötkött",
           "1 lök",
-          "2 koppar panko breadcrumbs",
+          "2 koppar panko ströbröd",
           "3 ägg",
           "olja för stekning",
           "Tonkatsu sås"
         ],
         "instructions": [
-          "Boil och mash potatoes",
-          "koka nötkött och onions",
-          "blanda med mashed potatoes",
+          "Koka och mash potatis",
+          "Koka nötkött och onions",
+          "blanda med mosad potatis",
           "krydda med salt och peppar",
-          "Form till oval shapes",
-          "Dredge i mjöl, ägg, breadcrumbs",
-          "Fry tills guld brun",
+          "Forma till oval former",
+          "Vänd i mjöl, ägg, ströbröd",
+          "Fritera tills gyllenbrun",
           "servera med tonkatsu sås"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥔",
         "tags": [
           "japanese",
@@ -1462,8 +1462,8 @@
           "ingredient.noodles"
         ],
         "ingredientsWithAmounts": [
-          "1 pund thinly skivad nötkött",
-          "blandad vegetables",
+          "1 pund Tunt skivade nötkött",
+          "blandade vegetables",
           "4 koppar dashi",
           "1 block tofu",
           "udon nudlar",
@@ -1474,18 +1474,18 @@
           "värme dashi i het gryta",
           "Prepare vegetables och tofu",
           "Dip kött i het buljong",
-          "koka tills bara klar",
-          "lägg tills vegetables tills buljong",
+          "Koka tills bara klar",
+          "lägg till vegetables tills buljong",
           "servera med dipping sauces",
-          "lägg tills nudlar på the end",
-          "Drink the remaining buljong"
+          "lägg till nudlar på end",
+          "Drink remaining buljong"
         ],
         "servings": 4,
         "difficulty": "Lätt",
         "emoji": "🥩",
         "tags": [
           "japanese",
-          "hot-pot",
+          "hot pot",
           "nötkött"
         ],
         "prep_time": "30 min",
@@ -1506,22 +1506,22 @@
           "ingredient.sesameoil"
         ],
         "ingredientsWithAmounts": [
-          "1 pund nötkött, skivad tunn",
+          "1 pund nötkött, skivade tunna",
           "3 msk sojasås",
           "Pear",
-          "4 nejlikor vitlök, malen",
-          "1 msk sesame olja"
+          "4 vitlöksklyftor, malen",
+          "1 msk sesamolja"
         ],
         "instructions": [
-          "Slice nötkött till tunn strips",
-          "blanda sojasås, pear, vitlök, och sesame olja",
-          "marinera nötkött för på least 1 hour",
-          "värme olja i a wok över hög värme",
-          "lägg tills nötkött och rör-fry tills kokt genom",
+          "skiva nötkött till tunna strimlor",
+          "blanda sojasås, päron, vitlök, och sesamolja",
+          "marinera nötkött för minst 1 timme",
+          "värme olja i en wok över hög värme",
+          "lägg till nötkött och woka tills genomstekta",
           "servera med ris och vegetables"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥩",
         "tags": [
           "korean"
@@ -1542,22 +1542,22 @@
           "ingredient.sesameoil"
         ],
         "ingredientsWithAmounts": [
-          "2 koppar kokt ris",
+          "2 koppar kokta ris",
           "kimchi",
-          "3 stor ägg",
-          "1 Medel lök, tärnad",
-          "1 msk sesame olja"
+          "3 stora ägg",
+          "1 Medelstora lök, tärnade",
+          "1 msk sesamolja"
         ],
         "instructions": [
-          "värme olja i a wok över hög värme",
-          "lägg tills lök och rör-fry tills softened",
-          "lägg tills kimchi och rör-fry för 2 minuter",
-          "lägg tills ris och break upp clumps",
-          "rör-fry för 3-4 minuter tills heated genom",
-          "göra a well i centrum och lägg tills ägg",
+          "värme olja i en wok över hög värme",
+          "lägg till lök och woka tills mjuknade",
+          "lägg till kimchi och woka för 2 minuter",
+          "lägg till ris och dela upp klumpar",
+          "woka för 3-4 minuter tills uppvärmda",
+          "gör en well i mitten och lägg till ägg",
           "Scramble ägg och blanda med ris",
-          "krydda med sojasås och sesame olja",
-          "servera het med more kimchi"
+          "krydda med sojasås och sesamolja",
+          "servera het med mer kimchi"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -1581,22 +1581,22 @@
           "ingredient.sesameoil"
         ],
         "ingredientsWithAmounts": [
-          "2 pund nötkött sirloin",
+          "2 pund ryggbiff",
           "1/2 kopp sojasås",
-          "6 vitlök nejlikor",
+          "6 vitlöksklyftor",
           "2 tum ingefära",
-          "2 msk sesame olja",
+          "2 msk sesamolja",
           "2 msk socker",
           "1 lök"
         ],
         "instructions": [
-          "Slice nötkött mycket thinly",
-          "göra marinad med sojasås, vitlök, ingefära",
-          "lägg tills socker och sesame olja",
+          "skiva nötkött mycket tunt",
+          "gör marinad med sojasås, vitlök, ingefära",
+          "lägg till socker och sesamolja",
           "marinera nötkött för 30 minuter",
-          "Grill or panna-fry nötkött",
-          "lägg tills skivad onions",
-          "koka tills nötkött är klar",
+          "Grilla eller stek i panna nötkött",
+          "lägg till skivade onions",
+          "Koka tills nötkött är klar",
           "servera med ris och sallad"
         ],
         "servings": 4,
@@ -1604,7 +1604,7 @@
         "emoji": "🥩",
         "tags": [
           "korean",
-          "grillad",
+          "Grillaad",
           "nötkött"
         ],
         "prep_time": "30 min",
@@ -1616,38 +1616,38 @@
         "name": "dish.galbi",
         "description": "description.description_galbi",
         "ingredients": [
-          "ingredient.shortribs",
+          "ingredient.shortrevben",
           "ingredient.soysauce",
           "ingredient.garlic",
           "ingredient.sugar",
           "ingredient.sesameoil"
         ],
         "ingredientsWithAmounts": [
-          "3 pund kort ribs",
+          "3 pund korta revben",
           "1/2 kopp sojasås",
-          "8 vitlök nejlikor",
-          "1 Asian pear",
-          "2 msk sesame olja",
+          "8 vitlöksklyftor",
+          "1 asiatiskt päron",
+          "2 msk sesamolja",
           "2 msk socker",
           "1 lök"
         ],
         "instructions": [
-          "Score ribs between bones",
-          "göra marinad med sojasås, vitlök, pear",
-          "lägg tills socker och sesame olja",
-          "marinera ribs för 2 timmar",
-          "Grill över Medel värme",
+          "Rispa revbenen mellan benen",
+          "gör marinad med sojasås, vitlök, päron",
+          "lägg till socker och sesamolja",
+          "marinera revbenen i 2 timmar",
+          "Grilla över medelhög värme",
           "basta med marinad",
-          "koka tills caramelized",
-          "servera med sallad wraps"
+          "Koka tills karamelliserad",
+          "servera med salladwraps"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🧄",
         "tags": [
           "korean",
-          "ribs",
-          "grillad"
+          "revben",
+          "Grillaad"
         ],
         "prep_time": "45 min",
         "cook_time": "45 min",
@@ -1659,37 +1659,34 @@
         "description": "description.description_japchae",
         "ingredients": [
           "ingredient.glassnoodles",
-          "ingredient.beef",
           "ingredient.vegetables",
           "ingredient.soysauce",
           "ingredient.sesameoil"
         ],
         "ingredientsWithAmounts": [
           "8 uns glass nudlar",
-          "1/2 pund nötkött",
-          "blandad vegetables",
+          "blandade vegetables (morötter, spenat, svamp, paprika)",
           "1/4 kopp sojasås",
-          "2 msk sesame olja",
+          "2 msk sesamolja",
           "2 msk socker",
           "Sesame seeds"
         ],
         "instructions": [
           "Soak nudlar i varm vatten",
-          "Slice nötkött och vegetables",
-          "koka nötkött och set aside",
-          "rör-fry vegetables separately",
-          "koka nudlar tills mör",
+          "skiva vegetables i tunna remsor",
+          "woka vegetables separately",
+          "Koka nudlar tills mör",
           "blanda allt tillsammans",
-          "lägg tills sojasås och sesame olja",
+          "lägg till sojasås och sesamolja",
           "garnera med sesame seeds"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍜",
         "tags": [
           "korean",
           "nudlar",
-          "stir-fry"
+          "woka"
         ],
         "prep_time": "40 min",
         "cook_time": "40 min",
@@ -1704,25 +1701,25 @@
           "ingredient.gochujang",
           "ingredient.fishcakes",
           "ingredient.cabbage",
-          "ingredient.scallions"
+          "ingredient.salladslök"
         ],
         "ingredientsWithAmounts": [
-          "1 pund ris cakes",
+          "1 pund riskaker",
           "3 msk gochujang",
           "4 uns fisk cakes",
           "1/2 huvud kål",
-          "2 scallions",
+          "2 salladslök",
           "2 msk socker",
           "1 msk sojasås"
         ],
         "instructions": [
-          "Soak ris cakes i vatten",
-          "göra sås med gochujang, socker, sojasås",
+          "Soak riskaker i vatten",
+          "gör sås med gochujang, socker, sojasås",
           "värme sås i panna",
-          "lägg tills ris cakes och fisk cakes",
-          "lägg tills kål",
-          "Simmer tills sås thickens",
-          "garnera med scallions",
+          "lägg till riskaker och fisk cakes",
+          "lägg till kål",
+          "Sjud tills såsen tjocknar",
+          "garnera med salladslök",
           "servera het"
         ],
         "servings": 4,
@@ -1749,31 +1746,31 @@
           "ingredient.gochujang"
         ],
         "ingredientsWithAmounts": [
-          "4 koppar kokt ris",
+          "4 koppar kokta ris",
           "1/2 pund nötkött",
-          "blandad vegetables",
+          "blandade vegetables",
           "4 ägg",
           "4 msk gochujang",
-          "Sesame olja",
+          "sesamolja",
           "Sesame seeds"
         ],
         "instructions": [
-          "koka ris och keep varm",
-          "krydda och koka nötkött",
+          "Koka ris och håll varmt",
+          "krydda och Koka nötkött",
           "Prepare vegetables separately",
-          "Fry ägg sunny-sida upp",
-          "Arrange ris i bowls",
+          "Fritera ägg sunny-sida upp",
+          "Placera ris i bowls",
           "topp med vegetables och nötkött",
-          "lägg tills stekt ägg",
-          "servera med gochujang och sesame olja"
+          "lägg till stekt ägg",
+          "servera med gochujang och sesamolja"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍚",
         "tags": [
           "korean",
           "ris-bowl",
-          "mixed"
+          "blandad"
         ],
         "prep_time": "35 min",
         "cook_time": "35 min",
@@ -1784,37 +1781,37 @@
         "name": "dish.samgyeopsal",
         "description": "description.description_samgyeopsal",
         "ingredients": [
-          "ingredient.porkbelly",
+          "ingredient.porkbuk",
           "ingredient.garlic",
           "ingredient.sesameoil",
           "ingredient.salt",
           "ingredient.lettuce"
         ],
         "ingredientsWithAmounts": [
-          "2 pund fläskkött belly",
-          "8 vitlök nejlikor",
-          "2 msk sesame olja",
-          "Coarse salt",
+          "2 pund fläskbuk",
+          "8 vitlöksklyftor",
+          "2 msk sesamolja",
+          "Grovt salt",
           "sallad blad",
           "Ssamjang",
-          "grön onions"
+          "salladslök"
         ],
         "instructions": [
-          "skär fläskkött belly till tjock slices",
-          "värme grill or panna",
-          "Grill fläskkött belly tills knaprig",
-          "skär till bitstorlek bitar",
+          "skär fläskbuk till tjocka skivor",
+          "värm grill eller panna",
+          "Grilla fläskbuk tills knaprig",
+          "skär till lagom stora bitar",
           "servera med sallad leaves",
-          "lägg tills vitlök och ssamjang",
-          "Wrap i sallad",
-          "Eat omedelbart"
+          "lägg till vitlök och ssamjang",
+          "Rulla in i sallad",
+          "Ät omedelbart"
         ],
         "servings": 4,
         "difficulty": "Lätt",
         "emoji": "🐷",
         "tags": [
           "korean",
-          "grillad",
+          "Grillaad",
           "fläskkött"
         ],
         "prep_time": "30 min",
@@ -1828,36 +1825,36 @@
         "ingredients": [
           "ingredient.flour",
           "ingredient.eggs",
-          "ingredient.seafood",
-          "ingredient.scallions",
+          "ingredient.skaldjur",
+          "ingredient.salladslök",
           "ingredient.soysauce"
         ],
         "ingredientsWithAmounts": [
           "2 koppar mjöl",
           "2 ägg",
-          "1/2 pund blandad seafood",
-          "1 bunch scallions",
+          "1/2 pund blandadee skaldjur",
+          "1 bunch salladslök",
           "1/2 kopp sojasås",
           "2 msk vinäger",
           "1 msk socker"
         ],
         "instructions": [
           "blanda mjöl med vatten och ägg",
-          "lägg tills hackad scallions",
-          "lägg tills seafood tills batter",
+          "lägg till hackad salladslök",
+          "lägg till skaldjur tills batter",
           "värme olja i panna",
           "häll batter till panna",
-          "koka tills botten är set",
-          "Flip och koka other sida",
+          "Koka tills botten har stelnat",
+          "Vänd och Koka andra sidan",
           "servera med dipping sås"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🌾",
         "tags": [
           "korean",
           "pancake",
-          "seafood"
+          "skaldjur"
         ],
         "prep_time": "30 min",
         "cook_time": "30 min",
@@ -1870,31 +1867,31 @@
         "ingredients": [
           "ingredient.chicken",
           "ingredient.cabbage",
-          "ingredient.sweetpotato",
+          "ingredient.sweetpotatis",
           "ingredient.gochujang",
           "ingredient.garlic"
         ],
         "ingredientsWithAmounts": [
-          "2 pund kyckling thighs",
+          "2 pund kycklinglår",
           "1/2 huvud kål",
-          "2 söt potatoes",
+          "2 söt potatis",
           "3 msk gochujang",
-          "6 vitlök nejlikor",
+          "6 vitlöksklyftor",
           "2 msk sojasås",
           "1 msk socker"
         ],
         "instructions": [
-          "skär kyckling till bitstorlek bitar",
-          "göra sås med gochujang, vitlök, sojasås",
+          "skär kyckling till lagom stora bitar",
+          "gör sås med gochujang, vitlök, sojasås",
           "marinera kyckling i sås",
-          "skär vegetables till chunks",
-          "värme stor panna or wok",
-          "lägg tills kyckling och koka",
-          "lägg tills vegetables",
-          "rör-fry tills allt är kokt"
+          "skär grönsakerna i bitar",
+          "värm en stor panna eller wok",
+          "lägg till kyckling och Koka",
+          "lägg till vegetables",
+          "woka tills allt är genomkokta"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
           "korean",
@@ -1913,27 +1910,27 @@
           "ingredient.softtofu",
           "ingredient.gochujang",
           "ingredient.vegetables",
-          "ingredient.seafood",
+          "ingredient.skaldjur",
           "ingredient.eggs"
         ],
         "ingredientsWithAmounts": [
           "2 packages mjuk tofu",
           "2 msk gochujang",
-          "blandad vegetables",
-          "1/2 pund seafood",
+          "blandade vegetables",
+          "1/2 pund skaldjur",
           "2 ägg",
           "2 msk sojasås",
-          "1 msk sesame olja"
+          "1 msk sesamolja"
         ],
         "instructions": [
           "värme olja i gryta",
-          "lägg tills gochujang och koka",
-          "lägg tills vegetables och koka",
-          "lägg tills vatten och bring tills boil",
-          "lägg tills tofu och seafood",
-          "Simmer för 10 minuter",
-          "Crack ägg på topp",
-          "koka tills ägg är set"
+          "lägg till gochujang och Koka",
+          "lägg till vegetables och Koka",
+          "lägg till vatten och Koka upp tills Koka",
+          "lägg till tofu och skaldjur",
+          "Sjud för 10 minuter",
+          "Crack ägg ovanpå",
+          "Koka tills äggen har stelnat"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -1959,26 +1956,26 @@
           "ingredient.eggs"
         ],
         "ingredientsWithAmounts": [
-          "4 koppar kokt ris",
+          "4 koppar kokta ris",
           "8 sheets nori",
-          "blandad vegetables",
+          "blandade vegetables",
           "1/2 pund nötkött",
           "3 ägg",
-          "Sesame olja",
+          "sesamolja",
           "salt"
         ],
         "instructions": [
-          "krydda ris med sesame olja och salt",
-          "koka och krydda nötkött",
-          "göra tunn omelet och slice",
+          "krydda ris med sesamolja och salt",
+          "Koka och krydda nötkött",
+          "gör en tunna omelett och skiva",
           "Prepare vegetables",
-          "Place nori på bamboo mat",
-          "Spread ris på nori",
-          "lägg tills fillings i centrum",
-          "rulla tightly och slice"
+          "Placera nori på bambumatta",
+          "Bred ris på nori",
+          "lägg till fillings i mitten",
+          "rulla tightly och skiva"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍚",
         "tags": [
           "korean",
@@ -1994,38 +1991,38 @@
         "name": "dish.bossam",
         "description": "description.description_bossam",
         "ingredients": [
-          "ingredient.porkbelly",
+          "ingredient.porkbuk",
           "ingredient.kimchi",
           "ingredient.garlic",
           "ingredient.ginger",
           "ingredient.radish"
         ],
         "ingredientsWithAmounts": [
-          "3 pund fläskkött belly",
+          "3 pund fläskbuk",
           "1 huvud napa kål kimchi",
-          "8 vitlök nejlikor",
+          "8 vitlöksklyftor",
           "2 tum ingefära",
           "1 daikon rädisa",
           "sojasås",
-          "Sesame olja"
+          "sesamolja"
         ],
         "instructions": [
-          "Boil fläskkött belly med vitlök och ingefära",
-          "koka tills mycket mör",
-          "Slice thinly",
-          "göra rädisa kimchi",
+          "Koka fläskbuk med vitlök och ingefära",
+          "Koka tills mycket mör",
+          "skiva tunt",
+          "gör rädisa kimchi",
           "servera fläskkött med kimchi",
-          "Wrap i sallad or kål",
-          "lägg tills ssamjang",
-          "Eat as wraps"
+          "Rulla in i sallad eller kål",
+          "lägg till ssamjang",
+          "Ät som wraps"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "korean",
           "fläskkött",
-          "kokt"
+          "kokta"
         ],
         "prep_time": "90 min",
         "cook_time": "90 min",
@@ -2043,30 +2040,30 @@
           "ingredient.mustard"
         ],
         "ingredientsWithAmounts": [
-          "1 pund buckwheat nudlar",
+          "1 pund bovete nudlar",
           "1/2 pund nötkött",
           "1 gurka",
-          "1 Asian pear",
+          "1 asiatiskt päron",
           "2 msk mustard",
           "vinäger",
           "socker"
         ],
         "instructions": [
-          "göra kall nötkött buljong",
-          "koka och slice nötkött",
-          "Julienne gurka och pear",
-          "koka nudlar och skölj i kall vatten",
-          "göra mustard sås",
-          "Place nudlar i bowls",
-          "lägg tills kall buljong",
+          "gör kall nötkött buljong",
+          "Koka och skiva nötkött",
+          "Skär i julienne gurka och päron",
+          "Koka nudlar och skölj i kall vatten",
+          "gör mustard sås",
+          "Placera nudlar i bowls",
+          "lägg till kall buljong",
           "topp med nötkött och vegetables"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍜",
         "tags": [
           "korean",
-          "cold",
+          "kall",
           "nudlar"
         ],
         "prep_time": "40 min",
@@ -2085,26 +2082,26 @@
           "ingredient.onions"
         ],
         "ingredientsWithAmounts": [
-          "1 pund wheat nudlar",
+          "1 pund vetenudlar",
           "1/2 pund fläskkött",
           "4 msk svart bean paste",
-          "blandad vegetables",
+          "blandade vegetables",
           "2 onions",
           "2 msk sojasås",
           "1 msk socker"
         ],
         "instructions": [
           "skär fläskkött och vegetables",
-          "värme olja och koka fläskkött",
-          "lägg tills vegetables och onions",
-          "lägg tills svart bean paste",
-          "koka tills vegetables är mör",
-          "lägg tills vatten och simmer",
-          "koka nudlar separately",
+          "värme olja och Koka fläskkött",
+          "lägg till vegetables och onions",
+          "lägg till svart bean paste",
+          "Koka tills vegetables är mör",
+          "lägg till vatten och Sjud",
+          "Koka nudlar separately",
           "servera nudlar med sås"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍜",
         "tags": [
           "korean",
@@ -2120,38 +2117,38 @@
         "name": "dish.gamjatang",
         "description": "description.description_gamjatang",
         "ingredients": [
-          "ingredient.porkbones",
-          "ingredient.potatoes",
+          "ingredient.porkben",
+          "ingredient.potatis",
           "ingredient.vegetables",
           "ingredient.gochujang",
           "ingredient.garlic"
         ],
         "ingredientsWithAmounts": [
-          "2 pund fläskkött bones",
-          "4 potatoes",
-          "blandad vegetables",
+          "2 pund fläskben",
+          "4 potatis",
+          "blandade vegetables",
           "2 msk gochujang",
-          "8 vitlök nejlikor",
+          "8 vitlöksklyftor",
           "2 msk sojasås",
           "Sesame blad"
         ],
         "instructions": [
-          "Boil fläskkött bones för 1 hour",
+          "Koka fläskben i 1 timme",
           "Skim foam från surface",
-          "lägg tills gochujang och vitlök",
-          "lägg tills potatoes och vegetables",
-          "Simmer för 30 minuter",
+          "lägg till gochujang och vitlök",
+          "lägg till potatis och vegetables",
+          "Sjud för 30 minuter",
           "krydda med sojasås",
-          "lägg tills sesame leaves",
+          "lägg till sesame leaves",
           "servera het med ris"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "korean",
           "soup",
-          "fläskkött-bones"
+          "fläskkött-ben"
         ],
         "prep_time": "90 min",
         "cook_time": "90 min",
@@ -2178,14 +2175,14 @@
           "Fermentation vessel"
         ],
         "instructions": [
-          "koka ris och cool",
+          "Koka ris och cool",
           "blanda med nuruk och vatten",
-          "lägg tills yeast och socker",
-          "Cover och ferment för 3 days",
-          "Strain genom cheesecloth",
+          "lägg till yeast och socker",
+          "Täck och ferment för 3 days",
+          "Sila genom cheesecloth",
           "Bottle och refrigerate",
-          "servera chilled",
-          "Shake innan portion"
+          "servera kyld",
+          "Shake innan servering"
         ],
         "servings": 4,
         "difficulty": "Svår",
@@ -2208,25 +2205,25 @@
           "ingredient.tofu",
           "ingredient.vegetables",
           "ingredient.garlic",
-          "ingredient.scallions"
+          "ingredient.salladslök"
         ],
         "ingredientsWithAmounts": [
           "3 msk doenjang",
           "1/2 block tofu",
-          "blandad vegetables",
-          "4 vitlök nejlikor",
-          "2 scallions",
+          "blandade vegetables",
+          "4 vitlöksklyftor",
+          "2 salladslök",
           "2 msk gochujang",
-          "1 msk sesame olja"
+          "1 msk sesamolja"
         ],
         "instructions": [
           "värme vatten i gryta",
-          "lägg tills doenjang och gochujang",
-          "rör tills dissolved",
-          "lägg tills vegetables och tofu",
-          "Simmer för 15 minuter",
-          "lägg tills vitlök och scallions",
-          "Drizzle med sesame olja",
+          "lägg till doenjang och gochujang",
+          "rör tills upplöst",
+          "lägg till vegetables och tofu",
+          "Sjud för 15 minuter",
+          "lägg till vitlök och salladslök",
+          "Ringla sesamolja över",
           "servera med ris"
         ],
         "servings": 4,
@@ -2258,26 +2255,26 @@
         ],
         "ingredientsWithAmounts": [
           "1 pund spaghetti",
-          "3 stor ägg",
+          "3 stora ägg",
           "1 kopp riven Parmesan ost",
           "pancetta",
           "1/2 tsk svart peppar",
-          "2 nejlikor vitlök, malen",
+          "2 vitlöksklyftor, malen",
           "2 msk olive olja"
         ],
         "instructions": [
-          "koka spaghetti according tills package directions",
+          "Koka spaghetti enligt förpackningens anvisningar",
           "Reserve 1 kopp pasta vatten innan draining",
-          "värme olja i a stor panna och koka pancetta tills crisp",
-          "lägg tills vitlök och koka för 30 sekunder",
-          "ta bort från värme och lägg tills het pasta",
+          "värme olja i en stora panna och Koka pancettan tills knaprig",
+          "lägg till vitlök och Koka för 30 sekunder",
+          "ta bort från värme och lägg till het pasta",
           "vispa ägg med ost och peppar",
-          "snabbt toss pasta med ägg mixture",
-          "lägg tills pasta vatten if needed för creaminess",
+          "snabbt Blanda pasta med ägg blandning",
+          "lägg till pasta vatten om det behövs för creaminess",
           "servera omedelbart med extra ost"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍝",
         "tags": [
           "italian",
@@ -2303,26 +2300,26 @@
         ],
         "ingredientsWithAmounts": [
           "pizza deg",
-          "tomat sås",
-          "8 uns färsk mozzarella, skivad",
-          "2 msk färsk basilika",
+          "tomatsås",
+          "8 uns färska mozzarella, skivade",
+          "2 msk färska basilika",
           "2 msk olive olja",
-          "2 nejlikor vitlök, malen",
+          "2 vitlöksklyftor, malen",
           "1 tsk oregano"
         ],
         "instructions": [
-          "Preheat oven tills 500°F (260°C)",
-          "rulla out deg på floured surface",
-          "Place på oiled bakning sheet or pizza stone",
-          "Spread tomat sås evenly över deg",
-          "Arrange mozzarella slices på topp",
-          "Sprinkle med vitlök och oregano",
-          "Drizzle med olive olja",
-          "Bake för 10-12 minuter tills crust är guld",
-          "garnera med färsk basilika innan portion"
+          "Förvärm ugnen till 500°F (260°C)",
+          "kavla ut degen på mjölad yta",
+          "Placera på en oljad bakplåt eller pizzasten",
+          "Bred tomatsås jämnt över deg",
+          "Placera mozzarella skivor ovanpå",
+          "Strö över vitlök och oregano",
+          "Ringla över olive olja",
+          "Baka i 10-12 minuter tills skorpan är gyllene",
+          "garnera med färska basilika innan servering"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍅",
         "tags": [
           "italian"
@@ -2351,17 +2348,17 @@
           "salt"
         ],
         "instructions": [
-          "koka pasta al dente",
-          "koka pancetta tills knaprig",
+          "Koka pasta al dente",
+          "Koka pancetta tills knaprig",
           "vispa ägg med parmesan",
-          "Toss het pasta med pancetta",
-          "lägg tills ägg mixture off värme",
-          "Toss snabbt tills coat",
-          "lägg tills svart peppar",
+          "Blanda het pasta med pancetta",
+          "lägg till ägg blandning off värme",
+          "Blanda snabbt tills coat",
+          "lägg till svart peppar",
           "servera omedelbart"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥚",
         "tags": [],
         "prep_time": "25 min",
@@ -2381,20 +2378,20 @@
         ],
         "ingredientsWithAmounts": [
           "4 veal shanks",
-          "blandad vegetables",
+          "blandade vegetables",
           "1 kopp vit vin",
           "2 ingredient.koppar_tomatoes",
-          "färsk kryddor",
+          "färska kryddor",
           "mjöl",
           "fond"
         ],
         "instructions": [
-          "Dredge shanks i mjöl",
-          "brun på alla sides",
-          "lägg tills vegetables",
-          "lägg tills vin och tomatoes",
-          "lägg tills kryddor och fond",
-          "Simmer för 2 timmar",
+          "Vänd shanks i mjöl",
+          "brun på alla sidor",
+          "lägg till vegetables",
+          "lägg till vin och tomatoes",
+          "lägg till kryddor och fond",
+          "Sjud i 2 timmar",
           "servera med risotto",
           "garnera med gremolata"
         ],
@@ -2428,16 +2425,16 @@
         ],
         "instructions": [
           "Sauté lök tills mjuk",
-          "lägg tills ris och rör",
-          "lägg tills vin och koka",
-          "lägg tills het fond gradvis",
+          "lägg till ris och rör",
+          "lägg till vin och Koka",
+          "lägg till het fond gradvis",
           "rör ständigt",
-          "koka tills krämig",
-          "lägg tills parmesan och smör",
+          "Koka tills krämig",
+          "lägg till parmesan och smör",
           "servera omedelbart"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍚",
         "tags": [],
         "prep_time": "35 min",
@@ -2457,25 +2454,25 @@
         ],
         "ingredientsWithAmounts": [
           "12 lasagne nudlar",
-          "1 pund malen nötkött",
+          "1 pund malet nötkött",
           "2 koppar ricotta",
           "3 koppar mozzarella",
-          "4 koppar tomat sås",
+          "4 koppar tomatsås",
           "Parmesan",
           "ägg"
         ],
         "instructions": [
-          "koka nudlar",
+          "Koka nudlar",
           "brun nötkött",
           "blanda ricotta med ägg",
-          "Layer nudlar, sås, ost",
+          "Lägg i lager nudlar, sås, ost",
           "Repeat layers",
           "topp med mozzarella",
-          "Bake på 375°F (190°C) för 45 minuter",
-          "Let rest innan portion"
+          "Baka på 375°F (190°C) för 45 minuter",
+          "Låt vila innan servering"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍜",
         "tags": [],
         "prep_time": "90 min",
@@ -2487,33 +2484,33 @@
         "name": "dish.gnocchi",
         "description": "description.description_gnocchi",
         "ingredients": [
-          "ingredient.potatoes",
+          "ingredient.potatis",
           "ingredient.flour",
           "ingredient.eggs",
           "ingredient.tomatosauce",
           "ingredient.basil"
         ],
         "ingredientsWithAmounts": [
-          "2 pund potatoes",
+          "2 pund potatis",
           "2 koppar mjöl",
           "2 ägg",
-          "3 koppar tomat sås",
-          "färsk basilika",
+          "3 koppar tomatsås",
+          "färska basilika",
           "salt",
           "Parmesan"
         ],
         "instructions": [
-          "Boil potatoes tills mör",
-          "ris potatoes",
-          "lägg tills mjöl och ägg",
+          "Koka potatis tills mör",
+          "ris potatis",
+          "lägg till mjöl och ägg",
           "kna till deg",
           "rulla till ropes",
           "skär till bitar",
-          "Boil tills float",
+          "Koka tills float",
           "servera med sås"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥔",
         "tags": [],
         "prep_time": "60 min",
@@ -2534,21 +2531,21 @@
         "ingredientsWithAmounts": [
           "1 loaf bröd",
           "4 ingredient.tomato",
-          "färsk basilika",
-          "4 vitlök nejlikor",
+          "färska basilika",
+          "4 vitlöksklyftor",
           "1/4 kopp olive olja",
           "Balsamic vinäger",
           "salt"
         ],
         "instructions": [
-          "Slice bröd thickly",
-          "Toast tills guld",
+          "skiva bröd thickly",
+          "Rosta tills gyllene",
           "Rub med vitlök",
-          "Dice tomatoes",
-          "lägg tills basilika och olja",
+          "Tärna tomaterna",
+          "lägg till basilika och olja",
           "krydda med salt",
-          "topp bröd med mixture",
-          "Drizzle med balsamic"
+          "topp bröd med blandning",
+          "Ringla över balsamic"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -2574,17 +2571,17 @@
           "1/2 kopp smör",
           "1 kopp parmesan",
           "1 kopp grädde",
-          "4 vitlök nejlikor",
+          "4 vitlöksklyftor",
           "svart peppar",
           "salt"
         ],
         "instructions": [
-          "koka pasta al dente",
+          "Koka pasta al dente",
           "Melt smör i panna",
-          "lägg tills vitlök",
-          "lägg tills grädde",
-          "lägg tills parmesan",
-          "Toss med pasta",
+          "lägg till vitlök",
+          "lägg till grädde",
+          "lägg till parmesan",
+          "Blanda med pasta",
           "krydda med peppar",
           "servera omedelbart"
         ],
@@ -2602,32 +2599,32 @@
         "description": "description.description_kyckling_parmigiana",
         "ingredients": [
           "ingredient.chicken",
-          "ingredient.breadcrumbs",
+          "ingredient.ströbröd",
           "ingredient.eggs",
           "ingredient.tomatosauce",
           "ingredient.mozzarella"
         ],
         "ingredientsWithAmounts": [
-          "4 kyckling breasts",
-          "2 koppar breadcrumbs",
+          "4 kycklingbrösts",
+          "2 koppar ströbröd",
           "3 ägg",
-          "3 koppar tomat sås",
+          "3 koppar tomatsås",
           "2 koppar mozzarella",
           "Parmesan",
           "mjöl"
         ],
         "instructions": [
-          "pund kyckling tunn",
-          "Dredge i mjöl, ägg, breadcrumbs",
-          "Fry tills guld",
-          "Place i bakning rätt",
+          "pund kyckling tunna",
+          "Vänd i mjöl, ägg, ströbröd",
+          "Fritera tills gyllene",
+          "Placera i bakform",
           "topp med sås",
-          "lägg tills mozzarella",
-          "Bake på 375°F (190°C) för 20 minuter",
+          "lägg till mozzarella",
+          "Baka på 375°F (190°C) för 20 minuter",
           "servera med pasta"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [],
         "prep_time": "45 min",
@@ -2646,21 +2643,21 @@
           "ingredient.herbs"
         ],
         "ingredientsWithAmounts": [
-          "blandad vegetables",
+          "blandade vegetables",
           "1 kopp pasta",
           "1 kan bönor",
           "2 ingredient.koppar_tomatoes",
-          "färsk kryddor",
+          "färska kryddor",
           "fond",
           "Parmesan"
         ],
         "instructions": [
           "Sauté vegetables",
-          "lägg tills tomatoes",
-          "lägg tills fond och kryddor",
-          "Simmer för 30 minuter",
-          "lägg tills pasta och bönor",
-          "koka tills pasta klar",
+          "lägg till tomatoes",
+          "lägg till fond och kryddor",
+          "Sjud för 30 minuter",
+          "lägg till pasta och bönor",
+          "Koka tills pasta klar",
           "krydda med salt",
           "servera med parmesan"
         ],
@@ -2684,26 +2681,26 @@
           "ingredient.butter"
         ],
         "ingredientsWithAmounts": [
-          "8 veal cutlets",
-          "8 slices prosciutto",
-          "färsk salvia",
+          "8 veal kotletter",
+          "8 skivor prosciutto",
+          "färska salvia",
           "1/2 kopp vit vin",
           "4 msk smör",
           "mjöl",
           "salt"
         ],
         "instructions": [
-          "pund veal tunn",
+          "pund veal tunna",
           "topp med prosciutto och salvia",
           "Secure med toothpicks",
-          "Dredge i mjöl",
-          "koka i smör",
-          "lägg tills vin",
-          "Simmer briefly",
+          "Vänd i mjöl",
+          "Koka i smör",
+          "lägg till vin",
+          "Sjud briefly",
           "ta bort toothpicks och servera"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍽️",
         "tags": [],
         "prep_time": "25 min",
@@ -2726,19 +2723,19 @@
           "4 ingredient.tomato",
           "1 gurka",
           "1 röd lök",
-          "färsk basilika",
+          "färska basilika",
           "Olive olja",
           "Balsamic vinäger"
         ],
         "instructions": [
-          "skär bröd till cubes",
-          "Toast tills guld",
-          "Dice tomatoes och gurka",
-          "Slice lök thinly",
-          "Combine vegetables",
-          "lägg tills bröd cubes",
+          "skär bröd till tärningar",
+          "Rosta tills gyllene",
+          "Tärna tomaterna och gurkan",
+          "skiva lök tunt",
+          "Blanda grönsakerna",
+          "lägg till bröd tärningar",
           "Dress med olja och vinäger",
-          "lägg tills basilika och servera"
+          "lägg till basilika och servera"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -2755,31 +2752,31 @@
         "ingredients": [
           "ingredient.rice",
           "ingredient.mozzarella",
-          "ingredient.breadcrumbs",
+          "ingredient.ströbröd",
           "ingredient.eggs",
           "ingredient.tomatosauce"
         ],
         "ingredientsWithAmounts": [
-          "3 koppar kokt ris",
+          "3 koppar kokta ris",
           "1 kopp mozzarella",
-          "2 koppar breadcrumbs",
+          "2 koppar ströbröd",
           "3 ägg",
-          "1 kopp tomat sås",
+          "1 kopp tomatsås",
           "Parmesan",
           "olja för stekning"
         ],
         "instructions": [
           "blanda ris med parmesan",
-          "Form till balls",
-          "lägg tills mozzarella centrum",
-          "Dredge i mjöl, ägg, breadcrumbs",
-          "Fry tills guld",
-          "häll av på paper towels",
-          "servera med tomat sås",
+          "Forma till kulor",
+          "lägg till mozzarella mitten",
+          "Vänd i mjöl, ägg, ströbröd",
+          "Fritera tills gyllene",
+          "häll av på hushållspapper",
+          "servera med tomatsås",
           "garnera med kryddor"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍚",
         "tags": [],
         "prep_time": "45 min",
@@ -2791,33 +2788,33 @@
         "name": "dish.cioppino",
         "description": "description.description_cioppino",
         "ingredients": [
-          "ingredient.seafood",
+          "ingredient.skaldjur",
           "ingredient.tomatoes",
           "ingredient.whitewine",
           "ingredient.fennel",
           "ingredient.garlic"
         ],
         "ingredientsWithAmounts": [
-          "blandad seafood",
+          "blandadee skaldjur",
           "2 ingredient.koppar_tomatoes",
           "1 kopp vit vin",
           "1 fänkål bulb",
-          "6 vitlök nejlikor",
+          "6 vitlöksklyftor",
           "fond",
           "kryddor"
         ],
         "instructions": [
           "Sauté fänkål och vitlök",
-          "lägg tills tomatoes och vin",
-          "lägg tills fond och kryddor",
-          "Simmer för 20 minuter",
-          "lägg tills seafood",
-          "koka tills klar",
+          "lägg till tomatoes och vin",
+          "lägg till fond och kryddor",
+          "Sjud för 20 minuter",
+          "lägg till skaldjur",
+          "Koka tills klar",
           "krydda med salt",
           "servera med bröd"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍅",
         "tags": [],
         "prep_time": "45 min",
@@ -2833,14 +2830,14 @@
         "ingredients": [
           "ingredient.chicken",
           "ingredient.redwine",
-          "ingredient.mushrooms",
+          "ingredient.svampar",
           "ingredient.bacon",
           "ingredient.onion"
         ],
         "ingredientsWithAmounts": [
           "1 hel kyckling, skär upp",
           "2 koppar röd vin",
-          "1 pund mushrooms",
+          "1 pund svampar",
           "4 uns bacon",
           "2 onions",
           "Carrots",
@@ -2849,16 +2846,16 @@
         ],
         "instructions": [
           "krydda kyckling med salt och peppar",
-          "koka bacon tills knaprig, ta bort",
+          "Koka bacon tills knaprig, ta bort",
           "brun kyckling i bacon fat",
-          "lägg tills onions, carrots, och vitlök",
-          "lägg tills vin och bring tills boil",
-          "lägg tills mushrooms och kryddor",
-          "Simmer för 45 minuter",
-          "servera med crusty bröd"
+          "lägg till onions, carrots, och vitlök",
+          "lägg till vin och Koka upp tills Koka",
+          "lägg till svampar och kryddor",
+          "Sjud för 45 minuter",
+          "servera med krustat bröd"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
           "french",
@@ -2876,29 +2873,29 @@
         "ingredients": [
           "ingredient.beef",
           "ingredient.redwine",
-          "ingredient.mushrooms",
+          "ingredient.svampar",
           "ingredient.onions",
           "ingredient.bacon"
         ],
         "ingredientsWithAmounts": [
-          "3 pund nötkött chuck",
+          "3 pund nötkött högrev",
           "2 bottles röd vin",
-          "1 pund mushrooms",
-          "12 pearl onions",
+          "1 pund svampar",
+          "12 päronl onions",
           "6 uns bacon",
           "Carrots",
           "timjan",
           "lagerblad"
         ],
         "instructions": [
-          "skär nötkött till stor chunks",
-          "marinera i vin overnight",
-          "koka bacon tills knaprig",
+          "skär nötkött till stora bitar",
+          "marinera i vin över natten",
+          "Koka bacon tills knaprig",
           "brun nötkött i bacon fat",
-          "lägg tills vin och bring tills boil",
-          "lägg tills vegetables och kryddor",
-          "Simmer för 2 timmar",
-          "servera med mashed potatoes"
+          "lägg till vin och Koka upp tills Koka",
+          "lägg till vegetables och kryddor",
+          "Sjud i 2 timmar",
+          "servera med mosad potatis"
         ],
         "servings": 4,
         "difficulty": "Svår",
@@ -2927,24 +2924,24 @@
           "2 ingredient.eggplant",
           "3 ingredient.zucchini",
           "4 ingredient.tomato",
-          "2 paprika paprikor",
+          "2 paprikor",
           "2 onions",
           "vitlök",
           "kryddor de Provence",
           "Olive olja"
         ],
         "instructions": [
-          "Slice alla vegetables thinly",
+          "skiva alla vegetables tunt",
           "Sauté onions och vitlök",
-          "lägg tills paprika paprikor och koka",
-          "lägg tills tomatoes och kryddor",
-          "Layer vegetables i bakning rätt",
-          "Drizzle med olive olja",
-          "Bake på 375°F (190°C) för 45 minuter",
-          "servera varm or kall"
+          "lägg till paprikor och Koka",
+          "lägg till tomatoes och kryddor",
+          "Lägg i lager vegetables i bakform",
+          "Ringla över olive olja",
+          "Baka på 375°F (190°C) för 45 minuter",
+          "servera varm eller kall"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍆",
         "tags": [
           "french",
@@ -2967,7 +2964,7 @@
           "ingredient.cheese"
         ],
         "ingredientsWithAmounts": [
-          "1 paj crust",
+          "1 pajdeg",
           "8 uns bacon",
           "4 ägg",
           "1 kopp tung grädde",
@@ -2976,17 +2973,17 @@
           "salt och peppar"
         ],
         "instructions": [
-          "Preheat oven tills 375°F (190°C)",
-          "koka bacon tills knaprig",
+          "Förvärm ugnen till 375°F (190°C)",
+          "Koka bacon tills knaprig",
           "vispa ägg med grädde",
-          "lägg tills ost och seasonings",
-          "Place bacon i paj crust",
-          "häll ägg mixture över",
-          "Bake för 35 minuter",
-          "Let cool innan portion"
+          "lägg till ost och seasonings",
+          "Placera bacon i pajdeg",
+          "häll ägg blandning över",
+          "Baka i 35 minuter",
+          "Låt svalna innan servering"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥚",
         "tags": [
           "french",
@@ -3003,14 +3000,14 @@
         "description": "description.description_bouillabaisse",
         "ingredients": [
           "ingredient.fish",
-          "ingredient.shellfish",
+          "ingredient.skaldjur",
           "ingredient.saffron",
           "ingredient.fennel",
           "ingredient.tomatoes"
         ],
         "ingredientsWithAmounts": [
-          "2 pund blandad fisk",
-          "1 pund shellfish",
+          "2 pund blandade fisk",
+          "1 pund skaldjur",
           "Pinch av saffron",
           "1 fänkål bulb",
           "4 ingredient.tomato",
@@ -3019,12 +3016,12 @@
           "Rouille"
         ],
         "instructions": [
-          "göra fisk fond med bones",
+          "gör fisk fond med ben",
           "Sauté fänkål och onions",
-          "lägg tills tomatoes och saffron",
-          "lägg tills fisk fond och bring tills boil",
-          "lägg tills fisk och shellfish",
-          "Simmer för 15 minuter",
+          "lägg till tomatoes och saffron",
+          "lägg till fisk fond och Koka upp tills Koka",
+          "lägg till fisk och skaldjur",
+          "Sjud för 15 minuter",
           "servera med rouille och bröd",
           "garnera med kryddor"
         ],
@@ -3033,7 +3030,7 @@
         "emoji": "🐟",
         "tags": [
           "french",
-          "seafood",
+          "skaldjur",
           "provençal"
         ],
         "prep_time": "90 min",
@@ -3052,22 +3049,22 @@
           "ingredient.butter"
         ],
         "ingredientsWithAmounts": [
-          "8 slices bröd",
-          "8 slices skinka",
+          "8 skivor bröd",
+          "8 skivor skinka",
           "2 koppar ost",
           "1 kopp béchamel sås",
           "4 msk smör",
           "Dijon mustard"
         ],
         "instructions": [
-          "Spread mustard på bröd",
-          "Layer skinka och ost",
-          "topp med second slice",
-          "Spread smör på utanför",
-          "koka i panna tills guld",
-          "Flip och koka other sida",
+          "Bred mustard på bröd",
+          "Lägg i lager skinka och ost",
+          "topp med second skiva",
+          "Bred smör på utsidan",
+          "Koka i panna tills gyllene",
+          "Vänd och Koka andra sidan",
           "servera het",
-          "Optional: lägg tills béchamel på topp"
+          "Optional: lägg till béchamel ovanpå"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -3094,7 +3091,7 @@
         ],
         "ingredientsWithAmounts": [
           "2 koppar vit bönor",
-          "4 anka legs",
+          "4 anka läggs",
           "1 pund korv",
           "2 ingredient.koppar_tomatoes",
           "kryddor",
@@ -3103,14 +3100,14 @@
           "Breadcrumbs"
         ],
         "instructions": [
-          "Soak bönor overnight",
-          "koka bönor tills mör",
-          "brun anka legs och korv",
+          "Soak bönor över natten",
+          "Koka bönor tills mör",
+          "brun anka läggs och korv",
           "Sauté onions och vitlök",
-          "Layer bönor, kött, och tomatoes",
-          "lägg tills kryddor och seasonings",
-          "Bake på 300°F (150°C) för 3 timmar",
-          "topp med breadcrumbs"
+          "Lägg i lager bönor, kött, och tomatoes",
+          "lägg till kryddor och seasonings",
+          "Baka på 300°F (150°C) i 3 timmar",
+          "topp med ströbröd"
         ],
         "servings": 4,
         "difficulty": "Svår",
@@ -3136,26 +3133,26 @@
           "ingredient.parsley"
         ],
         "ingredientsWithAmounts": [
-          "4 sole fillets",
+          "4 sole filéer",
           "8 msk smör",
           "1/2 kopp mjöl",
           "2 lemons",
-          "färsk persilja",
+          "färska persilja",
           "salt och peppar"
         ],
         "instructions": [
           "krydda fisk med salt och peppar",
-          "Dredge i mjöl",
+          "Vänd i mjöl",
           "värme smör i panna",
-          "koka fisk tills guld",
-          "Flip och koka other sida",
-          "ta bort fisk och keep varm",
+          "Koka fisk tills gyllene",
+          "Vänd och Koka andra sidan",
+          "ta bort fisken och håll den varm",
           "brun remaining smör",
-          "lägg tills citron juice och persilja",
+          "lägg till citron juice och persilja",
           "häll sås över fisk"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🌾",
         "tags": [
           "french",
@@ -3171,29 +3168,29 @@
         "name": "dish.confit_de_canard",
         "description": "description.description_confit_de_canard",
         "ingredients": [
-          "ingredient.ducklegs",
+          "ingredient.duckläggs",
           "ingredient.duckfat",
           "ingredient.garlic",
           "ingredient.thyme",
           "ingredient.salt"
         ],
         "ingredientsWithAmounts": [
-          "4 anka legs",
+          "4 anka läggs",
           "2 koppar anka fat",
-          "8 vitlök nejlikor",
-          "färsk timjan",
-          "Coarse salt",
+          "8 vitlöksklyftor",
+          "färska timjan",
+          "Grovt salt",
           "svart peppar"
         ],
         "instructions": [
-          "salt anka legs heavily",
+          "salt anka läggs heavily",
           "Refrigerate för 24 timmar",
           "skölj och pat torr",
           "Melt anka fat i oven",
-          "lägg tills anka legs och vitlök",
-          "koka på 200°F (95°C) för 3 timmar",
-          "Crisp skin i het panna",
-          "servera med potatoes"
+          "lägg till anka läggs och vitlök",
+          "Koka på 200°F (95°C) i 3 timmar",
+          "Knapersteka skinnet i het panna",
+          "servera med potatis"
         ],
         "servings": 4,
         "difficulty": "Svår",
@@ -3220,20 +3217,20 @@
         ],
         "ingredientsWithAmounts": [
           "2 cans tonfisk",
-          "4 Svår-kokt ägg",
+          "4 Hårdkokta ägg",
           "1/2 kopp oliver",
           "4 ingredient.tomato",
-          "1 pund grön bönor",
+          "1 pund gröna bönor",
           "ansjovis",
           "Vinaigrette"
         ],
         "instructions": [
-          "koka grön bönor tills mör",
-          "Svår boil ägg",
-          "Arrange sallad på plates",
-          "lägg tills tonfisk, ägg, och vegetables",
+          "Koka gröna bönor tills mör",
+          "Svår Koka ägg",
+          "Placera sallad på plates",
+          "lägg till tonfisk, ägg, och vegetables",
           "topp med oliver och ansjovis",
-          "Drizzle med vinaigrette",
+          "Ringla över vinaigrette",
           "servera omedelbart"
         ],
         "servings": 4,
@@ -3260,27 +3257,27 @@
           "ingredient.butter"
         ],
         "ingredientsWithAmounts": [
-          "6 stor onions",
+          "6 stora onions",
           "6 koppar nötkött buljong",
           "2 koppar ost",
-          "4 slices bröd",
+          "4 skivor bröd",
           "4 msk smör",
           "vit vin",
           "timjan"
         ],
         "instructions": [
-          "Slice onions thinly",
-          "koka långsamt i smör för 45 minuter",
-          "lägg tills vin och buljong",
-          "Simmer för 30 minuter",
+          "skiva onions tunt",
+          "Koka långsamt i smör för 45 minuter",
+          "lägg till vin och buljong",
+          "Sjud för 30 minuter",
           "krydda med salt och peppar",
-          "Toast bröd slices",
+          "Rosta bröd skivor",
           "Ladle soppa till bowls",
           "topp med bröd och ost",
           "Broil tills bubbly"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🧅",
         "tags": [
           "french",
@@ -3305,23 +3302,23 @@
         "ingredientsWithAmounts": [
           "24 snails",
           "1/2 kopp smör",
-          "6 vitlök nejlikor",
+          "6 vitlöksklyftor",
           "1/4 kopp persilja",
           "2 msk vit vin",
           "salt och peppar"
         ],
         "instructions": [
           "skölj snails thoroughly",
-          "göra vitlök ört smör",
+          "gör vitlök ört smör",
           "blanda smör med vitlök och persilja",
-          "lägg tills vin och seasonings",
-          "Place snails i shells",
-          "topp med smör mixture",
-          "Bake på 400°F (200°C) för 10 minuter",
+          "lägg till vin och seasonings",
+          "Placera snails i skal",
+          "topp med smör blandning",
+          "Baka på 400°F (200°C) för 10 minuter",
           "servera med bröd"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🧄",
         "tags": [
           "french",
@@ -3338,28 +3335,28 @@
         "description": "description.description_steak_frites",
         "ingredients": [
           "ingredient.steak",
-          "ingredient.potatoes",
+          "ingredient.potatis",
           "ingredient.butter",
           "ingredient.herbs",
           "ingredient.oil"
         ],
         "ingredientsWithAmounts": [
           "4 steaks",
-          "4 stor potatoes",
+          "4 stora potatis",
           "4 msk smör",
-          "färsk kryddor",
+          "färska kryddor",
           "olja för stekning",
           "salt och peppar"
         ],
         "instructions": [
-          "skär potatoes till fries",
+          "skär potatis till pommes frites",
           "Soak i kall vatten",
           "värme olja tills 350°F (175°C)",
-          "Fry potatoes tills guld",
+          "Fritera potatis tills gyllene",
           "krydda steaks med salt och peppar",
-          "koka steaks tills desired doneness",
-          "lägg tills smör och kryddor tills steaks",
-          "servera med fries"
+          "Koka steaks tills önskad stekgrad",
+          "lägg till smör och kryddor tills steaks",
+          "servera med pommes frites"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -3367,7 +3364,7 @@
         "tags": [
           "french",
           "steak",
-          "fries"
+          "pommes frites"
         ],
         "prep_time": "25 min",
         "cook_time": "25 min",
@@ -3380,27 +3377,27 @@
         "ingredients": [
           "ingredient.duck",
           "ingredient.oranges",
-          "ingredient.grandmarnier",
+          "ingredient.grochmarnier",
           "ingredient.stock",
           "ingredient.herbs"
         ],
         "ingredientsWithAmounts": [
           "1 hel anka",
           "4 oranges",
-          "1/4 kopp Grand Marnier",
+          "1/4 kopp Groch Marnier",
           "2 koppar anka fond",
-          "färsk kryddor",
+          "färska kryddor",
           "socker",
           "vinäger"
         ],
         "instructions": [
-          "krydda anka inuti och out",
+          "krydda anka inuti och utvändigt",
           "Roast på 425°F (220°C) för 30 minuter",
-          "Reduce värme tills 350°F (175°C)",
-          "Continue rostning för 1 hour",
-          "göra apelsin sås",
-          "lägg tills Grand Marnier och fond",
-          "Reduce tills thickened",
+          "Sänk värmen till 350°F (175°C)",
+          "Continue rostning i 1 timme",
+          "gör apelsin sås",
+          "lägg till Groch Marnier och fond",
+          "Reducera tills tjocknad",
           "Carve anka och servera med sås"
         ],
         "servings": 4,
@@ -3430,7 +3427,7 @@
           "4 lbs musslor",
           "1 kopp vit vin",
           "4 shallots",
-          "4 vitlök nejlikor",
+          "4 vitlöksklyftor",
           "1/2 kopp persilja",
           "smör",
           "Crusty bröd"
@@ -3438,11 +3435,11 @@
         "instructions": [
           "ren och debeard musslor",
           "Sauté shallots och vitlök",
-          "lägg tills vin och bring tills boil",
-          "lägg tills musslor och cover",
-          "koka tills shells öppen",
+          "lägg till vin och Koka upp tills Koka",
+          "lägg till musslor och cover",
+          "Koka tills skal öppen",
           "Discard unopened musslor",
-          "lägg tills smör och persilja",
+          "lägg till smör och persilja",
           "servera med bröd"
         ],
         "servings": 4,
@@ -3450,7 +3447,7 @@
         "emoji": "🦪",
         "tags": [
           "french",
-          "seafood",
+          "skaldjur",
           "musslor"
         ],
         "prep_time": "20 min",
@@ -3469,8 +3466,8 @@
           "ingredient.carrots"
         ],
         "ingredientsWithAmounts": [
-          "3 pund nötkött chuck",
-          "blandad vegetables",
+          "3 pund nötkött högrev",
+          "blandade vegetables",
           "Bouquet garni",
           "2 onions",
           "4 carrots",
@@ -3479,18 +3476,18 @@
           "salt"
         ],
         "instructions": [
-          "Place nötkött i stor gryta",
-          "lägg tills kall vatten och salt",
-          "Bring tills mild boil",
+          "Placera nötkött i stora gryta",
+          "lägg till kall vatten och salt",
+          "Koka upp tills mild Koka",
           "Skim foam från surface",
-          "lägg tills bouquet garni",
-          "Simmer för 2 timmar",
-          "lägg tills vegetables",
-          "Continue matlagning för 1 hour",
+          "lägg till bouquet garni",
+          "Sjud i 2 timmar",
+          "lägg till vegetables",
+          "Continue matlagning i 1 timme",
           "servera med mustard och pickles"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥩",
         "tags": [
           "french",
@@ -3515,25 +3512,25 @@
           "ingredient.garammasala"
         ],
         "ingredientsWithAmounts": [
-          "1 pund kyckling breast, tärnad",
+          "1 pund kycklingbröst, tärnade",
           "4 msk smör",
           "1 kopp tung grädde",
-          "2 koppar tomat puree",
+          "2 koppar tomatpuré",
           "2 tsk garam masala",
           "1 tsk gurkmeja",
-          "1 msk ingefära-vitlök paste"
+          "1 msk ingefära-vitlökspasta"
         ],
         "instructions": [
           "marinera kyckling med yoghurt och kryddor för 30 minuter",
-          "värme smör i a panna och koka kyckling tills guld",
-          "ta bort kyckling och set aside",
-          "i the samma panna, lägg tills tomat puree och koka för 10 minuter",
-          "lägg tills grädde, garam masala, och salt",
-          "Return kyckling tills panna och simmer för 15 minuter",
-          "garnera med koriander och servera med naan"
+          "värme smör i en panna och Koka kyckling tills gyllene",
+          "ta bort kyckling och lägg åt sidan",
+          "i samma panna, lägg till tomatpuré och Koka för 10 minuter",
+          "lägg till grädde, garam masala, och salt",
+          "Lägg tillbaka kyckling tills panna och Sjud för 15 minuter",
+          "garnera med koriocher och servera med naan"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
           "indian",
@@ -3556,29 +3553,29 @@
           "ingredient.spices"
         ],
         "ingredientsWithAmounts": [
-          "1.5 pund kyckling thighs, tärnad",
+          "1.5 pund kycklinglår, tärnade",
           "1 kopp yoghurt",
-          "2 koppar tomat sås",
+          "2 koppar tomatsås",
           "1 kopp grädde",
           "2 msk tikka masala krydda",
-          "1 msk ingefära-vitlök paste"
+          "1 msk ingefära-vitlökspasta"
         ],
         "instructions": [
-          "marinera kyckling i yoghurt och tikka kryddor för 2 timmar",
-          "Grill or broil kyckling tills charred",
-          "värme olja i panna, lägg tills onions och koka tills mjuk",
-          "lägg tills tomat sås och koka för 15 minuter",
-          "lägg tills grillad kyckling och grädde",
-          "Simmer för 10 minuter",
+          "marinera kyckling i yoghurt och tikka kryddor i 2 timmar",
+          "Grilla eller bryn kycklingen tills den får färg",
+          "värme olja i panna, lägg till onions och Koka tills mjuk",
+          "lägg till tomatsås och Koka för 15 minuter",
+          "lägg till Grillaad kyckling och grädde",
+          "Sjud för 10 minuter",
           "servera med basmati ris"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
           "indian",
           "curry",
-          "grillad"
+          "Grillaad"
         ],
         "prep_time": "60 min",
         "cook_time": "60 min",
@@ -3596,21 +3593,21 @@
           "ingredient.onion"
         ],
         "ingredientsWithAmounts": [
-          "1 pund spenat, blanched",
-          "8 uns paneer, tärnad",
+          "1 pund spenat, blancherade",
+          "8 uns paneer, tärnade",
           "1/2 kopp grädde",
-          "1 lök, tärnad",
+          "1 lök, tärnade",
           "2 tsk spiskummin seeds",
-          "1 msk ingefära-vitlök paste"
+          "1 msk ingefära-vitlökspasta"
         ],
         "instructions": [
           "Blanch spenat och blend till slät puree",
-          "värme olja, lägg tills spiskummin seeds",
-          "lägg tills onions och koka tills guld",
-          "lägg tills ingefära-vitlök paste och kryddor",
-          "häll spenat puree och koka för 10 minuter",
-          "lägg tills paneer cubes och grädde",
-          "Simmer för 5 minuter och servera"
+          "värme olja, lägg till spiskummin seeds",
+          "lägg till onions och Koka tills gyllene",
+          "lägg till ingefära-vitlökspasta och kryddor",
+          "häll spenat puree och Koka för 10 minuter",
+          "lägg till paneer tärningar och grädde",
+          "Sjud för 5 minuter och servera"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -3637,20 +3634,20 @@
         ],
         "ingredientsWithAmounts": [
           "2 koppar basmati ris",
-          "1 pund kyckling, tärnad",
+          "1 pund kyckling, tärnade",
           "1 kopp yoghurt",
           "Pinch av saffron",
           "2 msk biryani masala",
           "4 msk ghee",
-          "2 onions, skivad"
+          "2 onions, skivade"
         ],
         "instructions": [
-          "marinera kyckling i yoghurt och kryddor för 1 hour",
-          "koka ris 70% klar och set aside",
-          "Fry onions tills guld och knaprig",
-          "Layer marinerad kyckling, ris, stekt onions, och saffron mjölk",
-          "Cover tightly och koka på låg värme för 30 minuter",
-          "Let it rest för 10 minuter",
+          "marinera kyckling i yoghurt och kryddor i 1 timme",
+          "Koka ris 70% klar och lägg åt sidan",
+          "Fritera onions tills gyllene och knaprig",
+          "Lägg i lager marinerad kyckling, ris, stekt onions, och saffron mjölk",
+          "Täck tätt och Koka på låg värme för 30 minuter",
+          "Låt det vila i 10 minuter",
           "servera med raita"
         ],
         "servings": 4,
@@ -3670,14 +3667,14 @@
         "name": "dish.samosas",
         "description": "description.description_samosas",
         "ingredients": [
-          "ingredient.potatoes",
+          "ingredient.potatis",
           "ingredient.peas",
           "ingredient.flour",
           "ingredient.spices",
           "ingredient.oil"
         ],
         "ingredientsWithAmounts": [
-          "4 stor potatoes, kokt och mashed",
+          "4 stora potatis, kokta och mosade",
           "1 kopp grön ärtor",
           "2 koppar mjöl",
           "1 tsk spiskummin seeds",
@@ -3685,16 +3682,16 @@
           "olja för stekning"
         ],
         "instructions": [
-          "göra deg med mjöl, olja, och vatten, rest för 30 minuter",
-          "koka spiskummin seeds, lägg tills mashed potatoes, ärtor, och kryddor",
-          "rulla deg till tunn circles, skär i half",
-          "Form cone shape, fill med potatis mixture",
-          "Seal edges med vatten",
-          "djup fry tills guld brun",
+          "gör deg med mjöl, olja, och vatten, rest för 30 minuter",
+          "Koka spiskummin seeds, lägg till mosad potatis, ärtor, och kryddor",
+          "rulla deg till tunna cirklar, skär i half",
+          "Forma cone shape, fill med potatis blandning",
+          "förslut kanter med vatten",
+          "djup Fritera tills gyllenbrun",
           "servera het med chutney"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥔",
         "tags": [
           "indian",
@@ -3707,38 +3704,38 @@
       },
       {
         "id": 106,
-        "name": "dish.tandoori_kyckling",
-        "description": "description.description_tandoori_kyckling",
+        "name": "dish.tochoori_kyckling",
+        "description": "description.description_tochoori_kyckling",
         "ingredients": [
           "ingredient.chicken",
           "ingredient.yogurt",
-          "ingredient.tandoorimasala",
+          "ingredient.tochoorimasala",
           "ingredient.lemon",
           "ingredient.ginger"
         ],
         "ingredientsWithAmounts": [
           "1 hel kyckling, skär till bitar",
           "1 kopp yoghurt",
-          "3 msk tandoori masala",
+          "3 msk tochoori masala",
           "2 msk citron juice",
-          "2 msk ingefära-vitlök paste"
+          "2 msk ingefära-vitlökspasta"
         ],
         "instructions": [
-          "göra djup cuts i kyckling bitar",
-          "blanda yoghurt, tandoori masala, citron juice, och ingefära-vitlök paste",
-          "marinera kyckling för på least 2 timmar or overnight",
-          "Preheat oven tills 450°F (230°C)",
-          "Place kyckling på a wire rack",
-          "Roast för 30-40 minuter, turning once",
-          "Char under broiler för 2-3 minuter",
+          "gör djup cuts i kyckling bitar",
+          "blanda yoghurt, tochoori masala, citron juice, och ingefära-vitlökspasta",
+          "marinera kyckling i minst 2 timmar eller över natten",
+          "Förvärm ugnen till 450°F (230°C)",
+          "Placera kyckling på en galler",
+          "Rosta i 30-40 minuter, vänd en gång",
+          "Bryn under grillen i 2-3 minuter",
           "servera med mynta chutney"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
           "indian",
-          "grillad",
+          "Grillaad",
           "kyckling"
         ],
         "prep_time": "120 min",
@@ -3760,18 +3757,18 @@
           "1 kopp svart lentils",
           "4 msk smör",
           "1/2 kopp grädde",
-          "1 kopp tomat puree",
+          "1 kopp tomatpuré",
           "1 tsk garam masala",
-          "1 msk ingefära-vitlök paste"
+          "1 msk ingefära-vitlökspasta"
         ],
         "instructions": [
-          "Soak lentils overnight, pressure koka tills mjuk",
-          "värme smör i panna, lägg tills ingefära-vitlök paste",
-          "lägg tills tomat puree och koka för 10 minuter",
-          "lägg tills kokt lentils och simmer för 20 minuter",
+          "Soak lentils över natten, pressure Koka tills mjuk",
+          "värme smör i panna, lägg till ingefära-vitlökspasta",
+          "lägg till tomatpuré och Koka för 10 minuter",
+          "lägg till kokta lentils och Sjud för 20 minuter",
           "rör i grädde och garam masala",
-          "Simmer för another 10 minuter",
-          "servera med naan or ris"
+          "Sjud i ytterligare 10 minuter",
+          "servera med naan eller ris"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -3797,24 +3794,24 @@
           "ingredient.ginger"
         ],
         "ingredientsWithAmounts": [
-          "2 pund lammkött, tärnad",
+          "2 pund lammkött, tärnade",
           "1 kopp yoghurt",
           "2 msk Kashmiri chilipulver",
           "1 tsk fänkål powder",
-          "2 msk ingefära-vitlök paste",
+          "2 msk ingefära-vitlökspasta",
           "4 msk olja"
         ],
         "instructions": [
           "värme olja och brun lammkött bitar",
-          "ta bort lammkött och set aside",
-          "lägg tills hel kryddor och fry tills doftande",
-          "lägg tills ingefära-vitlök paste och koka för 2 minuter",
-          "lägg tills yoghurt gradvis, stirring ständigt",
-          "Return lammkött, lägg tills vatten, och simmer för 45 minuter",
-          "garnera med koriander och servera"
+          "ta bort lammkött och lägg åt sidan",
+          "lägg till hel kryddor och Fritera tills doftande",
+          "lägg till ingefära-vitlökspasta och Koka för 2 minuter",
+          "lägg till yoghurt gradvis, rör hela tiden",
+          "Lägg tillbaka lammkött, lägg till vatten, och Sjud för 45 minuter",
+          "garnera med koriocher och servera"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐑",
         "tags": [
           "indian",
@@ -3837,21 +3834,21 @@
           "ingredient.cilantro"
         ],
         "ingredientsWithAmounts": [
-          "2 koppar chickpeas, kokt",
-          "2 ingredient.stor_tomatoes_pureed",
-          "1 stor lök, tärnad",
+          "2 koppar chickpeas, kokta",
+          "2 ingredient.stora_tomatoes_pureed",
+          "1 stora lök, tärnade",
           "2 tsk chana masala",
           "1 tsk spiskummin seeds",
-          "färsk koriander"
+          "färska koriocher"
         ],
         "instructions": [
-          "värme olja, lägg tills spiskummin seeds",
-          "lägg tills onions och koka tills guld",
-          "lägg tills tomat puree och koka för 10 minuter",
-          "lägg tills chana masala och other kryddor",
-          "lägg tills chickpeas och simmer för 15 minuter",
-          "garnera med koriander",
-          "servera med bhatura or ris"
+          "värme olja, lägg till spiskummin seeds",
+          "lägg till onions och Koka tills gyllene",
+          "lägg till tomatpuré och Koka för 10 minuter",
+          "lägg till chana masala och andra kryddor",
+          "lägg till chickpeas och Sjud för 15 minuter",
+          "garnera med koriocher",
+          "servera med bhatura eller ris"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -3883,19 +3880,19 @@
           "2 tsk socker",
           "4 msk melted smör",
           "1 tsk salt",
-          "varm vatten as needed"
+          "varm vatten som needed"
         ],
         "instructions": [
-          "blanda yeast med varm vatten och socker, let foam",
-          "Combine mjöl, yoghurt, yeast mixture, och salt",
-          "kna till mjuk deg, let rise för 1 hour",
-          "Divide till balls, rulla till oval shapes",
-          "värme skillet or tandoor tills mycket het",
-          "koka naan tills bubbles form och base chars",
-          "Brush med smör och servera het"
+          "blanda jäst med varmt vatten och socker, låt jäsa",
+          "Blanda mjöl, yoghurt, yeast blandning, och salt",
+          "kna till mjuk deg, låt jäsa i 1 timme",
+          "Divide till kulor, rulla till oval former",
+          "värm stekpanna eller tawa tills den är mycket het",
+          "Koka naan tills bubbles Forma och base chars",
+          "Pensla med smör och servera het"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🌾",
         "tags": [
           "indian",
@@ -3911,28 +3908,28 @@
         "name": "dish.aloo_gobi",
         "description": "description.description_aloo_gobi",
         "ingredients": [
-          "ingredient.potatoes",
+          "ingredient.potatis",
           "ingredient.cauliflower",
           "ingredient.turmeric",
           "ingredient.cumin",
           "ingredient.tomatoes"
         ],
         "ingredientsWithAmounts": [
-          "3 stor potatoes, tärnad",
+          "3 stora potatis, tärnade",
           "1 liten blomkål, florets",
           "1 tsk gurkmeja",
           "1 tsk spiskummin seeds",
           "2 ingredient.tomatoes_hackad",
-          "färsk koriander"
+          "färska koriocher"
         ],
         "instructions": [
-          "värme olja, lägg tills spiskummin seeds",
-          "lägg tills potatoes och fry för 5 minuter",
-          "lägg tills blomkål och gurkmeja",
-          "Cover och koka för 15 minuter, stirring ibland",
-          "lägg tills tomatoes och kryddor",
-          "koka tills vegetables är mör",
-          "garnera med koriander"
+          "värme olja, lägg till spiskummin seeds",
+          "lägg till potatis och Fritera för 5 minuter",
+          "lägg till blomkål och gurkmeja",
+          "Täck och Koka för 15 minuter, under omrörning ibland",
+          "lägg till tomatoes och kryddor",
+          "Koka tills vegetables är mör",
+          "garnera med koriocher"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -3948,8 +3945,8 @@
       },
       {
         "id": 112,
-        "name": "dish.vindaloo",
-        "description": "description.description_vindaloo",
+        "name": "dish.vindalo",
+        "description": "description.description_vindalo",
         "ingredients": [
           "ingredient.pork",
           "ingredient.vinegar",
@@ -3958,24 +3955,24 @@
           "ingredient.spices"
         ],
         "ingredientsWithAmounts": [
-          "2 pund fläskkött, tärnad",
+          "2 pund fläskkött, tärnade",
           "1/4 kopp vinäger",
           "3 msk Kashmiri chilipulver",
-          "10 vitlök nejlikor",
+          "10 vitlöksklyftor",
           "2 tsk spiskummin seeds",
           "1 tsk mustard seeds"
         ],
         "instructions": [
-          "göra paste av vitlök, chilies, spiskummin, och vinäger",
+          "gör paste av vitlök, chilies, spiskummin, och vinäger",
           "marinera fläskkött i paste för 30 minuter",
-          "värme olja, lägg tills mustard seeds",
-          "lägg tills marinerad fläskkött och koka på hög värme",
-          "lägg tills vatten och simmer för 40 minuter",
+          "värme olja, lägg till mustard seeds",
+          "lägg till marinerad fläskkött och Koka på hög värme",
+          "lägg till vatten och Sjud för 40 minuter",
           "justera krydda med salt och socker",
-          "servera med ris or bröd"
+          "servera med ris eller bröd"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "indian",
@@ -3998,7 +3995,7 @@
           "ingredient.cardamom"
         ],
         "ingredientsWithAmounts": [
-          "1.5 pund kyckling, tärnad",
+          "1.5 pund kyckling, tärnade",
           "1 kopp yoghurt",
           "1/2 kopp cashews",
           "1/2 kopp grädde",
@@ -4007,16 +4004,16 @@
           "2 msk ghee"
         ],
         "instructions": [
-          "Grind cashews med vatten tills göra paste",
-          "värme ghee, lägg tills kardemumma och hel kryddor",
-          "lägg tills lök puree och koka tills guld",
-          "lägg tills kyckling och brun",
-          "lägg tills yoghurt och koka för 5 minuter",
-          "lägg tills cashew paste och grädde",
-          "Simmer tills kyckling är kokt, om 20 minuter"
+          "Grind cashews med vatten tills gör paste",
+          "värme ghee, lägg till kardemumma och hel kryddor",
+          "lägg till lökpuré och Koka tills gyllene",
+          "lägg till kyckling och brun",
+          "lägg till yoghurt och Koka för 5 minuter",
+          "lägg till cashew paste och grädde",
+          "Sjud tills kycklingen är genomkokta, cirka 20 minuter"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
           "indian",
@@ -4032,27 +4029,27 @@
         "name": "dish.pav_bhaji",
         "description": "description.description_pav_bhaji",
         "ingredients": [
-          "ingredient.potatoes",
+          "ingredient.potatis",
           "ingredient.mixedvegetables",
           "ingredient.pavbhajimasala",
           "ingredient.butter",
           "ingredient.breadrolls"
         ],
         "ingredientsWithAmounts": [
-          "4 potatoes, kokt",
-          "2 koppar blandad vegetables",
+          "4 potatis, kokta",
+          "2 koppar blandade vegetables",
           "3 msk pav bhaji masala",
           "6 msk smör",
           "8 pav (bröd rolls)",
           "2 onions, hackad"
         ],
         "instructions": [
-          "Boil och mash alla vegetables tillsammans",
-          "värme smör i panna, lägg tills onions",
-          "lägg tills pav bhaji masala och koka för 2 minuter",
-          "lägg tills mashed vegetables och blanda well",
-          "koka för 15 minuter, mosning och stirring",
-          "Toast pav med smör på griddle",
+          "Koka och mash alla vegetables tillsammans",
+          "värme smör i panna, lägg till onions",
+          "lägg till pav bhaji masala och Koka för 2 minuter",
+          "lägg till mashed vegetables och blanda well",
+          "Koka för 15 minuter, mosa och under omrörning",
+          "Rosta pav med smör på platt stekpanna",
           "servera bhaji med buttered pav"
         ],
         "servings": 4,
@@ -4073,30 +4070,30 @@
         "description": "description.description_masala_dosa",
         "ingredients": [
           "ingredient.dosabatter",
-          "ingredient.potatoes",
+          "ingredient.potatis",
           "ingredient.mustardseeds",
           "ingredient.curryleaves",
           "ingredient.turmeric"
         ],
         "ingredientsWithAmounts": [
           "2 koppar dosa batter",
-          "4 potatoes, kokt och mashed",
+          "4 potatis, kokta och mosade",
           "1 tsk mustard seeds",
           "10 curry blad",
           "1/2 tsk gurkmeja",
           "2 grön chilies"
         ],
         "instructions": [
-          "värme olja, lägg tills mustard seeds och curry leaves",
-          "lägg tills gurkmeja, chilies, och onions",
-          "lägg tills mashed potatoes och blanda well",
+          "värme olja, lägg till mustard seeds och curry leaves",
+          "lägg till gurkmeja, chilies, och onions",
+          "lägg till mosad potatis och blanda well",
           "värme dosa panna, häll batter i cirkulär motion",
-          "Drizzle olja runt edges",
-          "Place potatis fyllning i centrum",
+          "Ringla olja runt kanter",
+          "Placera potatis fyllning i mitten",
           "vik och servera med chutney och sambar"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥔",
         "tags": [
           "indian",
@@ -4121,7 +4118,7 @@
         "ingredientsWithAmounts": [
           "2 koppar idli batter",
           "1/2 kopp toor dal",
-          "1 kopp blandad vegetables",
+          "1 kopp blandade vegetables",
           "liten tamarind ball",
           "1 tsk mustard seeds",
           "curry blad"
@@ -4129,13 +4126,13 @@
         "instructions": [
           "Grease idli molds med olja",
           "häll idli batter till molds",
-          "Steam för 10-12 minuter",
-          "för sambar: koka dal och vegetables med tamarind",
+          "Ånga för 10-12 minuter",
+          "för sambar: Koka dal och vegetables med tamarind",
           "Temper med mustard seeds och curry leaves",
           "servera het idlis med sambar och coconut chutney"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍽️",
         "tags": [
           "indian",
@@ -4151,27 +4148,27 @@
         "name": "dish.malai_kofta",
         "description": "description.description_malai_kofta",
         "ingredients": [
-          "ingredient.potatoes",
+          "ingredient.potatis",
           "ingredient.paneer",
           "ingredient.cream",
           "ingredient.tomatoes",
           "ingredient.cashews"
         ],
         "ingredientsWithAmounts": [
-          "3 potatoes, kokt",
+          "3 potatis, kokta",
           "1 kopp paneer, riven",
           "1 kopp grädde",
-          "2 koppar tomat puree",
+          "2 koppar tomatpuré",
           "1/2 kopp cashews",
           "2 msk cornstarch"
         ],
         "instructions": [
-          "blanda mashed potatoes, paneer, och kryddor",
-          "Form till balls, djup fry tills guld",
+          "blanda mosad potatis, paneer, och kryddor",
+          "Forma till kulor, djup Fritera tills gyllene",
           "Grind cashews och tomatoes separately",
-          "koka tomat puree med cashew paste",
-          "lägg tills grädde och kryddor",
-          "lägg tills stekt koftas bara innan portion",
+          "Koka tomatpuré med cashew paste",
+          "lägg till grädde och kryddor",
+          "lägg till stekt koftas bara innan servering",
           "garnera med grädde och servera med naan"
         ],
         "servings": 4,
@@ -4206,16 +4203,16 @@
           "olja för stekning"
         ],
         "instructions": [
-          "Pressure koka chickpeas tills mjuk",
-          "göra deg med mjöl, yoghurt, och olja, rest 1 hour",
-          "koka tomatoes med chole masala",
-          "lägg tills chickpeas och simmer för 20 minuter",
-          "rulla deg till circles, djup fry tills puffed",
+          "Pressure Koka chickpeas tills mjuk",
+          "gör deg med mjöl, yoghurt, och olja, rest 1 timme",
+          "Koka tomatoes med chole masala",
+          "lägg till chickpeas och Sjud för 20 minuter",
+          "rulla deg till cirklar, djup Fritera tills puffed",
           "servera het bhature med chole",
           "garnera med onions och citron"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🌾",
         "tags": [
           "indian",
@@ -4241,18 +4238,18 @@
           "2 koppar yoghurt",
           "1 gurka, riven",
           "1 tsk rostad spiskummin powder",
-          "färsk mynta blad",
-          "färsk koriander",
+          "färska mynta blad",
+          "färska koriocher",
           "salt tills smak"
         ],
         "instructions": [
           "vispa yoghurt tills slät",
           "Grate gurka och squeeze out excess vatten",
           "blanda gurka med yoghurt",
-          "lägg tills rostad spiskummin powder och salt",
-          "Chop mynta och koriander finely",
+          "lägg till rostad spiskummin powder och salt",
+          "Hacka mynta och koriocher finely",
           "blanda allt tillsammans",
-          "Chill och servera med biryani or paratha"
+          "Kyl och servera med biryani eller paratha"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -4281,31 +4278,31 @@
         ],
         "ingredientsWithAmounts": [
           "8 uns ris nudlar",
-          "1 pund räkor, peeled",
+          "1 pund räkor, skalade",
           "1/2 kopp rostad jordnötter",
           "3 msk tamarind paste",
-          "3 msk fisk sås",
-          "2 msk palm socker",
+          "3 msk fisksås",
+          "2 msk palmsocker",
           "2 ägg",
           "Bean sprouts"
         ],
         "instructions": [
           "Soak ris nudlar i varm vatten för 30 minuter",
-          "värme olja i wok, lägg tills räkor och koka tills rosa",
-          "Push räkor tills sida, lägg tills beaten ägg och scramble",
-          "lägg tills nudlar och rör-fry för 2 minuter",
-          "lägg tills tamarind, fisk sås, och palm socker",
-          "Toss allt tillsammans",
-          "lägg tills bean sprouts och jordnötter",
+          "värme olja i wok, lägg till räkor och Koka tills rosa",
+          "Push räkor tills sida, lägg till vispade ägg och scramble",
+          "lägg till nudlar och woka för 2 minuter",
+          "lägg till tamarind, fisksås, och palmsocker",
+          "Blanda allt tillsammans",
+          "lägg till bean sprouts och jordnötter",
           "servera med lime wedges och chili flakes"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍚",
         "tags": [
           "thai",
           "nudlar",
-          "stir-fry"
+          "woka"
         ],
         "prep_time": "30 min",
         "cook_time": "30 min",
@@ -4323,26 +4320,26 @@
           "ingredient.eggplant"
         ],
         "ingredientsWithAmounts": [
-          "1.5 pund kyckling, tärnad",
+          "1.5 pund kyckling, tärnade",
           "2 koppar coconut mjölk",
           "3 msk grön curry paste",
           "1 kopp Thai basilika blad",
           "1 kopp Thai aubergine",
-          "2 msk fisk sås",
-          "1 msk palm socker"
+          "2 msk fisksås",
+          "1 msk palmsocker"
         ],
         "instructions": [
-          "värme half the coconut mjölk i a gryta",
-          "lägg tills grön curry paste och koka tills doftande",
-          "lägg tills kyckling och koka tills sealed",
-          "lägg tills remaining coconut mjölk och bring tills boil",
-          "lägg tills aubergine och simmer för 15 minuter",
-          "krydda med fisk sås och palm socker",
-          "lägg tills Thai basilika bara innan portion",
+          "värme half coconut mjölk i en gryta",
+          "lägg till grön curry paste och Koka tills doftande",
+          "lägg till kyckling och Koka tills försluted",
+          "lägg till resterande kokosmjölk och Koka upp tills Koka",
+          "lägg till aubergine och Sjud för 15 minuter",
+          "krydda med fisksås och palmsocker",
+          "lägg till Thai basilika bara innan servering",
           "servera med jasmine ris"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
           "thai",
@@ -4365,22 +4362,22 @@
           "ingredient.chili"
         ],
         "ingredientsWithAmounts": [
-          "1 pund räkor, peeled",
+          "1 pund räkor, skalade",
           "3 stjälkar lemongrass",
           "2 tum galangal",
           "6 kaffir lime blad",
           "3 Thai chilies",
-          "3 msk fisk sås",
+          "3 msk fisksås",
           "2 msk lime juice",
-          "Mushrooms"
+          "svampar"
         ],
         "instructions": [
-          "Bring vatten tills boil med lemongrass, galangal, och lime leaves",
-          "lägg tills mushrooms och simmer för 5 minuter",
-          "lägg tills räkor och koka tills rosa",
-          "krydda med fisk sås och lime juice",
-          "lägg tills chilies och ta bort från värme",
-          "garnera med koriander",
+          "Koka upp vatten tills Koka med lemongrass, galangal, och lime leaves",
+          "lägg till svampar och Sjud för 5 minuter",
+          "lägg till räkor och Koka tills rosa",
+          "krydda med fisksås och lime juice",
+          "lägg till chilies och ta bort från värme",
+          "garnera med koriocher",
           "servera het"
         ],
         "servings": 4,
@@ -4404,29 +4401,29 @@
           "ingredient.coconutmilk",
           "ingredient.massamanpaste",
           "ingredient.peanuts",
-          "ingredient.potatoes"
+          "ingredient.potatis"
         ],
         "ingredientsWithAmounts": [
-          "2 pund nötkött, tärnad",
+          "2 pund nötkött, tärnade",
           "2 koppar coconut mjölk",
           "4 msk massaman paste",
           "1/2 kopp rostad jordnötter",
-          "3 potatoes, tärnad",
-          "2 msk fisk sås",
-          "1 msk palm socker"
+          "3 potatis, tärnade",
+          "2 msk fisksås",
+          "1 msk palmsocker"
         ],
         "instructions": [
-          "värme coconut mjölk och lägg tills massaman paste",
-          "koka tills olja separates",
-          "lägg tills nötkött och brun på alla sides",
-          "lägg tills vatten och simmer för 30 minuter",
-          "lägg tills potatoes och jordnötter",
-          "Simmer tills nötkött är mör",
-          "krydda med fisk sås och palm socker",
+          "värme coconut mjölk och lägg till massaman paste",
+          "Koka tills olja separates",
+          "lägg till nötkött och brun på alla sidor",
+          "lägg till vatten och Sjud för 30 minuter",
+          "lägg till potatis och jordnötter",
+          "Sjud tills nötkött är mör",
+          "krydda med fisksås och palmsocker",
           "servera med jasmine ris"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥩",
         "tags": [
           "thai",
@@ -4450,21 +4447,21 @@
         ],
         "ingredientsWithAmounts": [
           "1 grön papaya, strimlad",
-          "2 ingredient.tomatoes_skivad",
+          "2 ingredient.tomatoes_skivade",
           "1/2 kopp rostad jordnötter",
           "2 limes, juiced",
-          "3 msk fisk sås",
-          "2 msk palm socker",
+          "3 msk fisksås",
+          "2 msk palmsocker",
           "3 Thai chilies",
-          "grön bönor"
+          "gröna bönor"
         ],
         "instructions": [
-          "pund chilies och vitlök i mortar",
-          "lägg tills fisk sås, lime juice, och palm socker",
+          "stöt chilies och vitlök i mortar",
+          "lägg till fisksås, lime juice, och palmsocker",
           "blanda tills socker dissolves",
-          "lägg tills grön bönor och pund lightly",
-          "lägg tills papaya och tomatoes",
-          "Toss allt tillsammans",
+          "lägg till gröna bönor och stöt lätt",
+          "lägg till papaya och tomatoes",
+          "Blanda allt tillsammans",
           "topp med jordnötter",
           "servera omedelbart"
         ],
@@ -4492,23 +4489,23 @@
           "ingredient.fishsauce"
         ],
         "ingredientsWithAmounts": [
-          "1 pund malen kyckling",
+          "1 pund malet kycklingkött",
           "2 koppar Thai basilika blad",
           "5 Thai chilies",
-          "6 vitlök nejlikor",
-          "3 msk fisk sås",
+          "6 vitlöksklyftor",
+          "3 msk fisksås",
           "1 msk sojasås",
-          "1 msk oyster sås",
+          "1 msk ostronsås",
           "4 ägg"
         ],
         "instructions": [
-          "värme olja i wok, lägg tills vitlök och chilies",
-          "lägg tills malen kyckling och koka tills klar",
-          "lägg tills fisk sås, sojasås, och oyster sås",
-          "lägg tills Thai basilika och rör tills wilted",
-          "Fry ägg sunny-sida upp",
+          "värme olja i wok, lägg till vitlök och chilies",
+          "lägg till malet kycklingkött och Koka tills klar",
+          "lägg till fisksås, sojasås, och ostronsås",
+          "lägg till Thai basilika och rör tills wilted",
+          "Fritera ägg sunny-sida upp",
           "servera kyckling över ris med stekt ägg",
-          "garnera med more basilika"
+          "garnera med mer basilika"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -4534,26 +4531,26 @@
           "ingredient.thaibasil"
         ],
         "ingredientsWithAmounts": [
-          "1.5 pund kyckling, tärnad",
+          "1.5 pund kyckling, tärnade",
           "2 koppar coconut mjölk",
           "3 msk röd curry paste",
-          "1 kopp bamboo shoots",
+          "1 kopp Bambuskott",
           "1 kopp Thai basilika",
-          "2 msk fisk sås",
-          "1 msk palm socker"
+          "2 msk fisksås",
+          "1 msk palmsocker"
         ],
         "instructions": [
-          "värme half coconut mjölk, lägg tills röd curry paste",
-          "koka tills doftande och olja separates",
-          "lägg tills kyckling och koka tills sealed",
-          "lägg tills remaining coconut mjölk",
-          "lägg tills bamboo shoots och simmer 15 minuter",
-          "krydda med fisk sås och palm socker",
-          "lägg tills Thai basilika innan portion",
+          "värme half coconut mjölk, lägg till röd curry paste",
+          "Koka tills doftande och olja separates",
+          "lägg till kyckling och Koka tills försluted",
+          "lägg till resterande kokosmjölk",
+          "lägg till Bambuskott och Sjud 15 minuter",
+          "krydda med fisksås och palmsocker",
+          "lägg till Thai basilika innan servering",
           "servera med jasmine ris"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
           "thai",
@@ -4576,26 +4573,26 @@
           "ingredient.lime"
         ],
         "ingredientsWithAmounts": [
-          "1.5 pund kyckling, tärnad",
+          "1.5 pund kyckling, tärnade",
           "2 koppar coconut mjölk",
           "3 msk curry paste",
-          "1 pund ägg nudlar",
+          "1 pund äggnudlar",
           "2 limes, juiced",
-          "2 msk fisk sås",
+          "2 msk fisksås",
           "inlagd mustard greens"
         ],
         "instructions": [
-          "värme coconut mjölk, lägg tills curry paste",
-          "koka tills olja separates",
-          "lägg tills kyckling och brun",
-          "lägg tills vatten och simmer 20 minuter",
-          "koka half the nudlar mjuk, half knaprig",
-          "krydda med fisk sås och lime juice",
+          "värme coconut mjölk, lägg till curry paste",
+          "Koka tills olja separates",
+          "lägg till kyckling och brun",
+          "lägg till vatten och Sjud 20 minuter",
+          "Koka half nudlar mjuk, half knaprig",
+          "krydda med fisksås och lime juice",
           "servera med båda nudlar",
           "topp med inlagd greens och shallots"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
           "thai",
@@ -4618,22 +4615,22 @@
           "ingredient.chili"
         ],
         "ingredientsWithAmounts": [
-          "1 pund malen fläskkött",
+          "1 pund malet fläskkött",
           "1/2 kopp mynta blad",
-          "1/2 kopp koriander",
+          "1/2 kopp koriocher",
           "2 limes, juiced",
           "3 Thai chilies",
-          "2 msk fisk sås",
+          "2 msk fisksås",
           "1 msk rostad ris powder"
         ],
         "instructions": [
-          "koka malen fläskkött tills klar",
+          "Koka malet fläskkött tills klar",
           "ta bort från värme och cool slightly",
-          "lägg tills fisk sås och lime juice",
-          "lägg tills hackad chilies och kryddor",
-          "Toss med rostad ris powder",
+          "lägg till fisksås och lime juice",
+          "lägg till hackad chilies och kryddor",
+          "Blanda med rostad ris powder",
           "servera med sallad leaves",
-          "garnera med more kryddor"
+          "garnera med mer kryddor"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -4659,20 +4656,20 @@
           "ingredient.lime"
         ],
         "ingredientsWithAmounts": [
-          "1.5 pund kyckling, tärnad",
+          "1.5 pund kyckling, tärnade",
           "1 kopp rostad jordnötter",
           "1/2 kopp coconut mjölk",
           "2 msk curry paste",
           "2 limes, juiced",
-          "2 msk fisk sås",
-          "Bamboo skewers"
+          "2 msk fisksås",
+          "Bambo skewers"
         ],
         "instructions": [
           "marinera kyckling i curry paste och coconut mjölk",
           "Thread kyckling onto skewers",
-          "Grill tills kokt genom",
+          "Grilla tills genomstekt",
           "för sås: blend jordnötter, coconut mjölk, curry paste",
-          "krydda med fisk sås och lime juice",
+          "krydda med fisksås och lime juice",
           "servera skewers med peanut sås",
           "garnera med gurka och lök"
         ],
@@ -4681,7 +4678,7 @@
         "emoji": "🐔",
         "tags": [
           "thai",
-          "grillad",
+          "Grillaad",
           "peanut"
         ],
         "prep_time": "30 min",
@@ -4700,26 +4697,26 @@
           "ingredient.thaibasil"
         ],
         "ingredientsWithAmounts": [
-          "1.5 pund kyckling, tärnad",
+          "1.5 pund kyckling, tärnade",
           "2 koppar coconut mjölk",
           "3 msk panang paste",
           "1/4 kopp jordnötter",
           "1 kopp Thai basilika",
-          "2 msk fisk sås",
-          "1 msk palm socker"
+          "2 msk fisksås",
+          "1 msk palmsocker"
         ],
         "instructions": [
-          "värme coconut mjölk, lägg tills panang paste",
-          "koka tills doftande",
-          "lägg tills kyckling och koka tills sealed",
-          "lägg tills remaining coconut mjölk",
-          "Simmer för 15 minuter",
-          "lägg tills jordnötter och basilika",
-          "krydda med fisk sås och palm socker",
+          "värme coconut mjölk, lägg till panang paste",
+          "Koka tills doftande",
+          "lägg till kyckling och Koka tills försluted",
+          "lägg till resterande kokosmjölk",
+          "Sjud för 15 minuter",
+          "lägg till jordnötter och basilika",
+          "krydda med fisksås och palmsocker",
           "servera med jasmine ris"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
           "thai",
@@ -4742,22 +4739,22 @@
           "ingredient.limeleaves"
         ],
         "ingredientsWithAmounts": [
-          "1 pund kyckling, tärnad",
+          "1 pund kyckling, tärnade",
           "2 koppar coconut mjölk",
           "2 tum galangal",
           "3 stjälkar lemongrass",
           "6 kaffir lime blad",
-          "3 msk fisk sås",
+          "3 msk fisksås",
           "2 msk lime juice",
-          "Mushrooms"
+          "svampar"
         ],
         "instructions": [
-          "Bring coconut mjölk tills boil med galangal, lemongrass, lime leaves",
-          "lägg tills kyckling och mushrooms",
-          "Simmer tills kyckling är kokt",
-          "krydda med fisk sås och lime juice",
-          "lägg tills chilies if desired",
-          "garnera med koriander",
+          "Koka upp coconut mjölk tills Koka med galangal, lemongrass, lime leaves",
+          "lägg till kyckling och svampar",
+          "Sjud tills kycklingen är genomkokta",
+          "krydda med fisksås och lime juice",
+          "lägg till chilies if desired",
+          "garnera med koriocher",
           "servera het"
         ],
         "servings": 4,
@@ -4784,20 +4781,20 @@
           "ingredient.oystersauce"
         ],
         "ingredientsWithAmounts": [
-          "1 pund bred ris nudlar",
-          "1 pund kyckling, skivad",
+          "1 pund breda risnudlar",
+          "1 pund kyckling, skivade",
           "2 koppar Chinese broccoli",
           "3 msk sojasås",
-          "2 msk oyster sås",
-          "2 msk fisk sås",
+          "2 msk ostronsås",
+          "2 msk fisksås",
           "2 ägg"
         ],
         "instructions": [
-          "värme olja i wok, lägg tills kyckling och koka",
-          "lägg tills Chinese broccoli och rör-fry",
-          "lägg tills nudlar och toss",
-          "lägg tills sojasås, oyster sås, fisk sås",
-          "Push allt tills sida, lägg tills beaten ägg",
+          "värme olja i wok, lägg till kyckling och Koka",
+          "lägg till Chinese broccoli och woka",
+          "lägg till nudlar och Blanda",
+          "lägg till sojasås, ostronsås, fisksås",
+          "Push allt tills sida, lägg till vispade ägg",
           "Scramble ägg och blanda med nudlar",
           "servera het"
         ],
@@ -4807,7 +4804,7 @@
         "tags": [
           "thai",
           "nudlar",
-          "stir-fry"
+          "woka"
         ],
         "prep_time": "20 min",
         "cook_time": "20 min",
@@ -4834,12 +4831,12 @@
         ],
         "instructions": [
           "Soak klibbig ris för 4 timmar",
-          "Steam ris för 20 minuter",
+          "Ånga ris för 20 minuter",
           "värme coconut mjölk med socker och salt",
-          "häll över het ris och let absorb",
-          "Slice mangoes",
-          "servera ris med mango slices",
-          "Sprinkle med sesame seeds"
+          "häll över het ris och låt absorbera",
+          "skiva mangoes",
+          "servera ris med mango skivor",
+          "Strö över sesame seeds"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -4866,9 +4863,9 @@
         ],
         "ingredientsWithAmounts": [
           "12 ris paper sheets",
-          "1 pund räkor, kokt",
+          "1 pund räkor, kokta",
           "4 uns vermicelli nudlar",
-          "färsk kryddor (mynta, koriander)",
+          "färska kryddor (mynta, koriocher)",
           "sallad, gurka, carrots",
           "Dipping sås"
         ],
@@ -4876,18 +4873,18 @@
           "Soak vermicelli nudlar",
           "Prepare alla vegetables och kryddor",
           "Soak ris paper i varm vatten",
-          "Place räkor och vegetables på ris paper",
-          "lägg tills kryddor och nudlar",
+          "Placera räkor och vegetables på ris paper",
+          "lägg till kryddor och nudlar",
           "rulla tightly",
           "servera med dipping sås"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍚",
         "tags": [
           "thai",
           "appetizer",
-          "färsk"
+          "färska"
         ],
         "prep_time": "40 min",
         "cook_time": "40 min",
@@ -4905,30 +4902,30 @@
           "ingredient.chili"
         ],
         "ingredientsWithAmounts": [
-          "2 pund nötkött sirloin",
-          "6 vitlök nejlikor",
-          "1/2 kopp koriander",
+          "2 pund ryggbiff",
+          "6 vitlöksklyftor",
+          "1/2 kopp koriocher",
           "2 limes, juiced",
           "3 Thai chilies",
-          "2 msk fisk sås",
+          "2 msk fisksås",
           "1 msk sojasås"
         ],
         "instructions": [
           "marinera nötkött med vitlök, sojasås, och lime juice",
-          "Grill nötkött tills desired doneness",
-          "Slice thinly against the grain",
-          "göra sås med chilies, fisk sås, lime juice",
-          "lägg tills koriander tills sås",
+          "Grilla nötkött tills önskad stekgrad",
+          "skär tunt mot fibrerna",
+          "gör sås med chilies, fisksås, lime juice",
+          "lägg till koriocher tills sås",
           "servera nötkött med stark sås",
-          "garnera med more kryddor"
+          "garnera med mer kryddor"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥩",
         "tags": [
           "thai",
           "nötkött",
-          "grillad"
+          "Grillaad"
         ],
         "prep_time": "30 min",
         "cook_time": "30 min",
@@ -4947,19 +4944,19 @@
         ],
         "ingredientsWithAmounts": [
           "4 ägg",
-          "2 msk fisk sås",
+          "2 msk fisksås",
           "1/4 kopp olja",
-          "färsk koriander",
-          "2 grön onions",
+          "färska koriocher",
+          "2 salladslök",
           "vit peppar"
         ],
         "instructions": [
-          "vispa ägg med fisk sås och vit peppar",
-          "värme olja i wok tills mycket het",
+          "vispa ägg med fisksås och vit peppar",
+          "värme olja i wok tills den är mycket het",
           "häll ägg till het olja",
-          "Let botten set, then vik över",
-          "koka tills guld och fluffy",
-          "garnera med koriander och grön onions",
+          "Låt botten stelnat, sedan vik över",
+          "Koka tills gyllene och fluffy",
+          "garnera med koriocher och salladslök",
           "servera med ris"
         ],
         "servings": 4,
@@ -4986,24 +4983,24 @@
           "ingredient.eggplant"
         ],
         "ingredientsWithAmounts": [
-          "blandad vegetables (aubergine, bamboo shoots)",
+          "blandade vegetables (aubergine, Bambuskott)",
           "2 koppar coconut mjölk",
           "3 msk grön curry paste",
           "1 kopp Thai basilika",
-          "2 msk fisk sås",
-          "1 msk palm socker"
+          "2 msk fisksås",
+          "1 msk palmsocker"
         ],
         "instructions": [
-          "värme coconut mjölk, lägg tills grön curry paste",
-          "koka tills doftande",
-          "lägg tills vegetables och koka tills mör",
-          "krydda med fisk sås och palm socker",
-          "lägg tills Thai basilika innan portion",
+          "värme coconut mjölk, lägg till grön curry paste",
+          "Koka tills doftande",
+          "lägg till vegetables och Koka tills mör",
+          "krydda med fisksås och palmsocker",
+          "lägg till Thai basilika innan servering",
           "servera med jasmine ris",
-          "garnera med more basilika"
+          "garnera med mer basilika"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍆",
         "tags": [
           "thai",
@@ -5027,21 +5024,21 @@
         ],
         "ingredientsWithAmounts": [
           "4 uns glass nudlar",
-          "1 pund räkor, kokt",
+          "1 pund räkor, kokta",
           "2 limes, juiced",
-          "3 msk fisk sås",
+          "3 msk fisksås",
           "3 Thai chilies",
-          "1/2 kopp koriander",
+          "1/2 kopp koriocher",
           "1/2 kopp mynta"
         ],
         "instructions": [
           "Soak glass nudlar i varm vatten",
-          "häll av och set aside",
-          "blanda lime juice, fisk sås, och chilies",
-          "lägg tills räkor och nudlar",
-          "Toss med kryddor",
-          "Let marinera för 10 minuter",
-          "servera chilled"
+          "häll av och lägg åt sidan",
+          "blanda lime juice, fisksås, och chilies",
+          "lägg till räkor och nudlar",
+          "Blanda med kryddor",
+          "Låt marinera i 10 minuter",
+          "servera kyld"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -5067,22 +5064,22 @@
           "ingredient.fishsauce"
         ],
         "ingredientsWithAmounts": [
-          "4 koppar kokt jasmine ris",
+          "4 koppar kokta jasmine ris",
           "3 ägg",
-          "blandad vegetables",
+          "blandade vegetables",
           "3 msk sojasås",
-          "1 msk fisk sås",
+          "1 msk fisksås",
           "2 msk olja",
-          "grön onions"
+          "salladslök"
         ],
         "instructions": [
           "värme olja i wok",
-          "lägg tills beaten ägg och scramble",
-          "lägg tills vegetables och rör-fry",
-          "lägg tills ris och break upp clumps",
-          "lägg tills sojasås och fisk sås",
-          "Toss allt tillsammans",
-          "garnera med grön onions",
+          "lägg till vispade ägg och scramble",
+          "lägg till vegetables och woka",
+          "lägg till ris och dela upp klumpar",
+          "lägg till sojasås och fisksås",
+          "Blanda allt tillsammans",
+          "garnera med salladslök",
           "servera het"
         ],
         "servings": 4,
@@ -5101,8 +5098,8 @@
     "Mexican": [
       {
         "id": 141,
-        "name": "dish.tacos_al_pastor",
-        "description": "description.description_tacos_al_pastor",
+        "name": "dish.tacos_al_pastora",
+        "description": "description.description_tacos_al_pastora",
         "ingredients": [
           "ingredient.pork",
           "ingredient.pineapple",
@@ -5111,26 +5108,26 @@
           "ingredient.cilantro"
         ],
         "ingredientsWithAmounts": [
-          "2 pund fläskkött shoulder, skivad",
-          "1 kopp ananas chunks",
+          "2 pund fläskbog, skivade",
+          "1 kopp ananas bitar",
           "3 torkad ancho chilies",
-          "1 lök, skivad",
-          "färsk koriander",
+          "1 lök, skivade",
+          "färska koriocher",
           "majs tortillas",
           "lime wedges"
         ],
         "instructions": [
-          "göra marinad med chilies, vinäger, och kryddor",
-          "marinera fläskkött för 2 timmar",
-          "Grill fläskkött tills kokt genom",
-          "Grill ananas tills caramelized",
+          "gör marinad med chilies, vinäger, och kryddor",
+          "marinera fläskkött i 2 timmar",
+          "Grilla fläskköttet tills genomstekt",
+          "Grilla ananassen tills karamelliserad",
           "varm tortillas",
-          "Slice fläskkött och ananas",
-          "servera i tortillas med lök och koriander",
-          "lägg tills lime juice"
+          "skiva fläskkött och ananas",
+          "servera i tortillas med lök och koriocher",
+          "lägg till lime juice"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "mexican",
@@ -5157,22 +5154,22 @@
           "2 koppar strimlad kyckling",
           "2 koppar ost",
           "3 koppar enchilada sås",
-          "1 lök, tärnad",
+          "1 lök, tärnade",
           "sur grädde",
-          "koriander"
+          "koriocher"
         ],
         "instructions": [
           "värme enchilada sås",
           "Dip tortillas i sås tills soften",
           "Fill med kyckling och ost",
-          "rulla och place i bakning rätt",
-          "häll remaining sås över topp",
-          "Sprinkle med ost",
-          "Bake på 350°F (175°C) för 20 minuter",
-          "garnera med sur grädde och koriander"
+          "rulla och Placera i bakform",
+          "häll resterande sås över topp",
+          "Strö över ost",
+          "Baka på 350°F (175°C) för 20 minuter",
+          "garnera med sur grädde och koriocher"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
           "mexican",
@@ -5197,17 +5194,17 @@
         "ingredientsWithAmounts": [
           "4 mogen avocados",
           "2 limes, juiced",
-          "1/2 kopp koriander",
+          "1/2 kopp koriocher",
           "2 ingredient.tomatoes_trnad",
-          "1/2 lök, tärnad",
+          "1/2 lök, tärnade",
           "2 jalapeños",
           "salt tills smak"
         ],
         "instructions": [
           "skär avocados i half och ta bort pits",
           "Mash avocados med lime juice",
-          "lägg tills tärnad tomatoes och lök",
-          "Chop koriander och jalapeños",
+          "lägg till tärnade tomatoes och lök",
+          "Hacka koriocher och jalapeños",
           "blanda allt tillsammans",
           "krydda med salt",
           "servera omedelbart med chips"
@@ -5240,18 +5237,18 @@
           "2 koppar ost",
           "4 ägg",
           "1/2 kopp mjöl",
-          "2 koppar tomat sås",
+          "2 koppar tomatsås",
           "olja för stekning"
         ],
         "instructions": [
-          "Roast paprikor tills charred",
+          "Roast paprikor tills fått färg",
           "skala och ta bort seeds carefully",
           "Stuff med ost",
-          "separat ägg och vispa whites",
-          "vik i yolks och mjöl",
+          "separat ägg och vispa vitan",
+          "vänd ner gulan och mjöl",
           "Dip paprikor i batter",
-          "Fry tills guld",
-          "servera med tomat sås"
+          "Fritera tills gyllene",
+          "servera med tomatsås"
         ],
         "servings": 4,
         "difficulty": "Svår",
@@ -5280,19 +5277,19 @@
           "1 hel kyckling",
           "2 uns mörk chocolate",
           "6 torkad chilies",
-          "1/4 kopp mandlar",
+          "1/4 kopp mochlar",
           "1/4 kopp raisins",
           "2 msk sesame seeds",
-          "kanel, nejlikor"
+          "kanel, klyftor"
         ],
         "instructions": [
           "Soak chilies och ta bort seeds",
-          "Toast nuts och seeds",
-          "Blend chilies med nuts och kryddor",
-          "koka kyckling och ta bort kött",
-          "göra sås med kyckling buljong",
-          "lägg tills chocolate och simmer",
-          "Return kyckling tills sås",
+          "Rosta nuts och seeds",
+          "Blanda chilies med nuts och kryddor",
+          "Koka kyckling och ta bort kött",
+          "gör sås med kyckling buljong",
+          "lägg till chocolate och Sjud",
+          "Lägg tillbaka kyckling tills sås",
           "servera med ris och tortillas"
         ],
         "servings": 4,
@@ -5312,37 +5309,37 @@
         "name": "dish.carnitas",
         "description": "description.description_carnitas",
         "ingredients": [
-          "ingredient.porkshoulder",
+          "ingredient.porkbog",
           "ingredient.orange",
           "ingredient.lime",
           "ingredient.garlic",
           "ingredient.cumin"
         ],
         "ingredientsWithAmounts": [
-          "3 pund fläskkött shoulder",
+          "3 pund fläskbog",
           "2 oranges, juiced",
           "2 limes, juiced",
-          "8 vitlök nejlikor",
+          "8 vitlöksklyftor",
           "2 msk spiskummin",
           "lagerblad",
           "salt"
         ],
         "instructions": [
-          "skär fläskkött till stor chunks",
+          "skär fläskkött till stora bitar",
           "krydda med salt och spiskummin",
-          "Place i Dutch oven med citrus juice",
-          "lägg tills vitlök och lagerblad",
-          "Cover och koka på 300°F (150°C) för 3 timmar",
+          "Placera i gryta med citrus juice",
+          "lägg till vitlök och lagerblad",
+          "Täck och Koka på 300°F (150°C) i 3 timmar",
           "ta bort och shred kött",
           "Broil tills knaprig",
           "servera med tortillas och salsa"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "mexican",
-          "långkokt",
+          "långkokta",
           "fläskkött"
         ],
         "prep_time": "180 min",
@@ -5361,26 +5358,26 @@
           "ingredient.onion"
         ],
         "ingredientsWithAmounts": [
-          "2 pund fläskkött shoulder",
+          "2 pund fläskbog",
           "2 cans hominy",
           "6 torkad chilies",
-          "8 vitlök nejlikor",
+          "8 vitlöksklyftor",
           "2 onions",
           "spiskummin, oregano",
           "lime wedges"
         ],
         "instructions": [
-          "koka fläskkött i vatten med vitlök och lök",
+          "Koka fläskkött i vatten med vitlök och lök",
           "ta bort fläskkött och shred",
-          "Strain buljong",
+          "Sila buljong",
           "Soak och blend chilies",
-          "lägg tills hominy tills buljong",
-          "lägg tills strimlad fläskkött och chili puree",
-          "Simmer för 30 minuter",
+          "lägg till hominy tills buljong",
+          "lägg till strimlad fläskkött och chilipuré",
+          "Sjud för 30 minuter",
           "servera med lime och toppings"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "mexican",
@@ -5405,18 +5402,18 @@
         "ingredientsWithAmounts": [
           "8 mjöl tortillas",
           "2 koppar ost",
-          "1 kopp kokt kyckling",
-          "paprika paprikor, onions",
+          "1 kopp kokta kyckling",
+          "paprikor, onions",
           "salsa",
           "sur grädde"
         ],
         "instructions": [
-          "värme skillet över Medel värme",
-          "Place tortilla i panna",
-          "lägg tills ost och fillings",
+          "värme stekpanna över medelhög värme",
+          "Placera tortilla i panna",
+          "lägg till ost och fillings",
           "topp med second tortilla",
-          "koka tills guld",
-          "Flip och koka other sida",
+          "Koka tills gyllene",
+          "Vänd och Koka andra sidan",
           "skär till wedges",
           "servera med salsa och sur grädde"
         ],
@@ -5449,18 +5446,18 @@
           "4 ägg",
           "1 kopp ost",
           "1/2 kopp crema",
-          "koriander",
+          "koriocher",
           "lök"
         ],
         "instructions": [
-          "värme salsa i stor panna",
-          "lägg tills tortilla chips",
-          "Toss tills coat med salsa",
-          "Fry ägg sunny-sida upp",
+          "värme salsa i stora panna",
+          "lägg till tortilla chips",
+          "Blanda tills coat med salsa",
+          "Fritera ägg sunny-sida upp",
           "topp chips med ost",
-          "Place ägg på topp",
-          "Drizzle med crema",
-          "garnera med koriander och lök"
+          "Placera ägg ovanpå",
+          "Ringla över crema",
+          "garnera med koriocher och lök"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -5487,7 +5484,7 @@
         ],
         "ingredientsWithAmounts": [
           "4 koppar masa harina",
-          "1 pund fläskkött shoulder",
+          "1 pund fläskbog",
           "6 torkad chilies",
           "majs husks",
           "1/2 kopp lard",
@@ -5495,13 +5492,13 @@
         ],
         "instructions": [
           "Soak majs husks i varm vatten",
-          "koka fläskkött med chilies och kryddor",
+          "Koka fläskkött med chilies och kryddor",
           "Shred fläskkött och blanda med sås",
           "blanda masa med lard och buljong",
-          "Spread masa på husks",
-          "lägg tills fläskkött fyllning",
+          "Bred masa på husks",
+          "lägg till fläskkött fyllning",
           "vik och tie husks",
-          "Steam för 1 hour"
+          "Ånga i 1 timme"
         ],
         "servings": 4,
         "difficulty": "Svår",
@@ -5527,8 +5524,8 @@
           "ingredient.spices"
         ],
         "ingredientsWithAmounts": [
-          "2 pund nötkött skirt steak",
-          "3 paprika paprikor",
+          "2 pund flankbiff",
+          "3 paprikor",
           "2 onions",
           "2 limes, juiced",
           "spiskummin, chilipulver",
@@ -5537,20 +5534,20 @@
         ],
         "instructions": [
           "marinera nötkött med lime juice och kryddor",
-          "Slice paprikor och onions",
-          "värme cast iron skillet",
-          "koka nötkött tills desired doneness",
-          "ta bort och slice thinly",
-          "koka paprikor och onions",
+          "skiva paprikor och onions",
+          "värme cast iron stekpanna",
+          "Koka nötkött tills önskad stekgrad",
+          "ta bort och skiva tunt",
+          "Koka paprikor och onions",
           "servera med varm tortillas",
-          "lägg tills sur grädde och salsa"
+          "lägg till sur grädde och salsa"
         ],
         "servings": 4,
         "difficulty": "Lätt",
         "emoji": "🥩",
         "tags": [
           "mexican",
-          "grillad",
+          "Grillaad",
           "nötkött"
         ],
         "prep_time": "25 min",
@@ -5569,21 +5566,21 @@
           "ingredient.tomato"
         ],
         "ingredientsWithAmounts": [
-          "1 pund färsk vit fisk",
+          "1 pund färska vitfisk",
           "1 kopp lime juice",
           "1 röd lök",
-          "1/2 kopp koriander",
+          "1/2 kopp koriocher",
           "2 ingredient.tomato",
           "jalapeño",
           "avokado"
         ],
         "instructions": [
-          "skär fisk till liten cubes",
-          "marinera i lime juice för 2 timmar",
-          "Dice lök och tomatoes",
-          "Chop koriander och jalapeño",
+          "skär fisk till liten tärningar",
+          "marinera i lime juice i 2 timmar",
+          "Tärna lök och tomatoes",
+          "Hacka koriocher och jalapeño",
           "häll av fisk och blanda med vegetables",
-          "lägg tills salt och peppar",
+          "lägg till salt och peppar",
           "servera med avokado",
           "Accompany med tortilla chips"
         ],
@@ -5592,8 +5589,8 @@
         "emoji": "🐟",
         "tags": [
           "mexican",
-          "seafood",
-          "färsk"
+          "skaldjur",
+          "färska"
         ],
         "prep_time": "120 min",
         "cook_time": "120 min",
@@ -5616,15 +5613,15 @@
           "1/2 kopp cotija ost",
           "2 msk chilipulver",
           "2 limes",
-          "koriander"
+          "koriocher"
         ],
         "instructions": [
-          "Grill majs tills charred",
-          "Brush med mayonnaise",
-          "Sprinkle med ost",
-          "lägg tills chilipulver",
+          "Grilla majs tills fått färg",
+          "Pensla med mayonnaise",
+          "Strö över ost",
+          "lägg till chilipulver",
           "Squeeze lime juice över topp",
-          "garnera med koriander",
+          "garnera med koriocher",
           "servera omedelbart"
         ],
         "servings": 4,
@@ -5651,9 +5648,9 @@
           "ingredient.vinegar"
         ],
         "ingredientsWithAmounts": [
-          "3 pund nötkött chuck",
+          "3 pund nötkött högrev",
           "8 torkad chilies",
-          "10 vitlök nejlikor",
+          "10 vitlöksklyftor",
           "2 kanel sticks",
           "1/4 kopp vinäger",
           "lagerblad",
@@ -5661,12 +5658,12 @@
         ],
         "instructions": [
           "Soak chilies i het vatten",
-          "Blend chilies med vitlök och kryddor",
-          "Sear nötkött på alla sides",
-          "lägg tills chili puree och vatten",
-          "lägg tills lagerblad och oregano",
-          "Simmer för 3 timmar",
-          "Shred kött och return tills buljong",
+          "Blanda chilies med vitlök och kryddor",
+          "Sear nötkött på alla sidor",
+          "lägg till chilipuré och vatten",
+          "lägg till lagerblad och oregano",
+          "Sjud i 3 timmar",
+          "Shred kött och Lägg tillbaka tills buljong",
           "servera med tortillas och lime"
         ],
         "servings": 4,
@@ -5694,7 +5691,7 @@
         ],
         "ingredientsWithAmounts": [
           "4 bolillo rolls",
-          "kokt kött (carnitas, kyckling)",
+          "kokta kött (carnitas, kyckling)",
           "2 avocados",
           "1 kopp refried bönor",
           "ost",
@@ -5702,12 +5699,12 @@
           "tomat"
         ],
         "instructions": [
-          "Slice rolls lengthwise",
-          "Spread refried bönor på botten",
-          "lägg tills skivad kött",
+          "skiva rolls lengthwise",
+          "Bred refried bönor på botten",
+          "lägg till skivade kött",
           "topp med ost",
-          "lägg tills avokado slices",
-          "lägg tills sallad och tomat",
+          "lägg till avokado skivor",
+          "lägg till sallad och tomat",
           "nära smörgås",
           "servera med chips"
         ],
@@ -5737,7 +5734,7 @@
         "ingredientsWithAmounts": [
           "2 koppar masa harina",
           "1 kopp refried bönor",
-          "kokt kött",
+          "kokta kött",
           "1 kopp ost",
           "salsa",
           "sallad",
@@ -5745,16 +5742,16 @@
         ],
         "instructions": [
           "blanda masa med vatten och salt",
-          "Form till tjock discs",
-          "koka på griddle tills set",
-          "Pinch edges tills form walls",
-          "Fry tills guld",
+          "Forma till tjocka discs",
+          "Koka på platt stekpanna tills stelnat",
+          "Pinch kanter tills Forma väggar",
+          "Fritera tills gyllene",
           "topp med bönor och kött",
-          "lägg tills ost och salsa",
+          "lägg till ost och salsa",
           "garnera med sallad och crema"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍽️",
         "tags": [
           "mexican",
@@ -5777,20 +5774,20 @@
           "ingredient.bananaleaves"
         ],
         "ingredientsWithAmounts": [
-          "3 pund fläskkött shoulder",
+          "3 pund fläskbog",
           "4 msk achiote paste",
           "2 oranges, juiced",
-          "8 vitlök nejlikor",
+          "8 vitlöksklyftor",
           "banan blad",
           "spiskummin, oregano"
         ],
         "instructions": [
-          "göra marinad med achiote och citrus",
-          "marinera fläskkött overnight",
-          "Line bakning rätt med banan leaves",
-          "Place fläskkött i rätt",
-          "Cover med more banan leaves",
-          "Bake på 300°F (150°C) för 4 timmar",
+          "gör marinad med achiote och citrus",
+          "marinera fläskkött över natten",
+          "Line bakform med bananblad",
+          "Placera fläskkött i rätt",
+          "Täck med fler bananblad",
+          "Baka på 300°F (150°C) för 4 timmar",
           "Shred kött",
           "servera med inlagd onions"
         ],
@@ -5800,7 +5797,7 @@
         "tags": [
           "mexican",
           "yucatan",
-          "långkokt"
+          "långkokta"
         ],
         "prep_time": "240 min",
         "cook_time": "240 min",
@@ -5820,20 +5817,20 @@
         "ingredientsWithAmounts": [
           "8 majs tortillas",
           "1 kopp refried bönor",
-          "kokt kött",
+          "kokta kött",
           "strimlad sallad",
           "1 kopp ost",
           "salsa",
           "Crema"
         ],
         "instructions": [
-          "Fry tortillas tills knaprig",
-          "Spread med refried bönor",
-          "lägg tills strimlad kött",
+          "Fritera tortillas tills knaprig",
+          "Bred med refried bönor",
+          "lägg till strimlad kött",
           "topp med sallad",
-          "lägg tills ost",
-          "Drizzle med salsa",
-          "lägg tills crema",
+          "lägg till ost",
+          "Ringla över salsa",
+          "lägg till crema",
           "servera omedelbart"
         ],
         "servings": 4,
@@ -5863,19 +5860,19 @@
           "1 pund tomatillos",
           "4 grön chilies",
           "1 lök",
-          "4 vitlök nejlikor",
-          "1/2 kopp koriander",
+          "4 vitlöksklyftor",
+          "1/2 kopp koriocher",
           "lime juice",
           "salt"
         ],
         "instructions": [
           "ta bort husks från tomatillos",
           "Roast tomatillos och chilies",
-          "Blend med lök och vitlök",
-          "lägg tills koriander och lime juice",
+          "Blanda med lök och vitlök",
+          "lägg till koriocher och lime juice",
           "krydda med salt",
-          "Let cool",
-          "servera med chips or as condiment"
+          "Låt cool",
+          "servera med chips eller som tillbehör"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -5907,25 +5904,25 @@
           "ingredient.mustard"
         ],
         "ingredientsWithAmounts": [
-          "1 pund malen nötkött",
+          "1 pund malet nötkött",
           "4 hamburgare buns",
-          "4 slices cheddar ost",
-          "1 tomat, skivad",
+          "4 skivor cheddar ost",
+          "1 tomat, skivade",
           "sallad blad",
-          "1 lök, skivad",
+          "1 lök, skivade",
           "pickles",
           "ketchup",
           "mustard"
         ],
         "instructions": [
-          "Form malen nötkött till 4 patties",
+          "Forma malet nötkött till 4 patties",
           "krydda med salt och peppar",
-          "värme grill or panna tills Medel-hög värme",
-          "koka patties för 4-5 minuter per sida",
-          "lägg tills ost under sist minute av matlagning",
-          "Toast hamburgare buns lightly",
+          "värm grill eller panna tills medelhög värme",
+          "Koka patties för 4-5 minuter per sida",
+          "lägg till ost under sista minuten av tillagningen",
+          "Rosta hamburgare buns lightly",
           "Assemble burgers med alla toppings",
-          "servera med fries or sallad"
+          "servera med pommes frites eller sallad"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -5939,28 +5936,28 @@
       },
       {
         "id": 162,
-        "name": "dish.bbq_ribs",
-        "description": "description.description_bbq_ribs",
+        "name": "dish.bbq_revben",
+        "description": "description.description_bbq_revben",
         "ingredients": [
-          "ingredient.porkribs",
+          "ingredient.porkrevben",
           "ingredient.bbqsauce"
         ],
         "ingredientsWithAmounts": [
-          "3 pund fläskkött ribs",
+          "3 pund fläskrevben",
           "2 koppar BBQ sås"
         ],
         "instructions": [
-          "krydda ribs",
-          "koka långsamt",
-          "lägg tills sås"
+          "krydda revben",
+          "Koka långsamt",
+          "lägg till sås"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐷",
         "tags": [
           "american",
           "bbq",
-          "ribs"
+          "revben"
         ],
         "prep_time": "180 min",
         "cook_time": "180 min",
@@ -5979,9 +5976,9 @@
           "3 koppar cheddar"
         ],
         "instructions": [
-          "koka pasta",
-          "göra ost sås",
-          "Combine"
+          "Koka pasta",
+          "gör ost sås",
+          "Blanda"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -5997,27 +5994,27 @@
       },
       {
         "id": 164,
-        "name": "dish.buffalo_wings",
-        "description": "description.description_buffalo_wings",
+        "name": "dish.buffalo_vingar",
+        "description": "description.description_buffalo_vingar",
         "ingredients": [
-          "ingredient.chickenwings",
+          "ingredient.chickenvingar",
           "ingredient.hotsauce"
         ],
         "ingredientsWithAmounts": [
-          "3 pund kyckling wings",
+          "3 pund kycklingvingar",
           "1/2 kopp het sås"
         ],
         "instructions": [
-          "Fry wings",
-          "göra sås",
-          "Toss tillsammans"
+          "Fritera vingar",
+          "gör sås",
+          "Blanda tillsammans"
         ],
         "servings": 4,
         "difficulty": "Lätt",
         "emoji": "🐔",
         "tags": [
           "american",
-          "wings",
+          "vingar",
           "stark"
         ],
         "prep_time": "45 min",
@@ -6030,24 +6027,24 @@
         "description": "description.description_clam_chowder",
         "ingredients": [
           "ingredient.clams",
-          "ingredient.potatoes"
+          "ingredient.potatis"
         ],
         "ingredientsWithAmounts": [
           "2 lbs musslor",
-          "4 potatoes"
+          "4 potatis"
         ],
         "instructions": [
-          "koka musslor",
-          "lägg tills potatoes",
-          "göra krämig"
+          "Koka musslor",
+          "lägg till potatis",
+          "gör krämig"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🦪",
         "tags": [
           "american",
           "soup",
-          "seafood"
+          "skaldjur"
         ],
         "prep_time": "45 min",
         "cook_time": "45 min",
@@ -6067,11 +6064,11 @@
         ],
         "instructions": [
           "krydda kyckling",
-          "Dredge i mjöl",
-          "Fry tills guld"
+          "Vänd i mjöl",
+          "Fritera tills gyllene"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
           "american",
@@ -6096,8 +6093,8 @@
         ],
         "instructions": [
           "tvätt sallad",
-          "göra dressing",
-          "Toss och servera"
+          "gör dressing",
+          "Blanda och servera"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -6120,16 +6117,16 @@
           "ingredient.beans"
         ],
         "ingredientsWithAmounts": [
-          "2 pund malen nötkött",
+          "2 pund malet nötkött",
           "2 cans bönor"
         ],
         "instructions": [
           "brun kött",
-          "lägg tills bönor och kryddor",
-          "Simmer"
+          "lägg till bönor och kryddor",
+          "Sjud"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥩",
         "tags": [
           "american",
@@ -6146,19 +6143,19 @@
         "description": "description.description_gryta_roast",
         "ingredients": [
           "ingredient.beef",
-          "ingredient.potatoes"
+          "ingredient.potatis"
         ],
         "ingredientsWithAmounts": [
-          "3 pund nötkött roast",
-          "6 potatoes"
+          "3 pund nötsteк",
+          "6 potatis"
         ],
         "instructions": [
           "brun kött",
-          "lägg tills vegetables",
-          "långsam koka"
+          "lägg till vegetables",
+          "långsam Koka"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥩",
         "tags": [
           "american",
@@ -6178,13 +6175,13 @@
           "ingredient.bacon"
         ],
         "ingredientsWithAmounts": [
-          "blandad sallad",
+          "blandade sallad",
           "8 uns bacon"
         ],
         "instructions": [
-          "koka bacon",
-          "Arrange ingredients",
-          "lägg tills dressing"
+          "Koka bacon",
+          "Placera ingredients",
+          "lägg till dressing"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -6207,12 +6204,12 @@
           "ingredient.cornedbeef"
         ],
         "ingredientsWithAmounts": [
-          "8 slices rye bröd",
-          "1 pund corned nötkött"
+          "8 skivor rye bröd",
+          "1 pund corned beef"
         ],
         "instructions": [
-          "Layer ingredients",
-          "Grill smörgås",
+          "Lägg i lager ingredients",
+          "Grilla smörgås",
           "servera het"
         ],
         "servings": 4,
@@ -6240,12 +6237,12 @@
           "1 pund korv"
         ],
         "instructions": [
-          "koka kött",
-          "lägg tills ris",
-          "Simmer"
+          "Koka kött",
+          "lägg till ris",
+          "Sjud"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍚",
         "tags": [
           "american",
@@ -6265,13 +6262,13 @@
           "ingredient.cheese"
         ],
         "ingredientsWithAmounts": [
-          "1.5 pund malen nötkött",
-          "4 slices ost"
+          "1.5 pund malet nötkött",
+          "4 skivor ost"
         ],
         "instructions": [
-          "Form patties",
-          "Grill",
-          "lägg tills toppings"
+          "Forma patties",
+          "Grilla",
+          "lägg till toppings"
         ],
         "servings": 4,
         "difficulty": "Lätt",
@@ -6334,11 +6331,11 @@
           "ingredient.butter"
         ],
         "ingredientsWithAmounts": [
-          "2 ingredient.stor_eggplants_skivad",
-          "1 pund malen lammkött",
-          "1 pund malen nötkött",
-          "1 stor lök, tärnad",
-          "4 nejlikor vitlök, malen",
+          "2 ingredient.stora_eggplants_skivade",
+          "1 pund malet lammkött",
+          "1 pund malet nötkött",
+          "1 stora lök, tärnade",
+          "4 vitlöksklyftor, malen",
           "2 ingredient.cans_krossad_tomatoes",
           "1/2 kopp röd vin",
           "1 kopp riven ost",
@@ -6347,15 +6344,15 @@
           "4 msk smör"
         ],
         "instructions": [
-          "salt aubergine slices och let sit för 30 minuter",
-          "skölj och pat torr, then fry tills guld",
+          "salta aubergineskivor och låt stå i 30 minuter",
+          "skölj och pat torr, sedan Fritera tills gyllene",
           "brun kött med lök och vitlök",
-          "lägg tills tomatoes, vin, och kryddor",
-          "Simmer kött sås för 30 minuter",
-          "göra béchamel sås med smör, mjöl, och mjölk",
-          "Layer aubergine, kött sås, och béchamel",
+          "lägg till tomatoes, vin, och kryddor",
+          "Sjud kött sås för 30 minuter",
+          "gör béchamel sås med smör, mjöl, och mjölk",
+          "Lägg i lager aubergine, kött sås, och béchamel",
           "topp med ost och bake på 375°F (190°C) för 45 minuter",
-          "Let rest 15 minuter innan portion"
+          "Låt vila i 15 minuter innan servering"
         ],
         "servings": 8,
         "difficulty": "Svår",
@@ -6377,11 +6374,11 @@
         ],
         "ingredientsWithAmounts": [
           "3 ingredient.eggplant",
-          "1.5 pund malen lammkött"
+          "1.5 pund malet lammkött"
         ],
         "instructions": [
-          "Layer aubergine",
-          "lägg tills kött sås",
+          "Lägg i lager aubergine",
+          "lägg till kött sås",
           "topp med béchamel"
         ],
         "servings": 4,
@@ -6409,12 +6406,12 @@
           "1 pund feta"
         ],
         "instructions": [
-          "göra fyllning",
-          "Layer phyllo",
+          "gör fyllning",
+          "Lägg i lager phyllo",
           "Bake"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥬",
         "tags": [
           "greek",
@@ -6440,14 +6437,14 @@
         "instructions": [
           "marinera kött",
           "Skewer",
-          "Grill"
+          "Grilla"
         ],
         "servings": 4,
         "difficulty": "Lätt",
         "emoji": "🐑",
         "tags": [
           "greek",
-          "grillad",
+          "Grillaad",
           "lammkött"
         ],
         "prep_time": "30 min",
@@ -6493,12 +6490,12 @@
         ],
         "ingredientsWithAmounts": [
           "1 pund pasta",
-          "1.5 pund malen nötkött"
+          "1.5 pund malet nötkött"
         ],
         "instructions": [
-          "koka pasta",
-          "göra kött sås",
-          "Layer och bake"
+          "Koka pasta",
+          "gör kött sås",
+          "Lägg i lager och bake"
         ],
         "servings": 4,
         "difficulty": "Svår",
@@ -6525,8 +6522,8 @@
           "1/2 pund feta"
         ],
         "instructions": [
-          "Chop vegetables",
-          "lägg tills feta",
+          "Hacka vegetables",
+          "lägg till feta",
           "Dress med olja"
         ],
         "servings": 4,
@@ -6535,7 +6532,7 @@
         "tags": [
           "greek",
           "salad",
-          "färsk"
+          "färska"
         ],
         "prep_time": "15 min",
         "cook_time": "15 min",
@@ -6556,10 +6553,10 @@
         "instructions": [
           "Fill leaves",
           "rulla tightly",
-          "Simmer"
+          "Sjud"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍚",
         "tags": [
           "greek",
@@ -6576,23 +6573,44 @@
         "description": "description.description_keftedes",
         "ingredients": [
           "ingredient.groundbeef",
-          "ingredient.herbs"
+          "ingredient.onion",
+          "ingredient.garlic",
+          "ingredient.ströbröd",
+          "ingredient.eggs",
+          "ingredient.oregano",
+          "ingredient.mint",
+          "ingredient.parsley",
+          "ingredient.oliveoil"
         ],
         "ingredientsWithAmounts": [
-          "1.5 pund malen nötkött",
-          "färsk kryddor"
+          "1.5 pund malet nötkött",
+          "1 stora lök, riven",
+          "3 vitlöksklyftor, hackade",
+          "1/2 kopp ströbröd",
+          "2 ägg, vispade",
+          "2 msk färska oregano, hackad",
+          "2 msk färska mynta, hackad",
+          "1/4 kopp färska persilja, hackad",
+          "1/4 kopp olivolja",
+          "Salt och peppar efter smak"
         ],
         "instructions": [
-          "blanda ingredients",
-          "Form balls",
-          "Fry"
+          "Riv löken och pressa ut överskott av vätska",
+          "I en stora skål, blanda malet nötkött, riven lök, vitlök och kryddor",
+          "Tillsätt ströbröd, vispade ägg, salt och peppar",
+          "Blanda allt tillsammans tills väl kombinerat",
+          "Täck och kyl i 30 minuter för att stelna",
+          "Forma blandningen till små bollar (ca 1.5 tum)",
+          "Värm olivolja i en stora stekpanna på Medelstoravärme",
+          "Stek köttbullarna i omgångar tills gyllenbruna och genomstekta",
+          "Låt rinna av på hushållspapper och servera varma"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🥩",
         "tags": [
           "greek",
-          "meatballs",
+          "meatkulor",
           "kryddor"
         ],
         "prep_time": "45 min",
@@ -6612,12 +6630,12 @@
           "3 lemons"
         ],
         "instructions": [
-          "koka kyckling",
-          "göra soppa",
-          "lägg tills citron"
+          "Koka kyckling",
+          "gör soppa",
+          "lägg till citron"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🐔",
         "tags": [
           "greek",
@@ -6641,12 +6659,12 @@
           "1/2 kopp honung"
         ],
         "instructions": [
-          "göra deg",
-          "Fry balls",
-          "Drizzle honung"
+          "gör deg",
+          "Fritera kulor",
+          "Ringla honung"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🌾",
         "tags": [
           "greek",
@@ -6670,8 +6688,8 @@
           "1 gurka"
         ],
         "instructions": [
-          "Chop vegetables",
-          "lägg tills oliver",
+          "Hacka vegetables",
+          "lägg till oliver",
           "Dress"
         ],
         "servings": 4,
@@ -6695,13 +6713,13 @@
           "ingredient.herbs"
         ],
         "ingredientsWithAmounts": [
-          "3 pund lammkött leg",
-          "färsk kryddor"
+          "3 pund lammlägg",
+          "färska kryddor"
         ],
         "instructions": [
           "krydda lammkött",
-          "Wrap tightly",
-          "långsam koka"
+          "Rulla in tightly",
+          "långsam Koka"
         ],
         "servings": 4,
         "difficulty": "Svår",
@@ -6709,7 +6727,7 @@
         "tags": [
           "greek",
           "lammkött",
-          "långkokt"
+          "långkokta"
         ],
         "prep_time": "240 min",
         "cook_time": "240 min",
@@ -6728,8 +6746,8 @@
           "4 koppar mjölk"
         ],
         "instructions": [
-          "göra custard",
-          "Layer phyllo",
+          "gör custard",
+          "Lägg i lager phyllo",
           "Bake"
         ],
         "servings": 4,
@@ -6754,11 +6772,11 @@
         ],
         "ingredientsWithAmounts": [
           "2 koppar vit bönor",
-          "blandad vegetables"
+          "blandade vegetables"
         ],
         "instructions": [
           "Soak bönor",
-          "koka med vegetables",
+          "Koka med vegetables",
           "krydda"
         ],
         "servings": 4,
@@ -6791,7 +6809,7 @@
           "Bake"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🌾",
         "tags": [
           "greek",
@@ -6815,12 +6833,12 @@
           "1 kopp socker"
         ],
         "instructions": [
-          "göra kaka",
+          "gör kaka",
           "Bake",
-          "lägg tills syrup"
+          "lägg till syrup"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🍽️",
         "tags": [
           "greek",
@@ -6841,12 +6859,12 @@
         ],
         "ingredientsWithAmounts": [
           "lammkött offal",
-          "färsk kryddor"
+          "färska kryddor"
         ],
         "instructions": [
           "Prepare offal",
           "Wrap",
-          "Grill"
+          "Grilla"
         ],
         "servings": 4,
         "difficulty": "Svår",
@@ -6854,7 +6872,7 @@
         "tags": [
           "greek",
           "lammkött",
-          "grillad"
+          "Grillaad"
         ],
         "prep_time": "180 min",
         "cook_time": "180 min",
@@ -6873,12 +6891,12 @@
           "1/2 kopp honung"
         ],
         "instructions": [
-          "göra cookies",
+          "gör cookies",
           "Bake",
           "Dip i honung"
         ],
         "servings": 4,
-        "difficulty": "Medel",
+        "difficulty": "Medelstora",
         "emoji": "🌾",
         "tags": [
           "greek",

@@ -18,53 +18,32 @@ export function LanguageProvider({ children }) {
   const { user } = useAuth()
   const [isLoading, setIsLoading] = useState(false)
 
-  // Load user's language preference from Supabase when they log in
+  // Load user's language preference from localStorage (Supabase disabled for testing)
   useEffect(() => {
     const loadUserLanguage = async () => {
-      if (user) {
-        setIsLoading(true)
-        const startTime = Date.now()
-        
-        // Add timeout to prevent hanging on login
-        const timeoutPromise = new Promise((_, reject) => 
-          setTimeout(() => reject(new Error('Supabase timeout')), 5000)
-        )
-        
-        try {
-          const result = await Promise.race([
-            getUserLanguagePreference(user.id),
-            timeoutPromise
-          ])
-          
-          const loadTime = Date.now() - startTime
-          
-          if (result.error) {
-            // Error loading language preference
-          } else if (result.data && result.data.language) {
-            // User has a saved language preference
-            await i18n.changeLanguage(result.data.language)
-            localStorage.setItem('i18nextLng', result.data.language)
-          } else {
-          }
-        } catch (timeoutError) {
-          // Loading language preference timed out
-        } finally {
-          setIsLoading(false)
-        }
-      } else {
-        // User logged out, use browser/localStorage language
-        const savedLanguage = localStorage.getItem('i18nextLng')
-        if (savedLanguage && ['en', 'zh', 'sv'].includes(savedLanguage)) {
+      // Use localStorage language for all users (no Supabase calls)
+      const savedLanguage = localStorage.getItem('i18nextLng')
+      if (savedLanguage && ['en', 'zh', 'sv'].includes(savedLanguage)) {
+        // If user has Chinese or Swedish saved, switch them to English for production
+        if (savedLanguage === 'zh' || savedLanguage === 'sv') {
+          await i18n.changeLanguage('en')
+          localStorage.setItem('i18nextLng', 'en')
+        } else {
           await i18n.changeLanguage(savedLanguage)
         }
       }
     }
 
     loadUserLanguage()
-  }, [user, i18n])
+  }, [i18n])
 
   const changeLanguage = async (language) => {
     if (!['en', 'zh', 'sv'].includes(language)) {
+      return
+    }
+    
+    // Prevent switching to Chinese or Swedish in production
+    if (language === 'zh' || language === 'sv') {
       return
     }
 
@@ -78,29 +57,8 @@ export function LanguageProvider({ children }) {
       // Save to localStorage
       localStorage.setItem('i18nextLng', language)
       
-      // Save to Supabase if user is logged in (with timeout)
-      if (user) {
-        const supabaseStartTime = Date.now()
-        
-        // Add timeout to prevent hanging
-        const timeoutPromise = new Promise((_, reject) => 
-          setTimeout(() => reject(new Error('Supabase timeout')), 5000)
-        )
-        
-        try {
-          const { error } = await Promise.race([
-            updateUserLanguagePreference(user.id, language),
-            timeoutPromise
-          ])
-          const supabaseTime = Date.now() - supabaseStartTime
-          
-          if (error) {
-            // Error saving language preference
-          }
-        } catch (timeoutError) {
-          // Supabase request timed out
-        }
-      }
+      // Save to localStorage only (Supabase disabled for testing)
+      // TODO: Re-enable Supabase user preference saving when database is set up
     } catch (error) {
       // Error changing language
     } finally {

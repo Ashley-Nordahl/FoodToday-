@@ -25,9 +25,14 @@ import zhSauces from './locales/zh/sauces.json'
 import svSauces from './locales/sv/sauces.json'
 
 // Import ingredient translations
-import enIngredients from './locales/en/ingredients.json'
-import zhIngredients from './locales/zh/ingredients.json'
-import svIngredients from './locales/sv/ingredients.json'
+import enIngredientsData from './locales/en/ingredients.json'
+import zhIngredientsData from './locales/zh/ingredients.json'
+import svIngredientsData from './locales/sv/ingredients.json'
+
+// Extract ingredients namespace from the data
+const enIngredients = enIngredientsData.ingredients
+const zhIngredients = zhIngredientsData.ingredients
+const svIngredients = svIngredientsData.ingredients
 
 // Import party translations
 import enParties from './locales/en/parties.json'

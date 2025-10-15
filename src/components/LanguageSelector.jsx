@@ -21,6 +21,10 @@ function LanguageSelector() {
   }, [])
 
   const handleLanguageChange = async (langCode) => {
+    // Prevent switching to Chinese and Swedish in production
+    if (langCode === 'zh' || langCode === 'sv') {
+      return
+    }
     await changeLanguage(langCode)
     setIsOpen(false)
   }
@@ -40,18 +44,23 @@ function LanguageSelector() {
 
       {isOpen && (
         <div className="language-dropdown">
-          {availableLanguages.map((lang) => (
-            <button
-              key={lang.code}
-              className={`language-option ${lang.code === language ? 'active' : ''}`}
-              onClick={() => handleLanguageChange(lang.code)}
-              disabled={isLoading}
-            >
-              <span className="language-flag">{lang.flag}</span>
-              <span className="language-name">{lang.name}</span>
-              {lang.code === language && <span className="language-check">✓</span>}
-            </button>
-          ))}
+          {availableLanguages.map((lang) => {
+            const isDisabled = lang.code === 'zh' || lang.code === 'sv' // Disable Chinese and Swedish in production
+            return (
+              <button
+                key={lang.code}
+                className={`language-option ${lang.code === language ? 'active' : ''} ${isDisabled ? 'disabled' : ''}`}
+                onClick={() => handleLanguageChange(lang.code)}
+                disabled={isLoading || isDisabled}
+                title={isDisabled ? 'Coming soon' : ''}
+              >
+                <span className="language-flag">{lang.flag}</span>
+                <span className="language-name">{lang.name}</span>
+                {lang.code === language && <span className="language-check">✓</span>}
+                {isDisabled && <span className="language-coming-soon">🚧</span>}
+              </button>
+            )
+          })}
         </div>
       )}
     </div>

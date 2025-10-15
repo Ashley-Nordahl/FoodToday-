@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import IngredientSelector from './IngredientSelector'
-import { useRecipes, searchRecipesFromAll } from '../data/recipes'
+// Removed old recipe import - now using proper recipes from translation files
 
 const RecipeChoiceCards = ({ selectedCuisine, onChoiceSelect, isRecipeSelected = false }) => {
   const { t, i18n } = useTranslation()
@@ -30,8 +30,55 @@ const RecipeChoiceCards = ({ selectedCuisine, onChoiceSelect, isRecipeSelected =
     previousIsRecipeSelected.current = isRecipeSelected
   }, [isRecipeSelected, searchQuery, searchResults.length])
 
-  // Get reactive recipe data
-  const recipes = useRecipes()
+  // Enhanced recipe search function with cuisine filtering
+  const searchRecipesFromAll = (query) => {
+    if (!query || query.trim() === '') {
+      return []
+    }
+    
+    // Get recipes from translation files (proper format with amounts and instructions)
+    const currentLanguage = i18n.language || 'en'
+    const recipes = i18n.getResourceBundle(currentLanguage, 'recipes') || { cultural: {}, basic: {}, metadata: {} }
+    const culturalRecipes = recipes.cultural || {}
+    
+    const searchLower = query.toLowerCase()
+    const matchingRecipes = []
+    
+    Object.entries(culturalRecipes).forEach(([cuisineName, cuisineRecipes]) => {
+      if (Array.isArray(cuisineRecipes)) {
+        cuisineRecipes.forEach(recipe => {
+          // Only include complete recipes with amounts and instructions
+          if (recipe.ingredientsWithAmounts && 
+              recipe.instructions && 
+              Array.isArray(recipe.ingredientsWithAmounts) && 
+              Array.isArray(recipe.instructions) &&
+              recipe.ingredientsWithAmounts.length > 0 &&
+              recipe.instructions.length > 0) {
+            
+            // Search in recipe name, ingredients, and cuisine name
+            const nameMatch = recipe.name && recipe.name.toLowerCase().includes(searchLower)
+            const ingredientMatch = recipe.ingredients && recipe.ingredients.some(ingredient => 
+              ingredient.toLowerCase().includes(searchLower)
+            )
+            const cuisineMatch = cuisineName.toLowerCase().includes(searchLower)
+            
+            // Also search in translated cuisine names
+            const translatedCuisineName = t(`cuisines.${cuisineName}`, cuisineName).toLowerCase()
+            const translatedCuisineMatch = translatedCuisineName.includes(searchLower)
+            
+            if (nameMatch || ingredientMatch || cuisineMatch || translatedCuisineMatch) {
+              matchingRecipes.push({
+                ...recipe,
+                cuisine: cuisineName
+              })
+            }
+          }
+        })
+      }
+    })
+    
+    return matchingRecipes
+  }
 
   const handleRandomRecipe = () => {
     onChoiceSelect('random', selectedCuisine)
@@ -39,6 +86,12 @@ const RecipeChoiceCards = ({ selectedCuisine, onChoiceSelect, isRecipeSelected =
 
   const handleIngredientRecipe = () => {
     setShowIngredientSelector(true)
+  }
+
+  const handleIngredientGenerate = (selectedIngredients) => {
+    // Pass the selected ingredients to the parent component
+    onChoiceSelect('ingredients', selectedCuisine, selectedIngredients)
+    setShowIngredientSelector(false)
   }
 
   const handleSearch = (query) => {
@@ -74,10 +127,24 @@ const RecipeChoiceCards = ({ selectedCuisine, onChoiceSelect, isRecipeSelected =
       const culturalRecipes = recipes.cultural || {}
       const cuisineRecipes = culturalRecipes[selectedCuisine.name] || []
       
-      // Search by dish name (case insensitive)
-      const results = cuisineRecipes.filter(recipe => 
-        recipe.name.toLowerCase().includes(query.toLowerCase())
-      )
+      // Search by dish name (both raw and translated, case insensitive)
+      const results = cuisineRecipes.filter(recipe => {
+        const queryLower = query.toLowerCase()
+        const nameMatch = recipe.name && recipe.name.toLowerCase().includes(queryLower)
+        
+        // Also search by translated name
+        let translatedNameMatch = false
+        if (recipe.name && recipe.name.startsWith('dish.')) {
+          try {
+            const translatedName = t(`dishes.${recipe.name.replace('dish.', '')}`)
+            translatedNameMatch = translatedName && translatedName.toLowerCase().includes(queryLower)
+          } catch (e) {
+            translatedNameMatch = false
+          }
+        }
+        
+        return nameMatch || translatedNameMatch
+      })
       
       setSearchResults(results)
     } else {
@@ -161,11 +228,6 @@ const RecipeChoiceCards = ({ selectedCuisine, onChoiceSelect, isRecipeSelected =
     }
   }
 
-
-  const handleIngredientGenerate = (ingredients) => {
-    onChoiceSelect('ingredients', selectedCuisine, ingredients)
-  }
-
   return (
     <div className="choice-segments-container">
       <h3 className="choice-title">{t('recipe.choiceTitle')}</h3>
@@ -234,9 +296,17 @@ const RecipeChoiceCards = ({ selectedCuisine, onChoiceSelect, isRecipeSelected =
                 >
                   <span className="result-emoji">{recipe.emoji}</span>
                   <div className="result-info">
-                    <div className="result-name">{recipe.name}</div>
+                    <div className="result-name">
+                      {recipe.name?.startsWith('dish.')
+                        ? t(`dishes.${recipe.name.replace('dish.', '')}`)
+                        : recipe.name}
+                    </div>
                     <div className="result-meta">
-                      {recipe.cookTime} • {recipe.servings} {t('recipe.servings')} • {t(`difficulty.${recipe.difficulty.toLowerCase()}`)}
+                      <span className="result-cuisine">🌍 {t(`cuisines.${recipe.cuisine}`, recipe.cuisine)}</span>
+                      <span className="result-separator"> • </span>
+                      <span className="result-details">
+                        {recipe.cookTime} • {recipe.servings} {t('recipe.servings')} • {t(`difficulty.${recipe.difficulty.toLowerCase()}`)}
+                      </span>
                     </div>
                   </div>
                 </div>

@@ -200,7 +200,7 @@ function Drink() {
     
     setRollResult(drink)
     setHighlightedDrink(drink.id)
-    setSelectedDrink(drink)
+    // Don't set selectedDrink - die should only highlight, not open recipe
     
     // Wait for rendering
     setTimeout(() => {

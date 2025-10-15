@@ -10,12 +10,15 @@ export const getCuisineTranslation = (cuisine, language = 'en') => {
   const translations = {
     'mixed': { en: 'Mixed', zh: '混合', sv: 'Blandad' },
     'chinese': { en: 'Chinese', zh: '中式', sv: 'Kinesisk' },
-    'italian': { en: 'Italian', zh: '意式', sv: 'Italiensk' },
-    'mexican': { en: 'Mexican', zh: '墨西哥', sv: 'Mexikansk' },
-    'indian': { en: 'Indian', zh: '印度', sv: 'Indisk' },
     'japanese': { en: 'Japanese', zh: '日式', sv: 'Japansk' },
+    'korean': { en: 'Korean', zh: '韩式', sv: 'Koreansk' },
+    'italian': { en: 'Italian', zh: '意式', sv: 'Italiensk' },
     'french': { en: 'French', zh: '法式', sv: 'Fransk' },
-    'thai': { en: 'Thai', zh: '泰式', sv: 'Thailändsk' }
+    'indian': { en: 'Indian', zh: '印度', sv: 'Indisk' },
+    'thai': { en: 'Thai', zh: '泰式', sv: 'Thailändsk' },
+    'mexican': { en: 'Mexican', zh: '墨西哥', sv: 'Mexikansk' },
+    'american': { en: 'American', zh: '美式', sv: 'Amerikansk' },
+    'greek': { en: 'Greek', zh: '希腊', sv: 'Grekisk' }
   }
   
   return translations[cuisine]?.[language] || cuisine

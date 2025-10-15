@@ -7,6 +7,7 @@
 
 import { getIngredientMetadata } from '../data/ingredientRegistry.js'
 import { standardizeRecipe, processRecipeBatch } from '../utils/recipeDataProcessor.js'
+import i18n from '../i18n.js'
 
 // Simple cooking methods
 export const COOKING_METHODS = [
@@ -180,9 +181,6 @@ const generateRecipeName = (ingredientId, cookingMethod, cuisine, language) => {
  * Get ingredient name in target language using i18n translations
  */
 const getIngredientNameInLanguage = (ingredientId, language) => {
-  // Import i18n dynamically to avoid circular dependencies
-  const i18n = require('../i18n').default
-  
   try {
     // Get translation from i18n system
     const translationKey = `ingredients.${ingredientId}`

@@ -17,8 +17,14 @@ export const AuthProvider = ({ children }) => {
   const [session, setSession] = useState(null)
 
   useEffect(() => {
-    // Get initial session
+    // Get initial session with timeout to prevent hanging
+    const timeout = setTimeout(() => {
+      // If Supabase doesn't respond in 2 seconds, continue without auth
+      setLoading(false)
+    }, 2000)
+
     supabase.auth.getSession().then(({ data: { session } }) => {
+      clearTimeout(timeout)
       setSession(session)
       setUser(session?.user ?? null)
       setLoading(false)
@@ -31,6 +37,10 @@ export const AuthProvider = ({ children }) => {
           }
         })
       }
+    }).catch((error) => {
+      console.warn('Auth session check failed:', error)
+      clearTimeout(timeout)
+      setLoading(false)
     })
 
     // Listen for auth changes
@@ -47,7 +57,10 @@ export const AuthProvider = ({ children }) => {
       }
     })
 
-    return () => subscription.unsubscribe()
+    return () => {
+      clearTimeout(timeout)
+      subscription.unsubscribe()
+    }
   }, [])
 
   const signUp = async (email, password) => {

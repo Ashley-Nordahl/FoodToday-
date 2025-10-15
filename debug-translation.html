@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Debug</title>
+</head>
+<body>
+    <h1>Translation Debug Test</h1>
+    <div id="output"></div>
+    
+    <script type="module">
+        // Test the translation logic
+        const testKey = "dish.panzanella";
+        const expectedTranslation = "dishes.panzanella";
+        
+        console.log("Original key:", testKey);
+        console.log("Expected translation key:", expectedTranslation);
+        console.log("Key replacement test:", testKey.replace('dish.', ''));
+        console.log("Full translation key:", `dishes.${testKey.replace('dish.', '')}`);
+        
+        document.getElementById('output').innerHTML = `
+            <p><strong>Original key:</strong> ${testKey}</p>
+            <p><strong>Expected translation key:</strong> ${expectedTranslation}</p>
+            <p><strong>Key replacement test:</strong> ${testKey.replace('dish.', '')}</p>
+            <p><strong>Full translation key:</strong> dishes.${testKey.replace('dish.', '')}</p>
+        `;
+    </script>
+</body>
+</html>

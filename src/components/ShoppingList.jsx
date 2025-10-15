@@ -76,8 +76,15 @@ const ShoppingList = ({ recipe, onClose }) => {
 
 
   const createShoppingListText = (recipe) => {
-    let list = `🍽️ ${t('shoppingList.title')} for: ${recipe.name}\n`
-    list += `📝 ${t('recipe.description')}: ${recipe.description}\n`
+    const recipeName = recipe.name?.startsWith('dish.')
+      ? t(`dishes.${recipe.name.replace('dish.', '')}`)
+      : recipe.name
+    const recipeDescription = recipe.description?.startsWith('description.')
+      ? t(`descriptions.${recipe.description.replace('description.', '')}`)
+      : recipe.description
+    
+    let list = `🍽️ ${t('shoppingList.title')} for: ${recipeName}\n`
+    list += `📝 ${t('recipe.description')}: ${recipeDescription}\n`
     list += `⏱️ ${t('recipe.cookTime')}: ${recipe.cookTime || recipe.totalTime}\n`
     list += `👥 ${t('recipe.servings')}: ${recipe.servings}\n`
     list += `📊 ${t('recipe.difficulty')}: ${t(`difficulty.${recipe.difficulty.toLowerCase()}`)}\n\n`
@@ -126,8 +133,19 @@ const ShoppingList = ({ recipe, onClose }) => {
 
         <div className="shopping-list-content">
           <div className="recipe-info">
-            <h4>{recipe.emoji} {recipe.name}</h4>
-            <p>{recipe.description}</p>
+            <h4>
+              {recipe.emoji} {
+                recipe.name?.startsWith('dish.')
+                  ? t(`dishes.${recipe.name.replace('dish.', '')}`)
+                  : recipe.name
+              }
+            </h4>
+            <p>
+              {recipe.description?.startsWith('description.')
+                ? t(`descriptions.${recipe.description.replace('description.', '')}`)
+                : recipe.description
+              }
+            </p>
             <div className="recipe-details">
               <span>⏱️ {recipe.cookTime}</span>
               <span>👥 {recipe.servings} {t('recipe.servings')}</span>
@@ -216,7 +234,10 @@ const ShoppingList = ({ recipe, onClose }) => {
                 className="email-btn"
                 onClick={() => {
                   setShowPhoneDropdown(false) // Hide phone dropdown
-                  const subject = `${t('shoppingList.title')} for ${recipe.name}`
+                  const recipeName = recipe.name?.startsWith('dish.')
+                    ? t(`dishes.${recipe.name.replace('dish.', '')}`)
+                    : recipe.name
+                  const subject = `${t('shoppingList.title')} for ${recipeName}`
                   const body = createShoppingListText(recipe)
                   const mailtoLink = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
                   window.open(mailtoLink, '_blank')

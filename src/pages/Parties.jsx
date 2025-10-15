@@ -2,13 +2,13 @@ import { useState, useRef, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import i18n from '../i18n.js'
 import IngredientCheckbox from '../components/IngredientCheckbox.jsx'
+import { getIngredientMetadata } from '../data/ingredientRegistry.js'
 import { 
   useIngredientCategories,
   useTastePreferences,
   useCuisineStyles,
   useDiningScenarios
 } from '../data/recipes.js'
-import { generatePartyRecipes, regenerateSingleDish } from '../services/aiRecipeGenerator.js'
 import { 
   getCuisineTranslation, 
   getCookingMethodTranslation, 
@@ -16,10 +16,532 @@ import {
   getDifficultyTranslation 
 } from '../utils/recipeTranslations.js'
 
+// Helper function to get the correct emoji based on the recipe's actual category
+const getCategoryEmoji = (recipe) => {
+  if (!recipe.ingredientsWithAmounts || !Array.isArray(recipe.ingredientsWithAmounts)) {
+    return '🍽️'
+  }
+  
+  // Count ingredients by category
+  const categoryCounts = {
+    meat: 0,
+    seafood: 0,
+    vegetables: 0,
+    grains: 0,
+    egg: 0
+  }
+  
+  // Count how many ingredients belong to each category
+  recipe.ingredientsWithAmounts.forEach(ingredient => {
+    console.log(`🔍 Ingredient: "${ingredient}"`)
+    if (isIngredientInCategory(ingredient, 'meat')) {
+      categoryCounts.meat++
+      console.log(`  ✅ Categorized as meat`)
+    }
+    if (isIngredientInCategory(ingredient, 'seafood')) {
+      categoryCounts.seafood++
+      console.log(`  ✅ Categorized as seafood`)
+    }
+    if (isIngredientInCategory(ingredient, 'vegetables')) {
+      categoryCounts.vegetables++
+      console.log(`  ✅ Categorized as vegetables`)
+    }
+    if (isIngredientInCategory(ingredient, 'grains')) {
+      categoryCounts.grains++
+      console.log(`  ✅ Categorized as grains`)
+    }
+    if (isIngredientInCategory(ingredient, 'egg')) {
+      categoryCounts.egg++
+      console.log(`  ✅ Categorized as egg`)
+    }
+  })
+  
+  // Debug logging
+  console.log(`🔍 Emoji Debug - Recipe: ${recipe.name}`)
+  console.log(`🔍 Emoji Debug - Category counts:`, categoryCounts)
+  
+  // Determine the primary category based on the highest count
+  // In case of ties, prioritize: meat > seafood > vegetables > grains > egg
+  const categoryPriority = { meat: 5, seafood: 4, vegetables: 3, grains: 2, egg: 1 }
+  
+  // Find the category with the highest count
+  let maxCount = 0
+  let primaryCategory = 'vegetables' // default fallback
+  
+  Object.entries(categoryCounts).forEach(([category, count]) => {
+    if (count > maxCount) {
+      maxCount = count
+      primaryCategory = category
+    } else if (count === maxCount) {
+      // Tie-breaker: use priority order
+      if (categoryPriority[category] > categoryPriority[primaryCategory]) {
+        primaryCategory = category
+      }
+    }
+  })
+  
+  // Special logic: if we have any meat/seafood ingredients, prioritize them over vegetables
+  // This handles cases like "Pork Ribs with Black Bean Sauce" where meat should win over vegetables
+  if (categoryCounts.meat > 0 && categoryCounts.vegetables > 0 && categoryCounts.meat >= categoryCounts.vegetables) {
+    primaryCategory = 'meat'
+  }
+  if (categoryCounts.seafood > 0 && categoryCounts.vegetables > 0 && categoryCounts.seafood >= categoryCounts.vegetables) {
+    primaryCategory = 'seafood'
+  }
+  
+  // Return appropriate emoji based on primary category and subcategory
+  let emoji = '🍽️' // Default
+  switch (primaryCategory) {
+    case 'meat':
+      emoji = '🥩' // Generic meat emoji
+      break
+      
+    case 'seafood':
+      emoji = '🦞' // Generic seafood emoji
+      break
+      
+    case 'vegetables':
+      emoji = '🥬' // Generic vegetable emoji
+      break
+      
+    case 'grains':
+      emoji = '🍚' // Generic rice emoji
+      break
+      
+    case 'egg':
+      emoji = '🥚' // Egg emoji
+      break
+      
+    default:
+      emoji = '🍽️' // Default plate emoji
+  }
+  
+  console.log(`🔍 Emoji Debug - Selected emoji: ${emoji} for category: ${primaryCategory}`)
+  return emoji
+}
+
+// Helper function to check if a recipe belongs to a category based on its primary ingredients
+const isRecipeInCategory = (recipe, category) => {
+  if (!recipe.ingredientsWithAmounts || !Array.isArray(recipe.ingredientsWithAmounts)) {
+    return false
+  }
+  
+  // Count ingredients by category
+  const categoryCounts = {
+    meat: 0,
+    seafood: 0,
+    vegetables: 0,
+    grains: 0,
+    egg: 0
+  }
+  
+  // Count how many ingredients belong to each category
+  recipe.ingredientsWithAmounts.forEach(ingredient => {
+    if (isIngredientInCategory(ingredient, 'meat')) categoryCounts.meat++
+    if (isIngredientInCategory(ingredient, 'seafood')) categoryCounts.seafood++
+    if (isIngredientInCategory(ingredient, 'vegetables')) categoryCounts.vegetables++
+    if (isIngredientInCategory(ingredient, 'grains')) categoryCounts.grains++
+    if (isIngredientInCategory(ingredient, 'egg')) categoryCounts.egg++
+  })
+  
+  // Determine the primary category based on the highest count
+  // In case of ties, prioritize: meat > seafood > vegetables > grains > egg
+  const categoryPriority = { meat: 5, seafood: 4, vegetables: 3, grains: 2, egg: 1 }
+  
+  // Find the category with the highest count
+  let maxCount = 0
+  let primaryCategory = 'vegetables' // default fallback
+  
+  Object.entries(categoryCounts).forEach(([category, count]) => {
+    if (count > maxCount) {
+      maxCount = count
+      primaryCategory = category
+    } else if (count === maxCount) {
+      // Tie-breaker: use priority order
+      if (categoryPriority[category] > categoryPriority[primaryCategory]) {
+        primaryCategory = category
+      }
+    }
+  })
+  
+  // Special logic: if we have any meat/seafood ingredients, prioritize them over vegetables
+  // This handles cases like "Pork Ribs with Black Bean Sauce" where meat should win over vegetables
+  if (categoryCounts.meat > 0 && categoryCounts.vegetables > 0 && categoryCounts.meat >= categoryCounts.vegetables) {
+    primaryCategory = 'meat'
+  }
+  if (categoryCounts.seafood > 0 && categoryCounts.vegetables > 0 && categoryCounts.seafood >= categoryCounts.vegetables) {
+    primaryCategory = 'seafood'
+  }
+  
+  // Only return true if this is the PRIMARY category (highest count)
+  // This ensures each recipe is only assigned to one category
+  const result = primaryCategory === category
+  
+  // Debug logging for specific recipes
+  if (recipe.name && (recipe.name.includes('buddha') || recipe.name.includes('teriyaki') || recipe.name.includes('clam') || recipe.name.includes('hunan'))) {
+    console.log(`🔍 Debug - ${recipe.name}:`, {
+      categoryCounts,
+      primaryCategory,
+      requestedCategory: category,
+      result
+    })
+  }
+  
+  return result
+}
+
+// Helper function to check if an ingredient belongs to a category using pattern matching
+const isIngredientInCategory = (ingredientString, category) => {
+  // Handle different ingredient formats
+  let cleanIngredientId = ''
+  
+  if (typeof ingredientString === 'string') {
+    // If it contains a translation key, extract the ingredient part
+    if (ingredientString.includes('ingredient.')) {
+      const match = ingredientString.match(/ingredient\.([^\s]+)/)
+      if (match) {
+        cleanIngredientId = match[1].replace(/_/g, ' ').toLowerCase()
+      } else {
+        cleanIngredientId = ingredientString.replace('ingredient.', '').toLowerCase()
+      }
+    } else if (ingredientString.includes(' ')) {
+      // Format: "1 lb pork chops, cubed" - extract the ingredient name
+      const parts = ingredientString.split(' ')
+      if (parts.length >= 3) {
+        // Skip first two parts (amount and unit), take the rest
+        cleanIngredientId = parts.slice(2).join(' ').replace(',', '').toLowerCase()
+      } else if (parts.length === 2) {
+        // Handle cases like "Whole Chicken" or "Pork Ribs" - take both parts
+        cleanIngredientId = parts.join(' ').toLowerCase()
+      } else {
+        cleanIngredientId = ingredientString.toLowerCase()
+      }
+    } else {
+      cleanIngredientId = ingredientString.toLowerCase()
+    }
+  } else {
+    cleanIngredientId = String(ingredientString).toLowerCase()
+  }
+  
+  // First try the ingredient registry
+  let metadata = getIngredientMetadata(cleanIngredientId)
+  if (metadata) {
+    switch (category) {
+      case 'meat':
+        return metadata.category === 'Meat'
+      case 'seafood':
+        return metadata.category === 'Seafood'
+      case 'vegetables':
+        return metadata.category === 'Vegetables'
+      case 'grains':
+        return metadata.category === 'Grains' || metadata.category === 'Staples'
+      case 'egg':
+        return cleanIngredientId.includes('egg')
+      default:
+        return false
+    }
+  }
+  
+  // If not in registry, use pattern matching
+  switch (category) {
+    case 'meat':
+      return cleanIngredientId.includes('chicken') || 
+             cleanIngredientId.includes('pork') || 
+             cleanIngredientId.includes('beef') || 
+             cleanIngredientId.includes('lamb') || 
+             cleanIngredientId.includes('duck') || 
+             cleanIngredientId.includes('turkey') ||
+             cleanIngredientId.includes('bacon') ||
+             cleanIngredientId.includes('ham') ||
+             cleanIngredientId.includes('sausage') ||
+             cleanIngredientId.includes('steak') ||
+             cleanIngredientId.includes('chop') ||
+             cleanIngredientId.includes('rib') ||
+             cleanIngredientId.includes('ribs') ||
+             cleanIngredientId.includes('tenderloin') ||
+             cleanIngredientId.includes('breast') ||
+             cleanIngredientId.includes('thigh') ||
+             cleanIngredientId.includes('wing') ||
+             cleanIngredientId.includes('ground') ||
+             // Chinese meat terms
+             cleanIngredientId.includes('排骨') || // pork ribs
+             cleanIngredientId.includes('猪肉') || // pork
+             cleanIngredientId.includes('牛肉') || // beef
+             cleanIngredientId.includes('鸡肉') || // chicken
+             cleanIngredientId.includes('羊肉') || // lamb
+             cleanIngredientId.includes('鸭肉') || // duck
+             cleanIngredientId.includes('肉') || // meat (general)
+             cleanIngredientId.includes('培根') || // bacon
+             cleanIngredientId.includes('火腿') || // ham
+             cleanIngredientId.includes('香肠') // sausage
+             
+    case 'seafood':
+      return cleanIngredientId.includes('fish') || 
+             cleanIngredientId.includes('salmon') || 
+             cleanIngredientId.includes('tuna') || 
+             cleanIngredientId.includes('shrimp') || 
+             cleanIngredientId.includes('crab') || 
+             cleanIngredientId.includes('lobster') ||
+             cleanIngredientId.includes('clam') ||
+             cleanIngredientId.includes('mussel') ||
+             cleanIngredientId.includes('oyster') ||
+             cleanIngredientId.includes('scallop') ||
+             cleanIngredientId.includes('squid') ||
+             cleanIngredientId.includes('octopus') ||
+             cleanIngredientId.includes('seabass') ||
+             cleanIngredientId.includes('cod') ||
+             cleanIngredientId.includes('halibut') ||
+             cleanIngredientId.includes('seafood')
+             
+    case 'vegetables':
+      return cleanIngredientId.includes('onion') || 
+             cleanIngredientId.includes('garlic') || 
+             cleanIngredientId.includes('tomato') || 
+             cleanIngredientId.includes('pepper') || 
+             cleanIngredientId.includes('carrot') || 
+             cleanIngredientId.includes('celery') ||
+             cleanIngredientId.includes('cabbage') ||
+             cleanIngredientId.includes('lettuce') ||
+             cleanIngredientId.includes('spinach') ||
+             cleanIngredientId.includes('broccoli') ||
+             cleanIngredientId.includes('cauliflower') ||
+             cleanIngredientId.includes('mushroom') ||
+             cleanIngredientId.includes('potato') ||
+             cleanIngredientId.includes('sweetpotato') ||
+             cleanIngredientId.includes('bean') ||
+             cleanIngredientId.includes('pea') ||
+             cleanIngredientId.includes('corn') ||
+             cleanIngredientId.includes('cucumber') ||
+             cleanIngredientId.includes('zucchini') ||
+             cleanIngredientId.includes('eggplant') ||
+             cleanIngredientId.includes('olive') ||
+             cleanIngredientId.includes('lemon') ||
+             cleanIngredientId.includes('lime') ||
+             cleanIngredientId.includes('ginger') ||
+             cleanIngredientId.includes('bamboo') ||
+             cleanIngredientId.includes('sprout') ||
+             cleanIngredientId.includes('herb') ||
+             cleanIngredientId.includes('basil') ||
+             cleanIngredientId.includes('parsley') ||
+             cleanIngredientId.includes('cilantro') ||
+             cleanIngredientId.includes('thyme') ||
+             cleanIngredientId.includes('oregano') ||
+             cleanIngredientId.includes('rosemary') ||
+             cleanIngredientId.includes('sage') ||
+             cleanIngredientId.includes('mint') ||
+             cleanIngredientId.includes('dill') ||
+             cleanIngredientId.includes('chive') ||
+             cleanIngredientId.includes('scallion') ||
+             cleanIngredientId.includes('greenonion') ||
+             cleanIngredientId.includes('shallot') ||
+             cleanIngredientId.includes('leek') ||
+             cleanIngredientId.includes('radish') ||
+             cleanIngredientId.includes('turnip') ||
+             cleanIngredientId.includes('beet') ||
+             cleanIngredientId.includes('asparagus') ||
+             cleanIngredientId.includes('artichoke') ||
+             cleanIngredientId.includes('avocado') ||
+             cleanIngredientId.includes('squash') ||
+             cleanIngredientId.includes('pumpkin') ||
+             cleanIngredientId.includes('kale') ||
+             cleanIngredientId.includes('chard') ||
+             cleanIngredientId.includes('arugula') ||
+             cleanIngredientId.includes('endive') ||
+             cleanIngredientId.includes('fennel') ||
+             cleanIngredientId.includes('parsnip') ||
+             cleanIngredientId.includes('rutabaga') ||
+             cleanIngredientId.includes('jicama') ||
+             cleanIngredientId.includes('daikon') ||
+             cleanIngredientId.includes('bokchoy') ||
+             cleanIngredientId.includes('napa') ||
+             cleanIngredientId.includes('watercress') ||
+             cleanIngredientId.includes('arugula')
+             
+    case 'grains':
+      return cleanIngredientId.includes('rice') || 
+             cleanIngredientId.includes('noodle') || 
+             cleanIngredientId.includes('pasta') || 
+             cleanIngredientId.includes('bread') || 
+             cleanIngredientId.includes('flour') || 
+             cleanIngredientId.includes('wheat') ||
+             cleanIngredientId.includes('oats') ||
+             cleanIngredientId.includes('barley') ||
+             cleanIngredientId.includes('quinoa') ||
+             cleanIngredientId.includes('couscous') ||
+             cleanIngredientId.includes('bulgur') ||
+             cleanIngredientId.includes('millet') ||
+             cleanIngredientId.includes('buckwheat') ||
+             cleanIngredientId.includes('rye') ||
+             cleanIngredientId.includes('cornmeal') ||
+             cleanIngredientId.includes('polenta') ||
+             cleanIngredientId.includes('tortilla') ||
+             cleanIngredientId.includes('wrap') ||
+             cleanIngredientId.includes('pita') ||
+             cleanIngredientId.includes('naan') ||
+             cleanIngredientId.includes('bagel') ||
+             cleanIngredientId.includes('muffin') ||
+             cleanIngredientId.includes('cracker') ||
+             cleanIngredientId.includes('cereal') ||
+             cleanIngredientId.includes('granola') ||
+             cleanIngredientId.includes('hominy') ||
+             cleanIngredientId.includes('grits')
+             
+    case 'egg':
+      return cleanIngredientId.includes('egg')
+      
+    default:
+      return false
+  }
+}
+
+// Real recipe generator using the actual recipe database
+const generatePartyRecipes = async (selections, language) => {
+  // Get real recipes from the database
+  const currentLanguage = language || 'en'
+  const recipes = i18n.getResourceBundle(currentLanguage, 'recipes') || { cultural: {}, basic: {}, metadata: {} }
+  const culturalRecipes = recipes.cultural || {}
+  
+  // Collect all complete recipes from all cuisines
+  const allRecipes = []
+  Object.entries(culturalRecipes).forEach(([cuisineName, cuisineRecipes]) => {
+    if (Array.isArray(cuisineRecipes)) {
+      cuisineRecipes.forEach(recipe => {
+        if (recipe.ingredientsWithAmounts && 
+            recipe.instructions && 
+            Array.isArray(recipe.ingredientsWithAmounts) && 
+            Array.isArray(recipe.instructions) &&
+            recipe.ingredientsWithAmounts.length > 0 &&
+            recipe.instructions.length > 0) {
+          allRecipes.push({
+            ...recipe,
+            cuisine: cuisineName
+          })
+        }
+      })
+    }
+  })
+  
+  // Generate dishes based on the specific category requirements
+  const selectedCategories = selections.dishCategories || []
+  const generatedDishes = []
+  
+  // Debug logging
+  console.log('🔍 Debug - selectedCategories:', selectedCategories)
+  console.log('🔍 Debug - allRecipes count:', allRecipes.length)
+  
+  if (selectedCategories.length > 0) {
+    // Count how many dishes we need for each category
+    const categoryCounts = {}
+    selectedCategories.forEach(category => {
+      if (category) {
+        categoryCounts[category] = (categoryCounts[category] || 0) + 1
+      }
+    })
+    
+    console.log('🔍 Debug - categoryCounts:', categoryCounts)
+    console.log('🔍 Debug - Expected: 2 meat, 1 seafood, 1 vegetable')
+    
+    // Generate the required number of dishes for each category
+    Object.entries(categoryCounts).forEach(([category, count]) => {
+      console.log(`🔍 Debug - Processing category: ${category}, count: ${count}`)
+      
+      // Filter recipes that contain ingredients from this specific category
+      // Use a more sophisticated categorization that considers the primary ingredient
+      const categoryRecipes = allRecipes.filter(recipe => {
+        return isRecipeInCategory(recipe, category)
+      })
+      
+      console.log(`🔍 Debug - Found ${categoryRecipes.length} recipes for category: ${category}`)
+      if (categoryRecipes.length > 0) {
+        console.log(`🔍 Debug - Sample recipes for ${category}:`, categoryRecipes.slice(0, 3).map(r => r.name))
+        if (category === 'vegetables') {
+          console.log(`🔍 Debug - First 5 vegetable recipes:`, categoryRecipes.slice(0, 5).map(r => ({ name: r.name, ingredients: r.ingredients })))
+        }
+      }
+      
+      // If no recipes match this category, skip this category instead of falling back
+      if (categoryRecipes.length === 0) {
+        console.log(`⚠️ Warning - No recipes found for category: ${category}, skipping`)
+        return
+      }
+      
+      // Shuffle and select the required number of recipes for this category
+      const shuffled = [...categoryRecipes].sort(() => Math.random() - 0.5)
+      const selectedRecipes = shuffled.slice(0, count)
+      
+      console.log(`🔍 Debug - Selected ${selectedRecipes.length} recipes for category: ${category}`)
+      console.log(`🔍 Debug - Recipe names:`, selectedRecipes.map(r => r.name))
+      
+      generatedDishes.push(...selectedRecipes)
+    })
+  } else {
+    console.log('🔍 Debug - No categories selected, using random recipes')
+    // If no specific categories selected, return random recipes
+    const shuffled = [...allRecipes].sort(() => Math.random() - 0.5)
+    generatedDishes.push(...shuffled.slice(0, selections.numberOfDishes))
+  }
+  
+  console.log('🔍 Debug - Final generatedDishes count:', generatedDishes.length)
+  console.log('🔍 Debug - Final recipe names:', generatedDishes.map(r => r.name))
+  
+  return generatedDishes
+}
+
+const regenerateSingleDish = async (category, otherDishes, selectedCuisine, selectedTastes, language) => {
+  // Get real recipes from the database
+  const currentLanguage = language || 'en'
+  const recipes = i18n.getResourceBundle(currentLanguage, 'recipes') || { cultural: {}, basic: {}, metadata: {} }
+  const culturalRecipes = recipes.cultural || {}
+  
+  // Collect all complete recipes from all cuisines
+  const allRecipes = []
+  Object.entries(culturalRecipes).forEach(([cuisineName, cuisineRecipes]) => {
+    if (Array.isArray(cuisineRecipes)) {
+      cuisineRecipes.forEach(recipe => {
+        if (recipe.ingredientsWithAmounts && 
+            recipe.instructions && 
+            Array.isArray(recipe.ingredientsWithAmounts) && 
+            Array.isArray(recipe.instructions) &&
+            recipe.ingredientsWithAmounts.length > 0 &&
+            recipe.instructions.length > 0) {
+          allRecipes.push({
+            ...recipe,
+            cuisine: cuisineName
+          })
+        }
+      })
+    }
+  })
+  
+  // Filter recipes that match the specific category
+  let categoryRecipes = allRecipes.filter(recipe => {
+    return isRecipeInCategory(recipe, category)
+  })
+  
+  // If no recipes match this category, return null instead of falling back
+  if (categoryRecipes.length === 0) {
+    console.log(`⚠️ Warning - No recipes found for category: ${category} in regenerateSingleDish`)
+    return null
+  }
+  
+  // Filter out recipes that are already in otherDishes to avoid duplicates
+  const otherDishIds = otherDishes.map(dish => dish.id)
+  const availableRecipes = categoryRecipes.filter(recipe => 
+    !otherDishIds.includes(recipe.id)
+  )
+  
+  // If no unique recipes available, use all category recipes
+  const recipesToChooseFrom = availableRecipes.length > 0 ? availableRecipes : categoryRecipes
+  
+  // Return a random recipe from the available recipes
+  const randomIndex = Math.floor(Math.random() * recipesToChooseFrom.length)
+  return recipesToChooseFrom[randomIndex]
+}
+
 function Parties() {
   const { t, i18n } = useTranslation()
 
-  // Get party data from new party data structure (REACTIVE)
+  // Get party data from proper data structure (RESTORED)
   const ingredientCategories = useIngredientCategories()
   const tastePreferences = useTastePreferences()
   const cuisineStyles = useCuisineStyles()
@@ -88,7 +610,12 @@ function Parties() {
 
   // Always reinitialize checkboxes when shopping list is opened (all checked by default)
   useEffect(() => {
+    console.log('🔍 Shopping List Debug - useEffect triggered')
+    console.log('🔍 Shopping List Debug - showShoppingList:', showShoppingList)
+    console.log('🔍 Shopping List Debug - generatedDishes:', generatedDishes)
+    
     if (showShoppingList && generatedDishes) {
+      console.log('🔍 Shopping List Debug - Initializing checkboxes')
       initializeIngredientCheckboxes(generatedDishes.dishes)
     }
   }, [showShoppingList, generatedDishes])
@@ -166,11 +693,38 @@ function Parties() {
     
     // Collect all unique ingredient names
     dishes.forEach((dish) => {
-      dish.ingredientsWithAmounts.forEach(ingredient => {
-        ingredientSet.add(ingredient.ingredient)
-      })
+      if (dish.ingredientsWithAmounts && Array.isArray(dish.ingredientsWithAmounts)) {
+        dish.ingredientsWithAmounts.forEach(ingredientString => {
+          // Extract ingredient name from string like "1 lb pork chops, cubed"
+          // or handle translation keys like "2 ingredient.bell_peppers_sliced"
+          let ingredientName = ingredientString
+          
+          if (typeof ingredientString === 'string') {
+            // If it contains a translation key, extract the ingredient part
+            if (ingredientString.includes('ingredient.')) {
+              const match = ingredientString.match(/ingredient\.([^\s]+)/)
+              if (match) {
+                ingredientName = match[1].replace(/_/g, ' ')
+              }
+            } else {
+              // Extract ingredient name from amount string like "1 lb pork chops, cubed"
+              const parts = ingredientString.split(' ')
+              if (parts.length >= 3) {
+                // Skip amount and unit, take the rest
+                ingredientName = parts.slice(2).join(' ').replace(',', '').trim()
+              } else if (parts.length === 2) {
+                // Handle cases like "Whole Chicken"
+                ingredientName = parts.join(' ')
+              }
+            }
+          }
+          
+          ingredientSet.add(ingredientName)
+        })
+      }
     })
     
+    console.log('🔍 Shopping List Debug - Initialized ingredients:', Array.from(ingredientSet))
     setCheckedIngredients(ingredientSet) // All ingredients start checked
   }
 
@@ -215,13 +769,18 @@ function Parties() {
     
     try {
     const selections = {
-        dishCategories: dishCategories.filter(cat => cat !== null),
+        dishCategories: dishCategories.filter(cat => cat !== null).map(cat => cat.value),
       tastePreferences: selectedTastes,
       cuisineStyle: selectedCuisine,
         diningScenario: selectedScenario,
         numberOfDishes: numberOfDishes
       }
 
+      // Debug logging
+      console.log('🔍 Debug - dishCategories state:', dishCategories)
+      console.log('🔍 Debug - filtered dishCategories:', dishCategories.filter(cat => cat !== null))
+      console.log('🔍 Debug - mapped dishCategories:', dishCategories.filter(cat => cat !== null).map(cat => cat.value))
+      console.log('🔍 Debug - selections:', selections)
       
       const recipes = await generatePartyRecipes(selections, i18n.language)
       
@@ -310,7 +869,11 @@ function Parties() {
 
   // Shopping list handlers
   const handleShowShoppingList = () => {
+    console.log('🔍 Shopping List Debug - Button clicked')
+    console.log('🔍 Shopping List Debug - generatedDishes:', generatedDishes)
+    console.log('🔍 Shopping List Debug - showShoppingList before:', showShoppingList)
     setShowShoppingList(true)
+    console.log('🔍 Shopping List Debug - setShowShoppingList(true) called')
   }
 
   const handleCloseShoppingList = () => {
@@ -323,13 +886,20 @@ function Parties() {
     
     list += `🍳 ${t('shoppingList.menu')}:\n`
     generatedDishes.dishes.forEach((dish, index) => {
-      list += `${index + 1}. ${dish.emoji} ${dish.name}\n`
+      const dishName = dish.name?.startsWith('dish.')
+        ? t(`dishes.${dish.name.replace('dish.', '')}`)
+        : dish.name
+      list += `${index + 1}. ${getCategoryEmoji(dish)} ${dishName}\n`
     })
     
     list += `\n🛒 ${t('shoppingList.ingredientsNeeded')}:\n`
     
     // Helper function to parse and sum amounts (same as UI)
     const parseAmount = (amountStr) => {
+      // Safety check for undefined/null values
+      if (!amountStr || typeof amountStr !== 'string') {
+        return 0
+      }
       // Extract number from amount string (e.g., "3瓣" -> 3, "500g" -> 500)
       const match = amountStr.match(/(\d+(?:\.\d+)?)/)
       return match ? parseFloat(match[1]) : 0
@@ -345,20 +915,50 @@ function Parties() {
     const ingredientMap = new Map()
     
     generatedDishes.dishes.forEach((dish, dishIndex) => {
-      dish.ingredientsWithAmounts.forEach(ingredient => {
-        const key = ingredient.ingredient
+      dish.ingredientsWithAmounts.forEach(ingredientString => {
+        // Parse ingredient string like "1 lb pork chops, cubed"
+        let ingredientName = ingredientString
+        let amount = ingredientString
+        
+        if (typeof ingredientString === 'string') {
+          // If it contains a translation key, extract the ingredient part
+          if (ingredientString.includes('ingredient.')) {
+            const match = ingredientString.match(/ingredient\.([^\s]+)/)
+            if (match) {
+              ingredientName = match[1].replace(/_/g, ' ')
+              // Extract amount from the beginning of the string
+              const amountMatch = ingredientString.match(/^(\d+(?:\.\d+)?\s*\w*)/)
+              amount = amountMatch ? amountMatch[1] : ingredientString
+            }
+          } else {
+            // Extract ingredient name from amount string like "1 lb pork chops, cubed"
+            const parts = ingredientString.split(' ')
+            if (parts.length >= 3) {
+              // Skip amount and unit, take the rest
+              ingredientName = parts.slice(2).join(' ').replace(',', '').trim()
+              // Extract just the amount and unit (first two parts)
+              amount = parts.slice(0, 2).join(' ')
+            } else if (parts.length === 2) {
+              // Handle cases like "Whole Chicken"
+              ingredientName = parts.join(' ')
+              amount = ingredientString
+            }
+          }
+        }
+        
+        const key = ingredientName
         if (ingredientMap.has(key)) {
           const existing = ingredientMap.get(key)
           existing.dishes.push(dishIndex + 1) // 1-based numbering
           // Parse and sum amounts
-          const currentAmount = parseAmount(ingredient.amount)
+          const currentAmount = parseAmount(amount)
           const existingAmount = parseAmount(existing.totalAmount)
-          const unit = getUnit(ingredient.amount) || getUnit(existing.totalAmount)
+          const unit = getUnit(amount) || getUnit(existing.totalAmount)
           existing.totalAmount = `${existingAmount + currentAmount}${unit}`
         } else {
           ingredientMap.set(key, {
-            ingredient: ingredient.ingredient,
-            totalAmount: ingredient.amount,
+            ingredient: ingredientName,
+            totalAmount: amount,
             dishes: [dishIndex + 1]
           })
         }
@@ -577,10 +1177,25 @@ function Parties() {
             {generatedDishes.dishes.map((dish, index) => (
               <div key={index} className="dish-item">
                 <div className="dish-number">{index + 1}</div>
-                <div className="dish-emoji">{dish.emoji || '🍽️'}</div>
+                <div className="dish-emoji">{getCategoryEmoji(dish) || '🍽️'}</div>
                 <div className="dish-details">
-                  <div className="dish-name">{dish.name}</div>
-                  <div className="dish-category">{getCuisineTranslation(dish.cuisine, i18n.language)} • {getCookingMethodTranslation(dish.cookingMethod, i18n.language)} • {getCookingTimeTranslation(dish.cookingTime, i18n.language)}</div>
+                  <div className="dish-name">
+                    {dish.name?.startsWith('dish.')
+                      ? t(`dishes.${dish.name.replace('dish.', '')}`)
+                      : dish.name}
+                  </div>
+                  {dish.description && (
+                    <div className="dish-description">
+                      {dish.description?.startsWith('description.')
+                        ? t(`descriptions.${dish.description.replace('description.', '')}`)
+                        : dish.description}
+                    </div>
+                  )}
+                  <div className="dish-category">
+                    {dish.cuisine && getCuisineTranslation(dish.cuisine.toLowerCase(), i18n.language)}
+                    {dish.total_time && ` • ${dish.total_time}`}
+                    {dish.difficulty && ` • ${dish.difficulty}`}
+                  </div>
                 </div>
                 <div className="dish-actions-inline">
                   <button 
@@ -637,12 +1252,18 @@ function Parties() {
               ✕
             </button>
             <div className="recipe-modal-header">
-              <h2>{selectedRecipe.name}</h2>
+              <h2>
+                {selectedRecipe.name?.startsWith('dish.')
+                  ? t(`dishes.${selectedRecipe.name.replace('dish.', '')}`)
+                  : selectedRecipe.name}
+              </h2>
               <div className="recipe-info">
-                <span>🌍 {getCuisineTranslation(selectedRecipe.cuisine, i18n.language)}</span>
-                <span>👨‍🍳 {getCookingMethodTranslation(selectedRecipe.cookingMethod, i18n.language)}</span>
-                <span>⏱️ {getCookingTimeTranslation(selectedRecipe.cookingTime, i18n.language)}</span>
-                <span>📊 {getDifficultyTranslation(selectedRecipe.difficulty, i18n.language)}</span>
+                {selectedRecipe.cuisine && <span>🌍 {getCuisineTranslation(selectedRecipe.cuisine.toLowerCase(), i18n.language)}</span>}
+                {selectedRecipe.prep_time && <span>⏱️ Prep: {selectedRecipe.prep_time}</span>}
+                {selectedRecipe.cook_time && <span>🔥 Cook: {selectedRecipe.cook_time}</span>}
+                {selectedRecipe.total_time && <span>⏳ Total: {selectedRecipe.total_time}</span>}
+                {selectedRecipe.difficulty && <span>📊 {selectedRecipe.difficulty}</span>}
+                {selectedRecipe.servings && <span>🍽️ {selectedRecipe.servings} servings</span>}
               </div>
             </div>
             
@@ -650,12 +1271,34 @@ function Parties() {
               <div className="recipe-section">
                 <h3>📋 {t('parties.ingredients')}</h3>
                 <ul className="recipe-ingredients">
-                  {selectedRecipe.ingredientsWithAmounts.map((ingredient, index) => (
-                    <li key={index}>
-                      <span className="ingredient-amount">{ingredient.amount}</span>
-                      <span className="ingredient-name"> {ingredient.ingredient}</span>
-                    </li>
-                  ))}
+                  {selectedRecipe.ingredientsWithAmounts.map((ingredient, index) => {
+                    // Handle real recipe database format (array of strings)
+                    if (typeof ingredient === 'string' && ingredient.includes(' ')) {
+                      // Handle "2 ingredient.bell_peppers_sliced" format - split amount and ingredient
+                      const parts = ingredient.split(' ')
+                      const amount = parts[0]
+                      const ingredientName = parts.slice(1).join(' ')
+                      const translatedName = ingredientName?.startsWith('ingredient.')
+                        ? t(`ingredients.${ingredientName.replace('ingredient.', '')}`)
+                        : ingredientName
+                      return (
+                        <li key={index}>
+                          <span className="ingredient-amount">{amount}</span>
+                          <span className="ingredient-name"> {translatedName}</span>
+                        </li>
+                      )
+                    } else {
+                      // Handle direct ingredient keys or other formats
+                      const displayText = ingredient?.startsWith('ingredient.')
+                        ? t(`ingredients.${ingredient.replace('ingredient.', '')}`)
+                        : ingredient
+                      return (
+                        <li key={index}>
+                          <span className="ingredient-name">{displayText}</span>
+                        </li>
+                      )
+                    }
+                  })}
                 </ul>
               </div>
               
@@ -710,7 +1353,9 @@ function Parties() {
                   {generatedDishes.dishes.map((dish, index) => (
                     <div key={index} className="menu-item">
                       <span className="dish-number">{index + 1}</span>
-                      {dish.emoji} {dish.name}
+                      {getCategoryEmoji(dish)} {dish.name?.startsWith('dish.')
+                        ? t(`dishes.${dish.name.replace('dish.', '')}`)
+                        : dish.name}
                     </div>
                   ))}
                 </div>
@@ -722,6 +1367,10 @@ function Parties() {
                   {(() => {
                     // Helper function to parse and sum amounts
                     const parseAmount = (amountStr) => {
+                      // Safety check for undefined/null values
+                      if (!amountStr || typeof amountStr !== 'string') {
+                        return 0
+                      }
                       // Extract number from amount string (e.g., "3瓣" -> 3, "500g" -> 500)
                       const match = amountStr.match(/(\d+(?:\.\d+)?)/)
                       return match ? parseFloat(match[1]) : 0
@@ -737,20 +1386,50 @@ function Parties() {
                     const ingredientMap = new Map()
                     
                     generatedDishes.dishes.forEach((dish, dishIndex) => {
-                      dish.ingredientsWithAmounts.forEach(ingredient => {
-                        const key = ingredient.ingredient
+                      dish.ingredientsWithAmounts.forEach(ingredientString => {
+                        // Parse ingredient string like "1 lb pork chops, cubed"
+                        let ingredientName = ingredientString
+                        let amount = ingredientString
+                        
+                        if (typeof ingredientString === 'string') {
+                          // If it contains a translation key, extract the ingredient part
+                          if (ingredientString.includes('ingredient.')) {
+                            const match = ingredientString.match(/ingredient\.([^\s]+)/)
+                            if (match) {
+                              ingredientName = match[1].replace(/_/g, ' ')
+                              // Extract amount from the beginning of the string
+                              const amountMatch = ingredientString.match(/^(\d+(?:\.\d+)?\s*\w*)/)
+                              amount = amountMatch ? amountMatch[1] : ingredientString
+                            }
+                          } else {
+                            // Extract ingredient name from amount string like "1 lb pork chops, cubed"
+                            const parts = ingredientString.split(' ')
+                            if (parts.length >= 3) {
+                              // Skip amount and unit, take the rest
+                              ingredientName = parts.slice(2).join(' ').replace(',', '').trim()
+                              // Extract just the amount and unit (first two parts)
+                              amount = parts.slice(0, 2).join(' ')
+                            } else if (parts.length === 2) {
+                              // Handle cases like "Whole Chicken"
+                              ingredientName = parts.join(' ')
+                              amount = ingredientString
+                            }
+                          }
+                        }
+                        
+                        const key = ingredientName
                         if (ingredientMap.has(key)) {
                           const existing = ingredientMap.get(key)
                           existing.dishes.push(dishIndex)
                           // Parse and sum amounts
-                          const currentAmount = parseAmount(ingredient.amount)
+                          const currentAmount = parseAmount(amount)
                           const existingAmount = parseAmount(existing.totalAmount)
-                          const unit = getUnit(ingredient.amount) || getUnit(existing.totalAmount)
+                          const unit = getUnit(amount) || getUnit(existing.totalAmount)
                           existing.totalAmount = `${existingAmount + currentAmount}${unit}`
-      } else {
+                        } else {
                           ingredientMap.set(key, {
-                            ingredient: ingredient.ingredient,
-                            totalAmount: ingredient.amount,
+                            ingredient: ingredientName,
+                            totalAmount: amount,
                             dishes: [dishIndex]
                           })
                         }

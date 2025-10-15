@@ -45,10 +45,10 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
       return ingredient.id // Fallback to ID
     }
     
-    const translated = t(`ingredients.${ingredient.id}`)
+    const translated = t(ingredient.id, { ns: 'ingredients' })
     
     // If translation missing, log warning
-    if (translated === `ingredients.${ingredient.id}`) {
+    if (translated === ingredient.id) {
       return ingredient.id // Fallback to ID
     }
     
@@ -57,9 +57,9 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
 
   // Helper function to get translated category name
   const getTranslatedCategoryName = (category) => {
-    const key = category.toLowerCase()
-    const translated = t(`ingredients.categories.${key}`)
-    return translated !== `ingredients.categories.${key}` ? translated : category
+    const key = `categories.${category.toLowerCase()}`
+    const translated = t(key, { ns: 'ingredients' })
+    return translated !== key ? translated : category
   }
 
   // Helper function to get translated cuisine name
@@ -96,8 +96,8 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
     }
     
     const key = subcategoryMap[subcategory] || subcategory.toLowerCase().replace(/\s+/g, '')
-    const translated = t(`ingredients.subcategories.${key}`)
-    return translated !== `ingredients.subcategories.${key}` ? translated : subcategory
+    const translated = t(`subcategories.${key}`, { ns: 'ingredients' })
+    return translated !== `subcategories.${key}` ? translated : subcategory
   }
   const [dynamicIngredients, setDynamicIngredients] = useState(() => {
     // Load saved ingredients from localStorage on component mount
@@ -267,6 +267,12 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
     setNewIngredientName(prev => ({ ...prev, [`${category}-${subcategory}`]: '' }))
   }
 
+  const handleGenerate = () => {
+    if (selectedIngredients.length > 0 && onGenerate) {
+      onGenerate(selectedIngredients)
+    }
+  }
+
   const handleDeleteIngredient = (ingredient, category, subcategory = null) => {
     setDynamicIngredients(prev => {
       let updated
@@ -336,12 +342,6 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
     
     // Also remove from selected ingredients if it was selected
     setSelectedIngredients(prev => prev.filter(item => item.id !== ingredient.id))
-  }
-
-  const handleGenerate = () => {
-    if (selectedIngredients.length > 0) {
-      onGenerate(selectedIngredients)
-    }
   }
 
   return (

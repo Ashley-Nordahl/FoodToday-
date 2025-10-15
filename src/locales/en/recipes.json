@@ -1578,7 +1578,7 @@
         ],
         "servings": 4,
         "difficulty": "Medium",
-        "emoji": "🧄",
+        "emoji": "🥩",
         "tags": [
           "korean",
           "ribs",
@@ -1594,15 +1594,13 @@
         "description": "description.description_japchae",
         "ingredients": [
           "ingredient.glassnoodles",
-          "ingredient.beef",
           "ingredient.vegetables",
           "ingredient.soysauce",
           "ingredient.sesameoil"
         ],
         "ingredientsWithAmounts": [
           "8 oz glass noodles",
-          "1/2 lb beef",
-          "Mixed vegetables",
+          "Mixed vegetables (carrots, spinach, mushrooms, bell peppers)",
           "1/4 cup soy sauce",
           "2 tbsp sesame oil",
           "2 tbsp sugar",
@@ -1610,8 +1608,7 @@
         ],
         "instructions": [
           "Soak noodles in warm water",
-          "Slice beef and vegetables",
-          "Cook beef and set aside",
+          "Slice vegetables into thin strips",
           "Stir-fry vegetables separately",
           "Cook noodles until tender",
           "Mix everything together",
@@ -2258,7 +2255,7 @@
         ],
         "servings": 4,
         "difficulty": "Medium",
-        "emoji": "🍅",
+        "emoji": "🍕",
         "tags": [
           "italian"
         ],
@@ -2298,7 +2295,7 @@
         ],
         "servings": 4,
         "difficulty": "Hard",
-        "emoji": "🍅",
+        "emoji": "🥩",
         "prep_time": "180 min",
         "cook_time": "180 min",
         "total_time": "180 min"
@@ -2483,7 +2480,7 @@
         ],
         "servings": 4,
         "difficulty": "Easy",
-        "emoji": "🧄",
+        "emoji": "🍝",
         "prep_time": "20 min",
         "cook_time": "20 min",
         "total_time": "20 min"
@@ -2705,7 +2702,7 @@
         ],
         "servings": 4,
         "difficulty": "Medium",
-        "emoji": "🍅",
+        "emoji": "🐟",
         "prep_time": "45 min",
         "cook_time": "45 min",
         "total_time": "45 min"
@@ -3208,7 +3205,7 @@
         ],
         "servings": 4,
         "difficulty": "Medium",
-        "emoji": "🧄",
+        "emoji": "🐌",
         "tags": [
           "french",
           "appetizer",
@@ -3661,7 +3658,7 @@
         ],
         "servings": 4,
         "difficulty": "Easy",
-        "emoji": "🍅",
+        "emoji": "🌾",
         "tags": [
           "indian",
           "vegetarian",
@@ -3741,7 +3738,7 @@
         ],
         "servings": 4,
         "difficulty": "Easy",
-        "emoji": "🍅",
+        "emoji": "🥬",
         "tags": [
           "indian",
           "vegetarian",
@@ -4315,7 +4312,7 @@
         ],
         "servings": 4,
         "difficulty": "Easy",
-        "emoji": "🍅",
+        "emoji": "🥬",
         "tags": [
           "thai",
           "salad",
@@ -5059,7 +5056,7 @@
         ],
         "servings": 4,
         "difficulty": "Easy",
-        "emoji": "🍅",
+        "emoji": "🥑",
         "tags": [
           "mexican",
           "dip",
@@ -6318,7 +6315,7 @@
         ],
         "servings": 4,
         "difficulty": "Easy",
-        "emoji": "🍅",
+        "emoji": "🧀",
         "tags": [
           "greek",
           "salad",
@@ -6363,16 +6360,37 @@
         "description": "description.description_keftedes",
         "ingredients": [
           "ingredient.groundbeef",
-          "ingredient.herbs"
+          "ingredient.onion",
+          "ingredient.garlic",
+          "ingredient.breadcrumbs",
+          "ingredient.eggs",
+          "ingredient.oregano",
+          "ingredient.mint",
+          "ingredient.parsley",
+          "ingredient.oliveoil"
         ],
         "ingredientsWithAmounts": [
           "1.5 lb ground beef",
-          "Fresh herbs"
+          "1 large onion, grated",
+          "3 cloves garlic, minced",
+          "1/2 cup breadcrumbs",
+          "2 eggs, beaten",
+          "2 tbsp fresh oregano, chopped",
+          "2 tbsp fresh mint, chopped",
+          "1/4 cup fresh parsley, chopped",
+          "1/4 cup olive oil",
+          "Salt and pepper to taste"
         ],
         "instructions": [
-          "Mix ingredients",
-          "Form balls",
-          "Fry"
+          "Grate the onion and squeeze out excess moisture",
+          "In a large bowl, combine ground beef, grated onion, garlic, and herbs",
+          "Add breadcrumbs, beaten eggs, salt, and pepper",
+          "Mix everything together until well combined",
+          "Cover and refrigerate for 30 minutes to firm up",
+          "Shape mixture into small balls (about 1.5 inches)",
+          "Heat olive oil in a large skillet over medium heat",
+          "Fry meatballs in batches until golden brown and cooked through",
+          "Drain on paper towels and serve hot"
         ],
         "servings": 4,
         "difficulty": "Medium",
@@ -6463,7 +6481,7 @@
         ],
         "servings": 4,
         "difficulty": "Easy",
-        "emoji": "🍅",
+        "emoji": "🥬",
         "tags": [
           "greek",
           "salad",

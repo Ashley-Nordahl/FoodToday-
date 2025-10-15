@@ -7,6 +7,9 @@ export default defineConfig({
     port: 5173,
     strictPort: false,
     open: false
+  },
+  resolve: {
+    dedupe: ['react', 'react-dom']
   }
 })
 
