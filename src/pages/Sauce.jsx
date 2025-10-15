@@ -189,55 +189,42 @@ function Sauce() {
       
       setRollResult(randomSauce)
       
-      console.log('=== DIE ROLL DEBUG ===')
-      console.log('Selected sauce:', randomSauce.name, 'ID:', randomSauce.id)
-      
-      // Wait for rendering (like Drink page)
+      // Wait for rendering and DOM updates
       setTimeout(() => {
-        const selectedSauceElement = document.querySelector(`[data-sauce-id="${randomSauce.id}"]`)
-        console.log('Found element for ID', randomSauce.id, ':', selectedSauceElement)
-        
-        if (selectedSauceElement) {
-          const rect = selectedSauceElement.getBoundingClientRect()
-          const containerRect = document.querySelector('.die-container').getBoundingClientRect()
+        // Try multiple times to find the element as DOM might still be updating
+        const findElement = (attempts = 0) => {
+          const selectedSauceElement = document.querySelector(`[data-sauce-id="${randomSauce.id}"]`)
           
-          console.log('Element text content:', selectedSauceElement.textContent?.trim())
-          console.log('Element position:', rect)
-          
-          // Calculate position to place die directly on top of the sauce element
-          const x = rect.left + (rect.width / 2) - (containerRect.left + containerRect.width / 2)
-          const y = rect.top - containerRect.top - (containerRect.height / 2)
-          
-          console.log('Calculated die position:', { x, y })
-          
-          // Move die to selected sauce
-          setDiePosition({ x, y, isMoving: true })
-          
-          // Highlight the selected sauce after a small delay to ensure die position is set
-          setTimeout(() => {
-            console.log('Setting highlighted sauce to:', randomSauce.id)
+          if (selectedSauceElement) {
+            const rect = selectedSauceElement.getBoundingClientRect()
+            const containerRect = document.querySelector('.die-container').getBoundingClientRect()
+            
+            // Calculate position to place die directly on top of the sauce element
+            const x = rect.left + (rect.width / 2) - (containerRect.left + containerRect.width / 2)
+            const y = rect.top + (rect.height / 2) - (containerRect.top + containerRect.height / 2)
+            
+            // Move die to selected sauce
+            setDiePosition({ x, y, isMoving: true })
+            
+            // Highlight the selected sauce
             setHighlightedSauce(randomSauce.id)
-          }, 50)
-          
-          // Auto-scroll to bring selection into view
-          setTimeout(() => {
-            selectedSauceElement.scrollIntoView({ 
-              behavior: 'smooth', 
-              block: 'center',
-              inline: 'center'
-            })
-          }, 300)
-        } else {
-          console.log('Could not find sauce element with ID:', randomSauce.id)
-          // Debug: show all sauce elements
-          const allSauceElements = document.querySelectorAll('[data-sauce-id]')
-          console.log('All sauce elements:', Array.from(allSauceElements).map(el => ({
-            id: el.getAttribute('data-sauce-id'),
-            name: el.textContent?.trim(),
-            classes: el.className
-          })))
+            
+            // Auto-scroll to bring selection into view
+            setTimeout(() => {
+              selectedSauceElement.scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'center',
+                inline: 'center'
+              })
+            }, 300)
+          } else if (attempts < 5) {
+            // Retry finding the element after a short delay
+            setTimeout(() => findElement(attempts + 1), 100)
+          }
         }
-      }, 200)
+        
+        findElement()
+      }, 300)
       
       setIsRolling(false)
     }, 1500) // 1.5 second rolling animation
@@ -254,10 +241,6 @@ function Sauce() {
     setHighlightedSauce(null)
   }, [i18n.language])
 
-  // Debug: Log when highlightedSauce changes
-  useEffect(() => {
-    console.log('highlightedSauce state changed to:', highlightedSauce)
-  }, [highlightedSauce])
 
   // Reset die state when filters change
   useEffect(() => {
