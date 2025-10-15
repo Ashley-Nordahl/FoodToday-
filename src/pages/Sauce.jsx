@@ -175,31 +175,33 @@ function Sauce() {
       setTimeout(() => {
         const selectedSauceElement = document.querySelector(`[data-sauce-id="${randomSauce.id}"]`)
         if (selectedSauceElement) {
-          const rect = selectedSauceElement.getBoundingClientRect()
-          const containerRect = document.querySelector('.die-container').getBoundingClientRect()
-          
-          // Calculate relative position (exact same as Drink page)
-          const x = rect.left + (rect.width / 2) - (containerRect.left + containerRect.width / 2)
-          const y = rect.top + (rect.height / 2) - (containerRect.top + containerRect.height / 2)
-          
-          // Move die to selected sauce (exact same as Drink page)
-          setDiePosition({ x, y, isMoving: true })
+          // First scroll to bring sauce into view (like Drink page category switching)
+          selectedSauceElement.scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'center',
+            inline: 'center'
+          })
           
           // Highlight the selected sauce
           setHighlightedSauce(randomSauce.id)
           
-          // Auto-scroll to bring selection into view
+          // Wait for scroll to complete, then position die
           setTimeout(() => {
-            selectedSauceElement.scrollIntoView({ 
-              behavior: 'smooth', 
-              block: 'center',
-              inline: 'center'
-            })
-          }, 300)
+            const rect = selectedSauceElement.getBoundingClientRect()
+            const containerRect = document.querySelector('.die-container').getBoundingClientRect()
+            
+            // Calculate relative position (now sauce is in view)
+            const x = rect.left + (rect.width / 2) - (containerRect.left + containerRect.width / 2)
+            const y = rect.top + (rect.height / 2) - (containerRect.top + containerRect.height / 2)
+            
+            // Move die to selected sauce
+            setDiePosition({ x, y, isMoving: true })
+          }, 300) // Faster - wait less for scroll animation
         }
+        
+        // IMPORTANT: Set isRolling to false AFTER positioning (not before)
+        setIsRolling(false)
       }, 100) // Small delay to ensure DOM is updated
-      
-      setIsRolling(false)
     }, 1500) // 1.5 second rolling animation
   }
 

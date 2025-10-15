@@ -3177,6 +3177,15 @@ p {
   z-index: 1;
 }
 
+.drink-item.highlighted {
+  border: 3px solid var(--primary-color) !important;
+  background: linear-gradient(135deg, #fff5f5, #ffffff) !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4) !important;
+  animation: highlightPulse 2s ease-in-out;
+  z-index: 1;
+}
+
 @keyframes highlightPulse {
   0% { 
     box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
