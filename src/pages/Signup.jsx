@@ -151,11 +151,12 @@ function Signup() {
           </button>
         </form>
 
-        <div className="auth-divider">
+        {/* Social authentication hidden for now */}
+        <div className="auth-divider" style={{ display: 'none' }}>
           <span>{t('auth.orContinueWith')}</span>
         </div>
 
-        <div className="auth-social">
+        <div className="auth-social" style={{ display: 'none' }}>
           <button
             onClick={handleGoogleSignIn}
             className="btn btn-social"

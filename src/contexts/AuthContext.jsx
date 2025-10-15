@@ -118,6 +118,11 @@ export const AuthProvider = ({ children }) => {
     return { data, error }
   }
 
+  const refreshSession = async () => {
+    const { data, error } = await supabase.auth.refreshSession()
+    return { data, error }
+  }
+
   const value = {
     user,
     session,
@@ -129,6 +134,7 @@ export const AuthProvider = ({ children }) => {
     signOut,
     resetPassword,
     updatePassword,
+    refreshSession,
   }
 
   return (

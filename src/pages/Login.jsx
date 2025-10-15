@@ -10,8 +10,21 @@ function Login() {
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
-  const { signIn, signInWithGoogle, signInWithGithub } = useAuth()
+  const { signIn, signInWithGoogle, signInWithGithub, refreshSession } = useAuth()
   const navigate = useNavigate()
+
+  // Refresh session on component mount to check for email confirmation
+  useEffect(() => {
+    const refreshUserSession = async () => {
+      try {
+        await refreshSession()
+      } catch (error) {
+        console.log('Session refresh failed:', error)
+      }
+    }
+    
+    refreshUserSession()
+  }, [refreshSession])
 
   // Clear form state when language changes
   useEffect(() => {
@@ -25,6 +38,13 @@ function Login() {
     e.preventDefault()
     setError('')
     setLoading(true)
+
+    // Refresh session before attempting sign in to check for email confirmation
+    try {
+      await refreshSession()
+    } catch (refreshError) {
+      console.log('Session refresh failed:', refreshError)
+    }
 
     const { error } = await signIn(email, password)
 
@@ -107,11 +127,12 @@ function Login() {
           </button>
         </form>
 
-        <div className="auth-divider">
+        {/* Social authentication hidden for now */}
+        <div className="auth-divider" style={{ display: 'none' }}>
           <span>{t('auth.orContinueWith')}</span>
         </div>
 
-        <div className="auth-social">
+        <div className="auth-social" style={{ display: 'none' }}>
           <button
             onClick={handleGoogleSignIn}
             className="btn btn-social"
