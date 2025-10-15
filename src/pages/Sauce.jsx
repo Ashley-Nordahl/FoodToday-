@@ -225,10 +225,12 @@ function Sauce() {
   }, [i18n.language])
 
 
-  // Reset die state when filters change
+  // Reset die state when filters change (but not during die roll)
   useEffect(() => {
-    resetDieState()
-  }, [selectedUseCase, showHomemadeOnly, tastePreferences])
+    if (!isRolling) {
+      resetDieState()
+    }
+  }, [selectedUseCase, showHomemadeOnly, tastePreferences, isRolling])
 
   const getTasteColor = (taste) => {
     const colors = {
