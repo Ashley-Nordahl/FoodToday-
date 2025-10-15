@@ -379,6 +379,7 @@ function Drink() {
                   className={`popular-drink-card clickable ${index === centerCardIndex ? 'center' : ''}`}
                   onClick={async () => {
                     if (actualDrink.recipe) {
+                      setSelectedDrink(actualDrink) // Show recipe popup
                       moveDieToDrink(actualDrink) // Move die on manual selection
                       if (user) {
                         await trackSelection(user.id, actualDrink, 'drink')
@@ -510,6 +511,7 @@ function Drink() {
                     title={drink.recipe ? 'Click to view recipe' : drink.description}
                     onClick={async () => {
                       if (drink.recipe) {
+                        setSelectedDrink(drink) // Show recipe popup
                         moveDieToDrink(drink) // Move die on manual selection
                         // Track drink selection
                         if (user) {
@@ -537,6 +539,7 @@ function Drink() {
                   title={drink.recipe ? 'Click to view recipe' : drink.description}
                   onClick={async () => {
                     if (drink.recipe) {
+                      setSelectedDrink(drink) // Show recipe popup
                       moveDieToDrink(drink) // Move die on manual selection
                       // Track drink selection
                       if (user) {
