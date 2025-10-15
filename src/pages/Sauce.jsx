@@ -139,6 +139,7 @@ function Sauce() {
 
   // Die functionality
   const resetDieState = () => {
+    console.log('Resetting die state')
     setDiePosition({ x: 0, y: 0, isMoving: false })
     setHighlightedSauce(null)
   }
@@ -209,8 +210,18 @@ function Sauce() {
           console.log('Container center:', { x: containerCenterX, y: containerCenterY })
           console.log('Calculated position:', { x, y })
           
-          // Move die to selected sauce
-          setDiePosition({ x, y, isMoving: true })
+          // Check if position is reasonable (not off-screen)
+          if (Math.abs(x) > 2000 || Math.abs(y) > 2000) {
+            console.log('WARNING: Calculated position seems off-screen, using fallback')
+            // Use a smaller, safer position
+            const safeX = Math.max(-500, Math.min(500, x))
+            const safeY = Math.max(-500, Math.min(500, y))
+            console.log('Using safe position:', { x: safeX, y: safeY })
+            setDiePosition({ x: safeX, y: safeY, isMoving: true })
+          } else {
+            // Move die to selected sauce
+            setDiePosition({ x, y, isMoving: true })
+          }
           
           // Highlight the selected sauce
           setHighlightedSauce(randomSauce.id)
@@ -248,6 +259,11 @@ function Sauce() {
     setDiePosition({ x: 0, y: 0, isMoving: false })
     setHighlightedSauce(null)
   }, [i18n.language])
+
+  // Debug: Log when die position changes
+  useEffect(() => {
+    console.log('Die position changed:', diePosition)
+  }, [diePosition])
 
 
   // Reset die state when filters change (but not during die roll)
