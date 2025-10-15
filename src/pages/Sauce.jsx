@@ -181,16 +181,25 @@ function Sauce() {
       
       setRollResult(randomSauce)
       
-      // Wait for rendering (same as Drink page)
+      // Wait for rendering with debugging
       setTimeout(() => {
         const selectedSauceElement = document.querySelector(`[data-sauce-id="${randomSauce.id}"]`)
+        console.log('=== SAUCE DIE DEBUG ===')
+        console.log('Looking for sauce ID:', randomSauce.id)
+        console.log('Found element:', selectedSauceElement)
+        
         if (selectedSauceElement) {
           const rect = selectedSauceElement.getBoundingClientRect()
           const containerRect = document.querySelector('.die-container').getBoundingClientRect()
           
-          // Calculate relative position (same as Drink page)
+          console.log('Sauce element rect:', rect)
+          console.log('Die container rect:', containerRect)
+          
+          // Calculate position to center die on the sauce element
           const x = rect.left + (rect.width / 2) - (containerRect.left + containerRect.width / 2)
           const y = rect.top + (rect.height / 2) - (containerRect.top + containerRect.height / 2)
+          
+          console.log('Calculated position:', { x, y })
           
           // Move die to selected sauce
           setDiePosition({ x, y, isMoving: true })
@@ -206,8 +215,16 @@ function Sauce() {
               inline: 'center'
             })
           }, 300)
+        } else {
+          console.log('Could not find sauce element!')
+          // Debug: show all sauce elements
+          const allSauceElements = document.querySelectorAll('[data-sauce-id]')
+          console.log('All sauce elements:', Array.from(allSauceElements).map(el => ({
+            id: el.getAttribute('data-sauce-id'),
+            name: el.textContent?.trim()
+          })))
         }
-      }, 100) // Small delay to ensure DOM is updated (same as Drink page)
+      }, 200)
       
       setIsRolling(false)
     }, 1500) // 1.5 second rolling animation
