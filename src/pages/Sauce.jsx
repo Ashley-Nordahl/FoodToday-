@@ -196,9 +196,17 @@ function Sauce() {
           console.log('Die container rect:', containerRect)
           
           // Calculate position to center die on the sauce element
-          const x = rect.left + (rect.width / 2) - (containerRect.left + containerRect.width / 2)
-          const y = rect.top + (rect.height / 2) - (containerRect.top + containerRect.height / 2)
+          // The issue is that we need to account for the die container's current position
+          const sauceCenterX = rect.left + (rect.width / 2)
+          const sauceCenterY = rect.top + (rect.height / 2)
+          const containerCenterX = containerRect.left + (containerRect.width / 2)
+          const containerCenterY = containerRect.top + (containerRect.height / 2)
           
+          const x = sauceCenterX - containerCenterX
+          const y = sauceCenterY - containerCenterY
+          
+          console.log('Sauce center:', { x: sauceCenterX, y: sauceCenterY })
+          console.log('Container center:', { x: containerCenterX, y: containerCenterY })
           console.log('Calculated position:', { x, y })
           
           // Move die to selected sauce
