@@ -298,30 +298,21 @@ p {
 
 .dot-tooltip {
   position: absolute;
-  bottom: 120%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--dark-color);
-  color: var(--light-color);
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  white-space: nowrap;
-  z-index: 1000;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  animation: tooltipFadeIn 0.2s ease-out;
-}
-
-.dot-tooltip::after {
-  content: '';
-  position: absolute;
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  border: 5px solid transparent;
-  border-top-color: var(--dark-color);
+  background: transparent;
+  color: var(--text-color);
+  padding: 0.25rem 0;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 1000;
+  margin-top: 0.5rem;
+  animation: tooltipFadeIn 0.2s ease-out;
 }
+
+/* Removed arrow since tooltip is now transparent */
 
 @keyframes tooltipFadeIn {
   from {
