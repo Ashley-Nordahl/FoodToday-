@@ -360,3 +360,4 @@ Enjoy discovering new recipes and tracking your culinary journey! 🍽️🥤�
 ---
 
 **Last Updated:** October 15, 2025 - Production deployment with die positioning fixes
+<!-- Force deployment for Drink page mobile fix -->
