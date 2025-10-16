@@ -3873,7 +3873,7 @@ p {
   gap: 1.5rem;
   margin: 0 auto 1rem;
   align-items: flex-start;
-  max-width: 800px; /* Increased to match subtitle text width */
+  max-width: 700px; /* Slightly reduced for better visual balance */
   width: 100%;
 }
 
@@ -3921,7 +3921,7 @@ p {
   display: flex;
   gap: 0.5rem;
   margin: 0 auto 1rem;
-  max-width: 800px; /* Increased to match filters-row width */
+  max-width: 700px; /* Slightly reduced to match filters-row width */
   width: 100%;
 }
 
@@ -4484,7 +4484,7 @@ p {
   overflow: hidden; /* Hide overflow to show only 3 cards */
   position: relative;
   width: 100%;
-  max-width: 480px; /* Increased width for better spacing */
+  max-width: 600px; /* Further increased width for desktop */
   margin: 0 auto 2rem;
   padding: 1.5rem 0; /* Increased padding to accommodate enlarged center card */
   height: 200px; /* Fixed height to contain enlarged cards */
@@ -4495,7 +4495,7 @@ p {
   gap: 1.5rem;
   animation: scroll 30s linear infinite; /* Faster animation - reduced from 50s to 30s */
   width: max-content;
-  padding-left: calc(50% - 240px); /* Center 3 cards properly with wider container */
+  padding-left: calc(50% - 300px); /* Center 3 cards properly with wider desktop container */
 }
 
 .carousel-track:hover {
@@ -5662,7 +5662,7 @@ p {
   flex-wrap: nowrap;
   justify-content: center;
   margin: 0 auto 1.5rem;
-  max-width: 480px; /* Match carousel width */
+  max-width: 600px; /* Match wider desktop carousel width */
   width: 100%;
   overflow-x: auto;
   scrollbar-width: none;
@@ -5671,7 +5671,7 @@ p {
 
 /* Drink Categories Container - Align with category filters */
 .drink-categories {
-  max-width: 480px; /* Match category filters width */
+  max-width: 600px; /* Match wider desktop category filters width */
   margin: 0 auto;
   width: 100%;
 }
