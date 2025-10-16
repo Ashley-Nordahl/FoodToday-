@@ -4484,7 +4484,7 @@ p {
   overflow: hidden; /* Hide overflow to show only 3 cards */
   position: relative;
   width: 100%;
-  max-width: 600px; /* Further increased width for desktop */
+  max-width: 700px; /* Increased width to accommodate wider cards */
   margin: 0 auto 2rem;
   padding: 1.5rem 0; /* Increased padding to accommodate enlarged center card */
   height: 200px; /* Fixed height to contain enlarged cards */
@@ -4495,7 +4495,7 @@ p {
   gap: 1.5rem;
   animation: scroll 30s linear infinite; /* Faster animation - reduced from 50s to 30s */
   width: max-content;
-  padding-left: calc(50% - 300px); /* Center 3 cards properly with wider desktop container */
+  padding-left: calc(50% - 350px); /* Center 3 wider cards properly */
 }
 
 .carousel-track:hover {
@@ -4520,9 +4520,9 @@ p {
   text-align: center;
   cursor: pointer;
   transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-  width: 160px; /* Optimized for 3-card display */
-  min-width: 160px;
-  max-width: 160px;
+  width: 200px; /* Increased width to show all content properly */
+  min-width: 200px;
+  max-width: 200px;
   flex-shrink: 0;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
   height: 150px;
@@ -4809,7 +4809,7 @@ p {
   .category-filters {
     display: flex !important;
     flex-wrap: nowrap !important;
-    gap: 0.3rem !important;
+    gap: 0.5rem !important; /* Increased spacing for mobile */
     padding: 0 0.5rem !important;
     max-width: 420px !important; /* Match mobile carousel width */
     overflow-x: auto !important;
@@ -4875,7 +4875,7 @@ p {
   }
   
   .popular-drink-card {
-    width: 130px !important; /* Optimized for 3-card display */
+    width: 160px !important; /* Increased width to show content properly */
     padding: 0.7rem !important;
     height: 110px !important;
     border-radius: 12px !important;
@@ -5103,7 +5103,7 @@ p {
   }
   
   .popular-drink-card {
-    width: 115px !important; /* Optimized for 3-card display */
+    width: 140px !important; /* Increased width to show content properly */
     padding: 0.6rem !important;
     height: 95px !important;
     opacity: 0.85 !important;
@@ -5658,7 +5658,7 @@ p {
   top: 80px;
   z-index: 50;
   display: flex;
-  gap: 0.3rem;
+  gap: 0.6rem; /* Increased spacing between buttons */
   flex-wrap: nowrap;
   justify-content: center;
   margin: 0 auto 1.5rem;
