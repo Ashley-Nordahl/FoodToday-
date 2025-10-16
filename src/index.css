@@ -3871,8 +3871,10 @@ p {
 .filters-row {
   display: flex;
   gap: 1.5rem;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
   align-items: flex-start;
+  max-width: 800px; /* Increased to match subtitle text width */
+  width: 100%;
 }
 
 /* Use Case Filter Styles */
@@ -3918,7 +3920,9 @@ p {
 .recipe-type-buttons-only {
   display: flex;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
+  max-width: 800px; /* Increased to match filters-row width */
+  width: 100%;
 }
 
 .recipe-type-btn {
@@ -4175,6 +4179,8 @@ p {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin: 0 auto;
+  width: 100%;
 }
 
 /* Sauce Item Styles */
@@ -4475,20 +4481,21 @@ p {
 
 /* Carousel Container */
 .carousel-container {
-  overflow: visible; /* Changed from hidden to visible for better mobile viewing */
+  overflow: hidden; /* Hide overflow to show only 3 cards */
   position: relative;
   width: 100%;
-  max-width: 600px; /* More compact like parties page */
+  max-width: 480px; /* Increased width for better spacing */
   margin: 0 auto 2rem;
-  padding: 1rem 0;
+  padding: 1.5rem 0; /* Increased padding to accommodate enlarged center card */
+  height: 200px; /* Fixed height to contain enlarged cards */
 }
 
 .carousel-track {
   display: flex;
   gap: 1.5rem;
-  animation: scroll 80s linear infinite;
+  animation: scroll 30s linear infinite; /* Faster animation - reduced from 50s to 30s */
   width: max-content;
-  padding-left: calc(50% - 200px); /* Adjusted to show 3 cards */
+  padding-left: calc(50% - 240px); /* Center 3 cards properly with wider container */
 }
 
 .carousel-track:hover {
@@ -4497,10 +4504,10 @@ p {
 
 @keyframes scroll {
   0% {
-    transform: translateX(0);
+    transform: translateX(calc(-100% + 100vw - 2rem));
   }
   100% {
-    transform: translateX(calc(-100% + 100vw - 2rem));
+    transform: translateX(0);
   }
 }
 
@@ -4529,7 +4536,7 @@ p {
 /* Center card effect - enlarged when in middle */
 .popular-drink-card.center {
   opacity: 1 !important;
-  transform: scale(1.3) !important; /* Slightly larger for better visibility with 3 cards */
+  transform: scale(1.2) !important; /* Reduced scale to fit within container */
   filter: blur(0) !important;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4) !important;
   z-index: 10 !important;
@@ -4571,7 +4578,7 @@ p {
 }
 
 .popular-drink-card.center:hover {
-  transform: scale(1.35) translateY(-3px) !important;
+  transform: scale(1.25) translateY(-3px) !important;
   box-shadow: 0 18px 45px rgba(0, 0, 0, 0.5) !important;
 }
 
@@ -4580,7 +4587,7 @@ p {
 }
 
 .popular-drink-card.clickable.center:hover {
-  transform: scale(1.4) translateY(-5px) !important;
+  transform: scale(1.3) translateY(-5px) !important;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6) !important;
 }
 
@@ -4802,11 +4809,10 @@ p {
   .category-filters {
     display: flex !important;
     flex-wrap: nowrap !important;
-    gap: 0.6rem !important;
+    gap: 0.3rem !important;
     padding: 0 0.5rem !important;
+    max-width: 420px !important; /* Match mobile carousel width */
     overflow-x: auto !important;
-    -webkit-overflow-scrolling: touch !important;
-    justify-content: center !important;
   }
   
   .category-btn {
@@ -4852,19 +4858,20 @@ p {
   /* Animated carousel - responsive width */
   .carousel-container {
     width: 85% !important; /* Centered and compact like parties page */
-    max-width: 500px !important; /* Fixed max width for better centering */
+    max-width: 420px !important; /* Increased width for mobile */
     margin: 0 auto 1.5rem !important;
-    padding: 0 0.5rem !important;
+    padding: 1rem 0.5rem !important; /* Increased padding for mobile */
     overflow: hidden !important;
     position: relative !important;
+    height: 160px !important; /* Fixed height for mobile */
   }
   
   .carousel-track {
     display: flex !important;
     gap: 0.8rem !important;
-    animation: scrollMobile3 60s linear infinite !important;
+    animation: scrollMobile3 25s linear infinite !important; /* Faster animation - reduced from 40s to 25s */
     width: max-content !important;
-    padding-left: calc(50% - 150px) !important; /* Center 3 cards with proper spacing */
+    padding-left: calc(50% - 195px) !important; /* Center 3 cards with proper spacing */
   }
   
   .popular-drink-card {
@@ -4911,13 +4918,14 @@ p {
   /* Category filters - simple horizontal scroll */
   .category-filters {
     display: flex;
-    gap: 0.4rem;
-    padding: 0.5rem 0.5rem;
-    margin-bottom: 1rem;
+    gap: 1rem; /* Further increased spacing */
+    padding: 0.75rem 0.5rem; /* Increased padding */
+    margin: 0 auto 1rem;
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     width: 100%;
+    max-width: 420px; /* Match mobile carousel width */
     box-sizing: border-box;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE and Edge */
@@ -4987,6 +4995,8 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 0.5rem;
     padding: 0 0.5rem;
+    max-width: 450px; /* Match mobile category filters width */
+    margin: 0 auto;
   }
   
   .ingredient-item-compact {
@@ -5079,17 +5089,17 @@ p {
   
   .carousel-container {
     width: 80% !important; /* Centered and compact for small screens */
-    max-width: 400px !important; /* Fixed max width for better centering */
+    max-width: 360px !important; /* More compact for small screens */
     padding: 0 0.5rem !important;
     margin: 0 auto 1rem !important;
   }
   
   .carousel-track {
-    animation: scrollMobile2 50s linear infinite !important;
+    animation: scrollMobile2 30s linear infinite !important;
     gap: 0.6rem !important;
     display: flex !important;
     width: max-content !important;
-    padding-left: calc(50% - 120px) !important; /* Center 3 smaller cards with proper spacing */
+    padding-left: calc(50% - 172px) !important; /* Center 3 smaller cards with proper spacing */
   }
   
   .popular-drink-card {
@@ -5129,9 +5139,9 @@ p {
   
   /* Category filters for small screens - larger comfortable size + centered */
   .category-filters {
-    gap: 0.5rem !important;
-    padding: 0.6rem 0.8rem !important;
-    margin-bottom: 0.8rem;
+    gap: 1rem !important; /* Further increased spacing */
+    padding: 0.75rem 0.8rem !important; /* Increased padding */
+    margin: 0 auto 0.8rem;
     overflow-x: auto !important;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
@@ -5139,7 +5149,8 @@ p {
     -ms-overflow-style: none; /* IE and Edge */
     scroll-behavior: smooth;
     flex-wrap: nowrap !important;
-    justify-content: center !important;
+    justify-content: flex-start !important; /* Start from left for horizontal scroll */
+    max-width: 360px !important; /* Match small mobile carousel width */
   }
   
   .category-filters::-webkit-scrollbar {
@@ -5240,7 +5251,7 @@ p {
   }
   .carousel-container {
     width: 75% !important; /* Very compact for tiny screens */
-    max-width: 300px !important; /* Fixed max width for better centering */
+    max-width: 285px !important; /* More compact for tiny screens */
     padding: 0 0.3rem !important;
     margin: 0 auto 1rem !important;
   }
@@ -5249,7 +5260,7 @@ p {
     animation: scrollMobile1 40s linear infinite !important;
     display: flex !important;
     width: max-content !important;
-    padding-left: calc(50% - 90px) !important; /* Center 3 cards even on tiny screens */
+    padding-left: calc(50% - 142px) !important; /* Center 3 cards even on tiny screens */
     gap: 0.3rem !important;
   }
   
@@ -5647,10 +5658,22 @@ p {
   top: 80px;
   z-index: 50;
   display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+  gap: 0.3rem;
+  flex-wrap: nowrap;
   justify-content: center;
-  margin-bottom: 1.5rem;
+  margin: 0 auto 1.5rem;
+  max-width: 480px; /* Match carousel width */
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* Drink Categories Container - Align with category filters */
+.drink-categories {
+  max-width: 480px; /* Match category filters width */
+  margin: 0 auto;
+  width: 100%;
 }
 
 .category-btn {
@@ -6775,13 +6798,17 @@ p {
   
   /* Category filters mobile optimization */
   .category-filters {
-    padding: 0 0.25rem;
-    margin: 1rem 0;
+    padding: 0.75rem 0.25rem; /* Increased padding */
+    margin: 1rem auto;
+    max-width: 285px; /* Match very small screen carousel width */
+    gap: 0.8rem; /* Further increased spacing */
   }
   
   /* Drinks page specific mobile fixes */
   .drink-categories {
     padding: 0 0.25rem;
+    max-width: 285px; /* Match very small screen carousel width */
+    margin: 0 auto;
   }
   
   .selected-drink-display {
