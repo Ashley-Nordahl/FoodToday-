@@ -220,7 +220,7 @@ p {
 }
 
 .navbar-brand {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--dark-color);
   text-decoration: none;
@@ -230,7 +230,7 @@ p {
 }
 
 .navbar-brand span {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 
 .navbar-menu {
@@ -338,8 +338,8 @@ p {
 .hamburger {
   display: flex;
   flex-direction: column;
-  width: 24px;
-  height: 18px;
+  width: 20px;
+  height: 15px;
   position: relative;
   cursor: pointer;
 }
@@ -362,15 +362,15 @@ p {
 }
 
 .hamburger span:nth-child(2) {
-  top: 8px;
+  top: 6.5px;
 }
 
 .hamburger span:nth-child(3) {
-  top: 16px;
+  top: 13px;
 }
 
 .hamburger.open span:nth-child(1) {
-  top: 8px;
+  top: 6.5px;
   transform: rotate(135deg);
 }
 
@@ -380,7 +380,7 @@ p {
 }
 
 .hamburger.open span:nth-child(3) {
-  top: 8px;
+  top: 6.5px;
   transform: rotate(-135deg);
 }
 
@@ -528,7 +528,7 @@ p {
   }
 
   .navbar-brand {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 
   .navbar {
@@ -574,7 +574,7 @@ p {
   }
   
   .navbar-brand {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
   }
 }
 
@@ -880,7 +880,7 @@ p {
   }
 
   .navbar-brand {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 
   .navbar-menu {
@@ -913,7 +913,7 @@ p {
   }
 
   .navbar-brand {
-    font-size: 1.4rem;
+    font-size: 1.0rem;
   }
 
   .navbar-menu {
@@ -5548,8 +5548,8 @@ p {
   }
   
   .drink-page-die {
-    top: 180px !important;
-    right: 30px !important;
+    top: 120px !important;
+    right: 15px !important;
   }
   
   .die-button {
