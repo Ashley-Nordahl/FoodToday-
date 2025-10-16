@@ -4705,7 +4705,7 @@ p {
 }
 
 /* Drink page specific die positioning */
-.drink-page-die {
+.die-container.drink-page-die {
   position: fixed !important;
   top: 200px !important;
   right: 40px !important;
@@ -4995,7 +4995,7 @@ p {
   }
   
   /* Die button positioning */
-  .drink-page-die {
+  .die-container.drink-page-die {
     top: 120px !important;
     right: 15px !important;
     z-index: 100;
@@ -5170,7 +5170,7 @@ p {
   }
   
   /* Die button for small screens */
-  .drink-page-die {
+  .die-container.drink-page-die {
     top: 100px !important;
     right: 10px !important;
   }
@@ -5547,7 +5547,7 @@ p {
     right: 20px !important;
   }
   
-  .drink-page-die {
+  .die-container.drink-page-die {
     top: 120px !important;
     right: 15px !important;
   }
@@ -6742,7 +6742,7 @@ p {
     gap: 0.3rem;
   }
   
-  .drink-page-die {
+  .die-container.drink-page-die {
     top: 120px !important;
     right: 15px !important;
   }
