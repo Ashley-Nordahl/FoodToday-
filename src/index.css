@@ -4996,8 +4996,8 @@ p {
   
   /* Die button positioning */
   .drink-page-die {
-    top: 140px !important;
-    right: 20px !important;
+    top: 120px !important;
+    right: 15px !important;
     z-index: 100;
   }
   
@@ -5171,8 +5171,8 @@ p {
   
   /* Die button for small screens */
   .drink-page-die {
-    top: 120px !important;
-    right: 15px !important;
+    top: 100px !important;
+    right: 10px !important;
   }
   
   .die-button {
@@ -6743,8 +6743,32 @@ p {
   }
   
   .drink-page-die {
-    top: 140px !important;
+    top: 120px !important;
     right: 15px !important;
+  }
+  
+  /* Ensure page container fits mobile screens */
+  .page-container {
+    padding: 1rem 0.5rem;
+    margin: 0;
+    max-width: 100%;
+  }
+  
+  /* Popular drinks carousel mobile optimization */
+  .popular-drinks-section {
+    margin: 1rem 0;
+    padding: 0 0.5rem;
+  }
+  
+  .carousel-container {
+    margin: 0 -0.5rem;
+    padding: 0 0.5rem;
+  }
+  
+  /* Category filters mobile optimization */
+  .category-filters {
+    padding: 0 0.5rem;
+    margin: 1rem 0;
   }
   
   .category-btn-common {
