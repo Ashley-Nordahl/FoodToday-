@@ -5606,14 +5606,14 @@ p {
 }
 
 .dishes-select {
-  padding: 0.4rem 0.6rem;
+  padding: 0.3rem 0.4rem;
   border: 2px solid #e0e0e0;
   border-radius: 6px;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   background: white;
   cursor: pointer;
   transition: all 0.3s ease;
-  min-width: 50px;
+  min-width: 40px;
   width: fit-content;
   text-align: center;
 }
@@ -6811,8 +6811,9 @@ p {
   }
 
   .dishes-select {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.35rem;
+    min-width: 35px;
   }
 }
 
