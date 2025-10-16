@@ -338,15 +338,15 @@ p {
 .hamburger {
   display: flex;
   flex-direction: column;
-  width: 20px;
-  height: 15px;
+  width: 16px;
+  height: 12px;
   position: relative;
   cursor: pointer;
 }
 
 .hamburger span {
   display: block;
-  height: 2px;
+  height: 1.5px;
   width: 100%;
   background: var(--dark-color);
   border-radius: 1px;
@@ -362,15 +362,15 @@ p {
 }
 
 .hamburger span:nth-child(2) {
-  top: 6.5px;
+  top: 5.25px;
 }
 
 .hamburger span:nth-child(3) {
-  top: 13px;
+  top: 10.5px;
 }
 
 .hamburger.open span:nth-child(1) {
-  top: 6.5px;
+  top: 5.25px;
   transform: rotate(135deg);
 }
 
@@ -4843,9 +4843,9 @@ p {
     text-align: left;
   }
   
-  /* Animated carousel - 3 cards display */
+  /* Animated carousel - responsive width */
   .carousel-container {
-    width: 520px !important; /* Wider to accommodate 3 cards */
+    width: 100% !important; /* Full width for mobile */
     max-width: 100% !important;
     margin: 0 auto 1.5rem !important;
     padding: 0 1rem !important;
@@ -4911,10 +4911,11 @@ p {
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
+    width: 100%;
+    box-sizing: border-box;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE and Edge */
     scroll-behavior: smooth;
-    width: 100%;
   }
   
   .category-filters::-webkit-scrollbar {
@@ -5071,7 +5072,7 @@ p {
   }
   
   .carousel-container {
-    width: 420px !important; /* Narrower but still 3 cards */
+    width: 100% !important; /* Full width for mobile */
     max-width: 100% !important;
     padding: 0 0.5rem !important;
     margin: 0 auto 1rem !important;
@@ -5232,7 +5233,7 @@ p {
     padding: 0 0.1rem;
   }
   .carousel-container {
-    width: 320px !important; /* Very compact 3 cards */
+    width: 100% !important; /* Full width for mobile */
     max-width: 100% !important;
     padding: 0 0.3rem !important;
     margin: 0 auto 1rem !important;
