@@ -1,10 +1,9 @@
 import { useState, useEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useAuth } from '../contexts/AuthContext'
-import { getAllStats, getFavorites, removeFromFavorites, getRecipes, removeRecipe } from '../lib/supabase'
+import { getAllStats, getRecipes, removeRecipe } from '../lib/supabase'
 import RecipeForm from '../components/RecipeForm'
 import RecipeDetails from '../components/RecipeDetails'
-import { getIngredientMetadata } from '../data/ingredientRegistry'
 import i18n from '../i18n'
 
 // Helper function to get the correct emoji based on the recipe's actual category
@@ -45,13 +44,11 @@ function MyFavorite() {
   
   // Use refs to persist data across unmounts
   const statsCache = useRef([])
-  const favoritesCache = useRef([])
   const recipesCache = useRef([])
   const hasLoadedData = useRef(false)
   
   // Initialize state from cache
   const [stats, setStats] = useState(statsCache.current)
-  const [favorites, setFavorites] = useState(favoritesCache.current)
   const [recipes, setRecipes] = useState(recipesCache.current)
   const [loading, setLoading] = useState(false)
   const [showLoading, setShowLoading] = useState(false)
@@ -68,10 +65,8 @@ function MyFavorite() {
       // Reset when user logs out
       hasLoadedData.current = false
       statsCache.current = []
-      favoritesCache.current = []
       recipesCache.current = []
       setStats([])
-      setFavorites([])
       setRecipes([])
     }
   }, [user?.id])
@@ -109,10 +104,9 @@ function MyFavorite() {
         setShowLoading(true)
       }, 500)
       
-      // Load stats, favorites, and recipes in parallel
-      const [statsResult, favoritesResult, recipesResult] = await Promise.all([
+      // Load stats and recipes in parallel
+      const [statsResult, recipesResult] = await Promise.all([
         getAllStats(user.id),
-        getFavorites(user.id),
         getRecipes(user.id)
       ])
 
@@ -122,10 +116,6 @@ function MyFavorite() {
         setStats(statsResult.data)
       } else {
         console.log('📊 No statistics data found:', statsResult)
-      }
-      if (favoritesResult.data) {
-        favoritesCache.current = favoritesResult.data
-        setFavorites(favoritesResult.data)
       }
       if (recipesResult.data) {
         recipesCache.current = recipesResult.data
@@ -257,21 +247,21 @@ function MyFavorite() {
             <span className="category-tab-emoji">🧂</span>
             <span className="category-tab-name">{t('myFavorite.sauces')}</span>
           </button>
-          {activeTab === 'recipes' && (
-            <button
-              className="category-tab add-recipe-tab"
-              onClick={() => setShowRecipeForm(true)}
-            >
-              <span className="category-tab-emoji">➕</span>
-              <span className="category-tab-name">{t('myFavorite.addRecipe')}</span>
-            </button>
-          )}
         </div>
       </div>
 
       {/* Content based on active tab */}
       {activeTab === 'recipes' && (
         <div className="recipes-section">
+          <div className="add-recipe-container">
+            <button
+              className="add-recipe-btn"
+              onClick={() => setShowRecipeForm(true)}
+            >
+              <span className="add-recipe-emoji">➕</span>
+              <span className="add-recipe-text">{t('myFavorite.addRecipe')}</span>
+            </button>
+          </div>
           {getFilteredRecipes().length === 0 ? (
             <div className="empty-state">
               <p>{t('myFavorite.noRecipesYet')}</p>
@@ -325,9 +315,6 @@ function MyFavorite() {
           {getFilteredStats().length === 0 ? (
             <div className="empty-state">
               <p>{t('myFavorite.noStatisticsYet')}</p>
-              <p style={{ fontSize: '0.9rem', color: '#666', marginTop: '0.5rem' }}>
-                {t('myFavorite.statisticsExplanation')}
-              </p>
             </div>
           ) : (
             <div className="statistics-content">
