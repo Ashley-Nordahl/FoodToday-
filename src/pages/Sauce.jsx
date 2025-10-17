@@ -375,6 +375,21 @@ function Sauce() {
                         if (user) {
                           await trackSelection(user.id, sauce, 'sauce')
                         }
+                        
+                        // Scroll to recipe display after a short delay to ensure it's rendered
+                        setTimeout(() => {
+                          const recipeElement = document.querySelector('.recipe-display')
+                          if (recipeElement) {
+                            const recipeRect = recipeElement.getBoundingClientRect()
+                            const scrollTop = window.pageYOffset || document.documentElement.scrollTop
+                            const targetPosition = recipeRect.top + scrollTop - 20
+                            
+                            window.scrollTo({
+                              top: targetPosition,
+                              behavior: 'smooth'
+                            })
+                          }
+                        }, 100)
                       }
                     }}
                   >
@@ -393,55 +408,72 @@ function Sauce() {
         </div>
       )}
 
-      {/* Recipe Modal */}
+      {/* Selected Recipe Display - Using Random Recipe Format */}
       {selectedSauce && selectedSauce.recipe && (
-        <div className="recipe-modal-overlay" onClick={() => setSelectedSauce(null)}>
-          <div className="recipe-modal" onClick={(e) => e.stopPropagation()}>
-            <button className="close-btn" onClick={() => setSelectedSauce(null)}>×</button>
-            
-            <div className="recipe-header">
-              <h2>{selectedSauce.name}</h2>
-              <p className="recipe-description">{selectedSauce.description}</p>
-              <div className="recipe-meta" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'nowrap', gap: '15px' }}>
-                <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap', flex: '1' }}>
-                  <span>⏱️ Prep: {selectedSauce.recipe.prepTime}</span>
-                  <span>🍳 Cook: {selectedSauce.recipe.cookTime}</span>
-                  <span>📊 Yield: {selectedSauce.recipe.yield}</span>
-                </div>
+        <div className="recipe-display">
+          <div className="recipe-card">
+            <div className="recipe-card-header">
+              <div className="recipe-header-actions">
+                {/* Shopping List Button - Left Aligned */}
                 <button 
-                  className="btn btn-shopping btn-small"
-                  onClick={(e) => {
-                    e.stopPropagation()
-                    setShowShoppingList(true)
-                  }}
-                  style={{ flexShrink: 0 }}
+                  className="btn btn-shopping btn-medium"
+                  onClick={() => setShowShoppingList(true)}
                 >
                   🛒 {t('button.createShoppingList')}
                 </button>
+                
+                {/* Close Button - Right Aligned */}
+                <button 
+                  className="close-recipe-btn"
+                  onClick={() => setSelectedSauce(null)}
+                  title="Close recipe"
+                >
+                  ✕
+                </button>
               </div>
             </div>
-
             <div className="recipe-content">
-              <div className="recipe-section">
-                <h3>{t('sauce.recipe.ingredients')}</h3>
-                <ul className="recipe-ingredients">
+              {/* Recipe Title */}
+              <h2 className="recipe-title" style={{ textAlign: 'center', fontSize: '2rem', marginTop: '0.5rem' }}>
+                {selectedSauce.name}
+              </h2>
+              
+              {/* Recipe Description */}
+              {selectedSauce.description && (
+                <p className="recipe-description" style={{ textAlign: 'center' }}>
+                  {selectedSauce.description}
+                </p>
+              )}
+
+              <div className="recipe-meta">
+                <span className="recipe-info">🔪 {t('recipe.prepTime')}: {selectedSauce.recipe.prepTime}</span>
+                <span className="recipe-info">⏱️ {t('recipe.cookTime')}: {selectedSauce.recipe.cookTime}</span>
+                <span className="recipe-info">📊 {t('recipe.servings')}: {selectedSauce.recipe.yield}</span>
+              </div>
+
+              <div className="recipe-ingredients">
+                <h4>{t('sauce.recipe.ingredients')}</h4>
+                <ul>
                   {selectedSauce.recipe.ingredients.map((ingredient, index) => (
                     <li key={index}>{ingredient}</li>
                   ))}
                 </ul>
               </div>
 
-              <div className="recipe-section">
-                <h3>{t('sauce.recipe.instructions')}</h3>
-                <ol className="recipe-instructions">
-                  {selectedSauce.recipe.instructions.map((instruction, index) => (
-                    <li key={index}>{instruction}</li>
-                  ))}
-                </ol>
-              </div>
+              {selectedSauce.recipe.instructions && (
+                <div className="recipe-instructions">
+                  <h4>{t('sauce.recipe.instructions')}</h4>
+                  <ul className="recipe-instructions-list">
+                    {selectedSauce.recipe.instructions.map((step, index) => (
+                      <li key={index}>{step}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
             </div>
           </div>
-      </div>
+        </div>
       )}
 
       {/* Shopping List Modal */}

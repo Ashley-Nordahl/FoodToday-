@@ -48,7 +48,7 @@ function FoodWheel({ isOpen, onClose, onSelect }) {
     
     setRotation(totalRotation)
     
-    // Calculate selected cuisine based on final rotation
+    // Calculate selected cuisine based on final rotation (match CSS transition time of 4s)
     setTimeout(() => {
       const normalizedAngle = ((totalRotation % 360) + 360) % 360
       const segmentAngle = 360 / cuisines.length
@@ -57,7 +57,7 @@ function FoodWheel({ isOpen, onClose, onSelect }) {
       
       setSelectedCuisine(cuisine)
       setIsSpinning(false)
-    }, 3000)
+    }, 4000)
   }
 
   const handleSelectCuisine = () => {

@@ -417,75 +417,71 @@ function Drink() {
         </div>
       )}
 
-      {/* Selected Drink Display */}
-      {selectedDrink && (
-        <div className="selected-drink-display">
-          <div className="selected-drink-header" style={{ marginTop: '-20px', paddingTop: '10px' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
-              <button 
-                className="back-to-categories-btn"
-                onClick={() => setSelectedDrink(null)}
-                title="Back to drink categories"
-                style={{
-                  background: 'none',
-                  border: 'none',
-                  padding: '8px',
-                  fontSize: '24px',
-                  cursor: 'pointer',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center'
-                }}
-              >
-                ←
-              </button>
-              {selectedDrink.recipe && (
+      {/* Selected Drink Display - Using Random Recipe Format */}
+      {selectedDrink && selectedDrink.recipe && (
+        <div className="recipe-display">
+          <div className="recipe-card">
+            <div className="recipe-card-header">
+              <div className="recipe-header-actions">
+                {/* Shopping List Button - Left Aligned */}
                 <button 
-                  className="btn btn-shopping btn-small"
-                  onClick={(e) => {
-                    e.stopPropagation()
-                    setShowShoppingList(true)
-                  }}
+                  className="btn btn-shopping btn-medium"
+                  onClick={() => setShowShoppingList(true)}
                 >
                   🛒 {t('button.createShoppingList')}
                 </button>
-              )}
-            </div>
-            <h2 className="selected-drink-title">
-              {selectedDrink.emoji} {getTranslatedDrinkName(selectedDrink.name)}
-            </h2>
-            <p className="selected-drink-description">{selectedDrink.description}</p>
-          </div>
-          
-          {selectedDrink.recipe && (
-            <div className="selected-drink-recipe">
-              <div className="recipe-meta">
-                <span>⏱️ Prep: {selectedDrink.recipe.prepTime}</span>
-                <span>🍳 Cook: {selectedDrink.recipe.cookTime}</span>
-                <span>📊 Yield: {selectedDrink.recipe.yield}</span>
+                
+                {/* Close Button - Right Aligned */}
+                <button 
+                  className="close-recipe-btn"
+                  onClick={() => setSelectedDrink(null)}
+                  title="Close recipe"
+                >
+                  ✕
+                </button>
               </div>
+            </div>
+            <div className="recipe-content">
+              {/* Recipe Title */}
+              <h2 className="recipe-title" style={{ textAlign: 'center', fontSize: '2rem', marginTop: '0.5rem' }}>
+                {selectedDrink.emoji} {getTranslatedDrinkName(selectedDrink.name)}
+              </h2>
               
-              <div className="recipe-content">
-                <div className="recipe-section">
-                  <h3>{t('drinkRecipeIngredients')}</h3>
-                  <ul className="ingredients-list">
-                    {selectedDrink.recipe.ingredients.map((ingredient, index) => (
-                      <li key={index}>{ingredient}</li>
+              {/* Recipe Description */}
+              {selectedDrink.description && (
+                <p className="recipe-description" style={{ textAlign: 'center' }}>
+                  {selectedDrink.description}
+                </p>
+              )}
+
+              <div className="recipe-meta">
+                <span className="recipe-info">🔪 {t('recipe.prepTime')}: {selectedDrink.recipe.prepTime}</span>
+                <span className="recipe-info">⏱️ {t('recipe.cookTime')}: {selectedDrink.recipe.cookTime}</span>
+                <span className="recipe-info">📊 {t('recipe.servings')}: {selectedDrink.recipe.yield}</span>
+              </div>
+
+              <div className="recipe-ingredients">
+                <h4>{t('drinkRecipeIngredients')}</h4>
+                <ul>
+                  {selectedDrink.recipe.ingredients.map((ingredient, index) => (
+                    <li key={index}>{ingredient}</li>
+                  ))}
+                </ul>
+              </div>
+
+              {selectedDrink.recipe.instructions && (
+                <div className="recipe-instructions">
+                  <h4>{t('drinkRecipeInstructions')}</h4>
+                  <ul className="recipe-instructions-list">
+                    {selectedDrink.recipe.instructions.map((step, index) => (
+                      <li key={index}>{step}</li>
                     ))}
                   </ul>
                 </div>
+              )}
 
-                <div className="recipe-section">
-                  <h3>{t('drinkRecipeInstructions')}</h3>
-                  <ol className="instructions-list">
-                    {selectedDrink.recipe.instructions.map((instruction, index) => (
-                      <li key={index}>{instruction}</li>
-                    ))}
-                  </ol>
-                </div>
-              </div>
             </div>
-          )}
+          </div>
         </div>
       )}
 

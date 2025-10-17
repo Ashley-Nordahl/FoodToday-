@@ -4,7 +4,40 @@ import { useAuth } from '../contexts/AuthContext'
 import { getAllStats, getFavorites, removeFromFavorites, getRecipes, removeRecipe } from '../lib/supabase'
 import RecipeForm from '../components/RecipeForm'
 import RecipeDetails from '../components/RecipeDetails'
+import { getIngredientMetadata } from '../data/ingredientRegistry'
 import i18n from '../i18n'
+
+// Helper function to get the correct emoji based on the recipe's actual category
+const getCategoryEmoji = (stat) => {
+  // For statistics, we need to determine the category based on the item name
+  // Since we don't have the full recipe data, we'll use a simplified approach
+  const itemName = stat.item_name?.toLowerCase() || ''
+  
+  // Simple pattern matching for common dish types
+  if (itemName.includes('chicken') || itemName.includes('pork') || itemName.includes('beef') || 
+      itemName.includes('lamb') || itemName.includes('duck') || itemName.includes('turkey') ||
+      itemName.includes('steak') || itemName.includes('chop') || itemName.includes('rib')) {
+    return '🥩' // Meat
+  }
+  
+  if (itemName.includes('fish') || itemName.includes('salmon') || itemName.includes('tuna') || 
+      itemName.includes('shrimp') || itemName.includes('crab') || itemName.includes('lobster') ||
+      itemName.includes('clam') || itemName.includes('mussel') || itemName.includes('oyster')) {
+    return '🦞' // Seafood
+  }
+  
+  if (itemName.includes('rice') || itemName.includes('noodle') || itemName.includes('pasta') || 
+      itemName.includes('bread') || itemName.includes('flour') || itemName.includes('wheat')) {
+    return '🍚' // Grains
+  }
+  
+  if (itemName.includes('egg')) {
+    return '🥚' // Egg
+  }
+  
+  // Default to vegetables for most other dishes
+  return '🥬' // Vegetables
+}
 
 function MyFavorite() {
   const { t } = useTranslation()
@@ -22,7 +55,7 @@ function MyFavorite() {
   const [recipes, setRecipes] = useState(recipesCache.current)
   const [loading, setLoading] = useState(false)
   const [showLoading, setShowLoading] = useState(false)
-  const [activeTab, setActiveTab] = useState('favorites') // 'favorites' or 'recipes'
+  const [activeTab, setActiveTab] = useState('statistics') // 'recipes' or 'statistics'
   const [selectedType, setSelectedType] = useState('dish') // 'dish', 'drink', 'sauce'
   const [showRecipeForm, setShowRecipeForm] = useState(false)
   const [selectedRecipe, setSelectedRecipe] = useState(null)
@@ -45,11 +78,20 @@ function MyFavorite() {
 
   // Clear state when language changes to prevent mixing
   useEffect(() => {
-    setActiveTab('favorites')
+    setActiveTab('statistics')
     setSelectedType('dish')
     setShowRecipeForm(false)
     setSelectedRecipe(null)
   }, [i18n.language])
+
+  // Debug statistics data
+  useEffect(() => {
+    if (stats.length > 0) {
+      console.log('📊 All stats:', stats)
+      const filtered = stats.filter(stat => stat.item_type === selectedType)
+      console.log('📊 Filtered stats for', selectedType, ':', filtered)
+    }
+  }, [stats, selectedType])
 
   const loadData = async () => {
     if (!user) {
@@ -62,10 +104,10 @@ function MyFavorite() {
     if (isInitialLoad) {
       setLoading(true)
       
-      // Only show loading indicator if fetch takes longer than 200ms
+      // Only show loading indicator if fetch takes longer than 500ms
       const loadingTimeout = setTimeout(() => {
         setShowLoading(true)
-      }, 200)
+      }, 500)
       
       // Load stats, favorites, and recipes in parallel
       const [statsResult, favoritesResult, recipesResult] = await Promise.all([
@@ -75,8 +117,11 @@ function MyFavorite() {
       ])
 
       if (statsResult.data) {
+        console.log('📊 Statistics loaded:', statsResult.data)
         statsCache.current = statsResult.data
         setStats(statsResult.data)
+      } else {
+        console.log('📊 No statistics data found:', statsResult)
       }
       if (favoritesResult.data) {
         favoritesCache.current = favoritesResult.data
@@ -113,14 +158,6 @@ function MyFavorite() {
     }
   }
 
-  const handleRemoveFavorite = async (itemId, itemType) => {
-    const { error } = await removeFromFavorites(user.id, itemId, itemType)
-    if (!error) {
-      const updated = favorites.filter(f => !(f.item_id === itemId && f.item_type === itemType))
-      favoritesCache.current = updated
-      setFavorites(updated)
-    }
-  }
 
   const handleRecipeSuccess = (newRecipe) => {
     const updated = [newRecipe, ...recipes]
@@ -151,10 +188,6 @@ function MyFavorite() {
     return stats.filter(stat => stat.item_type === selectedType)
   }
 
-  // Filter favorites by type
-  const getFilteredFavorites = () => {
-    return favorites.filter(fav => fav.item_type === selectedType)
-  }
 
   // Filter recipes by type
   const getFilteredRecipes = () => {
@@ -184,11 +217,11 @@ function MyFavorite() {
       <div className="category-tabs-container">
         <div className="category-tabs-row">
           <button
-            className={`category-tab ${activeTab === 'favorites' ? 'active' : ''}`}
-            onClick={() => setActiveTab('favorites')}
+            className={`category-tab ${activeTab === 'statistics' ? 'active' : ''}`}
+            onClick={() => setActiveTab('statistics')}
           >
-            <span className="category-tab-emoji">❤️</span>
-            <span className="category-tab-name">{t('myFavorite.favorites')}</span>
+            <span className="category-tab-emoji">📊</span>
+            <span className="category-tab-name">{t('myFavorite.viewStatistics')}</span>
           </button>
           <button
             className={`category-tab ${activeTab === 'recipes' ? 'active' : ''}`}
@@ -201,7 +234,7 @@ function MyFavorite() {
       </div>
 
       {/* Type Filter */}
-      <div className="category-tabs-container">
+      <div className="category-tabs-container type-filter-separator">
         <div className="category-tabs-row">
           <button
             className={`category-tab ${selectedType === 'dish' ? 'active' : ''}`}
@@ -237,34 +270,6 @@ function MyFavorite() {
       </div>
 
       {/* Content based on active tab */}
-      {activeTab === 'favorites' && (
-        <div className="favorites-section">
-          {getFilteredFavorites().length === 0 ? (
-            <div className="empty-state">
-              <p>{t('myFavorite.noFavoritesYet')}</p>
-            </div>
-          ) : (
-            <div className="ingredient-grid-compact">
-              {getFilteredFavorites().map((favorite) => (
-                <div key={`${favorite.item_id}-${favorite.item_type}`} className="ingredient-item-compact favorite-item">
-                  <span className="ingredient-name-compact">
-                    {favorite.item_emoji} {favorite.item_name}
-                  </span>
-                  <button
-                    className="remove-btn-inline"
-                    onClick={() => handleRemoveFavorite(favorite.item_id, favorite.item_type)}
-                    title={t('myFavorite.removeFromFavorites')}
-                  >
-                    ❌
-                  </button>
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
-      )}
-
-
       {activeTab === 'recipes' && (
         <div className="recipes-section">
           {getFilteredRecipes().length === 0 ? (
@@ -309,6 +314,66 @@ function MyFavorite() {
                   </div>
                 </div>
               ))}
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Statistics Section */}
+      {activeTab === 'statistics' && (
+        <div className="statistics-section">
+          {getFilteredStats().length === 0 ? (
+            <div className="empty-state">
+              <p>{t('myFavorite.noStatisticsYet')}</p>
+              <p style={{ fontSize: '0.9rem', color: '#666', marginTop: '0.5rem' }}>
+                {t('myFavorite.statisticsExplanation')}
+              </p>
+            </div>
+          ) : (
+            <div className="statistics-content">
+              <div className="statistics-summary">
+                <h3>{t('myFavorite.yourTopChoices')}</h3>
+                <p>{t('myFavorite.statisticsDescription')}</p>
+              </div>
+              
+              <div className="statistics-list">
+                {getFilteredStats().map((stat, index) => (
+                  <div key={`${stat.item_id}-${stat.item_type}`} className="statistics-item">
+                    <div className="statistics-rank">
+                      <span className="rank-number">#{index + 1}</span>
+                    </div>
+                    <div className="statistics-info">
+                      <div className="statistics-name">
+                        <span className="statistics-emoji">
+                          {stat.item_type === 'dish' ? getCategoryEmoji(stat) : 
+                           stat.item_type === 'drink' ? '🥤' : 
+                           stat.item_type === 'sauce' ? '🧂' : 
+                           stat.item_emoji}
+                        </span>
+                        <span className="statistics-title">
+                          {stat.item_name?.startsWith('dish.') 
+                            ? t(`dishes.${stat.item_name.replace('dish.', '')}`) 
+                            : stat.item_name?.startsWith('drink.') 
+                            ? t(`drinks.${stat.item_name.replace('drink.', '')}`) 
+                            : stat.item_name?.startsWith('sauce.') 
+                            ? t(`sauces.${stat.item_name.replace('sauce.', '')}`) 
+                            : stat.item_name}
+                        </span>
+                      </div>
+                    </div>
+                    <div className="statistics-count">
+                      <span className="count-label">{t('myFavorite.timesSelected')}:</span>
+                      <span className="count-number">{stat.count}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              
+              <div className="statistics-total">
+                <p>
+                  {t('myFavorite.totalSelections')}: <strong>{getFilteredStats().reduce((sum, stat) => sum + stat.count, 0)}</strong>
+                </p>
+              </div>
             </div>
           )}
         </div>

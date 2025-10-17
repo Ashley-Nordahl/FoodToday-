@@ -1429,7 +1429,15 @@
     "viewRecipeDetails": "Visa receptdetaljer",
     "removeRecipe": "Ta bort recept",
     "timesUsed": "gånger använd",
-    "lastUsed": "Senast använd"
+    "lastUsed": "Senast använd",
+    "statistics": "Statistik",
+    "viewStatistics": "Favoriter",
+    "noStatisticsYet": "Ingen statistik än. Börja utforska och välj artiklar för att se dina preferenser!",
+    "statisticsExplanation": "Statistik spårar hur många gånger du har valt varje artikel på alla sidor.",
+    "yourTopChoices": "Dina Toppval",
+    "statisticsDescription": "Här är dina mest valda artiklar, rankade efter hur ofta du har valt dem.",
+    "timesSelected": "Gånger Vald",
+    "totalSelections": "Totalt Antal Val"
   },
   "cookingMethods": {
     "grilled": "Grillat",

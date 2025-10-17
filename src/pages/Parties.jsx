@@ -1385,7 +1385,7 @@ function Parties() {
       {showShoppingList && generatedDishes && (
         <div className="shopping-list-overlay">
           <div className="shopping-list-modal" style={{ maxHeight: '90vh', overflow: 'auto' }}>
-            <div className="shopping-list-header" style={{ position: 'relative', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div className="shopping-list-header" style={{ position: 'sticky', top: '0', background: 'white', zIndex: 100, boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <h3>🛒 {t('button.createShoppingList')}</h3>
               <button 
                 className="close-btn" 

@@ -19,9 +19,9 @@ export const AuthProvider = ({ children }) => {
   useEffect(() => {
     // Get initial session with timeout to prevent hanging
     const timeout = setTimeout(() => {
-      // If Supabase doesn't respond in 2 seconds, continue without auth
+      // If Supabase doesn't respond in 500ms, continue without auth
       setLoading(false)
-    }, 2000)
+    }, 500)
 
     supabase.auth.getSession().then(({ data: { session } }) => {
       clearTimeout(timeout)
@@ -139,7 +139,7 @@ export const AuthProvider = ({ children }) => {
 
   return (
     <AuthContext.Provider value={value}>
-      {!loading && children}
+      {children}
     </AuthContext.Provider>
   )
 }

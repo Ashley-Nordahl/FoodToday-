@@ -399,7 +399,7 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
                   const isExpanded = expandedSubcategories[`${category}-${subcategory}`]
                   
                   return (
-                    <div key={subcategory} className="subcategory-section">
+                    <div key={subcategory} className={`subcategory-section ${subcategory === 'Pork' ? 'pork-subcategory' : ''}`}>
                       <div 
                         className="subcategory-header"
                         onClick={() => toggleSubcategory(category, subcategory)}
@@ -408,9 +408,17 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
                           {getTranslatedSubcategoryName(subcategory)}:
                         </h5>
                         <div className="subcategory-controls">
-                          {isExpanded && (
+                          <span className="subcategory-toggle">
+                            {isExpanded ? '▲' : '▼'}
+                          </span>
+                        </div>
+                      </div>
+                      
+                      <div className={`subcategory-items ${isExpanded ? 'expanded' : 'collapsed'}`}>
+                        {isExpanded && (
+                          <div className="dropdown-close-row">
                             <span 
-                              className="subcategory-close"
+                              className="dropdown-close-btn"
                               onClick={(e) => {
                                 e.stopPropagation()
                                 toggleSubcategory(category, subcategory)
@@ -419,14 +427,8 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
                             >
                               ×
                             </span>
-                          )}
-                          <span className="subcategory-toggle">
-                            {isExpanded ? '▲' : '▼'}
-                          </span>
-                        </div>
-                      </div>
-                      
-                      <div className={`subcategory-items ${isExpanded ? 'expanded' : 'collapsed'}`}>
+                          </div>
+                        )}
                       {subcategoryData.items.map(ingredient => {
                         // Check if this is a custom ingredient
                         const isCustomIngredient = !ingredients[category]?.subcategories?.[subcategory]?.items?.some(defaultItem => defaultItem.id === ingredient.id)
@@ -439,6 +441,9 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
                             title={ingredient.name}
                           >
                             <span className="ingredient-name-compact">{getTranslatedIngredientName(ingredient)}</span>
+                            {selectedIngredients.some(ing => ing.id === ingredient.id) && (
+                              <span className="selection-mark">✓</span>
+                            )}
                             {isCustomIngredient && (
                               <button
                                 className="delete-ingredient-btn"
@@ -495,7 +500,7 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
                           onClick={() => handleAddIngredientSubcategory(category, subcategory)}
                           title={`Add new ingredient to ${subcategory}`}
                         >
-                          + Add
+                          + Ingredient
                         </button>
                       )}
                       </div>
@@ -516,6 +521,9 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
                       title={ingredient.name}
                     >
                       <span className="ingredient-name-compact">{getTranslatedIngredientName(ingredient)}</span>
+                      {selectedIngredients.some(ing => ing.id === ingredient.id) && (
+                        <span className="selection-mark">✓</span>
+                      )}
                       {isCustomIngredient && (
                         <button
                           className="delete-ingredient-btn"
@@ -572,7 +580,7 @@ const IngredientSelector = ({ selectedCuisine = null, onGenerate }) => {
                     className="add-ingredient-btn"
                     onClick={() => handleAddIngredient(category)}
                   >
-                    + Add
+                    + Ingredient
                   </button>
                 )
               )}

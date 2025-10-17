@@ -10,6 +10,14 @@ export default defineConfig({
   },
   resolve: {
     dedupe: ['react', 'react-dom']
+  },
+  define: {
+    // Suppress React Router development warnings
+    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development')
+  },
+  esbuild: {
+    // Suppress console warnings in development
+    logLevel: 'error'
   }
 })
 

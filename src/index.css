@@ -1471,6 +1471,14 @@ p {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+  position: sticky;
+  top: 0;
+  background: var(--background-color);
+  z-index: 100;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .choice-title {
@@ -2566,6 +2574,109 @@ p {
   border: 1px solid rgba(255, 107, 53, 0.2);
 }
 
+/* Desktop dropdown positioning - ensure subcategory sections are positioned relatively */
+.ingredient-selector .subcategory-section {
+  position: relative;
+}
+
+/* Desktop-specific dropdown styles */
+@media (min-width: 769px) {
+  .ingredient-selector .subcategory-items {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    right: auto !important;
+    z-index: 100 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.3rem !important;
+    align-items: flex-start !important;
+    background: rgba(255, 255, 255, 0.98) !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(255, 107, 53, 0.2) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    margin-top: 0.3rem !important;
+    padding: 0.5rem !important;
+    min-width: fit-content !important;
+    max-width: 300px !important;
+    width: auto !important;
+    overflow: hidden !important;
+    transition: max-height 0.3s ease, opacity 0.3s ease !important;
+  }
+  
+  .ingredient-selector .subcategory-items.collapsed {
+    max-height: 0 !important;
+    opacity: 0 !important;
+    padding: 0 !important;
+    margin-top: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    overflow: hidden !important;
+    display: none !important;
+  }
+  
+  .ingredient-selector .subcategory-items.expanded {
+    max-height: 400px !important;
+    opacity: 1 !important;
+    padding: 0.5rem !important;
+    margin-top: 0.3rem !important;
+    overflow-y: auto !important;
+    border: 1px solid rgba(255, 107, 53, 0.2) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    background: rgba(255, 255, 255, 0.98) !important;
+    border-radius: 8px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.3rem !important;
+    align-items: flex-start !important;
+    transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease, margin 0.3s ease !important;
+    padding-bottom: 1.5rem !important;
+    justify-content: flex-start !important;
+    min-width: fit-content !important;
+    width: auto !important;
+    max-width: 300px !important;
+  }
+  
+  .ingredient-selector .subcategory-items.expanded .ingredient-item-compact {
+    align-self: flex-start !important;
+    text-align: left !important;
+    width: auto !important;
+    min-width: fit-content !important;
+    order: 1 !important;
+    font-size: 0.65rem !important;
+    flex-shrink: 0 !important;
+    white-space: nowrap !important;
+  }
+  
+  .ingredient-selector .subcategory-items.expanded .add-ingredient-input {
+    width: 100% !important;
+    min-width: 180px !important;
+    order: 2 !important;
+    margin-top: 0.5rem !important;
+    align-self: stretch !important;
+  }
+  
+  /* Desktop: When add input is shown, expand the dropdown width flexibly */
+  .ingredient-selector .subcategory-items.expanded:has(.add-ingredient-input) {
+    min-width: fit-content !important;
+    width: auto !important;
+    max-width: 300px !important;
+  }
+  
+  .ingredient-selector .subcategory-items.expanded .add-ingredient-btn {
+    align-self: flex-start !important;
+    text-align: center !important;
+    width: auto !important;
+    min-width: fit-content !important;
+    max-width: fit-content !important;
+    order: 9999 !important;
+    margin-top: 0.5rem !important;
+    opacity: 1 !important;
+    display: block !important;
+    padding: 0.4rem 0.8rem !important;
+  }
+}
+
 .subcategory-header:hover {
   background: rgba(255, 107, 53, 0.15);
   border-color: rgba(255, 107, 53, 0.3);
@@ -2627,6 +2738,10 @@ p {
   padding: 0.5rem;
   min-width: 250px;
   max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-items: stretch;
 }
 
 /* Smart positioning for dropdowns near the right edge */
@@ -2659,6 +2774,7 @@ p {
   border: none;
   box-shadow: none;
   overflow: hidden;
+  display: none;
 }
 
 /* Expanded state */
@@ -2688,6 +2804,8 @@ p {
   min-width: fit-content;
   order: 1;
   font-size: 0.65rem;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 /* Add ingredient input in dropdown should be full width */
@@ -2699,10 +2817,11 @@ p {
   align-self: stretch;
 }
 
-/* When add input is shown, expand the dropdown width */
+/* When add input is shown, expand the dropdown width flexibly */
 .subcategory-items.expanded:has(.add-ingredient-input) {
-  min-width: 200px;
-  width: 200px;
+  min-width: fit-content;
+  width: auto;
+  max-width: 300px;
 }
 
 /* Add button should appear at the bottom as the last item */
@@ -2728,6 +2847,212 @@ p {
   visibility: visible !important;
   opacity: 1 !important;
   display: block !important;
+}
+
+/* Mobile-specific override for add button positioning */
+@media (max-width: 768px) {
+  .subcategory-items.expanded .add-ingredient-btn {
+    align-self: stretch !important;
+    text-align: center !important;
+    width: 100% !important;
+    min-width: fit-content !important;
+    max-width: fit-content !important;
+    order: 9999 !important;
+    margin-top: 0.5rem !important;
+    padding: 0.4rem 0.6rem !important;
+    font-size: 0.6rem !important;
+    height: auto !important;
+    min-height: 28px !important;
+    background: var(--primary-color) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 6px !important;
+    z-index: 10 !important;
+    position: relative !important;
+    margin-bottom: 0.5rem !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: block !important;
+  }
+}
+
+/* Extra small screens override for add button positioning */
+@media (max-width: 480px) {
+  .subcategory-items.expanded .add-ingredient-btn {
+    align-self: stretch !important;
+    text-align: center !important;
+    width: 100% !important;
+    min-width: fit-content !important;
+    max-width: fit-content !important;
+    order: 9999 !important;
+    margin-top: 0.4rem !important;
+    padding: 0.3rem 0.5rem !important;
+    font-size: 0.55rem !important;
+    height: auto !important;
+    min-height: 24px !important;
+    background: var(--primary-color) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 4px !important;
+    z-index: 10 !important;
+    position: relative !important;
+    margin-bottom: 0.5rem !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: block !important;
+  }
+}
+
+
+/* Force fix for Pork subcategory specifically */
+.pork-subcategory .subcategory-items.expanded .add-ingredient-btn {
+  align-self: stretch !important;
+  text-align: center !important;
+  width: 100% !important;
+  min-width: fit-content !important;
+  max-width: fit-content !important;
+  order: 9999 !important;
+  margin-top: 0.5rem !important;
+  padding: 0.4rem 0.6rem !important;
+  font-size: 0.6rem !important;
+  height: auto !important;
+  min-height: 28px !important;
+  background: var(--primary-color) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 6px !important;
+  z-index: 10 !important;
+  position: relative !important;
+  margin-bottom: 0.5rem !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+/* Additional mobile-specific fix for Pork */
+@media (max-width: 768px) {
+  .pork-subcategory .subcategory-items.expanded {
+    width: auto !important;
+    min-width: fit-content !important;
+    max-width: 250px !important;
+    padding-bottom: 2rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.3rem !important;
+    align-items: stretch !important;
+  }
+  
+  .pork-subcategory .subcategory-items.expanded .add-ingredient-btn {
+    align-self: stretch !important;
+    text-align: center !important;
+    width: 100% !important;
+    min-width: fit-content !important;
+    max-width: fit-content !important;
+    order: 9999 !important;
+    margin-top: 0.5rem !important;
+    padding: 0.4rem 0.6rem !important;
+    font-size: 0.6rem !important;
+    height: auto !important;
+    min-height: 28px !important;
+    background: var(--primary-color) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 6px !important;
+    z-index: 10 !important;
+    position: relative !important;
+    margin-bottom: 0.5rem !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: block !important;
+  }
+}
+
+/* Force Pork dropdown to match working dropdowns */
+.ingredient-selector-mobile .pork-subcategory .subcategory-items.expanded .add-ingredient-btn {
+  align-self: stretch !important;
+  text-align: center !important;
+  width: 100% !important;
+  min-width: fit-content !important;
+  max-width: fit-content !important;
+  order: 9999 !important;
+  margin-top: 0.5rem !important;
+  padding: 0.4rem 0.6rem !important;
+  font-size: 0.6rem !important;
+  height: auto !important;
+  min-height: 28px !important;
+  background: var(--primary-color) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 6px !important;
+  z-index: 10 !important;
+  position: relative !important;
+  margin-bottom: 0.5rem !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+/* ULTIMATE FIX for Pork dropdown - maximum specificity */
+.ingredient-selector.ingredient-selector-mobile .pork-subcategory .subcategory-items.expanded .add-ingredient-btn {
+  align-self: stretch !important;
+  text-align: center !important;
+  width: 100% !important;
+  min-width: fit-content !important;
+  max-width: fit-content !important;
+  order: 9999 !important;
+  margin-top: 0.5rem !important;
+  padding: 0.4rem 0.6rem !important;
+  font-size: 0.6rem !important;
+  height: auto !important;
+  min-height: 28px !important;
+  background: var(--primary-color) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 6px !important;
+  z-index: 10 !important;
+  position: relative !important;
+  margin-bottom: 0.5rem !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+/* Dropdown close button positioning - first row */
+.dropdown-close-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0.3rem;
+  order: 0;
+}
+
+.dropdown-close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  background: none;
+  color: #999;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  border: none;
+  padding: 0;
+}
+
+.dropdown-close-btn:hover {
+  background: none;
+  color: #ff4757;
+  border: none;
+  transform: scale(1.1);
+}
+
+.dropdown-close-btn:active {
+  transform: scale(0.95);
 }
 
 /* Custom scrollbar for dropdown */
@@ -2786,8 +3111,9 @@ p {
     border: 1px solid rgba(255, 107, 53, 0.2) !important;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
     padding: 0.4rem !important;
-    max-height: 250px !important;
-    min-width: 220px !important;
+    max-height: 350px !important;
+    min-width: fit-content !important;
+    width: auto !important;
   }
 
   .ingredient-selector-mobile .subcategory-items.collapsed {
@@ -2800,16 +3126,16 @@ p {
   }
 
   .ingredient-selector-mobile .subcategory-items.expanded {
-    max-height: 300px !important;
+    max-height: 400px !important;
     opacity: 1 !important;
     overflow-y: auto !important;
     display: flex !important;
     flex-direction: column !important;
     gap: 0.3rem !important;
     align-items: stretch !important;
-    width: fit-content !important;
-    min-width: 120px !important;
-    padding-bottom: 1.5rem !important;
+    width: auto !important;
+    min-width: fit-content !important;
+    padding-bottom: 2rem !important;
     transition: width 0.3s ease, min-width 0.3s ease !important;
     justify-content: flex-start !important;
   }
@@ -2821,7 +3147,7 @@ p {
     width: auto !important;
     min-width: fit-content !important;
     order: 1 !important;
-    font-size: 0.6rem !important;
+    font-size: 0.5rem !important;
   }
 
   /* Mobile add ingredient input should be full width */
@@ -2834,24 +3160,26 @@ p {
     padding: 0.4rem !important;
   }
 
-  /* When add input is shown on mobile, expand the dropdown width */
+  /* When add input is shown on mobile, expand the dropdown width flexibly */
   .ingredient-selector-mobile .subcategory-items.expanded:has(.add-ingredient-input) {
-    min-width: 180px !important;
-    width: 180px !important;
+    min-width: fit-content !important;
+    width: auto !important;
+    max-width: 250px !important;
   }
 
   /* Mobile add button should appear at the bottom and be visible */
   .ingredient-selector-mobile .subcategory-items.expanded .add-ingredient-btn {
-    align-self: flex-end !important;
-    text-align: right !important;
-    width: auto !important;
+    align-self: stretch !important;
+    text-align: center !important;
+    width: 100% !important;
     min-width: fit-content !important;
+    max-width: fit-content !important;
     order: 9999 !important;
     margin-top: 0.5rem !important;
-    padding: 0.4rem 0.6rem !important;
-    font-size: 0.6rem !important;
+    padding: 0.3rem 0.5rem !important;
+    font-size: 0.5rem !important;
     height: auto !important;
-    min-height: 28px !important;
+    min-height: 24px !important;
     background: var(--primary-color) !important;
     color: white !important;
     border: none !important;
@@ -2932,8 +3260,9 @@ p {
     left: 0 !important;
     right: auto !important;
     z-index: 100 !important;
-    max-height: 200px !important;
-    min-width: 160px !important;
+    max-height: 300px !important;
+    min-width: fit-content !important;
+    width: auto !important;
     max-width: 200px !important;
   }
 
@@ -2944,14 +3273,14 @@ p {
   }
 
   .ingredient-selector-mobile .subcategory-items.expanded {
-    max-height: 250px !important;
+    max-height: 350px !important;
     display: flex !important;
     flex-direction: column !important;
     gap: 0.2rem !important;
     align-items: stretch !important;
-    width: fit-content !important;
-    min-width: 100px !important;
-    padding-bottom: 1.5rem !important;
+    width: auto !important;
+    min-width: fit-content !important;
+    padding-bottom: 2rem !important;
     transition: width 0.3s ease, min-width 0.3s ease !important;
     justify-content: flex-start !important;
   }
@@ -2963,7 +3292,7 @@ p {
     width: auto !important;
     min-width: fit-content !important;
     order: 1 !important;
-    font-size: 0.65rem !important;
+    font-size: 0.55rem !important;
   }
 
   /* Extra small screens add ingredient input should be full width */
@@ -2976,24 +3305,26 @@ p {
     padding: 0.3rem !important;
   }
 
-  /* When add input is shown on extra small screens, expand the dropdown width */
+  /* When add input is shown on extra small screens, expand the dropdown width flexibly */
   .ingredient-selector-mobile .subcategory-items.expanded:has(.add-ingredient-input) {
-    min-width: 140px !important;
-    width: 140px !important;
+    min-width: fit-content !important;
+    width: auto !important;
+    max-width: 200px !important;
   }
 
   /* Extra small screens add button should appear at the bottom and be visible */
   .ingredient-selector-mobile .subcategory-items.expanded .add-ingredient-btn {
-    align-self: flex-end !important;
-    text-align: right !important;
-    width: auto !important;
+    align-self: stretch !important;
+    text-align: center !important;
+    width: 100% !important;
     min-width: fit-content !important;
+    max-width: fit-content !important;
     order: 9999 !important;
     margin-top: 0.4rem !important;
-    padding: 0.3rem 0.5rem !important;
-    font-size: 0.55rem !important;
+    padding: 0.25rem 0.4rem !important;
+    font-size: 0.45rem !important;
     height: auto !important;
-    min-height: 24px !important;
+    min-height: 20px !important;
     background: var(--primary-color) !important;
     color: white !important;
     border: none !important;
@@ -3034,6 +3365,19 @@ p {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* Selection mark styling */
+.selection-mark {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-left: 0.3rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1em;
+  height: 1em;
 }
 
 /* Custom ingredient styling */
@@ -3126,7 +3470,11 @@ p {
   align-items: center;
   padding: 1.5rem 1.5rem 1rem;
   border-bottom: 1px solid #eee;
-  position: relative;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .shopping-list-header h3 {
@@ -3444,6 +3792,8 @@ p {
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
+  /* Add extra top margin when sticky tabs are present */
+  margin-top: 3rem;
 }
 
 /* Removed old recipe-header styles - now integrated into recipe-card-header */
@@ -3509,6 +3859,32 @@ p {
   margin-bottom: 1.5rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #f0f0f0;
+  position: sticky;
+  top: 60px; /* Account for navbar height */
+  background: white;
+  z-index: 99;
+  padding: 1rem;
+  margin: -2rem -2rem 1.5rem -2rem;
+  border-radius: 20px 20px 0 0;
+}
+
+/* Apply sticky behavior to both Random Recipe and Sauce Recipe */
+.recipe-display .recipe-card-header {
+  position: sticky;
+  top: 60px; /* Account for navbar height */
+  background: white;
+  z-index: 99;
+  padding: 1rem;
+  margin: -2rem -2rem 1.5rem -2rem;
+  border-radius: 20px 20px 0 0;
+}
+
+/* Recipe Header Actions - Base Styles */
+.recipe-header-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
 }
 
 .recipe-title-row {
@@ -3551,6 +3927,29 @@ p {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+    padding: 0.75rem;
+    top: 50px; /* Slightly less for mobile navbar */
+  }
+  
+  .recipe-display .recipe-card-header {
+    top: 50px; /* Slightly less for mobile navbar */
+    margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+    padding: 0.75rem;
+  }
+  
+  /* Left-align shopping list button on mobile */
+  .recipe-header-actions {
+    justify-content: flex-start !important;
+    gap: 1rem;
+  }
+  
+  .recipe-header-actions .btn-shopping {
+    margin-right: auto;
+  }
+  
+  .recipe-header-actions .close-recipe-btn {
+    margin-left: auto;
   }
   
   .recipe-title-row {
@@ -3589,6 +3988,28 @@ p {
     padding: 1.5rem;
   }
   
+  .recipe-card-header {
+    top: 45px; /* Even smaller for very small screens */
+  }
+  
+  .recipe-display .recipe-card-header {
+    top: 45px; /* Even smaller for very small screens */
+  }
+  
+  /* Ensure left alignment on very small screens too */
+  .recipe-header-actions {
+    justify-content: flex-start !important;
+    gap: 0.75rem;
+  }
+  
+  .recipe-header-actions .btn-shopping {
+    margin-right: auto;
+  }
+  
+  .recipe-header-actions .close-recipe-btn {
+    margin-left: auto;
+  }
+  
   .recipe-title-section h3 {
     font-size: 1.2rem;
   }
@@ -3610,6 +4031,7 @@ p {
 
 .recipe-content {
   flex: 1;
+  padding-top: 1rem; /* Add top padding to account for sticky header */
 }
 
 .recipe-description {
@@ -3694,7 +4116,8 @@ p {
 @media (max-width: 768px) {
   .choice-segments-container {
     max-width: 100%;
-    padding: 0 1rem;
+    padding: 0.75rem 1rem;
+    top: -1px; /* Adjust for mobile header if needed */
   }
 
   .segmented-control {
@@ -8930,6 +9353,185 @@ p {
   }
 }
 
+/* Type Filter Separator */
+.type-filter-separator {
+  border-top: 2px solid #d1d5db;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+/* Allow text wrapping in category tabs */
+.category-tab-name {
+  white-space: normal;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Ensure main tabs have consistent height */
+.category-tabs-row .category-tab {
+  min-height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Mobile adjustments for type filter separator */
+@media (max-width: 768px) {
+  .type-filter-separator {
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  /* Ensure main tabs stay in single row on mobile */
+  .category-tabs-container:first-of-type .category-tabs-row {
+    flex-wrap: nowrap !important;
+    gap: 0.3rem !important;
+  }
+  
+  .category-tabs-container:first-of-type .category-tab {
+    flex: 1 !important;
+    min-width: 0 !important;
+    font-size: 0.8rem !important;
+    padding: 0.5rem 0.3rem !important;
+  }
+}
+
+/* Statistics Styles */
+.statistics-section {
+  margin-top: 2rem;
+}
+
+.statistics-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.statistics-summary {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  border: 1px solid #dee2e6;
+}
+
+.statistics-summary h3 {
+  margin: 0 0 0.5rem 0;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+.statistics-summary p {
+  margin: 0;
+  color: #666;
+  font-size: 1rem;
+}
+
+.statistics-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.statistics-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.statistics-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+.statistics-rank {
+  flex-shrink: 0;
+  width: 40px;
+  text-align: center;
+}
+
+.rank-number {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.statistics-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.statistics-emoji {
+  font-size: 1.2rem;
+}
+
+.statistics-title {
+  font-weight: 600;
+  color: var(--dark-color);
+  font-size: 0.9rem;
+}
+
+.statistics-count {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+  flex-shrink: 0;
+}
+
+.count-label {
+  font-weight: 500;
+}
+
+.count-number {
+  font-weight: bold;
+  color: var(--primary-color);
+  background: #fff5f0;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+
+.statistics-total {
+  text-align: center;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.statistics-total p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--dark-color);
+}
+
+.statistics-total strong {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
 /* Recipe Form Styles */
 .recipe-form-overlay {
   position: fixed;
@@ -9958,6 +10560,11 @@ p {
     overflow: hidden !important;
     text-overflow: ellipsis !important;
   }
+  
+  .ingredient-selector-mobile .selection-mark {
+    font-size: 0.7rem !important;
+    margin-left: 0.2rem !important;
+  }
 
   /* Add Ingredient Buttons - flexible responsive */
   .ingredient-selector-mobile .add-ingredient-btn,
@@ -10139,6 +10746,11 @@ p {
 
   .ingredient-selector-mobile .ingredient-name-compact {
     font-size: 0.7rem !important;
+  }
+  
+  .ingredient-selector-mobile .selection-mark {
+    font-size: 0.65rem !important;
+    margin-left: 0.15rem !important;
   }
 
   .ingredient-selector-mobile .add-ingredient-btn {

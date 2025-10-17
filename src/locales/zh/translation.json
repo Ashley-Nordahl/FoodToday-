@@ -1171,7 +1171,15 @@
     "noRecipesYet": "还没有食谱。使用上面的\\\"添加食谱\\\"按钮开始！",
     "removeFromFavorites": "从收藏中移除",
     "viewRecipeDetails": "查看食谱详情",
-    "removeRecipe": "删除食谱"
+    "removeRecipe": "删除食谱",
+    "statistics": "统计数据",
+    "viewStatistics": "收藏",
+    "noStatisticsYet": "还没有统计数据。开始探索并选择项目来查看您的偏好！",
+    "statisticsExplanation": "统计数据追踪您在所有页面中选择每个项目的次数。",
+    "yourTopChoices": "您的热门选择",
+    "statisticsDescription": "以下是您最常选择的项目，按选择频率排序。",
+    "timesSelected": "选择次数",
+    "totalSelections": "总选择数"
   },
   "parties": {
     "title": "🎉 聚会",

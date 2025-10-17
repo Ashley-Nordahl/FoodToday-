@@ -1,10 +1,25 @@
 import { Navigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
+import { useState, useEffect } from 'react'
 
 function ProtectedRoute({ children }) {
   const { user, loading } = useAuth()
+  const [showLoading, setShowLoading] = useState(false)
 
-  if (loading) {
+  useEffect(() => {
+    if (loading) {
+      // Only show loading if it takes longer than 300ms
+      const timeout = setTimeout(() => {
+        setShowLoading(true)
+      }, 300)
+      
+      return () => clearTimeout(timeout)
+    } else {
+      setShowLoading(false)
+    }
+  }, [loading])
+
+  if (loading && showLoading) {
     return (
       <div className="loading-container">
         <div className="loading-spinner">

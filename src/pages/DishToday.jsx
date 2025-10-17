@@ -437,7 +437,7 @@ function DishToday() {
         <div className="recipe-display">
           <div className="recipe-card">
             <div className="recipe-card-header">
-              <div className="recipe-header-actions" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0.5rem 1rem' }}>
+              <div className="recipe-header-actions">
                 {/* Shopping List Button - Left Aligned */}
                 <button 
                   className="btn btn-shopping btn-medium"

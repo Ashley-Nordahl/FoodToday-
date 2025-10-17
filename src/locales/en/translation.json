@@ -1387,7 +1387,15 @@
     "viewRecipeDetails": "View recipe details",
     "removeRecipe": "Remove recipe",
     "timesUsed": "times used",
-    "lastUsed": "Last used"
+    "lastUsed": "Last used",
+    "statistics": "Statistics",
+    "viewStatistics": "Favorites",
+    "noStatisticsYet": "No statistics yet. Start exploring and selecting items to see your preferences!",
+    "statisticsExplanation": "Statistics track how many times you've selected each item across all pages.",
+    "yourTopChoices": "Your Top Choices",
+    "statisticsDescription": "Here are your most selected items, ranked by how often you've chosen them.",
+    "timesSelected": "Times Selected",
+    "totalSelections": "Total Selections"
   },
   "cookingMethods": {
     "grilled": "Grilled",

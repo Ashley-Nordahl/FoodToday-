@@ -5,6 +5,7 @@ import { AuthProvider, useAuth } from './contexts/AuthContext'
 import { LanguageProvider } from './contexts/LanguageContext'
 import ProtectedRoute from './components/ProtectedRoute'
 import LanguageSelector from './components/LanguageSelector'
+import ErrorBoundary from './components/ErrorBoundary'
 import DishToday from './pages/DishToday'
 import Drink from './pages/Drink'
 import Sauce from './pages/Sauce'
@@ -204,44 +205,46 @@ function Navigation() {
 
 function App() {
   return (
-    <Router>
-      <AuthProvider>
-        <LanguageProvider>
-          <div className="app-container">
-            <Navigation />
-            <Routes>
-              <Route path="/login" element={<Login />} />
-              <Route path="/signup" element={<Signup />} />
-              <Route path="/" element={
-                <ProtectedRoute>
-                  <DishToday />
-                </ProtectedRoute>
-              } />
-              <Route path="/drink" element={
-                <ProtectedRoute>
-                  <Drink />
-                </ProtectedRoute>
-              } />
-              <Route path="/sauce" element={
-                <ProtectedRoute>
-                  <Sauce />
-                </ProtectedRoute>
-              } />
-              <Route path="/parties" element={
-                <ProtectedRoute>
-                  <Parties />
-                </ProtectedRoute>
-              } />
-              <Route path="/favorite" element={
-                <ProtectedRoute>
-                  <MyFavorite />
-                </ProtectedRoute>
-              } />
-            </Routes>
-          </div>
-        </LanguageProvider>
-      </AuthProvider>
-    </Router>
+    <ErrorBoundary>
+      <Router>
+        <AuthProvider>
+          <LanguageProvider>
+            <div className="app-container">
+              <Navigation />
+              <Routes>
+                <Route path="/login" element={<Login />} />
+                <Route path="/signup" element={<Signup />} />
+                <Route path="/" element={
+                  <ProtectedRoute>
+                    <DishToday />
+                  </ProtectedRoute>
+                } />
+                <Route path="/drink" element={
+                  <ProtectedRoute>
+                    <Drink />
+                  </ProtectedRoute>
+                } />
+                <Route path="/sauce" element={
+                  <ProtectedRoute>
+                    <Sauce />
+                  </ProtectedRoute>
+                } />
+                <Route path="/parties" element={
+                  <ProtectedRoute>
+                    <Parties />
+                  </ProtectedRoute>
+                } />
+                <Route path="/favorite" element={
+                  <ProtectedRoute>
+                    <MyFavorite />
+                  </ProtectedRoute>
+                } />
+              </Routes>
+            </div>
+          </LanguageProvider>
+        </AuthProvider>
+      </Router>
+    </ErrorBoundary>
   )
 }
 
