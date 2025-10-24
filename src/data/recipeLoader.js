@@ -1,21 +1,23 @@
 // New Recipe Data Loader
 // Loads recipes from organized JSON files in /src/recipes/
 
-import meatRecipes from '../recipes/meat.json'
-import seafoodRecipes from '../recipes/seafood.json'
-import vegetablesRecipes from '../recipes/vegetables.json'
-import grainsRecipes from '../recipes/grains.json'
-import eggsRecipes from '../recipes/eggs.json'
-import beansRecipes from '../recipes/beans.json'
+import africaRecipes from '../recipes/Africa.json'
+import asiaRecipes from '../recipes/Asia.json'
+import europeRecipes from '../recipes/Europe.json'
+import latinAmericaRecipes from '../recipes/LatinAmerica.json'
+import middleEastRecipes from '../recipes/MiddleEast.json'
+import northAmericaRecipes from '../recipes/NorthAmerica.json'
+import southAmericaRecipes from '../recipes/SouthAmerica.json'
 
 // Combine all recipes into a single array
 const allRecipes = [
-  ...meatRecipes,
-  ...seafoodRecipes,
-  ...vegetablesRecipes,
-  ...grainsRecipes,
-  ...eggsRecipes,
-  ...beansRecipes
+  ...africaRecipes,
+  ...asiaRecipes,
+  ...europeRecipes,
+  ...latinAmericaRecipes,
+  ...middleEastRecipes,
+  ...northAmericaRecipes,
+  ...southAmericaRecipes
 ]
 
 // Recipe data access functions

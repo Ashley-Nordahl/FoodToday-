@@ -1,21 +1,15 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
-// Cuisine styles based on actual recipe data with distinct colors
+// Cuisine styles based on new recipe data structure with distinct colors
 const cuisineStyles = {
   'Africa': { color: '#27AE60', emoji: '🍲', flag: '🌍' },
   'Asia': { color: '#E67E22', emoji: '🍜', flag: '🌏' },
-  'East Asia': { color: '#E74C3C', emoji: '🥢', flag: '🇨🇳' },
   'Europe': { color: '#8E44AD', emoji: '🥖', flag: '🇪🇺' },
-  'Global': { color: '#95A5A6', emoji: '🌍', flag: '🌍' },
   'Latin America': { color: '#F39C12', emoji: '🌽', flag: '🇲🇽' },
-  'Mediterranean': { color: '#F1C40F', emoji: '🫒', flag: '🇬🇷' },
   'Middle East': { color: '#D35400', emoji: '🥙', flag: '🇱🇧' },
   'North America': { color: '#34495E', emoji: '🍔', flag: '🇺🇸' },
-  'South America': { color: '#E74C3C', emoji: '🌽', flag: '🇧🇷' },
-  'South Asia': { color: '#E17055', emoji: '🍛', flag: '🇮🇳' },
-  'Southeast Asia': { color: '#1ABC9C', emoji: '🌶️', flag: '🇹🇭' },
-  'Southern Europe': { color: '#9B59B6', emoji: '🍝', flag: '🇮🇹' }
+  'South America': { color: '#E74C3C', emoji: '🌽', flag: '🇧🇷' }
 }
 
 // Default fallback style

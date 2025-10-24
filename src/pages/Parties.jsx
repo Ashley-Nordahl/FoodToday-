@@ -43,21 +43,15 @@ const useCuisineStyles = () => {
   const allRecipes = getAllRecipes()
   const cuisines = [...new Set(allRecipes.map(recipe => recipe.cuisine))]
   
-  // Cuisine styles with proper flags and colors
+  // Cuisine styles with proper flags and colors for the new structure
   const cuisineStyles = {
     'Africa': { emoji: '🍲', flag: '🌍' },
     'Asia': { emoji: '🍜', flag: '🌏' },
-    'East Asia': { emoji: '🥢', flag: '🇨🇳' },
     'Europe': { emoji: '🥖', flag: '🇪🇺' },
-    'Global': { emoji: '🌍', flag: '🌍' },
     'Latin America': { emoji: '🌽', flag: '🇲🇽' },
-    'Mediterranean': { emoji: '🫒', flag: '🇬🇷' },
     'Middle East': { emoji: '🥙', flag: '🇱🇧' },
     'North America': { emoji: '🍔', flag: '🇺🇸' },
-    'South America': { emoji: '🌽', flag: '🇧🇷' },
-    'South Asia': { emoji: '🍛', flag: '🇮🇳' },
-    'Southeast Asia': { emoji: '🌶️', flag: '🇹🇭' },
-    'Southern Europe': { emoji: '🍝', flag: '🇮🇹' }
+    'South America': { emoji: '🌽', flag: '🇧🇷' }
   }
   
   // Convert to the format expected by the component
