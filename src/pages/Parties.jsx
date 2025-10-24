@@ -39,11 +39,39 @@ const useTastePreferences = () => {
 }
 
 const useCuisineStyles = () => {
+  // Get actual cuisines from recipe data
+  const allRecipes = getAllRecipes()
+  const cuisines = [...new Set(allRecipes.map(recipe => recipe.cuisine))]
+  
+  // Cuisine styles with proper flags and colors
+  const cuisineStyles = {
+    'Africa': { emoji: '🍲', flag: '🌍' },
+    'Asia': { emoji: '🍜', flag: '🌏' },
+    'East Asia': { emoji: '🥢', flag: '🇨🇳' },
+    'Europe': { emoji: '🥖', flag: '🇪🇺' },
+    'Global': { emoji: '🌍', flag: '🌍' },
+    'Latin America': { emoji: '🌽', flag: '🇲🇽' },
+    'Mediterranean': { emoji: '🫒', flag: '🇬🇷' },
+    'Middle East': { emoji: '🥙', flag: '🇱🇧' },
+    'North America': { emoji: '🍔', flag: '🇺🇸' },
+    'South America': { emoji: '🌽', flag: '🇧🇷' },
+    'South Asia': { emoji: '🍛', flag: '🇮🇳' },
+    'Southeast Asia': { emoji: '🌶️', flag: '🇹🇭' },
+    'Southern Europe': { emoji: '🍝', flag: '🇮🇹' }
+  }
+  
+  // Convert to the format expected by the component
+  const cuisineOptions = cuisines.map(cuisine => ({
+    value: cuisine.toLowerCase().replace(/\s+/g, '_'),
+    label: cuisine,
+    emoji: cuisineStyles[cuisine]?.emoji || '🍽️',
+    flag: cuisineStyles[cuisine]?.flag || '🌍'
+  }))
+  
+  // Add "Mixed" option at the beginning
   return [
-    { value: 'mixed', label: 'Mixed', emoji: '🌍' },
-    { value: 'chinese', label: 'Chinese', emoji: '🥢' },
-    { value: 'western', label: 'Western', emoji: '🍽️' },
-    { value: 'japanese', label: 'Japanese', emoji: '🍱' }
+    { value: 'mixed', label: 'Mixed', emoji: '🌍', flag: '🌍' },
+    ...cuisineOptions
   ]
 }
 
