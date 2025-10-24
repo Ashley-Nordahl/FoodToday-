@@ -85,7 +85,7 @@ const useDiningScenarios = () => {
 
 // Helper function to get the correct emoji based on the recipe's actual category
 const getCategoryEmoji = (recipe) => {
-  if (!recipe.ingredientsWithAmounts || !Array.isArray(recipe.ingredientsWithAmounts)) {
+  if (!recipe.ingredients || !Array.isArray(recipe.ingredients)) {
     return '🍽️'
   }
   
@@ -99,7 +99,7 @@ const getCategoryEmoji = (recipe) => {
   }
   
   // Count how many ingredients belong to each category
-  recipe.ingredientsWithAmounts.forEach(ingredient => {
+  recipe.ingredients.forEach(ingredient => {
     console.log(`🔍 Ingredient: "${ingredient}"`)
     if (isIngredientInCategory(ingredient, 'meat')) {
       categoryCounts.meat++
@@ -203,7 +203,7 @@ const isRecipeInCategory = (recipe, category) => {
   }
   
   // Count how many ingredients belong to each category
-  recipe.ingredientsWithAmounts.forEach(ingredient => {
+  recipe.ingredients.forEach(ingredient => {
     if (isIngredientInCategory(ingredient, 'meat')) categoryCounts.meat++
     if (isIngredientInCategory(ingredient, 'seafood')) categoryCounts.seafood++
     if (isIngredientInCategory(ingredient, 'vegetables')) categoryCounts.vegetables++
@@ -741,8 +741,8 @@ function Parties() {
     
     // Collect all unique ingredient names
     dishes.forEach((dish) => {
-      if (dish.ingredientsWithAmounts && Array.isArray(dish.ingredientsWithAmounts)) {
-        dish.ingredientsWithAmounts.forEach(ingredientString => {
+      if (dish.ingredients && Array.isArray(dish.ingredients)) {
+        dish.ingredients.forEach(ingredientString => {
           // Extract ingredient name from string like "1 lb pork chops, cubed"
           // or handle translation keys like "2 ingredient.bell_peppers_sliced"
           let ingredientName = ingredientString
@@ -971,7 +971,7 @@ function Parties() {
     const ingredientMap = new Map()
     
     generatedDishes.dishes.forEach((dish, dishIndex) => {
-      dish.ingredientsWithAmounts.forEach(ingredientString => {
+      dish.ingredients.forEach(ingredientString => {
         // Parse ingredient string like "1 lb pork chops, cubed"
         let ingredientName = ingredientString
         let amount = ingredientString
