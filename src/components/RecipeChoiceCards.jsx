@@ -54,24 +54,31 @@ const RecipeChoiceCards = ({
 
   return (
     <div className="recipe-choice-cards">
+      <h2>{t('recipeChoice.title')}</h2>
       <div className="choice-tabs">
         <button
           className={`choice-tab ${activeTab === 'random' ? 'active' : ''}`}
           onClick={() => handleTabChange('random')}
         >
-          {t('recipeChoice.random')}
+          <span className="tab-icon">🎲</span>
+          <span className="tab-title">{t('recipeChoice.random')}</span>
+          <span className="tab-subtitle">{t('recipeChoice.randomSubtitle')}</span>
         </button>
         <button
           className={`choice-tab ${activeTab === 'ingredients' ? 'active' : ''}`}
           onClick={() => handleTabChange('ingredients')}
         >
-          {t('recipeChoice.ingredients')}
+          <span className="tab-icon">🥬</span>
+          <span className="tab-title">{t('recipeChoice.ingredients')}</span>
+          <span className="tab-subtitle">{t('recipeChoice.ingredientsSubtitle')}</span>
         </button>
         <button
           className={`choice-tab ${activeTab === 'search' ? 'active' : ''}`}
           onClick={() => setActiveTab('search')}
         >
-          {t('recipeChoice.search')}
+          <span className="tab-icon">🔍</span>
+          <span className="tab-title">{t('recipeChoice.search')}</span>
+          <span className="tab-subtitle">{t('recipeChoice.searchSubtitle')}</span>
         </button>
       </div>
 

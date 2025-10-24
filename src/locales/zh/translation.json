@@ -10,6 +10,10 @@
     "signup": "注册",
     "signOut": "退出登录"
   },
+  "dishToday": {
+    "title": "今日菜肴",
+    "subtitle": "通过我们智能的食谱推荐发现您的完美餐点"
+  },
   "auth": {
     "welcomeBack": "欢迎回来！",
     "welcomeTitle": "加入今日美食！",
@@ -1215,6 +1219,7 @@
     "assignIngredientsFirst": "请先将食材类别分配到您的盘子上！将食材按钮（肉类、海鲜、蔬菜、谷物、蛋类）拖到上面的盘子上。",
     "allPlatesFull": "所有盘子都已满！请先从盘子上移除一个食材。",
     "noIngredientsSelected": "在生成菜肴之前，请为您的盘子选择至少一个食材类别。",
+    "ingredientCategories": "食材类别",
     "categories": {
       "birthday": "生日",
       "business": "商务",

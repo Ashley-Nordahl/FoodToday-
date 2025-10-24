@@ -133,6 +133,323 @@
   padding-right: 1rem;
 }
 
+/* ========================================================================
+   🍽️ RECIPE CHOICE CARDS STYLING
+   ======================================================================== */
+
+/* Recipe Choice Cards Container */
+.recipe-choice-cards {
+  background: var(--white);
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  box-shadow: var(--card-shadow);
+  border: 1px solid rgba(255, 107, 53, 0.1);
+}
+
+/* Section Title */
+.recipe-choice-cards h2 {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* Choice Tabs Navigation - Card Style */
+.choice-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 2rem;
+  background: var(--white);
+  padding: 0.5rem;
+  border-radius: 16px;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.choice-tab {
+  flex: 1;
+  background: var(--white);
+  border: none;
+  padding: 1.5rem 1rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 120px;
+  justify-content: center;
+}
+
+.choice-tab:hover {
+  background: rgba(255, 107, 53, 0.05);
+  color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.choice-tab.active {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: var(--white);
+  box-shadow: 0 6px 20px rgba(255, 107, 53, 0.3);
+  transform: translateY(-3px);
+}
+
+.choice-tab.active::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+  border-radius: 12px;
+}
+
+/* Tab Icons */
+.choice-tab .tab-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.choice-tab .tab-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.choice-tab .tab-subtitle {
+  font-size: 0.8rem;
+  font-weight: 400;
+  opacity: 0.8;
+  line-height: 1.3;
+  display: block;
+  max-width: 200px;
+}
+
+/* Tab Content Sections */
+.search-section,
+.ingredients-section,
+.random-section {
+  padding: 1.5rem 0;
+  border-top: 1px solid #e9ecef;
+  margin-top: 1rem;
+}
+
+/* Search Form */
+.search-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  border: 2px solid #e9ecef;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: var(--white);
+  color: var(--dark-color);
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
+}
+
+.search-button {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: var(--white);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+  min-width: 120px;
+}
+
+.search-button:hover {
+  background: linear-gradient(135deg, var(--secondary-color) 0%, #e67e22 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+}
+
+/* Search Results */
+.search-results h3 {
+  color: var(--dark-color);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.recipe-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.recipe-item {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.recipe-item:hover {
+  background: var(--white);
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-info h4 {
+  color: var(--dark-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.recipe-info p {
+  color: var(--gray-color);
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.recipe-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.recipe-meta span {
+  background: var(--white);
+  color: var(--primary-color);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid rgba(255, 107, 53, 0.2);
+}
+
+/* Section Descriptions */
+.ingredients-section p,
+.random-section p {
+  color: var(--gray-color);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Action Buttons */
+.ingredient-selector-btn,
+.random-recipe-btn {
+  background: linear-gradient(135deg, var(--success-color) 0%, #26a69a 100%);
+  color: var(--white);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(78, 205, 196, 0.3);
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.ingredient-selector-btn:hover,
+.random-recipe-btn:hover {
+  background: linear-gradient(135deg, #26a69a 0%, #1e7e72 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(78, 205, 196, 0.4);
+}
+
+/* Responsive Design for Choice Cards */
+@media (max-width: 768px) {
+  .recipe-choice-cards {
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 16px;
+  }
+  
+  .choice-tabs {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  .choice-tab {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .search-form {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .search-button {
+    width: 100%;
+  }
+  
+  .recipe-meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .recipe-meta span {
+    margin-bottom: 0.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .recipe-choice-cards {
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .choice-tab {
+    padding: 0.7rem 0.8rem;
+    font-size: 0.85rem;
+  }
+  
+  .search-input {
+    padding: 0.8rem 1rem;
+    font-size: 16px; /* Prevent zoom on iOS */
+  }
+  
+  .search-button,
+  .ingredient-selector-btn,
+  .random-recipe-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
 /* ======================================================================== */
 
 /* CSS Variables */
@@ -1172,6 +1489,8 @@ p {
   fill: var(--white);
   text-anchor: middle;
   dominant-baseline: central;
+  word-spacing: 0px;
+  letter-spacing: 0px;
   pointer-events: none;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   max-width: 50px;
@@ -1271,9 +1590,6 @@ p {
   gap: 0.8rem;
 }
 
-.selected-flag {
-  font-size: 1rem;
-}
 
 .selected-name {
   font-size: 0.9rem;
@@ -1374,6 +1690,9 @@ p {
   .segment-text {
     font-size: 0.55rem;
     max-width: 45px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.1;
   }
 
   .center-button {
@@ -1436,6 +1755,9 @@ p {
   .segment-text {
     font-size: 0.5rem;
     max-width: 40px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.0;
   }
 
   .center-button {

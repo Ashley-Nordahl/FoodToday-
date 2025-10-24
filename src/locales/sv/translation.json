@@ -10,6 +10,10 @@
     "signup": "Registrera",
     "signOut": "Logga Ut"
   },
+  "dishToday": {
+    "title": "Dagens Rätt",
+    "subtitle": "Upptäck din perfekta måltid med våra smarta receptrekommendationer"
+  },
   "auth": {
     "welcomeBack": "Välkommen Tillbaka!",
     "welcomeTitle": "Gå med i MatIdag!",
@@ -1488,6 +1492,7 @@
     "assignIngredientsFirst": "Tilldela ingredienskategorier till dina tallrikar först! Dra ingrediensknapparna (Kött, Skaldjur, Grönsaker, Spannmål, Ägg) till tallrikarna ovan.",
     "allPlatesFull": "Alla tallrikar är fulla! Ta bort en ingrediens från en tallrik först.",
     "noIngredientsSelected": "Välj minst en ingredienskategori för dina tallrikar innan du genererar rätter.",
+    "ingredientCategories": "Ingredienskategorier",
     "categories": {
       "birthday": "Födelsedag",
       "business": "Företag",

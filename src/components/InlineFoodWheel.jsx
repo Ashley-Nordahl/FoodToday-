@@ -1,24 +1,21 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
-// Default cuisine colors and emojis
+// Cuisine styles with proper flags and colors
 const cuisineStyles = {
-  'Chinese': { color: '#2ECC71', emoji: '🍚', flag: '🇨🇳' },
-  'Japanese': { color: '#E74C3C', emoji: '🍣', flag: '🇯🇵' },
-  'Korean': { color: '#3498DB', emoji: '🥘', flag: '🇰🇷' },
-  'Italian': { color: '#9B59B6', emoji: '🍝', flag: '🇮🇹' },
-  'French': { color: '#E67E22', emoji: '🥐', flag: '🇫🇷' },
-  'Indian': { color: '#E17055', emoji: '🍛', flag: '🇮🇳' },
-  'Thai': { color: '#1ABC9C', emoji: '🌶️', flag: '🇹🇭' },
-  'Mexican': { color: '#00B894', emoji: '🌮', flag: '🇲🇽' },
-  'American': { color: '#34495E', emoji: '🍔', flag: '🇺🇸' },
-  'Greek': { color: '#F1C40F', emoji: '🫒', flag: '🇬🇷' },
-  'Europe': { color: '#8E44AD', emoji: '🥖', flag: '🇪🇺' },
-  'North America': { color: '#34495E', emoji: '🍔', flag: '🇺🇸' },
-  'Asia': { color: '#E67E22', emoji: '🍜', flag: '🌏' },
-  'Middle East': { color: '#D35400', emoji: '🥙', flag: '🇱🇧' },
   'Africa': { color: '#27AE60', emoji: '🍲', flag: '🌍' },
-  'South America': { color: '#E74C3C', emoji: '🌽', flag: '🇧🇷' }
+  'Asia': { color: '#E67E22', emoji: '🍜', flag: '🌏' },
+  'East Asia': { color: '#E74C3C', emoji: '🥢', flag: '🇨🇳' },
+  'Europe': { color: '#8E44AD', emoji: '🥖', flag: '🇪🇺' },
+  'Global': { color: '#95A5A6', emoji: '🌍', flag: '🌍' },
+  'Latin America': { color: '#E74C3C', emoji: '🌽', flag: '🇲🇽' },
+  'Mediterranean': { color: '#F1C40F', emoji: '🫒', flag: '🇬🇷' },
+  'Middle East': { color: '#D35400', emoji: '🥙', flag: '🇱🇧' },
+  'North America': { color: '#34495E', emoji: '🍔', flag: '🇺🇸' },
+  'South America': { color: '#E74C3C', emoji: '🌽', flag: '🇧🇷' },
+  'South Asia': { color: '#E17055', emoji: '🍛', flag: '🇮🇳' },
+  'Southeast Asia': { color: '#1ABC9C', emoji: '🌶️', flag: '🇹🇭' },
+  'Southern Europe': { color: '#9B59B6', emoji: '🍝', flag: '🇮🇹' }
 }
 
 // Default fallback style
@@ -162,25 +159,21 @@ function InlineFoodWheel({ cuisines, onCuisineSelect }) {
                       textAnchor="middle"
                       dominantBaseline="middle"
                       fill="white"
-                      fontSize="10"
+                      fontSize="7"
                       fontWeight="600"
-                      style={{ textShadow: "0 1px 2px rgba(0,0,0,0.5)" }}
+                      style={{ textShadow: "0 1px 2px rgba(0,0,0,0.5)", wordSpacing: '0px', letterSpacing: '0px' }}
                       transform={`rotate(${(startAngle + endAngle) / 2}, ${125 + 95 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${125 + 95 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
                     >
-                      {getTranslatedCuisineName(cuisine.name)}
-                    </text>
-                    <text
-                      x={125 + 105 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                      y={125 + 105 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                      textAnchor="middle"
-                      dominantBaseline="middle"
-                      fill="white"
-                      fontSize="12"
-                      fontWeight="600"
-                      style={{ textShadow: "0 1px 2px rgba(0,0,0,0.5)" }}
-                      transform={`rotate(${(startAngle + endAngle) / 2}, ${125 + 105 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${125 + 105 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
-                    >
-                      {cuisine.flag}
+                      {getTranslatedCuisineName(cuisine.name).split(' ').map((word, wordIndex) => (
+                        <tspan
+                          key={wordIndex}
+                          x={125 + 95 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                          dy={wordIndex === 0 ? 0 : '1.1em'}
+                          textAnchor="middle"
+                        >
+                          {word}
+                        </tspan>
+                      ))}
                     </text>
                   </g>
                 )
@@ -207,7 +200,6 @@ function InlineFoodWheel({ cuisines, onCuisineSelect }) {
               <div className="cuisine-info">
                 <div className="cuisine-selection-container">
                   <div className="cuisine-text-centered">
-                    <span className="selected-flag">{selectedCuisine.flag}</span>
                     <span className="selected-name">{getTranslatedCuisineName(selectedCuisine.name)}{t('foodWheel.cuisineSuffix')}</span>
                   </div>
                   {!isSelected && (

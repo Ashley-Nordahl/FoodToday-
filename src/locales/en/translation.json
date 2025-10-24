@@ -10,6 +10,10 @@
     "signup": "Sign Up",
     "signOut": "Sign Out"
   },
+  "dishToday": {
+    "title": "Dish Today",
+    "subtitle": "Discover your perfect meal with our smart recipe recommendations"
+  },
   "auth": {
     "welcomeBack": "Welcome Back!",
     "welcomeTitle": "Join FoodToday!",
@@ -66,6 +70,20 @@
     "noRecipesFound": "No recipes found",
     "tryDifferentIngredients": "Try selecting different ingredients",
     "tryDifferentSearch": "Try a different search term"
+  },
+  "recipeChoice": {
+    "title": "How would you like to get your recipe?",
+    "random": "Random Recipe",
+    "randomSubtitle": "Quick & easy • surprise me",
+    "ingredients": "What I Have",
+    "ingredientsSubtitle": "Custom recipes • based on ingredients that I have",
+    "search": "Search",
+    "searchSubtitle": "Find by dish name, ingredient, or cuisine",
+    "searchPlaceholder": "Search by dish name, ingredient, or cuisine",
+    "searchResults": "Search Results",
+    "ingredientsDescription": "Select the ingredients you have available and we'll find recipes that match!",
+    "selectIngredients": "Select Your Ingredients",
+    "getRandomRecipe": "Get Random Recipe"
   },
   "button": {
     "tryAnother": "Try Another Recipe",
@@ -1445,6 +1463,7 @@
     "assignIngredientsFirst": "Please assign ingredient categories to your plates first! Drag the ingredient buttons (Meat, Seafood, Vegetables, Grains, Egg) to the plates above.",
     "allPlatesFull": "All plates are full! Remove an ingredient from a plate first.",
     "noIngredientsSelected": "Please select at least one ingredient category for your plates before generating dishes.",
+    "ingredientCategories": "Ingredient Categories",
     "categories": {
       "birthday": "Birthday",
       "business": "Business",

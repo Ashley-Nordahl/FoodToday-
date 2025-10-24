@@ -16,6 +16,45 @@ import {
   getDifficultyTranslation 
 } from '../utils/recipeTranslations.js'
 
+// Data structure functions for parties page
+const useIngredientCategories = () => {
+  return [
+    { value: 'meat', label: 'Meat', emoji: '🥩' },
+    { value: 'seafood', label: 'Seafood', emoji: '🦞' },
+    { value: 'vegetables', label: 'Vegetables', emoji: '🥬' },
+    { value: 'grains', label: 'Grains', emoji: '🍚' },
+    { value: 'egg', label: 'Egg', emoji: '🥚' }
+  ]
+}
+
+const useTastePreferences = () => {
+  return [
+    { value: 'rich', label: 'Rich', emoji: '🍯' },
+    { value: 'spicy', label: 'Spicy', emoji: '🌶️' },
+    { value: 'sweet', label: 'Sweet', emoji: '🍯' },
+    { value: 'sour', label: 'Sour', emoji: '🍋' },
+    { value: 'salty', label: 'Salty', emoji: '🧂' },
+    { value: 'mild', label: 'Mild', emoji: '🌿' }
+  ]
+}
+
+const useCuisineStyles = () => {
+  return [
+    { value: 'mixed', label: 'Mixed', emoji: '🌍' },
+    { value: 'chinese', label: 'Chinese', emoji: '🥢' },
+    { value: 'western', label: 'Western', emoji: '🍽️' },
+    { value: 'japanese', label: 'Japanese', emoji: '🍱' }
+  ]
+}
+
+const useDiningScenarios = () => {
+  return [
+    { value: 'family', label: 'Family', emoji: '👨‍👩‍👧‍👦' },
+    { value: 'friends', label: 'Friends', emoji: '👥' },
+    { value: 'romantic', label: 'Romantic', emoji: '💕' }
+  ]
+}
+
 // Helper function to get the correct emoji based on the recipe's actual category
 const getCategoryEmoji = (recipe) => {
   if (!recipe.ingredientsWithAmounts || !Array.isArray(recipe.ingredientsWithAmounts)) {
@@ -497,30 +536,17 @@ const regenerateSingleDish = async (category, otherDishes, selectedCuisine, sele
 function Parties() {
   const { t, i18n } = useTranslation()
 
-  // Get party data from proper data structure (RESTORED)
+  // Get party data from proper data structure
   const ingredientCategories = useIngredientCategories()
   const tastePreferences = useTastePreferences()
   const cuisineStyles = useCuisineStyles()
   const diningScenarios = useDiningScenarios()
   
+  // Simple state management
   const [numberOfDishes, setNumberOfDishes] = useState(4)
-  const [dishCategories, setDishCategories] = useState(
-    [
-      { value: 'meat', label: 'Meat', emoji: '🥩' },      // Plate 1: Meat
-      { value: 'meat', label: 'Meat', emoji: '🥩' },      // Plate 2: Meat  
-      { value: 'seafood', label: 'Seafood', emoji: '🦞' }, // Plate 3: Seafood
-      { value: 'vegetables', label: 'Vegetables', emoji: '🥬' }, // Plate 4: Vegetables
-      null, null, null, null, null, null  // Remaining plates empty
-    ]
-  )
-  
-  // Taste Preferences
+  const [selectedCategories, setSelectedCategories] = useState(['meat', 'seafood', 'vegetables', 'grains'])
   const [selectedTastes, setSelectedTastes] = useState(['rich'])
-  
-  // Cuisine Style
   const [selectedCuisine, setSelectedCuisine] = useState('mixed')
-  
-  // Dining Scenario
   const [selectedScenario, setSelectedScenario] = useState('friends')
   
   // Generated dishes
@@ -533,16 +559,12 @@ function Parties() {
   
   // Shopping list modal
   const [showShoppingList, setShowShoppingList] = useState(false)
-  
-  // Shopping list checkboxes state
   const [checkedIngredients, setCheckedIngredients] = useState(new Set())
   
   // Phone number functionality
   const [quickSMSNumber, setQuickSMSNumber] = useState('')
   const [savedNumbers, setSavedNumbers] = useState([])
   const [showPhoneDropdown, setShowPhoneDropdown] = useState(false)
-  
-  // Sharing functionality
   
   // Ref for scrolling to generated dishes
   const dishProposalRef = useRef(null)
@@ -581,13 +603,11 @@ function Parties() {
     setSelectedTastes(['rich'])
     setSelectedCuisine('mixed')
     setSelectedScenario('friends')
-    // Clear generated dishes to prevent language mixing
+    setSelectedCategories(['meat', 'seafood', 'vegetables', 'grains'])
     setGeneratedDishes(null)
     setSelectedRecipe(null)
     setShowShoppingList(false)
-    setSelectedCategory(null)
     setRegeneratingDishIndex(null)
-    setShowTemporaryFeedback(false)
   }, [i18n.language])
 
   // Load saved phone numbers from localStorage
@@ -602,66 +622,13 @@ function Parties() {
     }
   }, [])
 
-  const [selectedCategory, setSelectedCategory] = useState(null)
-  const [showTemporaryFeedback, setShowTemporaryFeedback] = useState(false)
-
-  // Clear temporary feedback when plates change (e.g., when a plate becomes empty)
-  useEffect(() => {
-    const filledPlates = dishCategories.filter(cat => cat !== null).length
-    const totalPlates = numberOfDishes
-    const allPlatesFull = filledPlates >= totalPlates && totalPlates > 0
-    
-    // If not all plates are full, clear the temporary feedback
-    if (!allPlatesFull && showTemporaryFeedback) {
-      setShowTemporaryFeedback(false)
-    }
-  }, [dishCategories, numberOfDishes, showTemporaryFeedback])
-
-  // Double-click handlers
-  const handleCategoryDoubleClick = (category) => {
-    // Check if all plates are full
-    const filledPlates = dishCategories.filter(cat => cat !== null).length
-    const totalPlates = numberOfDishes
-    
-    if (filledPlates >= totalPlates) {
-      // All plates are full, show temporary feedback for 5 seconds
-      setShowTemporaryFeedback(true)
-      setTimeout(() => {
-        setShowTemporaryFeedback(false)
-      }, 5000)
-      return
-    }
-    
-    // When an ingredient is double-clicked, store it as selected
-    setSelectedCategory(category)
-    
-    // Find the first empty plate and assign the category
-    const newCategories = [...dishCategories]
-    const emptyPlateIndex = newCategories.findIndex(cat => cat === null)
-    
-    if (emptyPlateIndex !== -1) {
-      newCategories[emptyPlateIndex] = category
-      setDishCategories(newCategories)
-      setSelectedCategory(null) // Reset selection after adding
-    } else {
-      // This shouldn't happen with the check above, but just in case
-      alert(t('parties.noEmptyPlates', 'All plates are full! Double-click on a plate to replace its ingredient.'))
-    }
-  }
-
-  const handlePlateDoubleClick = (plateIndex) => {
-    const newCategories = [...dishCategories]
-    
-    if (newCategories[plateIndex] !== null) {
-      // If plate has an ingredient, remove it
-      newCategories[plateIndex] = null
-      setDishCategories(newCategories)
-    } else if (selectedCategory) {
-      // If plate is empty and there's a selected category, add it
-      newCategories[plateIndex] = selectedCategory
-      setDishCategories(newCategories)
-      setSelectedCategory(null)
-    }
+  // Category selection handlers
+  const handleCategoryToggle = (category) => {
+    setSelectedCategories(prev => 
+      prev.includes(category) 
+        ? prev.filter(c => c !== category)
+        : [...prev, category]
+    )
   }
 
   // Taste preference handlers
@@ -754,32 +721,23 @@ function Parties() {
     setIsGenerating(true)
     
     try {
-      // Get the actual number of filled plates
-      const filledPlates = dishCategories.filter(cat => cat !== null)
-      const actualNumberOfDishes = filledPlates.length
-      
-      if (actualNumberOfDishes === 0) {
-        alert(t('parties.noIngredientsSelected', 'Please select at least one ingredient category for your plates before generating dishes.'))
+      if (selectedCategories.length === 0) {
+        alert(t('parties.noIngredientsSelected', 'Please select at least one ingredient category before generating dishes.'))
         setIsGenerating(false)
         return
       }
       
       const selections = {
-        dishCategories: filledPlates.map(cat => cat.value),
+        dishCategories: selectedCategories,
         tastePreferences: selectedTastes,
         cuisineStyle: selectedCuisine,
         diningScenario: selectedScenario,
-        numberOfDishes: actualNumberOfDishes
+        numberOfDishes: numberOfDishes
       }
 
-      // Debug logging
-      console.log('🔍 Debug - dishCategories state:', dishCategories)
-      console.log('🔍 Debug - filledPlates:', filledPlates)
-      console.log('🔍 Debug - actualNumberOfDishes:', actualNumberOfDishes)
       console.log('🔍 Debug - selections:', selections)
       
       const recipes = await generatePartyRecipes(selections, i18n.language)
-      
       
       setGeneratedDishes({
         dishes: recipes,
@@ -983,100 +941,46 @@ function Parties() {
         <p className="page-subtitle">{t('parties.subtitle')}</p>
       </div>
 
-      <div className="dish-configuration-container">
-        <div className="dishes-and-plates-row">
-          <div className="dishes-selector-inline">
-            <label className="dishes-label">{t('parties.dishes')}</label>
-            <select 
-              className="dishes-select"
-              value={numberOfDishes}
-              onChange={(e) => setNumberOfDishes(parseInt(e.target.value))}
+      {/* Number of Dishes Selection */}
+      <div className="preferences-section">
+        <div className="category-section">
+          <h3 className="category-title">🍽️ {t('parties.dishes')}</h3>
+        </div>
+        <div className="dishes-selector">
+          <select 
+            className="dishes-select"
+            value={numberOfDishes}
+            onChange={(e) => setNumberOfDishes(parseInt(e.target.value))}
+          >
+            <option value={2}>2</option>
+            <option value={3}>3</option>
+            <option value={4}>4</option>
+            <option value={5}>5</option>
+            <option value={6}>6</option>
+            <option value={7}>7</option>
+            <option value={8}>8</option>
+            <option value={9}>9</option>
+            <option value={10}>10</option>
+          </select>
+        </div>
+      </div>
+
+      {/* Ingredient Categories Selection */}
+      <div className="preferences-section">
+        <div className="category-section">
+          <h3 className="category-title">🥘 {t('parties.ingredientCategories')}</h3>
+        </div>
+        <div className="ingredient-grid-compact">
+          {ingredientCategories.map((cat) => (
+            <div
+              key={cat.value}
+              className={`ingredient-item-compact sauce-item ${selectedCategories.includes(cat.value) ? 'selected' : ''}`}
+              onClick={() => handleCategoryToggle(cat.value)}
             >
-              <option value={2}>2</option>
-              <option value={3}>3</option>
-              <option value={4}>4</option>
-              <option value={5}>5</option>
-              <option value={6}>6</option>
-              <option value={7}>7</option>
-              <option value={8}>8</option>
-              <option value={9}>9</option>
-              <option value={10}>10</option>
-            </select>
-          </div>
-
-          <div className="plates-display">
-            {Array.from({ length: numberOfDishes }).map((_, index) => (
-              <div 
-                key={index} 
-                className={`plate-container ${dishCategories[index] ? 'has-category' : ''}`}
-                onDoubleClick={() => handlePlateDoubleClick(index)}
-                style={{ cursor: 'pointer' }}
-                title={dishCategories[index] ? "Double-click to remove ingredient" : "Double-click an ingredient below to add it"}
-              >
-                {dishCategories[index] && (
-                  <div 
-                    className="plate-category-badge"
-                    title="Double-click the plate to remove"
-                  >
-                    {dishCategories[index].emoji}
-                  </div>
-                )}
-                <div className="plate">🍽️</div>
-              </div>
-            ))}
-          </div>
+              <span className="ingredient-name-compact">{cat.emoji} {cat.label}</span>
+            </div>
+          ))}
         </div>
-        
-        <div className="instruction-row" style={{display: 'flex', justifyContent: 'center', marginTop: '0.5rem'}}>
-          <p className="instruction-text" style={{fontSize: '0.8rem', color: '#666', fontWeight: 'normal', margin: 0, textAlign: 'center'}}>{t('parties.dragInstruction')}</p>
-        </div>
-
-        <div className="common-categories">
-          <div className="category-buttons-common">
-            {ingredientCategories.map((cat) => (
-              <button
-                key={cat.value}
-                className={`category-btn-common ${selectedCategory?.value === cat.value ? 'selected' : ''}`}
-                onDoubleClick={() => handleCategoryDoubleClick(cat)}
-                title={`Double-click ${cat.label} to add to a plate`}
-                style={{ cursor: 'pointer' }}
-              >
-                {cat.emoji}
-                <span className="category-label">{cat.label}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-        
-        {/* Visual feedback when all plates are full and user tried to add more */}
-        {(() => {
-          const filledPlates = dishCategories.filter(cat => cat !== null).length
-          const totalPlates = numberOfDishes
-          const allPlatesFull = filledPlates >= totalPlates && totalPlates > 0
-          
-          // Show feedback only if showTemporaryFeedback is true AND all plates are full
-          if (showTemporaryFeedback && allPlatesFull) {
-            return (
-              <div className="plates-full-feedback" style={{
-                display: 'flex',
-                justifyContent: 'center',
-                marginTop: '1.5rem',
-                marginBottom: '1rem'
-              }}>
-                <p style={{
-                  fontSize: '0.75rem',
-                  fontStyle: 'italic',
-                  color: '#ff6b35',
-                  margin: 0,
-                  textAlign: 'center'
-                }}>
-                  {t('parties.allPlatesFull')}
-                </p>
-              </div>
-            )
-          }
-          return null
-        })()}
       </div>
 
       {/* Taste Preferences Section */}
@@ -1138,7 +1042,7 @@ function Parties() {
         <button 
           className="chef-button"
           onClick={handleGenerateDishes}
-          disabled={isGenerating || dishCategories.filter(cat => cat !== null).length === 0}
+          disabled={isGenerating || selectedCategories.length === 0}
           style={{
             padding: '12px 24px',
             fontSize: '1rem',

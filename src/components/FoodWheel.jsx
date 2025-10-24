@@ -132,30 +132,27 @@ function FoodWheel({ isOpen, onClose, onSelect }) {
                       strokeWidth="2"
                     />
                     <text
-                      x={200 + 110 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                      y={200 + 110 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                      textAnchor="middle"
-                      dominantBaseline="middle"
-                      fill="white"
-                      fontSize="16"
-                      fontWeight="600"
-                      textShadow="0 1px 2px rgba(0,0,0,0.5)"
-                      transform={`rotate(${(startAngle + endAngle) / 2}, ${200 + 110 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${200 + 110 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
-                    >
-                      {cuisine.emoji}
-                    </text>
-                    <text
                       x={200 + 130 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
                       y={200 + 130 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
                       textAnchor="middle"
                       dominantBaseline="middle"
                       fill="white"
-                      fontSize="12"
+                      fontSize="10"
                       fontWeight="600"
                       textShadow="0 1px 2px rgba(0,0,0,0.5)"
                       transform={`rotate(${(startAngle + endAngle) / 2}, ${200 + 130 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${200 + 130 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
+                      style={{ wordSpacing: '0px', letterSpacing: '0px' }}
                     >
-                      {getTranslatedCuisineName(cuisine.name)}
+                      {getTranslatedCuisineName(cuisine.name).split(' ').map((word, wordIndex) => (
+                        <tspan
+                          key={wordIndex}
+                          x={200 + 130 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                          dy={wordIndex === 0 ? 0 : '1.2em'}
+                          textAnchor="middle"
+                        >
+                          {word}
+                        </tspan>
+                      ))}
                     </text>
                   </g>
                 )
