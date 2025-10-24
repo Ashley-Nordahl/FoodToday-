@@ -84,9 +84,9 @@ const useDiningScenarios = () => {
 }
 
 // Helper function to get the correct emoji based on the recipe's actual category
-const getCategoryEmoji = (recipe) => {
+const getCategoryEmoji = (recipe, language = 'en') => {
   // Get ingredients for the current language, fallback to English
-  const currentLanguage = i18n.language || 'en'
+  const currentLanguage = language || 'en'
   const ingredients = recipe.ingredients?.[currentLanguage] || recipe.ingredients?.en || []
   
   if (!Array.isArray(ingredients) || ingredients.length === 0) {
@@ -192,9 +192,9 @@ const getCategoryEmoji = (recipe) => {
 }
 
 // Helper function to check if a recipe belongs to a category based on its primary ingredients
-const isRecipeInCategory = (recipe, category) => {
+const isRecipeInCategory = (recipe, category, language = 'en') => {
   // Get ingredients for the current language, fallback to English
-  const currentLanguage = i18n.language || 'en'
+  const currentLanguage = language || 'en'
   const ingredients = recipe.ingredients?.[currentLanguage] || recipe.ingredients?.en || []
   
   if (!Array.isArray(ingredients) || ingredients.length === 0) {
@@ -501,7 +501,7 @@ const generatePartyRecipes = async (selections, language) => {
       // Filter recipes that contain ingredients from this specific category
       // Use a more sophisticated categorization that considers the primary ingredient
       const categoryRecipes = allRecipes.filter(recipe => {
-        return isRecipeInCategory(recipe, category)
+        return isRecipeInCategory(recipe, category, language)
       })
       
       console.log(`🔍 Debug - Found ${categoryRecipes.length} recipes for category: ${category}`)
@@ -546,7 +546,7 @@ const regenerateSingleDish = async (category, otherDishes, selectedCuisine, sele
   
   // Filter recipes that match the specific category
   let categoryRecipes = allRecipes.filter(recipe => {
-    return isRecipeInCategory(recipe, category)
+    return isRecipeInCategory(recipe, category, language)
   })
   
   // If no recipes match this category, return null instead of falling back

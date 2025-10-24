@@ -1,0 +1,904 @@
+[
+  {
+    "id": "AF-MO-001",
+    "region": {
+      "en": "Africa",
+      "zh": "非洲",
+      "sv": "Afrika"
+    },
+    "subcategory": {
+      "en": "Morocco",
+      "zh": "Morocco",
+      "sv": "Morocco"
+    },
+    "dish_name": {
+      "en": "Lamb Tagine with Prunes",
+      "zh": "Lamb Tagine with Prunes",
+      "sv": "Lamb Tagine with Prunes"
+    },
+    "description": {
+      "en": "Lamb Tagine with Prunes - a classic Morocco dish prepared for home cooks.",
+      "zh": "Lamb Tagine with Prunes - 经典的Morocco菜，适合家庭烹饪。",
+      "sv": "Lamb Tagine with Prunes - en klassisk Moroccorätt anpassad för hemanvändning."
+    },
+    "total_time_min": 32,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Lamb Tagine with Prunes using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Lamb Tagine with Prunes using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Lamb Tagine with Prunes using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "spicy"
+    ]
+  },
+  {
+    "id": "AF-MO-002",
+    "region": {
+      "en": "Africa",
+      "zh": "非洲",
+      "sv": "Afrika"
+    },
+    "subcategory": {
+      "en": "Morocco",
+      "zh": "Morocco",
+      "sv": "Morocco"
+    },
+    "dish_name": {
+      "en": "Chicken Bastilla",
+      "zh": "鸡肉 Bastilla",
+      "sv": "Kyckling Bastilla"
+    },
+    "description": {
+      "en": "Chicken Bastilla - a classic Morocco dish prepared for home cooks.",
+      "zh": "Chicken Bastilla - 经典的Morocco菜，适合家庭烹饪。",
+      "sv": "Chicken Bastilla - en klassisk Moroccorätt anpassad för hemanvändning."
+    },
+    "total_time_min": 78,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Chicken Bastilla using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Chicken Bastilla using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Chicken Bastilla using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "stew"
+    ]
+  },
+  {
+    "id": "AF-MO-003",
+    "region": {
+      "en": "Africa",
+      "zh": "非洲",
+      "sv": "Afrika"
+    },
+    "subcategory": {
+      "en": "Morocco",
+      "zh": "Morocco",
+      "sv": "Morocco"
+    },
+    "dish_name": {
+      "en": "Couscous with Seven Vegetables",
+      "zh": "Couscous with Seven Vegetables",
+      "sv": "Couscous with Seven Vegetables"
+    },
+    "description": {
+      "en": "Couscous with Seven Vegetables - a classic Morocco dish prepared for home cooks.",
+      "zh": "Couscous with Seven Vegetables - 经典的Morocco菜，适合家庭烹饪。",
+      "sv": "Couscous with Seven Vegetables - en klassisk Moroccorätt anpassad för hemanvändning."
+    },
+    "total_time_min": 41,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Grain",
+      "zh": "谷物",
+      "sv": "Spannmål"
+    },
+    "ingredients": {
+      "en": [
+        "200 g rice",
+        "1 pc onion",
+        "100 g mixed vegetables",
+        "500 ml stock"
+      ],
+      "zh": [
+        "200 g 米饭",
+        "1 pc 洋葱",
+        "100 g mixed vegetables",
+        "500 ml 高汤"
+      ],
+      "sv": [
+        "200 g ris",
+        "1 pc lök",
+        "100 g mixed vegetables",
+        "500 ml buljong"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Couscous with Seven Vegetables using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Couscous with Seven Vegetables using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Couscous with Seven Vegetables using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "baked"
+    ]
+  },
+  {
+    "id": "AF-NI-001",
+    "region": {
+      "en": "Africa",
+      "zh": "非洲",
+      "sv": "Afrika"
+    },
+    "subcategory": {
+      "en": "Nigeria",
+      "zh": "Nigeria",
+      "sv": "Nigeria"
+    },
+    "dish_name": {
+      "en": "Jollof Rice",
+      "zh": "Jollof 米饭",
+      "sv": "Jollof Ris"
+    },
+    "description": {
+      "en": "Jollof Rice - a classic Nigeria dish prepared for home cooks.",
+      "zh": "Jollof Rice - 经典的Nigeria菜，适合家庭烹饪。",
+      "sv": "Jollof Rice - en klassisk Nigeriarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 64,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Grain",
+      "zh": "谷物",
+      "sv": "Spannmål"
+    },
+    "ingredients": {
+      "en": [
+        "200 g rice",
+        "1 pc onion",
+        "100 g mixed vegetables",
+        "500 ml stock"
+      ],
+      "zh": [
+        "200 g 米饭",
+        "1 pc 洋葱",
+        "100 g mixed vegetables",
+        "500 ml 高汤"
+      ],
+      "sv": [
+        "200 g ris",
+        "1 pc lök",
+        "100 g mixed vegetables",
+        "500 ml buljong"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Jollof Rice using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Jollof Rice using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Jollof Rice using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "grilled"
+    ]
+  },
+  {
+    "id": "AF-NI-002",
+    "region": {
+      "en": "Africa",
+      "zh": "非洲",
+      "sv": "Afrika"
+    },
+    "subcategory": {
+      "en": "Nigeria",
+      "zh": "Nigeria",
+      "sv": "Nigeria"
+    },
+    "dish_name": {
+      "en": "Suya (Grilled Spiced Meat)",
+      "zh": "Suya (Grilled Spiced Meat)",
+      "sv": "Suya (Grilled Spiced Meat)"
+    },
+    "description": {
+      "en": "Suya (Grilled Spiced Meat) - a classic Nigeria dish prepared for home cooks.",
+      "zh": "Suya (Grilled Spiced Meat) - 经典的Nigeria菜，适合家庭烹饪。",
+      "sv": "Suya (Grilled Spiced Meat) - en klassisk Nigeriarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 72,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Suya using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Suya using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Suya using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "family"
+    ]
+  },
+  {
+    "id": "AF-NI-003",
+    "region": {
+      "en": "Africa",
+      "zh": "非洲",
+      "sv": "Afrika"
+    },
+    "subcategory": {
+      "en": "Nigeria",
+      "zh": "Nigeria",
+      "sv": "Nigeria"
+    },
+    "dish_name": {
+      "en": "Egusi Stew",
+      "zh": "Egusi Stew",
+      "sv": "Egusi Stew"
+    },
+    "description": {
+      "en": "Egusi Stew - a classic Nigeria dish prepared for home cooks.",
+      "zh": "Egusi Stew - 经典的Nigeria菜，适合家庭烹饪。",
+      "sv": "Egusi Stew - en klassisk Nigeriarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 18,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Egusi Stew using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Egusi Stew using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Egusi Stew using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "AF-SO-001",
+    "region": {
+      "en": "Africa",
+      "zh": "非洲",
+      "sv": "Afrika"
+    },
+    "subcategory": {
+      "en": "South Africa",
+      "zh": "南Africa",
+      "sv": "South Africa"
+    },
+    "dish_name": {
+      "en": "Bobotie",
+      "zh": "Bobotie",
+      "sv": "Bobotie"
+    },
+    "description": {
+      "en": "Bobotie - a classic South Africa dish prepared for home cooks.",
+      "zh": "Bobotie - 经典的South Africa菜，适合家庭烹饪。",
+      "sv": "Bobotie - en klassisk South Africarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 42,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Bobotie using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Bobotie using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Bobotie using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "baked"
+    ]
+  },
+  {
+    "id": "AF-SO-002",
+    "region": {
+      "en": "Africa",
+      "zh": "非洲",
+      "sv": "Afrika"
+    },
+    "subcategory": {
+      "en": "South Africa",
+      "zh": "南Africa",
+      "sv": "South Africa"
+    },
+    "dish_name": {
+      "en": "Braai Grilled Steak",
+      "zh": "Braai Grilled Steak",
+      "sv": "Braai Grilled Steak"
+    },
+    "description": {
+      "en": "Braai Grilled Steak - a classic South Africa dish prepared for home cooks.",
+      "zh": "Braai Grilled Steak - 经典的South Africa菜，适合家庭烹饪。",
+      "sv": "Braai Grilled Steak - en klassisk South Africarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 71,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Braai Grilled Steak using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Braai Grilled Steak using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Braai Grilled Steak using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "family"
+    ]
+  },
+  {
+    "id": "AF-SO-003",
+    "region": {
+      "en": "Africa",
+      "zh": "非洲",
+      "sv": "Afrika"
+    },
+    "subcategory": {
+      "en": "South Africa",
+      "zh": "南Africa",
+      "sv": "South Africa"
+    },
+    "dish_name": {
+      "en": "Bunny Chow",
+      "zh": "Bunny Chow",
+      "sv": "Bunny Chow"
+    },
+    "description": {
+      "en": "Bunny Chow - a classic South Africa dish prepared for home cooks.",
+      "zh": "Bunny Chow - 经典的South Africa菜，适合家庭烹饪。",
+      "sv": "Bunny Chow - en klassisk South Africarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 44,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Bunny Chow using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Bunny Chow using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Bunny Chow using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "stew",
+      "family"
+    ]
+  },
+  {
+    "id": "AF-SO-004",
+    "region": {
+      "en": "Africa",
+      "zh": "非洲",
+      "sv": "Afrika"
+    },
+    "subcategory": {
+      "en": "South Africa",
+      "zh": "南Africa",
+      "sv": "South Africa"
+    },
+    "dish_name": {
+      "en": "Chakalaka",
+      "zh": "Chakalaka",
+      "sv": "Chakalaka"
+    },
+    "description": {
+      "en": "Chakalaka - a classic South Africa dish prepared for home cooks.",
+      "zh": "Chakalaka - 经典的South Africa菜，适合家庭烹饪。",
+      "sv": "Chakalaka - en klassisk South Africarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 17,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Chakalaka using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Chakalaka using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Chakalaka using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "stew"
+    ]
+  },
+  {
+    "id": "AF-SO-005",
+    "region": {
+      "en": "Africa",
+      "zh": "非洲",
+      "sv": "Afrika"
+    },
+    "subcategory": {
+      "en": "South Africa",
+      "zh": "南Africa",
+      "sv": "South Africa"
+    },
+    "dish_name": {
+      "en": "Potjiekos",
+      "zh": "Potjiekos",
+      "sv": "Potjiekos"
+    },
+    "description": {
+      "en": "Potjiekos - a classic South Africa dish prepared for home cooks.",
+      "zh": "Potjiekos - 经典的South Africa菜，适合家庭烹饪。",
+      "sv": "Potjiekos - en klassisk South Africarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 52,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Potjiekos using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Potjiekos using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Potjiekos using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "vegetarian"
+    ]
+  }
+]

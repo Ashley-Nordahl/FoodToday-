@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "MI-TU-001",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Turkey",
+      "zh": "Turkey",
+      "sv": "Turkey"
+    },
+    "dish_name": {
+      "en": "Adana Kebab",
+      "zh": "Adana Kebab",
+      "sv": "Adana Kebab"
+    },
+    "description": {
+      "en": "Adana Kebab - a classic Turkey dish prepared for home cooks.",
+      "zh": "Adana Kebab - 经典的Turkey菜，适合家庭烹饪。",
+      "sv": "Adana Kebab - en klassisk Turkeyrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 43,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Adana Kebab using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Adana Kebab using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Adana Kebab using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "stew",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "MI-TU-002",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Turkey",
+      "zh": "Turkey",
+      "sv": "Turkey"
+    },
+    "dish_name": {
+      "en": "Lahmacun",
+      "zh": "Lahmacun",
+      "sv": "Lahmacun"
+    },
+    "description": {
+      "en": "Lahmacun - a classic Turkey dish prepared for home cooks.",
+      "zh": "Lahmacun - 经典的Turkey菜，适合家庭烹饪。",
+      "sv": "Lahmacun - en klassisk Turkeyrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 63,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Lahmacun using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Lahmacun using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Lahmacun using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "baked"
+    ]
+  },
+  {
+    "id": "MI-TU-003",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Turkey",
+      "zh": "Turkey",
+      "sv": "Turkey"
+    },
+    "dish_name": {
+      "en": "Manti",
+      "zh": "Manti",
+      "sv": "Manti"
+    },
+    "description": {
+      "en": "Manti - a classic Turkey dish prepared for home cooks.",
+      "zh": "Manti - 经典的Turkey菜，适合家庭烹饪。",
+      "sv": "Manti - en klassisk Turkeyrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 51,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Manti using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Manti using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Manti using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "quick"
+    ]
+  },
+  {
+    "id": "MI-TU-004",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Turkey",
+      "zh": "Turkey",
+      "sv": "Turkey"
+    },
+    "dish_name": {
+      "en": "Imam Bayildi",
+      "zh": "Imam Bayildi",
+      "sv": "Imam Bayildi"
+    },
+    "description": {
+      "en": "Imam Bayildi - a classic Turkey dish prepared for home cooks.",
+      "zh": "Imam Bayildi - 经典的Turkey菜，适合家庭烹饪。",
+      "sv": "Imam Bayildi - en klassisk Turkeyrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 72,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Imam Bayildi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Imam Bayildi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Imam Bayildi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "MI-TU-005",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Turkey",
+      "zh": "Turkey",
+      "sv": "Turkey"
+    },
+    "dish_name": {
+      "en": "Iskender Kebab",
+      "zh": "Iskender Kebab",
+      "sv": "Iskender Kebab"
+    },
+    "description": {
+      "en": "Iskender Kebab - a classic Turkey dish prepared for home cooks.",
+      "zh": "Iskender Kebab - 经典的Turkey菜，适合家庭烹饪。",
+      "sv": "Iskender Kebab - en klassisk Turkeyrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 90,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Iskender Kebab using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Iskender Kebab using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Iskender Kebab using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "spicy"
+    ]
+  },
+  {
+    "id": "MI-TU-006",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Turkey",
+      "zh": "Turkey",
+      "sv": "Turkey"
+    },
+    "dish_name": {
+      "en": "Börek",
+      "zh": "Börek",
+      "sv": "Börek"
+    },
+    "description": {
+      "en": "Börek - a classic Turkey dish prepared for home cooks.",
+      "zh": "Börek - 经典的Turkey菜，适合家庭烹饪。",
+      "sv": "Börek - en klassisk Turkeyrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 16,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Börek using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Börek using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Börek using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "MI-TU-007",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Turkey",
+      "zh": "Turkey",
+      "sv": "Turkey"
+    },
+    "dish_name": {
+      "en": "Menemen",
+      "zh": "Menemen",
+      "sv": "Menemen"
+    },
+    "description": {
+      "en": "Menemen - a classic Turkey dish prepared for home cooks.",
+      "zh": "Menemen - 经典的Turkey菜，适合家庭烹饪。",
+      "sv": "Menemen - en klassisk Turkeyrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 89,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Menemen using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Menemen using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Menemen using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "quick"
+    ]
+  },
+  {
+    "id": "MI-TU-008",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Turkey",
+      "zh": "Turkey",
+      "sv": "Turkey"
+    },
+    "dish_name": {
+      "en": "Kofte",
+      "zh": "Kofte",
+      "sv": "Kofte"
+    },
+    "description": {
+      "en": "Kofte - a classic Turkey dish prepared for home cooks.",
+      "zh": "Kofte - 经典的Turkey菜，适合家庭烹饪。",
+      "sv": "Kofte - en klassisk Turkeyrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 34,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Kofte using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Kofte using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Kofte using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "quick"
+    ]
+  },
+  {
+    "id": "MI-TU-009",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Turkey",
+      "zh": "Turkey",
+      "sv": "Turkey"
+    },
+    "dish_name": {
+      "en": "Pilav",
+      "zh": "Pilav",
+      "sv": "Pilav"
+    },
+    "description": {
+      "en": "Pilav - a classic Turkey dish prepared for home cooks.",
+      "zh": "Pilav - 经典的Turkey菜，适合家庭烹饪。",
+      "sv": "Pilav - en klassisk Turkeyrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 84,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Grain",
+      "zh": "谷物",
+      "sv": "Spannmål"
+    },
+    "ingredients": {
+      "en": [
+        "200 g rice",
+        "1 pc onion",
+        "100 g mixed vegetables",
+        "500 ml stock"
+      ],
+      "zh": [
+        "200 g 米饭",
+        "1 pc 洋葱",
+        "100 g mixed vegetables",
+        "500 ml 高汤"
+      ],
+      "sv": [
+        "200 g ris",
+        "1 pc lök",
+        "100 g mixed vegetables",
+        "500 ml buljong"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Pilav using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Pilav using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Pilav using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "family"
+    ]
+  },
+  {
+    "id": "MI-TU-010",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Turkey",
+      "zh": "Turkey",
+      "sv": "Turkey"
+    },
+    "dish_name": {
+      "en": "Simit",
+      "zh": "Simit",
+      "sv": "Simit"
+    },
+    "description": {
+      "en": "Simit - a classic Turkey dish prepared for home cooks.",
+      "zh": "Simit - 经典的Turkey菜，适合家庭烹饪。",
+      "sv": "Simit - en klassisk Turkeyrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 31,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Simit using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Simit using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Simit using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "spicy"
+    ]
+  },
+  {
+    "id": "MI-IR-001",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Iran",
+      "zh": "Iran",
+      "sv": "Iran"
+    },
+    "dish_name": {
+      "en": "Ghormeh Sabzi",
+      "zh": "Ghormeh Sabzi",
+      "sv": "Ghormeh Sabzi"
+    },
+    "description": {
+      "en": "Ghormeh Sabzi - a classic Iran dish prepared for home cooks.",
+      "zh": "Ghormeh Sabzi - 经典的Iran菜，适合家庭烹饪。",
+      "sv": "Ghormeh Sabzi - en klassisk Iranrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 19,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Ghormeh Sabzi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Ghormeh Sabzi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Ghormeh Sabzi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "family",
+      "spicy"
+    ]
+  },
+  {
+    "id": "MI-IR-002",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Iran",
+      "zh": "Iran",
+      "sv": "Iran"
+    },
+    "dish_name": {
+      "en": "Fesenjan",
+      "zh": "Fesenjan",
+      "sv": "Fesenjan"
+    },
+    "description": {
+      "en": "Fesenjan - a classic Iran dish prepared for home cooks.",
+      "zh": "Fesenjan - 经典的Iran菜，适合家庭烹饪。",
+      "sv": "Fesenjan - en klassisk Iranrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 50,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Fesenjan using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Fesenjan using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Fesenjan using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "stew"
+    ]
+  },
+  {
+    "id": "MI-IR-003",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Iran",
+      "zh": "Iran",
+      "sv": "Iran"
+    },
+    "dish_name": {
+      "en": "Chelo Kabab",
+      "zh": "Chelo Kabab",
+      "sv": "Chelo Kabab"
+    },
+    "description": {
+      "en": "Chelo Kabab - a classic Iran dish prepared for home cooks.",
+      "zh": "Chelo Kabab - 经典的Iran菜，适合家庭烹饪。",
+      "sv": "Chelo Kabab - en klassisk Iranrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 18,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Chelo Kabab using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Chelo Kabab using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Chelo Kabab using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "grilled"
+    ]
+  },
+  {
+    "id": "MI-IR-004",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Iran",
+      "zh": "Iran",
+      "sv": "Iran"
+    },
+    "dish_name": {
+      "en": "Khoresht-e Bademjan",
+      "zh": "Khoresht-e Bademjan",
+      "sv": "Khoresht-e Bademjan"
+    },
+    "description": {
+      "en": "Khoresht-e Bademjan - a classic Iran dish prepared for home cooks.",
+      "zh": "Khoresht-e Bademjan - 经典的Iran菜，适合家庭烹饪。",
+      "sv": "Khoresht-e Bademjan - en klassisk Iranrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 39,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Khoresht-e Bademjan using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Khoresht-e Bademjan using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Khoresht-e Bademjan using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "family"
+    ]
+  },
+  {
+    "id": "MI-IR-005",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Iran",
+      "zh": "Iran",
+      "sv": "Iran"
+    },
+    "dish_name": {
+      "en": "Tahdig",
+      "zh": "Tahdig",
+      "sv": "Tahdig"
+    },
+    "description": {
+      "en": "Tahdig - a classic Iran dish prepared for home cooks.",
+      "zh": "Tahdig - 经典的Iran菜，适合家庭烹饪。",
+      "sv": "Tahdig - en klassisk Iranrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 49,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Tahdig using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Tahdig using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Tahdig using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "spicy"
+    ]
+  },
+  {
+    "id": "MI-LE-001",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Lebanon",
+      "zh": "Lebanon",
+      "sv": "Lebanon"
+    },
+    "dish_name": {
+      "en": "Tabbouleh",
+      "zh": "Tabbouleh",
+      "sv": "Tabbouleh"
+    },
+    "description": {
+      "en": "Tabbouleh - a classic Lebanon dish prepared for home cooks.",
+      "zh": "Tabbouleh - 经典的Lebanon菜，适合家庭烹饪。",
+      "sv": "Tabbouleh - en klassisk Lebanonrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 90,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Tabbouleh using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Tabbouleh using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Tabbouleh using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "MI-LE-002",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Lebanon",
+      "zh": "Lebanon",
+      "sv": "Lebanon"
+    },
+    "dish_name": {
+      "en": "Kibbeh",
+      "zh": "Kibbeh",
+      "sv": "Kibbeh"
+    },
+    "description": {
+      "en": "Kibbeh - a classic Lebanon dish prepared for home cooks.",
+      "zh": "Kibbeh - 经典的Lebanon菜，适合家庭烹饪。",
+      "sv": "Kibbeh - en klassisk Lebanonrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 86,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Kibbeh using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Kibbeh using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Kibbeh using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "family"
+    ]
+  },
+  {
+    "id": "MI-LE-003",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Lebanon",
+      "zh": "Lebanon",
+      "sv": "Lebanon"
+    },
+    "dish_name": {
+      "en": "Fattoush",
+      "zh": "Fattoush",
+      "sv": "Fattoush"
+    },
+    "description": {
+      "en": "Fattoush - a classic Lebanon dish prepared for home cooks.",
+      "zh": "Fattoush - 经典的Lebanon菜，适合家庭烹饪。",
+      "sv": "Fattoush - en klassisk Lebanonrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 85,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Fattoush using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Fattoush using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Fattoush using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "grilled"
+    ]
+  },
+  {
+    "id": "MI-LE-004",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Lebanon",
+      "zh": "Lebanon",
+      "sv": "Lebanon"
+    },
+    "dish_name": {
+      "en": "Shawarma",
+      "zh": "Shawarma",
+      "sv": "Shawarma"
+    },
+    "description": {
+      "en": "Shawarma - a classic Lebanon dish prepared for home cooks.",
+      "zh": "Shawarma - 经典的Lebanon菜，适合家庭烹饪。",
+      "sv": "Shawarma - en klassisk Lebanonrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 83,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Shawarma using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Shawarma using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Shawarma using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "grilled"
+    ]
+  },
+  {
+    "id": "MI-LE-005",
+    "region": {
+      "en": "Middle East",
+      "zh": "中东",
+      "sv": "Mellanöstern"
+    },
+    "subcategory": {
+      "en": "Lebanon",
+      "zh": "Lebanon",
+      "sv": "Lebanon"
+    },
+    "dish_name": {
+      "en": "Mujaddara",
+      "zh": "Mujaddara",
+      "sv": "Mujaddara"
+    },
+    "description": {
+      "en": "Mujaddara - a classic Lebanon dish prepared for home cooks.",
+      "zh": "Mujaddara - 经典的Lebanon菜，适合家庭烹饪。",
+      "sv": "Mujaddara - en klassisk Lebanonrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 24,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Mujaddara using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Mujaddara using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Mujaddara using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "stew"
+    ]
+  }
+]

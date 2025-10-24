@@ -1,0 +1,576 @@
+[
+  {
+    "id": "NO-US-001",
+    "region": {
+      "en": "North America",
+      "zh": "北美",
+      "sv": "Nordamerika"
+    },
+    "subcategory": {
+      "en": "USA",
+      "zh": "USA",
+      "sv": "USA"
+    },
+    "dish_name": {
+      "en": "BBQ Ribs",
+      "zh": "BBQ Ribs",
+      "sv": "BBQ Ribs"
+    },
+    "description": {
+      "en": "BBQ Ribs - a classic USA dish prepared for home cooks.",
+      "zh": "BBQ Ribs - 经典的USA菜，适合家庭烹饪。",
+      "sv": "BBQ Ribs - en klassisk USArätt anpassad för hemanvändning."
+    },
+    "total_time_min": 22,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook BBQ Ribs using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 BBQ Ribs using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga BBQ Ribs using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "stew"
+    ]
+  },
+  {
+    "id": "NO-US-002",
+    "region": {
+      "en": "North America",
+      "zh": "北美",
+      "sv": "Nordamerika"
+    },
+    "subcategory": {
+      "en": "USA",
+      "zh": "USA",
+      "sv": "USA"
+    },
+    "dish_name": {
+      "en": "Cheeseburger",
+      "zh": "Cheeseburger",
+      "sv": "Cheeseburger"
+    },
+    "description": {
+      "en": "Cheeseburger - a classic USA dish prepared for home cooks.",
+      "zh": "Cheeseburger - 经典的USA菜，适合家庭烹饪。",
+      "sv": "Cheeseburger - en klassisk USArätt anpassad för hemanvändning."
+    },
+    "total_time_min": 26,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Cheeseburger using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Cheeseburger using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Cheeseburger using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "spicy"
+    ]
+  },
+  {
+    "id": "NO-US-003",
+    "region": {
+      "en": "North America",
+      "zh": "北美",
+      "sv": "Nordamerika"
+    },
+    "subcategory": {
+      "en": "USA",
+      "zh": "USA",
+      "sv": "USA"
+    },
+    "dish_name": {
+      "en": "Fried Chicken",
+      "zh": "炒 鸡肉",
+      "sv": "Stekt Kyckling"
+    },
+    "description": {
+      "en": "Fried Chicken - a classic USA dish prepared for home cooks.",
+      "zh": "Fried Chicken - 经典的USA菜，适合家庭烹饪。",
+      "sv": "Fried Chicken - en klassisk USArätt anpassad för hemanvändning."
+    },
+    "total_time_min": 55,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Fried Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Fried Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Fried Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "NO-US-004",
+    "region": {
+      "en": "North America",
+      "zh": "北美",
+      "sv": "Nordamerika"
+    },
+    "subcategory": {
+      "en": "USA",
+      "zh": "USA",
+      "sv": "USA"
+    },
+    "dish_name": {
+      "en": "Mac and Cheese",
+      "zh": "Mac and Cheese",
+      "sv": "Mac and Cheese"
+    },
+    "description": {
+      "en": "Mac and Cheese - a classic USA dish prepared for home cooks.",
+      "zh": "Mac and Cheese - 经典的USA菜，适合家庭烹饪。",
+      "sv": "Mac and Cheese - en klassisk USArätt anpassad för hemanvändning."
+    },
+    "total_time_min": 31,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Mac and Cheese using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Mac and Cheese using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Mac and Cheese using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "grilled"
+    ]
+  },
+  {
+    "id": "NO-US-005",
+    "region": {
+      "en": "North America",
+      "zh": "北美",
+      "sv": "Nordamerika"
+    },
+    "subcategory": {
+      "en": "USA",
+      "zh": "USA",
+      "sv": "USA"
+    },
+    "dish_name": {
+      "en": "Clam Chowder",
+      "zh": "Clam Chowder",
+      "sv": "Clam Chowder"
+    },
+    "description": {
+      "en": "Clam Chowder - a classic USA dish prepared for home cooks.",
+      "zh": "Clam Chowder - 经典的USA菜，适合家庭烹饪。",
+      "sv": "Clam Chowder - en klassisk USArätt anpassad för hemanvändning."
+    },
+    "total_time_min": 82,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Seafood",
+      "zh": "海鲜",
+      "sv": "Skaldjur"
+    },
+    "ingredients": {
+      "en": [
+        "300 g salmon fillet",
+        "1 pc lemon",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 三文鱼 fillet",
+        "1 pc 柠檬",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g lax fillet",
+        "1 pc citron",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Clam Chowder using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Clam Chowder using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Clam Chowder using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "baked"
+    ]
+  },
+  {
+    "id": "NO-CA-001",
+    "region": {
+      "en": "North America",
+      "zh": "北美",
+      "sv": "Nordamerika"
+    },
+    "subcategory": {
+      "en": "Canada",
+      "zh": "Canada",
+      "sv": "Canada"
+    },
+    "dish_name": {
+      "en": "Poutine",
+      "zh": "Poutine",
+      "sv": "Poutine"
+    },
+    "description": {
+      "en": "Poutine - a classic Canada dish prepared for home cooks.",
+      "zh": "Poutine - 经典的Canada菜，适合家庭烹饪。",
+      "sv": "Poutine - en klassisk Canadarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 56,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Poutine using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Poutine using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Poutine using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "baked"
+    ]
+  },
+  {
+    "id": "NO-CA-002",
+    "region": {
+      "en": "North America",
+      "zh": "北美",
+      "sv": "Nordamerika"
+    },
+    "subcategory": {
+      "en": "Canada",
+      "zh": "Canada",
+      "sv": "Canada"
+    },
+    "dish_name": {
+      "en": "Maple Glazed Salmon",
+      "zh": "Maple Glazed 三文鱼",
+      "sv": "Maple Glazed Lax"
+    },
+    "description": {
+      "en": "Maple Glazed Salmon - a classic Canada dish prepared for home cooks.",
+      "zh": "Maple Glazed Salmon - 经典的Canada菜，适合家庭烹饪。",
+      "sv": "Maple Glazed Salmon - en klassisk Canadarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 64,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Seafood",
+      "zh": "海鲜",
+      "sv": "Skaldjur"
+    },
+    "ingredients": {
+      "en": [
+        "300 g salmon fillet",
+        "1 pc lemon",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 三文鱼 fillet",
+        "1 pc 柠檬",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g lax fillet",
+        "1 pc citron",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Maple Glazed Salmon using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Maple Glazed Salmon using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Maple Glazed Salmon using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "stew"
+    ]
+  }
+]

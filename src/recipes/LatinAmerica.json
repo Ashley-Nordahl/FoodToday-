@@ -1,0 +1,1232 @@
+[
+  {
+    "id": "LA-ME-001",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Mexico",
+      "zh": "Mexico",
+      "sv": "Mexico"
+    },
+    "dish_name": {
+      "en": "Tacos al Pastor",
+      "zh": "Tacos al Pastor",
+      "sv": "Tacos al Pastor"
+    },
+    "description": {
+      "en": "Tacos al Pastor - a classic Mexico dish prepared for home cooks.",
+      "zh": "Tacos al Pastor - 经典的Mexico菜，适合家庭烹饪。",
+      "sv": "Tacos al Pastor - en klassisk Mexicorätt anpassad för hemanvändning."
+    },
+    "total_time_min": 81,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Tacos al Pastor using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Tacos al Pastor using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Tacos al Pastor using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "stew"
+    ]
+  },
+  {
+    "id": "LA-ME-002",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Mexico",
+      "zh": "Mexico",
+      "sv": "Mexico"
+    },
+    "dish_name": {
+      "en": "Mole Poblano",
+      "zh": "Mole Poblano",
+      "sv": "Mole Poblano"
+    },
+    "description": {
+      "en": "Mole Poblano - a classic Mexico dish prepared for home cooks.",
+      "zh": "Mole Poblano - 经典的Mexico菜，适合家庭烹饪。",
+      "sv": "Mole Poblano - en klassisk Mexicorätt anpassad för hemanvändning."
+    },
+    "total_time_min": 55,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Mole Poblano using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Mole Poblano using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Mole Poblano using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "LA-ME-003",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Mexico",
+      "zh": "Mexico",
+      "sv": "Mexico"
+    },
+    "dish_name": {
+      "en": "Chiles en Nogada",
+      "zh": "Chiles en Nogada",
+      "sv": "Chiles en Nogada"
+    },
+    "description": {
+      "en": "Chiles en Nogada - a classic Mexico dish prepared for home cooks.",
+      "zh": "Chiles en Nogada - 经典的Mexico菜，适合家庭烹饪。",
+      "sv": "Chiles en Nogada - en klassisk Mexicorätt anpassad för hemanvändning."
+    },
+    "total_time_min": 23,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Chiles en Nogada using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Chiles en Nogada using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Chiles en Nogada using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "stew",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "LA-ME-004",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Mexico",
+      "zh": "Mexico",
+      "sv": "Mexico"
+    },
+    "dish_name": {
+      "en": "Pozole",
+      "zh": "Pozole",
+      "sv": "Pozole"
+    },
+    "description": {
+      "en": "Pozole - a classic Mexico dish prepared for home cooks.",
+      "zh": "Pozole - 经典的Mexico菜，适合家庭烹饪。",
+      "sv": "Pozole - en klassisk Mexicorätt anpassad för hemanvändning."
+    },
+    "total_time_min": 61,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Pozole using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Pozole using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Pozole using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "LA-ME-005",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Mexico",
+      "zh": "Mexico",
+      "sv": "Mexico"
+    },
+    "dish_name": {
+      "en": "Carnitas",
+      "zh": "Carnitas",
+      "sv": "Carnitas"
+    },
+    "description": {
+      "en": "Carnitas - a classic Mexico dish prepared for home cooks.",
+      "zh": "Carnitas - 经典的Mexico菜，适合家庭烹饪。",
+      "sv": "Carnitas - en klassisk Mexicorätt anpassad för hemanvändning."
+    },
+    "total_time_min": 22,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Carnitas using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Carnitas using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Carnitas using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "stew",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "LA-PE-001",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Peru",
+      "zh": "Peru",
+      "sv": "Peru"
+    },
+    "dish_name": {
+      "en": "Ceviche",
+      "zh": "Ceviche",
+      "sv": "Ceviche"
+    },
+    "description": {
+      "en": "Ceviche - a classic Peru dish prepared for home cooks.",
+      "zh": "Ceviche - 经典的Peru菜，适合家庭烹饪。",
+      "sv": "Ceviche - en klassisk Perurätt anpassad för hemanvändning."
+    },
+    "total_time_min": 47,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Seafood",
+      "zh": "海鲜",
+      "sv": "Skaldjur"
+    },
+    "ingredients": {
+      "en": [
+        "300 g salmon fillet",
+        "1 pc lemon",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 三文鱼 fillet",
+        "1 pc 柠檬",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g lax fillet",
+        "1 pc citron",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Ceviche using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Ceviche using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Ceviche using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "family"
+    ]
+  },
+  {
+    "id": "LA-PE-002",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Peru",
+      "zh": "Peru",
+      "sv": "Peru"
+    },
+    "dish_name": {
+      "en": "Lomo Saltado",
+      "zh": "Lomo Saltado",
+      "sv": "Lomo Saltado"
+    },
+    "description": {
+      "en": "Lomo Saltado - a classic Peru dish prepared for home cooks.",
+      "zh": "Lomo Saltado - 经典的Peru菜，适合家庭烹饪。",
+      "sv": "Lomo Saltado - en klassisk Perurätt anpassad för hemanvändning."
+    },
+    "total_time_min": 62,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Lomo Saltado using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Lomo Saltado using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Lomo Saltado using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "stew",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "LA-PE-003",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Peru",
+      "zh": "Peru",
+      "sv": "Peru"
+    },
+    "dish_name": {
+      "en": "Aji de Gallina",
+      "zh": "Aji de Gallina",
+      "sv": "Aji de Gallina"
+    },
+    "description": {
+      "en": "Aji de Gallina - a classic Peru dish prepared for home cooks.",
+      "zh": "Aji de Gallina - 经典的Peru菜，适合家庭烹饪。",
+      "sv": "Aji de Gallina - en klassisk Perurätt anpassad för hemanvändning."
+    },
+    "total_time_min": 58,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Aji de Gallina using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Aji de Gallina using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Aji de Gallina using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "family",
+      "spicy"
+    ]
+  },
+  {
+    "id": "LA-PE-004",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Peru",
+      "zh": "Peru",
+      "sv": "Peru"
+    },
+    "dish_name": {
+      "en": "Anticuchos",
+      "zh": "Anticuchos",
+      "sv": "Anticuchos"
+    },
+    "description": {
+      "en": "Anticuchos - a classic Peru dish prepared for home cooks.",
+      "zh": "Anticuchos - 经典的Peru菜，适合家庭烹饪。",
+      "sv": "Anticuchos - en klassisk Perurätt anpassad för hemanvändning."
+    },
+    "total_time_min": 33,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Anticuchos using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Anticuchos using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Anticuchos using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "family",
+      "spicy"
+    ]
+  },
+  {
+    "id": "LA-PE-005",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Peru",
+      "zh": "Peru",
+      "sv": "Peru"
+    },
+    "dish_name": {
+      "en": "Causa Limeña",
+      "zh": "Causa Limeña",
+      "sv": "Causa Limeña"
+    },
+    "description": {
+      "en": "Causa Limeña - a classic Peru dish prepared for home cooks.",
+      "zh": "Causa Limeña - 经典的Peru菜，适合家庭烹饪。",
+      "sv": "Causa Limeña - en klassisk Perurätt anpassad för hemanvändning."
+    },
+    "total_time_min": 38,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Causa Limeña using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Causa Limeña using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Causa Limeña using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "baked"
+    ]
+  },
+  {
+    "id": "LA-AR-001",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Argentina",
+      "zh": "Argentina",
+      "sv": "Argentina"
+    },
+    "dish_name": {
+      "en": "Asado",
+      "zh": "Asado",
+      "sv": "Asado"
+    },
+    "description": {
+      "en": "Asado - a classic Argentina dish prepared for home cooks.",
+      "zh": "Asado - 经典的Argentina菜，适合家庭烹饪。",
+      "sv": "Asado - en klassisk Argentinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 27,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Asado using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Asado using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Asado using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "stew"
+    ]
+  },
+  {
+    "id": "LA-AR-002",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Argentina",
+      "zh": "Argentina",
+      "sv": "Argentina"
+    },
+    "dish_name": {
+      "en": "Empanadas",
+      "zh": "Empanadas",
+      "sv": "Empanadas"
+    },
+    "description": {
+      "en": "Empanadas - a classic Argentina dish prepared for home cooks.",
+      "zh": "Empanadas - 经典的Argentina菜，适合家庭烹饪。",
+      "sv": "Empanadas - en klassisk Argentinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 48,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Empanadas using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Empanadas using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Empanadas using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "baked"
+    ]
+  },
+  {
+    "id": "LA-AR-003",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Argentina",
+      "zh": "Argentina",
+      "sv": "Argentina"
+    },
+    "dish_name": {
+      "en": "Milanesa",
+      "zh": "Milanesa",
+      "sv": "Milanesa"
+    },
+    "description": {
+      "en": "Milanesa - a classic Argentina dish prepared for home cooks.",
+      "zh": "Milanesa - 经典的Argentina菜，适合家庭烹饪。",
+      "sv": "Milanesa - en klassisk Argentinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 24,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Milanesa using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Milanesa using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Milanesa using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "spicy"
+    ]
+  },
+  {
+    "id": "LA-AR-004",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Argentina",
+      "zh": "Argentina",
+      "sv": "Argentina"
+    },
+    "dish_name": {
+      "en": "Chimichurri Steak",
+      "zh": "Chimichurri Steak",
+      "sv": "Chimichurri Steak"
+    },
+    "description": {
+      "en": "Chimichurri Steak - a classic Argentina dish prepared for home cooks.",
+      "zh": "Chimichurri Steak - 经典的Argentina菜，适合家庭烹饪。",
+      "sv": "Chimichurri Steak - en klassisk Argentinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 90,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Chimichurri Steak using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Chimichurri Steak using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Chimichurri Steak using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "quick"
+    ]
+  },
+  {
+    "id": "LA-AR-005",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Argentina",
+      "zh": "Argentina",
+      "sv": "Argentina"
+    },
+    "dish_name": {
+      "en": "Provoleta",
+      "zh": "Provoleta",
+      "sv": "Provoleta"
+    },
+    "description": {
+      "en": "Provoleta - a classic Argentina dish prepared for home cooks.",
+      "zh": "Provoleta - 经典的Argentina菜，适合家庭烹饪。",
+      "sv": "Provoleta - en klassisk Argentinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 40,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Provoleta using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Provoleta using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Provoleta using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "stew"
+    ]
+  }
+]

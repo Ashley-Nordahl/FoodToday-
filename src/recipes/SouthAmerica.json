@@ -1,0 +1,822 @@
+[
+  {
+    "id": "SO-BR-001",
+    "region": {
+      "en": "South America",
+      "zh": "南美",
+      "sv": "Sydamerika"
+    },
+    "subcategory": {
+      "en": "Brazil",
+      "zh": "Brazil",
+      "sv": "Brazil"
+    },
+    "dish_name": {
+      "en": "Feijoada",
+      "zh": "Feijoada",
+      "sv": "Feijoada"
+    },
+    "description": {
+      "en": "Feijoada - a classic Brazil dish prepared for home cooks.",
+      "zh": "Feijoada - 经典的Brazil菜，适合家庭烹饪。",
+      "sv": "Feijoada - en klassisk Brazilrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 31,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
+    },
+    "ingredients": {
+      "en": [
+        "400 g chickpeas",
+        "2 tbsp tahini",
+        "30 ml olive oil",
+        "1 pc lemon"
+      ],
+      "zh": [
+        "400 g 鹰嘴豆",
+        "2 tbsp tahini",
+        "30 ml 橄榄油",
+        "1 pc 柠檬"
+      ],
+      "sv": [
+        "400 g kikärtor",
+        "2 tbsp tahini",
+        "30 ml olivolja",
+        "1 pc citron"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Feijoada using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Feijoada using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Feijoada using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "baked"
+    ]
+  },
+  {
+    "id": "SO-BR-002",
+    "region": {
+      "en": "South America",
+      "zh": "南美",
+      "sv": "Sydamerika"
+    },
+    "subcategory": {
+      "en": "Brazil",
+      "zh": "Brazil",
+      "sv": "Brazil"
+    },
+    "dish_name": {
+      "en": "Moqueca",
+      "zh": "Moqueca",
+      "sv": "Moqueca"
+    },
+    "description": {
+      "en": "Moqueca - a classic Brazil dish prepared for home cooks.",
+      "zh": "Moqueca - 经典的Brazil菜，适合家庭烹饪。",
+      "sv": "Moqueca - en klassisk Brazilrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 53,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Seafood",
+      "zh": "海鲜",
+      "sv": "Skaldjur"
+    },
+    "ingredients": {
+      "en": [
+        "300 g salmon fillet",
+        "1 pc lemon",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 三文鱼 fillet",
+        "1 pc 柠檬",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g lax fillet",
+        "1 pc citron",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Moqueca using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Moqueca using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Moqueca using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "SO-BR-003",
+    "region": {
+      "en": "South America",
+      "zh": "南美",
+      "sv": "Sydamerika"
+    },
+    "subcategory": {
+      "en": "Brazil",
+      "zh": "Brazil",
+      "sv": "Brazil"
+    },
+    "dish_name": {
+      "en": "Pão de Queijo",
+      "zh": "Pão de Queijo",
+      "sv": "Pão de Queijo"
+    },
+    "description": {
+      "en": "Pão de Queijo - a classic Brazil dish prepared for home cooks.",
+      "zh": "Pão de Queijo - 经典的Brazil菜，适合家庭烹饪。",
+      "sv": "Pão de Queijo - en klassisk Brazilrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 86,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
+    },
+    "ingredients": {
+      "en": [
+        "400 g chickpeas",
+        "2 tbsp tahini",
+        "30 ml olive oil",
+        "1 pc lemon"
+      ],
+      "zh": [
+        "400 g 鹰嘴豆",
+        "2 tbsp tahini",
+        "30 ml 橄榄油",
+        "1 pc 柠檬"
+      ],
+      "sv": [
+        "400 g kikärtor",
+        "2 tbsp tahini",
+        "30 ml olivolja",
+        "1 pc citron"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Pão de Queijo using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Pão de Queijo using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Pão de Queijo using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "SO-BR-004",
+    "region": {
+      "en": "South America",
+      "zh": "南美",
+      "sv": "Sydamerika"
+    },
+    "subcategory": {
+      "en": "Brazil",
+      "zh": "Brazil",
+      "sv": "Brazil"
+    },
+    "dish_name": {
+      "en": "Churrasco",
+      "zh": "Churrasco",
+      "sv": "Churrasco"
+    },
+    "description": {
+      "en": "Churrasco - a classic Brazil dish prepared for home cooks.",
+      "zh": "Churrasco - 经典的Brazil菜，适合家庭烹饪。",
+      "sv": "Churrasco - en klassisk Brazilrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 65,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Churrasco using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Churrasco using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Churrasco using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "stew"
+    ]
+  },
+  {
+    "id": "SO-BR-005",
+    "region": {
+      "en": "South America",
+      "zh": "南美",
+      "sv": "Sydamerika"
+    },
+    "subcategory": {
+      "en": "Brazil",
+      "zh": "Brazil",
+      "sv": "Brazil"
+    },
+    "dish_name": {
+      "en": "Vatapá",
+      "zh": "Vatapá",
+      "sv": "Vatapá"
+    },
+    "description": {
+      "en": "Vatapá - a classic Brazil dish prepared for home cooks.",
+      "zh": "Vatapá - 经典的Brazil菜，适合家庭烹饪。",
+      "sv": "Vatapá - en klassisk Brazilrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 72,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Vatapá using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Vatapá using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Vatapá using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "baked"
+    ]
+  },
+  {
+    "id": "SO-CO-001",
+    "region": {
+      "en": "South America",
+      "zh": "南美",
+      "sv": "Sydamerika"
+    },
+    "subcategory": {
+      "en": "Colombia",
+      "zh": "Colombia",
+      "sv": "Colombia"
+    },
+    "dish_name": {
+      "en": "Bandeja Paisa",
+      "zh": "Bandeja Paisa",
+      "sv": "Bandeja Paisa"
+    },
+    "description": {
+      "en": "Bandeja Paisa - a classic Colombia dish prepared for home cooks.",
+      "zh": "Bandeja Paisa - 经典的Colombia菜，适合家庭烹饪。",
+      "sv": "Bandeja Paisa - en klassisk Colombiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 52,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Bandeja Paisa using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Bandeja Paisa using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Bandeja Paisa using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "family"
+    ]
+  },
+  {
+    "id": "SO-CO-002",
+    "region": {
+      "en": "South America",
+      "zh": "南美",
+      "sv": "Sydamerika"
+    },
+    "subcategory": {
+      "en": "Colombia",
+      "zh": "Colombia",
+      "sv": "Colombia"
+    },
+    "dish_name": {
+      "en": "Arepas",
+      "zh": "Arepas",
+      "sv": "Arepas"
+    },
+    "description": {
+      "en": "Arepas - a classic Colombia dish prepared for home cooks.",
+      "zh": "Arepas - 经典的Colombia菜，适合家庭烹饪。",
+      "sv": "Arepas - en klassisk Colombiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 64,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Arepas using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Arepas using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Arepas using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "SO-CO-003",
+    "region": {
+      "en": "South America",
+      "zh": "南美",
+      "sv": "Sydamerika"
+    },
+    "subcategory": {
+      "en": "Colombia",
+      "zh": "Colombia",
+      "sv": "Colombia"
+    },
+    "dish_name": {
+      "en": "Ajiaco",
+      "zh": "Ajiaco",
+      "sv": "Ajiaco"
+    },
+    "description": {
+      "en": "Ajiaco - a classic Colombia dish prepared for home cooks.",
+      "zh": "Ajiaco - 经典的Colombia菜，适合家庭烹饪。",
+      "sv": "Ajiaco - en klassisk Colombiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 59,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Ajiaco using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Ajiaco using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Ajiaco using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "spicy"
+    ]
+  },
+  {
+    "id": "SO-CO-004",
+    "region": {
+      "en": "South America",
+      "zh": "南美",
+      "sv": "Sydamerika"
+    },
+    "subcategory": {
+      "en": "Colombia",
+      "zh": "Colombia",
+      "sv": "Colombia"
+    },
+    "dish_name": {
+      "en": "Empanadas",
+      "zh": "Empanadas",
+      "sv": "Empanadas"
+    },
+    "description": {
+      "en": "Empanadas - a classic Colombia dish prepared for home cooks.",
+      "zh": "Empanadas - 经典的Colombia菜，适合家庭烹饪。",
+      "sv": "Empanadas - en klassisk Colombiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 53,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Empanadas using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Empanadas using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Empanadas using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "SO-CO-005",
+    "region": {
+      "en": "South America",
+      "zh": "南美",
+      "sv": "Sydamerika"
+    },
+    "subcategory": {
+      "en": "Colombia",
+      "zh": "Colombia",
+      "sv": "Colombia"
+    },
+    "dish_name": {
+      "en": "Sancocho",
+      "zh": "Sancocho",
+      "sv": "Sancocho"
+    },
+    "description": {
+      "en": "Sancocho - a classic Colombia dish prepared for home cooks.",
+      "zh": "Sancocho - 经典的Colombia菜，适合家庭烹饪。",
+      "sv": "Sancocho - en klassisk Colombiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 53,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Sancocho using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Sancocho using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Sancocho using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "family"
+    ]
+  }
+]

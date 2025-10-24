@@ -1,0 +1,5086 @@
+[
+  {
+    "id": "AS-CH-001",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Kung Pao Chicken",
+      "zh": "Kung Pao 鸡肉",
+      "sv": "Kung Pao Kyckling"
+    },
+    "description": {
+      "en": "Kung Pao Chicken - a classic China dish prepared for home cooks.",
+      "zh": "Kung Pao Chicken - 经典的China菜，适合家庭烹饪。",
+      "sv": "Kung Pao Chicken - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 39,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Kung Pao Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Kung Pao Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Kung Pao Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "stew",
+      "baked"
+    ]
+  },
+  {
+    "id": "AS-CH-002",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Mapo Tofu",
+      "zh": "Mapo Tofu",
+      "sv": "Mapo Tofu"
+    },
+    "description": {
+      "en": "Mapo Tofu - a classic China dish prepared for home cooks.",
+      "zh": "Mapo Tofu - 经典的China菜，适合家庭烹饪。",
+      "sv": "Mapo Tofu - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 79,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
+    },
+    "ingredients": {
+      "en": [
+        "400 g chickpeas",
+        "2 tbsp tahini",
+        "30 ml olive oil",
+        "1 pc lemon"
+      ],
+      "zh": [
+        "400 g 鹰嘴豆",
+        "2 tbsp tahini",
+        "30 ml 橄榄油",
+        "1 pc 柠檬"
+      ],
+      "sv": [
+        "400 g kikärtor",
+        "2 tbsp tahini",
+        "30 ml olivolja",
+        "1 pc citron"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Mapo Tofu using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Mapo Tofu using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Mapo Tofu using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "AS-CH-003",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Sweet and Sour Pork",
+      "zh": "Sweet and Sour 猪肉",
+      "sv": "Sweet and Sour Fläsk"
+    },
+    "description": {
+      "en": "Sweet and Sour Pork - a classic China dish prepared for home cooks.",
+      "zh": "Sweet and Sour Pork - 经典的China菜，适合家庭烹饪。",
+      "sv": "Sweet and Sour Pork - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 46,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Sweet and Sour Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Sweet and Sour Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Sweet and Sour Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "grilled"
+    ]
+  },
+  {
+    "id": "AS-CH-004",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Peking Duck",
+      "zh": "Peking Duck",
+      "sv": "Peking Duck"
+    },
+    "description": {
+      "en": "Peking Duck - a classic China dish prepared for home cooks.",
+      "zh": "Peking Duck - 经典的China菜，适合家庭烹饪。",
+      "sv": "Peking Duck - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 37,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Peking Duck using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Peking Duck using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Peking Duck using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "spicy"
+    ]
+  },
+  {
+    "id": "AS-CH-005",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Red Braised Pork",
+      "zh": "Red Braised 猪肉",
+      "sv": "Red Braised Fläsk"
+    },
+    "description": {
+      "en": "Red Braised Pork - a classic China dish prepared for home cooks.",
+      "zh": "Red Braised Pork - 经典的China菜，适合家庭烹饪。",
+      "sv": "Red Braised Pork - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 71,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Red Braised Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Red Braised Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Red Braised Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "baked"
+    ]
+  },
+  {
+    "id": "AS-CH-006",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Dan Dan Noodles",
+      "zh": "Dan Dan Noodles",
+      "sv": "Dan Dan Noodles"
+    },
+    "description": {
+      "en": "Dan Dan Noodles - a classic China dish prepared for home cooks.",
+      "zh": "Dan Dan Noodles - 经典的China菜，适合家庭烹饪。",
+      "sv": "Dan Dan Noodles - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 35,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Dan Dan Noodles using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Dan Dan Noodles using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Dan Dan Noodles using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "AS-CH-007",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Steamed Fish with Ginger",
+      "zh": "Steamed Fish with Ginger",
+      "sv": "Steamed Fish with Ginger"
+    },
+    "description": {
+      "en": "Steamed Fish with Ginger - a classic China dish prepared for home cooks.",
+      "zh": "Steamed Fish with Ginger - 经典的China菜，适合家庭烹饪。",
+      "sv": "Steamed Fish with Ginger - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 18,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Seafood",
+      "zh": "海鲜",
+      "sv": "Skaldjur"
+    },
+    "ingredients": {
+      "en": [
+        "300 g salmon fillet",
+        "1 pc lemon",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 三文鱼 fillet",
+        "1 pc 柠檬",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g lax fillet",
+        "1 pc citron",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Steamed Fish with Ginger using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Steamed Fish with Ginger using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Steamed Fish with Ginger using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "grilled"
+    ]
+  },
+  {
+    "id": "AS-CH-008",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Hot and Sour Soup",
+      "zh": "Hot and Sour Soup",
+      "sv": "Hot and Sour Soup"
+    },
+    "description": {
+      "en": "Hot and Sour Soup - a classic China dish prepared for home cooks.",
+      "zh": "Hot and Sour Soup - 经典的China菜，适合家庭烹饪。",
+      "sv": "Hot and Sour Soup - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 90,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Hot and Sour Soup using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Hot and Sour Soup using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Hot and Sour Soup using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "family",
+      "quick"
+    ]
+  },
+  {
+    "id": "AS-CH-009",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Sichuan Beef",
+      "zh": "Sichuan 牛肉",
+      "sv": "Sichuan Nötkött"
+    },
+    "description": {
+      "en": "Sichuan Beef - a classic China dish prepared for home cooks.",
+      "zh": "Sichuan Beef - 经典的China菜，适合家庭烹饪。",
+      "sv": "Sichuan Beef - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 79,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Sichuan Beef using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Sichuan Beef using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Sichuan Beef using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "AS-CH-010",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Scallion Pancakes",
+      "zh": "Scallion Pancakes",
+      "sv": "Scallion Pancakes"
+    },
+    "description": {
+      "en": "Scallion Pancakes - a classic China dish prepared for home cooks.",
+      "zh": "Scallion Pancakes - 经典的China菜，适合家庭烹饪。",
+      "sv": "Scallion Pancakes - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 85,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Scallion Pancakes using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Scallion Pancakes using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Scallion Pancakes using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "baked"
+    ]
+  },
+  {
+    "id": "AS-CH-011",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Twice-Cooked Pork",
+      "zh": "Twice-Cooked 猪肉",
+      "sv": "Twice-Cooked Fläsk"
+    },
+    "description": {
+      "en": "Twice-Cooked Pork - a classic China dish prepared for home cooks.",
+      "zh": "Twice-Cooked Pork - 经典的China菜，适合家庭烹饪。",
+      "sv": "Twice-Cooked Pork - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 88,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Twice-Cooked Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Twice-烹饪ed Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Twice-Tillagaed Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "grilled"
+    ]
+  },
+  {
+    "id": "AS-CH-012",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Braised Eggplant",
+      "zh": "Braised Eggplant",
+      "sv": "Braised Eggplant"
+    },
+    "description": {
+      "en": "Braised Eggplant - a classic China dish prepared for home cooks.",
+      "zh": "Braised Eggplant - 经典的China菜，适合家庭烹饪。",
+      "sv": "Braised Eggplant - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 85,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Egg",
+      "zh": "蛋类",
+      "sv": "Ägg"
+    },
+    "ingredients": {
+      "en": [
+        "3 pcs egg",
+        "30 ml milk",
+        "15 g butter",
+        "1 pc onion"
+      ],
+      "zh": [
+        "3 pcs 鸡蛋",
+        "30 ml milk",
+        "15 g 黄油",
+        "1 pc 洋葱"
+      ],
+      "sv": [
+        "3 pcs ägg",
+        "30 ml milk",
+        "15 g smör",
+        "1 pc lök"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 3 pcs egg, 30 ml milk, 15 g butter, 1 pc onion.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Braised Eggplant using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 3 pcs egg, 30 ml milk, 15 g butter, 1 pc onion.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Braised Eggplant using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 3 pcs egg, 30 ml milk, 15 g butter, 1 pc onion.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Braised Eggplant using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "stew"
+    ]
+  },
+  {
+    "id": "AS-CH-013",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Cantonese Roast Pork",
+      "zh": "Cantonese Roast 猪肉",
+      "sv": "Cantonese Roast Fläsk"
+    },
+    "description": {
+      "en": "Cantonese Roast Pork - a classic China dish prepared for home cooks.",
+      "zh": "Cantonese Roast Pork - 经典的China菜，适合家庭烹饪。",
+      "sv": "Cantonese Roast Pork - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 80,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Cantonese Roast Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Cantonese Roast Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Cantonese Roast Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "stew"
+    ]
+  },
+  {
+    "id": "AS-CH-014",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Ginger Scallion Chicken",
+      "zh": "Ginger Scallion 鸡肉",
+      "sv": "Ginger Scallion Kyckling"
+    },
+    "description": {
+      "en": "Ginger Scallion Chicken - a classic China dish prepared for home cooks.",
+      "zh": "Ginger Scallion Chicken - 经典的China菜，适合家庭烹饪。",
+      "sv": "Ginger Scallion Chicken - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 22,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Ginger Scallion Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Ginger Scallion Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Ginger Scallion Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "AS-CH-015",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Chow Mein",
+      "zh": "Chow Mein",
+      "sv": "Chow Mein"
+    },
+    "description": {
+      "en": "Chow Mein - a classic China dish prepared for home cooks.",
+      "zh": "Chow Mein - 经典的China菜，适合家庭烹饪。",
+      "sv": "Chow Mein - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 67,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Chow Mein using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Chow Mein using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Chow Mein using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "family"
+    ]
+  },
+  {
+    "id": "AS-CH-016",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Ma La Tofu",
+      "zh": "Ma La Tofu",
+      "sv": "Ma La Tofu"
+    },
+    "description": {
+      "en": "Ma La Tofu - a classic China dish prepared for home cooks.",
+      "zh": "Ma La Tofu - 经典的China菜，适合家庭烹饪。",
+      "sv": "Ma La Tofu - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 15,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
+    },
+    "ingredients": {
+      "en": [
+        "400 g chickpeas",
+        "2 tbsp tahini",
+        "30 ml olive oil",
+        "1 pc lemon"
+      ],
+      "zh": [
+        "400 g 鹰嘴豆",
+        "2 tbsp tahini",
+        "30 ml 橄榄油",
+        "1 pc 柠檬"
+      ],
+      "sv": [
+        "400 g kikärtor",
+        "2 tbsp tahini",
+        "30 ml olivolja",
+        "1 pc citron"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Ma La Tofu using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Ma La Tofu using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Ma La Tofu using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "AS-CH-017",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Tea Smoked Duck",
+      "zh": "Tea Smoked Duck",
+      "sv": "Tea Smoked Duck"
+    },
+    "description": {
+      "en": "Tea Smoked Duck - a classic China dish prepared for home cooks.",
+      "zh": "Tea Smoked Duck - 经典的China菜，适合家庭烹饪。",
+      "sv": "Tea Smoked Duck - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 18,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Tea Smoked Duck using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Tea Smoked Duck using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Tea Smoked Duck using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "family",
+      "baked"
+    ]
+  },
+  {
+    "id": "AS-CH-018",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Lion's Head Meatballs",
+      "zh": "Lion's Head Meatballs",
+      "sv": "Lion's Head Meatballs"
+    },
+    "description": {
+      "en": "Lion's Head Meatballs - a classic China dish prepared for home cooks.",
+      "zh": "Lion's Head Meatballs - 经典的China菜，适合家庭烹饪。",
+      "sv": "Lion's Head Meatballs - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 26,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Lion's Head Meatballs using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Lion's Head Meatballs using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Lion's Head Meatballs using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "baked"
+    ]
+  },
+  {
+    "id": "AS-CH-019",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Xiao Long Bao",
+      "zh": "Xiao Long Bao",
+      "sv": "Xiao Long Bao"
+    },
+    "description": {
+      "en": "Xiao Long Bao - a classic China dish prepared for home cooks.",
+      "zh": "Xiao Long Bao - 经典的China菜，适合家庭烹饪。",
+      "sv": "Xiao Long Bao - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 24,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Xiao Long Bao using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Xiao Long Bao using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Xiao Long Bao using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "stew",
+      "spicy"
+    ]
+  },
+  {
+    "id": "AS-CH-020",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "China",
+      "zh": "China",
+      "sv": "China"
+    },
+    "dish_name": {
+      "en": "Congee with Pork",
+      "zh": "Congee with 猪肉",
+      "sv": "Congee with Fläsk"
+    },
+    "description": {
+      "en": "Congee with Pork - a classic China dish prepared for home cooks.",
+      "zh": "Congee with Pork - 经典的China菜，适合家庭烹饪。",
+      "sv": "Congee with Pork - en klassisk Chinarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 50,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Grain",
+      "zh": "谷物",
+      "sv": "Spannmål"
+    },
+    "ingredients": {
+      "en": [
+        "200 g rice",
+        "1 pc onion",
+        "100 g mixed vegetables",
+        "500 ml stock"
+      ],
+      "zh": [
+        "200 g 米饭",
+        "1 pc 洋葱",
+        "100 g mixed vegetables",
+        "500 ml 高汤"
+      ],
+      "sv": [
+        "200 g ris",
+        "1 pc lök",
+        "100 g mixed vegetables",
+        "500 ml buljong"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Congee with Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Congee with Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Congee with Pork using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "baked"
+    ]
+  },
+  {
+    "id": "AS-JA-001",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Japan",
+      "zh": "Japan",
+      "sv": "Japan"
+    },
+    "dish_name": {
+      "en": "Sushi (Nigiri)",
+      "zh": "Sushi (Nigiri)",
+      "sv": "Sushi (Nigiri)"
+    },
+    "description": {
+      "en": "Sushi (Nigiri) - a classic Japan dish prepared for home cooks.",
+      "zh": "Sushi (Nigiri) - 经典的Japan菜，适合家庭烹饪。",
+      "sv": "Sushi (Nigiri) - en klassisk Japanrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 38,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Sushi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Sushi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Sushi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "stew"
+    ]
+  },
+  {
+    "id": "AS-JA-002",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Japan",
+      "zh": "Japan",
+      "sv": "Japan"
+    },
+    "dish_name": {
+      "en": "Tempura",
+      "zh": "Tempura",
+      "sv": "Tempura"
+    },
+    "description": {
+      "en": "Tempura - a classic Japan dish prepared for home cooks.",
+      "zh": "Tempura - 经典的Japan菜，适合家庭烹饪。",
+      "sv": "Tempura - en klassisk Japanrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 35,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Tempura using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Tempura using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Tempura using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "family",
+      "grilled"
+    ]
+  },
+  {
+    "id": "AS-JA-003",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Japan",
+      "zh": "Japan",
+      "sv": "Japan"
+    },
+    "dish_name": {
+      "en": "Tonkatsu",
+      "zh": "Tonkatsu",
+      "sv": "Tonkatsu"
+    },
+    "description": {
+      "en": "Tonkatsu - a classic Japan dish prepared for home cooks.",
+      "zh": "Tonkatsu - 经典的Japan菜，适合家庭烹饪。",
+      "sv": "Tonkatsu - en klassisk Japanrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 49,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Tonkatsu using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Tonkatsu using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Tonkatsu using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "stew",
+      "grilled"
+    ]
+  },
+  {
+    "id": "AS-JA-004",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Japan",
+      "zh": "Japan",
+      "sv": "Japan"
+    },
+    "dish_name": {
+      "en": "Ramen",
+      "zh": "Ramen",
+      "sv": "Ramen"
+    },
+    "description": {
+      "en": "Ramen - a classic Japan dish prepared for home cooks.",
+      "zh": "Ramen - 经典的Japan菜，适合家庭烹饪。",
+      "sv": "Ramen - en klassisk Japanrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 56,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Ramen using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Ramen using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Ramen using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "spicy"
+    ]
+  },
+  {
+    "id": "AS-JA-005",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Japan",
+      "zh": "Japan",
+      "sv": "Japan"
+    },
+    "dish_name": {
+      "en": "Okonomiyaki",
+      "zh": "Okonomiyaki",
+      "sv": "Okonomiyaki"
+    },
+    "description": {
+      "en": "Okonomiyaki - a classic Japan dish prepared for home cooks.",
+      "zh": "Okonomiyaki - 经典的Japan菜，适合家庭烹饪。",
+      "sv": "Okonomiyaki - en klassisk Japanrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 54,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Okonomiyaki using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Okonomiyaki using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Okonomiyaki using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "stew"
+    ]
+  },
+  {
+    "id": "AS-JA-006",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Japan",
+      "zh": "Japan",
+      "sv": "Japan"
+    },
+    "dish_name": {
+      "en": "Sukiyaki",
+      "zh": "Sukiyaki",
+      "sv": "Sukiyaki"
+    },
+    "description": {
+      "en": "Sukiyaki - a classic Japan dish prepared for home cooks.",
+      "zh": "Sukiyaki - 经典的Japan菜，适合家庭烹饪。",
+      "sv": "Sukiyaki - en klassisk Japanrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 39,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Sukiyaki using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Sukiyaki using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Sukiyaki using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "grilled"
+    ]
+  },
+  {
+    "id": "AS-JA-007",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Japan",
+      "zh": "Japan",
+      "sv": "Japan"
+    },
+    "dish_name": {
+      "en": "Yakitori",
+      "zh": "Yakitori",
+      "sv": "Yakitori"
+    },
+    "description": {
+      "en": "Yakitori - a classic Japan dish prepared for home cooks.",
+      "zh": "Yakitori - 经典的Japan菜，适合家庭烹饪。",
+      "sv": "Yakitori - en klassisk Japanrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 80,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Yakitori using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Yakitori using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Yakitori using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "stew"
+    ]
+  },
+  {
+    "id": "AS-JA-008",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Japan",
+      "zh": "Japan",
+      "sv": "Japan"
+    },
+    "dish_name": {
+      "en": "Katsu Curry",
+      "zh": "Katsu Curry",
+      "sv": "Katsu Curry"
+    },
+    "description": {
+      "en": "Katsu Curry - a classic Japan dish prepared for home cooks.",
+      "zh": "Katsu Curry - 经典的Japan菜，适合家庭烹饪。",
+      "sv": "Katsu Curry - en klassisk Japanrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 17,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Katsu Curry using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Katsu Curry using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Katsu Curry using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "quick"
+    ]
+  },
+  {
+    "id": "AS-JA-009",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Japan",
+      "zh": "Japan",
+      "sv": "Japan"
+    },
+    "dish_name": {
+      "en": "Miso Soup",
+      "zh": "Miso Soup",
+      "sv": "Miso Soup"
+    },
+    "description": {
+      "en": "Miso Soup - a classic Japan dish prepared for home cooks.",
+      "zh": "Miso Soup - 经典的Japan菜，适合家庭烹饪。",
+      "sv": "Miso Soup - en klassisk Japanrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 19,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Miso Soup using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Miso Soup using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Miso Soup using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "stew",
+      "grilled"
+    ]
+  },
+  {
+    "id": "AS-JA-010",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Japan",
+      "zh": "Japan",
+      "sv": "Japan"
+    },
+    "dish_name": {
+      "en": "Teriyaki Salmon",
+      "zh": "Teriyaki 三文鱼",
+      "sv": "Teriyaki Lax"
+    },
+    "description": {
+      "en": "Teriyaki Salmon - a classic Japan dish prepared for home cooks.",
+      "zh": "Teriyaki Salmon - 经典的Japan菜，适合家庭烹饪。",
+      "sv": "Teriyaki Salmon - en klassisk Japanrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 79,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Seafood",
+      "zh": "海鲜",
+      "sv": "Skaldjur"
+    },
+    "ingredients": {
+      "en": [
+        "300 g salmon fillet",
+        "1 pc lemon",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 三文鱼 fillet",
+        "1 pc 柠檬",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g lax fillet",
+        "1 pc citron",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Teriyaki Salmon using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Teriyaki Salmon using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Teriyaki Salmon using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "grilled"
+    ]
+  },
+  {
+    "id": "AS-MA-001",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Malaysia",
+      "zh": "Malaysia",
+      "sv": "Malaysia"
+    },
+    "dish_name": {
+      "en": "Nasi Lemak",
+      "zh": "Nasi Lemak",
+      "sv": "Nasi Lemak"
+    },
+    "description": {
+      "en": "Nasi Lemak - a classic Malaysia dish prepared for home cooks.",
+      "zh": "Nasi Lemak - 经典的Malaysia菜，适合家庭烹饪。",
+      "sv": "Nasi Lemak - en klassisk Malaysiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 81,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Nasi Lemak using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Nasi Lemak using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Nasi Lemak using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "AS-MA-002",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Malaysia",
+      "zh": "Malaysia",
+      "sv": "Malaysia"
+    },
+    "dish_name": {
+      "en": "Laksa",
+      "zh": "Laksa",
+      "sv": "Laksa"
+    },
+    "description": {
+      "en": "Laksa - a classic Malaysia dish prepared for home cooks.",
+      "zh": "Laksa - 经典的Malaysia菜，适合家庭烹饪。",
+      "sv": "Laksa - en klassisk Malaysiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 88,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Laksa using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Laksa using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Laksa using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "grilled"
+    ]
+  },
+  {
+    "id": "AS-MA-003",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Malaysia",
+      "zh": "Malaysia",
+      "sv": "Malaysia"
+    },
+    "dish_name": {
+      "en": "Beef Rendang",
+      "zh": "牛肉 Rendang",
+      "sv": "Nötkött Rendang"
+    },
+    "description": {
+      "en": "Beef Rendang - a classic Malaysia dish prepared for home cooks.",
+      "zh": "Beef Rendang - 经典的Malaysia菜，适合家庭烹饪。",
+      "sv": "Beef Rendang - en klassisk Malaysiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 53,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Beef Rendang using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Beef Rendang using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Beef Rendang using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "family"
+    ]
+  },
+  {
+    "id": "AS-MA-004",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Malaysia",
+      "zh": "Malaysia",
+      "sv": "Malaysia"
+    },
+    "dish_name": {
+      "en": "Chicken Satay",
+      "zh": "鸡肉 Satay",
+      "sv": "Kyckling Satay"
+    },
+    "description": {
+      "en": "Chicken Satay - a classic Malaysia dish prepared for home cooks.",
+      "zh": "Chicken Satay - 经典的Malaysia菜，适合家庭烹饪。",
+      "sv": "Chicken Satay - en klassisk Malaysiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 24,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Chicken Satay using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Chicken Satay using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Chicken Satay using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "grilled"
+    ]
+  },
+  {
+    "id": "AS-MA-005",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Malaysia",
+      "zh": "Malaysia",
+      "sv": "Malaysia"
+    },
+    "dish_name": {
+      "en": "Char Kway Teow",
+      "zh": "Char Kway Teow",
+      "sv": "Char Kway Teow"
+    },
+    "description": {
+      "en": "Char Kway Teow - a classic Malaysia dish prepared for home cooks.",
+      "zh": "Char Kway Teow - 经典的Malaysia菜，适合家庭烹饪。",
+      "sv": "Char Kway Teow - en klassisk Malaysiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 35,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Char Kway Teow using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Char Kway Teow using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Char Kway Teow using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "quick"
+    ]
+  },
+  {
+    "id": "AS-MA-006",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Malaysia",
+      "zh": "Malaysia",
+      "sv": "Malaysia"
+    },
+    "dish_name": {
+      "en": "Hainanese Chicken Rice",
+      "zh": "Hainanese 鸡肉 米饭",
+      "sv": "Hainanese Kyckling Ris"
+    },
+    "description": {
+      "en": "Hainanese Chicken Rice - a classic Malaysia dish prepared for home cooks.",
+      "zh": "Hainanese Chicken Rice - 经典的Malaysia菜，适合家庭烹饪。",
+      "sv": "Hainanese Chicken Rice - en klassisk Malaysiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 16,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Grain",
+      "zh": "谷物",
+      "sv": "Spannmål"
+    },
+    "ingredients": {
+      "en": [
+        "200 g rice",
+        "1 pc onion",
+        "100 g mixed vegetables",
+        "500 ml stock"
+      ],
+      "zh": [
+        "200 g 米饭",
+        "1 pc 洋葱",
+        "100 g mixed vegetables",
+        "500 ml 高汤"
+      ],
+      "sv": [
+        "200 g ris",
+        "1 pc lök",
+        "100 g mixed vegetables",
+        "500 ml buljong"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Hainanese Chicken Rice using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Hainanese Chicken Rice using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Hainanese Chicken Rice using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "AS-TH-001",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Thailand",
+      "zh": "Thailand",
+      "sv": "Thailand"
+    },
+    "dish_name": {
+      "en": "Pad Thai",
+      "zh": "Pad Thai",
+      "sv": "Pad Thai"
+    },
+    "description": {
+      "en": "Pad Thai - a classic Thailand dish prepared for home cooks.",
+      "zh": "Pad Thai - 经典的Thailand菜，适合家庭烹饪。",
+      "sv": "Pad Thai - en klassisk Thailandrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 73,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Pad Thai using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Pad Thai using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Pad Thai using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "AS-TH-002",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Thailand",
+      "zh": "Thailand",
+      "sv": "Thailand"
+    },
+    "dish_name": {
+      "en": "Green Curry",
+      "zh": "Green Curry",
+      "sv": "Green Curry"
+    },
+    "description": {
+      "en": "Green Curry - a classic Thailand dish prepared for home cooks.",
+      "zh": "Green Curry - 经典的Thailand菜，适合家庭烹饪。",
+      "sv": "Green Curry - en klassisk Thailandrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 40,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Green Curry using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Green Curry using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Green Curry using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "AS-TH-003",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Thailand",
+      "zh": "Thailand",
+      "sv": "Thailand"
+    },
+    "dish_name": {
+      "en": "Massaman Curry",
+      "zh": "Massaman Curry",
+      "sv": "Massaman Curry"
+    },
+    "description": {
+      "en": "Massaman Curry - a classic Thailand dish prepared for home cooks.",
+      "zh": "Massaman Curry - 经典的Thailand菜，适合家庭烹饪。",
+      "sv": "Massaman Curry - en klassisk Thailandrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 70,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Massaman Curry using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Massaman Curry using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Massaman Curry using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "stew",
+      "spicy"
+    ]
+  },
+  {
+    "id": "AS-TH-004",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Thailand",
+      "zh": "Thailand",
+      "sv": "Thailand"
+    },
+    "dish_name": {
+      "en": "Tom Yum Goong",
+      "zh": "Tom Yum Goong",
+      "sv": "Tom Yum Goong"
+    },
+    "description": {
+      "en": "Tom Yum Goong - a classic Thailand dish prepared for home cooks.",
+      "zh": "Tom Yum Goong - 经典的Thailand菜，适合家庭烹饪。",
+      "sv": "Tom Yum Goong - en klassisk Thailandrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 64,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Tom Yum Goong using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Tom Yum Goong using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Tom Yum Goong using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "stew",
+      "spicy"
+    ]
+  },
+  {
+    "id": "AS-TH-005",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Thailand",
+      "zh": "Thailand",
+      "sv": "Thailand"
+    },
+    "dish_name": {
+      "en": "Som Tam",
+      "zh": "Som Tam",
+      "sv": "Som Tam"
+    },
+    "description": {
+      "en": "Som Tam - a classic Thailand dish prepared for home cooks.",
+      "zh": "Som Tam - 经典的Thailand菜，适合家庭烹饪。",
+      "sv": "Som Tam - en klassisk Thailandrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 56,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Som Tam using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Som Tam using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Som Tam using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "spicy"
+    ]
+  },
+  {
+    "id": "AS-TH-006",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Thailand",
+      "zh": "Thailand",
+      "sv": "Thailand"
+    },
+    "dish_name": {
+      "en": "Khao Soi",
+      "zh": "Khao Soi",
+      "sv": "Khao Soi"
+    },
+    "description": {
+      "en": "Khao Soi - a classic Thailand dish prepared for home cooks.",
+      "zh": "Khao Soi - 经典的Thailand菜，适合家庭烹饪。",
+      "sv": "Khao Soi - en klassisk Thailandrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 35,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Khao Soi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Khao Soi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Khao Soi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "family",
+      "stew"
+    ]
+  },
+  {
+    "id": "AS-TH-007",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Thailand",
+      "zh": "Thailand",
+      "sv": "Thailand"
+    },
+    "dish_name": {
+      "en": "Panang Curry",
+      "zh": "Panang Curry",
+      "sv": "Panang Curry"
+    },
+    "description": {
+      "en": "Panang Curry - a classic Thailand dish prepared for home cooks.",
+      "zh": "Panang Curry - 经典的Thailand菜，适合家庭烹饪。",
+      "sv": "Panang Curry - en klassisk Thailandrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 69,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Panang Curry using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Panang Curry using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Panang Curry using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "baked"
+    ]
+  },
+  {
+    "id": "AS-TH-008",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Thailand",
+      "zh": "Thailand",
+      "sv": "Thailand"
+    },
+    "dish_name": {
+      "en": "Pad Kra Pao",
+      "zh": "Pad Kra Pao",
+      "sv": "Pad Kra Pao"
+    },
+    "description": {
+      "en": "Pad Kra Pao - a classic Thailand dish prepared for home cooks.",
+      "zh": "Pad Kra Pao - 经典的Thailand菜，适合家庭烹饪。",
+      "sv": "Pad Kra Pao - en klassisk Thailandrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 63,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Pad Kra Pao using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Pad Kra Pao using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Pad Kra Pao using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "stew",
+      "baked"
+    ]
+  },
+  {
+    "id": "AS-TH-009",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Thailand",
+      "zh": "Thailand",
+      "sv": "Thailand"
+    },
+    "dish_name": {
+      "en": "Thai Basil Chicken",
+      "zh": "Thai Basil 鸡肉",
+      "sv": "Thai Basil Kyckling"
+    },
+    "description": {
+      "en": "Thai Basil Chicken - a classic Thailand dish prepared for home cooks.",
+      "zh": "Thai Basil Chicken - 经典的Thailand菜，适合家庭烹饪。",
+      "sv": "Thai Basil Chicken - en klassisk Thailandrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 83,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Thai Basil Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Thai Basil Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Thai Basil Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "stew"
+    ]
+  },
+  {
+    "id": "AS-TH-010",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Thailand",
+      "zh": "Thailand",
+      "sv": "Thailand"
+    },
+    "dish_name": {
+      "en": "Mango Sticky Rice",
+      "zh": "Mango Sticky 米饭",
+      "sv": "Mango Sticky Ris"
+    },
+    "description": {
+      "en": "Mango Sticky Rice - a classic Thailand dish prepared for home cooks.",
+      "zh": "Mango Sticky Rice - 经典的Thailand菜，适合家庭烹饪。",
+      "sv": "Mango Sticky Rice - en klassisk Thailandrätt anpassad för hemanvändning."
+    },
+    "total_time_min": 32,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Grain",
+      "zh": "谷物",
+      "sv": "Spannmål"
+    },
+    "ingredients": {
+      "en": [
+        "200 g rice",
+        "1 pc onion",
+        "100 g mixed vegetables",
+        "500 ml stock"
+      ],
+      "zh": [
+        "200 g 米饭",
+        "1 pc 洋葱",
+        "100 g mixed vegetables",
+        "500 ml 高汤"
+      ],
+      "sv": [
+        "200 g ris",
+        "1 pc lök",
+        "100 g mixed vegetables",
+        "500 ml buljong"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Mango Sticky Rice using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Mango Sticky Rice using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Mango Sticky Rice using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "family"
+    ]
+  },
+  {
+    "id": "AS-KO-001",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Korea",
+      "zh": "Korea",
+      "sv": "Korea"
+    },
+    "dish_name": {
+      "en": "Bulgogi",
+      "zh": "Bulgogi",
+      "sv": "Bulgogi"
+    },
+    "description": {
+      "en": "Bulgogi - a classic Korea dish prepared for home cooks.",
+      "zh": "Bulgogi - 经典的Korea菜，适合家庭烹饪。",
+      "sv": "Bulgogi - en klassisk Korearätt anpassad för hemanvändning."
+    },
+    "total_time_min": 57,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Bulgogi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Bulgogi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Bulgogi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "family"
+    ]
+  },
+  {
+    "id": "AS-KO-002",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Korea",
+      "zh": "Korea",
+      "sv": "Korea"
+    },
+    "dish_name": {
+      "en": "Kimchi Stew",
+      "zh": "Kimchi Stew",
+      "sv": "Kimchi Stew"
+    },
+    "description": {
+      "en": "Kimchi Stew - a classic Korea dish prepared for home cooks.",
+      "zh": "Kimchi Stew - 经典的Korea菜，适合家庭烹饪。",
+      "sv": "Kimchi Stew - en klassisk Korearätt anpassad för hemanvändning."
+    },
+    "total_time_min": 58,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Kimchi Stew using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Kimchi Stew using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Kimchi Stew using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "quick"
+    ]
+  },
+  {
+    "id": "AS-KO-003",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Korea",
+      "zh": "Korea",
+      "sv": "Korea"
+    },
+    "dish_name": {
+      "en": "Bibimbap",
+      "zh": "Bibimbap",
+      "sv": "Bibimbap"
+    },
+    "description": {
+      "en": "Bibimbap - a classic Korea dish prepared for home cooks.",
+      "zh": "Bibimbap - 经典的Korea菜，适合家庭烹饪。",
+      "sv": "Bibimbap - en klassisk Korearätt anpassad för hemanvändning."
+    },
+    "total_time_min": 77,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Bibimbap using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Bibimbap using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Bibimbap using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "family"
+    ]
+  },
+  {
+    "id": "AS-KO-004",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Korea",
+      "zh": "Korea",
+      "sv": "Korea"
+    },
+    "dish_name": {
+      "en": "Samgyeopsal",
+      "zh": "Samgyeopsal",
+      "sv": "Samgyeopsal"
+    },
+    "description": {
+      "en": "Samgyeopsal - a classic Korea dish prepared for home cooks.",
+      "zh": "Samgyeopsal - 经典的Korea菜，适合家庭烹饪。",
+      "sv": "Samgyeopsal - en klassisk Korearätt anpassad för hemanvändning."
+    },
+    "total_time_min": 20,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Samgyeopsal using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Samgyeopsal using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Samgyeopsal using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "baked",
+      "stew"
+    ]
+  },
+  {
+    "id": "AS-KO-005",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Korea",
+      "zh": "Korea",
+      "sv": "Korea"
+    },
+    "dish_name": {
+      "en": "Tteokbokki",
+      "zh": "Tteokbokki",
+      "sv": "Tteokbokki"
+    },
+    "description": {
+      "en": "Tteokbokki - a classic Korea dish prepared for home cooks.",
+      "zh": "Tteokbokki - 经典的Korea菜，适合家庭烹饪。",
+      "sv": "Tteokbokki - en klassisk Korearätt anpassad för hemanvändning."
+    },
+    "total_time_min": 33,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Tteokbokki using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Tteokbokki using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Tteokbokki using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "AS-KO-006",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "Korea",
+      "zh": "Korea",
+      "sv": "Korea"
+    },
+    "dish_name": {
+      "en": "Japchae",
+      "zh": "Japchae",
+      "sv": "Japchae"
+    },
+    "description": {
+      "en": "Japchae - a classic Korea dish prepared for home cooks.",
+      "zh": "Japchae - 经典的Korea菜，适合家庭烹饪。",
+      "sv": "Japchae - en klassisk Korearätt anpassad för hemanvändning."
+    },
+    "total_time_min": 90,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Japchae using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Japchae using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Japchae using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "vegetarian"
+    ]
+  },
+  {
+    "id": "AS-IN-001",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "India",
+      "zh": "India",
+      "sv": "India"
+    },
+    "dish_name": {
+      "en": "Butter Chicken",
+      "zh": "Butter 鸡肉",
+      "sv": "Butter Kyckling"
+    },
+    "description": {
+      "en": "Butter Chicken - a classic India dish prepared for home cooks.",
+      "zh": "Butter Chicken - 经典的India菜，适合家庭烹饪。",
+      "sv": "Butter Chicken - en klassisk Indiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 25,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Butter Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Butter Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Butter Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "stew"
+    ]
+  },
+  {
+    "id": "AS-IN-002",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "India",
+      "zh": "India",
+      "sv": "India"
+    },
+    "dish_name": {
+      "en": "Chana Masala",
+      "zh": "Chana Masala",
+      "sv": "Chana Masala"
+    },
+    "description": {
+      "en": "Chana Masala - a classic India dish prepared for home cooks.",
+      "zh": "Chana Masala - 经典的India菜，适合家庭烹饪。",
+      "sv": "Chana Masala - en klassisk Indiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 83,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
+    },
+    "ingredients": {
+      "en": [
+        "400 g chickpeas",
+        "2 tbsp tahini",
+        "30 ml olive oil",
+        "1 pc lemon"
+      ],
+      "zh": [
+        "400 g 鹰嘴豆",
+        "2 tbsp tahini",
+        "30 ml 橄榄油",
+        "1 pc 柠檬"
+      ],
+      "sv": [
+        "400 g kikärtor",
+        "2 tbsp tahini",
+        "30 ml olivolja",
+        "1 pc citron"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Chana Masala using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Chana Masala using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Chana Masala using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "spicy"
+    ]
+  },
+  {
+    "id": "AS-IN-003",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "India",
+      "zh": "India",
+      "sv": "India"
+    },
+    "dish_name": {
+      "en": "Biryani",
+      "zh": "Biryani",
+      "sv": "Biryani"
+    },
+    "description": {
+      "en": "Biryani - a classic India dish prepared for home cooks.",
+      "zh": "Biryani - 经典的India菜，适合家庭烹饪。",
+      "sv": "Biryani - en klassisk Indiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 20,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Grain",
+      "zh": "谷物",
+      "sv": "Spannmål"
+    },
+    "ingredients": {
+      "en": [
+        "200 g rice",
+        "1 pc onion",
+        "100 g mixed vegetables",
+        "500 ml stock"
+      ],
+      "zh": [
+        "200 g 米饭",
+        "1 pc 洋葱",
+        "100 g mixed vegetables",
+        "500 ml 高汤"
+      ],
+      "sv": [
+        "200 g ris",
+        "1 pc lök",
+        "100 g mixed vegetables",
+        "500 ml buljong"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Biryani using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Biryani using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Biryani using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "stew"
+    ]
+  },
+  {
+    "id": "AS-IN-004",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "India",
+      "zh": "India",
+      "sv": "India"
+    },
+    "dish_name": {
+      "en": "Palak Paneer",
+      "zh": "Palak Paneer",
+      "sv": "Palak Paneer"
+    },
+    "description": {
+      "en": "Palak Paneer - a classic India dish prepared for home cooks.",
+      "zh": "Palak Paneer - 经典的India菜，适合家庭烹饪。",
+      "sv": "Palak Paneer - en klassisk Indiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 67,
+    "difficulty": {
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
+    },
+    "servings": 1,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Palak Paneer using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Palak Paneer using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Palak Paneer using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "gluten-free",
+      "quick"
+    ]
+  },
+  {
+    "id": "AS-IN-005",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "India",
+      "zh": "India",
+      "sv": "India"
+    },
+    "dish_name": {
+      "en": "Dal Tadka",
+      "zh": "Dal Tadka",
+      "sv": "Dal Tadka"
+    },
+    "description": {
+      "en": "Dal Tadka - a classic India dish prepared for home cooks.",
+      "zh": "Dal Tadka - 经典的India菜，适合家庭烹饪。",
+      "sv": "Dal Tadka - en klassisk Indiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 90,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
+    },
+    "ingredients": {
+      "en": [
+        "400 g chickpeas",
+        "2 tbsp tahini",
+        "30 ml olive oil",
+        "1 pc lemon"
+      ],
+      "zh": [
+        "400 g 鹰嘴豆",
+        "2 tbsp tahini",
+        "30 ml 橄榄油",
+        "1 pc 柠檬"
+      ],
+      "sv": [
+        "400 g kikärtor",
+        "2 tbsp tahini",
+        "30 ml olivolja",
+        "1 pc citron"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Dal Tadka using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Dal Tadka using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Dal Tadka using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "quick",
+      "gluten-free"
+    ]
+  },
+  {
+    "id": "AS-IN-006",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "India",
+      "zh": "India",
+      "sv": "India"
+    },
+    "dish_name": {
+      "en": "Masala Dosa",
+      "zh": "Masala Dosa",
+      "sv": "Masala Dosa"
+    },
+    "description": {
+      "en": "Masala Dosa - a classic India dish prepared for home cooks.",
+      "zh": "Masala Dosa - 经典的India菜，适合家庭烹饪。",
+      "sv": "Masala Dosa - en klassisk Indiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 36,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 2,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Masala Dosa using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Masala Dosa using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Masala Dosa using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "family",
+      "grilled"
+    ]
+  },
+  {
+    "id": "AS-IN-007",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "India",
+      "zh": "India",
+      "sv": "India"
+    },
+    "dish_name": {
+      "en": "Rogan Josh",
+      "zh": "Rogan Josh",
+      "sv": "Rogan Josh"
+    },
+    "description": {
+      "en": "Rogan Josh - a classic India dish prepared for home cooks.",
+      "zh": "Rogan Josh - 经典的India菜，适合家庭烹饪。",
+      "sv": "Rogan Josh - en klassisk Indiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 28,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Rogan Josh using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Rogan Josh using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Rogan Josh using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "vegetarian",
+      "stew"
+    ]
+  },
+  {
+    "id": "AS-IN-008",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "India",
+      "zh": "India",
+      "sv": "India"
+    },
+    "dish_name": {
+      "en": "Tandoori Chicken",
+      "zh": "Tandoori 鸡肉",
+      "sv": "Tandoori Kyckling"
+    },
+    "description": {
+      "en": "Tandoori Chicken - a classic India dish prepared for home cooks.",
+      "zh": "Tandoori Chicken - 经典的India菜，适合家庭烹饪。",
+      "sv": "Tandoori Chicken - en klassisk Indiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 47,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Tandoori Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Tandoori Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Tandoori Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "spicy"
+    ]
+  },
+  {
+    "id": "AS-IN-009",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "India",
+      "zh": "India",
+      "sv": "India"
+    },
+    "dish_name": {
+      "en": "Aloo Gobi",
+      "zh": "Aloo Gobi",
+      "sv": "Aloo Gobi"
+    },
+    "description": {
+      "en": "Aloo Gobi - a classic India dish prepared for home cooks.",
+      "zh": "Aloo Gobi - 经典的India菜，适合家庭烹饪。",
+      "sv": "Aloo Gobi - en klassisk Indiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 41,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 3,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Aloo Gobi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Aloo Gobi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Aloo Gobi using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "spicy",
+      "stew"
+    ]
+  },
+  {
+    "id": "AS-IN-010",
+    "region": {
+      "en": "Asia",
+      "zh": "亚洲",
+      "sv": "Asien"
+    },
+    "subcategory": {
+      "en": "India",
+      "zh": "India",
+      "sv": "India"
+    },
+    "dish_name": {
+      "en": "Korma",
+      "zh": "Korma",
+      "sv": "Korma"
+    },
+    "description": {
+      "en": "Korma - a classic India dish prepared for home cooks.",
+      "zh": "Korma - 经典的India菜，适合家庭烹饪。",
+      "sv": "Korma - en klassisk Indiarätt anpassad för hemanvändning."
+    },
+    "total_time_min": 16,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "300 g beef",
+        "1 pc onion",
+        "2 cloves garlic",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "300 g 牛肉",
+        "1 pc 洋葱",
+        "2 cloves 大蒜",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "300 g nötkött",
+        "1 pc lök",
+        "2 cloves vitlök",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "If required, marinate or season the main ingredients for 15–30 minutes.",
+        "Preheat pan or oven to 200°C when appropriate.",
+        "Cook Korma using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Taste and adjust seasoning, rest if needed, then serve warm."
+      ],
+      "zh": [
+        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "如需，可将主要食材腌制或调味15–30分钟。",
+        "如适用，将锅或烤箱预热至200°C。",
+        "烹饪 Korma using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+      ],
+      "sv": [
+        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
+        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
+        "Förvärm panna eller ugn till 200°C vid behov.",
+        "Tillaga Korma using the suitable method (grill, sauté, simmer or bake) until properly done.",
+        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+      ]
+    },
+    "tags": [
+      "grilled",
+      "gluten-free"
+    ]
+  }
+]

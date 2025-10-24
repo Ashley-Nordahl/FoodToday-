@@ -132,21 +132,21 @@ function FoodWheel({ isOpen, onClose, onSelect }) {
                       strokeWidth="2"
                     />
                     <text
-                      x={200 + 130 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                      y={200 + 130 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                      x={200 + 150 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                      y={200 + 150 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
                       textAnchor="middle"
                       dominantBaseline="middle"
                       fill="white"
                       fontSize="10"
                       fontWeight="600"
                       textShadow="0 1px 2px rgba(0,0,0,0.5)"
-                      transform={`rotate(${(startAngle + endAngle) / 2}, ${200 + 130 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${200 + 130 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
+                      transform={`rotate(${(startAngle + endAngle) / 2}, ${200 + 150 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${200 + 150 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
                       style={{ wordSpacing: '0px', letterSpacing: '0px' }}
                     >
                       {getTranslatedCuisineName(cuisine.name).split(' ').map((word, wordIndex) => (
                         <tspan
                           key={wordIndex}
-                          x={200 + 130 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
+                          x={200 + 150 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
                           dy={wordIndex === 0 ? 0 : '1.2em'}
                           textAnchor="middle"
                         >
