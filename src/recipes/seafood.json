@@ -1,0 +1,902 @@
+[
+  {
+    "id": "S001",
+    "category": "Seafood",
+    "subcategory": "Fish",
+    "cuisine": "North America",
+    "dish_name": {
+      "en": "Teriyaki Salmon",
+      "zh": "Teriyaki 三文鱼",
+      "sv": "Teriyaki lax"
+    },
+    "description": {
+      "en": "Teriyaki Salmon - a classic north america dish.",
+      "zh": "Teriyaki 三文鱼 - a classic north america dish.",
+      "sv": "Teriyaki lax - a classic north america dish."
+    },
+    "total_time_min": 21,
+    "difficulty": "Medium",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "2 pcs salmon fillet",
+        "15 ml soy sauce",
+        "1 tbsp lemon juice"
+      ],
+      "zh": [
+        "2 pcs 三文鱼 fillet",
+        "15 ml 酱油",
+        "1 tbsp 柠檬 juice"
+      ],
+      "sv": [
+        "2 pcs lax fillet",
+        "15 ml sojasås",
+        "1 tbsp citron juice"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: salmon fillet, soy sauce, lemon juice.",
+        "Season or marinate as needed for flavor.",
+        "Preheat the oven or pan to the required temperature.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 三文鱼 fillet, 酱油, 柠檬 juice.",
+        "Season or marinate as needed for flavor.",
+        "Preheat the oven or pan to the required temperature.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: lax fillet, sojasås, citron juice.",
+        "Season or marinate as needed for flavor.",
+        "Preheat the oven or pan to the required temperature.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "North America"
+  },
+  {
+    "id": "S002",
+    "category": "Seafood",
+    "subcategory": "Fish",
+    "cuisine": "Mediterranean",
+    "dish_name": {
+      "en": "Grilled Salmon with Lemon",
+      "zh": "烤 三文鱼 with 柠檬",
+      "sv": "Grillad lax with citron"
+    },
+    "description": {
+      "en": "Grilled Salmon with Lemon - a classic mediterranean dish.",
+      "zh": "烤 三文鱼 with 柠檬 - a classic mediterranean dish.",
+      "sv": "Grillad lax with citron - a classic mediterranean dish."
+    },
+    "total_time_min": 67,
+    "difficulty": "Easy",
+    "servings": 2,
+    "ingredients": {
+      "en": [
+        "2 pcs salmon fillet",
+        "15 ml soy sauce",
+        "1 tbsp lemon juice"
+      ],
+      "zh": [
+        "2 pcs 三文鱼 fillet",
+        "15 ml 酱油",
+        "1 tbsp 柠檬 juice"
+      ],
+      "sv": [
+        "2 pcs lax fillet",
+        "15 ml sojasås",
+        "1 tbsp citron juice"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: salmon fillet, soy sauce, lemon juice.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with rice or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 三文鱼 fillet, 酱油, 柠檬 juice.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with 米饭 or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: lax fillet, sojasås, citron juice.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with ris or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Mediterranean"
+  },
+  {
+    "id": "S003",
+    "category": "Seafood",
+    "subcategory": "Fish",
+    "cuisine": "Southern Europe",
+    "dish_name": {
+      "en": "Tuna Sashimi",
+      "zh": "金枪鱼 Sashimi",
+      "sv": "tonfisk Sashimi"
+    },
+    "description": {
+      "en": "Tuna Sashimi - a classic southern europe dish.",
+      "zh": "金枪鱼 Sashimi - a classic southern europe dish.",
+      "sv": "tonfisk Sashimi - a classic southern europe dish."
+    },
+    "total_time_min": 40,
+    "difficulty": "Medium",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "300 g tuna",
+        "15 ml soy sauce",
+        "1 tbsp lemon juice"
+      ],
+      "zh": [
+        "300 g 金枪鱼",
+        "15 ml 酱油",
+        "1 tbsp 柠檬 juice"
+      ],
+      "sv": [
+        "300 g tonfisk",
+        "15 ml sojasås",
+        "1 tbsp citron juice"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: tuna, soy sauce, lemon juice.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 金枪鱼, 酱油, 柠檬 juice.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: tonfisk, sojasås, citron juice.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Southern Europe"
+  },
+  {
+    "id": "S004",
+    "category": "Seafood",
+    "subcategory": "Fish",
+    "cuisine": "Southern Europe",
+    "dish_name": {
+      "en": "Seared Tuna Steak",
+      "zh": "Seared 金枪鱼 Steak",
+      "sv": "Seared tonfisk Steak"
+    },
+    "description": {
+      "en": "Seared Tuna Steak - a classic southern europe dish.",
+      "zh": "Seared 金枪鱼 Steak - a classic southern europe dish.",
+      "sv": "Seared tonfisk Steak - a classic southern europe dish."
+    },
+    "total_time_min": 20,
+    "difficulty": "Medium",
+    "servings": 6,
+    "ingredients": {
+      "en": [
+        "300 g tuna",
+        "15 ml soy sauce",
+        "1 tbsp lemon juice"
+      ],
+      "zh": [
+        "300 g 金枪鱼",
+        "15 ml 酱油",
+        "1 tbsp 柠檬 juice"
+      ],
+      "sv": [
+        "300 g tonfisk",
+        "15 ml sojasås",
+        "1 tbsp citron juice"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: tuna, soy sauce, lemon juice.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with rice or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 金枪鱼, 酱油, 柠檬 juice.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with 米饭 or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: tonfisk, sojasås, citron juice.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with ris or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Southern Europe"
+  },
+  {
+    "id": "S005",
+    "category": "Seafood",
+    "subcategory": "Shellfish",
+    "cuisine": "Mediterranean",
+    "dish_name": {
+      "en": "Classic Fish and Chips",
+      "zh": "Classic Fish and Chips",
+      "sv": "Classic Fish and Chips"
+    },
+    "description": {
+      "en": "Classic Fish and Chips - a classic mediterranean dish.",
+      "zh": "Classic Fish and Chips - a classic mediterranean dish.",
+      "sv": "Classic Fish and Chips - a classic mediterranean dish."
+    },
+    "total_time_min": 46,
+    "difficulty": "Medium",
+    "servings": 6,
+    "ingredients": {
+      "en": [
+        "300 g shrimp",
+        "20 g butter",
+        "2 cloves garlic"
+      ],
+      "zh": [
+        "300 g 虾",
+        "20 g 黄油",
+        "2 cloves 大蒜"
+      ],
+      "sv": [
+        "300 g räkor",
+        "20 g smör",
+        "2 cloves vitlök"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: shrimp, butter, garlic.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of lemon.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 虾, 黄油, 大蒜.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of 柠檬.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: räkor, smör, vitlök.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of citron.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Mediterranean"
+  },
+  {
+    "id": "S006",
+    "category": "Seafood",
+    "subcategory": "Shellfish",
+    "cuisine": "East Asia",
+    "dish_name": {
+      "en": "Portuguese Bacalhau",
+      "zh": "Portuguese Bacalhau",
+      "sv": "Portuguese Bacalhau"
+    },
+    "description": {
+      "en": "Portuguese Bacalhau - a classic east asia dish.",
+      "zh": "Portuguese Bacalhau - a classic east asia dish.",
+      "sv": "Portuguese Bacalhau - a classic east asia dish."
+    },
+    "total_time_min": 20,
+    "difficulty": "Medium",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "300 g shrimp",
+        "20 g butter",
+        "2 cloves garlic"
+      ],
+      "zh": [
+        "300 g 虾",
+        "20 g 黄油",
+        "2 cloves 大蒜"
+      ],
+      "sv": [
+        "300 g räkor",
+        "20 g smör",
+        "2 cloves vitlök"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: shrimp, butter, garlic.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with rice or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 虾, 黄油, 大蒜.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with 米饭 or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: räkor, smör, vitlök.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with ris or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "East Asia"
+  },
+  {
+    "id": "S007",
+    "category": "Seafood",
+    "subcategory": "Mixed",
+    "cuisine": "Southern Europe",
+    "dish_name": {
+      "en": "Paella Valenciana",
+      "zh": "Paella Valenciana",
+      "sv": "Paella Valenciana"
+    },
+    "description": {
+      "en": "Paella Valenciana - a classic southern europe dish.",
+      "zh": "Paella Valenciana - a classic southern europe dish.",
+      "sv": "Paella Valenciana - a classic southern europe dish."
+    },
+    "total_time_min": 51,
+    "difficulty": "Medium",
+    "servings": 6,
+    "ingredients": {
+      "en": [
+        "300 g paella rice",
+        "400 g mixed seafood",
+        "1 pc onion"
+      ],
+      "zh": [
+        "300 g paella 米饭",
+        "400 g mixed seafood",
+        "1 pc 洋葱"
+      ],
+      "sv": [
+        "300 g paella ris",
+        "400 g mixed seafood",
+        "1 pc lök"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: paella rice, mixed seafood, onion.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with rice or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: paella 米饭, mixed seafood, 洋葱.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with 米饭 or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: paella ris, mixed seafood, lök.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with ris or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Southern Europe"
+  },
+  {
+    "id": "S008",
+    "category": "Seafood",
+    "subcategory": "Shellfish",
+    "cuisine": "Mediterranean",
+    "dish_name": {
+      "en": "Shrimp Pad Thai",
+      "zh": "虾 Pad Thai",
+      "sv": "räkor Pad Thai"
+    },
+    "description": {
+      "en": "Shrimp Pad Thai - a classic mediterranean dish.",
+      "zh": "虾 Pad Thai - a classic mediterranean dish.",
+      "sv": "räkor Pad Thai - a classic mediterranean dish."
+    },
+    "total_time_min": 16,
+    "difficulty": "Easy",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "300 g shrimp",
+        "2 tbsp oil",
+        "2 cloves garlic"
+      ],
+      "zh": [
+        "300 g 虾",
+        "2 tbsp oil",
+        "2 cloves 大蒜"
+      ],
+      "sv": [
+        "300 g räkor",
+        "2 tbsp oil",
+        "2 cloves vitlök"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: shrimp, oil, garlic.",
+        "Season or marinate as needed for flavor.",
+        "Preheat the oven or pan to the required temperature.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 虾, oil, 大蒜.",
+        "Season or marinate as needed for flavor.",
+        "Preheat the oven or pan to the required temperature.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: räkor, oil, vitlök.",
+        "Season or marinate as needed for flavor.",
+        "Preheat the oven or pan to the required temperature.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Mediterranean"
+  },
+  {
+    "id": "S009",
+    "category": "Seafood",
+    "subcategory": "Shellfish",
+    "cuisine": "East Asia",
+    "dish_name": {
+      "en": "Garlic Butter Shrimp",
+      "zh": "大蒜 黄油 虾",
+      "sv": "vitlök smör räkor"
+    },
+    "description": {
+      "en": "Garlic Butter Shrimp - a classic east asia dish.",
+      "zh": "大蒜 黄油 虾 - a classic east asia dish.",
+      "sv": "vitlök smör räkor - a classic east asia dish."
+    },
+    "total_time_min": 30,
+    "difficulty": "Medium",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "300 g shrimp",
+        "2 tbsp oil",
+        "2 cloves garlic"
+      ],
+      "zh": [
+        "300 g 虾",
+        "2 tbsp oil",
+        "2 cloves 大蒜"
+      ],
+      "sv": [
+        "300 g räkor",
+        "2 tbsp oil",
+        "2 cloves vitlök"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: shrimp, oil, garlic.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 虾, oil, 大蒜.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: räkor, oil, vitlök.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "East Asia"
+  },
+  {
+    "id": "S010",
+    "category": "Seafood",
+    "subcategory": "Shellfish",
+    "cuisine": "North America",
+    "dish_name": {
+      "en": "Chili Crab",
+      "zh": "Chili Crab",
+      "sv": "Chili Crab"
+    },
+    "description": {
+      "en": "Chili Crab - a classic north america dish.",
+      "zh": "Chili Crab - a classic north america dish.",
+      "sv": "Chili Crab - a classic north america dish."
+    },
+    "total_time_min": 39,
+    "difficulty": "Medium",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "300 g shrimp",
+        "20 g butter",
+        "2 cloves garlic"
+      ],
+      "zh": [
+        "300 g 虾",
+        "20 g 黄油",
+        "2 cloves 大蒜"
+      ],
+      "sv": [
+        "300 g räkor",
+        "20 g smör",
+        "2 cloves vitlök"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: shrimp, butter, garlic.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 虾, 黄油, 大蒜.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: räkor, smör, vitlök.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "North America"
+  },
+  {
+    "id": "S011",
+    "category": "Seafood",
+    "subcategory": "Shellfish",
+    "cuisine": "North America",
+    "dish_name": {
+      "en": "Crab Cakes",
+      "zh": "Crab Cakes",
+      "sv": "Crab Cakes"
+    },
+    "description": {
+      "en": "Crab Cakes - a classic north america dish.",
+      "zh": "Crab Cakes - a classic north america dish.",
+      "sv": "Crab Cakes - a classic north america dish."
+    },
+    "total_time_min": 63,
+    "difficulty": "Easy",
+    "servings": 6,
+    "ingredients": {
+      "en": [
+        "300 g shrimp",
+        "20 g butter",
+        "2 cloves garlic"
+      ],
+      "zh": [
+        "300 g 虾",
+        "20 g 黄油",
+        "2 cloves 大蒜"
+      ],
+      "sv": [
+        "300 g räkor",
+        "20 g smör",
+        "2 cloves vitlök"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: shrimp, butter, garlic.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of lemon.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 虾, 黄油, 大蒜.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of 柠檬.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: räkor, smör, vitlök.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of citron.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "North America"
+  },
+  {
+    "id": "S012",
+    "category": "Seafood",
+    "subcategory": "Shellfish",
+    "cuisine": "North America",
+    "dish_name": {
+      "en": "Lobster Roll",
+      "zh": "Lobster Roll",
+      "sv": "Lobster Roll"
+    },
+    "description": {
+      "en": "Lobster Roll - a classic north america dish.",
+      "zh": "Lobster Roll - a classic north america dish.",
+      "sv": "Lobster Roll - a classic north america dish."
+    },
+    "total_time_min": 62,
+    "difficulty": "Easy",
+    "servings": 2,
+    "ingredients": {
+      "en": [
+        "300 g shrimp",
+        "20 g butter",
+        "2 cloves garlic"
+      ],
+      "zh": [
+        "300 g 虾",
+        "20 g 黄油",
+        "2 cloves 大蒜"
+      ],
+      "sv": [
+        "300 g räkor",
+        "20 g smör",
+        "2 cloves vitlök"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: shrimp, butter, garlic.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with rice or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 虾, 黄油, 大蒜.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with 米饭 or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: räkor, smör, vitlök.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with ris or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "North America"
+  },
+  {
+    "id": "S013",
+    "category": "Seafood",
+    "subcategory": "Shellfish",
+    "cuisine": "North America",
+    "dish_name": {
+      "en": "Lobster Bisque",
+      "zh": "Lobster Bisque",
+      "sv": "Lobster Bisque"
+    },
+    "description": {
+      "en": "Lobster Bisque - a classic north america dish.",
+      "zh": "Lobster Bisque - a classic north america dish.",
+      "sv": "Lobster Bisque - a classic north america dish."
+    },
+    "total_time_min": 39,
+    "difficulty": "Medium",
+    "servings": 2,
+    "ingredients": {
+      "en": [
+        "300 g shrimp",
+        "20 g butter",
+        "2 cloves garlic"
+      ],
+      "zh": [
+        "300 g 虾",
+        "20 g 黄油",
+        "2 cloves 大蒜"
+      ],
+      "sv": [
+        "300 g räkor",
+        "20 g smör",
+        "2 cloves vitlök"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: shrimp, butter, garlic.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of lemon.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 虾, 黄油, 大蒜.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of 柠檬.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: räkor, smör, vitlök.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of citron.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "North America"
+  },
+  {
+    "id": "S014",
+    "category": "Seafood",
+    "subcategory": "Shellfish",
+    "cuisine": "Southern Europe",
+    "dish_name": {
+      "en": "Calamari Fritti",
+      "zh": "Calamari Fritti",
+      "sv": "Calamari Fritti"
+    },
+    "description": {
+      "en": "Calamari Fritti - a classic southern europe dish.",
+      "zh": "Calamari Fritti - a classic southern europe dish.",
+      "sv": "Calamari Fritti - a classic southern europe dish."
+    },
+    "total_time_min": 48,
+    "difficulty": "Easy",
+    "servings": 2,
+    "ingredients": {
+      "en": [
+        "300 g shrimp",
+        "20 g butter",
+        "2 cloves garlic"
+      ],
+      "zh": [
+        "300 g 虾",
+        "20 g 黄油",
+        "2 cloves 大蒜"
+      ],
+      "sv": [
+        "300 g räkor",
+        "20 g smör",
+        "2 cloves vitlök"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: shrimp, butter, garlic.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of lemon.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 虾, 黄油, 大蒜.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of 柠檬.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: räkor, smör, vitlök.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of citron.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Southern Europe"
+  },
+  {
+    "id": "S015",
+    "category": "Seafood",
+    "subcategory": "Shellfish",
+    "cuisine": "Mediterranean",
+    "dish_name": {
+      "en": "Octopus Salad",
+      "zh": "Octopus Salad",
+      "sv": "Octopus Salad"
+    },
+    "description": {
+      "en": "Octopus Salad - a classic mediterranean dish.",
+      "zh": "Octopus Salad - a classic mediterranean dish.",
+      "sv": "Octopus Salad - a classic mediterranean dish."
+    },
+    "total_time_min": 65,
+    "difficulty": "Medium",
+    "servings": 2,
+    "ingredients": {
+      "en": [
+        "300 g shrimp",
+        "20 g butter",
+        "2 cloves garlic"
+      ],
+      "zh": [
+        "300 g 虾",
+        "20 g 黄油",
+        "2 cloves 大蒜"
+      ],
+      "sv": [
+        "300 g räkor",
+        "20 g smör",
+        "2 cloves vitlök"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: shrimp, butter, garlic.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 虾, 黄油, 大蒜.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: räkor, smör, vitlök.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Mediterranean"
+  }
+]

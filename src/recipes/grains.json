@@ -1,0 +1,602 @@
+[
+  {
+    "id": "G001",
+    "category": "Grains",
+    "subcategory": "Rice",
+    "cuisine": "Mediterranean",
+    "dish_name": {
+      "en": "Vegetable Biryani",
+      "zh": "Vegetable Biryani",
+      "sv": "Vegetable Biryani"
+    },
+    "description": {
+      "en": "Vegetable Biryani - a classic mediterranean dish.",
+      "zh": "Vegetable Biryani - a classic mediterranean dish.",
+      "sv": "Vegetable Biryani - a classic mediterranean dish."
+    },
+    "total_time_min": 37,
+    "difficulty": "Easy",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "200 g rice",
+        "1 pc onion",
+        "100 g mixed vegetables"
+      ],
+      "zh": [
+        "200 g 米饭",
+        "1 pc 洋葱",
+        "100 g mixed vegetables"
+      ],
+      "sv": [
+        "200 g ris",
+        "1 pc lök",
+        "100 g mixed vegetables"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: rice, onion, mixed vegetables.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with rice or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 米饭, 洋葱, mixed vegetables.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with 米饭 or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: ris, lök, mixed vegetables.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with ris or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Mediterranean"
+  },
+  {
+    "id": "G002",
+    "category": "Grains",
+    "subcategory": "Arborio Rice",
+    "cuisine": "Latin America",
+    "dish_name": {
+      "en": "Mushroom Risotto",
+      "zh": "蘑菇 Risotto",
+      "sv": "svamp Risotto"
+    },
+    "description": {
+      "en": "Mushroom Risotto - a classic latin america dish.",
+      "zh": "蘑菇 Risotto - a classic latin america dish.",
+      "sv": "svamp Risotto - a classic latin america dish."
+    },
+    "total_time_min": 22,
+    "difficulty": "Medium",
+    "servings": 6,
+    "ingredients": {
+      "en": [
+        "300 g arborio rice",
+        "1 L chicken broth",
+        "100 g mushrooms"
+      ],
+      "zh": [
+        "300 g arborio 米饭",
+        "1 L 鸡肉 broth",
+        "100 g 蘑菇s"
+      ],
+      "sv": [
+        "300 g arborio ris",
+        "1 L kyckling broth",
+        "100 g svamps"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: arborio rice, chicken broth, mushrooms.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of lemon.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: arborio 米饭, 鸡肉 broth, 蘑菇s.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of 柠檬.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: arborio ris, kyckling broth, svamps.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of citron.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Latin America"
+  },
+  {
+    "id": "G003",
+    "category": "Grains",
+    "subcategory": "Rice",
+    "cuisine": "Europe",
+    "dish_name": {
+      "en": "Spanish Paella",
+      "zh": "Spanish Paella",
+      "sv": "Spanish Paella"
+    },
+    "description": {
+      "en": "Spanish Paella - a classic europe dish.",
+      "zh": "Spanish Paella - a classic europe dish.",
+      "sv": "Spanish Paella - a classic europe dish."
+    },
+    "total_time_min": 43,
+    "difficulty": "Medium",
+    "servings": 6,
+    "ingredients": {
+      "en": [
+        "200 g rice",
+        "1 pc onion",
+        "100 g mixed vegetables"
+      ],
+      "zh": [
+        "200 g 米饭",
+        "1 pc 洋葱",
+        "100 g mixed vegetables"
+      ],
+      "sv": [
+        "200 g ris",
+        "1 pc lök",
+        "100 g mixed vegetables"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: rice, onion, mixed vegetables.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with rice or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 米饭, 洋葱, mixed vegetables.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with 米饭 or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: ris, lök, mixed vegetables.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with ris or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Europe"
+  },
+  {
+    "id": "G004",
+    "category": "Grains",
+    "subcategory": "Rice",
+    "cuisine": "Mediterranean",
+    "dish_name": {
+      "en": "Fried Rice Yangzhou",
+      "zh": "炸/炒 米饭 Yangzhou",
+      "sv": "Stekt ris Yangzhou"
+    },
+    "description": {
+      "en": "Fried Rice Yangzhou - a classic mediterranean dish.",
+      "zh": "炸/炒 米饭 Yangzhou - a classic mediterranean dish.",
+      "sv": "Stekt ris Yangzhou - a classic mediterranean dish."
+    },
+    "total_time_min": 74,
+    "difficulty": "Easy",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "200 g rice",
+        "1 pc onion",
+        "100 g mixed vegetables"
+      ],
+      "zh": [
+        "200 g 米饭",
+        "1 pc 洋葱",
+        "100 g mixed vegetables"
+      ],
+      "sv": [
+        "200 g ris",
+        "1 pc lök",
+        "100 g mixed vegetables"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: rice, onion, mixed vegetables.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of lemon.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 米饭, 洋葱, mixed vegetables.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of 柠檬.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: ris, lök, mixed vegetables.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of citron.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Mediterranean"
+  },
+  {
+    "id": "G005",
+    "category": "Grains",
+    "subcategory": "Pasta",
+    "cuisine": "Europe",
+    "dish_name": {
+      "en": "Classic Carbonara",
+      "zh": "Classic Carbonara",
+      "sv": "Classic Carbonara"
+    },
+    "description": {
+      "en": "Classic Carbonara - a classic europe dish.",
+      "zh": "Classic Carbonara - a classic europe dish.",
+      "sv": "Classic Carbonara - a classic europe dish."
+    },
+    "total_time_min": 44,
+    "difficulty": "Medium",
+    "servings": 2,
+    "ingredients": {
+      "en": [
+        "200 g spaghetti",
+        "100 g pancetta",
+        "2 pcs egg"
+      ],
+      "zh": [
+        "200 g spaghetti",
+        "100 g pancetta",
+        "2 pcs 鸡蛋"
+      ],
+      "sv": [
+        "200 g spaghetti",
+        "100 g pancetta",
+        "2 pcs ägg"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: spaghetti, pancetta, egg.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: spaghetti, pancetta, 鸡蛋.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: spaghetti, pancetta, ägg.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Europe"
+  },
+  {
+    "id": "G006",
+    "category": "Grains",
+    "subcategory": "Pasta",
+    "cuisine": "South Asia",
+    "dish_name": {
+      "en": "Spaghetti Aglio e Olio",
+      "zh": "Spaghetti Aglio e Olio",
+      "sv": "Spaghetti Aglio e Olio"
+    },
+    "description": {
+      "en": "Spaghetti Aglio e Olio - a classic south asia dish.",
+      "zh": "Spaghetti Aglio e Olio - a classic south asia dish.",
+      "sv": "Spaghetti Aglio e Olio - a classic south asia dish."
+    },
+    "total_time_min": 74,
+    "difficulty": "Medium",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "200 g spaghetti",
+        "100 g pancetta",
+        "2 pcs egg"
+      ],
+      "zh": [
+        "200 g spaghetti",
+        "100 g pancetta",
+        "2 pcs 鸡蛋"
+      ],
+      "sv": [
+        "200 g spaghetti",
+        "100 g pancetta",
+        "2 pcs ägg"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: spaghetti, pancetta, egg.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with rice or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: spaghetti, pancetta, 鸡蛋.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with 米饭 or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: spaghetti, pancetta, ägg.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with ris or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "South Asia"
+  },
+  {
+    "id": "G007",
+    "category": "Grains",
+    "subcategory": "Grains",
+    "cuisine": "Mediterranean",
+    "dish_name": {
+      "en": "Couscous Salad",
+      "zh": "Couscous Salad",
+      "sv": "Couscous Salad"
+    },
+    "description": {
+      "en": "Couscous Salad - a classic mediterranean dish.",
+      "zh": "Couscous Salad - a classic mediterranean dish.",
+      "sv": "Couscous Salad - a classic mediterranean dish."
+    },
+    "total_time_min": 44,
+    "difficulty": "Easy",
+    "servings": 6,
+    "ingredients": {
+      "en": [
+        "200 g flour",
+        "100 g butter",
+        "200 ml milk"
+      ],
+      "zh": [
+        "200 g 面粉",
+        "100 g 黄油",
+        "200 ml 牛奶"
+      ],
+      "sv": [
+        "200 g mjöl",
+        "100 g smör",
+        "200 ml mjölk"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: flour, butter, milk.",
+        "Season or marinate as needed for flavor.",
+        "Preheat the oven or pan to the required temperature.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 面粉, 黄油, 牛奶.",
+        "Season or marinate as needed for flavor.",
+        "Preheat the oven or pan to the required temperature.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: mjöl, smör, mjölk.",
+        "Season or marinate as needed for flavor.",
+        "Preheat the oven or pan to the required temperature.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Mediterranean"
+  },
+  {
+    "id": "G008",
+    "category": "Grains",
+    "subcategory": "Grains",
+    "cuisine": "South Asia",
+    "dish_name": {
+      "en": "Quinoa Salad",
+      "zh": "Quinoa Salad",
+      "sv": "Quinoa Salad"
+    },
+    "description": {
+      "en": "Quinoa Salad - a classic south asia dish.",
+      "zh": "Quinoa Salad - a classic south asia dish.",
+      "sv": "Quinoa Salad - a classic south asia dish."
+    },
+    "total_time_min": 35,
+    "difficulty": "Medium",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "200 g flour",
+        "100 g butter",
+        "200 ml milk"
+      ],
+      "zh": [
+        "200 g 面粉",
+        "100 g 黄油",
+        "200 ml 牛奶"
+      ],
+      "sv": [
+        "200 g mjöl",
+        "100 g smör",
+        "200 ml mjölk"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: flour, butter, milk.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with rice or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 面粉, 黄油, 牛奶.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with 米饭 or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: mjöl, smör, mjölk.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with ris or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "South Asia"
+  },
+  {
+    "id": "G009",
+    "category": "Grains",
+    "subcategory": "Grains",
+    "cuisine": "Europe",
+    "dish_name": {
+      "en": "Cornbread",
+      "zh": "Cornbread",
+      "sv": "Cornbread"
+    },
+    "description": {
+      "en": "Cornbread - a classic europe dish.",
+      "zh": "Cornbread - a classic europe dish.",
+      "sv": "Cornbread - a classic europe dish."
+    },
+    "total_time_min": 39,
+    "difficulty": "Medium",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "200 g flour",
+        "100 g butter",
+        "200 ml milk"
+      ],
+      "zh": [
+        "200 g 面粉",
+        "100 g 黄油",
+        "200 ml 牛奶"
+      ],
+      "sv": [
+        "200 g mjöl",
+        "100 g smör",
+        "200 ml mjölk"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: flour, butter, milk.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 面粉, 黄油, 牛奶.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: mjöl, smör, mjölk.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Europe"
+  },
+  {
+    "id": "G010",
+    "category": "Grains",
+    "subcategory": "Grains",
+    "cuisine": "Europe",
+    "dish_name": {
+      "en": "Buttery Dinner Rolls",
+      "zh": "黄油y Dinner Rolls",
+      "sv": "smöry Dinner Rolls"
+    },
+    "description": {
+      "en": "Buttery Dinner Rolls - a classic europe dish.",
+      "zh": "黄油y Dinner Rolls - a classic europe dish.",
+      "sv": "smöry Dinner Rolls - a classic europe dish."
+    },
+    "total_time_min": 48,
+    "difficulty": "Easy",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "200 g flour",
+        "100 g butter",
+        "200 ml milk"
+      ],
+      "zh": [
+        "200 g 面粉",
+        "100 g 黄油",
+        "200 ml 牛奶"
+      ],
+      "sv": [
+        "200 g mjöl",
+        "100 g smör",
+        "200 ml mjölk"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: flour, butter, milk.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 面粉, 黄油, 牛奶.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: mjöl, smör, mjölk.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Europe"
+  }
+]

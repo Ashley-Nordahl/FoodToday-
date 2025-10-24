@@ -7,12 +7,7 @@ import enTranslation from './locales/en/translation.json'
 import zhTranslation from './locales/zh/translation.json'
 import svTranslation from './locales/sv/translation.json'
 
-// Import recipe translations
-import enRecipes from './locales/en/recipes.json'
-import zhRecipes from './locales/zh/recipes.json'
-import svRecipes from './locales/sv/recipes.json'
-
-// Note: parties.json removed - party data now in unified recipes.json
+// Note: recipes.json removed - now using organized JSON files in /src/recipes/
 
 // Import drink translations
 import enDrinks from './locales/en/drinks.json'
@@ -42,7 +37,6 @@ import svParties from './locales/sv/parties.json'
 const resources = {
   en: {
     translation: enTranslation,
-    recipes: enRecipes,
     drinks: enDrinks,
     sauces: enSauces,
     ingredients: enIngredients,
@@ -50,7 +44,6 @@ const resources = {
   },
   zh: {
     translation: zhTranslation,
-    recipes: zhRecipes,
     drinks: zhDrinks,
     sauces: zhSauces,
     ingredients: zhIngredients,
@@ -58,7 +51,6 @@ const resources = {
   },
   sv: {
     translation: svTranslation,
-    recipes: svRecipes,
     drinks: svDrinks,
     sauces: svSauces,
     ingredients: svIngredients,

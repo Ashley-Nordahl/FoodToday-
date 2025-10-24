@@ -1,0 +1,602 @@
+[
+  {
+    "id": "B001",
+    "category": "Beans & Plant Protein",
+    "subcategory": "Legume",
+    "cuisine": "Latin America",
+    "dish_name": {
+      "en": "Hummus",
+      "zh": "Hummus",
+      "sv": "Hummus"
+    },
+    "description": {
+      "en": "Hummus - a classic latin america dish.",
+      "zh": "Hummus - a classic latin america dish.",
+      "sv": "Hummus - a classic latin america dish."
+    },
+    "total_time_min": 48,
+    "difficulty": "Easy",
+    "servings": 6,
+    "ingredients": {
+      "en": [
+        "400 g chickpeas",
+        "2 tbsp tahini",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "400 g 鹰嘴豆",
+        "2 tbsp tahini",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "400 g kikärtor",
+        "2 tbsp tahini",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: chickpeas, tahini, olive oil.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 鹰嘴豆, tahini, 橄榄油.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: kikärtor, tahini, olivolja.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Latin America"
+  },
+  {
+    "id": "B002",
+    "category": "Beans & Plant Protein",
+    "subcategory": "Legume",
+    "cuisine": "Middle East",
+    "dish_name": {
+      "en": "Falafel",
+      "zh": "Falafel",
+      "sv": "Falafel"
+    },
+    "description": {
+      "en": "Falafel - a classic middle east dish.",
+      "zh": "Falafel - a classic middle east dish.",
+      "sv": "Falafel - a classic middle east dish."
+    },
+    "total_time_min": 17,
+    "difficulty": "Easy",
+    "servings": 6,
+    "ingredients": {
+      "en": [
+        "400 g chickpeas",
+        "2 tbsp tahini",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "400 g 鹰嘴豆",
+        "2 tbsp tahini",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "400 g kikärtor",
+        "2 tbsp tahini",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: chickpeas, tahini, olive oil.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with rice or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 鹰嘴豆, tahini, 橄榄油.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with 米饭 or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: kikärtor, tahini, olivolja.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with ris or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Middle East"
+  },
+  {
+    "id": "B003",
+    "category": "Beans & Plant Protein",
+    "subcategory": "Legume",
+    "cuisine": "Southeast Asia",
+    "dish_name": {
+      "en": "Chana Masala",
+      "zh": "Chana Masala",
+      "sv": "Chana Masala"
+    },
+    "description": {
+      "en": "Chana Masala - a classic southeast asia dish.",
+      "zh": "Chana Masala - a classic southeast asia dish.",
+      "sv": "Chana Masala - a classic southeast asia dish."
+    },
+    "total_time_min": 57,
+    "difficulty": "Medium",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "400 g chickpeas",
+        "2 tbsp tahini",
+        "30 ml olive oil"
+      ],
+      "zh": [
+        "400 g 鹰嘴豆",
+        "2 tbsp tahini",
+        "30 ml 橄榄油"
+      ],
+      "sv": [
+        "400 g kikärtor",
+        "2 tbsp tahini",
+        "30 ml olivolja"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: chickpeas, tahini, olive oil.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 鹰嘴豆, tahini, 橄榄油.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: kikärtor, tahini, olivolja.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Southeast Asia"
+  },
+  {
+    "id": "B004",
+    "category": "Beans & Plant Protein",
+    "subcategory": "Legume",
+    "cuisine": "Southeast Asia",
+    "dish_name": {
+      "en": "Lentil Soup",
+      "zh": "Lentil Soup",
+      "sv": "Lentil Soup"
+    },
+    "description": {
+      "en": "Lentil Soup - a classic southeast asia dish.",
+      "zh": "Lentil Soup - a classic southeast asia dish.",
+      "sv": "Lentil Soup - a classic southeast asia dish."
+    },
+    "total_time_min": 39,
+    "difficulty": "Easy",
+    "servings": 6,
+    "ingredients": {
+      "en": [
+        "300 g beans",
+        "1 pc onion",
+        "2 tbsp oil"
+      ],
+      "zh": [
+        "300 g beans",
+        "1 pc 洋葱",
+        "2 tbsp oil"
+      ],
+      "sv": [
+        "300 g beans",
+        "1 pc lök",
+        "2 tbsp oil"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: beans, onion, oil.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of lemon.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: beans, 洋葱, oil.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of 柠檬.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: beans, lök, oil.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of citron.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Southeast Asia"
+  },
+  {
+    "id": "B005",
+    "category": "Beans & Plant Protein",
+    "subcategory": "Legume",
+    "cuisine": "Latin America",
+    "dish_name": {
+      "en": "Black Bean Burrito",
+      "zh": "Black Bean Burrito",
+      "sv": "Black Bean Burrito"
+    },
+    "description": {
+      "en": "Black Bean Burrito - a classic latin america dish.",
+      "zh": "Black Bean Burrito - a classic latin america dish.",
+      "sv": "Black Bean Burrito - a classic latin america dish."
+    },
+    "total_time_min": 22,
+    "difficulty": "Medium",
+    "servings": 6,
+    "ingredients": {
+      "en": [
+        "300 g beans",
+        "1 pc onion",
+        "2 tbsp oil"
+      ],
+      "zh": [
+        "300 g beans",
+        "1 pc 洋葱",
+        "2 tbsp oil"
+      ],
+      "sv": [
+        "300 g beans",
+        "1 pc lök",
+        "2 tbsp oil"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: beans, onion, oil.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of lemon.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: beans, 洋葱, oil.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of 柠檬.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: beans, lök, oil.",
+        "Season or marinate as needed for flavor.",
+        "Garnish with fresh herbs and a squeeze of citron.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Latin America"
+  },
+  {
+    "id": "B006",
+    "category": "Beans & Plant Protein",
+    "subcategory": "Legume",
+    "cuisine": "Southeast Asia",
+    "dish_name": {
+      "en": "Feijoada (Brazilian)",
+      "zh": "Feijoada (Brazilian)",
+      "sv": "Feijoada (Brazilian)"
+    },
+    "description": {
+      "en": "Feijoada (Brazilian) - a classic southeast asia dish.",
+      "zh": "Feijoada (Brazilian) - a classic southeast asia dish.",
+      "sv": "Feijoada (Brazilian) - a classic southeast asia dish."
+    },
+    "total_time_min": 21,
+    "difficulty": "Medium",
+    "servings": 6,
+    "ingredients": {
+      "en": [
+        "300 g beans",
+        "1 pc onion",
+        "2 tbsp oil"
+      ],
+      "zh": [
+        "300 g beans",
+        "1 pc 洋葱",
+        "2 tbsp oil"
+      ],
+      "sv": [
+        "300 g beans",
+        "1 pc lök",
+        "2 tbsp oil"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: beans, onion, oil.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with rice or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: beans, 洋葱, oil.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with 米饭 or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: beans, lök, oil.",
+        "Season or marinate as needed for flavor.",
+        "Serve immediately with ris or bread.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Southeast Asia"
+  },
+  {
+    "id": "B007",
+    "category": "Beans & Plant Protein",
+    "subcategory": "Soy",
+    "cuisine": "Middle East",
+    "dish_name": {
+      "en": "Tofu Mapo",
+      "zh": "豆腐 Mapo",
+      "sv": "tofu Mapo"
+    },
+    "description": {
+      "en": "Tofu Mapo - a classic middle east dish.",
+      "zh": "豆腐 Mapo - a classic middle east dish.",
+      "sv": "tofu Mapo - a classic middle east dish."
+    },
+    "total_time_min": 23,
+    "difficulty": "Easy",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "300 g tofu",
+        "15 ml soy sauce",
+        "1 tbsp sesame oil"
+      ],
+      "zh": [
+        "300 g 豆腐",
+        "15 ml 酱油",
+        "1 tbsp sesame oil"
+      ],
+      "sv": [
+        "300 g tofu",
+        "15 ml sojasås",
+        "1 tbsp sesame oil"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: tofu, soy sauce, sesame oil.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 豆腐, 酱油, sesame oil.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: tofu, sojasås, sesame oil.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Middle East"
+  },
+  {
+    "id": "B008",
+    "category": "Beans & Plant Protein",
+    "subcategory": "Soy",
+    "cuisine": "Latin America",
+    "dish_name": {
+      "en": "Agedashi Tofu",
+      "zh": "Agedashi 豆腐",
+      "sv": "Agedashi tofu"
+    },
+    "description": {
+      "en": "Agedashi Tofu - a classic latin america dish.",
+      "zh": "Agedashi 豆腐 - a classic latin america dish.",
+      "sv": "Agedashi tofu - a classic latin america dish."
+    },
+    "total_time_min": 20,
+    "difficulty": "Medium",
+    "servings": 2,
+    "ingredients": {
+      "en": [
+        "300 g tofu",
+        "15 ml soy sauce",
+        "1 tbsp sesame oil"
+      ],
+      "zh": [
+        "300 g 豆腐",
+        "15 ml 酱油",
+        "1 tbsp sesame oil"
+      ],
+      "sv": [
+        "300 g tofu",
+        "15 ml sojasås",
+        "1 tbsp sesame oil"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: tofu, soy sauce, sesame oil.",
+        "Season or marinate as needed for flavor.",
+        "Preheat the oven or pan to the required temperature.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 豆腐, 酱油, sesame oil.",
+        "Season or marinate as needed for flavor.",
+        "Preheat the oven or pan to the required temperature.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: tofu, sojasås, sesame oil.",
+        "Season or marinate as needed for flavor.",
+        "Preheat the oven or pan to the required temperature.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Latin America"
+  },
+  {
+    "id": "B009",
+    "category": "Beans & Plant Protein",
+    "subcategory": "Soy",
+    "cuisine": "Middle East",
+    "dish_name": {
+      "en": "Tempeh Stir-fry",
+      "zh": "Tempeh Stir-fry",
+      "sv": "Tempeh Stir-fry"
+    },
+    "description": {
+      "en": "Tempeh Stir-fry - a classic middle east dish.",
+      "zh": "Tempeh Stir-fry - a classic middle east dish.",
+      "sv": "Tempeh Stir-fry - a classic middle east dish."
+    },
+    "total_time_min": 45,
+    "difficulty": "Medium",
+    "servings": 2,
+    "ingredients": {
+      "en": [
+        "300 g tofu",
+        "15 ml soy sauce",
+        "1 tbsp sesame oil"
+      ],
+      "zh": [
+        "300 g 豆腐",
+        "15 ml 酱油",
+        "1 tbsp sesame oil"
+      ],
+      "sv": [
+        "300 g tofu",
+        "15 ml sojasås",
+        "1 tbsp sesame oil"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: tofu, soy sauce, sesame oil.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: 豆腐, 酱油, sesame oil.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: tofu, sojasås, sesame oil.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Middle East"
+  },
+  {
+    "id": "B010",
+    "category": "Beans & Plant Protein",
+    "subcategory": "Legume",
+    "cuisine": "Middle East",
+    "dish_name": {
+      "en": "Red Beans and Rice",
+      "zh": "Red Beans and 米饭",
+      "sv": "Red Beans and ris"
+    },
+    "description": {
+      "en": "Red Beans and Rice - a classic middle east dish.",
+      "zh": "Red Beans and 米饭 - a classic middle east dish.",
+      "sv": "Red Beans and ris - a classic middle east dish."
+    },
+    "total_time_min": 43,
+    "difficulty": "Medium",
+    "servings": 4,
+    "ingredients": {
+      "en": [
+        "300 g beans",
+        "1 pc onion",
+        "2 tbsp oil"
+      ],
+      "zh": [
+        "300 g beans",
+        "1 pc 洋葱",
+        "2 tbsp oil"
+      ],
+      "sv": [
+        "300 g beans",
+        "1 pc lök",
+        "2 tbsp oil"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Prepare the main ingredients: beans, onion, oil.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "zh": [
+        "Prepare the main ingredients: beans, 洋葱, oil.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ],
+      "sv": [
+        "Prepare the main ingredients: beans, lök, oil.",
+        "Season or marinate as needed for flavor.",
+        "Rest the cooked dish for a few minutes before serving.",
+        "Cook using appropriate method (grill, sauté, bake, or simmer) until done.",
+        "Adjust seasoning and serve hot with preferred sides."
+      ]
+    },
+    "region": "Middle East"
+  }
+]

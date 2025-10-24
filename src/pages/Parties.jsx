@@ -4,11 +4,11 @@ import i18n from '../i18n.js'
 import IngredientCheckbox from '../components/IngredientCheckbox.jsx'
 import { getIngredientMetadata } from '../data/ingredientRegistry.js'
 import { 
-  useIngredientCategories,
-  useTastePreferences,
-  useCuisineStyles,
-  useDiningScenarios
-} from '../data/recipes.js'
+  getAllRecipes,
+  getRecipesByCuisine,
+  getRecipesByCategory,
+  searchRecipes
+} from '../data/recipeLoader'
 import { 
   getCuisineTranslation, 
   getCookingMethodTranslation, 
@@ -396,30 +396,8 @@ const isIngredientInCategory = (ingredientString, category) => {
 
 // Real recipe generator using the actual recipe database
 const generatePartyRecipes = async (selections, language) => {
-  // Get real recipes from the database
-  const currentLanguage = language || 'en'
-  const recipes = i18n.getResourceBundle(currentLanguage, 'recipes') || { cultural: {}, basic: {}, metadata: {} }
-  const culturalRecipes = recipes.cultural || {}
-  
-  // Collect all complete recipes from all cuisines
-  const allRecipes = []
-  Object.entries(culturalRecipes).forEach(([cuisineName, cuisineRecipes]) => {
-    if (Array.isArray(cuisineRecipes)) {
-      cuisineRecipes.forEach(recipe => {
-        if (recipe.ingredientsWithAmounts && 
-            recipe.instructions && 
-            Array.isArray(recipe.ingredientsWithAmounts) && 
-            Array.isArray(recipe.instructions) &&
-            recipe.ingredientsWithAmounts.length > 0 &&
-            recipe.instructions.length > 0) {
-          allRecipes.push({
-            ...recipe,
-            cuisine: cuisineName
-          })
-        }
-      })
-    }
-  })
+  // Get real recipes from the new recipe system
+  const allRecipes = getAllRecipes()
   
   // Generate dishes based on the specific category requirements
   const selectedCategories = selections.dishCategories || []
@@ -488,30 +466,8 @@ const generatePartyRecipes = async (selections, language) => {
 }
 
 const regenerateSingleDish = async (category, otherDishes, selectedCuisine, selectedTastes, language) => {
-  // Get real recipes from the database
-  const currentLanguage = language || 'en'
-  const recipes = i18n.getResourceBundle(currentLanguage, 'recipes') || { cultural: {}, basic: {}, metadata: {} }
-  const culturalRecipes = recipes.cultural || {}
-  
-  // Collect all complete recipes from all cuisines
-  const allRecipes = []
-  Object.entries(culturalRecipes).forEach(([cuisineName, cuisineRecipes]) => {
-    if (Array.isArray(cuisineRecipes)) {
-      cuisineRecipes.forEach(recipe => {
-        if (recipe.ingredientsWithAmounts && 
-            recipe.instructions && 
-            Array.isArray(recipe.ingredientsWithAmounts) && 
-            Array.isArray(recipe.instructions) &&
-            recipe.ingredientsWithAmounts.length > 0 &&
-            recipe.instructions.length > 0) {
-          allRecipes.push({
-            ...recipe,
-            cuisine: cuisineName
-          })
-        }
-      })
-    }
-  })
+  // Get real recipes from the new recipe system
+  const allRecipes = getAllRecipes()
   
   // Filter recipes that match the specific category
   let categoryRecipes = allRecipes.filter(recipe => {

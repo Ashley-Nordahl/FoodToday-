@@ -1,29 +1,42 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
-const cuisines = [
-  // Chinese cuisine (consolidated)
-  { name: 'Chinese', color: '#2ECC71', emoji: '🍚', flag: '🇨🇳' },
-  
-  // International cuisines - each with unique colors
-  { name: 'Japanese', color: '#E74C3C', emoji: '🍣', flag: '🇯🇵' },
-  { name: 'Korean', color: '#3498DB', emoji: '🥘', flag: '🇰🇷' },
-  { name: 'Italian', color: '#9B59B6', emoji: '🍝', flag: '🇮🇹' },
-  { name: 'French', color: '#E67E22', emoji: '🥐', flag: '🇫🇷' },
-  { name: 'Indian', color: '#E17055', emoji: '🍛', flag: '🇮🇳' },
-  { name: 'Thai', color: '#1ABC9C', emoji: '🌶️', flag: '🇹🇭' },
-  { name: 'Mexican', color: '#00B894', emoji: '🌮', flag: '🇲🇽' },
-  { name: 'American', color: '#34495E', emoji: '🍔', flag: '🇺🇸' },
-  { name: 'Greek', color: '#F1C40F', emoji: '🫒', flag: '🇬🇷' }
-]
+// Default cuisine colors and emojis
+const cuisineStyles = {
+  'Chinese': { color: '#2ECC71', emoji: '🍚', flag: '🇨🇳' },
+  'Japanese': { color: '#E74C3C', emoji: '🍣', flag: '🇯🇵' },
+  'Korean': { color: '#3498DB', emoji: '🥘', flag: '🇰🇷' },
+  'Italian': { color: '#9B59B6', emoji: '🍝', flag: '🇮🇹' },
+  'French': { color: '#E67E22', emoji: '🥐', flag: '🇫🇷' },
+  'Indian': { color: '#E17055', emoji: '🍛', flag: '🇮🇳' },
+  'Thai': { color: '#1ABC9C', emoji: '🌶️', flag: '🇹🇭' },
+  'Mexican': { color: '#00B894', emoji: '🌮', flag: '🇲🇽' },
+  'American': { color: '#34495E', emoji: '🍔', flag: '🇺🇸' },
+  'Greek': { color: '#F1C40F', emoji: '🫒', flag: '🇬🇷' },
+  'Europe': { color: '#8E44AD', emoji: '🥖', flag: '🇪🇺' },
+  'North America': { color: '#34495E', emoji: '🍔', flag: '🇺🇸' },
+  'Asia': { color: '#E67E22', emoji: '🍜', flag: '🌏' },
+  'Middle East': { color: '#D35400', emoji: '🥙', flag: '🇱🇧' },
+  'Africa': { color: '#27AE60', emoji: '🍲', flag: '🌍' },
+  'South America': { color: '#E74C3C', emoji: '🌽', flag: '🇧🇷' }
+}
 
-function InlineFoodWheel({ onSelect }) {
+// Default fallback style
+const defaultStyle = { color: '#95A5A6', emoji: '🍽️', flag: '🌍' }
+
+function InlineFoodWheel({ cuisines, onCuisineSelect }) {
   const { t, i18n } = useTranslation()
   const [isSpinning, setIsSpinning] = useState(false)
   const [selectedCuisine, setSelectedCuisine] = useState(null)
   const [rotation, setRotation] = useState(0)
   const [isSelected, setIsSelected] = useState(false)
   const [recentCuisines, setRecentCuisines] = useState([]) // Track recently shown cuisines
+
+  // Convert cuisine names to objects with styles
+  const cuisinesWithStyles = cuisines.map(cuisineName => ({
+    name: cuisineName,
+    ...(cuisineStyles[cuisineName] || defaultStyle)
+  }))
 
   // Clear state when language changes to prevent mixing
   useEffect(() => {
@@ -56,9 +69,9 @@ function InlineFoodWheel({ onSelect }) {
     // Calculate selected cuisine based on final rotation (same as FoodWheel.jsx)
     setTimeout(() => {
       const normalizedAngle = ((totalRotation % 360) + 360) % 360
-      const segmentAngle = 360 / cuisines.length
-      const selectedIndex = Math.floor((360 - normalizedAngle) / segmentAngle) % cuisines.length
-      const cuisine = cuisines[selectedIndex]
+      const segmentAngle = 360 / cuisinesWithStyles.length
+      const selectedIndex = Math.floor((360 - normalizedAngle) / segmentAngle) % cuisinesWithStyles.length
+      const cuisine = cuisinesWithStyles[selectedIndex]
       
       setSelectedCuisine(cuisine)
       setIsSpinning(false)
@@ -75,7 +88,7 @@ function InlineFoodWheel({ onSelect }) {
   const handleConfirmSelection = () => {
     setIsSelected(true)
     if (selectedCuisine) {
-      onSelect(selectedCuisine)
+      onCuisineSelect(selectedCuisine)
     }
   }
 
@@ -105,8 +118,8 @@ function InlineFoodWheel({ onSelect }) {
               width="250"
               height="250"
             >
-              {cuisines.map((cuisine, index) => {
-                const segmentAngle = 360 / cuisines.length
+              {cuisinesWithStyles.map((cuisine, index) => {
+                const segmentAngle = 360 / cuisinesWithStyles.length
                 const startAngle = index * segmentAngle
                 const endAngle = (index + 1) * segmentAngle
                 
