@@ -85,7 +85,11 @@ const useDiningScenarios = () => {
 
 // Helper function to get the correct emoji based on the recipe's actual category
 const getCategoryEmoji = (recipe) => {
-  if (!recipe.ingredients || !Array.isArray(recipe.ingredients)) {
+  // Get ingredients for the current language, fallback to English
+  const currentLanguage = i18n.language || 'en'
+  const ingredients = recipe.ingredients?.[currentLanguage] || recipe.ingredients?.en || []
+  
+  if (!Array.isArray(ingredients) || ingredients.length === 0) {
     return '🍽️'
   }
   
@@ -99,7 +103,7 @@ const getCategoryEmoji = (recipe) => {
   }
   
   // Count how many ingredients belong to each category
-  recipe.ingredients.forEach(ingredient => {
+  ingredients.forEach(ingredient => {
     console.log(`🔍 Ingredient: "${ingredient}"`)
     if (isIngredientInCategory(ingredient, 'meat')) {
       categoryCounts.meat++
@@ -189,7 +193,11 @@ const getCategoryEmoji = (recipe) => {
 
 // Helper function to check if a recipe belongs to a category based on its primary ingredients
 const isRecipeInCategory = (recipe, category) => {
-  if (!recipe.ingredientsWithAmounts || !Array.isArray(recipe.ingredientsWithAmounts)) {
+  // Get ingredients for the current language, fallback to English
+  const currentLanguage = i18n.language || 'en'
+  const ingredients = recipe.ingredients?.[currentLanguage] || recipe.ingredients?.en || []
+  
+  if (!Array.isArray(ingredients) || ingredients.length === 0) {
     return false
   }
   
@@ -203,7 +211,7 @@ const isRecipeInCategory = (recipe, category) => {
   }
   
   // Count how many ingredients belong to each category
-  recipe.ingredients.forEach(ingredient => {
+  ingredients.forEach(ingredient => {
     if (isIngredientInCategory(ingredient, 'meat')) categoryCounts.meat++
     if (isIngredientInCategory(ingredient, 'seafood')) categoryCounts.seafood++
     if (isIngredientInCategory(ingredient, 'vegetables')) categoryCounts.vegetables++
@@ -741,8 +749,10 @@ function Parties() {
     
     // Collect all unique ingredient names
     dishes.forEach((dish) => {
-      if (dish.ingredients && Array.isArray(dish.ingredients)) {
-        dish.ingredients.forEach(ingredientString => {
+      const currentLanguage = i18n.language || 'en'
+      const ingredients = dish.ingredients?.[currentLanguage] || dish.ingredients?.en || []
+      if (Array.isArray(ingredients) && ingredients.length > 0) {
+        ingredients.forEach(ingredientString => {
           // Extract ingredient name from string like "1 lb pork chops, cubed"
           // or handle translation keys like "2 ingredient.bell_peppers_sliced"
           let ingredientName = ingredientString
@@ -971,7 +981,9 @@ function Parties() {
     const ingredientMap = new Map()
     
     generatedDishes.dishes.forEach((dish, dishIndex) => {
-      dish.ingredients.forEach(ingredientString => {
+      const currentLanguage = i18n.language || 'en'
+      const ingredients = dish.ingredients?.[currentLanguage] || dish.ingredients?.en || []
+      ingredients.forEach(ingredientString => {
         // Parse ingredient string like "1 lb pork chops, cubed"
         let ingredientName = ingredientString
         let amount = ingredientString
