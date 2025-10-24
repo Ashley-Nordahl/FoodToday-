@@ -71,6 +71,20 @@
     "tryDifferentIngredients": "尝试选择不同的食材",
     "tryDifferentSearch": "尝试不同的搜索词"
   },
+  "recipeChoice": {
+    "title": "您想如何获取食谱？",
+    "random": "随机食谱",
+    "randomSubtitle": "快速简单 • 给我惊喜",
+    "ingredients": "我有的食材",
+    "ingredientsSubtitle": "定制食谱 • 基于我现有的食材",
+    "search": "搜索",
+    "searchSubtitle": "按菜名、食材或菜系查找",
+    "searchPlaceholder": "按菜名、食材或菜系搜索",
+    "searchResults": "搜索结果",
+    "ingredientsDescription": "选择您现有的食材，我们会找到匹配的食谱！",
+    "selectIngredients": "选择您的食材",
+    "getRandomRecipe": "获取随机食谱"
+  },
   "button": {
     "tryAnother": "尝试另一个食谱",
     "switchToWhatIHave": "切换到\"我有什么\"",

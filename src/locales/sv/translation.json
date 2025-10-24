@@ -71,6 +71,20 @@
     "tryDifferentIngredients": "Försök välja andra ingredienser",
     "tryDifferentSearch": "Försök med ett annat sökord"
   },
+  "recipeChoice": {
+    "title": "Hur vill du få ditt recept?",
+    "random": "Slumpmässigt Recept",
+    "randomSubtitle": "Snabb & enkel • överraska mig",
+    "ingredients": "Vad Jag Har",
+    "ingredientsSubtitle": "Anpassade recept • baserat på ingredienser som jag har",
+    "search": "Sök",
+    "searchSubtitle": "Hitta efter rättnamn, ingrediens eller kök",
+    "searchPlaceholder": "Sök efter rättnamn, ingrediens eller kök",
+    "searchResults": "Sökresultat",
+    "ingredientsDescription": "Välj de ingredienser du har tillgängliga så hittar vi recept som matchar!",
+    "selectIngredients": "Välj Dina Ingredienser",
+    "getRandomRecipe": "Få Slumpmässigt Recept"
+  },
   "button": {
     "tryAnother": "Prova Ett Annat Recept",
     "switchToWhatIHave": "Byt till \"Vad Jag Har\"",

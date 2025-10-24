@@ -54,32 +54,40 @@ const RecipeChoiceCards = ({
 
   return (
     <div className="recipe-choice-cards">
-      <h2>{t('recipeChoice.title')}</h2>
-      <div className="choice-tabs">
-        <button
-          className={`choice-tab ${activeTab === 'random' ? 'active' : ''}`}
+      <h2 className="choice-title">{t('recipeChoice.title')}</h2>
+      <div className="choice-cards-container">
+        <div
+          className={`choice-card ${activeTab === 'random' ? 'active' : ''}`}
           onClick={() => handleTabChange('random')}
         >
-          <span className="tab-icon">🎲</span>
-          <span className="tab-title">{t('recipeChoice.random')}</span>
-          <span className="tab-subtitle">{t('recipeChoice.randomSubtitle')}</span>
-        </button>
-        <button
-          className={`choice-tab ${activeTab === 'ingredients' ? 'active' : ''}`}
+          <div className="card-icon">🎲</div>
+          <div className="card-content">
+            <h3 className="card-title">{t('recipeChoice.random')}</h3>
+            <p className="card-subtitle">{t('recipeChoice.randomSubtitle')}</p>
+          </div>
+        </div>
+        
+        <div
+          className={`choice-card ${activeTab === 'ingredients' ? 'active' : ''}`}
           onClick={() => handleTabChange('ingredients')}
         >
-          <span className="tab-icon">🥬</span>
-          <span className="tab-title">{t('recipeChoice.ingredients')}</span>
-          <span className="tab-subtitle">{t('recipeChoice.ingredientsSubtitle')}</span>
-        </button>
-        <button
-          className={`choice-tab ${activeTab === 'search' ? 'active' : ''}`}
+          <div className="card-icon">🥬</div>
+          <div className="card-content">
+            <h3 className="card-title">{t('recipeChoice.ingredients')}</h3>
+            <p className="card-subtitle">{t('recipeChoice.ingredientsSubtitle')}</p>
+          </div>
+        </div>
+        
+        <div
+          className={`choice-card ${activeTab === 'search' ? 'active' : ''}`}
           onClick={() => setActiveTab('search')}
         >
-          <span className="tab-icon">🔍</span>
-          <span className="tab-title">{t('recipeChoice.search')}</span>
-          <span className="tab-subtitle">{t('recipeChoice.searchSubtitle')}</span>
-        </button>
+          <div className="card-icon">🔍</div>
+          <div className="card-content">
+            <h3 className="card-title">{t('recipeChoice.search')}</h3>
+            <p className="card-subtitle">{t('recipeChoice.searchSubtitle')}</p>
+          </div>
+        </div>
       </div>
 
       {activeTab === 'search' && (
