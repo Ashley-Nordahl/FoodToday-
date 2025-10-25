@@ -129,12 +129,56 @@ function RecipeForm({ onSuccess, onClose }) {
           difficulty: 'Easy',
           cuisine: 'Italiensk',
           tags: ['pasta', 'kantareller', 'svamp', 'parmesan']
+        },
+        '726038': {
+          name: 'Boeuf bourguignon med potatismos',
+          emoji: '🍖',
+          description: 'Klassisk fransk gryta med nötkött, rödvin och potatismos.',
+          type: 'dish',
+          source_website: 'ICA.se',
+          source_url: url,
+          ingredients: [
+            '800 g nötkött (bog eller lårmuskel)',
+            '300 g bacon',
+            '2 morötter',
+            '1 gul lök',
+            '2 klyftor vitlök',
+            '3 dl rödvin',
+            '2 dl köttbuljong',
+            '2 msk tomatpuré',
+            '1 lagerblad',
+            '2 msk timjan',
+            'salt och peppar',
+            'smör för stekning',
+            '800 g potatis',
+            '2 dl mjölk',
+            '2 msk smör'
+          ],
+          instructions: [
+            'Skär köttet i bitar och bacon i tärningar.',
+            'Stek baconet tills det blir krispigt, ta upp.',
+            'Stek köttet i baconfettet tills det får färg.',
+            'Hacka morötter, lök och vitlök.',
+            'Lägg kött och grönsaker i en gryta.',
+            'Tillsätt rödvin, buljong, tomatpuré och kryddor.',
+            'Koka i 2-3 timmar på låg värme.',
+            'Koka potatisen och mosa med mjölk och smör.',
+            'Servera grytan med potatismos.'
+          ],
+          prep_time: '30 min',
+          cook_time: '180 min',
+          total_time: '210 min',
+          servings: '4',
+          difficulty: 'Hard',
+          cuisine: 'Fransk',
+          tags: ['boeuf', 'bourguignon', 'gryta', 'rödvin', 'potatismos']
         }
       }
       
       const recipe = mockRecipes[recipeId]
       if (!recipe) {
-        throw new Error(`Recipe not found for ID: ${recipeId}. Supported IDs: ${Object.keys(mockRecipes).join(', ')}`)
+        const supportedIds = Object.keys(mockRecipes).join(', ')
+        throw new Error(`Recipe not found for ID: ${recipeId}. Supported IDs: ${supportedIds}. Please try one of the supported recipe URLs or contact support to add new recipes.`)
       }
       
       return recipe
