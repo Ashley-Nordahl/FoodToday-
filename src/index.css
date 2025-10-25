@@ -8038,14 +8038,19 @@ p {
   
   .dish-actions,
   .dish-actions-section {
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   .regenerate-button,
-  .clear-button {
-    width: 100%;
-    padding: 0.7rem;
+  .clear-button,
+  .shopping-list-button {
+    flex: 1;
+    min-width: 0;
+    padding: 0.6rem 0.4rem;
+    font-size: 0.8rem;
   }
   
   .recipe-actions .shopping-list-button {
