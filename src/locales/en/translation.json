@@ -13,7 +13,7 @@
   },
   "dishToday": {
     "title": "Dish Today",
-    "subtitle": "Discover your perfect meal with our smart recipe recommendations"
+    "subtitle": "Choose your meal while having fun!"
   },
   "auth": {
     "welcomeBack": "Welcome Back!",
@@ -38,7 +38,7 @@
   },
   "recipe": {
     "title": "Dish Today",
-    "subtitle": "Discover your perfect meal with our smart recipe recommendations",
+    "subtitle": "Choose your meal while having fun!",
     "ingredients": "Ingredients:",
     "instructions": "Instructions:",
     "prepTime": "Prep Time",

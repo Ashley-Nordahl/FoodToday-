@@ -12,7 +12,6 @@ const RecipeChoiceCards = ({
   selectedRecipe
 }) => {
   const { t, i18n } = useTranslation()
-  const [searchQuery, setSearchQuery] = useState('')
   const [searchResults, setSearchResults] = useState([])
 
   // Get category emoji based on main_type
@@ -39,25 +38,13 @@ const RecipeChoiceCards = ({
 
   // Clear state when language changes
   useEffect(() => {
-    setSearchQuery('')
     setSearchResults([])
   }, [i18n.language])
 
-  // Real-time search with debouncing
-  useEffect(() => {
-    if (!cuisine) return
-
-    // Debounce search to avoid too many API calls
-    const timeoutId = setTimeout(() => {
-      handleSearch(searchQuery)
-    }, 300) // 300ms delay
-
-    return () => clearTimeout(timeoutId)
-  }, [searchQuery, cuisine])
 
   const handleTabChange = (tab) => {
-    // Don't allow tab changes if a recipe is currently selected or search results are displayed
-    if (selectedRecipe || searchResults.length > 0) return
+    // Don't allow tab changes if search results are displayed
+    if (searchResults.length > 0) return
     
     setActiveTab(tab)
     if (tab === 'random') {
@@ -127,8 +114,8 @@ const RecipeChoiceCards = ({
     }
     
     if (!query.trim()) {
-      // Show all dishes from the selected cuisine/subcategory
-      setSearchResults(baseResults.slice(0, 10))
+      // Don't show search results when query is empty
+      setSearchResults([])
       return
     }
 
@@ -177,7 +164,7 @@ const RecipeChoiceCards = ({
   return (
     <div className="recipe-choice-cards">
       <h2 className="choice-title">{t('recipeChoice.title')}</h2>
-      <div className={`choice-cards-container ${selectedRecipe || searchResults.length > 0 ? 'faded' : ''}`}>
+      <div className={`choice-cards-container ${searchResults.length > 0 ? 'faded' : ''}`}>
         <div
           className={`choice-card ${activeTab === 'random' ? 'active' : ''}`}
           onClick={() => handleTabChange('random')}
@@ -191,7 +178,7 @@ const RecipeChoiceCards = ({
         
         <div
           className={`choice-card ${activeTab === 'search' ? 'active' : ''}`}
-          onClick={() => setActiveTab('search')}
+          onClick={() => handleTabChange('search')}
         >
           <div className="card-icon">🔍</div>
           <div className="card-content">
@@ -208,6 +195,7 @@ const RecipeChoiceCards = ({
               <p>{t('recipeChoice.closeRecipeFirst')}</p>
             </div>
           )}
+
 
           {searchResults.length > 0 && (
             <div className="search-results">
