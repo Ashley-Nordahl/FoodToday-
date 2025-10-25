@@ -6,6 +6,7 @@ import InlineFoodWheel from '../components/InlineFoodWheel'
 import RecipeChoiceCards from '../components/RecipeChoiceCards'
 import IngredientSelector from '../components/IngredientSelector'
 import IngredientCheckbox from '../components/IngredientCheckbox'
+// import RecipeImage from '../components/RecipeImage'
 import { 
   getRandomRecipe, 
   getRandomRecipeByCuisine, 
@@ -421,6 +422,8 @@ function DishToday() {
 
       {selectedRecipe && (
         <div className="recipe-display">
+          {/* Recipe Image - Temporarily disabled */}
+
           <div className="recipe-header">
             <button 
               className="recipe-close-button"

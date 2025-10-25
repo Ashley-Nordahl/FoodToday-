@@ -1448,6 +1448,8 @@
     "generating": "Generating dishes...",
     "generateInstruction": "Generate dishes matching your preferences and selections",
     "dragInstruction": "Double click below an ingredient to move it to a plate, and double click on an ingredient on a plate to remove it",
+    "clickInstruction": "Click below an ingredient to add it to a plate, and click on an ingredient on a plate to remove it",
+    "noEmptyPlates": "All plates are full! Click on a plate to replace its ingredient.",
     "yourCustomMenu": "Your Custom Menu",
     "generatedDishes": "Generated {{count}} dishes for your {{scenario}}",
     "recipe": "Recipe",

@@ -398,8 +398,10 @@ const generatePartyRecipes = async (selections, language) => {
     
     // Get the actual number of filled plates
     const filledPlates = selections.dishCategories || []
+    const selectedCuisine = selections.cuisineStyle
     
     console.log('🔍 Debug - filledPlates:', filledPlates)
+    console.log('🔍 Debug - selectedCuisine:', selectedCuisine)
     console.log('🔍 Debug - total recipes available:', allRecipes.length)
     
     for (const plate of filledPlates) {
@@ -410,19 +412,32 @@ const generatePartyRecipes = async (selections, language) => {
         console.log(`🔍 Debug - Mapping ${plate.value} to ${recipeCategory}`)
         
         if (recipeCategory) {
-          // Use the existing getRecipesByCategory function
-          const categoryRecipes = getRecipesByCategory(recipeCategory)
+          // First get recipes by category
+          let categoryRecipes = getRecipesByCategory(recipeCategory)
           
           console.log(`🔍 Debug - Found ${categoryRecipes.length} recipes for ${recipeCategory}`)
+          
+          // Apply cuisine filtering if not "mixed"
+          if (selectedCuisine && selectedCuisine !== 'mixed') {
+            const cuisineRecipes = getRecipesByCuisine(selectedCuisine)
+            console.log(`🔍 Debug - Found ${cuisineRecipes.length} recipes for cuisine: ${selectedCuisine}`)
+            
+            // Filter category recipes by cuisine
+            categoryRecipes = categoryRecipes.filter(recipe => 
+              cuisineRecipes.some(cuisineRecipe => cuisineRecipe.id === recipe.id)
+            )
+            
+            console.log(`🔍 Debug - After cuisine filtering: ${categoryRecipes.length} recipes`)
+          }
           
           if (categoryRecipes.length > 0) {
             // Shuffle and select a random recipe
             const shuffled = [...categoryRecipes].sort(() => Math.random() - 0.5)
             const selectedRecipe = shuffled[0]
             generatedDishes.push(selectedRecipe)
-            console.log(`🔍 Debug - Selected recipe: ${selectedRecipe.dish_name?.en || selectedRecipe.name}`)
+            console.log(`🔍 Debug - Selected recipe: ${selectedRecipe.dish_name?.en || selectedRecipe.name} (Region: ${selectedRecipe.region?.en})`)
           } else {
-            console.log(`⚠️ Warning - No recipes found for category: ${recipeCategory}`)
+            console.log(`⚠️ Warning - No recipes found for category: ${recipeCategory} with cuisine: ${selectedCuisine}`)
           }
         } else {
           console.log(`⚠️ Warning - No mapping found for category: ${plate.value}`)
@@ -431,7 +446,7 @@ const generatePartyRecipes = async (selections, language) => {
     }
     
     console.log('🔍 Debug - Final generated dishes count:', generatedDishes.length)
-    console.log('🔍 Debug - Generated dishes:', generatedDishes.map(d => d.dish_name?.en || d.name))
+    console.log('🔍 Debug - Generated dishes:', generatedDishes.map(d => `${d.dish_name?.en || d.name} (${d.region?.en})`))
     
     if (generatedDishes.length === 0) {
       console.log('⚠️ Warning - No dishes generated! This might be the issue.')
@@ -447,6 +462,7 @@ const generatePartyRecipes = async (selections, language) => {
 
 const regenerateSingleDish = async (category, otherDishes, selectedCuisine, selectedTastes, language) => {
   console.log('🔍 Debug - Using recipe database for single dish regeneration')
+  console.log('🔍 Debug - selectedCuisine:', selectedCuisine)
   
   try {
     // Map ingredient categories to recipe main_type values
@@ -469,10 +485,25 @@ const regenerateSingleDish = async (category, otherDishes, selectedCuisine, sele
     console.log(`🔍 Debug - Mapping ${category.value} to ${recipeCategory}`)
     
     // Get recipes for this category
-    const categoryRecipes = getRecipesByCategory(recipeCategory)
+    let categoryRecipes = getRecipesByCategory(recipeCategory)
+    
+    console.log(`🔍 Debug - Found ${categoryRecipes.length} recipes for ${recipeCategory}`)
+    
+    // Apply cuisine filtering if not "mixed"
+    if (selectedCuisine && selectedCuisine !== 'mixed') {
+      const cuisineRecipes = getRecipesByCuisine(selectedCuisine)
+      console.log(`🔍 Debug - Found ${cuisineRecipes.length} recipes for cuisine: ${selectedCuisine}`)
+      
+      // Filter category recipes by cuisine
+      categoryRecipes = categoryRecipes.filter(recipe => 
+        cuisineRecipes.some(cuisineRecipe => cuisineRecipe.id === recipe.id)
+      )
+      
+      console.log(`🔍 Debug - After cuisine filtering: ${categoryRecipes.length} recipes`)
+    }
     
     if (categoryRecipes.length === 0) {
-      console.log(`⚠️ Warning - No recipes found for category: ${recipeCategory}`)
+      console.log(`⚠️ Warning - No recipes found for category: ${recipeCategory} with cuisine: ${selectedCuisine}`)
       return null
     }
     
@@ -489,7 +520,7 @@ const regenerateSingleDish = async (category, otherDishes, selectedCuisine, sele
     const randomIndex = Math.floor(Math.random() * recipesToChooseFrom.length)
     const selectedRecipe = recipesToChooseFrom[randomIndex]
     
-    console.log(`🔍 Debug - Selected recipe: ${selectedRecipe.dish_name?.en || selectedRecipe.name}`)
+    console.log(`🔍 Debug - Selected recipe: ${selectedRecipe.dish_name?.en || selectedRecipe.name} (Region: ${selectedRecipe.region?.en})`)
     return selectedRecipe
     
   } catch (error) {
@@ -616,8 +647,8 @@ function Parties() {
     }
   }, [])
 
-  // Double-click handlers for plate system
-  const handleCategoryDoubleClick = (category) => {
+  // Single-click handlers for plate system
+  const handleCategoryClick = (category) => {
     // Check if all plates are full
     const filledPlates = dishCategories.filter(cat => cat !== null).length
     const totalPlates = numberOfDishes
@@ -631,7 +662,7 @@ function Parties() {
       return
     }
     
-    // When an ingredient is double-clicked, store it as selected
+    // When an ingredient is clicked, store it as selected
     setSelectedCategory(category)
     
     // Find the first empty plate and assign the category
@@ -644,11 +675,11 @@ function Parties() {
       setSelectedCategory(null) // Reset selection after adding
     } else {
       // This shouldn't happen with the check above, but just in case
-      alert(t('parties.noEmptyPlates', 'All plates are full! Double-click on a plate to replace its ingredient.'))
+      alert(t('parties.noEmptyPlates', 'All plates are full! Click on a plate to replace its ingredient.'))
     }
   }
 
-  const handlePlateDoubleClick = (plateIndex) => {
+  const handlePlateClick = (plateIndex) => {
     const newCategories = [...dishCategories]
     
     if (newCategories[plateIndex] !== null) {
@@ -1014,14 +1045,14 @@ function Parties() {
               <div 
                 key={index} 
                 className={`plate-container ${dishCategories[index] ? 'has-category' : ''}`}
-                onDoubleClick={() => handlePlateDoubleClick(index)}
+                onClick={() => handlePlateClick(index)}
                 style={{ cursor: 'pointer' }}
-                title={dishCategories[index] ? "Double-click to remove ingredient" : "Double-click an ingredient below to add it"}
+                title={dishCategories[index] ? "Click to remove ingredient" : "Click an ingredient below to add it"}
               >
                 {dishCategories[index] && (
                   <div 
                     className="plate-category-badge"
-                    title="Double-click the plate to remove"
+                    title="Click the plate to remove"
                   >
                     {dishCategories[index].emoji}
                   </div>
@@ -1033,7 +1064,7 @@ function Parties() {
         </div>
         
         <div className="instruction-row" style={{display: 'flex', justifyContent: 'center', marginTop: '0.5rem'}}>
-          <p className="instruction-text" style={{fontSize: '0.8rem', color: '#666', fontWeight: 'normal', margin: 0, textAlign: 'center'}}>{t('parties.dragInstruction')}</p>
+          <p className="instruction-text" style={{fontSize: '0.8rem', color: '#666', fontWeight: 'normal', margin: 0, textAlign: 'center'}}>{t('parties.clickInstruction')}</p>
         </div>
 
         <div className="common-categories">
@@ -1042,8 +1073,8 @@ function Parties() {
               <button
                 key={cat.value}
                 className={`category-btn-common ${selectedCategory?.value === cat.value ? 'selected' : ''}`}
-                onDoubleClick={() => handleCategoryDoubleClick(cat)}
-                title={`Double-click ${cat.label} to add to a plate`}
+                onClick={() => handleCategoryClick(cat)}
+                title={`Click ${cat.label} to add to a plate`}
                 style={{ cursor: 'pointer' }}
               >
                 {cat.emoji}

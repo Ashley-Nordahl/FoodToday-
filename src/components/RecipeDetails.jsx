@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { sanitizeRecipe, logRecipeValidation } from '../utils/recipeDataSanitizer'
+import { getRecipeImageUrl } from '../utils/imageGenerator'
 
 function RecipeDetails({ recipe, onClose }) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const [imageError, setImageError] = useState(false)
   
   if (!recipe) return null
 
@@ -57,9 +59,32 @@ function RecipeDetails({ recipe, onClose }) {
     created_at
   } = cleanRecipeData
 
+  // Get dish name for image generation
+  const dishName = recipe.dish_name?.[i18n.language] || recipe.dish_name?.en || name || 'food'
+  const imageUrl = getRecipeImageUrl(recipe, i18n.language)
+
   return (
     <div className="recipe-details-overlay">
       <div className="recipe-details-modal">
+        {/* Recipe Image */}
+        {!imageError && (
+          <div className="recipe-image-container">
+            <img 
+              src={imageUrl} 
+              alt={dishName}
+              className="recipe-main-image"
+              onError={() => setImageError(true)}
+              loading="lazy"
+            />
+          </div>
+        )}
+        
+        {imageError && (
+          <div className="recipe-image-fallback">
+            {emoji || '🍽️'}
+          </div>
+        )}
+
         <div className="recipe-header">
           <div className="recipe-title-section">
             {emoji && <div className="recipe-emoji-large">{emoji}</div>}

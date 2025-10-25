@@ -1487,6 +1487,8 @@
     "generating": "Genererar rätter...",
     "generateInstruction": "Generera rätter som matchar dina preferenser och val",
     "dragInstruction": "Dubbelklicka på en ingrediens för att flytta den till en tallrik, och dubbelklicka på en ingrediens på en tallrik för att ta bort den",
+    "clickInstruction": "Klicka på en ingrediens för att lägga till den på en tallrik, och klicka på en ingrediens på en tallrik för att ta bort den",
+    "noEmptyPlates": "Alla tallrikar är fulla! Klicka på en tallrik för att ersätta dess ingrediens.",
     "yourCustomMenu": "Din Anpassade Meny",
     "generatedDishes": "Genererade {{count}} rätter för din {{scenario}}",
     "recipe": "Recept",

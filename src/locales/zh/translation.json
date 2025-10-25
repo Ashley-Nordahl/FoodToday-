@@ -1214,6 +1214,8 @@
     "generating": "正在生成菜品...",
     "generateInstruction": "根据您的偏好和选择生成菜肴",
     "dragInstruction": "双击食材将其移动到盘子上，双击盘子上的食材将其移除",
+    "clickInstruction": "点击食材将其添加到盘子上，点击盘子上的食材将其移除",
+    "noEmptyPlates": "所有盘子都已满！点击盘子上的食材来替换它。",
     "yourCustomMenu": "您的定制菜单",
     "generatedDishes": "为您生成了{{count}}道{{scenario}}菜肴",
     "recipe": "食谱",
