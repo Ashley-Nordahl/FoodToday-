@@ -9,6 +9,7 @@ import {
   getRecipesByCategory,
   searchRecipes
 } from '../data/recipeLoader'
+// AI service imports removed - using recipe database directly
 import { 
   getCuisineTranslation, 
   getCookingMethodTranslation, 
@@ -41,7 +42,7 @@ const useTastePreferences = () => {
 const useCuisineStyles = () => {
   // Get actual cuisines from recipe data
   const allRecipes = getAllRecipes()
-  const cuisines = [...new Set(allRecipes.map(recipe => recipe.cuisine))]
+  const cuisines = [...new Set(allRecipes.map(recipe => recipe.region?.en || recipe.region?.zh || recipe.region?.sv))]
   
   // Cuisine styles with proper flags and colors for the new structure
   const cuisineStyles = {
@@ -77,111 +78,26 @@ const useDiningScenarios = () => {
   ]
 }
 
-// Helper function to get the correct emoji based on the recipe's actual category
+// Helper function to get the correct emoji based on the recipe's main_type
 const getCategoryEmoji = (recipe, language = 'en') => {
-  // Get ingredients for the current language, fallback to English
-  const currentLanguage = language || 'en'
-  const ingredients = recipe.ingredients?.[currentLanguage] || recipe.ingredients?.en || []
+  // Use the main_type field directly from the recipe database
+  const mainType = recipe.main_type?.en || recipe.main_type?.[language] || recipe.main_type
   
-  if (!Array.isArray(ingredients) || ingredients.length === 0) {
-    return '🍽️'
+  console.log(`🔍 Emoji Debug - Recipe: ${recipe.dish_name?.en || recipe.name}`)
+  console.log(`🔍 Emoji Debug - Main type: ${mainType}`)
+  
+  // Map main_type to appropriate emoji
+  const emojiMap = {
+    'Meat': '🥩',
+    'Seafood': '🦞', 
+    'Vegetable': '🥬',
+    'Grain': '🍚',
+    'Egg': '🥚'
   }
   
-  // Count ingredients by category
-  const categoryCounts = {
-    meat: 0,
-    seafood: 0,
-    vegetables: 0,
-    grains: 0,
-    egg: 0
-  }
+  const emoji = emojiMap[mainType] || '🍽️'
+  console.log(`🔍 Emoji Debug - Selected emoji: ${emoji} for main_type: ${mainType}`)
   
-  // Count how many ingredients belong to each category
-  ingredients.forEach(ingredient => {
-    console.log(`🔍 Ingredient: "${ingredient}"`)
-    if (isIngredientInCategory(ingredient, 'meat')) {
-      categoryCounts.meat++
-      console.log(`  ✅ Categorized as meat`)
-    }
-    if (isIngredientInCategory(ingredient, 'seafood')) {
-      categoryCounts.seafood++
-      console.log(`  ✅ Categorized as seafood`)
-    }
-    if (isIngredientInCategory(ingredient, 'vegetables')) {
-      categoryCounts.vegetables++
-      console.log(`  ✅ Categorized as vegetables`)
-    }
-    if (isIngredientInCategory(ingredient, 'grains')) {
-      categoryCounts.grains++
-      console.log(`  ✅ Categorized as grains`)
-    }
-    if (isIngredientInCategory(ingredient, 'egg')) {
-      categoryCounts.egg++
-      console.log(`  ✅ Categorized as egg`)
-    }
-  })
-  
-  // Debug logging
-  console.log(`🔍 Emoji Debug - Recipe: ${recipe.name}`)
-  console.log(`🔍 Emoji Debug - Category counts:`, categoryCounts)
-  
-  // Determine the primary category based on the highest count
-  // In case of ties, prioritize: meat > seafood > vegetables > grains > egg
-  const categoryPriority = { meat: 5, seafood: 4, vegetables: 3, grains: 2, egg: 1 }
-  
-  // Find the category with the highest count
-  let maxCount = 0
-  let primaryCategory = 'vegetables' // default fallback
-  
-  Object.entries(categoryCounts).forEach(([category, count]) => {
-    if (count > maxCount) {
-      maxCount = count
-      primaryCategory = category
-    } else if (count === maxCount) {
-      // Tie-breaker: use priority order
-      if (categoryPriority[category] > categoryPriority[primaryCategory]) {
-        primaryCategory = category
-      }
-    }
-  })
-  
-  // Special logic: if we have any meat/seafood ingredients, prioritize them over vegetables
-  // This handles cases like "Pork Ribs with Black Bean Sauce" where meat should win over vegetables
-  if (categoryCounts.meat > 0 && categoryCounts.vegetables > 0 && categoryCounts.meat >= categoryCounts.vegetables) {
-    primaryCategory = 'meat'
-  }
-  if (categoryCounts.seafood > 0 && categoryCounts.vegetables > 0 && categoryCounts.seafood >= categoryCounts.vegetables) {
-    primaryCategory = 'seafood'
-  }
-  
-  // Return appropriate emoji based on primary category (category-level emojis)
-  let emoji = '🍽️' // Default
-  switch (primaryCategory) {
-    case 'meat':
-      emoji = '🥩' // Meat emoji
-      break
-      
-    case 'seafood':
-      emoji = '🦞' // Lobster emoji for seafood category
-      break
-      
-    case 'vegetables':
-      emoji = '🥬' // Vegetable emoji
-      break
-      
-    case 'grains':
-      emoji = '🍚' // Rice emoji
-      break
-      
-    case 'egg':
-      emoji = '🥚' // Egg emoji
-      break
-      
-    default:
-      emoji = '🍽️' // Default plate emoji
-  }
-  
-  console.log(`🔍 Emoji Debug - Selected emoji: ${emoji} for category: ${primaryCategory}`)
   return emoji
 }
 
@@ -463,104 +379,123 @@ const isIngredientInCategory = (ingredientString, category) => {
   }
 }
 
-// Real recipe generator using the actual recipe database
+// Recipe generator using the existing recipe database
 const generatePartyRecipes = async (selections, language) => {
-  // Get real recipes from the new recipe system
-  const allRecipes = getAllRecipes()
+  console.log('🔍 Debug - Using recipe database for selections:', selections)
   
-  // Generate dishes based on the specific category requirements
-  const selectedCategories = selections.dishCategories || []
-  const generatedDishes = []
-  
-  // Debug logging
-  console.log('🔍 Debug - selectedCategories:', selectedCategories)
-  console.log('🔍 Debug - allRecipes count:', allRecipes.length)
-  
-  if (selectedCategories.length > 0) {
-    // Count how many dishes we need for each category
-    const categoryCounts = {}
-    selectedCategories.forEach(category => {
-      if (category) {
-        categoryCounts[category] = (categoryCounts[category] || 0) + 1
-      }
-    })
+  try {
+    // Map ingredient categories to recipe main_type values
+    const categoryMapping = {
+      'meat': 'Meat',
+      'seafood': 'Seafood', 
+      'vegetables': 'Vegetable',
+      'grains': 'Grain',
+      'egg': 'Egg'
+    }
     
-    console.log('🔍 Debug - categoryCounts:', categoryCounts)
-    console.log('🔍 Debug - Expected: 2 meat, 1 seafood, 1 vegetable')
+    const allRecipes = getAllRecipes()
+    const generatedDishes = []
     
-    // Generate the required number of dishes for each category
-    Object.entries(categoryCounts).forEach(([category, count]) => {
-      console.log(`🔍 Debug - Processing category: ${category}, count: ${count}`)
-      
-      // Filter recipes that contain ingredients from this specific category
-      // Use a more sophisticated categorization that considers the primary ingredient
-      const categoryRecipes = allRecipes.filter(recipe => {
-        return isRecipeInCategory(recipe, category, language)
-      })
-      
-      console.log(`🔍 Debug - Found ${categoryRecipes.length} recipes for category: ${category}`)
-      if (categoryRecipes.length > 0) {
-        console.log(`🔍 Debug - Sample recipes for ${category}:`, categoryRecipes.slice(0, 3).map(r => r.name))
-        if (category === 'vegetables') {
-          console.log(`🔍 Debug - First 5 vegetable recipes:`, categoryRecipes.slice(0, 5).map(r => ({ name: r.name, ingredients: r.ingredients })))
+    // Get the actual number of filled plates
+    const filledPlates = selections.dishCategories || []
+    
+    console.log('🔍 Debug - filledPlates:', filledPlates)
+    console.log('🔍 Debug - total recipes available:', allRecipes.length)
+    
+    for (const plate of filledPlates) {
+      if (plate && plate.value) {
+        // Map ingredient category to recipe main_type
+        const recipeCategory = categoryMapping[plate.value]
+        
+        console.log(`🔍 Debug - Mapping ${plate.value} to ${recipeCategory}`)
+        
+        if (recipeCategory) {
+          // Use the existing getRecipesByCategory function
+          const categoryRecipes = getRecipesByCategory(recipeCategory)
+          
+          console.log(`🔍 Debug - Found ${categoryRecipes.length} recipes for ${recipeCategory}`)
+          
+          if (categoryRecipes.length > 0) {
+            // Shuffle and select a random recipe
+            const shuffled = [...categoryRecipes].sort(() => Math.random() - 0.5)
+            const selectedRecipe = shuffled[0]
+            generatedDishes.push(selectedRecipe)
+            console.log(`🔍 Debug - Selected recipe: ${selectedRecipe.dish_name?.en || selectedRecipe.name}`)
+          } else {
+            console.log(`⚠️ Warning - No recipes found for category: ${recipeCategory}`)
+          }
+        } else {
+          console.log(`⚠️ Warning - No mapping found for category: ${plate.value}`)
         }
       }
-      
-      // If no recipes match this category, skip this category instead of falling back
-      if (categoryRecipes.length === 0) {
-        console.log(`⚠️ Warning - No recipes found for category: ${category}, skipping`)
-        return
-      }
-      
-      // Shuffle and select the required number of recipes for this category
-      const shuffled = [...categoryRecipes].sort(() => Math.random() - 0.5)
-      const selectedRecipes = shuffled.slice(0, count)
-      
-      console.log(`🔍 Debug - Selected ${selectedRecipes.length} recipes for category: ${category}`)
-      console.log(`🔍 Debug - Recipe names:`, selectedRecipes.map(r => r.name))
-      
-      generatedDishes.push(...selectedRecipes)
-    })
-  } else {
-    console.log('🔍 Debug - No categories selected, using random recipes')
-    // If no specific categories selected, return random recipes
-    const shuffled = [...allRecipes].sort(() => Math.random() - 0.5)
-    generatedDishes.push(...shuffled.slice(0, selections.numberOfDishes))
+    }
+    
+    console.log('🔍 Debug - Final generated dishes count:', generatedDishes.length)
+    console.log('🔍 Debug - Generated dishes:', generatedDishes.map(d => d.dish_name?.en || d.name))
+    
+    if (generatedDishes.length === 0) {
+      console.log('⚠️ Warning - No dishes generated! This might be the issue.')
+    }
+    
+    return generatedDishes
+    
+  } catch (error) {
+    console.error('❌ Error generating recipes:', error)
+    return []
   }
-  
-  console.log('🔍 Debug - Final generatedDishes count:', generatedDishes.length)
-  console.log('🔍 Debug - Final recipe names:', generatedDishes.map(r => r.name))
-  
-  return generatedDishes
 }
 
 const regenerateSingleDish = async (category, otherDishes, selectedCuisine, selectedTastes, language) => {
-  // Get real recipes from the new recipe system
-  const allRecipes = getAllRecipes()
+  console.log('🔍 Debug - Using recipe database for single dish regeneration')
   
-  // Filter recipes that match the specific category
-  let categoryRecipes = allRecipes.filter(recipe => {
-    return isRecipeInCategory(recipe, category, language)
-  })
-  
-  // If no recipes match this category, return null instead of falling back
-  if (categoryRecipes.length === 0) {
-    console.log(`⚠️ Warning - No recipes found for category: ${category} in regenerateSingleDish`)
+  try {
+    // Map ingredient categories to recipe main_type values
+    const categoryMapping = {
+      'meat': 'Meat',
+      'seafood': 'Seafood', 
+      'vegetables': 'Vegetable',
+      'grains': 'Grain',
+      'egg': 'Egg'
+    }
+    
+    // Map the category value to recipe main_type
+    const recipeCategory = categoryMapping[category.value]
+    
+    if (!recipeCategory) {
+      console.log(`⚠️ Warning - No mapping found for category: ${category.value}`)
+      return null
+    }
+    
+    console.log(`🔍 Debug - Mapping ${category.value} to ${recipeCategory}`)
+    
+    // Get recipes for this category
+    const categoryRecipes = getRecipesByCategory(recipeCategory)
+    
+    if (categoryRecipes.length === 0) {
+      console.log(`⚠️ Warning - No recipes found for category: ${recipeCategory}`)
+      return null
+    }
+    
+    // Filter out recipes that are already in otherDishes to avoid duplicates
+    const otherDishIds = otherDishes.map(dish => dish.id)
+    const availableRecipes = categoryRecipes.filter(recipe => 
+      !otherDishIds.includes(recipe.id)
+    )
+    
+    // If no unique recipes available, use all category recipes
+    const recipesToChooseFrom = availableRecipes.length > 0 ? availableRecipes : categoryRecipes
+    
+    // Return a random recipe from the available recipes
+    const randomIndex = Math.floor(Math.random() * recipesToChooseFrom.length)
+    const selectedRecipe = recipesToChooseFrom[randomIndex]
+    
+    console.log(`🔍 Debug - Selected recipe: ${selectedRecipe.dish_name?.en || selectedRecipe.name}`)
+    return selectedRecipe
+    
+  } catch (error) {
+    console.error('❌ Error regenerating single dish:', error)
     return null
   }
-  
-  // Filter out recipes that are already in otherDishes to avoid duplicates
-  const otherDishIds = otherDishes.map(dish => dish.id)
-  const availableRecipes = categoryRecipes.filter(recipe => 
-    !otherDishIds.includes(recipe.id)
-  )
-  
-  // If no unique recipes available, use all category recipes
-  const recipesToChooseFrom = availableRecipes.length > 0 ? availableRecipes : categoryRecipes
-  
-  // Return a random recipe from the available recipes
-  const randomIndex = Math.floor(Math.random() * recipesToChooseFrom.length)
-  return recipesToChooseFrom[randomIndex]
 }
 
 function Parties() {
@@ -831,7 +766,7 @@ function Parties() {
       }
       
       const selections = {
-        dishCategories: filledPlates.map(cat => cat.value),
+        dishCategories: filledPlates, // Pass the full category objects, not just values
         tastePreferences: selectedTastes,
         cuisineStyle: selectedCuisine,
         diningScenario: selectedScenario,
@@ -843,7 +778,9 @@ function Parties() {
       console.log('🔍 Debug - actualNumberOfDishes:', actualNumberOfDishes)
       console.log('🔍 Debug - selections:', selections)
       
+      console.log('🔍 Debug - About to call generatePartyRecipes...')
       const recipes = await generatePartyRecipes(selections, i18n.language)
+      console.log('🔍 Debug - generatePartyRecipes returned:', recipes)
       
       setGeneratedDishes({
         dishes: recipes,
@@ -946,9 +883,11 @@ function Parties() {
     
     list += `🍳 ${t('shoppingList.menu')}:\n`
     generatedDishes.dishes.forEach((dish, index) => {
-      const dishName = dish.name?.startsWith('dish.')
+      const dishName = typeof dish.name === 'string' && dish.name.startsWith('dish.')
         ? t(`dishes.${dish.name.replace('dish.', '')}`)
-        : dish.name
+        : typeof dish.name === 'string'
+          ? dish.name
+          : dish.dish_name?.en || dish.name
       list += `${index + 1}. ${getCategoryEmoji(dish)} ${dishName}\n`
     })
     
@@ -1268,21 +1207,26 @@ function Parties() {
                 <div className="dish-emoji">{getCategoryEmoji(dish) || '🍽️'}</div>
                 <div className="dish-details">
                   <div className="dish-name">
-                    {dish.name?.startsWith('dish.')
+                    {typeof dish.name === 'string' && dish.name.startsWith('dish.')
                       ? t(`dishes.${dish.name.replace('dish.', '')}`)
-                      : dish.name}
+                      : typeof dish.name === 'string'
+                        ? dish.name
+                        : dish.dish_name?.en || dish.name}
                   </div>
                   {dish.description && (
                     <div className="dish-description">
-                      {dish.description?.startsWith('description.')
+                      {typeof dish.description === 'string' && dish.description.startsWith('description.')
                         ? t(`descriptions.${dish.description.replace('description.', '')}`)
-                        : dish.description}
+                        : typeof dish.description === 'string' 
+                          ? dish.description 
+                          : dish.description?.[i18n.language] || dish.description?.en || dish.description}
                     </div>
                   )}
                   <div className="dish-category">
-                    {dish.cuisine && getCuisineTranslation(dish.cuisine.toLowerCase(), i18n.language)}
-                    {dish.total_time && ` • ${dish.total_time}`}
-                    {dish.difficulty && ` • ${dish.difficulty}`}
+                    {dish.region?.en && getCuisineTranslation(dish.region.en, i18n.language)}
+                    {dish.total_time_min && ` • ${dish.total_time_min} min`}
+                    {dish.difficulty?.en && ` • ${dish.difficulty.en}`}
+                    {dish.servings && ` • ${dish.servings} servings`}
                   </div>
                 </div>
                 <div className="dish-actions-inline">
@@ -1341,16 +1285,16 @@ function Parties() {
             </button>
             <div className="recipe-modal-header">
               <h2>
-                {selectedRecipe.name?.startsWith('dish.')
+                {typeof selectedRecipe.name === 'string' && selectedRecipe.name.startsWith('dish.')
                   ? t(`dishes.${selectedRecipe.name.replace('dish.', '')}`)
-                  : selectedRecipe.name}
+                  : typeof selectedRecipe.name === 'string'
+                    ? selectedRecipe.name
+                    : selectedRecipe.dish_name?.en || selectedRecipe.name}
               </h2>
               <div className="recipe-info">
-                {selectedRecipe.cuisine && <span>🌍 {getCuisineTranslation(selectedRecipe.cuisine.toLowerCase(), i18n.language)}</span>}
-                {selectedRecipe.prep_time && <span>⏱️ Prep: {selectedRecipe.prep_time}</span>}
-                {selectedRecipe.cook_time && <span>🔥 Cook: {selectedRecipe.cook_time}</span>}
-                {selectedRecipe.total_time && <span>⏳ Total: {selectedRecipe.total_time}</span>}
-                {selectedRecipe.difficulty && <span>📊 {selectedRecipe.difficulty}</span>}
+                {selectedRecipe.region?.en && <span>🌍 {getCuisineTranslation(selectedRecipe.region.en, i18n.language)}</span>}
+                {selectedRecipe.total_time_min && <span>⏳ Total: {selectedRecipe.total_time_min} min</span>}
+                {selectedRecipe.difficulty?.en && <span>📊 {selectedRecipe.difficulty.en}</span>}
                 {selectedRecipe.servings && <span>🍽️ {selectedRecipe.servings} servings</span>}
               </div>
             </div>
@@ -1359,7 +1303,7 @@ function Parties() {
               <div className="recipe-section">
                 <h3>📋 {t('parties.ingredients')}</h3>
                 <ul className="recipe-ingredients">
-                  {selectedRecipe.ingredientsWithAmounts.map((ingredient, index) => {
+                  {(selectedRecipe.ingredients?.[i18n.language] || selectedRecipe.ingredients?.en || []).map((ingredient, index) => {
                     // Handle real recipe database format (array of strings)
                     if (typeof ingredient === 'string' && ingredient.includes(' ')) {
                       // Handle "2 ingredient.bell_peppers_sliced" format - split amount and ingredient
@@ -1393,7 +1337,7 @@ function Parties() {
               <div className="recipe-section">
                 <h3>👨‍🍳 {t('recipe.instructions')}</h3>
                 <ol className="recipe-instructions">
-                  {selectedRecipe.instructions.map((instruction, index) => (
+                  {(selectedRecipe.steps?.[i18n.language] || selectedRecipe.steps?.en || []).map((instruction, index) => (
                     <li key={index}>{instruction}</li>
                   ))}
                 </ol>
@@ -1441,9 +1385,11 @@ function Parties() {
                   {generatedDishes.dishes.map((dish, index) => (
                     <div key={index} className="menu-item">
                       <span className="dish-number">{index + 1}</span>
-                      {getCategoryEmoji(dish)} {dish.name?.startsWith('dish.')
+                      {getCategoryEmoji(dish)} {typeof dish.name === 'string' && dish.name.startsWith('dish.')
                         ? t(`dishes.${dish.name.replace('dish.', '')}`)
-                        : dish.name}
+                        : typeof dish.name === 'string'
+                          ? dish.name
+                          : dish.dish_name?.en || dish.name}
                     </div>
                   ))}
                 </div>
@@ -1474,7 +1420,8 @@ function Parties() {
                     const ingredientMap = new Map()
                     
                     generatedDishes.dishes.forEach((dish, dishIndex) => {
-                      dish.ingredientsWithAmounts.forEach(ingredientString => {
+                      const ingredients = dish.ingredients?.[i18n.language] || dish.ingredients?.en || []
+                      ingredients.forEach(ingredientString => {
                         // Parse ingredient string like "1 lb pork chops, cubed"
                         let ingredientName = ingredientString
                         let amount = ingredientString

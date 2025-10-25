@@ -58,7 +58,7 @@
     "whatIHaveTitle": "我有什么",
     "whatIHaveSubtitle": "定制食谱 • 基于我现有的食材",
     "searchTitle": "搜索",
-    "searchSubtitle": "按菜名、食材或菜系查找",
+    "searchSubtitle": "所选菜系的菜品",
     "searchPlaceholder": "按菜名、食材或菜系搜索",
     "searchByDishOrIngredient": "按菜名或食材搜索",
     "closeRecipeToSearch": "关闭食谱以搜索",
@@ -78,7 +78,7 @@
     "ingredients": "我有的食材",
     "ingredientsSubtitle": "定制食谱 • 基于我现有的食材",
     "search": "搜索",
-    "searchSubtitle": "按菜名、食材或菜系查找",
+    "searchSubtitle": "所选菜系的菜品",
     "searchPlaceholder": "按菜名、食材或菜系搜索",
     "searchResults": "搜索结果",
     "ingredientsDescription": "选择您现有的食材，我们会找到匹配的食谱！",
@@ -1857,5 +1857,10 @@
     "descriptiondescriptionkokoretsi": "Descriptiondescriptionkokoretsi",
     "descriptiondescriptionmelomakarona": "Descriptiondescriptionmelomakarona",
     "duck_lorange": "橙子鸭"
+  },
+  "search": {
+    "placeholder": "按菜系、菜名、配料搜索所有食谱背景声明",
+    "searching": "搜索中",
+    "noResults": "未找到食谱"
   }
 }

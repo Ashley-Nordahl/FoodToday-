@@ -1,0 +1,90 @@
+{
+  "regions": [
+    {
+      "name": "Africa",
+      "subcategories": [
+        "Morocco",
+        "Nigeria",
+        "South Africa"
+      ],
+      "color": "#28a745",
+      "emoji": "🌍",
+      "flag": "🇦🇫"
+    },
+    {
+      "name": "Asia",
+      "subcategories": [
+        "Chinese",
+        "Japanese",
+        "Malaysia",
+        "Thailand",
+        "Korea",
+        "India"
+      ],
+      "color": "#ffc107",
+      "emoji": "🌏",
+      "flag": "🇨🇳"
+    },
+    {
+      "name": "Europe",
+      "subcategories": [
+        "Italy",
+        "Spain",
+        "France",
+        "Greece",
+        "Germany",
+        "Sweden",
+        "Turkey"
+      ],
+      "color": "#6f42c1",
+      "emoji": "🌍",
+      "flag": "🇪🇺"
+    },
+    {
+      "name": "Middle East",
+      "subcategories": [
+        "Iran",
+        "Lebanon"
+      ],
+      "color": "#fd7e14",
+      "emoji": "🌍",
+      "flag": "🇸🇦"
+    },
+    {
+      "name": "North America",
+      "subcategories": [
+        "America",
+        "Canada"
+      ],
+      "color": "#20c997",
+      "emoji": "🌎",
+      "flag": "🇺🇸"
+    },
+    {
+      "name": "South America",
+      "subcategories": [
+        "Brazil",
+        "Colombia"
+      ],
+      "color": "#e83e8c",
+      "emoji": "🌎",
+      "flag": "🇧🇷"
+    },
+    {
+      "name": "Latin America",
+      "subcategories": [
+        "Mexico",
+        "Peru",
+        "Argentina"
+      ],
+      "color": "#dc3545",
+      "emoji": "🌎",
+      "flag": "🇲🇽"
+    }
+  ],
+  "metadata": {
+    "total_regions": 7,
+    "total_subcategories": 25,
+    "last_updated": "2024-01-01"
+  }
+}

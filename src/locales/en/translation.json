@@ -6,6 +6,7 @@
     "drink": "Drink",
     "parties": "Parties",
     "myFavorite": "MyFavorite",
+    "search": "Search",
     "login": "Login",
     "signup": "Sign Up",
     "signOut": "Sign Out"
@@ -58,8 +59,8 @@
     "whatIHaveTitle": "What I Have",
     "whatIHaveSubtitle": "Custom recipes • based on ingredients that I have",
     "searchTitle": "Search",
-    "searchSubtitle": "Find by dish name, ingredient, or cuisine",
-    "searchPlaceholder": "Search by dish name, ingredient, or cuisine",
+    "searchSubtitle": "Dishes by selected cuisine",
+    "searchPlaceholder": "Search by dish name, ingredient, cuisine, or main type",
     "searchByDishOrIngredient": "Search by dish name or ingredient",
     "closeRecipeToSearch": "Close recipe to search",
     "foundRecipes": "Found {{count}} recipe(s)",
@@ -78,12 +79,13 @@
     "ingredients": "What I Have",
     "ingredientsSubtitle": "Custom recipes • based on ingredients that I have",
     "search": "Search",
-    "searchSubtitle": "Find by dish name, ingredient, or cuisine",
-    "searchPlaceholder": "Search by dish name, ingredient, or cuisine",
+    "searchSubtitle": "Dishes by selected cuisine",
+    "searchPlaceholder": "Search by dish name, ingredient, cuisine, or main type",
     "searchResults": "Search Results",
     "ingredientsDescription": "Select the ingredients you have available and we'll find recipes that match!",
     "selectIngredients": "Select Your Ingredients",
-    "getRandomRecipe": "Get Random Recipe"
+    "getRandomRecipe": "Get Random Recipe",
+    "closeRecipeFirst": "Please close the current recipe first"
   },
   "button": {
     "tryAnother": "Try Another Recipe",
@@ -1388,7 +1390,8 @@
     "letsHaveThis": "Let's have this!",
     "anotherOne": "Another One",
     "confirmed": "Confirmed!",
-    "cuisineSuffix": " Food"
+    "cuisineSuffix": " Food",
+    "closeRecipeFirst": "Close recipe first"
   },
   "myFavorite": {
     "title": "My Favorites",
@@ -2166,5 +2169,10 @@
     "descriptiondescriptionrevani": "Descriptiondescriptionrevani",
     "descriptiondescriptionkokoretsi": "Descriptiondescriptionkokoretsi",
     "descriptiondescriptionmelomakarona": "Descriptiondescriptionmelomakarona"
+  },
+  "search": {
+    "placeholder": "Search by Cuisine, Dish Name, Ingredients in all recipes in background statement",
+    "searching": "Searching",
+    "noResults": "No recipes found"
   }
 }

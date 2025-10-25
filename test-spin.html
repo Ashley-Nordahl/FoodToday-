@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .wheel {
+            width: 200px;
+            height: 200px;
+            border: 2px solid #000;
+            border-radius: 50%;
+            position: relative;
+            transition: transform 4s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .spinning {
+            animation: spin 4s cubic-bezier(0.23, 1, 0.32, 1) forwards !important;
+        }
+        
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(1800deg); }
+        }
+        .segment {
+            position: absolute;
+            width: 2px;
+            height: 100px;
+            background: red;
+            top: 0;
+            left: 50%;
+            transform-origin: bottom center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wheel" id="wheel">
+        <div class="segment" style="transform: rotate(0deg);"></div>
+        <div class="segment" style="transform: rotate(60deg);"></div>
+        <div class="segment" style="transform: rotate(120deg);"></div>
+        <div class="segment" style="transform: rotate(180deg);"></div>
+        <div class="segment" style="transform: rotate(240deg);"></div>
+        <div class="segment" style="transform: rotate(300deg);"></div>
+    </div>
+    <button onclick="spin()">Spin</button>
+    
+    <script>
+        let rotation = 0;
+        
+        function spin() {
+            console.log('Starting spin...');
+            const wheel = document.getElementById('wheel');
+            wheel.classList.add('spinning');
+            
+            setTimeout(() => {
+                console.log('Animation complete');
+                wheel.classList.remove('spinning');
+                rotation += 1800; // Add the rotation from animation
+            }, 4000);
+        }
+    </script>
+</body>
+</html>

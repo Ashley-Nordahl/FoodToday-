@@ -1,92 +1,226 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import { getAllCuisines, getRecipesByCuisine } from '../data/recipeLoader'
+import cuisineStructure from '../data/cuisineStructure.json'
 
-// Cuisine styles based on new recipe data structure with distinct colors
-const cuisineStyles = {
-  'Africa': { color: '#27AE60', emoji: '🍲', flag: '🌍' },
-  'Asia': { color: '#E67E22', emoji: '🍜', flag: '🌏' },
-  'Europe': { color: '#8E44AD', emoji: '🥖', flag: '🇪🇺' },
-  'Latin America': { color: '#F39C12', emoji: '🌽', flag: '🇲🇽' },
-  'Middle East': { color: '#D35400', emoji: '🥙', flag: '🇱🇧' },
-  'North America': { color: '#34495E', emoji: '🍔', flag: '🇺🇸' },
-  'South America': { color: '#E74C3C', emoji: '🌽', flag: '🇧🇷' }
-}
-
-// Default fallback style
-const defaultStyle = { color: '#95A5A6', emoji: '🍽️', flag: '🌍' }
-
-function InlineFoodWheel({ cuisines, onCuisineSelect }) {
-  const { t, i18n } = useTranslation()
+const InlineFoodWheel = ({ onCuisineSelect, onSubcategorySelect, selectedRecipe }) => {
+  const { t } = useTranslation()
+  const [cuisines, setCuisines] = useState([])
+  const [cuisinesWithStyles, setCuisinesWithStyles] = useState([])
   const [isSpinning, setIsSpinning] = useState(false)
-  const [selectedCuisine, setSelectedCuisine] = useState(null)
   const [rotation, setRotation] = useState(0)
+  const [selectedCuisine, setSelectedCuisine] = useState(null)
   const [isSelected, setIsSelected] = useState(false)
-  const [recentCuisines, setRecentCuisines] = useState([]) // Track recently shown cuisines
+  
+  // Second wheel states
+  const [showSecondWheel, setShowSecondWheel] = useState(false)
+  const [subcategories, setSubcategories] = useState([])
+  const [isSecondWheelSpinning, setIsSecondWheelSpinning] = useState(false)
+  const [selectedSubcategory, setSelectedSubcategory] = useState(null)
+  const [secondWheelRotation, setSecondWheelRotation] = useState(0)
+  
+  // Function to determine what segment is closest to the pointer position
+  const getPointerResult = (rotation, segments) => {
+    const normalizedRotation = rotation % 360
+    const segmentAngle = 360 / segments.length
+    
+    // The pointer is at the top (0 degrees), so we need to find which segment
+    // is currently at the top position after the wheel rotation
+    // Since the wheel rotates clockwise, we need to account for that
+    const segmentIndex = Math.floor((360 - normalizedRotation) / segmentAngle) % segments.length
+    
+    console.log('getPointerResult debug:')
+    console.log('- rotation:', rotation)
+    console.log('- normalizedRotation:', normalizedRotation)
+    console.log('- segmentAngle:', segmentAngle)
+    console.log('- segmentIndex:', segmentIndex)
+    console.log('- segments:', segments)
+    console.log('- result:', segments[segmentIndex])
+    
+    return segments[segmentIndex]
+  }
 
-  // Convert cuisine names to objects with styles
-  const cuisinesWithStyles = cuisines.map(cuisineName => ({
-    name: cuisineName,
-    ...(cuisineStyles[cuisineName] || defaultStyle)
-  }))
+  // Simple function to get a random subcategory from the correct list
+  const getRandomSubcategory = (subcategories) => {
+    const randomIndex = Math.floor(Math.random() * subcategories.length)
+    return subcategories[randomIndex]
+  }
 
-  // Clear state when language changes to prevent mixing
+  // Get cuisine styles from JSON data
+  const getCuisineStyles = () => {
+    const styles = {}
+    cuisineStructure.regions.forEach(region => {
+      styles[region.name] = {
+        color: region.color,
+        emoji: region.emoji,
+        flag: region.flag
+      }
+    })
+    return styles
+  }
+
   useEffect(() => {
-    setSelectedCuisine(null)
-    setIsSpinning(false)
-    setIsSelected(false)
-    setRecentCuisines([])
-  }, [i18n.language])
+    loadCuisines()
+  }, [])
 
-  // Helper function to get translated cuisine name
-  const getTranslatedCuisineName = (cuisineName) => {
-    const translated = t(`cuisines.${cuisineName}`)
-    return translated !== `cuisines.${cuisineName}` ? translated : cuisineName
+  const loadCuisines = async () => {
+    // Use data from JSON file
+    const cuisineStyles = getCuisineStyles()
+    const regionNames = cuisineStructure.regions.map(region => region.name)
+    const regionsWithStyles = cuisineStructure.regions.map(region => ({
+      name: region.name,
+      color: region.color,
+      emoji: region.emoji,
+      flag: region.flag
+    }))
+    
+    setCuisines(regionNames)
+    setCuisinesWithStyles(regionsWithStyles)
+  }
+
+  const getSubcategoriesForRegion = async (regionName) => {
+    // Get subcategories from JSON data
+    const region = cuisineStructure.regions.find(r => r.name === regionName)
+    const subcategories = region ? region.subcategories : ['General']
+    return subcategories
   }
 
   const spinWheel = () => {
     if (isSpinning) return
     
-    setIsSpinning(true)
-    setSelectedCuisine(null)
-    setIsSelected(false)
+    // Don't allow spinning if a recipe is currently selected
+    if (selectedRecipe) return
     
-    // Use the same approach as FoodWheel.jsx - random rotation and calculate result
+    setIsSpinning(true)
+    setIsSelected(false)
+    setSelectedCuisine(null)
+    setShowSecondWheel(false)
+    setSelectedSubcategory(null)
+    setSubcategories([]) // Clear subcategories to prevent stale data
+    setIsSecondWheelSpinning(false) // Clear second wheel spinning state
+    setSecondWheelRotation(0) // Reset second wheel rotation
+    
+    // Force clear all state immediately
+    
+    // Simple random rotation (back to basics)
     const randomRotations = 5 + Math.random() * 5
     const randomAngle = Math.random() * 360
     const totalRotation = rotation + (randomRotations * 360) + randomAngle
     
     setRotation(totalRotation)
     
-    // Calculate selected cuisine based on final rotation (same as FoodWheel.jsx)
     setTimeout(() => {
+      setIsSpinning(false)
+      
+      // Use the same simple calculation as FoodWheel.jsx
       const normalizedAngle = ((totalRotation % 360) + 360) % 360
       const segmentAngle = 360 / cuisinesWithStyles.length
       const selectedIndex = Math.floor((360 - normalizedAngle) / segmentAngle) % cuisinesWithStyles.length
-      const cuisine = cuisinesWithStyles[selectedIndex]
+      const selected = cuisinesWithStyles[selectedIndex]
       
-      setSelectedCuisine(cuisine)
-      setIsSpinning(false)
+      setSelectedCuisine(selected)
       
-      // Add to recent cuisines (keep last 3-4 cuisines)
-      setRecentCuisines(prev => {
-        const updated = [...prev, cuisine.name]
-        // Keep only the last 3 cuisines to ensure variety
-        return updated.length > 3 ? updated.slice(-3) : updated
-      })
+      setTimeout(async () => {
+        // Force clear all second wheel state before loading new subcategories
+        setSubcategories([])
+        setSelectedSubcategory(null)
+        setShowSecondWheel(false)
+        setSecondWheelRotation(0) // Reset rotation to prevent stale calculations
+        
+        const subcats = await getSubcategoriesForRegion(selected.name)
+        
+        // Ensure subcategories are properly set before showing second wheel
+        setSubcategories(subcats)
+        setShowSecondWheel(true)
+        
+        // Wait a bit to ensure state is updated before spinning second wheel
+        setTimeout(() => {
+          spinSecondWheel(selected)
+        }, 200)
+      }, 500)
     }, 4000)
   }
 
-  const handleConfirmSelection = () => {
-    setIsSelected(true)
+  const spinSecondWheel = (passedSelectedCuisine = null) => {
+    if (isSecondWheelSpinning) {
+      return
+    }
+    
+    // Use passed cuisine or fall back to state
+    const currentSelectedCuisine = passedSelectedCuisine || selectedCuisine
+    
+    // Get the correct subcategories for the current cuisine from the structure
+    const correctSubcategories = cuisineStructure.regions.find(r => r.name === currentSelectedCuisine?.name)?.subcategories || []
+    
+    // Validate that we have the correct subcategories for the current cuisine
+    if (!correctSubcategories || correctSubcategories.length === 0) {
+      return
+    }
+    
+    setIsSecondWheelSpinning(true)
+    setSelectedSubcategory(null)
+    
+    // Calculate rotation similar to main wheel - use random rotation and then determine selection
+    const segmentAngle = 360 / correctSubcategories.length
+    const randomRotations = 3 + Math.random() * 3
+    const randomAngle = Math.random() * 360
+    const totalRotation = secondWheelRotation + (randomRotations * 360) + randomAngle
+    
+    setSecondWheelRotation(totalRotation)
+    
+    setTimeout(() => {
+      setIsSecondWheelSpinning(false)
+      
+      // Use the same logic as main wheel - calculate which segment is at the pointer
+      const normalizedAngle = ((totalRotation % 360) + 360) % 360
+      const segmentAngle = 360 / correctSubcategories.length
+      const selectedIndex = Math.floor((360 - normalizedAngle) / segmentAngle) % correctSubcategories.length
+      const actualSelectedSubcategory = correctSubcategories[selectedIndex]
+      
+      setSelectedSubcategory(actualSelectedSubcategory)
+    }, 2000)
+  }
+
+  const handleConfirmSelection = async () => {
     if (selectedCuisine) {
-      onCuisineSelect(selectedCuisine)
+      const subcats = await getSubcategoriesForRegion(selectedCuisine.name)
+      setSubcategories(subcats)
+      setShowSecondWheel(true)
+    }
+  }
+
+  const handleSkip = () => {
+    if (onSubcategorySelect) {
+      onSubcategorySelect(selectedCuisine, null)
+    }
+  }
+
+  const handleConfirmSubcategory = () => {
+    if (onSubcategorySelect) {
+      onSubcategorySelect(selectedCuisine, selectedSubcategory)
     }
   }
 
   const handleTryAgain = () => {
     setSelectedCuisine(null)
-    setIsSelected(false)
-    spinWheel()
+    setShowSecondWheel(false)
+    setSelectedSubcategory(null)
+    setRotation(0)
+    setSecondWheelRotation(0)
+    
+    // Automatically trigger a new spin after resetting
+    setTimeout(() => {
+      spinWheel()
+    }, 100)
+  }
+
+  const handleTryAgainSubcategory = () => {
+    setSelectedSubcategory(null)
+    spinSecondWheel()
+  }
+
+  const getTranslatedCuisineName = (name) => {
+    return name
   }
 
   const getButtonText = () => {
@@ -95,136 +229,215 @@ function InlineFoodWheel({ cuisines, onCuisineSelect }) {
     return t('foodWheel.start')
   }
 
+  
+  // Removed excessive console logging for better performance
+  
   return (
     <div className="inline-wheel-container">
-      <div className="wheel-game-container">
-        <div className="wheel-pointer"></div>
-        
-        <div className="wheel-wrapper">
-          <div className="wheel-container-inner">
-            <svg 
-              className={`wheel ${isSpinning ? 'spinning' : ''}`}
-              style={{ transform: `rotate(${rotation}deg)` }}
-              viewBox="0 0 250 250"
-              width="250"
-              height="250"
-            >
-              {cuisinesWithStyles.map((cuisine, index) => {
-                const segmentAngle = 360 / cuisinesWithStyles.length
-                const startAngle = index * segmentAngle
-                const endAngle = (index + 1) * segmentAngle
-                
-                const startAngleRad = (startAngle * Math.PI) / 180
-                const endAngleRad = (endAngle * Math.PI) / 180
-                
-                const largeArcFlag = segmentAngle > 180 ? 1 : 0
-                
-                // Outer edge points (at radius 115 - adjusted for smaller wheel)
-                const x1 = 125 + 115 * Math.cos(startAngleRad - Math.PI / 2)
-                const y1 = 125 + 115 * Math.sin(startAngleRad - Math.PI / 2)
-                const x2 = 125 + 115 * Math.cos(endAngleRad - Math.PI / 2)
-                const y2 = 125 + 115 * Math.sin(endAngleRad - Math.PI / 2)
-                
-                // Inner edge points (at radius 80 - adjusted for smaller wheel)
-                const x3 = 125 + 80 * Math.cos(endAngleRad - Math.PI / 2)
-                const y3 = 125 + 80 * Math.sin(endAngleRad - Math.PI / 2)
-                const x4 = 125 + 80 * Math.cos(startAngleRad - Math.PI / 2)
-                const y4 = 125 + 80 * Math.sin(startAngleRad - Math.PI / 2)
-                
-                const pathData = [
-                  `M ${x1} ${y1}`,
-                  `A 115 115 0 ${largeArcFlag} 1 ${x2} ${y2}`,
-                  `L ${x3} ${y3}`,
-                  `A 80 80 0 ${largeArcFlag} 0 ${x4} ${y4}`,
-                  `Z`
-                ].join(' ')
-                
-                return (
-                  <g key={cuisine.name}>
-                    <path
-                      d={pathData}
-                      fill={cuisine.color}
-                      stroke="#fff"
-                      strokeWidth="3"
-                    />
-                    <text
-                      x={125 + 95 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                      y={125 + 95 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                      textAnchor="middle"
-                      dominantBaseline="middle"
-                      fill="white"
-                      fontSize="7"
-                      fontWeight="600"
-                      style={{ textShadow: "0 1px 2px rgba(0,0,0,0.5)", wordSpacing: '0px', letterSpacing: '0px' }}
-                      transform={`rotate(${(startAngle + endAngle) / 2}, ${125 + 95 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}, ${125 + 95 * Math.sin((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)})`}
-                    >
-                      {getTranslatedCuisineName(cuisine.name).split(' ').map((word, wordIndex) => (
-                        <tspan
-                          key={wordIndex}
-                          x={125 + 95 * Math.cos((startAngle + endAngle) * Math.PI / 360 - Math.PI / 2)}
-                          dy={wordIndex === 0 ? 0 : '1.1em'}
-                          textAnchor="middle"
-                        >
-                          {word}
-                        </tspan>
-                      ))}
-                    </text>
-                  </g>
-                )
-              })}
-            </svg>
-
-            <div className="wheel-center">
-              <button 
-                className="center-button"
-                onClick={spinWheel}
-                disabled={isSpinning}
+      <div className="concentric-wheel-container">
+        {/* Main Wheel (Outer Ring) */}
+        <div className="main-wheel-container">
+          <div className="wheel-pointer"></div>
+          
+          {/* Second wheel pointer */}
+          {showSecondWheel && (
+            <div className="second-wheel-pointer"></div>
+          )}
+          
+          <div className="wheel-wrapper">
+            <div className="wheel-container-inner">
+              {/* Main Wheel SVG */}
+              <svg 
+                className={`main-wheel main-wheel-svg ${isSpinning ? 'spinning' : ''}`}
+                style={{ 
+                  transform: `rotate(${rotation}deg)`,
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  zIndex: 1
+                }}
+                viewBox="0 0 400 400"
+                width="400"
+                height="400"
               >
-                <span className="start-text">{getButtonText()}</span>
-              </button>
+                {cuisinesWithStyles.map((cuisine, index) => {
+                  const segmentAngle = 360 / cuisinesWithStyles.length
+                  const startAngle = index * segmentAngle
+                  const endAngle = (index + 1) * segmentAngle
+                  
+                  const startAngleRad = (startAngle * Math.PI) / 180
+                  const endAngleRad = (endAngle * Math.PI) / 180
+                  
+                  const largeArcFlag = segmentAngle > 180 ? 1 : 0
+                  
+                  // Outer edge points (larger wheel)
+                  const x1 = 200 + 180 * Math.cos(startAngleRad - Math.PI / 2)
+                  const y1 = 200 + 180 * Math.sin(startAngleRad - Math.PI / 2)
+                  const x2 = 200 + 180 * Math.cos(endAngleRad - Math.PI / 2)
+                  const y2 = 200 + 180 * Math.sin(endAngleRad - Math.PI / 2)
+                  
+                  // Inner edge points (where inner wheel starts)
+                  const x3 = 200 + 120 * Math.cos(endAngleRad - Math.PI / 2)
+                  const y3 = 200 + 120 * Math.sin(endAngleRad - Math.PI / 2)
+                  const x4 = 200 + 120 * Math.cos(startAngleRad - Math.PI / 2)
+                  const y4 = 200 + 120 * Math.sin(startAngleRad - Math.PI / 2)
+                  
+                  const pathData = [
+                    `M ${x1} ${y1}`,
+                    `A 180 180 0 ${largeArcFlag} 1 ${x2} ${y2}`,
+                    `L ${x3} ${y3}`,
+                    `A 120 120 0 ${largeArcFlag} 0 ${x4} ${y4}`,
+                    `Z`
+                  ].join(' ')
+                  
+                  return (
+                    <g key={cuisine.name}>
+                      <path
+                        d={pathData}
+                        fill={cuisine.color}
+                        stroke="#fff"
+                        strokeWidth="2"
+                      />
+                      <text
+                        x={200 + 150 * Math.cos((startAngle + endAngle) / 2 * Math.PI / 180 - Math.PI / 2)}
+                        y={200 + 150 * Math.sin((startAngle + endAngle) / 2 * Math.PI / 180 - Math.PI / 2)}
+                        textAnchor="middle"
+                        fontSize="16"
+                        fill="#000"
+                        fontWeight="700"
+                        transform={`rotate(${(startAngle + endAngle) / 2}, ${200 + 150 * Math.cos((startAngle + endAngle) / 2 * Math.PI / 180 - Math.PI / 2)}, ${200 + 150 * Math.sin((startAngle + endAngle) / 2 * Math.PI / 180 - Math.PI / 2)})`}
+                        style={{ 
+                          pointerEvents: 'none',
+                          fontFamily: 'Arial, sans-serif'
+                        }}
+                      >
+                        {cuisine.name}
+                      </text>
+                    </g>
+                  )
+                })}
+              </svg>
+
+              {/* Inner Wheel (Subcategory) - appears when region selected */}
+              {showSecondWheel && selectedCuisine && (
+                <svg 
+                  className={`inner-wheel-new inner-wheel-svg ${isSecondWheelSpinning ? 'spinning' : ''}`}
+                  data-spinning={isSecondWheelSpinning}
+                  style={{ 
+                    position: 'absolute',
+                    top: '50%',
+                    left: '50%',
+                    transform: `translate(-50%, -50%) rotate(${secondWheelRotation}deg)`,
+                    zIndex: 2,
+                    width: '200px',
+                    height: '200px'
+                  }}
+                    viewBox="0 0 200 200"
+                  >
+                  {(() => {
+                    const currentSubcategories = cuisineStructure.regions.find(r => r.name === selectedCuisine.name)?.subcategories || []
+                    return currentSubcategories.map((subcategory, index) => {
+                      const segmentAngle = 360 / currentSubcategories.length
+                      const startAngle = index * segmentAngle
+                      const endAngle = (index + 1) * segmentAngle
+                      
+                      const startAngleRad = (startAngle * Math.PI) / 180
+                      const endAngleRad = (endAngle * Math.PI) / 180
+                      
+                      const largeArcFlag = segmentAngle > 180 ? 1 : 0
+                      
+                      // Outer edge points (inner wheel outer edge)
+                      const x1 = 100 + 90 * Math.cos(startAngleRad - Math.PI / 2)
+                      const y1 = 100 + 90 * Math.sin(startAngleRad - Math.PI / 2)
+                      const x2 = 100 + 90 * Math.cos(endAngleRad - Math.PI / 2)
+                      const y2 = 100 + 90 * Math.sin(endAngleRad - Math.PI / 2)
+                      
+                      // Inner edge points (center button area)
+                      const x3 = 100 + 50 * Math.cos(endAngleRad - Math.PI / 2)
+                      const y3 = 100 + 50 * Math.sin(endAngleRad - Math.PI / 2)
+                      const x4 = 100 + 50 * Math.cos(startAngleRad - Math.PI / 2)
+                      const y4 = 100 + 50 * Math.sin(startAngleRad - Math.PI / 2)
+                      
+                      const pathData = [
+                        `M ${x1} ${y1}`,
+                        `A 90 90 0 ${largeArcFlag} 1 ${x2} ${y2}`,
+                        `L ${x3} ${y3}`,
+                        `A 50 50 0 ${largeArcFlag} 0 ${x4} ${y4}`,
+                        `Z`
+                      ].join(' ')
+                      
+                      return (
+                        <g key={subcategory}>
+                          <path
+                            d={pathData}
+                            fill={index % 2 === 0 ? '#f8f9fa' : '#e9ecef'}
+                            stroke="#dee2e6"
+                            strokeWidth="1"
+                          />
+                          <text
+                            x={100 + 70 * Math.cos((startAngle + endAngle) / 2 * Math.PI / 180 - Math.PI / 2)}
+                            y={100 + 70 * Math.sin((startAngle + endAngle) / 2 * Math.PI / 180 - Math.PI / 2)}
+                            textAnchor="middle"
+                            fontSize="10"
+                            fill="#495057"
+                            fontWeight="500"
+                            transform={`rotate(${(startAngle + endAngle) / 2}, ${100 + 70 * Math.cos((startAngle + endAngle) / 2 * Math.PI / 180 - Math.PI / 2)}, ${100 + 70 * Math.sin((startAngle + endAngle) / 2 * Math.PI / 180 - Math.PI / 2)})`}
+                          >
+                            {subcategory}
+                          </text>
+                        </g>
+                      )
+                    })
+                  })()}
+                </svg>
+              )}
+
+              {/* Center Button */}
+              <div className="wheel-center">
+                <button 
+                  className={`center-button ${selectedRecipe ? 'disabled' : ''}`}
+                  onClick={spinWheel}
+                  disabled={isSpinning || selectedRecipe}
+                  title={selectedRecipe ? t('foodWheel.closeRecipeFirst') : ''}
+                >
+                  <span className="start-text">
+                    {selectedRecipe ? t('foodWheel.closeRecipeFirst') : getButtonText()}
+                  </span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      {selectedCuisine && (
+
+      {/* Result Display */}
+      
+      {selectedCuisine && selectedSubcategory && (
         <div className="result-container">
           <div className="result-content">
             <div className="selected-cuisine">
               <div className="cuisine-info">
                 <div className="cuisine-selection-container">
                   <div className="cuisine-text-centered">
-                    <span className="selected-name">{getTranslatedCuisineName(selectedCuisine.name)}{t('foodWheel.cuisineSuffix')}</span>
+                    <span className="selected-name">
+                      {String(selectedCuisine.name)}-{selectedSubcategory}
+                    </span>
                   </div>
-                  {!isSelected && (
-                    <div className="action-buttons-section">
-                      <button 
-                        className="btn btn-confirm"
-                        onClick={handleConfirmSelection}
-                      >
-                        {t('foodWheel.letsHaveThis')}
-                      </button>
-                      <button 
-                        className="btn btn-try-again"
-                        onClick={handleTryAgain}
-                      >
-                        {t('foodWheel.anotherOne')}
-                      </button>
-                    </div>
-                  )}
-                  {isSelected && (
-                    <div className="confirmed-section">
-                      <span className="confirmed-message">
-                        ✅ {t('foodWheel.confirmed')}
-                      </span>
-                      <button 
-                        className="btn btn-try-again"
-                        onClick={handleTryAgain}
-                      >
-                        {t('foodWheel.anotherOne')}
-                      </button>
-                    </div>
-                  )}
+                  <div className="action-buttons-section">
+                    <button 
+                      className="btn btn-confirm"
+                      onClick={handleConfirmSubcategory}
+                    >
+                      {t('foodWheel.letsHaveThis')}
+                    </button>
+                    <button 
+                      className="btn btn-try-again"
+                      onClick={handleTryAgain}
+                    >
+                      {t('foodWheel.anotherOne')}
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

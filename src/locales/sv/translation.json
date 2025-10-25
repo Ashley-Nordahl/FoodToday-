@@ -78,7 +78,7 @@
     "ingredients": "Vad Jag Har",
     "ingredientsSubtitle": "Anpassade recept • baserat på ingredienser som jag har",
     "search": "Sök",
-    "searchSubtitle": "Hitta efter rättnamn, ingrediens eller kök",
+    "searchSubtitle": "Rätter från vald kök",
     "searchPlaceholder": "Sök efter rättnamn, ingrediens eller kök",
     "searchResults": "Sökresultat",
     "ingredientsDescription": "Välj de ingredienser du har tillgängliga så hittar vi recept som matchar!",
@@ -2243,5 +2243,10 @@
     "descriptiondescriptionrevani": "Descriptiondescriptionrevani",
     "descriptiondescriptionkokoretsi": "Descriptiondescriptionkokoretsi",
     "descriptiondescriptionmelomakarona": "Descriptiondescriptionmelomakarona"
+  },
+  "search": {
+    "placeholder": "Sök efter kök, rättnamn, ingredienser i alla recept i bakgrundsuttalande",
+    "searching": "Söker",
+    "noResults": "Inga recept hittades"
   }
 }

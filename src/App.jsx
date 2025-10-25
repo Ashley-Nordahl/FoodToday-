@@ -6,6 +6,7 @@ import { LanguageProvider } from './contexts/LanguageContext'
 import ProtectedRoute from './components/ProtectedRoute'
 import LanguageSelector from './components/LanguageSelector'
 import ErrorBoundary from './components/ErrorBoundary'
+import BottomNavigation from './components/BottomNavigation'
 import DishToday from './pages/DishToday'
 import Drink from './pages/Drink'
 import Sauce from './pages/Sauce'
@@ -240,6 +241,7 @@ function App() {
                   </ProtectedRoute>
                 } />
               </Routes>
+              <BottomNavigation />
             </div>
           </LanguageProvider>
         </AuthProvider>

@@ -186,7 +186,7 @@ function FoodWheel({ isOpen, onClose, onSelect }) {
                 <h3>🎉 Selected Cuisine!</h3>
                 <div className="selected-cuisine">
                   <span className="selected-emoji">{selectedCuisine.emoji}</span>
-                  <span className="selected-name">{getTranslatedCuisineName(selectedCuisine.name)}</span>
+                  <span className="selected-name">{String(selectedCuisine.name)}</span>
                 </div>
                 <button 
                   className="select-button"

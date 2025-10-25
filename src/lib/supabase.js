@@ -23,16 +23,26 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
 export async function trackSelection(userId, item, itemType) {
   if (!userId) return { error: 'User not authenticated' }
 
-  const { data, error } = await supabase
-    .rpc('increment_user_stat', {
-      p_user_id: userId,
-      p_item_id: item.id,
-      p_item_type: itemType,
-      p_item_name: item.name,
-      p_item_emoji: item.emoji || ''
-    })
+  try {
+    const { data, error } = await supabase
+      .rpc('increment_user_stat', {
+        p_user_id: userId,
+        p_item_id: item.id,
+        p_item_type: itemType,
+        p_item_name: item.name,
+        p_item_emoji: item.emoji || ''
+      })
 
-  return { data, error }
+    if (error) {
+      console.warn('Supabase RPC function not available, skipping tracking:', error.message)
+      return { data: null, error: null } // Don't throw error, just skip tracking
+    }
+
+    return { data, error }
+  } catch (error) {
+    console.warn('Failed to track selection, continuing without tracking:', error.message)
+    return { data: null, error: null } // Don't throw error, just skip tracking
+  }
 }
 
 /**
@@ -290,12 +300,22 @@ export async function updateUserLanguagePreference(userId, language) {
   if (!userId) return { error: 'User not authenticated' }
   if (!language) return { error: 'Language required' }
 
-  const { data, error } = await supabase
-    .rpc('upsert_user_language', {
-      p_user_id: userId,
-      p_language: language
-    })
+  try {
+    const { data, error } = await supabase
+      .rpc('upsert_user_language', {
+        p_user_id: userId,
+        p_language: language
+      })
 
-  return { data, error }
+    if (error) {
+      console.warn('Supabase RPC function not available, skipping language update:', error.message)
+      return { data: null, error: null } // Don't throw error, just skip update
+    }
+
+    return { data, error }
+  } catch (error) {
+    console.warn('Failed to update language preference, continuing without update:', error.message)
+    return { data: null, error: null } // Don't throw error, just skip update
+  }
 }
 
