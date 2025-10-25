@@ -65,6 +65,19 @@ export const getRandomRecipeByCuisine = (cuisine) => {
   return cuisineRecipes[randomIndex]
 }
 
+export const getRandomRecipeByCuisineAndSubcategory = (cuisine, subcategory) => {
+  // Filter recipes by both cuisine and subcategory
+  const filteredRecipes = allRecipes.filter(recipe => {
+    const cuisineMatch = recipe.region?.['en'] === cuisine || recipe.region?.['zh'] === cuisine || recipe.region?.['sv'] === cuisine
+    const subcategoryMatch = recipe.subcategory?.['en'] === subcategory || recipe.subcategory?.['zh'] === subcategory || recipe.subcategory?.['sv'] === subcategory
+    return cuisineMatch && subcategoryMatch
+  })
+  
+  if (filteredRecipes.length === 0) return null
+  const randomIndex = Math.floor(Math.random() * filteredRecipes.length)
+  return filteredRecipes[randomIndex]
+}
+
 export const getRecipesByDifficulty = (difficulty) => {
   return allRecipes.filter(recipe => {
     const currentLanguage = 'en' // Default to English for now

@@ -9,7 +9,8 @@ import IngredientCheckbox from '../components/IngredientCheckbox'
 // import RecipeImage from '../components/RecipeImage'
 import { 
   getRandomRecipe, 
-  getRandomRecipeByCuisine, 
+  getRandomRecipeByCuisine,
+  getRandomRecipeByCuisineAndSubcategory,
   getRecipesByCuisine,
   getAllCuisines,
   getRecipeById,
@@ -154,10 +155,19 @@ function DishToday() {
     let recipe = null
     if (choiceType === 'random') {
       if (cuisine) {
-        // Get random recipe from specific cuisine using new loader
-        recipe = getRandomRecipeByCuisine(cuisine.name)
+        // Check if subcategory is selected
+        if (cuisine.subcategory) {
+          // Get random recipe from specific cuisine AND subcategory
+          recipe = getRandomRecipeByCuisineAndSubcategory(cuisine.name, cuisine.subcategory)
+        } else {
+          // Get random recipe from specific cuisine only
+          recipe = getRandomRecipeByCuisine(cuisine.name)
+        }
+        
         if (!recipe) {
-          const cuisineName = t(`cuisines.${cuisine.name}`, cuisine.name)
+          const cuisineName = cuisine.subcategory 
+            ? `${t(`cuisines.${cuisine.name}`, cuisine.name)} - ${cuisine.subcategory}`
+            : t(`cuisines.${cuisine.name}`, cuisine.name)
           alert(t('errors.noRecipesAvailable', { cuisine: cuisineName }))
           return
         }
