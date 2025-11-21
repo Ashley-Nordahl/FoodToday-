@@ -39,22 +39,22 @@ describe('ingredientRegistry.js', () => {
 
     it('should contain all required vegetable ingredients', () => {
       expect(INGREDIENT_REGISTRY['broccoli']).toEqual({
-        category: 'Vegetables',
+        category: 'Vegetable',
         subcategory: 'General'
       })
       expect(INGREDIENT_REGISTRY['carrots']).toEqual({
-        category: 'Vegetables',
+        category: 'Vegetable',
         subcategory: 'General'
       })
     })
 
     it('should contain all required grain ingredients', () => {
       expect(INGREDIENT_REGISTRY['rice']).toEqual({
-        category: 'Grains',
+        category: 'Grain',
         subcategory: 'Whole Grains'
       })
       expect(INGREDIENT_REGISTRY['pasta']).toEqual({
-        category: 'Grains',
+        category: 'Grain',
         subcategory: 'Refined Grains'
       })
     })
@@ -83,16 +83,16 @@ describe('ingredientRegistry.js', () => {
     it('should have all required main categories', () => {
       expect(INGREDIENT_CATEGORIES).toHaveProperty('Meat')
       expect(INGREDIENT_CATEGORIES).toHaveProperty('Seafood')
-      expect(INGREDIENT_CATEGORIES).toHaveProperty('Vegetables')
-      expect(INGREDIENT_CATEGORIES).toHaveProperty('Grains')
+      expect(INGREDIENT_CATEGORIES).toHaveProperty('Vegetable')
+      expect(INGREDIENT_CATEGORIES).toHaveProperty('Grain')
       expect(INGREDIENT_CATEGORIES).toHaveProperty('Egg')
     })
 
     it('should have correct emojis for main categories', () => {
       expect(INGREDIENT_CATEGORIES['Meat'].emoji).toBe('🥩')
       expect(INGREDIENT_CATEGORIES['Seafood'].emoji).toBe('🦞')
-      expect(INGREDIENT_CATEGORIES['Vegetables'].emoji).toBe('🥬')
-      expect(INGREDIENT_CATEGORIES['Grains'].emoji).toBe('🌾')
+      expect(INGREDIENT_CATEGORIES['Vegetable'].emoji).toBe('🥬')
+      expect(INGREDIENT_CATEGORIES['Grain'].emoji).toBe('🌾')
       expect(INGREDIENT_CATEGORIES['Egg'].emoji).toBe('🥚')
     })
 
@@ -185,7 +185,7 @@ describe('ingredientRegistry.js', () => {
 
     it('should have all user-facing categories properly defined', () => {
       // These are the categories that should be in INGREDIENT_CATEGORIES
-      const requiredCategories = ['Meat', 'Seafood', 'Egg', 'Vegetables', 'Grains']
+      const requiredCategories = ['Meat', 'Seafood', 'Egg', 'Vegetable', 'Grain']
       const categoryKeys = Object.keys(INGREDIENT_CATEGORIES)
       
       requiredCategories.forEach(category => {

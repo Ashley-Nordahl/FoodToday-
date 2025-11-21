@@ -872,6 +872,18 @@ p {
   margin-bottom: 0.5rem;
 }
 
+/* Mobile User Actions - Always Visible */
+.mobile-user-actions-always-visible {
+  display: none;
+}
+
+/* Mobile Right Navigation Items - Hidden on Desktop */
+.mobile-right-nav-items {
+  display: none;
+}
+
+/* Mobile language selector styles moved to main mobile media query above */
+
 .mobile-auth-buttons {
   display: flex;
   flex-direction: column;
@@ -924,6 +936,35 @@ p {
   
   .mobile-menu {
     display: block;
+  }
+  
+  /* Mobile Right Navigation Items - Show on Mobile */
+  .mobile-right-nav-items {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Ensure mobile language selector is visible */
+  .mobile-user-actions-always-visible {
+    display: flex !important;
+    align-items: center;
+    margin-right: 0.25rem;
+    z-index: 1000;
+    position: relative;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  
+  .mobile-user-actions-always-visible .language-selector {
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  .mobile-user-actions-always-visible .language-selector-button {
+    display: flex !important;
+    visibility: visible !important;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 107, 53, 0.3);
   }
   
   .navbar-container {

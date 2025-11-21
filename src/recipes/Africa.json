@@ -8,26 +8,26 @@
     },
     "subcategory": {
       "en": "Morocco",
-      "zh": "Morocco",
+      "zh": "摩洛哥",
       "sv": "Morocco"
     },
     "dish_name": {
-      "en": "Lamb Tagine with Prunes",
-      "zh": "Lamb Tagine with Prunes",
-      "sv": "Lamb Tagine with Prunes"
+      "en": "Tagine-lamb",
+      "zh": "摩洛哥炖菜-羊肉",
+      "sv": "Tagine-Lamm"
     },
     "description": {
-      "en": "Lamb Tagine with Prunes - a classic Morocco dish prepared for home cooks.",
-      "zh": "Lamb Tagine with Prunes - 经典的Morocco菜，适合家庭烹饪。",
-      "sv": "Lamb Tagine with Prunes - en klassisk Moroccorätt anpassad för hemanvändning."
+      "en": "A Moroccan slow-cooked stew named for its cone-shaped clay pot, typically featuring preserved lemons and spices.",
+      "zh": "摩洛哥慢炖菜，因其锥形陶罐而得名，通常以腌柠檬和香料为特色。",
+      "sv": "En marockansk långkokt gryta uppkallad efter sin konformade lerkruka, vanligtvis med konserverade citroner och kryddor."
     },
-    "total_time_min": 32,
+    "total_time_min": null,
     "difficulty": {
-      "en": "Hard",
-      "zh": "困难",
-      "sv": "Svår"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
-    "servings": 1,
+    "servings": 4,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -35,51 +35,95 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
+        "1 1/2 kg boneless leg of lamb",
+        "1/2 tbsp ground cinnamon",
+        "1 tbsp ground ginger",
+        "1 tsp freshly ground black pepper",
+        "1 packet saffron (1/2 g each)",
+        "4 tbsp water",
+        "2 onions",
         "2 cloves garlic",
-        "30 ml olive oil"
+        "50 g unsalted butter",
+        "salt",
+        "6 dl beef stock cube or stock",
+        "175 g raisins",
+        "2 tbsp honey",
+        "3 tbsp chopped coriander",
+        "1/2 lemon",
+        "55 g flaked almonds"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "1.5公斤去骨羊腿肉",
+        "0.5汤匙肉桂粉",
+        "1汤匙姜粉",
+        "1茶匙现磨黑胡椒",
+        "1包藏红花（每包0.5克）",
+        "4汤匙水",
+        "2个洋葱",
+        "2瓣大蒜",
+        "50克无盐黄油",
+        "盐",
+        "6分升牛肉浓汤宝或牛肉高汤",
+        "175克葡萄干",
+        "2汤匙蜂蜜",
+        "3汤匙切碎的香菜",
+        "半个柠檬",
+        "55克杏仁片"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "1 1/2 kg urbenad lammlägg",
+        "1/2 msk malen kanel",
+        "1 msk malen ingefära",
+        "1 tsk nymald svartpeppar",
+        "1 paket saffran (à 1/2 g)",
+        "4 msk vatten",
+        "2 lökar",
+        "2 vitlöksklyftor",
+        "50 g osaltat smör",
+        "salt",
+        "6 dl köttbuljong av tärning eller fond",
+        "175 g russin",
+        "2 msk honung",
+        "3 msk hackad koriander",
+        "1/2 citron",
+        "55 g flagad mandel"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Lamb Tagine with Prunes using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Trim the lamb and cut into 4 cm cubes. Mix the cinnamon, ginger, pepper and saffron with water. Let the lamb marinate in this for up to 24 hours.",
+        "Chop the onion and finely chop the garlic. Melt the butter in a large pan. Add the meat, onion, garlic, salt and stock. If necessary, top up with water so that it just covers. Bring to the boil, put on the lid and leave to simmer for about 1 hour. Stir occasionally.",
+        "Add the raisins, honey and half of the coriander. Continue to simmer without the lid for about 30 minutes until the sauce has thickened slightly.",
+        "Finely grate the lemon zest and add it together with lemon juice to taste. Taste.",
+        "Toast the almond flakes in a dry pan. Sprinkle them over them and the rest of the coriander just before serving."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Lamb Tagine with Prunes using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将羊肉修整干净，切成 4 厘米见方的小块。将肉桂、生姜、胡椒和藏红花与水混合。将羊肉放入此腌料中腌制最多 24 小时。",
+        "将洋葱切碎，大蒜切末。在大锅中融化黄油。加入羊肉、洋葱、大蒜、盐和高汤。如有必要，加水至刚好没过食材。煮沸后，盖上锅盖，小火慢炖约 1 小时。偶尔搅拌。",
+        "加入葡萄干、蜂蜜和一半的香菜。继续小火慢炖约 30 分钟，直至酱汁略微浓稠。",
+        "将柠檬皮磨碎，与柠檬汁混合，根据口味加入。尝一下味道。",
+        "在干锅中烘烤杏仁片。上菜前，将烤好的杏仁片和剩余的香菜撒在羊肉上。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Lamb Tagine with Prunes using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Putsa lammet och skär i 4 cm stora tärningar. Rör samman kanel, ingefära, peppar och saffran med vatten. Låt lammköttet marinera i detta i upp till 24 timmar.",
+        "Hacka löken och finhacka vitlöken. Smält smöret i en stor panna. Tillsätt kött, lök, vitlök, salt och buljong. Fyll ev på med vatten så att det precis täcker. Låt koka upp, sätt på lock och låt stå och småkoka i cirka 1 timme. Rör om då och då.",
+        "Tillsätt russin, honung och hälften av koriandern. Fortsätt småkoka utan lock i cirka 30 minuter tills såsen har tjocknat något.",
+        "Finriv citronskalet och tillsätt det tillsammans med citronsaft efter smak. Smaka av.",
+        "Rosta mandelflagorna i torr panna. Strö över dem och resten av koriandern precis före serveringen."
       ]
     },
-    "tags": [
-      "vegetarian",
-      "spicy"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "rich",
+      "sweet",
+      "mild"
+    ],
+    "image_url": "/Recipe Image/Africa/AF-MO-001.png"
   },
   {
     "id": "AF-MO-002",
@@ -90,20 +134,20 @@
     },
     "subcategory": {
       "en": "Morocco",
-      "zh": "Morocco",
+      "zh": "摩洛哥",
       "sv": "Morocco"
     },
     "dish_name": {
       "en": "Chicken Bastilla",
-      "zh": "鸡肉 Bastilla",
+      "zh": "巴斯蒂拉",
       "sv": "Kyckling Bastilla"
     },
     "description": {
-      "en": "Chicken Bastilla - a classic Morocco dish prepared for home cooks.",
-      "zh": "Chicken Bastilla - 经典的Morocco菜，适合家庭烹饪。",
-      "sv": "Chicken Bastilla - en klassisk Moroccorätt anpassad för hemanvändning."
+      "en": "A festive Moroccan savory pie made from thin warqa pastry, stuffed with spiced chicken and topped with cinnamon and sugar.",
+      "zh": "一款喜庆的摩洛哥咸味馅饼，用薄薄的瓦尔卡酥皮制成，里面塞满了香料鸡肉，上面撒上肉桂和糖。",
+      "sv": "En festlig marockansk paj gjord på tunt warqa-deg, fylld med kryddad kyckling och toppad med kanel och socker."
     },
-    "total_time_min": 78,
+    "total_time_min": 60,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
@@ -117,51 +161,143 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "Huvudingredients",
+        "2 tablespoons olive oil divided",
+        "700 g chicken breasts deboned",
+        "1 1/2 cups onions chopped",
+        "3 garlic cloves finely chopped",
+        "1 teaspoon fresh gingerroot peeled and finely chopped",
+        "2 teaspoons ground cinnamon",
+        "1 teaspoon ground cumin",
+        "1 teaspoon ground coriander",
+        "1/2 teaspoon ground red pepper",
+        "1/2 teaspoon turmeric",
+        "1/4 teaspoon saffron ground",
+        "1 cup reduced-sodium chicken broth",
+        "3 tablespoons fresh coriander leaves chopped",
+        "7 large eggs lightly beaten",
+        "1 teaspoon salt",
+        "1/2 teaspoon ground black pepper",
+        "1 lb phyllo dough thawed (about 18 to 24 leaves)",
+        "1 cup butter 2 sticks",
+        "Topping for Phyllo leaves",
+        "1/2 cup confectioners' sugar",
+        "1 teaspoon ground cinnamon",
+        "Topping for filling",
+        "1 1/2 cups slivered almonds",
+        "2 tablespoons sugar",
+        "2 teaspoons ground cinnamon"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "所需食材",
+        "2 汤匙橄榄油（分次使用）",
+        "700 克去骨鸡胸肉",
+        "1 1/2 杯洋葱碎",
+        "3 瓣蒜，切碎",
+        "1 茶匙鲜姜末（去皮）",
+        "2 茶匙肉桂粉",
+        "1 茶匙孜然粉",
+        "1 茶匙芫荽粉",
+        "1/2 茶匙红辣椒粉",
+        "1/2 茶匙姜黄粉",
+        "1/4 茶匙藏红花粉",
+        "1 杯低钠鸡汤",
+        "3 汤匙香菜碎",
+        "7 个大鸡蛋，打散",
+        "1 茶匙盐",
+        "1/2 茶匙黑胡椒粉",
+        "1 磅解冻的酥皮面团（约 18 至 24 片）",
+        "1 杯黄油（2 条）",
+        "酥皮装饰：",
+        "1/2 杯糖粉",
+        "1 茶匙肉桂粉",
+        "馅料装饰：",
+        "1 1/2 杯杏仁片",
+        "2汤匙糖",
+        "2茶匙肉桂粉"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "Huvudingredients",
+        "2 tablespoons olive oil divided",
+        "700 g chicken breasts deboned",
+        "1 1/2 cups onions chopped",
+        "3 garlic cloves finely chopped",
+        "1 teaspoon fresh gingerroot peeled and finely chopped",
+        "2 teaspoons ground cinnamon",
+        "1 teaspoon ground cumin",
+        "1 teaspoon ground coriander",
+        "1/2 teaspoon ground red pepper",
+        "1/2 teaspoon turmeric",
+        "1/4 teaspoon saffron ground",
+        "1 cup reduced-sodium chicken broth",
+        "3 tablespoons fresh coriander leaves chopped",
+        "7 large eggs lightly beaten",
+        "1 teaspoon salt",
+        "1/2 teaspoon ground black pepper",
+        "1 lb phyllo dough thawed (about 18 to 24 leaves)",
+        "1 cup butter 2 sticks",
+        "Topping for Phyllo leaves",
+        "1/2 cup confectioners' sugar",
+        "1 teaspoon ground cinnamon",
+        "Topping for filling",
+        "1 1/2 cups slivered almonds",
+        "2 tablespoons sugar",
+        "2 teaspoons ground cinnamon"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Chicken Bastilla using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "In a large skillet heat 1 tablespoon olive oil over medium-high heat. Add chicken breasts and cook until golden brown on all sides. Remove chicken from skillet and set aside.",
+        "In the same skillet add onions, garlic, ginger, and 1 tablespoon oil. Saute, stirring constantly, until onions are translucent. Stir in cinnamon, cumin, ground coriander, red pepper, turmeric, and saffron. Reduce heat to low and cook, stirring constantly, until onions are completely coated with spices, about 3 minutes.",
+        "Increase heat to high and add the broth and fresh coriander to skillet. Bring to a boil, stirring to combine. Return chicken to skillet and spoon mixture on chicken, cover, reduce heat to low and simmer for 30 minutes. Remove chicken from skillet to plate and set aside to cool.",
+        "Continue to cook onion mixture until almost dry, about 15 minutes. Add eggs, salt, and pepper to skillet and cook until soft curds form, about 3 minutes. Remove skillet from heat and set aside.",
+        "Make phyllo leaves topping: heat oven to 375 F. Spread almonds on a ungreased baking sheet and place in oven for 7 minutes or until lightly toasted. In food processor, process almonds with sugar and cinnamon until coarsely ground.",
+        "When chicken is cool enough to handle, tear chicken into 2-inch-long strips.",
+        "To assemble bastilla, place phyllo between 1 sheet of parchment paper and cover with damp towel at all times. Brush 12-inch pizza pan with some melted butter. Remove 1 sheet of Phyllo and place on pan, letting the edges hang over the rim. Brush phyllo with butter. Working quickly, stack and butter 1/2 the sheets, arranging them in the pan in an overlapping, circular fashion.",
+        "On center of phyllo, in even layers, place half the topping, half of onion-egg mixture, all of chicken, the remaining onion-egg mixture, and the remaining Topping, Fold overhanging phyllo over top of bastilla and brush top with butter.",
+        "Continue to butter the other 1/2 of the phyllo sheets in the same pinwheel fashion over top of bastilla. Carefully tuck the overhanging ends underneath it. Brush top and side of bastilla with butter.",
+        "Heat oven to 350 F and bake bastilla 20 minutes, or until golden. Place a baking sheet or another 12-inch pizza pan over the bastilla and invert so that the underside is now on top. Return to oven on the new pan and bake 25 minutes longer or until crisp and golden.",
+        "When the bastilla is ready, flip as above on a serving plate. Sprinkle confectioners' sugar and ground cinnamon on top of bastilla, with a handful of toasted almonds slices if you wish."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Chicken Bastilla using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "在一个大煎锅中，用中高火加热1汤匙橄榄油。放入鸡胸肉，煎至四面金黄。将鸡肉从煎锅中取出，放在一旁备用。",
+        "在同一个煎锅中加入洋葱、大蒜、生姜和1汤匙油。不断翻炒，直到洋葱呈半透明状。加入肉桂、孜然、芫荽粉、红辣椒粉、姜黄粉和藏红花。转小火，不断翻炒，直到洋葱完全裹上香料，大约3分钟。",
+        "转大火，将鸡汤和新鲜香菜倒入煎锅。煮沸，搅拌均匀。将鸡肉放回煎锅，用勺子将混合物浇在鸡肉上，盖上锅盖，转小火慢炖30分钟。将鸡肉从煎锅中取出，放在盘中冷却。",
+        "继续翻炒洋葱混合物，直到水分几乎收干，大约15分钟。加入鸡蛋、盐和胡椒粉，煮至形成柔软的蛋块，大约3分钟。将煎锅从火上移开，放在一旁备用。",
+        "制作酥皮馅料：将烤箱预热至 375 华氏度（约 190 摄氏度）。将杏仁铺在未涂油的烤盘上，放入烤箱烘烤 7 分钟或直至略微烤香。将杏仁、糖和肉桂放入食品加工机中，研磨成粗粉。",
+        "待鸡肉冷却至可以处理时，将其撕成 2 英寸（约 5 厘米）长的条状。",
+        "组装巴斯蒂拉时，将酥皮放在两张烘焙纸之间，并始终用湿毛巾盖住。在 12 英寸（约 30 厘米）的披萨盘上刷一层融化的黄油。取出一张酥皮，放在烤盘上，边缘垂在烤盘边缘。在酥皮上刷一层黄油。迅速将一半的酥皮叠起来，并在酥皮上刷上黄油，然后将它们以重叠的圆形方式排列在烤盘中。",
+        "在酥皮中央，均匀地铺上一半的馅料、一半的洋葱鸡蛋混合物、全部鸡肉、剩余的洋葱鸡蛋混合物和剩余的馅料。将多余的酥皮折叠到巴斯蒂拉饼上，并在表面刷上黄油。",
+        "继续用同样的方法，将剩余的一半酥皮以螺旋状涂抹黄油，覆盖在巴斯蒂拉饼上。小心地将多余的酥皮边缘塞到下面。在巴斯蒂拉饼的顶部和侧面刷上黄油。",
+        "将烤箱预热至 175 摄氏度（350 华氏度），烘烤巴斯蒂拉饼 20 分钟，或直至金黄色。将一个烤盘或另一个 30 厘米（12 英寸）的披萨盘盖在巴斯蒂拉饼上，翻转过来，使底部朝上。将巴斯蒂拉饼放在新的烤盘上，放回烤箱继续烘烤 25 分钟，或直至酥脆金黄。",
+        "巴斯蒂拉饼烤好后，按照上述步骤翻转，放在上菜盘上。在巴斯蒂拉饼上撒上糖粉和肉桂粉，如果喜欢的话，还可以撒上一把烤杏仁片。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Chicken Bastilla using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "In a large skillet heat 1 tablespoon olive oil over medium-high heat. Add chicken breasts and cook until golden brown on all sides. Remove chicken from skillet and set aside.",
+        "In the same skillet add onions, garlic, ginger, and 1 tablespoon oil. Saute, stirring constantly, until onions are translucent. Stir in cinnamon, cumin, ground coriander, red pepper, turmeric, and saffron. Reduce heat to low and cook, stirring constantly, until onions are completely coated with spices, about 3 minutes.",
+        "Increase heat to high and add the broth and fresh coriander to skillet. Bring to a boil, stirring to combine. Return chicken to skillet and spoon mixture on chicken, cover, reduce heat to low and simmer for 30 minutes. Remove chicken from skillet to plate and set aside to cool.",
+        "Continue to cook onion mixture until almost dry, about 15 minutes. Add eggs, salt, and pepper to skillet and cook until soft curds form, about 3 minutes. Remove skillet from heat and set aside.",
+        "Make phyllo leaves topping: heat oven to 375 F. Spread almonds on a ungreased baking sheet and place in oven for 7 minutes or until lightly toasted. In food processor, process almonds with sugar and cinnamon until coarsely ground.",
+        "When chicken is cool enough to handle, tear chicken into 2-inch-long strips.",
+        "To assemble bastilla, place phyllo between 1 sheet of parchment paper and cover with damp towel at all times. Brush 12-inch pizza pan with some melted butter. Remove 1 sheet of Phyllo and place on pan, letting the edges hang over the rim. Brush phyllo with butter. Working quickly, stack and butter 1/2 the sheets, arranging them in the pan in an overlapping, circular fashion.",
+        "On center of phyllo, in even layers, place half the topping, half of onion-egg mixture, all of chicken, the remaining onion-egg mixture, and the remaining Topping, Fold overhanging phyllo over top of bastilla and brush top with butter.",
+        "Continue to butter the other 1/2 of the phyllo sheets in the same pinwheel fashion over top of bastilla. Carefully tuck the overhanging ends underneath it. Brush top and side of bastilla with butter.",
+        "Heat oven to 350 F and bake bastilla 20 minutes, or until golden. Place a baking sheet or another 12-inch pizza pan over the bastilla and invert so that the underside is now on top. Return to oven on the new pan and bake 25 minutes longer or until crisp and golden.",
+        "When the bastilla is ready, flip as above on a serving plate. Sprinkle confectioners' sugar and ground cinnamon on top of bastilla, with a handful of toasted almonds slices if you wish."
       ]
     },
-    "tags": [
-      "baked",
-      "stew"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "sweet",
+      "mild",
+      "rich"
+    ],
+    "image_url": "/Recipe Image/Africa/AF-MO-002.png"
   },
   {
     "id": "AF-MO-003",
@@ -172,78 +308,354 @@
     },
     "subcategory": {
       "en": "Morocco",
-      "zh": "Morocco",
+      "zh": "摩洛哥",
       "sv": "Morocco"
     },
     "dish_name": {
-      "en": "Couscous with Seven Vegetables",
-      "zh": "Couscous with Seven Vegetables",
-      "sv": "Couscous with Seven Vegetables"
+      "en": "B’ssara",
+      "zh": "摩洛哥蚕豆浓汤",
+      "sv": "B’ssara"
     },
     "description": {
-      "en": "Couscous with Seven Vegetables - a classic Morocco dish prepared for home cooks.",
-      "zh": "Couscous with Seven Vegetables - 经典的Morocco菜，适合家庭烹饪。",
-      "sv": "Couscous with Seven Vegetables - en klassisk Moroccorätt anpassad för hemanvändning."
+      "en": "A thick, warming Moroccan soup or dip traditionally made from dried broad beans and served with a drizzle of olive oil.",
+      "zh": "摩洛哥浓稠暖胃的汤或蘸酱，传统上用干蚕豆制成，并淋上少许橄榄油。",
+      "sv": "En tjock, värmande marockansk soppa eller dippsås som traditionellt görs på torkade bondbönor och serveras med en skvätt olivolja."
     },
-    "total_time_min": 41,
+    "total_time_min": 45,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 8,
+    "main_type": {
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
+    },
+    "ingredients": {
+      "en": [
+        "1 cup dry fava beans",
+        "1 cup dry split peas",
+        "1 tsp cumin",
+        "1 tsp paprika",
+        "1 tsp turmeric powder",
+        "3 tbsp olive oil",
+        "3 cloves of garlic",
+        "Salt to taste"
+      ],
+      "zh": [
+        "食材",
+        "1 杯干蚕豆",
+        "1 杯干豌豆（去皮）",
+        "1 茶匙孜然粉",
+        "1 茶匙辣椒粉",
+        "1 茶匙姜黄粉",
+        "3 汤匙橄榄油",
+        "3 瓣大蒜",
+        "适量盐"
+      ],
+      "sv": [
+        "2,4 dl torkade bondbönor",
+        "2,4 dl torkade ärtor",
+        "1 tsk spiskummin",
+        "1 tsk paprikapulver",
+        "1 tsk gurkmejapulver",
+        "3 msk olivolja",
+        "3 vitlöksklyftor",
+        "Salt efter smak"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Add your dry fava beans and split peas to a large pot. Add 4 to 6 cups of water or just add enough to completely submerge your beans/peas. Place your pot on your stove at medium-high heat and add cumin, paprika, turmeric powder, salt and olive oil. Using the palm of your hand, crush your garlic cloves, peel and add them to the pot.",
+        "Bring your pot to a boil, cover and lower the heat to medium-low. Let cook for 30-35 minutes. Once your beans are broken down turn the heat off and let your pot cool down for about 10 minutes. Using an immersion blender, blend the soup until you get a smooth texture.",
+        "To garnish, add a drizzle of olive oil, some cumin and some hot cayenne powder if you're feeling bold. Serve with a slice of bread and enjoy!"
+      ],
+      "zh": [
+        "将干蚕豆和豌豆放入一个大锅中。加入 4 到 6 杯水，或者加水至完全没过豆子/豌豆即可。将锅放在炉子上，中高火加热，加入孜然、辣椒粉、姜黄粉、盐和橄榄油。用手掌压碎蒜瓣，剥皮后放入锅中。",
+        "将锅中的水烧开，盖上锅盖，转小火慢炖 30-35 分钟。待豆子煮软后关火，让锅冷却约 10 分钟。用手持搅拌机将汤搅打至顺滑。",
+        "最后，淋上少许橄榄油，撒上一些孜然，如果喜欢更辣的口味，还可以加一些辣椒粉。配上一片面包，尽情享用吧！"
+      ],
+      "sv": [
+        "Lägg dina torkade bondbönor och delade ärtor i en stor kastrull. Tillsätt 1,5 till 1,8 dl vatten, eller så mycket att bönorna/ärtorna täcks helt över. Ställ kastrullen på spisen på medelhög värme och tillsätt spiskummin, paprika, gurkmejapulver, salt och olivolja. Krossa vitlöksklyftorna med handflatan, skala dem och lägg dem i kastrullen.",
+        "Koka upp kastrullen, täck över och sänk värmen till medellåg. Låt koka i 30–35 minuter. När bönorna har gått sönder, stäng av värmen och låt kastrullen svalna i cirka 10 minuter. Mixa soppan med en stavmixer tills den har en slät konsistens.",
+        "Garnera med en skvätt olivolja, lite spiskummin och lite varmt cayennepepparpulver om du känner dig mer vågad. Servera med en skiva bröd och njut!"
+      ]
+    },
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "mild",
+      "salty",
+      "rich"
+    ],
+    "image_url": "/Recipe Image/Africa/AF-MO-003.png"
+  },
+  {
+    "id": "AF-MO-004",
+    "region": {
+      "en": "Africa",
+      "zh": "非洲",
+      "sv": "Afrika"
+    },
+    "subcategory": {
+      "en": "Morocco",
+      "zh": "摩洛哥",
+      "sv": "Morocco"
+    },
+    "dish_name": {
+      "en": "Oven-Baked Eggplant with Chermoul",
+      "zh": "烤茄子配北非香草酱",
+      "sv": "Ugnsbakad aubergine med chermoula"
+    },
+    "description": {
+      "en": "A dish featuring baked eggplant topped with the bright, complex, herb-based marinade of North Africa.",
+      "zh": "一道以烤茄子为特色的菜肴，淋上北非风味浓郁、层次丰富的香草腌料。",
+      "sv": "En rätt med bakad aubergine toppad med den ljusa, komplexa, örtbaserade marinaden från Nordafrika."
+    },
+    "total_time_min": 45,
     "difficulty": {
       "en": "Easy",
       "zh": "简单",
       "sv": "Lätt"
     },
-    "servings": 4,
+    "servings": 12,
     "main_type": {
-      "en": "Grain",
-      "zh": "谷物",
-      "sv": "Spannmål"
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
     },
     "ingredients": {
       "en": [
-        "200 g rice",
-        "1 pc onion",
-        "100 g mixed vegetables",
-        "500 ml stock"
+        "Eggplant",
+        "3 large eggplants (about 400 g each)",
+        "1/2 tsp salt",
+        "1/2 dl olive oil",
+        "Marinade",
+        "1 clove garlic",
+        "1 bunch coriander",
+        "1/2 tsp ground cumin",
+        "1 tsp mild paprika",
+        "1 tbsp finely grated lemon zest",
+        "1/2 tsp salt",
+        "2 tsp black pepper",
+        "1 dl olive oil"
       ],
       "zh": [
-        "200 g 米饭",
-        "1 pc 洋葱",
-        "100 g mixed vegetables",
-        "500 ml 高汤"
+        "茄子",
+        "3个大茄子（每个约400克）",
+        "1/2茶匙盐",
+        "1/2分升橄榄油",
+        "腌料",
+        "1瓣蒜",
+        "1束香菜",
+        "1/2茶匙孜然粉",
+        "1茶匙甜椒粉",
+        "1汤匙柠檬皮屑",
+        "1/2茶匙盐",
+        "2茶匙黑胡椒",
+        "1分升橄榄油"
       ],
       "sv": [
-        "200 g ris",
-        "1 pc lök",
-        "100 g mixed vegetables",
-        "500 ml buljong"
+        "Aubergine",
+        "3 stora auberginer (à ca 400 g)",
+        "1/2 tsk salt",
+        "1/2 dl olivolja",
+        "Marinad",
+        "1 vitlöksklyfta",
+        "1 kruka koriander",
+        "1/2 tsk malen spiskummin",
+        "1 tsk milt paprikapulver",
+        "1 msk finrivet citronskal",
+        "1/2 tsk salt",
+        "2 krm svartpeppar",
+        "1 dl olivolja"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Couscous with Seven Vegetables using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "This recipe is from Söndagspreppen, a smart way to prepare several dishes to save time later in the week.",
+        "Set the oven to 200°C.",
+        "Eggplant: Halve the eggplant lengthwise. Place on a baking sheet and sprinkle with salt. Drizzle with olive oil and mix around. Place in the middle of the oven for 30–40 minutes until the eggplant is soft and nicely colored.",
+        "Marinade: Chop the garlic and coriander. Mix with cumin, paprika, lemon zest, salt, pepper and olive oil.",
+        "Pour the marinade over the baked eggplant and let marinate for at least 10 minutes."
       ],
       "zh": [
-        "准备食材: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Couscous with Seven Vegetables using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "这道菜谱来自“周日预制菜”，这是一种巧妙的烹饪方法，可以一次性准备多道菜，节省接下来一周的时间。",
+        "将烤箱预热至200°C。",
+        "茄子：将茄子纵向切成两半。放在烤盘上，撒上盐。淋上橄榄油，拌匀。放入烤箱中层烤30-40分钟，直到茄子变软并呈金黄色。",
+        "腌料：将大蒜和香菜切碎。与孜然、辣椒粉、柠檬皮屑、盐、胡椒粉和橄榄油混合。",
+        "将腌料淋在烤好的茄子上，腌制至少10分钟。"
       ],
       "sv": [
-        "Förbered ingredienserna: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Couscous with Seven Vegetables using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Detta recept är från Söndagspreppen, ett smart sätt att förbereda flera rätter för att vinna tid senare i veckan.",
+        "Sätt ugnen på 200°C.",
+        "Aubergine: Halvera auberginen på längden. Lägg på en plåt och strö över salt. Ringla över olivolja och blanda runt. Ställ in i mitten av ugnen 30–40 minuter tills auberginen är mjuk och fått fin färg.",
+        "Marinad: Hacka vitlöken och koriandern. Blanda med spiskummin, paprikapulver, citronskal, salt, peppar och olivolja.",
+        "Häll marinaden över den bakade auberginen och låt marinera i minst 10 minuter."
       ]
     },
-    "tags": [
-      "spicy",
-      "baked"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "mild",
+      "sour",
+      "spicy"
+    ],
+    "image_url": "/Recipe Image/Africa/AF-MO-004.png"
+  },
+  {
+    "id": "AF-MO-005",
+    "region": {
+      "en": "Africa",
+      "zh": "非洲",
+      "sv": "Afrika"
+    },
+    "subcategory": {
+      "en": "Morocco",
+      "zh": "摩洛哥",
+      "sv": "Morocco"
+    },
+    "dish_name": {
+      "en": "Harira Soup with Pita Bread and Yogurt",
+      "zh": "摩洛哥扁豆鹰嘴豆浓汤配皮塔饼和酸奶",
+      "sv": "Harirasoppa med pitabröd och yoghurt"
+    },
+    "description": {
+      "en": "A traditional Moroccan soup of lentils, chickpeas, and lamb, often served to break the fast during Ramadan.",
+      "zh": "一道传统的摩洛哥汤，由扁豆、鹰嘴豆和羊肉制成，通常在斋月期间用来开斋。",
+      "sv": "En traditionell marockansk soppa med linser, kikärter och lamm, ofta serverad för att bryta fastan under Ramadan."
+    },
+    "total_time_min": 45,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
+    },
+    "ingredients": {
+      "en": [
+        "2 yellow onions",
+        "2 garlic cloves",
+        "2 stalks celery",
+        "2 carrots",
+        "1 tsp whole cumin",
+        "2 tbsp grated fresh ginger",
+        "2 tbsp olive oil",
+        "1 tsp turmeric",
+        "1/2 tsp ground cinnamon",
+        "1/2 tsp ground coriander",
+        "2 bay leaves",
+        "2 tbsp tomato paste",
+        "7 1/2 dl vegetable broth (water and diced or stock)",
+        "400 g crushed tomatoes",
+        "1 pack cooked chickpeas (400 g each)",
+        "1 pot parsley",
+        "salt",
+        "black pepper",
+        "1/2 lemon",
+        "To serve",
+        "pita bread (preferably wholemeal bread)",
+        "yogurt"
+      ],
+      "zh": [
+        "2 个黄洋葱",
+        "2 瓣大蒜",
+        "2 根芹菜",
+        "2 根胡萝卜",
+        "1 茶匙孜然籽",
+        "2 汤匙磨碎的鲜姜",
+        "2 汤匙橄榄油",
+        "1 茶匙姜黄粉",
+        "1/2 茶匙肉桂粉",
+        "1/2 茶匙芫荽粉",
+        "2 片月桂叶",
+        "2 汤匙番茄酱",
+        "7.5 分升蔬菜高汤（水加蔬菜丁或高汤）",
+        "400 克碎番茄",
+        "1 包煮熟的鹰嘴豆（每包 400 克）",
+        "1 罐欧芹",
+        "盐",
+        "黑胡椒",
+        "半个柠檬",
+        "佐餐：",
+        "皮塔饼（最好是全麦皮塔饼）",
+        "酸奶"
+      ],
+      "sv": [
+        "2 gula lökar",
+        "2 vitlöksklyftor",
+        "2 stjälkar stjälkselleri",
+        "2 morötter",
+        "1 tsk hel kummin",
+        "2 msk riven färsk ingefära",
+        "2 msk olivolja",
+        "1 tsk gurkmeja",
+        "1/2 tsk mald kanel",
+        "1/2 tsk mald koriander",
+        "2 lagerblad",
+        "2 msk tomatpuré",
+        "7 1/2 dl grönsaksbuljong (vatten och tärning eller fond)",
+        "400 g krossade tomater",
+        "1 förp kokta kikärtor (à 400 g)",
+        "1 kruka persilja",
+        "salt",
+        "svartpeppar",
+        "1/2 citron",
+        "Till servering",
+        "pitabröd (gärna fullkornsbröd)",
+        "matyoghurt"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Peel and chop the onion and garlic. Slice the celery. Peel and dice the carrots. Grind the cumin. Peel and grate the ginger.",
+        "Sauté the vegetables in the olive oil in a saucepan. Add the spices and tomato paste, sauté for about 1 minute more. Add the ginger, broth and crushed tomatoes. Cook slowly for about 20 minutes.",
+        "Pour the chickpeas into a colander, rinse them under cold water and let them drain. Chop the parsley.",
+        "Add the chickpeas to the soup, bring to the boil and season with salt, pepper and a few drops of lemon juice.",
+        "To serve: Serve the soup with parsley, pita bread and yoghurt."
+      ],
+      "zh": [
+        "将洋葱和大蒜去皮切碎。芹菜切片。胡萝卜去皮切丁。孜然磨碎。生姜去皮磨成姜蓉。",
+        "在平底锅中用橄榄油翻炒蔬菜。加入香料和番茄酱，继续翻炒约1分钟。加入姜蓉、高汤和番茄碎。小火慢炖约20分钟。",
+        "将鹰嘴豆倒入滤网中，用冷水冲洗并沥干水分。将欧芹切碎。",
+        "将鹰嘴豆加入汤中，煮沸后用盐、胡椒粉和几滴柠檬汁调味。",
+        "食用方法：将汤盛入碗中，搭配欧芹碎、皮塔饼和酸奶。"
+      ],
+      "sv": [
+        "Skala och hacka lök och vitlök. Skiva sellerin. Skala och skär morötterna i tärningar. Mortla kumminen. Skala och riv ingefäran.",
+        "Fräs grönsakerna i olivoljan i en kastrull. Tillsätt kryddor och tomatpuré, fräs ytterligare ca 1 minut. Tillsätt ingefära, buljong och tomatkross. Koka sakta ca 20 minuter.",
+        "Häll kikärterna i ett durkslag, skölj dem under kallt vatten och låt rinna av. Hacka persiljan.",
+        "Tillsätt kikärterna i soppan, koka upp och smaksätt med salt, peppar och några droppar citronsaft.",
+        "Till servering: Servera soppan med persilja, pitabröd och yoghurt."
+      ]
+    },
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "mild",
+      "salty",
+      "sour"
+    ],
+    "image_url": "/Recipe Image/Africa/AF-MO-005.png"
   },
   {
     "id": "AF-NI-001",
@@ -254,26 +666,26 @@
     },
     "subcategory": {
       "en": "Nigeria",
-      "zh": "Nigeria",
+      "zh": "尼日利亚",
       "sv": "Nigeria"
     },
     "dish_name": {
       "en": "Jollof Rice",
-      "zh": "Jollof 米饭",
+      "zh": "乔洛夫饭饭",
       "sv": "Jollof Ris"
     },
     "description": {
-      "en": "Jollof Rice - a classic Nigeria dish prepared for home cooks.",
-      "zh": "Jollof Rice - 经典的Nigeria菜，适合家庭烹饪。",
-      "sv": "Jollof Rice - en klassisk Nigeriarätt anpassad för hemanvändning."
+      "en": "West Africa's most famous dish: long-grain rice cooked in a vibrant stew of tomatoes, onions, and chili peppers.",
+      "zh": "西非最著名的菜肴：用西红柿、洋葱和辣椒炖煮的长粒米饭。",
+      "sv": "Västafrikas mest berömda rätt: långkornigt ris tillagat i en livfull gryta av tomater, lök och chilipeppar."
     },
-    "total_time_min": 64,
+    "total_time_min": 45,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
       "sv": "Medel"
     },
-    "servings": 6,
+    "servings": 4,
     "main_type": {
       "en": "Grain",
       "zh": "谷物",
@@ -281,51 +693,128 @@
     },
     "ingredients": {
       "en": [
-        "200 g rice",
-        "1 pc onion",
-        "100 g mixed vegetables",
-        "500 ml stock"
+        "Pepper and tomato sauce",
+        "1 red pepper",
+        "1/2 red pepper (chili)",
+        "1 yellow onion",
+        "2 tomatoes",
+        "Jollof",
+        "1 yellow onion",
+        "1 tbsp grated ginger",
+        "3 tbsp oil",
+        "2 garlic cloves",
+        "2 tbsp tomato paste",
+        "1/2 tbsp dried thyme",
+        "1/2 tbsp curry",
+        "1 tsp salt",
+        "1 pinch black pepper",
+        "3 dl long grain rice",
+        "4 1/2 dl water",
+        "1 chicken stock cube",
+        "1 small yellow onion",
+        "2 tomatoes",
+        "2 tbsp butter",
+        "To serve",
+        "1 pot green salad (preferably crisp lettuce)",
+        "ready-made meatballs (or see link)"
       ],
       "zh": [
-        "200 g 米饭",
-        "1 pc 洋葱",
-        "100 g mixed vegetables",
-        "500 ml 高汤"
+        "辣椒和番茄酱",
+        "1 个红甜椒",
+        "半个红甜椒（辣椒）",
+        "1 个黄洋葱",
+        "2 个番茄",
+        "乔洛夫饭",
+        "1 个黄洋葱",
+        "1 汤匙姜末",
+        "3 汤匙油",
+        "2 瓣蒜",
+        "2 汤匙番茄酱",
+        "半汤匙干百里香",
+        "半汤匙咖喱粉",
+        "1 茶匙盐",
+        "少许黑胡椒",
+        "3 分升长粒米",
+        "4.5 分升水",
+        "1 块鸡汤块",
+        "1 个小黄洋葱",
+        "2 个番茄",
+        "2 汤匙黄油",
+        "佐餐小食",
+        "1 份蔬菜沙拉（最好是脆生菜）",
+        "现成肉丸（或参见链接）"
       ],
       "sv": [
-        "200 g ris",
-        "1 pc lök",
-        "100 g mixed vegetables",
-        "500 ml buljong"
+        "Paprika- och tomatsås",
+        "1 röd paprika",
+        "1/2 röd peppar (chili)",
+        "1 gul lök",
+        "2 tomater",
+        "Jollof",
+        "1 gul lök",
+        "1 msk riven ingefära",
+        "3 msk olja",
+        "2 vitlöksklyftor",
+        "2 msk tomatpuré",
+        "1/2 msk torkad timjan",
+        "1/2 msk curry",
+        "1 tsk salt",
+        "1 krm svartpeppar",
+        "3 dl långkornigt ris",
+        "4 1/2 dl vatten",
+        "1 kycklingbuljongtärning",
+        "1 liten gul lök",
+        "2 tomater",
+        "2 msk smör",
+        "Till servering",
+        "1 kruka grönsallad (gärna krispsallad)",
+        "färdiga köttbullar (eller se länk)"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Jollof Rice using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Pepper and tomato sauce: Divide and core the peppers and chilies and cut into coarse pieces. Peel and cut the onion into pieces. Cut the tomatoes into wedges. Blend everything until smooth in a jug blender or with a hand blender. Set aside.",
+        "Jollof: Peel and slice the onion. Peel and grate the ginger finely on a grater.",
+        "Sauté the onion in the oil in a saucepan for a minute or so. Press in the garlic and sauté for another minute or so. Add the tomato puree and let it get a little color.",
+        "Add the pepper and tomato sauce, ginger, thyme, curry and salt and pepper. Bring to a boil and cook until the sauce begins to thicken, 5-10 minutes, stirring occasionally.",
+        "Stir in the rice, water and crumbled stock cube and bring to a boil. Cook according to the time instructions on the rice package, but without a lid. Stir occasionally so that the rice does not burn to the bottom of the saucepan. If necessary, dilute with more water if the rice takes a long time to cook.",
+        "Peel the onion and cut into thin slices. Cut the tomatoes into small cubes.",
+        "When the rice is ready, stir in the butter, tomato cubes and onion slices. Put a lid on and let stand for a few minutes, so that the onion softens.",
+        "To serve: Serve the rice with Meatballs and green salad."
       ],
       "zh": [
-        "准备食材: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Jollof Rice using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "辣椒番茄酱：将辣椒和甜椒去籽切块。洋葱去皮切块。番茄切成楔形。将所有食材放入搅拌机或手持搅拌器中搅拌至顺滑。备用。",
+        "乔洛夫饭：洋葱去皮切片。生姜去皮，用擦丝器擦成细末。",
+        "在平底锅中倒入油，将洋葱炒约一分钟。加入蒜末，再炒约一分钟。加入番茄泥，略微上色。",
+        "加入辣椒番茄酱、姜末、百里香、咖喱粉、盐和胡椒粉。煮沸后，小火煮5-10分钟，直至酱汁开始浓稠，期间偶尔搅拌。",
+        "加入大米、水和捏碎的浓汤宝，煮沸。按照大米包装上的说明烹煮，但不要盖盖子。偶尔搅拌，以免米饭粘锅烧焦。如果米饭煮的时间过长，必要时可加水稀释。",
+        "洋葱去皮，切成薄片。番茄切成小丁。",
+        "米饭煮好后，拌入黄油、番茄丁和洋葱片。盖上盖子焖几分钟，让洋葱变软。",
+        "食用方法：将米饭与肉丸和蔬菜沙拉一起享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Jollof Rice using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Paprika- och tomatsås: Dela och kärna ur paprikor och chili och skär i grova bitar. Skala och skär löken i bitar. Skär tomaterna i klyftor. Mixa allt till såsen slätt i en kannmixer eller med en stavmixer. Ställ åt sidan.",
+        "Jollof: Skala och skiva löken. Skala och riv ingefäran fint på ett rivjärn.",
+        "Fräs löken i oljan i en kastrull i någon minut. Pressa i vitlöken och fräs ytterligare någon minut. Tillsätt tomatpurén och låt den få lite färg.",
+        "Tillsätt paprika- och tomatsåsen, ingefära, timjan, curry samt salt och peppar. Låt koka upp och koka tills såsen börjar tjockna, 5-10 minuter, rör då och då.",
+        "Rör i ris, vatten och smulad buljongtärning och koka upp. Låt koka enligt tidsanvisningen på risförpackningen, men utan lock. Rör då och då så att riset inte bränner fast i botten på kastrullen. Späd eventuellt med mer vatten om riset har lång koktid.",
+        "Skala löken och skär i tunna skivor. Skär tomaterna i små tärningar.",
+        "När riset är färdigt, rör ner smör, tomattärningar och lökskivor. Lägg på ett lock och låt stå några minuter, så att löken mjuknar.",
+        "Till servering: Servera gärna riset med Köttbullar och grönsallad."
       ]
     },
-    "tags": [
-      "spicy",
-      "grilled"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "mild",
+      "salty",
+      "spicy"
+    ],
+    "image_url": "/Recipe Image/Africa/AF-NI-001.png"
   },
   {
     "id": "AF-NI-002",
@@ -336,26 +825,26 @@
     },
     "subcategory": {
       "en": "Nigeria",
-      "zh": "Nigeria",
+      "zh": "尼日利亚",
       "sv": "Nigeria"
     },
     "dish_name": {
       "en": "Suya (Grilled Spiced Meat)",
-      "zh": "Suya (Grilled Spiced Meat)",
-      "sv": "Suya (Grilled Spiced Meat)"
+      "zh": "苏亚烤串",
+      "sv": "Suya (Grillade kryddade köttspett)"
     },
     "description": {
-      "en": "Suya (Grilled Spiced Meat) - a classic Nigeria dish prepared for home cooks.",
-      "zh": "Suya (Grilled Spiced Meat) - 经典的Nigeria菜，适合家庭烹饪。",
-      "sv": "Suya (Grilled Spiced Meat) - en klassisk Nigeriarätt anpassad för hemanvändning."
+      "en": "A popular West African street food of skewered meat rubbed in a dry peanut-spice blend called yaji.",
+      "zh": "西非一种流行的街头小吃，是用一种叫做 yaji 的干花生香料混合物腌制的肉串。",
+      "sv": "En populär västafrikansk gatumat av kött på spett ingnidet i en torr blandning av jordnöts- och kryddkrydda som kallas yaji."
     },
-    "total_time_min": 72,
+    "total_time_min": null,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
       "sv": "Medel"
     },
-    "servings": 2,
+    "servings": 4,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -363,51 +852,124 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "For the Yajin Kuli:",
+        "1/2 cup (spooned) roasted groundnut/peanut butter powder (40 g) (see note)",
+        "1 tablespoon (5 g) ground ginger",
+        "1 tablespoon (8 g) sweet paprika",
+        "1 tablespoon (10 g) onion powder",
+        "1 tablespoon (9 g) Diamond Crystal kosher salt",
+        "if using table salt, use half as much by volume",
+        "1 teaspoon (4 g) garlic powder",
+        "1 teaspoon cayenne pepper",
+        "1/2 teaspoon ground grains of selim or grains of paradise (optional",
+        "see note)",
+        "1/2 teaspoon ground (African) cubeb pepper (see note)",
+        "1/4 teaspoon ground cloves",
+        "For the Suya:",
+        "1 pound (450 g) beef flank or sirloin steak (see note)",
+        "3 tablespoons (45 ml) peanut oil, or neutral-flavored oil, such as canola",
+        "For Serving:",
+        "Red onions, thinly sliced",
+        "Tomatoes",
+        "Limes, halved",
+        "Crisp lettuce",
+        "Coriander leaves"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "主要配料",
+        "亚金库利：",
+        "1/2 杯（用勺子舀取）烤花生粉/花生酱粉（40 克）（见注）",
+        "1 汤匙（5 克）姜粉",
+        "1 汤匙（8 克）甜椒粉",
+        "1 汤匙（10 克）洋葱粉",
+        "1 汤匙（9 克）钻石水晶牌犹太盐；如果使用食盐，用量减半（按体积计）",
+        "1 茶匙（4 克）蒜粉",
+        "1 茶匙辣椒粉",
+        "1/2 茶匙磨碎的芝麻或天堂椒（可选；见注）",
+        "1/2 茶匙磨碎的（非洲）荜澄茄（见注）",
+        "1/4 茶匙磨碎的丁香",
+        "烤肉串（Suya）所需食材：",
+        "1 磅（450 克）牛腩或西冷牛排（见注）",
+        "3 汤匙（45 毫升）花生油，或味道清淡的食用油，例如菜籽油",
+        "配菜：",
+        "红洋葱，切薄片",
+        "番茄",
+        "青柠，切半",
+        "爽脆的生菜",
+        "香菜叶"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "För Yajin Kuli:",
+        "1/2 kopp (sked) rostat jordnöts-/jordnötssmörpulver (40 g) (se anmärkning)",
+        "1 matsked (5 g) malen ingefära",
+        "1 matsked (8 g) söt paprika",
+        "1 matsked (10 g) lökpulver",
+        "1 matsked (9 g) Diamond Crystal kosher salt",
+        "om du använder bordssalt, använd hälften så mycket i volym",
+        "1 tesked (4 g) vitlökspulver",
+        "1 tesked cayennepeppar",
+        "1/2 tesked malda selimkorn eller paradisfrö (valfritt",
+        "se anmärkning)",
+        "1/2 tesked malen (afrikansk) cubebpeppar (se anmärkning)",
+        "1/4 tesked malda kryddnejlikor",
+        "För Suya:",
+        "450 g oxflank eller ryggbiff (se anmärkning)",
+        "3 matskedar (45 ml) jordnötsolja eller neutral smaksatt olja, såsom raps",
+        "Till servering:",
+        "Rödlök, tunt skivad",
+        "Tomater",
+        "Lime, halverad",
+        "Krispig sallad",
+        "Korianderblad"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Suya using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "For the Yajin Kuli: In a small mixing bowl, combine groundnut/peanut butter powder, ground ginger, sweet paprika, onion powder, kosher salt, garlic powder, cayenne pepper powder, ground grains of selim (if desired), cubeb pepper, and ground cloves. Whisk to mix thoroughly, about 30 seconds. Set aside.",
+        "For the Suya: Wrap beef tightly in plastic wrap and place on a plate or small baking sheet and set in the freezer until the beef is partially frozen and firm to the touch, 15 to 30 minutes. Using a sharp chef's knife or slicing knife, slice beef against the grain into 2-inch-long, 1-inch-wide, and 1/8-inch-thick strips. (The easiest and most efficient way to do this is to start by portioning the beef into 2-inch-wide by 1-inch-thick pieces, and then slicing those pieces crosswise into 1/8-inch-thick strips.)",
+        "Place sliced beef in large mixing bowl and drizzle peanut oil over it. Sprinkle 1/2 cup of yajin kuli over the beef and carefully toss and massage spice rub into beef until it is evenly coated. Cover, place in refrigerator, and allow beef to marinate for at least 30 minutes and up to 8 hours.",
+        "Working with one piece of beef at a time, thread beef onto skewers, piercing each piece through twice to secure it, then bunching meat tightly together like an accordion. Continue threading beef onto skewer, making sure it's bunched tightly together, leaving no parts of the skewer exposed except for a 2-inch handle at the bottom and the pointy tip at the top. Repeat skewering process with remaining beef.",
+        "If Using Skewer-Specific Grill Setup: Set up grill for skewers, making sure to adjust distance between bricks to the length of your skewers. Light one chimney full of charcoal. When all the charcoal is lit and covered with gray ash, pour out and spread the coals evenly in the channel between bricks.",
+        "Place skewers directly over the hot coals, balancing them on top of the bricks, with the handles overhanging the bricks closest to you, and the tips balancing on the farther wall of bricks. Cook, turning frequently, until beef is lightly charred and a piece of beef looks cooked through when removed and cut in half, about 8 minutes. If flare-ups occur, move the skewers around as needed to get them away from the flames. Transfer to serving platter and let rest 2 to 3 minutes (see note).",
+        "If Using Conventional Charcoal or Gas Grill: Light 1 chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and spread coals evenly over half of coal grate. Alternatively, set half the burners of a gas grill to high heat. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Clean and oil grilling grate.",
+        "Place skewers on grate and cook over direct heat, turning once, until charred on both sides and a piece of beef looks cooked through when removed and cut in half, about 8 minutes. Transfer to serving platter and let rest 2 to 3 minutes (see note).",
+        "For Serving: Serve with reserved yajin kuli, thinly sliced red onions, tomatoes, lime halves, crisp lettuce, and coriander leaves and tender stems."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Suya using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "亚金库利酱：在一个小碗中，混合花生粉/花生酱粉、姜粉、甜椒粉、洋葱粉、粗盐、蒜粉、辣椒粉、磨碎的塞利姆（可选）、荜澄茄粉和丁香粉。搅拌均匀，约30秒。放在一旁备用。",
+        "苏亚烤肉：将牛​​肉用保鲜膜紧紧包裹，放在盘子或小烤盘上，放入冰箱冷冻15至30分钟，直至牛肉部分冻硬且摸起来结实。用锋利的厨刀或切片刀，逆纹将牛肉切成2英寸长、1英寸宽、1/8英寸厚的条状。 （最简单有效的方法是先将牛肉切成 2 英寸宽、1 英寸厚的块，然后再将这些块横切成 1/8 英寸厚的条状。）",
+        "将切好的牛肉放入一个大碗中，淋上花生油。撒上 1/2 杯亚金库利香料，轻轻搅拌并按摩牛肉，直到香料均匀裹在牛肉上。盖上盖子，放入冰箱腌制至少 30 分钟，最多 8 小时。",
+        "一次取一块牛肉，将其串在烤肉串上，每块牛肉要穿过烤肉串两次以固定，然后像拉手风琴一样将牛肉紧紧地捆在一起。继续将牛肉串在烤肉串上，确保牛肉紧紧地捆在一起，烤肉串除了底部 2 英寸长的手柄和顶部的尖头外，其他部分都不要露出来。用剩余的牛肉重复上述串肉步骤。",
+        "如果使用烤肉串专用烤架：设置烤架，确保砖块之间的距离与肉串的长度相匹配。点燃一烟囱的木炭。待所有木炭燃烧并表面覆盖一层灰烬后，将其均匀地倒在砖块之间的缝隙中。",
+        "将肉串直接放在热炭上，使其平衡地放在砖块上，手柄悬于靠近你的砖块上方，尖端则悬于较远的砖块上。烤制过程中需经常翻动，直至牛肉表面略微焦黄，且取出切开的牛肉块看起来已完全熟透，大约需要 8 分钟。如果出现明火，请根据需要移动肉串，使其远离火焰。将烤好的牛肉盛入盘中，静置 2 至 3 分钟（参见注释）。",
+        "如果使用传统木炭或燃气烤炉：点燃一烟囱木炭。待所有木炭燃烧并表面覆盖一层灰烬后，将木炭倒出并均匀铺在烤架的一半上。或者，将燃气烤炉一半的燃烧器调至高温。放上烤架，盖上烤炉盖，预热 5 分钟。清洁烤架并涂油。",
+        "将烤串放在烤架上，直接用火烤制，翻面一次，直至两面焦黄，取出牛肉切开后确认完全熟透，大约需要 8 分钟。将烤串转移到上菜盘中，静置 2 至 3 分钟（见注）。",
+        "食用方法：搭配预留的亚金库利酱、切成薄片的红洋葱、西红柿、对半切开的青柠、爽脆的生菜以及香菜叶和嫩茎。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Suya using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "För Yajin Kuli: Blanda jordnötssmörpulver, malen ingefära, paprika, lökpulver, koshersalt, vitlökspulver, cayennepepparpulver, malda selimkorn (om så önskas), cubebpeppar och malda kryddnejlikor i en liten bunke. Vispa för att blanda noggrant, cirka 30 sekunder. Ställ åt sidan.",
+        "För Suya: Vira in nötköttet tätt i plastfolie och lägg det på en tallrik eller en liten bakplåt och ställ in i frysen tills nötköttet är delvis fryst och fast vid beröring, 15 till 30 minuter. Använd en vass kockkniv eller skivkniv och skiva nötköttet mot fibrerna i 5 cm långa, 2,5 cm breda och 3 mm tjocka strimlor. (Det enklaste och mest effektiva sättet att göra detta är att börja med att portionera nötköttet i 5 cm breda och 2,5 cm tjocka bitar och sedan skiva dessa bitar tvärs över i 3 mm tjocka strimlor.)",
+        "Lägg skivat nötkött i en stor bunke och ringla jordnötsolja över det. Strö 1/2 kopp yajin kuli över köttet och blanda försiktigt in kryddblandningen och massera in den i köttet tills det är jämnt täckt. Täck över, ställ i kylskåp och låt köttet marinera i minst 30 minuter och upp till 8 timmar.",
+        "Arbeta med en bit kött åt gången, trä köttet på spett, stick igenom varje bit två gånger för att fästa det, och knyta sedan ihop köttet tätt som ett dragspel. Fortsätt trä köttet på spett och se till att det är tätt ihop, så att inga delar av spettet är synliga förutom ett 5 cm stort handtag längst ner och den spetsiga spetsen längst upp. Upprepa spettprocessen med resterande kött.",
+        "Om du använder spettspecifik grillinstallation: Ställ in grillen för spett och se till att justera avståndet mellan spetten till spettens längd. Tänd en skorsten full med kol. När allt kol är tänt och täckt med grå aska, häll ut kolen och fördela dem jämnt i kanalen mellan spetten.",
+        "Placera spetten direkt över de heta kolen och balansera dem ovanpå tegelstenarna, med handtagen hängande över tegelstenarna närmast dig och spetsarna balanserande på den bortre väggen av tegelstenar. Stek under ständig vändning tills köttet är lätt brynt och en bit kött ser genomstekt ut när den tas bort och delas på mitten, cirka 8 minuter. Om det uppstår en uppflammning, flytta spetten efter behov för att få dem bort från lågorna. Lägg över på ett serveringsfat och låt vila i 2 till 3 minuter (se anmärkning).",
+        "Om du använder vanlig kolgrill eller gasgrill: Tänd en skorsten full med kol. När allt kol är tänt och täckt med grå aska, häll ut kolen och fördela dem jämnt över hälften av kolgallret. Alternativt kan du ställa in hälften av brännarna på en gasgrill på hög värme. Sätt grillgallret på plats, täck över grillen och låt förvärmas i 5 minuter. Rengör och olja grillgallret.",
+        "Placera spetten på gallret och stek över direkt värme, vänd en gång, tills de är brynt på båda sidor och en bit kött ser genomstekt ut när den tas bort och delas på mitten, cirka 8 minuter. Lägg över på ett serveringsfat och låt vila i 2–3 minuter (se anmärkning).",
+        "Servering: Servera med sparad yajin kuli, tunt skivad rödlök, tomater, limehalvor, krispig sallad samt korianderblad och mjuka stjälkar."
       ]
     },
-    "tags": [
-      "quick",
-      "family"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "Notes\r\nIf you can only find raw peanut powder, toast it in a dry pan on medium to low heat for 5 to 6 minutes, stirring constantly and making sure you're stirring to the bottom of the pan, until it goes from beige to brown. Remove from heat and spread on a plate/baking sheet to cool. Once cool, you can pass it through a fine sieve to get rid of any clumps.\r\nIf you can't find peanut powder, you can use the same amount of unsweetened peanut butter.\r\nIf you don't have the grains of selim, grains of paradise, or cubeb pepper, they can be replaced by using ground black pepper.\r\nIn Nigeria, the cooked suya is left to rest for a few hours and then reheated on the grill later, which intensifies the flavors.\r\nMake-Ahead and Storage\r\nThe yajin kuli spice blend can be made far in advance. Stored in an airtight container, it will keep in the refrigerator or freezer for up to 6 months.\r\nThe skewers can be grilled in advance, as well. Well-wrapped, the skewers will keep in the refrigerator for up to 8 hours. Reheat them on a grill before serving.",
+      "zh": "备注\r\n如果您只能找到生花生粉，请将其放入干锅中，用中低火烘烤 5 至 6 分钟，期间不断搅拌，确保翻炒至锅底，直至花生粉由米色变为棕色。关火，将花生粉摊开在盘子或烤盘上冷却。冷却后，您可以将其过筛，去除结块。\r\n如果您找不到花生粉，可以使用等量的无糖花生酱代替。\r\n如果您没有塞利姆辣椒、天堂椒或荜澄茄，可以用黑胡椒粉代替。\r\n在尼日利亚，烤好的苏亚会静置几个小时，然后再在烤架上重新加热，这样可以使味道更加浓郁。\r\n提前制作和储存\r\n雅金库利香料混合物可以提前很久制作。将其储存在密封容器中，可在冰箱或冷冻室保存长达 6 个月。\r\n烤串也可以提前烤好。用保鲜膜包好后，烤串可以在冰箱里保存长达8小时。食用前在烤架上重新加热即可。",
+      "sv": "Anmärkningar\r\nOm du bara kan hitta rått jordnötspulver, rosta det i en torr panna på medel till låg värme i 5 till 6 minuter, rör om ständigt och se till att du rör ner till botten av pannan, tills det går från beige till brunt. Ta bort från värmen och bred ut det på en tallrik/bakplåt för att svalna. När det har svalnat kan du sila det genom en fin sil för att få bort eventuella klumpar.\r\nOm du inte hittar jordnötspulver kan du använda samma mängd osötat jordnötssmör.\r\nOm du inte har selimkorn, paradisfrö eller cubebpeppar kan de ersättas med malen svartpeppar.\r\nI Nigeria får den kokta suya vila i några timmar och värms sedan upp på grillen senare, vilket intensifierar smakerna.\r\nFörberedelse och förvaring\r\nYajin kuli-kryddblandningen kan göras långt i förväg. Förvaras i en lufttät behållare håller den i kylskåp eller frys i upp till 6 månader.\r\nSpetten kan också grillas i förväg. Väl inslagna håller spetten sig i kylskåp i upp till 8 timmar. Värm upp dem på en grill innan servering."
+    },
+    "taste_preferences": [
+      "spicy",
+      "rich",
+      "salty"
+    ],
+    "image_url": "/Recipe Image/Africa/AF-NI-002.png"
   },
   {
     "id": "AF-NI-003",
@@ -418,26 +980,26 @@
     },
     "subcategory": {
       "en": "Nigeria",
-      "zh": "Nigeria",
+      "zh": "尼日利亚",
       "sv": "Nigeria"
     },
     "dish_name": {
       "en": "Egusi Stew",
-      "zh": "Egusi Stew",
-      "sv": "Egusi Stew"
+      "zh": "埃古西炖菜",
+      "sv": "Egusi-gryta"
     },
     "description": {
-      "en": "Egusi Stew - a classic Nigeria dish prepared for home cooks.",
-      "zh": "Egusi Stew - 经典的Nigeria菜，适合家庭烹饪。",
-      "sv": "Egusi Stew - en klassisk Nigeriarätt anpassad för hemanvändning."
+      "en": "A West African soup thickened with ground melon seeds, giving it a rich texture and nutty flavor.",
+      "zh": "西非汤，用磨碎的瓜子增稠，使其口感浓郁，带有坚果香味。",
+      "sv": "En västafrikansk soppa som förtjockats med malda melonfrön, vilket ger den en rik konsistens och nötig smak."
     },
-    "total_time_min": 18,
+    "total_time_min": 35,
     "difficulty": {
-      "en": "Easy",
-      "zh": "简单",
-      "sv": "Lätt"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
-    "servings": 1,
+    "servings": 8,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -445,51 +1007,96 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "1.5 cups ground egusi",
+        "6.0 large tomatoes chopped",
+        "1.0 medium onion chopped",
+        "1.0 stems green onions chopped",
+        "5.0 cloves garlic peeled",
+        "1.0 inch ginger peeled",
+        "1.0 habanero pepper optional",
+        "2.0 cubes Maggi 4g per cube",
+        "1.0 cup oil",
+        "230 g beef cut into pieces and boiled with salt",
+        "1.0 teaspoon salt adjust as needed"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "1.5 杯磨碎的西瓜籽",
+        "6 个大番茄，切碎",
+        "1 个中等大小的洋葱，切碎",
+        "1 根葱，切碎",
+        "5 瓣大蒜，去皮",
+        "1 英寸生姜，去皮",
+        "1 个哈瓦那辣椒（可选）",
+        "2 块美极鲜味汁（每块 4 克）",
+        "1 杯油",
+        "230 克 牛肉，切块，加盐煮熟",
+        "1 茶匙盐（根据需要调整用量）"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "1,5 dl mald egusi",
+        "6,0 stora hackade tomater",
+        "1,0 medelstor hackad lök",
+        "1,0 stjälkar hackade salladslök",
+        "5,0 skalade vitlöksklyftor",
+        "3 cm skalad ingefära",
+        "1,0 habaneropeppar (valfritt)",
+        "2,0 tärningar Maggi 4 g per tärning",
+        "1,0 dl olja",
+        "230 g nötkött skuret i bitar och kokt med salt",
+        "1,0 tsk salt, justera efter behov"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Egusi Stew using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Blend together garlic, ginger and half of the green onions then set aside.",
+        "Pour oil into a pot and heat on high for about 4 minutes.",
+        "Add in chopped onions and let it saute for 3 minutes until translucent. Be sure to stir from time to time.",
+        "Add in chopped tomatoes and let it cook until the tomato shrinks and starts sticking to the bottom of the pot.",
+        "Add in ground spices (garlic, ginger and onions) then stir for about 2 minutes. This brings out the flavor of the spices.",
+        "Add in ground egusi (with no added water) and mix well. Keep mixing for about 5 minutes (some egusi will stick to the bottom of the pot – that’s okay!)",
+        "Add in beef with stock. Then add in more water (I added about 1 cup) to get the desired consistency. I always make my stew a little lighter than I would want it at this point because as it simmers, a little of the water dries up. Add salt, seasoning cubes and habanero pepper (gorund or whole according to preference – I normally add it whole with stem on so the heat doesn’t get to every part of the food.)",
+        "Mix well, cover pot and let it simmer for 5 minutes.",
+        "Add in green onions, stir well and turn off the heat.",
+        "Enjoy with boiled rice, plantains or any starchy side of choice."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Egusi Stew using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将蒜、姜和一半的葱花混合捣碎，备用。",
+        "锅中倒入油，大火加热约4分钟。",
+        "加入切碎的洋葱，翻炒3分钟至洋葱呈半透明状。期间需不时搅拌。",
+        "加入切碎的番茄，煮至番茄萎缩并开始粘锅底。",
+        "加入磨碎的香料（蒜、姜和洋葱），翻炒约2分钟。这样可以激发香料的香味。",
+        "加入磨碎的西瓜籽（无需加水），搅拌均匀。继续搅拌约5分钟（部分西瓜籽会粘锅底——没关系！）。",
+        "加入牛肉和牛肉汤。然后根据个人喜好加入适量的水（我加了约1杯），直至达到理想的浓稠度。此时，我通常会把炖菜做得比最终想要的略稀一些，因为炖煮过程中，水分会略微蒸发掉。加入盐、调味块和哈瓦那辣椒（磨碎或整颗均可，根据个人喜好——我通常连蒂一起放，这样辣味就不会渗透到食物的每个角落）。",
+        "搅拌均匀，盖上锅盖，小火慢炖 5 分钟。",
+        "加入葱花，搅拌均匀，关火。",
+        "可搭配米饭、芭蕉或任何您喜欢的淀粉类配菜享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Egusi Stew using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Blanda vitlök, ingefära och hälften av salladslöken och ställ sedan åt sidan.",
+        "Häll olja i en kastrull och värm på hög värme i cirka 4 minuter.",
+        "Tillsätt hackad lök och låt den fräsa i 3 minuter tills den är genomskinlig. Rör om då och då.",
+        "Tillsätt hackade tomater och låt det koka tills tomaten krymper och börjar fastna i botten av kastrullen.",
+        "Tillsätt malda kryddor (vitlök, ingefära och lök) och rör sedan om i cirka 2 minuter. Detta framhäver kryddornas smak.",
+        "Tillsätt mald egusi (utan tillsatt vatten) och blanda väl. Fortsätt att blanda i cirka 5 minuter (en del egusi kommer att fastna i botten av kastrullen – det är okej!).",
+        "Tillsätt nötköttet med buljong. Tillsätt sedan mer vatten (jag tillsatte cirka 1 kopp) för att få önskad konsistens. Jag gör alltid min gryta lite lättare än jag skulle vilja ha den vid det här laget eftersom lite av vattnet torkar ut när den sjuder. Tillsätt salt, kryddbitar och habaneropeppar (gul eller hel efter tycke och smak – jag brukar lägga i den hel med stjälken på så att inte värmen når hela maten).",
+        "Blanda väl, täck över grytan och låt det sjuda i 5 minuter.",
+        "Tillsätt salladslök, rör om väl och stäng av värmen.",
+        "Smaksätt med kokt ris, kokbananer eller valfritt stärkelserikt tillbehör."
       ]
     },
-    "tags": [
-      "spicy",
-      "gluten-free"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "You could substitute the beef in this recipe with chicken or fish.\r\nTo make this recipe vegan, use mushrooms instead of beef.",
+      "zh": "这道菜谱中的牛肉可以用鸡肉或鱼肉代替。\r\n如果想做成纯素菜谱，可以用蘑菇代替牛肉。",
+      "sv": "Du kan ersätta nötköttet i det här receptet med kyckling eller fisk.\r\nFör att göra det här receptet veganskt, använd svamp istället för nötkött."
+    },
+    "taste_preferences": [
+      "rich",
+      "mild",
+      "salty",
+      "spicy"
+    ],
+    "image_url": "/Recipe Image/Africa/AF-NI-003.png"
   },
   {
     "id": "AF-SO-001",
@@ -500,26 +1107,26 @@
     },
     "subcategory": {
       "en": "South Africa",
-      "zh": "南Africa",
-      "sv": "South Africa"
+      "zh": "南非",
+      "sv": "Sydafrika"
     },
     "dish_name": {
       "en": "Bobotie",
-      "zh": "Bobotie",
+      "zh": "波波蒂",
       "sv": "Bobotie"
     },
     "description": {
-      "en": "Bobotie - a classic South Africa dish prepared for home cooks.",
-      "zh": "Bobotie - 经典的South Africa菜，适合家庭烹饪。",
-      "sv": "Bobotie - en klassisk South Africarätt anpassad för hemanvändning."
+      "en": "South Africa's national dish: a baked minced meat casserole topped with a custard and bay leaves.",
+      "zh": "南非国菜：烤肉末砂锅，上面浇上蛋奶沙司和月桂叶。",
+      "sv": "Sydafrikas nationalrätt: en ugnsbakad köttfärsgryta toppad med vaniljsås och lagerblad."
     },
-    "total_time_min": 42,
+    "total_time_min": null,
     "difficulty": {
-      "en": "Medium",
-      "zh": "中等",
-      "sv": "Medel"
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
     },
-    "servings": 1,
+    "servings": 6,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -527,51 +1134,95 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "2 slices white bread",
+        "2 onions",
+        "chopped",
+        "25g butter",
+        "2 garlic cloves",
+        "crushed",
+        "1kg packet lean minced beef",
+        "2 tbsp Madras curry paste",
+        "1 tsp dried mixed herbs",
+        "3 cloves",
+        "5 allspice",
+        "berries",
+        "2 tbsp peach or mango chutney",
+        "3 tbsp sultana",
+        "6 bay leaves",
+        "For the topping",
+        "300ml full-cream milk",
+        "2 large eggs"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "2片白面包",
+        "2个洋葱（切碎）",
+        "25克黄油",
+        "2瓣大蒜（压碎）",
+        "1公斤瘦牛肉末",
+        "2汤匙马德拉斯咖喱酱",
+        "1茶匙混合干香草",
+        "3粒丁香",
+        "5粒多香果",
+        "浆果",
+        "2汤匙桃子或芒果酸辣酱",
+        "3汤匙苏丹娜葡萄干",
+        "6片月桂叶",
+        "淋面：",
+        "300毫升全脂牛奶",
+        "2个大鸡蛋"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "2 skivor vitt bröd",
+        "2 lökar [hackade]",
+        "25 g smör",
+        "2 vitlöksklyftor [krossade]",
+        "1 kg paket mager nötfärs",
+        "2 msk Madras currypasta",
+        "1 tsk torkade blandade örter",
+        "3 kryddnejlikor",
+        "5 kryddpeppar",
+        "bär",
+        "2 msk persika- eller mangochutney",
+        "3 msk russin",
+        "6 lagerblad",
+        "Till topping",
+        "300 ml helmjölk",
+        "2 stora ägg"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Bobotie using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Heat oven to 180C/fan 160C/gas 4. Pour cold water over the bread and set aside to soak.",
+        "Meanwhile, fry the onions in the butter, stirring regularly for 10 mins until they are soft and starting to colour. Add the garlic and beef and stir well, crushing the mince into fine grains until it changes colour. Stir in the curry paste, herbs, spices, chutney, sultanas and 2 of the bay leaves with 1 tsp salt and plenty of ground black pepper.",
+        "Cover and simmer for 10 mins. Squeeze the water from the bread, then beat into the meat mixture until well blended. Tip into an oval ovenproof dish (23 x 33cm and about 5-6cm deep). Press the mixture down well and smooth the top. You can make this and chill 1 day ahead.",
+        "For the topping, beat the milk and eggs with seasoning, then pour over the meat. Top with the remaining bay leaves and bake for 35-40 mins until the topping is set and starting to turn golden."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Bobotie using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "烤箱预热至180摄氏度/风扇烤箱160摄氏度/燃气烤箱4档。将面包浸泡在冷水中。",
+        "同时，用黄油炒洋葱，并不时搅拌，煎10分钟至洋葱变软并开始上色。加入蒜末和牛肉末，翻炒均匀，将牛肉末压碎成细粒，直至变色。加入咖喱酱、香草、香料、酸辣酱、葡萄干、2片月桂叶、1茶匙盐和大量现磨黑胡椒粉。",
+        "盖上锅盖，小火慢炖10分钟。挤干面包中的水分，然后将其拌入肉馅中，搅拌均匀。将混合物倒入一个椭圆形烤盘（23 x 33厘米，约5-6厘米深）。将混合物压实并抹平表面。此步骤可提前一天完成并冷藏。",
+        "制作淋面：将牛奶和鸡蛋与调味料搅拌均匀，然后淋在肉馅上。撒上剩余的月桂叶，烘烤 35-40 分钟，直到馅料凝固并开始变成金黄色。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Bobotie using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Värm ugnen till 180°C/varmluft 160°C/gasugn 4. Häll kallt vatten över brödet och låt det blötläggas.",
+        "Stek under tiden löken i smöret under ständig omrörning i 10 minuter tills den är mjuk och börjar få färg. Tillsätt vitlök och nötfärs och rör om väl. Krossa färsen till fina korn tills den ändrar färg. Rör i currypastan, örter, kryddor, chutney, russin och 2 lagerblad med 1 tsk salt och rikligt med malen svartpeppar.",
+        "Täck över och låt sjuda i 10 minuter. Krama ur vattnet från brödet och blanda sedan ner det i köttblandningen tills det är väl blandat. Häll i en oval ugnssäker form (23 x 33 cm och ca 5-6 cm djup). Tryck ner blandningen väl och jämna till ytan. Du kan göra detta och kyla det 1 dag i förväg.",
+        "För toppingen, vispa mjölk och ägg med kryddor och häll sedan över köttet. Toppa med resterande lagerblad och grädda i 35-40 minuter tills toppingen har stelnat och börjar bli gyllenbrun."
       ]
     },
-    "tags": [
-      "gluten-free",
-      "baked"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "rich",
+      "sweet",
+      "mild",
+      "sour"
+    ],
+    "image_url": "/Recipe Image/Africa/AF-SO-001.png"
   },
   {
     "id": "AF-SO-002",
@@ -582,26 +1233,26 @@
     },
     "subcategory": {
       "en": "South Africa",
-      "zh": "南Africa",
-      "sv": "South Africa"
+      "zh": "南非",
+      "sv": "Sydafrika"
     },
     "dish_name": {
       "en": "Braai Grilled Steak",
-      "zh": "Braai Grilled Steak",
-      "sv": "Braai Grilled Steak"
+      "zh": "布拉伊烤牛排",
+      "sv": "Braai-grillad biff"
     },
     "description": {
-      "en": "Braai Grilled Steak - a classic South Africa dish prepared for home cooks.",
-      "zh": "Braai Grilled Steak - 经典的South Africa菜，适合家庭烹饪。",
-      "sv": "Braai Grilled Steak - en klassisk South Africarätt anpassad för hemanvändning."
+      "en": "Steak prepared over an open fire, central to the South African grilling tradition and social culture.",
+      "zh": "用明火烹制的牛排是南非烧烤传统和社会文化的核心。",
+      "sv": "Biff tillagad över öppen eld, central för den sydafrikanska grilltraditionen och sociala kulturen."
     },
-    "total_time_min": 71,
+    "total_time_min": 60,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
       "sv": "Medel"
     },
-    "servings": 6,
+    "servings": 4,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -609,51 +1260,78 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "1 kg washed chops",
+        "4 tablespoon mayonnaise",
+        "4 tablespoon tomato sauce",
+        "4 tablespoon barbecue sauce",
+        "To taste Salt",
+        "1 tsp cinnamon",
+        "1 tsp turmeric",
+        "2 tsp ground coriander",
+        "2 tsp paprika",
+        "2 tsp mixed herbs",
+        "1 tbsp lemon juice",
+        "1 tsp ground black pepper",
+        "1 tsp aromat"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "1公斤洗净的肉排",
+        "4汤匙蛋黄酱",
+        "4汤匙番茄酱",
+        "4汤匙烧烤酱",
+        "适量盐",
+        "1茶匙肉桂粉",
+        "1茶匙姜黄粉",
+        "2茶匙芫荽粉",
+        "2茶匙辣椒粉",
+        "2茶匙混合香草",
+        "1汤匙柠檬汁",
+        "1茶匙黑胡椒粉",
+        "1茶匙香料粉"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "1 kg tvättade kotletter",
+        "4 msk majonnäs",
+        "4 msk tomatsås",
+        "4 msk barbecuesås",
+        "Efter smak Salt",
+        "1 tsk kanel",
+        "1 tsk gurkmeja",
+        "2 tsk malen koriander",
+        "2 tsk paprika",
+        "2 tsk blandade örter",
+        "1 msk citronsaft",
+        "1 tsk malen svartpeppar",
+        "1 tsk arom"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Braai Grilled Steak using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Marinate chops/steak in mayonnaise, tomato sauce, barbecue sauce, salt, cinnamon, turmeric, ground coriander, paprika, mixed herbs, lemon juice, ground black pepper and Aromat and allow to sit in the marinade for 2 hours.",
+        "Place on braai stand and cook each side, basting with the extra marinade in the bowl.",
+        "Take off the braai stand and Enjoy"
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Braai Grilled Steak using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将猪排/牛排用蛋黄酱、番茄酱、烧烤酱、盐、肉桂、姜黄、芫荽粉、辣椒粉、混合香草、柠檬汁、黑胡椒粉和香料粉调味料腌制2小时。",
+        "将肉排/牛排放在烤架上，每面烤制，期间用碗中剩余的腌料涂抹。",
+        "取下烤架，即可享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Braai Grilled Steak using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Marinera kotletter/biffar i majonnäs, tomatsås, barbecuesås, salt, kanel, gurkmeja, malen koriander, paprika, blandade örter, citronsaft, malen svartpeppar och Aromat och låt ligga i marinaden i 2 timmar. Placera på grillställ och tillaga varje sida, pensla med den extra marinaden från skålen. Ta av grillstället och njut."
       ]
     },
-    "tags": [
-      "gluten-free",
-      "family"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "salty",
+      "mild",
+      "rich"
+    ],
+    "image_url": "/Recipe Image/Africa/AF-SO-002.png"
   },
   {
     "id": "AF-SO-003",
@@ -664,26 +1342,26 @@
     },
     "subcategory": {
       "en": "South Africa",
-      "zh": "南Africa",
-      "sv": "South Africa"
+      "zh": "南非",
+      "sv": "Sydafrika"
     },
     "dish_name": {
       "en": "Bunny Chow",
-      "zh": "Bunny Chow",
+      "zh": "面包咖喱盒",
       "sv": "Bunny Chow"
     },
     "description": {
-      "en": "Bunny Chow - a classic South Africa dish prepared for home cooks.",
-      "zh": "Bunny Chow - 经典的South Africa菜，适合家庭烹饪。",
-      "sv": "Bunny Chow - en klassisk South Africarätt anpassad för hemanvändning."
+      "en": "A unique South African street food where a hollowed-out loaf of white bread is filled with curry.",
+      "zh": "南非特色街头小吃，将掏空的白面包填满咖喱。",
+      "sv": "En unik sydafrikansk gatumat där ett urholkat vitt bröd fylls med curry."
     },
-    "total_time_min": 44,
+    "total_time_min": 60,
     "difficulty": {
       "en": "Hard",
       "zh": "困难",
       "sv": "Svår"
     },
-    "servings": 2,
+    "servings": 4,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -691,51 +1369,107 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "3 tbsp ghee",
+        "1 tsp cumin seeds",
+        "1 x 5cm (2 inch) cinnamon stick",
+        "20 fresh or frozen curry leaves",
+        "2 medium onions, finely chopped",
+        "2 tbsp garlic and ginger paste",
+        "2 green bird’s eye chillies, finely chopped                                                                                                                                     1 tbsp ground cumin",
+        "1 tbsp ground coriander",
+        "1 tsp cayenne chilli powder",
+        "1 tbsp Kashmiri chilli powder",
+        "900g (2 lbs) chicken thighs cut into bite sized pieces",
+        "2 medium tomatoes, diced",
+        "1 tbsp tomato puree",
+        "2 medium potatoes, diced into 2.5cm (1 inch) cubes",
+        "225g (1/2 lb.) swede (rutabaga) diced into 2.5cm (1 inch) cubes.                                                                                          500ml (2 cups) unsalted chicken stock or water",
+        "Salt to taste",
+        "1 tsp garam masala",
+        "Fresh coriander leaves, for garnish, optional"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "3汤匙酥油",
+        "1茶匙孜然籽",
+        "1根5厘米（2英寸）长的肉桂棒",
+        "20片新鲜或冷冻咖喱叶",
+        "2个中等大小的洋葱，切碎",
+        "2汤匙蒜姜蓉",
+        "2个青辣椒，切碎",
+        "1汤匙孜然粉",
+        "1汤匙芫荽粉",
+        "1茶匙辣椒粉",
+        "1汤匙克什米尔辣椒粉",
+        "900克（2磅）鸡腿肉，切成一口大小的块",
+        "2个中等大小的番茄，切丁",
+        "1汤匙番茄酱",
+        "2个中等大小的土豆，切成2.5厘米（1英寸）的方块",
+        "225克（1/2磅）芜菁甘蓝，切成2.5厘米（1英寸）的方块。 500毫升（2杯）无盐鸡汤或水",
+        "适量盐",
+        "1茶匙印度香料粉",
+        "新鲜香菜叶（可选，用于装饰）"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "3 msk ghee",
+        "1 tsk spiskumminfrön",
+        "1 x 5 cm kanelstång",
+        "20 färska eller frysta curryblad",
+        "2 medelstora lökar, finhackade",
+        "2 msk vitlök- och ingefärapasta",
+        "2 gröna fågelögechilier, finhackade",
+        "1 msk malen spiskummin",
+        "1 msk malen koriander",
+        "1 tsk cayennepepparpulver",
+        "1 msk kashmiriskt chilipulver",
+        "900 g kycklinglår i munsbitsstora bitar",
+        "2 medelstora tomater, tärnade",
+        "1 msk tomatpuré",
+        "2 medelstora potatisar, tärnade i 2,5 cm stora tärningar",
+        "225 g kålrot tärnad i 2,5 cm stora tärningar",
+        "500 ml osaltad kycklingbuljong eller vatten",
+        "Salt efter smak",
+        "1 tsk garam masala",
+        "Färska korianderblad, till garnering, valfritt"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Bunny Chow using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Melt the ghee over medium high heat. When visibly hot, stir in the cumin seeds, cinnamon stick and curry leaves and move these around in the ghee with your spatula until fragrant. About 30 seconds should do. Stir in the chopped onions and fry for about 5 minutes or until soft and translucent.",
+        "Now add the garlic and ginger paste and stir it around in the onions for about 30 seconds. Then add the ground spices and tomatoes and stir some more to combine.",
+        "Add the chunks of potato and swede and then add just enough water to cover. Simmer for 20 to 30 minutes or until the swede is turning soft.",
+        "Stir in the chicken and top with more water if needed. You only want to add enough water to almost cover the meat so that it cooks through.",
+        "Continue simmering until the chicken is cooked through and you have a thick sauce. Taste it and season with salt to taste.",
+        "To serve, sprinkle in the garam masala and garnish with chopped coriander. Serve as it is or bunny chow style in hallowed out bread loaves."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Bunny Chow using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "中高火融化酥油。待酥油明显变热后，加入孜然籽、肉桂棒和咖喱叶，用锅铲翻炒至香味散发，大约30秒即可。加入切碎的洋葱，翻炒约5分钟，直至洋葱变软呈半透明状。",
+        "加入蒜蓉和姜蓉，与洋葱翻炒约30秒。然后加入磨碎的香料和番茄，继续翻炒均匀。",
+        "加入土豆块和芜菁甘蓝块，加水至刚好没过食材。小火慢炖20至30分钟，直至芜菁甘蓝变软。",
+        "加入鸡肉，如果需要可以再加一些水。加水量只需刚好没过鸡肉即可，确保鸡肉煮熟。",
+        "继续小火慢炖，直至鸡肉完全煮熟，汤汁浓稠。尝一下味道，根据个人口味加盐调味。",
+        "食用时，撒上印度香料粉，并用切碎的香菜装饰。可直接食用，也可像做咖喱面包一样，盛在挖空的面包里。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Bunny Chow using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Smält gheen på medelhög värme. När den är synligt varm, rör i spiskumminfrön, kanelstången och currybladen och rör om dessa i gheen med din spatel tills de doftar. Cirka 30 sekunder räcker. Rör i den hackade löken och stek i cirka 5 minuter eller tills den är mjuk och genomskinlig.",
+        "Tillsätt nu vitlök- och ingefärspastan och rör om den i löken i cirka 30 sekunder. Tillsätt sedan de malda kryddorna och tomaterna och rör om lite mer.",
+        "Tillsätt potatis- och kålrotsbitarna och tillsätt sedan precis så mycket vatten att de täcker. Låt sjuda i 20 till 30 minuter eller tills kålroten mjuknar.",
+        "Rör i kycklingen och toppa med mer vatten om det behövs. Du bör bara tillsätta tillräckligt med vatten för att nästan täcka köttet så att det är genomstekt.",
+        "Fortsätt sjuda tills kycklingen är genomstekt och du har en tjock sås. Smaka av och krydda med salt efter smak.",
+        "Strö över garam masala och garnera med hackad koriander vid servering. Servera som den är eller som bunny chow i fritterade brödlimpor."
       ]
     },
-    "tags": [
-      "stew",
-      "family"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "salty",
+      "rich",
+      "spicy"
+    ],
+    "image_url": "/Recipe Image/Africa/AF-SO-003.png"
   },
   {
     "id": "AF-SO-004",
@@ -746,20 +1480,146 @@
     },
     "subcategory": {
       "en": "South Africa",
-      "zh": "南Africa",
-      "sv": "South Africa"
+      "zh": "南非",
+      "sv": "Sydafrika"
     },
     "dish_name": {
       "en": "Chakalaka",
-      "zh": "Chakalaka",
+      "zh": "查卡拉卡蔬菜酱",
       "sv": "Chakalaka"
     },
     "description": {
-      "en": "Chakalaka - a classic South Africa dish prepared for home cooks.",
-      "zh": "Chakalaka - 经典的South Africa菜，适合家庭烹饪。",
-      "sv": "Chakalaka - en klassisk South Africarätt anpassad för hemanvändning."
+      "en": "A vibrant South African vegetable relish or stew, typically spicy and served cold as an accompaniment.",
+      "zh": "一道色彩鲜艳的南非蔬菜酱或炖菜，通常口味辛辣，冷食作为配菜。",
+      "sv": "En livfull sydafrikansk grönsaksrelish eller gryta, vanligtvis kryddig och serveras kall som tillbehör."
     },
-    "total_time_min": 17,
+    "total_time_min": 30,
+    "difficulty": {
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
+    },
+    "ingredients": {
+      "en": [
+        "3 tbsp oil",
+        "1 onion finely chopped",
+        "2 cloves garlic crushed",
+        "50 g ginger finely grated",
+        "2 tbsp mild curry powder",
+        "1 red pepper finely chopped",
+        "1 yellow pepper finely chopped",
+        "5 large carrots (unpeeled but scrubbed and topped and tailed) grated",
+        "2 tbsp tomato purée",
+        "400 g can chopped tomatoes",
+        "2 sprigs fresh thyme leaves only",
+        "400 g can baked beans",
+        "Salt and pepper to taste"
+      ],
+      "zh": [
+        "3 汤匙油",
+        "1 个洋葱，切碎",
+        "2 瓣大蒜，压碎",
+        "50 克生姜，磨碎",
+        "2 汤匙咖喱粉（温和）",
+        "1 个红甜椒，切碎",
+        "1 个黄甜椒，切碎",
+        "5 根大胡萝卜（无需去皮，但需洗净并去蒂去尾），磨碎",
+        "2 汤匙番茄酱",
+        "400 克罐装番茄丁",
+        "2 枝新鲜百里香叶",
+        "400 克罐装焗豆",
+        "盐和胡椒粉适量"
+      ],
+      "sv": [
+        "3 msk olja",
+        "1 finhackad lök",
+        "2 krossade vitlöksklyftor",
+        "50 g finriven ingefära",
+        "2 msk mild currypulver",
+        "1 finhackad röd paprika",
+        "1 finhackad gul paprika",
+        "5 stora morötter (oskalade men skrubbade och toppade och skurna) rivna",
+        "2 msk tomatpuré",
+        "400 g burk hackade tomater",
+        "2 kvistar, endast färska timjanblad",
+        "400 g burk bakade bönor",
+        "Salt och peppar efter smak"
+      ]
+    },
+    "steps": {
+      "en": [
+        "To a pan over medium heat, add the oil. Then add onion and sauté until translucent and softened.",
+        "Add garlic, ginger and curry powder. Stir to combine.",
+        "Add peppers. Cook for 2 mins.",
+        "Add carrots. Stir to combine and ensure they’re coated in curry powder.",
+        "Add tomatoes and tomato paste. Stir to combine.",
+        "Cook mixture for 5-10 mins. Mixture should be well combined and thickened slightly.",
+        "Add baked beans and fresh thyme. Simmer for 5 mins.",
+        "Remove from heat. Can be served hot or cold."
+      ],
+      "zh": [
+        "平底锅中火加热，倒入油。加入洋葱，翻炒至半透明且变软。",
+        "加入蒜末、姜末和咖喱粉，翻炒均匀。",
+        "加入甜椒，翻炒2分钟。",
+        "加入胡萝卜，翻炒均匀，确保胡萝卜裹上咖喱粉。",
+        "加入番茄和番茄酱，翻炒均匀。",
+        "将混合物煮5-10分钟，直至充分融合并略微浓稠。",
+        "加入烤豆和新鲜百里香，小火慢炖5分钟。",
+        "关火。可热食或冷食。"
+      ],
+      "sv": [
+        "Tillsätt oljan i en stekpanna på medelvärme. Tillsätt sedan löken och fräs tills den är genomskinlig och mjuk.",
+        "Tillsätt vitlök, ingefära och currypulver. Rör om.",
+        "Tillsätt paprika. Stek i 2 minuter.",
+        "Tillsätt morötter. Rör om och se till att de är täckta av currypulver.",
+        "Tillsätt tomater och tomatpuré. Rör om.",
+        "Koka blandningen i 5–10 minuter. Blandningen ska vara väl blandad och tjockna något.",
+        "Tillsätt bakade bönor och färsk timjan. Låt sjuda i 5 minuter.",
+        "Ta bort från värmen. Kan serveras varm eller kall."
+      ]
+    },
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "spicy",
+      "sour",
+      "sweet"
+    ],
+    "image_url": "/Recipe Image/Africa/AF-SO-004.png"
+  },
+  {
+    "id": "AF-SO-005",
+    "region": {
+      "en": "Africa",
+      "zh": "非洲",
+      "sv": "Afrika"
+    },
+    "subcategory": {
+      "en": "South Africa",
+      "zh": "南非",
+      "sv": "Sydafrika"
+    },
+    "dish_name": {
+      "en": "Potjiekos",
+      "zh": "普杰科斯炖菜",
+      "sv": "Potjiekos"
+    },
+    "description": {
+      "en": "A traditional South African slow-cooked stew layered in a three-legged, round cast-iron pot (potjie).",
+      "zh": "南非传统慢炖菜，用三脚圆形铸铁锅（potjie）分层烹制。",
+      "sv": "En traditionell sydafrikansk långkokt gryta lagad i en trebent, rund gjutjärnsgryta (potjie)."
+    },
+    "total_time_min": null,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
@@ -773,132 +1633,127 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "1 tablespoons butter",
+        "4 tablespoons sunflower oil",
+        "2–3 garlic cloves, minced",
+        "800g-1kg beef, chopped (Use chuck, T-bone, brisket, stewing steak or even rump!)",
+        "3 tablespoons flour to sprinkle over meat",
+        "3 onions, chopped",
+        "1 cup celery, chopped",
+        "1 pack diced bacon",
+        "1 teaspoon thyme",
+        "1 teaspoon ground coriander",
+        "1 teaspoon ground cumin",
+        "1 butternut chopped (2–3 cups chopped)",
+        "10 baby potatoes, cut in half",
+        "2 carrots, sliced diagonally",
+        "4 small or 2 large baby marrows, sliced diagonally",
+        "2 TBS tomato paste",
+        "2/3 cup red wine",
+        "1 cups beef stock",
+        "1 cup Passata",
+        "Salt and pepper"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "1 汤匙黄油",
+        "4 汤匙葵花籽油",
+        "2-3 瓣蒜，切碎",
+        "800-1 公斤牛肉，切块（可选用牛肩肉、T 骨牛排、牛腩、炖牛排，甚至牛臀肉！）",
+        "3 汤匙面粉，用于撒在肉上",
+        "3 个洋葱，切碎",
+        "1 杯芹菜，切碎",
+        "1 包培根丁",
+        "1 茶匙百里香",
+        "1 茶匙芫荽粉",
+        "1 茶匙孜然粉",
+        "1 个冬南瓜，切块（约 2-3 杯）",
+        "10 个小土豆，对半切开",
+        "2 根胡萝卜，斜切",
+        "4 个小西葫芦或 2 个大西葫芦，斜切",
+        "2 汤匙番茄酱",
+        "2/3 杯红酒",
+        "1 杯牛肉高汤",
+        "1 杯番茄酱",
+        "盐和胡椒粉"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "1 msk smör",
+        "4 msk solrosolja",
+        "2–3 vitlöksklyftor, hackade",
+        "800 g–1 kg nötkött, hackat (Använd oxfilé, T-bone, bringa, stuvbiff eller till och med rumpstek!)",
+        "3 msk mjöl att strö över köttet",
+        "3 lökar, hackade",
+        "1 dl selleri, hackad",
+        "1 förpackning tärnat bacon",
+        "1 tsk timjan",
+        "1 tsk malen koriander",
+        "1 tsk malen spiskummin",
+        "1 butternutbiff hackad (2–3 dl hackad)",
+        "10 små potatisar, delade på mitten",
+        "2 morötter, skivade diagonalt",
+        "4 små eller 2 stora små morötter, skivade diagonalt",
+        "2 msk tomatpuré",
+        "2/3 dl rött vin",
+        "1 dl nötbuljong",
+        "1 dl passata",
+        "Salt och peppar"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Chakalaka using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Prepare all the ingredients – chop, slice and measure out everything!",
+        "Sprinkle the flour over the meat and mix to make sure it is well covered",
+        "Over hot coals, place the potjie pot (I used a size 2 potjie pot which served 5 of us easily plus leftovers) and add the oil and butter. Allow it to heat up until almost bubbling. Add the meat in 2 or 3 batches and brown it on all sides. Remove meat from the potjie and set aside.",
+        "Add the onion, celery, garlic, bacon, coriander, cumin and thyme and allow to cook and soften for 3-4 minutes.",
+        "Remove some coals now to reduce the heat to a very gentle simmer.",
+        "Add the meat back to the pot, add the potatoes, carrots, baby marrows and butternut (or whatever vegetables you have chosen). No need to stir.",
+        "Mix the tomato paste, red wine, beef stock and passata together in a jug and then add to the pot. Again, no need to stir through once the liquid is in the potjie pot.",
+        "Grind a generous amount of salt and black pepper into the pot.",
+        "Place the lid on and sit back and relax!",
+        "Allow to simmer for 3 hours or longer, up to 4 or 5 hours.",
+        "Check the potjie every 40 minutes or so to make sure it is not too hot – you want a gentle simmer and not a ferocious boil!",
+        "You may want to stir the potjie after an hour or two to make sure the meat is not stuck to the bottom. Generally speaking, you want to avoid over-stirring.",
+        "If you have too much liquid towards the end, just take the lid off and allow some liquid to burn off.",
+        "Serve with rice or mashed potato or even pasta!"
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Chakalaka using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "准备好所有食材——切块、切片并称量好！",
+        "将面粉撒在肉上，搅拌均匀，确保肉块完全裹上面粉。",
+        "将炖锅放在热炭上（我用的是2号炖锅，足够我们5个人吃，还有剩余），加入油和黄油。加热至油即将沸腾。分2-3批放入肉块，煎至四面金黄。将肉块从炖锅中取出，放在一旁备用。",
+        "加入洋葱、芹菜、大蒜、培根、香菜、孜然和百里香，翻炒3-4分钟至香料变软。",
+        "取出一些炭火，将火调至小火慢炖。",
+        "将肉块放回锅中，加入土豆、胡萝卜、小西葫芦和冬南瓜（或其他你选择的蔬菜）。无需搅拌。",
+        "将番茄酱、红酒、牛肉高汤和番茄泥混合在一个量杯中，然后倒入锅中。再次提醒，汤汁倒入锅中后无需搅拌。",
+        "在锅中加入适量的盐和黑胡椒粉。",
+        "盖上锅盖，放松一下！",
+        "慢炖3小时或更长时间，最多可达4到5小时。",
+        "每隔40分钟左右检查一下锅，确保温度不要过高——要保持小火慢炖，而不是剧烈沸腾！",
+        "炖煮一到两个小时后，可以搅拌一下，防止肉粘锅底。一般来说，要避免过度搅拌。",
+        "如果最后汤汁过多，可以打开锅盖，让一些汤汁蒸发掉。",
+        "可以搭配米饭、土豆泥，甚至意面享用！"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Chakalaka using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Förbered alla ingredienser – hacka, skiva och mät upp allt!",
+        "Strö mjöl över köttet och blanda så att det är väl täckt.",
+        "Placera grytan över heta kol (jag använde en gryta storlek 2 som räckte till 5 personer plus rester) och tillsätt olja och smör. Låt det värmas upp tills det nästan bubblar. Lägg i köttet i 2 eller 3 omgångar och bryn det på alla sidor. Ta upp köttet ur grytan och ställ åt sidan.",
+        "Tillsätt lök, selleri, vitlök, bacon, koriander, spiskummin och timjan och låt det koka och mjukna i 3-4 minuter.",
+        "Ta bort några kol nu för att sänka värmen till en mycket svag sjudning.",
+        "Lägg tillbaka köttet i grytan, tillsätt potatis, morötter, babymaräng och butternut (eller vilka grönsaker du än valt). Ingen anledning att röra om.",
+        "Blanda tomatpuré, rödvin, nötbuljong och passata i en kanna och tillsätt sedan i grytan. Återigen, ingen anledning att röra om när vätskan är i grytan.",
+        "Mal en generös mängd salt och svartpeppar i grytan. Sätt på locket och luta dig tillbaka och slappna av! Låt sjuda i 3 timmar eller längre, upp till 4 eller 5 timmar. Kontrollera grytan ungefär var 40:e minut för att se till att den inte är för varm – du vill ha en mild sjudning och inte en häftig kokning! Du kan röra om i grytan efter en timme eller två för att se till att köttet inte fastnar i botten. Generellt sett vill du undvika att röra om för mycket. Om du har för mycket vätska mot slutet, ta bara av locket och låt lite vätska brännas av. Servera med ris eller potatismos eller till och med pasta!"
       ]
     },
-    "tags": [
-      "quick",
-      "stew"
-    ]
-  },
-  {
-    "id": "AF-SO-005",
-    "region": {
-      "en": "Africa",
-      "zh": "非洲",
-      "sv": "Afrika"
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
     },
-    "subcategory": {
-      "en": "South Africa",
-      "zh": "南Africa",
-      "sv": "South Africa"
-    },
-    "dish_name": {
-      "en": "Potjiekos",
-      "zh": "Potjiekos",
-      "sv": "Potjiekos"
-    },
-    "description": {
-      "en": "Potjiekos - a classic South Africa dish prepared for home cooks.",
-      "zh": "Potjiekos - 经典的South Africa菜，适合家庭烹饪。",
-      "sv": "Potjiekos - en klassisk South Africarätt anpassad för hemanvändning."
-    },
-    "total_time_min": 52,
-    "difficulty": {
-      "en": "Easy",
-      "zh": "简单",
-      "sv": "Lätt"
-    },
-    "servings": 3,
-    "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
-    },
-    "ingredients": {
-      "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
-      ],
-      "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
-      ],
-      "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
-      ]
-    },
-    "steps": {
-      "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Potjiekos using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
-      ],
-      "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Potjiekos using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
-      ],
-      "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Potjiekos using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
-      ]
-    },
-    "tags": [
-      "baked",
-      "vegetarian"
-    ]
+    "taste_preferences": [
+      "rich",
+      "salty",
+      "mild"
+    ],
+    "image_url": "/Recipe Image/Africa/AF-SO-005.png"
   }
 ]

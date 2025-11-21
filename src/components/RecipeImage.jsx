@@ -31,12 +31,12 @@ const RecipeImage = ({ recipe, language, alt }) => {
     return (
       <div className="recipe-image-loading">
         <div className="loading-spinner">🍽️</div>
-        <p>Generating image...</p>
+        <p>Loading image...</p>
       </div>
     )
   }
 
-  if (hasError || !imageUrl) {
+  if (!imageUrl) {
     return null
   }
 
@@ -46,10 +46,30 @@ const RecipeImage = ({ recipe, language, alt }) => {
         src={imageUrl} 
         alt={alt || 'Recipe'}
         className="recipe-main-image"
-        onError={() => {
-          setHasError(true)
+        onError={(e) => {
+          console.error('Image failed to load:', imageUrl);
+          setHasError(true);
+          // Hide the broken image
+          e.target.style.display = 'none';
+        }}
+        onLoad={() => {
+          console.log('Image loaded successfully:', imageUrl);
         }}
       />
+      {hasError && (
+        <div className="recipe-image-fallback" style={{
+          width: '100%',
+          height: '200px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          background: 'linear-gradient(135deg, #ff6b35 0%, #f7931e 100%)',
+          fontSize: '4rem',
+          borderRadius: '1rem 1rem 0 0'
+        }}>
+          🍽️
+        </div>
+      )}
     </div>
   )
 }

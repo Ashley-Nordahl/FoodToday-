@@ -44,6 +44,7 @@ function MyFavorite() {
   
   // Use refs to persist data across unmounts
   const statsCache = useRef([])
+  const favoritesCache = useRef([])
   const recipesCache = useRef([])
   const hasLoadedData = useRef(false)
   
@@ -65,8 +66,10 @@ function MyFavorite() {
       // Reset when user logs out
       hasLoadedData.current = false
       statsCache.current = []
+      favoritesCache.current = []
       recipesCache.current = []
       setStats([])
+      setFavorites([])
       setRecipes([])
     }
   }, [user?.id])

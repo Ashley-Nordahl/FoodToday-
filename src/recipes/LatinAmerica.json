@@ -8,26 +8,26 @@
     },
     "subcategory": {
       "en": "Mexico",
-      "zh": "Mexico",
+      "zh": "墨西哥",
       "sv": "Mexico"
     },
     "dish_name": {
       "en": "Tacos al Pastor",
-      "zh": "Tacos al Pastor",
+      "zh": "墨西哥烤肉卷",
       "sv": "Tacos al Pastor"
     },
     "description": {
-      "en": "Tacos al Pastor - a classic Mexico dish prepared for home cooks.",
-      "zh": "Tacos al Pastor - 经典的Mexico菜，适合家庭烹饪。",
-      "sv": "Tacos al Pastor - en klassisk Mexicorätt anpassad för hemanvändning."
+      "en": "Mexico's iconic street food: spit-grilled pork marinated in chili and pineapple, then carved directly onto small tortillas.",
+      "zh": "墨西哥的标志性街头小吃：用辣椒和菠萝腌制后，在烤肉架上烤制的猪肉，然后直接切成小块放在玉米饼上。",
+      "sv": "Mexikos ikoniska gatumat: grillat fläskkött marinerat i chili och ananas, sedan utskuret direkt på små tortillas."
     },
-    "total_time_min": 81,
+    "total_time_min": null,
     "difficulty": {
-      "en": "Hard",
-      "zh": "困难",
-      "sv": "Svår"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
-    "servings": 1,
+    "servings": 10,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -35,51 +35,106 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "10 buffet portions",
+        "2 tsp smoked paprika",
+        "2 tsp cumin",
+        "2 tsp ground coriander",
+        "1 tbsp ancho chili powder",
+        "1 tsp salt",
+        "1 kg sliced ​​pork loin",
+        "1 can pineapple rings (230 g each)",
+        "1 red chili",
+        "1 tbsp butter",
+        "Serving suggestions",
+        "10 soft corn tortillas",
+        "1 finely chopped silver onion",
+        "10 sliced ​​radishes",
+        "lime wedges",
+        "fresh coriander"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "10份自助餐份量",
+        "2茶匙烟熏辣椒粉",
+        "2茶匙孜然粉",
+        "2茶匙芫荽粉",
+        "1汤匙安乔辣椒粉",
+        "1茶匙盐",
+        "1公斤切片猪里脊肉",
+        "1罐菠萝圈（每罐230克）",
+        "1个红辣椒",
+        "1汤匙黄油",
+        "食用建议",
+        "10张软玉米饼",
+        "1个切碎的银洋葱",
+        "10个切片萝卜",
+        "青柠角",
+        "新鲜香菜"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "10 bufféportioner",
+        "2 tsk rökt paprikapulver",
+        "2 tsk spiskummin",
+        "2 tsk malen koriander",
+        "1 msk anchochilipulver",
+        "1 tsk salt",
+        "1 kg skivad fläskkarré",
+        "1 burk ananasringar (à 230 g)",
+        "1 röd chili",
+        "1 msk smör",
+        "Serveringsförslag",
+        "10 mjuka majstortillabröd",
+        "1 finhackad silverlök",
+        "10 skivade rädisor",
+        "limeklyftor",
+        "färsk koriander"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Tacos al Pastor using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Set the oven to 150°C.",
+        "Mix all the spices with the salt. Rub the meat with the spice mixture all over.",
+        "Drain and chop the pineapple. Thinly slice the chili.",
+        "Fry the pineapple and chili in the butter in a frying pan until it gets a little color. Place in an oven-safe dish.",
+        "Add the meat and cover with foil. Place in the middle of the oven for about 2 hours.",
+        "Take out and pour the pineapple sauce over the meat. Lower the heat to 125°C and bake for another 2 hours, until the meat is tender.",
+        "Pull the meat apart and mix with the sauce in the dish. Season with salt.",
+        "To serve: Serve the meat in tortilla bread with silver onions, radishes, lime wedges and coriander. Chipotle salsa, Avocado and cucumber salsa and Roasted corn salad with sour mayo are also delicious to top with!"
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Tacos al Pastor using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将烤箱预热至150°C。",
+        "将所有香料与盐混合。将香料混合物均匀涂抹在肉上。",
+        "沥干菠萝并切碎。将辣椒切成薄片。",
+        "在煎锅中用黄油将菠萝和辣椒煎至略微上色。放入一个烤箱适用的烤盘中。",
+        "放入肉，用锡纸盖住。放入烤箱中层烤约2小时。",
+        "取出烤盘，将菠萝酱汁淋在肉上。将烤箱温度调至125°C，继续烤2小时，直至肉质软嫩。",
+        "将肉撕成小块，与烤盘中的酱汁拌匀。加盐调味。",
+        "食用方法：将肉放在玉米饼上，配以银洋葱、萝卜、青柠角和香菜。搭配墨西哥辣椒莎莎酱、牛油果黄瓜莎莎酱和烤玉米沙拉配酸味蛋黄酱也十分美味！"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Tacos al Pastor using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Sätt ugnen på 150°C.",
+        "Blanda alla kryddor med saltet. Gnid in köttet med kryddblandningen runt om.",
+        "Häll av och hacka ananasen. Skiva chilin tunt.",
+        "Stek ananas och chili i smöret i en stekpanna till den får lite färg. Lägg i en ugnssäker form.",
+        "Lägg på köttet och täck med folie. Ställ in i mitten av ugnen ca 2 timmar.",
+        "Ta ut och ös köttet med ananassåsen. Sänk värmen till 125°C och baka ytterligare ca 2 timmar, tills köttet är mört.",
+        "Dra isär köttet och blanda med såsen i formen. Smaka av med salt.",
+        "Till servering: Servera köttet i tortillabröd med silverlök, rädisor, limeklyftor och koriander. Även Salsa chipotle, Avokado- och gurksalsa och Rostad majssallad med syrlig majo är mums att toppa med!"
       ]
     },
-    "tags": [
-      "quick",
-      "stew"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "spicy",
+      "sour",
+      "sweet",
+      "salty",
+      "rich"
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-ME-001.png"
   },
   {
     "id": "LA-ME-002",
@@ -90,78 +145,124 @@
     },
     "subcategory": {
       "en": "Mexico",
-      "zh": "Mexico",
+      "zh": "墨西哥",
       "sv": "Mexico"
     },
     "dish_name": {
-      "en": "Mole Poblano",
-      "zh": "Mole Poblano",
-      "sv": "Mole Poblano"
+      "en": "Taco mexican style",
+      "zh": "墨西哥式塔科",
+      "sv": "Taco på mexikanskt vis"
     },
     "description": {
-      "en": "Mole Poblano - a classic Mexico dish prepared for home cooks.",
-      "zh": "Mole Poblano - 经典的Mexico菜，适合家庭烹饪。",
-      "sv": "Mole Poblano - en klassisk Mexicorätt anpassad för hemanvändning."
+      "en": "This is a fresh, flavorful Mexican street taco featuring warm mini tortillas piled with crispy shrimp, bright bean salsa, creamy avocado, and a kick of spicy chipotle dip.",
+      "zh": "这是一道新鲜美味的墨西哥街头玉米饼，用温暖的小玉米饼包裹着酥脆的虾仁、鲜亮的豆莎莎酱、绵软的牛油果，以及辛辣的墨西哥辣椒酱。",
+      "sv": "Detta är en fräsch, smakrik mexikansk gatutaco med varma minitortillas fyllda med krispiga räkor, ljus bönsalsa, krämig avokado och en kick av kryddig chipotledipp."
     },
-    "total_time_min": 55,
+    "total_time_min": 30,
     "difficulty": {
-      "en": "Hard",
-      "zh": "困难",
-      "sv": "Svår"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
-    "servings": 3,
+    "servings": 2,
     "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
+      "en": "Seafood",
+      "zh": "海鲜",
+      "sv": "Skaldjur"
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "Bean salsa",
+        "150 g corn",
+        "200 g cooked black beans",
+        "2 tbsp rapeseed oil",
+        "1 tomato",
+        "1 bunch fresh coriander (save some for garnish)",
+        "Chipotle dip",
+        "100 g mayonnaise",
+        "100 g natural yoghurt",
+        "2 tsp chipotle powder or chilli powder",
+        "Taco",
+        "1 dl shredded cabbage",
+        "1 avocado",
+        "1 pack flavored Vannamei shrimps à 150 g (preferably Mixican style)",
+        "6 mini tortillas"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "豆莎莎酱",
+        "150克玉米粒",
+        "200克煮熟的黑豆",
+        "2汤匙菜籽油",
+        "1个番茄",
+        "1束新鲜香菜（留一些作装饰）",
+        "墨西哥辣椒酱",
+        "100克蛋黄酱",
+        "100克原味酸奶",
+        "2茶匙墨西哥辣椒粉或辣椒粉",
+        "墨西哥卷饼",
+        "1分升切碎的卷心菜",
+        "1个牛油果",
+        "1包150克装的调味南美白对虾（最好是墨西哥风味）",
+        "6张迷你玉米饼"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "Bönsalsa",
+        "150 g majs",
+        "200 g kokta svarta bönor",
+        "2 msk rapsolja",
+        "1 tomat",
+        "1 kruka färsk koriander (spara lite till garnering)",
+        "Chipotledipp",
+        "100 g majonnäs",
+        "100 g naturell yoghurt",
+        "2 tsk chipotlepulver eller chilipulver",
+        "Taco",
+        "1 dl strimlad vitkål",
+        "1 st avokado",
+        "1 förp smaksatta vannameiräkor à 150 g (gärna mixican style)",
+        "6 st mini tortillabröd"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Mole Poblano using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Bean salsa: Drain the corn and beans, rinse the beans and let them drain. Roast the corn in the rapeseed oil.",
+        "Chop the tomato and coriander and stir together with the corn and beans in a bowl.",
+        "Dip: Stir together all the ingredients for the chipotle dip in a bowl.",
+        "Taco: Shred the cabbage and chop or mash the avocado.",
+        "Fry the shrimp on high heat for 1 minute.",
+        "Heat the mini tortilla in the microwave or oven briefly until warm. Place the tortilla on a plate. Add the shredded cabbage, bean salsa, avocado, the fried shrimp and top with chipotle dip and fresh coriander. Serve."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Mole Poblano using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "豆子莎莎酱：将玉米和豆子沥干水分，冲洗豆子后沥干。用菜籽油烤玉米。",
+        "将番茄和香菜切碎，与玉米和豆子一起放入碗中搅拌均匀。",
+        "蘸酱：将墨西哥辣椒蘸酱的所有材料混合在一个碗中搅拌均匀。",
+        "塔可：将卷心菜切丝，牛油果切碎或捣成泥。",
+        "将虾仁用大火煎1分钟。",
+        "将迷你玉米饼放入微波炉或烤箱中稍微加热至温热。将玉米饼放在盘子上。加入卷心菜丝、豆子莎莎酱、牛油果泥、煎好的虾仁，淋上墨西哥辣椒蘸酱，撒上新鲜香菜。即可享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Mole Poblano using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Bönsalsa: Häll av majs och bönor, skölj bönorna och låt dem rinna av. Rosta majsen i rapsoljan.",
+        "Hacka tomat och koriander och rör ner tillsammans med majs och bönor i en skål.",
+        "Dipp: Rör ihop alla ingredienser till chipotledippen i en skål.",
+        "Taco: Strimla vitkålen och hacka eller mosa avokado.",
+        "Stek räkorna på hög värme i 1 minut.",
+        "Värm minitortilla i mikro eller ugn en kort stund tills de är varma. Lägg upp tortillan på en tallrik. Lägg på strimlad vitkål, bönsalsa, avokado, de stekta räkorna och toppa med chipotledipp och färsk koriander. Servera."
       ]
     },
-    "tags": [
-      "grilled",
-      "vegetarian"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "spicy",
+      "mild",
+      "sour",
+      "salty",
+      "rich"
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-ME-002.png"
   },
   {
     "id": "LA-ME-003",
@@ -172,26 +273,26 @@
     },
     "subcategory": {
       "en": "Mexico",
-      "zh": "Mexico",
+      "zh": "墨西哥",
       "sv": "Mexico"
     },
     "dish_name": {
-      "en": "Chiles en Nogada",
-      "zh": "Chiles en Nogada",
-      "sv": "Chiles en Nogada"
+      "en": "Honey Lime Chili Chicken Bowls",
+      "zh": "蜂蜜青柠辣椒鸡肉",
+      "sv": "Kycklingskålar med honung, lime och chili"
     },
     "description": {
-      "en": "Chiles en Nogada - a classic Mexico dish prepared for home cooks.",
-      "zh": "Chiles en Nogada - 经典的Mexico菜，适合家庭烹饪。",
-      "sv": "Chiles en Nogada - en klassisk Mexicorätt anpassad för hemanvändning."
+      "en": "A popular Mexican style bowl that perfectly balances sweet, spicy, and sour flavors, featuring chicken and vegetables roasted together and served over rice.",
+      "zh": "这道广受欢迎的墨西哥风味饭菜完美平衡了甜、辣、酸三种口味，鸡肉和蔬菜一起烤制，盖在米饭上。",
+      "sv": "En populär mexikansk skål som perfekt balanserar söta, kryddiga och syrliga smaker, med kyckling och grönsaker rostade tillsammans och serverade med ris."
     },
-    "total_time_min": 23,
+    "total_time_min": 40,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
       "sv": "Medel"
     },
-    "servings": 3,
+    "servings": 6,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -199,51 +300,110 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "1 1/2 pounds boneless chicken breasts or thighs",
+        "2 tablespoons extra virgin olive oil",
+        "2 teaspoons honey",
+        "2 cloves garlic, chopped",
+        "2 teaspoons chili powder",
+        "1 teaspoon ground cumin",
+        "salt and chili flakes",
+        "2 bell peppers, sliced",
+        "1 yellow onion, sliced",
+        "3-4 cups cooked rice",
+        "1 cup cherry tomatoes, sliced",
+        "avocado, yogurt/sour cream + limes, for serving",
+        "1/2 cup fresh cilantro, chopped",
+        "Honey Lime Vinaigrette",
+        "1/3 cup salsa verde",
+        "1/4 cup extra virgin olive oil",
+        "1 tablespoon honey",
+        "1/4 cup lime juice",
+        "flaky salt"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "1.5磅去骨鸡胸肉或鸡腿肉",
+        "2汤匙特级初榨橄榄油",
+        "2茶匙蜂蜜",
+        "2瓣蒜，切碎",
+        "2茶匙辣椒粉",
+        "1茶匙孜然粉",
+        "盐和辣椒碎",
+        "2个甜椒，切片",
+        "1个黄洋葱，切片",
+        "3-4杯熟米饭",
+        "1杯圣女果，切片",
+        "牛油果、酸奶/酸奶油和青柠，用于搭配食用",
+        "1/2杯新鲜香菜，切碎",
+        "蜂蜜青柠油醋汁",
+        "1/3杯青莎莎酱",
+        "1/4杯特级初榨橄榄油",
+        "1汤匙蜂蜜",
+        "1/4杯青柠汁",
+        "片状盐"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "450 g benfria kycklingbröst eller -lår",
+        "2 msk extra jungfruolja",
+        "2 tsk honung",
+        "2 vitlöksklyftor, hackade",
+        "2 tsk chilipulver",
+        "1 tsk malen spiskummin",
+        "salt och chiliflingor",
+        "2 paprikor, skivade",
+        "1 gul lök, skivad",
+        "3-4 dl kokt ris",
+        "1 dl körsbärstomater, skivade",
+        "avokado, yoghurt/gräddfil + lime, till servering",
+        "1/2 dl färsk koriander, hackad",
+        "Honung-limevinägrett",
+        "1/3 dl salsa verde",
+        "1/4 dl extra jungfruolja",
+        "1 msk honung",
+        "1/4 dl limejuice",
+        "flingor"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Chiles en Nogada using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Instructions",
+        "Preheat the oven to 220 °C (425 °F)",
+        "On a baking sheet, toss the chicken with olive oil, honey, garlic, chili powder, cumin, and season with chili flakes and salt.",
+        "Add the bell peppers, onion, and 1 tablespoon of olive oil – season with salt. Arrange everything evenly on the pan. Bake for 20-25 minutes or until the chicken is cooked and the peppers begin to char.",
+        "Meanwhile, make the vinaigrette. Toss all ingredients in a bowl and season with salt.",
+        "Thinly slice the chicken. Serve the chicken and peppers over bowls of rice. Top the chicken with avocado and tomatoes. Add a dollop of yogurt and fresh cilantro."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Chiles en Nogada using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "做法",
+        "烤箱预热至 220°C (425°F)。",
+        "在烤盘上，将鸡肉与橄榄油、蜂蜜、蒜末、辣椒粉、孜然粉拌匀，并撒上辣椒碎和盐调味。",
+        "加入甜椒、洋葱和 1 汤匙橄榄油，并用盐调味。将所有食材均匀地铺在烤盘上。烘烤 20-25 分钟，或直至鸡肉熟透且甜椒开始焦化。",
+        "同时，制作油醋汁。将所有油醋汁材料放入碗中拌匀，并用盐调味。",
+        "将鸡肉切成薄片。将鸡肉和甜椒盛在米饭上。在鸡肉上放上牛油果和番茄片。淋上一勺酸奶，撒上新鲜香菜。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Chiles en Nogada using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Instruktioner",
+        "Värm ugnen till 220 °C (425 °F)",
+        "Vänd kycklingen med olivolja, honung, vitlök, chilipulver, spiskummin på en bakplåt och krydda med chiliflingor och salt.",
+        "Tillsätt paprika, lök och 1 matsked olivolja – krydda med salt. Fördela allt jämnt i plåten. Grädda i 20–25 minuter eller tills kycklingen är genomstekt och paprikan börjar brynas.",
+        "Under tiden gör du vinägretten. Blanda alla ingredienser i en skål och krydda med salt.",
+        "Skiva kycklingen tunt. Servera kycklingen och paprikan över skålar med ris. Toppa kycklingen med avokado och tomater. Tillsätt en klick yoghurt och färsk koriander."
       ]
     },
-    "tags": [
-      "stew",
-      "gluten-free"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "sweet",
+      "spicy",
+      "sour",
+      "salty",
+      "mild",
+      "rich"
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-ME-003.png"
   },
   {
     "id": "LA-ME-004",
@@ -254,24 +414,24 @@
     },
     "subcategory": {
       "en": "Mexico",
-      "zh": "Mexico",
+      "zh": "墨西哥",
       "sv": "Mexico"
     },
     "dish_name": {
-      "en": "Pozole",
-      "zh": "Pozole",
-      "sv": "Pozole"
+      "en": "Chipotle Chile Lime Chicken Quesadillas",
+      "zh": "烟熏辣椒青柠鸡肉馅饼",
+      "sv": "Quesadillas med chipotle, lime och kyckling"
     },
     "description": {
-      "en": "Pozole - a classic Mexico dish prepared for home cooks.",
-      "zh": "Pozole - 经典的Mexico菜，适合家庭烹饪。",
-      "sv": "Pozole - en klassisk Mexicorätt anpassad för hemanvändning."
+      "en": "A spicy and rich Mexican favorite with chile-lime chicken and cheese sealed inside a crisp tortilla.",
+      "zh": "一道香辣浓郁的墨西哥美食，用酥脆的玉米饼包裹着辣椒青柠鸡肉和奶酪。",
+      "sv": "En kryddig och fyllig mexikansk favorit med chili-limekyckling och ost inuti en krispig tortilla."
     },
-    "total_time_min": 61,
+    "total_time_min": 30,
     "difficulty": {
-      "en": "Hard",
-      "zh": "困难",
-      "sv": "Svår"
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
     },
     "servings": 4,
     "main_type": {
@@ -281,51 +441,93 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "Chipotle Dressing",
+        "1/2 cup canned chipotle chiles in adobo",
+        "2 tablespoons extra virgin olive oil",
+        "1 teaspoon garlic powder",
+        "1 teaspoon onion powder",
+        "2 tablespoons apple cider vinegar",
+        "1 teaspoon honey",
+        "1/2 cup mayo",
+        "salt",
+        "Quesadillas",
+        "4 large tortillas",
+        "1 1/2 cups Mexican cheese blend",
+        "1-2 cups fresh or frozen corn kernels",
+        "1-1 1/2 cups grilled chicken, sliced",
+        "6 slices cooked bacon, crumbled",
+        "1/3 cup pickled or candied jalapeños",
+        "avocado, cilantro, and limes, for serving"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "墨西哥辣椒酱",
+        "1/2 杯罐装阿多波辣椒",
+        "2 汤匙特级初榨橄榄油",
+        "1 茶匙蒜粉",
+        "1 茶匙洋葱粉",
+        "2 汤匙苹果醋",
+        "1 茶匙蜂蜜",
+        "1/2 杯蛋黄酱",
+        "盐",
+        "墨西哥薄饼",
+        "4 张大玉米饼",
+        "1 1/2 杯墨西哥混合奶酪",
+        "1-2 杯新鲜或冷冻玉米粒",
+        "1-1 1/2 杯烤鸡肉片",
+        "6 片熟培根碎",
+        "1/3 杯腌制或蜜饯墨西哥辣椒",
+        "牛油果、香菜和青柠，用于搭配食用"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "Chipotledressing",
+        "1/2 dl konserverad chipotle-chili i adobo",
+        "2 msk extra jungfruolja",
+        "1 tsk vitlökspulver",
+        "1 tsk lökpulver",
+        "2 msk äppelcidervinäger",
+        "1 tsk honung",
+        "1/2 dl majonnäs",
+        "salt",
+        "Quesadillas",
+        "4 stora tortillas",
+        "1 1/2 dl mexikansk ostblandning",
+        "1-2 dl färska eller frysta majskorn",
+        "1-1 1/2 dl grillad kyckling, skivad",
+        "6 skivor kokt bacon, smulad",
+        "1/3 dl inlagd eller kanderad jalapeño",
+        "avokado, koriander och lime, till servering"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Pozole using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "To make the dressing. Combine all ingredients in a blender and blend until smooth. Taste and adjust the salt. If it's too spicy, add extra mayo.",
+        "To assemble, layer cheese, corn, chicken, bacon, and jalapeños, on one half of a tortilla. Drizzle over the chipotle dressing, then sprinkle over more cheese. Fold the tortilla over to cover everything.",
+        "Heat a drizzle of olive oil in a skillet, add 1 quesadilla, and cook 2-3 minutes per side until crisp and golden brown. Serve warm with avocado, cilantro, lime and additional chipotle dressing."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Pozole using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "制作酱汁：将所有酱汁材料放入搅拌机中搅拌至顺滑。尝一下味道，根据需要调整盐的用量。如果太辣，可以再加一些蛋黄酱。",
+        "组装：在玉米饼的一半上依次铺上奶酪、玉米粒、鸡肉、培根和墨西哥辣椒。淋上墨西哥辣椒酱汁，再撒上一些奶酪。将玉米饼对折，盖住所有食材。",
+        "在煎锅中倒入少许橄榄油，放入一张墨西哥薄饼，每面煎2-3分钟，直至酥脆金黄。趁热食用，搭配牛油果、香菜、青柠和额外的墨西哥辣椒酱汁。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Pozole using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "För att göra dressingen. Blanda alla ingredienser i en mixer och mixa tills det är slätt. Smaka av och justera saltmängden. Om det är för starkt, tillsätt extra majonnäs.",
+        "För att montera, varva ost, majs, kyckling, bacon och jalapeños på ena halvan av en tortilla. Ringla över chipotledressingen och strö sedan över mer ost. Vik tortillabrödet över så att allt täcks.",
+        "Värm lite olivolja i en stekpanna, tillsätt 1 quesadilla och stek 2–3 minuter per sida tills den är krispig och gyllenbrun. Servera varm med avokado, koriander, lime och extra chipotledressing."
       ]
     },
-    "tags": [
-      "quick",
-      "vegetarian"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "spicy",
+      "sour",
+      "rich",
+      "salty"
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-ME-004.png"
   },
   {
     "id": "LA-ME-005",
@@ -336,26 +538,26 @@
     },
     "subcategory": {
       "en": "Mexico",
-      "zh": "Mexico",
+      "zh": "墨西哥",
       "sv": "Mexico"
     },
     "dish_name": {
       "en": "Carnitas",
-      "zh": "Carnitas",
+      "zh": "墨西哥慢炖猪肉",
       "sv": "Carnitas"
     },
     "description": {
-      "en": "Carnitas - a classic Mexico dish prepared for home cooks.",
-      "zh": "Carnitas - 经典的Mexico菜，适合家庭烹饪。",
-      "sv": "Carnitas - en klassisk Mexicorätt anpassad för hemanvändning."
+      "en": "Carnitas is a beloved Mexican dish of pork that is slow-cooked in its own fat or lard until fork-tender, then lightly crisped before being served.",
+      "zh": "墨西哥烤肉（Carnitas）是一道深受喜爱的墨西哥菜，用猪肉在自身的油脂或猪油中慢烤至用叉子能轻松戳透，然后在上桌前略微煎脆。",
+      "sv": "Carnitas är en älskad mexikansk rätt med fläsk som långsamt tillagas i sitt eget fett eller ister tills den är mör med en gaffel, och sedan steks lätt krispig innan den serveras."
     },
-    "total_time_min": 22,
+    "total_time_min": null,
     "difficulty": {
-      "en": "Easy",
-      "zh": "简单",
-      "sv": "Lätt"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
-    "servings": 1,
+    "servings": 4,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -363,51 +565,130 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "1 kg pork tenderloin",
+        "1 tbsp oil",
+        "1 1/2 tsp salt",
+        "1/2 tsp black pepper",
+        "1 tsp chili powder",
+        "1 tbsp smoked paprika",
+        "1 tbsp ancho chili powder",
+        "1 tsp dried oregano",
+        "1 1/2 tsp cumin",
+        "1 tbsp brown sugar",
+        "1 spring onion",
+        "3 cloves garlic",
+        "1 bay leaf",
+        "1 lime",
+        "1/2 orange",
+        "33 cl Coca-Cola",
+        "To serve",
+        "tortilla bread",
+        "salad",
+        "pico de gallo salsa (see link in step 8)",
+        "avocado",
+        "pickled onion",
+        "jalapeño",
+        "lime wedges"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "1公斤猪里脊肉",
+        "1汤匙油",
+        "1.5茶匙盐",
+        "0.5茶匙黑胡椒",
+        "1茶匙辣椒粉",
+        "1汤匙烟熏辣椒粉",
+        "1汤匙安乔辣椒粉",
+        "1茶匙干牛至",
+        "1.5茶匙孜然",
+        "1汤匙红糖",
+        "1根葱",
+        "3瓣蒜",
+        "1片月桂叶",
+        "1个青柠",
+        "半个橙子",
+        "330毫升可口可乐",
+        "佐餐：",
+        "玉米饼",
+        "沙拉",
+        "墨西哥辣酱（参见步骤8中的链接）",
+        "牛油果",
+        "腌洋葱",
+        "墨西哥辣椒",
+        "青柠角"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "1 kg fläskkarré",
+        "1 msk olja",
+        "1 1/2 tsk salt",
+        "1/2 tsk svartpeppar",
+        "1 tsk chilipulver",
+        "1 msk rökt paprika",
+        "1 msk ancho chilipulver",
+        "1 tsk torkad oregano",
+        "1 1/2 tsk spiskummin",
+        "1 msk farinsocker",
+        "1 silverlök",
+        "3 vitlöksklyftor",
+        "1 lagerblad",
+        "1 lime",
+        "1/2 apelsin",
+        "33 cl Coca-Cola",
+        "Till servering",
+        "tortillabröd",
+        "sallad",
+        "pico de gallo salsa (se länk i steg 8)",
+        "avokado",
+        "picklad lök",
+        "jalapeño",
+        "limeklyftor"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Carnitas using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Cut the meat into 3 cm cubes and mix them with the oil in a pot with a lid that can withstand oven heat.",
+        "Season the meat all over with the spices and sugar and let it marinate in the pot for 1 hour.",
+        "Set the oven to 125°C.",
+        "Peel and cut the onion into wedges. Peel and roughly chop the garlic cloves. Place the onion and garlic around the meat in the pot. Add the bay leaf and squeeze in the juice from the lime and orange. Pour in the cola. Put the pot on the stove and bring to the boil, remove some of the foam with a spoon. Put the lid on and place the pot in the lower part of the oven. Cook for about 2 hours, until the meat is really tender.",
+        "Set the oven to full grill mode.",
+        "Lift the meat into a baking dish and pull the meat apart with a fork. Spoon over the fat from the pot.",
+        "Roast in the middle of the oven for about 10 minutes, so that the surface of the meat becomes crispy.",
+        "Serving suggestion: Spoon over some broth from the pot and serve with, for example, tortilla bread, salad, Pico de gallo, avocado, pickled red onion, jalapeño and lime wedges."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Carnitas using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将肉切成 3 厘米的立方体，放入一个带盖的耐高温锅中，加入油拌匀。",
+        "将香料和糖均匀涂抹在肉上，腌制 1 小时。",
+        "将烤箱预热至 125°C。",
+        "洋葱去皮切块。蒜瓣去皮切碎。将洋葱和蒜瓣放在锅中肉的周围。加入月桂叶，挤入青柠汁和橙汁。倒入可乐。将锅放在炉子上煮沸，用勺子撇去浮沫。盖上锅盖，将锅放入烤箱下层。烤约 2 小时，直至肉质软嫩。",
+        "将烤箱调至烧烤模式。",
+        "将肉取出放入烤盘中，用叉子将肉撕开。淋上锅中剩余的油脂。",
+        "放入烤箱中层烤约 10 分钟，直至肉的表面酥脆。",
+        "食用建议：淋上一些锅里的肉汤，搭配玉米饼、沙拉、墨西哥番茄莎莎酱、牛油果、腌红洋葱、墨西哥辣椒和青柠角等食用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Carnitas using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Skär köttet i 3 cm stora kuber och blanda dem med oljan i en gryta, med lock, som tål ugnsvärme.",
+        "Krydda köttet runt om med kryddorna och sockret och låt marinera i grytan i 1 timme.",
+        "Sätt ugnen på 125°C.",
+        "Skala och skär löken i klyftor. Skala och grovhacka vitlöksklyftorna. Lägg lök och vitlök runt om köttet i grytan. Lägg i lagerbladet och pressa i saften från limen och apelsinen. Häll på koladrycken. Sätt grytan på spisen och koka upp, tag bort lite skum med en sked. Lägg på locket och sätt in grytan i nedre delen av ugnen. Tillaga i ca 2 timmar, tills köttet är riktigt mört.",
+        "Sätt ugnen på full grilleffekt.",
+        "Lyft upp köttet i en ugnsform och dra isär köttet med en gaffel. Skeda över fettet från grytan.",
+        "Rosta mitt i ugnen ca 10 minuter, så att ytan på köttet blir krispig.",
+        "Serveringsförslag: Skeda över lite buljong från grytan och servera med t ex Tortillabröd, sallad, Pico de gallo, avokado, Picklad rödlök, jalapeño och limeklyftor."
       ]
     },
-    "tags": [
-      "stew",
-      "vegetarian"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "rich",
+      "sweet",
+      "salty",
+      "mild",
+      "sour"
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-ME-005.png"
   },
   {
     "id": "LA-PE-001",
@@ -418,26 +699,26 @@
     },
     "subcategory": {
       "en": "Peru",
-      "zh": "Peru",
+      "zh": "秘鲁",
       "sv": "Peru"
     },
     "dish_name": {
-      "en": "Ceviche",
-      "zh": "Ceviche",
-      "sv": "Ceviche"
+      "en": "Ceviche with Shrimp, Avocado, and Mango",
+      "zh": "虾仁牛油果芒果柠汁腌鱼",
+      "sv": "Ceviche med räkor, avokado och mango"
     },
     "description": {
-      "en": "Ceviche - a classic Peru dish prepared for home cooks.",
-      "zh": "Ceviche - 经典的Peru菜，适合家庭烹饪。",
-      "sv": "Ceviche - en klassisk Perurätt anpassad för hemanvändning."
+      "en": "This is a bright, refreshing Latin American seafood dish featuring shrimp \"cooked\" in tangy lime juice and balanced by creamy avocado and sweet mango.",
+      "zh": "这是一道清爽可口的拉丁美洲海鲜菜肴，以酸爽的青柠汁“烹制”的虾仁为主料，搭配绵软的牛油果和香甜的芒果，口感平衡。",
+      "sv": "Detta är en ljus, uppfriskande latinamerikansk fisk- och skaldjursrätt med räkor \"kokta\" i syrlig limejuice och balanserade av krämig avokado och söt mango."
     },
-    "total_time_min": 47,
+    "total_time_min": 30,
     "difficulty": {
       "en": "Easy",
       "zh": "简单",
       "sv": "Lätt"
     },
-    "servings": 6,
+    "servings": 4,
     "main_type": {
       "en": "Seafood",
       "zh": "海鲜",
@@ -445,51 +726,72 @@
     },
     "ingredients": {
       "en": [
-        "300 g salmon fillet",
-        "1 pc lemon",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "1 ripe mango (about 350 g each)",
+        "2 avocados",
+        "1 chili pepper",
+        "1 clove garlic",
+        "40 shrimp",
+        "1 tablespoon cooking oil",
+        "1 1/2 limes (1 1/2 limes equals 3 tablespoons lime juice)",
+        "salt",
+        "freshly ground black pepper",
+        "1/2 cup coriander (for garnish)"
       ],
       "zh": [
-        "300 g 三文鱼 fillet",
-        "1 pc 柠檬",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "1个熟芒果（每个约350克）",
+        "2个牛油果",
+        "1个辣椒",
+        "1瓣大蒜",
+        "40只虾",
+        "1汤匙食用油",
+        "1个半青柠（1个半青柠约等于3汤匙青柠汁）",
+        "盐",
+        "现磨黑胡椒",
+        "半杯香菜（用于装饰）"
       ],
       "sv": [
-        "300 g lax fillet",
-        "1 pc citron",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "1 mogen mango (à ca 350 g)",
+        "2 avokador",
+        "1 chilipeppar",
+        "1 vitlöksklyfta",
+        "40 räkor",
+        "1 msk matolja",
+        "1 1/2 lime (1 1/2 lime motsvarar 3 msk limesaft)",
+        "salt",
+        "nymalen svartpeppar",
+        "1/2 kruka koriander (till garnering)"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Ceviche using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Peel and cut the mango and avocado into small cubes. Core and finely chop the chili. Peel and grate the garlic. Peel the shrimp.",
+        "Mix the mango, avocado, chili, garlic, shrimp, oil and lime juice. Season with salt and pepper.",
+        "Divide the ceviche among plates or bowls. Garnish with coriander leaves."
       ],
       "zh": [
-        "准备食材: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Ceviche using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将芒果和牛油果去皮切成小丁。辣椒去籽切碎。大蒜去皮磨成蒜蓉。虾去壳。",
+        "将芒果、牛油果、辣椒、蒜蓉、虾、油和青柠汁混合。用盐和胡椒粉调味。",
+        "将酸橘汁腌鱼分装到盘子或碗中。撒上香菜叶装饰。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Ceviche using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Skala och skär mango och avokado i små tärningar. Dela kärna ur och hacka chilin fint. Skala och riv vitlöken. Skala räkorna.",
+        "Blanda mango, avokado, chili, vitlök, räkor, olja och limesaft. Smaka av med salt och peppar.",
+        "Fördela cevichen på tallrikar eller i skålar. Garnera med korianderblad."
       ]
     },
-    "tags": [
-      "grilled",
-      "family"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "sour",
+      "sweet",
+      "mild",
+      "salty"
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-PE-001.png"
   },
   {
     "id": "LA-PE-002",
@@ -500,20 +802,20 @@
     },
     "subcategory": {
       "en": "Peru",
-      "zh": "Peru",
+      "zh": "秘鲁",
       "sv": "Peru"
     },
     "dish_name": {
       "en": "Lomo Saltado",
-      "zh": "Lomo Saltado",
-      "sv": "Lomo Saltado"
+      "zh": "秘鲁炒牛柳",
+      "sv": "Lomo saltado – Peruansk oxfilégryta"
     },
     "description": {
-      "en": "Lomo Saltado - a classic Peru dish prepared for home cooks.",
-      "zh": "Lomo Saltado - 经典的Peru菜，适合家庭烹饪。",
-      "sv": "Lomo Saltado - en klassisk Perurätt anpassad för hemanvändning."
+      "en": "A popular Peruvian Chifa (Chinese-Peruvian fusion) stir-fry featuring marinated strips of beef, onions, tomatoes, and French fries, tossed in a tangy soy-based sauce.",
+      "zh": "一道受欢迎的秘鲁中式炒菜（Chifa），以腌制牛肉条、洋葱、西红柿和炸薯条为特色，拌入浓郁的酱油汁中。",
+      "sv": "En populär peruansk chifa (kinesisk-peruansk fusion) wokrätt med marinerade strimlor av nötkött, lök, tomater och pommes frites, vända i en syrlig sojabaserad sås."
     },
-    "total_time_min": 62,
+    "total_time_min": 30,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
@@ -527,51 +829,93 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "500 g beef fillet",
+        "2 pinches salt",
+        "1/2 tsp black pepper",
+        "3/4 dl white wine vinegar",
+        "4 tbsp Japanese soy sauce",
+        "3 tbsp oyster sauce",
+        "1 red onion",
+        "1 tomato",
+        "3 tbsp rapeseed oil",
+        "1 finely chopped spring onion",
+        "2 finely chopped garlic cloves",
+        "1 tbsp chopped coriander",
+        "To serve",
+        "French fries and boiled rice"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "500克牛里脊肉",
+        "少许盐",
+        "1/2茶匙黑胡椒粉",
+        "3/4分升白葡萄酒醋",
+        "4汤匙日式酱油",
+        "3汤匙蚝油",
+        "1个红洋葱",
+        "1个番茄",
+        "3汤匙菜籽油",
+        "1根切碎的葱",
+        "2瓣切碎的蒜",
+        "1汤匙切碎的香菜",
+        "佐以",
+        "薯条和米饭"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "500 g oxfilé",
+        "2 krm salt",
+        "1/2 tsk svartpeppar",
+        "3/4 dl vitvinsvinäger",
+        "4 msk japansk soja",
+        "3 msk ostronsås",
+        "1 rödlök",
+        "1 tomat",
+        "3 msk rapsolja",
+        "1 finskuren salladslök",
+        "2 finhackade vitlöksklyftor",
+        "1 msk hackad koriander",
+        "Till servering",
+        "pommes frites och kokt ris"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Lomo Saltado using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Cut the beef fillet into strips about 1–2 cm thick. Season with salt and pepper.",
+        "Stir together the vinegar, soy and oyster sauce.",
+        "Peel and slice the onion. Halve and core the tomato (do not use the cores). Cut the tomato flesh into thin wedges.",
+        "Heat 2 tablespoons of the oil (for 4 servings) in a frying pan. Fry the meat over high heat for about 2 minutes. Lift out and set aside.",
+        "Fry the red onion, green onion and garlic in the remaining oil for about ½ minute. Add the meat and vinegar sauce and fry for another ½ minute. Stir in the chopped tomato and coriander. Remove from the heat and season with salt and pepper if desired.",
+        "To serve: Place the meat on the French fries and top with extra coriander. Serve with boiled rice."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Lomo Saltado using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将牛里脊切成约1-2厘米厚的条状，用盐和胡椒粉调味。",
+        "将醋、酱油和蚝油混合均匀。",
+        "洋葱去皮切片。番茄对半切开，去蒂（不要用蒂）。将番茄果肉切成薄片。",
+        "在煎锅中倒入2汤匙油（4人份），加热。将牛肉条大火煎约2分钟，盛出备用。",
+        "用剩余的油将红洋葱、葱和蒜炒约半分钟。加入牛肉和醋汁，再炒半分钟。拌入切碎的番茄和香菜。关火，根据个人口味用盐和胡椒粉调味。",
+        "食用方法：将牛肉放在薯条上，撒上香菜。搭配米饭食用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Lomo Saltado using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Skär oxfilén i ca 1–2 cm tjocka strimlor. Krydda med salt och peppar.",
+        "Rör ihop vinäger, soja och ostronsås.",
+        "Skala och skiva löken. Dela och kärna ur tomaten (kärnorna används inte). Skär tomatköttet i tunna klyftor.",
+        "Värm 2 msk av oljan (för 4 port) i en stekpanna. Stek köttet på hög värme ca 2 minuter. Lyft upp och lägg åt sidan.",
+        "Fräs rödlök, salladslök och vitlök i resten av oljan ca ½ minut. Tillsätt köttet och vinägersåsen och fräs ytterligare ½ minut. Rör ner den klyftade tomaten och koriander. Ta från värmen och smaka ev av med salt och peppar.",
+        "Till servering: Lägg köttet på pommes fritesen och toppa gärna med extra koriander. Servera med kokt ris."
       ]
     },
-    "tags": [
-      "stew",
-      "vegetarian"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "sour",
+      "salty",
+      "rich",
+      "mild"
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-PE-002.png"
   },
   {
     "id": "LA-PE-003",
@@ -582,26 +926,26 @@
     },
     "subcategory": {
       "en": "Peru",
-      "zh": "Peru",
+      "zh": "秘鲁",
       "sv": "Peru"
     },
     "dish_name": {
       "en": "Aji de Gallina",
-      "zh": "Aji de Gallina",
-      "sv": "Aji de Gallina"
+      "zh": "秘鲁奶油黄辣椒鸡肉",
+      "sv": "Peruansk kycklinggryta ”Aji de Gallina”"
     },
     "description": {
-      "en": "Aji de Gallina - a classic Peru dish prepared for home cooks.",
-      "zh": "Aji de Gallina - 经典的Peru菜，适合家庭烹饪。",
-      "sv": "Aji de Gallina - en klassisk Perurätt anpassad för hemanvändning."
+      "en": "A classic Peruvian comfort food: a creamy, mildly spicy stew featuring shredded chicken, yellow aji amarillo peppers, walnuts, and cheese, typically served over rice.",
+      "zh": "一道经典的秘鲁家常菜：奶油味浓郁、微辣的炖菜，以鸡丝、黄色的阿吉阿马里洛辣椒、核桃和奶酪为主要食材，通常配米饭食用。",
+      "sv": "En klassisk peruansk comfort food: en krämig, milt kryddig gryta med strimlad kyckling, gula aji amarillopeppar, valnötter och ost, vanligtvis serverad med ris."
     },
-    "total_time_min": 58,
+    "total_time_min": 45,
     "difficulty": {
-      "en": "Hard",
-      "zh": "困难",
-      "sv": "Svår"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
-    "servings": 6,
+    "servings": 4,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -609,51 +953,105 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "3 slices of white bread",
+        "2 dl whipping cream",
+        "8 dl water",
+        "1 chicken stock cube",
+        "approx. 600 g shredded chicken fillet",
+        "3 dl rice, preferably basmati rice",
+        "2 eggs",
+        "2 yellow onions",
+        "2 cloves of garlic",
+        "1 yellow bell pepper",
+        "1 tbsp oil",
+        "1/2 dl walnuts",
+        "salt",
+        "black pepper",
+        "1 dl kalamata olives",
+        "1/2 pot chives"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "3片白面包",
+        "2分升鲜奶油",
+        "8分升水",
+        "1块鸡汤块",
+        "约600克鸡丝",
+        "3分升米饭（最好是巴斯马蒂米）",
+        "2个鸡蛋",
+        "2个黄洋葱",
+        "2瓣大蒜",
+        "1个黄甜椒",
+        "1汤匙油",
+        "0.5分升核桃",
+        "盐",
+        "黑胡椒",
+        "1分升卡拉马塔橄榄",
+        "半罐细香葱"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "3 skivor vitt bröd",
+        "2 dl vispgrädde",
+        "8 dl vatten",
+        "1 hönsbuljongtärning",
+        "ca 600 g strimlad kycklingfilé",
+        "3 dl ris, gärna basmatiris",
+        "2 ägg",
+        "2 gula lökar",
+        "2 vitlöksklyftor",
+        "1 gul spansk peppar",
+        "1 msk olja",
+        "1/2 dl valnötter",
+        "salt",
+        "svartpeppar",
+        "1 dl kalamataoliver",
+        "1/2 kruka gräslök"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Aji de Gallina using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Put the bread in the cream. Let stand.",
+        "Bring the water to the boil with the stock cube. Let the chicken simmer in the broth for about 2 minutes until cooked through. Strain the broth and save 5 dl for the sauce (serves 4).",
+        "Cook the rice according to the instructions on the package.",
+        "Boil the eggs. Place them in cold water and cook them for 6 minutes when the water has boiled.",
+        "Peel and finely chop the onion and garlic. Split, core and finely chop the bell pepper.",
+        "Sauté the onion, garlic and bell pepper in the oil in a saucepan or pot. Add the walnuts, 5 dl of the broth (serves 4), the bread and cream mixture. Blend to a smooth sauce with a hand blender.",
+        "Mix the chicken into the sauce. Season with salt and pepper.",
+        "Serve the stew with half an egg, olives and rice. Sprinkle with some finely chopped chives and a few extra walnuts when serving."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Aji de Gallina using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将面包放入奶油中浸泡片刻。",
+        "将水和浓汤宝一起煮沸。将鸡肉放入鸡汤中炖煮约2分钟，直至鸡肉完全煮熟。过滤鸡汤，留出5分升（4人份）备用。",
+        "按照包装上的说明煮米饭。",
+        "煮鸡蛋。将鸡蛋放入冷水中，待水沸腾后煮6分钟。",
+        "将洋葱和大蒜去皮切碎。将甜椒切开去籽切碎。",
+        "在平底锅或汤锅中用油炒香洋葱、大蒜和甜椒。加入核桃、5分升鸡汤（4人份）、面包和奶油混合物。用手持搅拌机将所有食材搅拌成顺滑的酱汁。",
+        "将鸡肉拌入酱汁中。用盐和胡椒粉调味。",
+        "将炖菜盛盘，配上半个鸡蛋、橄榄和米饭即可享用。上菜时撒上一些切碎的细香葱和几颗核桃。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Aji de Gallina using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Lägg brödet i grädden. Låt stå.",
+        "Koka upp vattnet med buljongtärningen. Låt kycklingen sjuda i buljongen ca 2 minuter tills den är genomkokt. Sila av buljongen och spara 5 dl till såsen (för 4 port).",
+        "Koka riset enligt anvisningen på förpackningen.",
+        "Koka äggen. Lägg dem i kallt vatten och koka dem 6 minuter när vattnet kokat upp.",
+        "Skala och finhacka lök och vitlök. Dela, kärna ur och finhacka spansk peppar.",
+        "Fräs lök, vitlök och spansk peppar i oljan i en kastrull eller gryta. Tillsätt valnötter, 5 dl av buljongen (för 4 port), bröd- och gräddblandningen. Mixa till en slät sås med stavmixer.",
+        "Blanda ner kycklingen i såsen. Smaka av med salt och peppar.",
+        "Servera grytan tillsammans med en ägghalva, oliver och ris. Strö över lite finhackad gräslök och lite extra valnötter vid servering."
       ]
     },
-    "tags": [
-      "family",
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "rich",
+      "mild",
+      "salty",
       "spicy"
-    ]
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-PE-003.png"
   },
   {
     "id": "LA-PE-004",
@@ -664,26 +1062,26 @@
     },
     "subcategory": {
       "en": "Peru",
-      "zh": "Peru",
+      "zh": "秘鲁",
       "sv": "Peru"
     },
     "dish_name": {
       "en": "Anticuchos",
-      "zh": "Anticuchos",
+      "zh": "秘鲁烤心串",
       "sv": "Anticuchos"
     },
     "description": {
-      "en": "Anticuchos - a classic Peru dish prepared for home cooks.",
-      "zh": "Anticuchos - 经典的Peru菜，适合家庭烹饪。",
-      "sv": "Anticuchos - en klassisk Perurätt anpassad för hemanvändning."
+      "en": "A Peruvian street food favorite consisting of skewered and grilled meat marinated in vinegar, aji panca (a deep red chili), and spices.",
+      "zh": "秘鲁街头美食，由串起来烤制的肉, 用醋、aji panca（一种深红色辣椒）和香料腌制而成。",
+      "sv": "En peruansk gatumatfavorit bestående av spett och grillat kött marinerat i vinäger, aji panca (en djupröd chili) och kryddor."
     },
-    "total_time_min": 33,
+    "total_time_min": null,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
       "sv": "Medel"
     },
-    "servings": 2,
+    "servings": 4,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -691,51 +1089,72 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "800 g cut steak",
+        "Marinade",
+        "4 garlic cloves",
+        "1 tbsp finely chopped chili, e.g. Spanish pepper (in Peru, the chili rocoto is used)",
+        "1 tsp ground cumin",
+        "3/4 dl red wine vinegar",
+        "1 tbsp oil",
+        "1 tsp salt",
+        "1 tsp ground white pepper"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "800克牛排",
+        "腌料",
+        "4瓣蒜",
+        "1汤匙切碎的辣椒，例如西班牙辣椒（在秘鲁，则使用洛克托辣椒）",
+        "1茶匙孜然粉",
+        "3/4分升红酒醋",
+        "1汤匙油",
+        "1茶匙盐",
+        "1茶匙白胡椒粉"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "800 g utskuren biff",
+        "Marinad",
+        "4 vitlöksklyftor",
+        "1 msk finhackad chilifrukt t ex spansk peppar (i Peru används chilifrukten rocoto)",
+        "1 tsk malen spiskummin",
+        "3/4 dl rödvinsvinäger",
+        "1 msk olja",
+        "1 tsk salt",
+        "1 krm malen vitpeppar"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Anticuchos using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Peel the garlic cloves. Mix chopped chili, cumin, vinegar, oil, salt and pepper. Press the garlic.",
+        "Cut the meat into 2-3 cm cubes. Leave the meat in the marinade for about 1 day.",
+        "Thread the meat onto soaked skewers. Grill/fry for 3-5 minutes per side.",
+        "Brush with the remaining marinade while grilling/frying. Serve with rice, fried potatoes, boiled beans and carrots."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Anticuchos using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "剥去蒜瓣皮。将切碎的辣椒、孜然、醋、油、盐和胡椒粉混合。压碎蒜瓣。",
+        "将肉切成 2-3 厘米的方块。将肉放入腌料中腌制约 1 天。",
+        "将肉串在浸泡过的烤串上。每面烤/煎 3-5 分钟。",
+        "烤/煎的过程中刷上剩余的腌料。搭配米饭、炸土豆、煮豆角和胡萝卜食用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Anticuchos using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Skala vitlöksklyftorna. Blanda hackad chili, spiskummin, vinäger, olja, salt och peppar. Pressa ner vitlöken.",
+        "Skär köttet i 2-3 cm stora tärningar. Lägg köttet i marinaden ca 1 dygn.",
+        "Trä upp köttet på blötlagda grillspett. Grilla/stek i 3-5 minuter per sida.",
+        "Pensla med resterande marinad under grillningen/stekningen. Servera med ris, friterad potatis, kokta bönor och morötter."
       ]
     },
-    "tags": [
-      "family",
-      "spicy"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "sour",
+      "spicy",
+      "salty",
+      "rich"
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-PE-004.png"
   },
   {
     "id": "LA-PE-005",
@@ -746,24 +1165,24 @@
     },
     "subcategory": {
       "en": "Peru",
-      "zh": "Peru",
+      "zh": "秘鲁",
       "sv": "Peru"
     },
     "dish_name": {
-      "en": "Causa Limeña",
-      "zh": "Causa Limeña",
-      "sv": "Causa Limeña"
+      "en": "Causa Limeňa with Chicken",
+      "zh": "秘鲁鸡肉土豆泥塔",
+      "sv": "Causa Limeña med kyckling"
     },
     "description": {
-      "en": "Causa Limeña - a classic Peru dish prepared for home cooks.",
-      "zh": "Causa Limeña - 经典的Peru菜，适合家庭烹饪。",
-      "sv": "Causa Limeña - en klassisk Perurätt anpassad för hemanvändning."
+      "en": "Causa Limeña is a vibrant, cold Peruvian terrine made of layers of smooth, mashed yellow potatoes seasoned with aji amarillo and lime juice, sandwiching a creamy chicken salad filling.",
+      "zh": "一道充满活力的秘鲁冷盘，由光滑的黄土豆泥层层叠叠而成，用黄辣椒和青柠汁调味，中间夹着奶油鸡肉沙拉馅料。",
+      "sv": "Causa Limeña är en livfull, kall peruansk terrin gjord av lager av slät, mosad gul potatis kryddad med aji amarillo och limesaft, med en krämig kycklingsalladsfyllning."
     },
-    "total_time_min": 38,
+    "total_time_min": 60,
     "difficulty": {
-      "en": "Medium",
-      "zh": "中等",
-      "sv": "Medel"
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
     },
     "servings": 6,
     "main_type": {
@@ -773,51 +1192,110 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "Main Ingredienser",
+        "2 ripe Hass avocados, halved, pitted and peeled",
+        "1 kg potatoes (Maris Peer or Charlotte)",
+        "350g skinless, boneless chicken breasts",
+        "2 tbsp mayonnaise",
+        "Dash of olive oil",
+        "1-2 tsp aji amarillo chilli paste (or liquidized mild red chilli)",
+        "1 lime",
+        "Pinch of salt and freshly ground black pepper",
+        "To garnish",
+        "2 ripe Hass avocados, halved, pitted and peeled",
+        "1 kg potatoes (Maris Peer or Charlotte)",
+        "350g skinless, boneless chicken breasts",
+        "2 tbsp mayonnaise",
+        "Dash of olive oil",
+        "1-2 tsp aji amarillo chilli paste (or liquidized mild red chilli)",
+        "1 lime",
+        "Pinch of salt and freshly ground black pepper",
+        "1 ripe Hass avocado, halved, pitted, peeled and sliced",
+        "Salad leaves or herbs"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "2 个成熟的哈斯牛油果，对半切开，去核去皮",
+        "1 公斤土豆（马里斯·皮尔或夏洛特品种）",
+        "350 克去皮去骨鸡胸肉",
+        "2 汤匙蛋黄酱",
+        "少许橄榄油",
+        "1-2 茶匙黄辣椒酱（或用液体的温和红辣椒粉）",
+        "1 个青柠",
+        "少许盐和现磨黑胡椒",
+        "装饰：",
+        "2 个成熟的哈斯牛油果，对半切开，去核去皮",
+        "1 公斤土豆（马里斯·皮尔或夏洛特品种）",
+        "350 克去皮去骨鸡胸肉",
+        "2 汤匙蛋黄酱",
+        "少许橄榄油",
+        "1-2 茶匙黄辣椒酱（或用液体的温和红辣椒粉）",
+        "1 个青柠",
+        "少许盐和现磨黑胡椒",
+        "1 个成熟的哈斯牛油果，对半切开，去核去皮，切片",
+        "沙拉叶或香草"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "2 mogna Hass-avokados, halverade, urkärnade och skalade",
+        "1 kg potatis (Maris Peer eller Charlotte)",
+        "350 g kycklingbröst utan skinn och ben",
+        "2 msk majonnäs",
+        "En nypa olivolja",
+        "1-2 tsk aji amarillo chilipasta (eller flytande mild röd chili)",
+        "1 lime",
+        "En nypa salt och nymalen svartpeppar",
+        "Till garnering",
+        "2 mogna Hass-avokados, halverade, urkärnade och skalade",
+        "1 kg potatis (Maris Peer eller Charlotte)",
+        "350 g kycklingbröst utan skinn och ben",
+        "2 msk majonnäs",
+        "En nypa olivolja",
+        "1-2 tsk aji amarillo chilipasta (eller flytande mild röd chili)",
+        "1 lime",
+        "En nypa salt och nymalen svartpeppar",
+        "1 mogen Hass-avokado, halverad, urkärnad, skalad och skivad",
+        "Salladsblad eller örter"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Causa Limeña using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Boil the potatoes until tender. Drain, cool for a while, then peel them and mash thoroughly. Leave until cold.",
+        "Meanwhile, poach the chicken breasts in simmering water, seasoned with salt and pepper, for 20 minutes. Drain and cool. Shred finely and mix with the mayonnaise.",
+        "Mix the oil, chilli paste and juice of ½ lime into the mashed potato. Season. Mash the avocados with the remaining lime juice and season with a little salt and pepper.",
+        "To assemble each causa, put a deep 7cm cook’s ring or round mould on a plate (or use a cookie cutter). Spoon in some mashed potato to a depth of about 1cm and smooth out evenly, using the back of a spoon.",
+        "Spread a layer of the avocado over the potato, then a layer of the chicken mixture. Repeat another layer of avocado and finish with a layer of mashed potato.",
+        "Use the rest of the mixture to make 6 causas in total. Chill for 10 minutes, then remove the moulds. Serve, garnished with sliced avocado and salad leaves."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Causa Limeña using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将土豆煮至软烂。沥干水分，稍稍放凉，然后去皮并彻底捣成泥。放凉备用。",
+        "同时，将鸡胸肉放入加盐和胡椒粉的沸水中煮20分钟。沥干水分并放凉。将鸡肉撕成细丝，与蛋黄酱混合。",
+        "将油、辣椒酱和半个青柠的汁拌入土豆泥中。调味。将牛油果捣成泥，加入剩余的青柠汁，并用少许盐和胡椒粉调味。",
+        "制作土豆泥时，将一个直径7厘米的圆形模具（或饼干模具）放在盘子上。舀入约1厘米厚的土豆泥，用勺背抹平。",
+        "在土豆泥上铺一层牛油果泥，再铺一层鸡肉混合物。重复铺一层牛油果泥，最后铺一层土豆泥。",
+        "用剩余的食材制作6个土豆泥。冷藏10分钟后，脱模。盛出，佐以牛油果片和沙拉叶即可享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Causa Limeña using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Koka potatisen tills den är mjuk. Häll av vattnet, låt svalna en stund, skala den sedan och mosa den ordentligt. Låt svalna.",
+        "Under tiden, pochera kycklingbrösten i sjudande vatten, kryddat med salt och peppar, i 20 minuter. Häll av vattnet och låt svalna. Strimla fint och blanda med majonnäsen.",
+        "Blanda olja, chilipasta och saften från ½ lime i potatismoset. Krydda. Mosa avokadon med resterande limesaft och krydda med lite salt och peppar.",
+        "För att montera varje causa, lägg en djup 7 cm kokring eller rund form på en tallrik (eller använd en kakform). Skeda i lite potatismos till ett djup av cirka 1 cm och jämna ut det jämnt med baksidan av en sked.",
+        "Bred ett lager avokado över potatisen, sedan ett lager av kycklingblandningen. Upprepa ytterligare ett lager avokado och avsluta med ett lager potatismos.",
+        "Använd resten av blandningen för att göra totalt 6 causas. Låt svalna i 10 minuter och ta sedan bort formarna. Servera, garnerad med skivad avokado och salladsblad."
       ]
     },
-    "tags": [
-      "spicy",
-      "baked"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "sour",
+      "mild",
+      "salty",
+      "rich",
+      "spicy"
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-PE-005.png"
   },
   {
     "id": "LA-AR-001",
@@ -828,20 +1306,182 @@
     },
     "subcategory": {
       "en": "Argentina",
-      "zh": "Argentina",
+      "zh": "阿根廷",
       "sv": "Argentina"
     },
     "dish_name": {
       "en": "Asado",
-      "zh": "Asado",
+      "zh": "阿根廷烤肉",
       "sv": "Asado"
     },
     "description": {
-      "en": "Asado - a classic Argentina dish prepared for home cooks.",
-      "zh": "Asado - 经典的Argentina菜，适合家庭烹饪。",
-      "sv": "Asado - en klassisk Argentinarätt anpassad för hemanvändning."
+      "en": "Much more than a dish; it is a central cultural tradition of grilling meat in several South American countries, particularly Argentina, Uruguay, and Chile.",
+      "zh": "它不仅仅是一道菜；它是南美国家，特别是阿根廷、乌拉圭和智利等国烤肉的核心文化传统。",
+      "sv": "Mycket mer än en rätt; det är en central kulturell tradition för att grilla kött i flera sydamerikanska länder, särskilt Argentina, Uruguay och Chile."
     },
-    "total_time_min": 27,
+    "total_time_min": null,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 4,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "2½ kg meat flank steak, flap, skirt steak, tenderloin. But always choose the ribs and a cut of meat",
+        "6 chorizo sausages",
+        "400 g chinchulines chinchulines is a term that makes reference to the offal of the cow such as the small intestine, kidneys and sweetbread. Black pudding is usually considered in this group too",
+        "2 lemons",
+        "coarse salt",
+        "marinade optional if using kidneys",
+        "Serve with",
+        "mini baguettes toasted lightly on the grill for a minute before serving the sausages",
+        "simple salad",
+        "Chimichurri (just combine all ingredients. Let sit for 5 to 10 minutes before serving)",
+        "1 cup olive oil 250 ml",
+        "1 tbsp white-wine vinegar",
+        "½ cup fresh parsley 30 g, finely chopped",
+        "¼ cup fresh oregano 15 g, finely chopped",
+        "¼ cup fresh thyme 15 g, finely chopped",
+        "¼ cup onion 30 g, finely chopped",
+        "1 tbsp minced garlic",
+        "salt and cayenne pepper to taste"
+      ],
+      "zh": [
+        "2.5公斤牛腩肉，可选用牛腹肉、牛腩肉、牛裙肉或牛里脊肉。但务必选择带肋骨的部位。",
+        "6根西班牙辣香肠",
+        "400克牛内脏（chinchulines）。牛内脏是指牛的小肠、肾脏和胸腺等内脏。黑布丁通常也归入此类",
+        "2 个柠檬",
+        "粗盐",
+        "如果使用腰子，腌料可选",
+        "佐以",
+        "迷你法棍面包，在烤架上略微烤一分钟后再搭配香肠",
+        "简易沙拉",
+        "阿根廷青酱（将所有材料混合，静置 5 至 10 分钟后再食用）",
+        "1 杯橄榄油 250 毫升",
+        "1 汤匙白葡萄酒醋",
+        "½ 杯新鲜欧芹 30 克，切碎",
+        "¼ 杯新鲜牛至 15 克，切碎",
+        "¼ 杯新鲜百里香 15 克，切碎",
+        "¼ 杯洋葱 30 克，切碎",
+        "1 汤匙蒜末",
+        "适量盐和辣椒粉"
+      ],
+      "sv": [
+        "2½ kg köttflankstek, flapstek, kjolstek, oxfilé. Men välj alltid revbenen och en köttbit",
+        "6 chorizokorvar",
+        "400 g chinchuliner",
+        "chinchuliner är en term som syftar på kons slaktbiprodukter, såsom tunntarmen, njurarna och bräss. Blodpudding brukar också räknas till denna grupp",
+        "2 citroner",
+        "grovt salt",
+        "marinad (valfritt om du använder njurar)",
+        "Servera med",
+        "minibaguetter rostade lätt på grillen i en minut innan servering",
+        "enkel sallad",
+        "Chimichurri (blanda bara alla ingredienser. Låt stå i 5 till 10 minuter innan servering)",
+        "1 kopp olivolja 250 ml",
+        "1 msk vitvinsvinäger",
+        "½ kopp färsk persilja 30 g, finhackad",
+        "¼ kopp färsk oregano 15 g, finhackad",
+        "¼ kopp färsk timjan 15 g, finhackad",
+        "¼ kopp lök 30 g, finhackad",
+        "1 msk finhackad vitlök",
+        "salt och cayennepeppar efter smak"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Preparations",
+        "Before you start, soak the chorizos in bowl until you are ready to cook them. This is to prevent dryness after cooking.",
+        "Make a fire using charcoal, wood and paper. This would probably take you around an hour.",
+        "Once you have the fire ready, distribute the embers so you have a high heat and a low heat area. Sprinkle some salt on top of the embers to prevent the ashes from rising too much.",
+        "Keep to the side a small additional fire going from where you can take embers to put in the main fire when needed.",
+        "Prepare the meat:",
+        "If you’re making chinchulines you need to wash and clean them very well. They take a long time to cook, around 1 or 1,5 hours. Make sure they are on a low heat and far from the meat to prevent the chinchulines from giving the meat their flavor.",
+        "a. Small intestine: after cleaning and taking the fat out, make a braid or just roll it in a circle and put it on the grill. Turn it after 30 minutes and add salt.",
+        "b. Kidneys: Peeled off the membrane they come in, take out the renal pelvis and after washing, leave overnight in water with vinegar, red wine or milk (3:1). When cooking on the grill put first the side that has the opening of the renal pelvis so it would finish draining. Turn around once the kidney has a more rigid texture to the touch (around 30-40 minutes). Don’t forget to add salt.",
+        "c. Chorizos: just take them out of the water and put them on the grill.",
+        "d. Black pudding: since this is already cooked, add it last to the grill, 30 min after after the rest.",
+        "Sprinkle coarse salt and lemon juice on both side of the meat.",
+        "Put the meat on the grill, fat side down and let it cook for at least 40 min - one hour, turning the meat every 15 or 20 minutes.",
+        "Place the ribs on the grill. They are ready in 15 - 20 minutes.",
+        "When the meat is ready, cut it in portions and put them in a large plate so everyone can choose what they want."
+      ],
+      "zh": [
+        "准备工作",
+        "开始之前，先将西班牙辣香肠浸泡在碗中，直到准备烹饪为止。这样做是为了防止烹饪后变干。",
+        "用木炭、木柴和纸生火。这大概需要一个小时。",
+        "火烧好后，将炭火均匀分布，形成一个高温区和一个低温区。在炭火上撒些盐，防止灰烬过多。",
+        "在旁边准备一小堆备用火，以便随时取用炭火添加到主火中。",
+        "准备肉类：",
+        "如果您要做烤小肠（chinchulines），需要将其彻底清洗干净。小肠需要较长的烹饪时间，大约1到1.5小时。确保小肠用小火慢烤，并远离其他肉类，以免小肠的味道影响到其他肉类。",
+        "a. 小肠：清洗干净并去除脂肪后，将其编成辫子或卷成圆形，然后放在烤架上烤。 30分钟后翻面并加盐。",
+        "b. 肾脏：剥去包裹肾脏的薄膜，取出肾盂，清洗干净后，浸泡在醋、红酒或牛奶（3:1）的混合水中过夜。烤制时，先将肾盂开口的一侧放在烤架上，以便沥干水分。待肾脏摸起来更硬一些（约30-40分钟）后翻面。别忘了加盐。",
+        "c. 西班牙辣香肠：直接从水中取出，放在烤架上即可。",
+        "d. 血肠：由于血肠已经煮熟，所以最后放在烤架上，在静置30分钟后再放上去。",
+        "在肉的两面撒上粗盐和柠檬汁。",
+        "将肉放在烤架上，肥肉面朝下，烤制至少40分钟至1小时，每15-20分钟翻面一次。",
+        "将排骨放在烤架上。 15-20分钟后即可食用。",
+        "肉烤好后，切成小块，放在一个大盘子里，方便大家挑选自己喜欢的份量。"
+      ],
+      "sv": [
+        "Förberedelser",
+        "Innan du börjar, blötlägg chorizoen i en skål tills du är redo att tillaga den. Detta för att förhindra att den torkar ut efter tillagningen.",
+        "Gör upp en eld med träkol, ved och papper. Det tar förmodligen ungefär en timme.",
+        "När du har elden klar, fördela glöden så att du har en hög värme och en låg värmeyta. Strö lite salt ovanpå glöden för att förhindra att askan stiger för mycket.",
+        "Ha en liten extra eld åt sidan där du kan ta med glöd att lägga i huvudelden vid behov.",
+        "Förbered köttet:",
+        "Om du gör chinchuliner måste du tvätta och rengöra dem mycket noggrant. De tar lång tid att tillaga, cirka 1 till 1,5 timmar. Se till att de är på låg värme och långt ifrån köttet för att förhindra att chinchulinerna ger köttet sin smak.",
+        "a. Tunntarmen: efter rengöring och fettuttag, gör en fläta eller rulla den bara i en cirkel och lägg den på grillen. Vänd den efter 30 minuter och tillsätt salt.",
+        "b. Njurar: Skalade bort membranet när de kommer in, ta ut njurbäckenet och tvätta det över natten i vatten med vinäger, rödvin eller mjölk (3:1). När du grillar, lägg först den sida som har öppningen till njurbäckenet så att det rinner av helt. Vänd när njuren har en fastare konsistens vid beröring (cirka 30-40 minuter). Glöm inte att tillsätta salt.",
+        "c. Chorizo: Ta bara upp dem ur vattnet och lägg dem på grillen.",
+        "d. Blodpudding: Eftersom denna redan är tillagad, lägg den sist på grillen, 30 minuter efter resten.",
+        "Strö grovt salt och citronsaft på båda sidor av köttet.",
+        "Lägg köttet på grillen, med fettsidan nedåt och låt det tillagas i minst 40 minuter - en timme, vänd köttet var 15:e eller 20:e minut.",
+        "Lägg revbenen på grillen. De är klara på 15-20 minuter.",
+        "När köttet är klart, skär det i portioner och lägg dem på en stor tallrik så att alla kan välja vad de vill ha."
+      ]
+    },
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "rich",
+      "salty"
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-AR-001.png"
+  },
+  {
+    "id": "LA-AR-002",
+    "region": {
+      "en": "Latin America",
+      "zh": "拉丁美洲",
+      "sv": "Latinamerika"
+    },
+    "subcategory": {
+      "en": "Argentina",
+      "zh": "阿根廷",
+      "sv": "Argentina"
+    },
+    "dish_name": {
+      "en": "Empanadas",
+      "zh": "拉丁美洲馅饼",
+      "sv": "Empanadas"
+    },
+    "description": {
+      "en": "A popular Latin American street food: savory or sweet stuffed pastries that are either baked or fried until golden brown and crisp.",
+      "zh": "拉丁美洲流行的街头小吃：咸味或甜味的馅饼，烤制或油炸至金黄酥脆。",
+      "sv": "En populär latinamerikansk gatumat: salta eller söta fyllda bakverk som antingen bakas eller friteras tills de är gyllenbruna och krispiga."
+    },
+    "total_time_min": null,
     "difficulty": {
       "en": "Hard",
       "zh": "困难",
@@ -855,133 +1495,144 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "Dough",
+        "10 dl wheat flour",
+        "2 tsp baking powder",
+        "2 tsp salt",
+        "2 dl cold water",
+        "300 g room temperature butter",
+        "Filling",
+        "1 yellow onion",
+        "2 cloves of garlic",
+        "500 g minced beef",
+        "2 tbsp olive oil",
+        "3 tsp smoked paprika",
+        "3 tsp paprika",
+        "4 tsp dried oregano",
+        "1 1/2 tsp cumin",
+        "3 tbsp tomato puree",
+        "1 1/2 tbsp concentrated veal stock",
+        "1 dl water",
+        "1 pack crushed tomatoes (400 g each)",
+        "1 dl green olives, pitted",
+        "2 hard-boiled eggs",
+        "salt",
+        "black pepper",
+        "1 egg (for brushing)",
+        "To serve:",
+        "tomato salsa"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "面团",
+        "10分升小麦粉",
+        "2茶匙泡打粉",
+        "2茶匙盐",
+        "2分升冷水",
+        "300克室温软化黄油",
+        "馅料",
+        "1个黄洋葱",
+        "2瓣大蒜",
+        "500克牛肉末",
+        "2汤匙橄榄油",
+        "3茶匙烟熏辣椒粉",
+        "3茶匙辣椒粉",
+        "4茶匙干牛至",
+        "1.5茶匙孜然粉",
+        "3汤匙番茄酱",
+        "1.5汤匙浓缩小牛肉汤",
+        "1分升水",
+        "1包碎番茄（每包400克）",
+        "1分升去核青橄榄",
+        "2个煮熟的鸡蛋",
+        "盐",
+        "黑胡椒",
+        "1个鸡蛋（用于刷面）",
+        "佐以：",
+        "番茄莎莎酱"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "Deg",
+        "10 dl vetemjöl",
+        "2 tsk bakpulver",
+        "2 tsk salt",
+        "2 dl kallt vatten",
+        "300 g rumstempererat smör",
+        "Fyllning",
+        "1 gul lök",
+        "2 vitlöksklyftor",
+        "500 g nötfärs",
+        "2 msk olivolja",
+        "3 tsk rökt paprikapulver",
+        "3 tsk paprikapulver",
+        "4 tsk torkad oregano",
+        "1 1/2 tsk spiskummin",
+        "3 msk tomatpuré",
+        "1 1/2 msk konc kalvfond",
+        "1 dl vatten",
+        "1 förp krossade tomater (á 400 g)",
+        "1 dl gröna oliver , urkärnade",
+        "2 hårdkokta ägg",
+        "salt",
+        "svartpeppar",
+        "1 ägg (till pensling)",
+        "Till servering:",
+        "tomatsalsa"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Asado using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Dough: Mix flour, baking powder and salt in a bowl. Add water and butter and knead to a smooth dough. Let the dough rest, covered, at room temperature for about 30 minutes.",
+        "Filling: Peel and chop the onion and garlic.",
+        "Fry the minced meat in olive oil in a frying pan until it gets a nice color. Add the onion, garlic and spices and fry for a few minutes. Stir in the tomato paste and fry for another minute or so.",
+        "Pour in the veal stock, water and crushed tomatoes. Cook slowly without a lid for about 20 minutes. Stir occasionally.",
+        "Coarsely chop the olives. Peel and dice the eggs. Stir the olives and eggs into the minced meat mixture.",
+        "Cook for a few minutes and season with salt and pepper. Let the minced meat mixture cool.",
+        "Preheat the oven to 200°C.",
+        "Dough: Roll out the dough thinly, about 3–4 mm on a floured baking sheet. Cut out circles about 12 cm in diameter with a glass or bowl.",
+        "Beat the egg. Place about 1 1/2 tablespoons of filling in the center of the circle. Brush the edges with the egg. Close the pierogi and pinch the edges together firmly by pressing with a fork along the edge.",
+        "Place on a baking sheet lined with baking paper and brush the pierogi with egg.",
+        "Bake in the center of the oven for 15-20 minutes."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Asado using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "面团：将面粉、泡打粉和盐混合在一个碗中。加入水和黄油，揉成光滑的面团。盖上盖子，将面团在室温下醒发约30分钟。",
+        "馅料：将洋葱和大蒜去皮切碎。",
+        "在煎锅中用橄榄油将肉末炒至变色。加入洋葱、大蒜和香料，翻炒几分钟。加入番茄酱，再翻炒一分钟左右。",
+        "倒入小牛肉高汤、水和碎番茄。不盖盖子，小火慢炖约20分钟。偶尔搅拌。",
+        "将橄榄粗切。将鸡蛋去皮切丁。将橄榄和鸡蛋拌入肉末混合物中。",
+        "煮几分钟，用盐和胡椒粉调味。让肉末混合物冷却。",
+        "将烤箱预热至200°C。",
+        "面团：在撒了面粉的烤盘上，将面团擀成约3-4毫米厚的薄片。用玻璃杯或碗切出直径约12厘米的圆形面皮。",
+        "打散鸡蛋。在面皮中央放约1.5汤匙馅料。在面皮边缘刷上蛋液。将面皮捏合，用叉子沿边缘压紧。",
+        "将饺子放在铺有烘焙纸的烤盘上，并在饺子表面刷上蛋液。",
+        "放入烤箱中层烘烤15-20分钟。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Asado using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Deg: Blanda mjöl, bakpulver och salt i en bunke. Tillsätt vatten och smör och knåda till en slät deg. Låt degen vila övertäckt i rumstemperatur ca 30 minuter.",
+        "Fyllning: Skala och hacka lök och vitlök.",
+        "Stek färsen i olivoljan i en stekpanna tills den får fin färg. Tillsätt lök, vitlök och kryddorna och fräs i några minuter. Rör ner tomatpuré och fräs ytterligare någon minut.",
+        "Häll på kalvfond, vatten och krossade tomater. Koka sakta utan lock i ca 20 minuter. Rör om då och då.",
+        "Hacka oliverna grovt. Skala och skär äggen i tärningar. Rör ner oliver och ägg i färsröran.",
+        "Koka i några minuter och smaka av med salt och peppar. Låt färsröran bli kall.",
+        "Sätt ugnen på 200°C.",
+        "Deg: Kavla ut degen tunt, ca 3–4 mm på mjölat bakbord. Stansa ut cirklar ca 12 cm i diameter med ett glas eller en skål.",
+        "Vispa upp ägget. Lägg ca 1 1/2 msk fyllning i mitten av cirkeln. Pensla kanterna med ägget. Stäng pirogen och nyp ihop kanterna ordentligt genom att trycka med en gaffel längs med kanten.",
+        "Lägg på en bakplåtspappersklädd plåt och pensla pirogerna med ägg.",
+        "Grädda i mitten av ugnen 15- 20 minuter."
       ]
     },
-    "tags": [
-      "quick",
-      "stew"
-    ]
-  },
-  {
-    "id": "LA-AR-002",
-    "region": {
-      "en": "Latin America",
-      "zh": "拉丁美洲",
-      "sv": "Latinamerika"
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
     },
-    "subcategory": {
-      "en": "Argentina",
-      "zh": "Argentina",
-      "sv": "Argentina"
-    },
-    "dish_name": {
-      "en": "Empanadas",
-      "zh": "Empanadas",
-      "sv": "Empanadas"
-    },
-    "description": {
-      "en": "Empanadas - a classic Argentina dish prepared for home cooks.",
-      "zh": "Empanadas - 经典的Argentina菜，适合家庭烹饪。",
-      "sv": "Empanadas - en klassisk Argentinarätt anpassad för hemanvändning."
-    },
-    "total_time_min": 48,
-    "difficulty": {
-      "en": "Easy",
-      "zh": "简单",
-      "sv": "Lätt"
-    },
-    "servings": 6,
-    "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
-    },
-    "ingredients": {
-      "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
-      ],
-      "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
-      ],
-      "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
-      ]
-    },
-    "steps": {
-      "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Empanadas using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
-      ],
-      "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Empanadas using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
-      ],
-      "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Empanadas using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
-      ]
-    },
-    "tags": [
-      "quick",
-      "baked"
-    ]
+    "taste_preferences": [
+      "rich",
+      "salty",
+      "mild",
+      "spicy"
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-AR-002.png"
   },
   {
     "id": "LA-AR-003",
@@ -992,26 +1643,26 @@
     },
     "subcategory": {
       "en": "Argentina",
-      "zh": "Argentina",
+      "zh": "阿根廷",
       "sv": "Argentina"
     },
     "dish_name": {
       "en": "Milanesa",
-      "zh": "Milanesa",
+      "zh": "阿根廷炸肉排",
       "sv": "Milanesa"
     },
     "description": {
-      "en": "Milanesa - a classic Argentina dish prepared for home cooks.",
-      "zh": "Milanesa - 经典的Argentina菜，适合家庭烹饪。",
-      "sv": "Milanesa - en klassisk Argentinarätt anpassad för hemanvändning."
+      "en": "Milanesas are a beloved comfort food across South America, heavily influenced by Italian immigration. The Argentinian version often uses thin cuts of beef.",
+      "zh": "米兰炸肉排是南美洲广受欢迎的家常菜，深受意大利移民的影响。阿根廷版的米兰炸肉排通常选用薄切牛肉。",
+      "sv": "Milanesas är en älskad husmanskost i hela Sydamerika, starkt influerad av italiensk invandring. Den argentinska versionen använder ofta tunna skivor nötkött."
     },
-    "total_time_min": 24,
+    "total_time_min": 40,
     "difficulty": {
       "en": "Easy",
       "zh": "简单",
       "sv": "Lätt"
     },
-    "servings": 2,
+    "servings": 4,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -1019,51 +1670,73 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "500 grams (1 pound) ribeye or top sirloin, cut into thin pieces that will fit in your pan",
+        "2 cups plain breadcrumbs",
+        "2-3 eggs",
+        "salt and pepper",
+        "frying oil (700 ml)"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "500克（1磅）肋眼牛排或上等西冷牛排，切成适合放入煎锅的薄片",
+        "2杯原味面包屑",
+        "2-3个鸡蛋",
+        "盐和胡椒粉",
+        "食用油（700毫升）"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "500 gram (1 pund) ribeye eller ryggbiff, skuren i tunna bitar som får plats i din stekpanna",
+        "2 koppar ströbröd",
+        "2-3 ägg",
+        "salt och peppar",
+        "stekolja (700 ml)"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Milanesa using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Heat the oil over medium heat on a medium skillet.",
+        "Lightly salt the meat.",
+        "Build a workstation: in a dish, crack the eggs, add salt and pepper and beat with a fork for 30 seconds.",
+        "In another dish, put the breadcrumbs.",
+        "Pat the meat with bread crumbs on both sides.",
+        "Then dip the meat in the egg wash quickly, don’t soak.",
+        "Breaded milanesa",
+        "Pat the meat with the breadcrumbs a second time on each side.",
+        "Fry for about 2 minutes per side. When browned on one side, turn and brown the other.",
+        "frying milanesas frying milanesas",
+        "Serve hot."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Milanesa using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "中火加热平底锅中的油。",
+        "给肉撒上少许盐。",
+        "准备工作台：在一个碗里打入鸡蛋，加入盐和胡椒粉，用叉子搅拌30秒。",
+        "在另一个碗里放入面包屑。",
+        "将肉的两面都裹上面包屑。",
+        "然后快速地将肉蘸上蛋液，不要浸泡太久。",
+        "裹面包屑的米兰内萨",
+        "再次将肉的两面都裹上面包屑。",
+        "每面煎约2分钟。一面煎至金黄后，翻面煎另一面。",
+        "炸米兰内萨",
+        "趁热享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Milanesa using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Värm oljan på medelvärme i en medelstor stekpanna. Salta köttet lätt. Bygg en arbetsstation: knäck äggen i en form, tillsätt salt och peppar och vispa med en gaffel i 30 sekunder. Lägg ströbrödet i en annan form. Dunka köttet med ströbröd på båda sidor. Doppa sedan köttet i ägget, skölj snabbt, blötlägg inte. Panerad milanesa",
+        "Dunka köttet med ströbrödet en andra gång på varje sida. Stek i cirka 2 minuter per sida. När det är brynt på ena sidan, vänd och bryn den andra.",
+        "steking milanesas steking milanesas",
+        "Servera varmt."
       ]
     },
-    "tags": [
-      "baked",
-      "spicy"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "rich",
+      "salty",
+      "mild"
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-AR-003.png"
   },
   {
     "id": "LA-AR-004",
@@ -1074,20 +1747,20 @@
     },
     "subcategory": {
       "en": "Argentina",
-      "zh": "Argentina",
+      "zh": "阿根廷",
       "sv": "Argentina"
     },
     "dish_name": {
       "en": "Chimichurri Steak",
-      "zh": "Chimichurri Steak",
+      "zh": "香草酱牛排",
       "sv": "Chimichurri Steak"
     },
     "description": {
-      "en": "Chimichurri Steak - a classic Argentina dish prepared for home cooks.",
-      "zh": "Chimichurri Steak - 经典的Argentina菜，适合家庭烹饪。",
-      "sv": "Chimichurri Steak - en klassisk Argentinarätt anpassad för hemanvändning."
+      "en": "This dish features thin, quickly seared minute steak served alongside savory roasted root vegetables and generously topped with a bright, herbaceous Argentinian chimichurri sauce.",
+      "zh": "这道菜的特色是将薄薄的、快速煎烤的牛排与美味的烤根茎类蔬菜一起食用，并淋上清爽的、香草味浓郁的阿根廷青酱。",
+      "sv": "Denna rätt består av tunn, snabbt stekt minutbiff som serveras tillsammans med salta rostade rotfrukter och generöst toppad med en ljus, örtig argentinsk chimichurrisås."
     },
-    "total_time_min": 90,
+    "total_time_min": 45,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
@@ -1101,51 +1774,98 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "Sweet potatoes",
+        "600 g sweet potatoes",
+        "450 g potatoes",
+        "2 red peppers",
+        "2 tbsp oil",
+        "salt",
+        "pepper",
+        "Chimichurri",
+        "1/2 lemon",
+        "2 cloves of garlic",
+        "1/2 dl olive oil",
+        "1 bunch parsley",
+        "1 bunch mint",
+        "1/2 tsp cayenne pepper",
+        "1/2 tsp cumin",
+        "about 600 g ground beef"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "红薯",
+        "600克红薯",
+        "450克土豆",
+        "2个红甜椒",
+        "2汤匙油",
+        "盐",
+        "胡椒粉",
+        "阿根廷青酱",
+        "半个柠檬",
+        "2瓣大蒜",
+        "0.5分升橄榄油",
+        "1束欧芹",
+        "1束薄荷",
+        "半茶匙辣椒粉",
+        "半茶匙孜然粉",
+        "约600克牛肉末"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "Sötpotatis",
+        "600 g sötpotatis",
+        "450 g potatis",
+        "2 röda paprikor",
+        "2 msk olja",
+        "salt",
+        "peppar",
+        "Chimichurri",
+        "1/2 citron",
+        "2 vitlöksklyftor",
+        "1/2 dl olivolja",
+        "1 kruka persilja",
+        "1 kruka mynta",
+        "1/2 tsk cayennepeppar",
+        "1/2 tsk spiskummin",
+        "ca 600 g minutbiff"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Chimichurri Steak using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Sweet potatoes: Preheat the oven to 225°C and place a baking tray in the oven.",
+        "Cut the sweet potatoes and potatoes into slices. Halve and core the peppers and cut them into coarse pieces. Mix all the potatoes and peppers with half the oil, salt and pepper. Place everything on the hot baking tray and roast in the middle of the oven for about 25 minutes.",
+        "Chimichurri: Rinse the lemon, grate the zest and squeeze out the juice. Peel and roughly chop the garlic. Mix the olive oil, parsley, mint, garlic, lemon zest and lemon juice to make a smooth dressing. Season with the spices and salt.",
+        "Minute steaks: Fry the minute steaks in the remaining oil in a frying pan. Season with salt and pepper.",
+        "Serve the minute steaks with the chimichurri and the roasted vegetables."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Chimichurri Steak using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "红薯：烤箱预热至225°C，烤盘放入烤箱。",
+        "将红薯和土豆切片。甜椒对半切开并去籽，切成大块。将所有土豆和甜椒与一半的油、盐和胡椒粉混合。将所有食材放在预热好的烤盘上，放入烤箱中层烤约25分钟。",
+        "阿根廷青酱：将柠檬洗净，磨碎柠檬皮，挤出柠檬汁。大蒜去皮切碎。将橄榄油、欧芹、薄荷、大蒜、柠檬皮和柠檬汁混合，制成顺滑的酱汁。用香料和盐调味。",
+        "牛排：用剩余的油在煎锅中煎牛排。用盐和胡椒粉调味。",
+        "将牛排与阿根廷青酱和烤蔬菜一起享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Chimichurri Steak using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Sötpotatis: Sätt ugnen på 225°C och sätt in en ugnsplåt.",
+        "Skär sötpotatisen och potatisen i skivor. Dela och kärna ur paprikorna och skär dem i grova bitar. Blanda all potatis och paprika med hälften av oljan, salt och peppar. Lägg allt på den varma ugnsplåten och stek mitt i ugnen ca 25 minuter.",
+        "Chimichurri: Skölj citronen, riv skalet och pressa ur saften. Skala och grovhacka vitlöken. Mixa olivolja, persilja, mynta, vitlök, citronskal och citronsaft till en slät dressing. Smaka av med kryddorna och salt.",
+        "Minutbiffar: Stek minutbiffarna i resten av oljan i en stekpanna. Krydda med salt och peppar.",
+        "Servera minutbiffarna med chimichurrin och de rostade grönsakerna."
       ]
     },
-    "tags": [
-      "vegetarian",
-      "quick"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "sour",
+      "salty",
+      "rich",
+      "sweet",
+      "spicy",
+      "mild"
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-AR-004.png"
   },
   {
     "id": "LA-AR-005",
@@ -1156,77 +1876,85 @@
     },
     "subcategory": {
       "en": "Argentina",
-      "zh": "Argentina",
+      "zh": "阿根廷",
       "sv": "Argentina"
     },
     "dish_name": {
       "en": "Provoleta",
-      "zh": "Provoleta",
+      "zh": "普罗沃莱塔",
       "sv": "Provoleta"
     },
     "description": {
-      "en": "Provoleta - a classic Argentina dish prepared for home cooks.",
-      "zh": "Provoleta - 经典的Argentina菜，适合家庭烹饪。",
-      "sv": "Provoleta - en klassisk Argentinarätt anpassad för hemanvändning."
+      "en": "A quintessential Argentine appetizer, usually served hot off the grill (parrilla) during an asado (Argentinian barbecue). It's essentially grilled provolone cheese.",
+      "zh": "这是一道典型的阿根廷开胃菜，通常在阿根廷烤肉（asado）期间趁热从烤架（parrilla）上桌。它本质上是烤普罗沃洛干酪。",
+      "sv": "En typisk argentinsk aptitretare, vanligtvis serverad varm från grillen (parrilla) under en asado (argentinsk barbecue). Det är i huvudsak grillad provoloneost."
     },
-    "total_time_min": 40,
+    "total_time_min": 15,
     "difficulty": {
-      "en": "Hard",
-      "zh": "困难",
-      "sv": "Svår"
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
     },
     "servings": 4,
     "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
+      "en": "Grain",
+      "zh": "谷类",
+      "sv": "Spannmål"
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "1 slice 1 ½\" thick of provolone cheese (or Quesadilla cheese)",
+        "¼ cup flour",
+        "olive oil",
+        "oregano and pepper flakes, optional",
+        "fresh bread to serve"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "1 片 1 ½ 英寸厚的波萝伏洛干酪（或墨西哥薄饼专用奶酪）",
+        "¼ 杯面粉",
+        "橄榄油",
+        "牛至和辣椒碎（可选）",
+        "新鲜面包（佐以）"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "1 skiva provoloneost (eller quesadillaost, 3,5 cm tjock)",
+        "1/4 dl mjöl",
+        "olivolja",
+        "oregano och pepparflingor, valfritt",
+        "färskt bröd till servering"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Provoleta using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "I recommend doing it outside on the grill, as it smokes a lot, or open all doors and windows before you start cooking. Heat the grill hot. Or a cast iron griddle.",
+        "Remove the cheese from the wrap and completely cover with flour, be generous.",
+        "Place cheese on the hot grill, and cook for 2 minutes. Using a spatula, turn and cook for a few more minutes.",
+        "Finish melting on a pre-heat cast iron pan. Serve immediately on a plate. Drizzle with olive oil, oregano, and red pepper flakes if desired.",
+        "Serve with bread."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Provoleta using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "我建议在室外烧烤架上烤，因为会产生很多烟，或者在开始烹饪前打开所有门窗。将烧烤架或铸铁煎锅预热至高温。",
+        "将奶酪从卷饼中取出，并均匀地裹上一层面粉，要裹得厚一些。",
+        "将奶酪放在热的烧烤架上，烤2分钟。用铲子翻面，再烤几分钟。",
+        "在预热好的铸铁锅中完全融化奶酪。立即盛入盘中。如果喜欢，可以淋上橄榄油，撒上牛至和红辣椒碎。",
+        "搭配面包食用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Provoleta using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Jag rekommenderar att du gör det utomhus på grillen, eftersom det ryker mycket, eller öppna alla dörrar och fönster innan du börjar grilla. Värm grillen. Eller en gjutjärnsstekplatta. Ta ut osten ur omslaget och täck den helt med mjöl, var generöst. Lägg osten på den varma grillen och tillaga i 2 minuter. Vänd med en stekspade och tillaga i ytterligare några minuter. Smält färdigt på en förvärmd gjutjärnspanna. Servera omedelbart på en tallrik. Ringla över olivolja, oregano och rödpepparflingor om så önskas. Servera med bröd."
       ]
     },
-    "tags": [
-      "gluten-free",
-      "stew"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "rich",
+      "salty",
+      "spicy",
+      "mild"
+    ],
+    "image_url": "/Recipe Image/LatinAmerica/LA-AR-005.png"
   }
 ]

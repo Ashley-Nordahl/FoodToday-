@@ -166,18 +166,84 @@ export const generateDishImageOptions = (dishName, count = 3) => {
 }
 
 /**
- * Get image URL from recipe data (supports both image_url field and generated)
+ * Get local image URL from recipe ID
+ * Maps recipe ID prefix to region folder name
+ * @param {object} recipe - Recipe object with id field
+ * @returns {string|null} Local image URL or null if not available
+ */
+export const getLocalRecipeImageUrl = (recipe) => {
+  if (!recipe || !recipe.id) return null;
+  
+  // Map ID prefix to region folder name
+  const regionMap = {
+    'AS': 'Asia',
+    'EU': 'Europe',
+    'AF': 'Africa',
+    'NA': 'NorthAmerica',
+    'SA': 'SouthAmerica',
+    'LA': 'LatinAmerica',
+    'MI': 'MiddleEast',
+    'ME': 'MiddleEast' // Alternative prefix
+  };
+  
+  // Extract prefix (first 2 characters before first dash)
+  const prefix = recipe.id.split('-')[0];
+  const region = regionMap[prefix] || 'Asia'; // Default fallback
+  
+  // Try common image extensions - the browser will handle 404s gracefully
+  // We'll try .png first as it's most common, but the actual file extension
+  // should match what's in the folder
+  return `/Recipe Image/${region}/${recipe.id}.png`;
+};
+
+/**
+ * Check if a local image exists (client-side check)
+ * @param {string} url - Image URL to check
+ * @returns {Promise<boolean>} True if image exists
+ */
+const checkImageExists = (url) => {
+  return new Promise((resolve) => {
+    if (typeof window === 'undefined') {
+      // Server-side: assume it exists
+      resolve(true);
+      return;
+    }
+    
+    const img = new Image();
+    img.onload = () => resolve(true);
+    img.onerror = () => resolve(false);
+    img.src = url;
+  });
+};
+
+/**
+ * Get image URL from recipe data (supports local images, image_url field, and generated)
+ * Priority: 1. Local image, 2. image_url field, 3. Generated images
  * @param {object} recipe - Recipe object
  * @param {string} currentLanguage - Current language code
  * @returns {Promise<string>} Image URL
  */
 export const getRecipeImageUrl = async (recipe, currentLanguage = 'en') => {
-  // If recipe already has an image_url, use it
-  if (recipe.image_url) {
-    return recipe.image_url
+  // 1. If recipe already has an image_url, use it first (highest priority)
+  if (recipe.image_url && recipe.image_url.trim() !== '') {
+    // If it's a local path (starts with /Recipe Image/), use it directly
+    // The browser will handle 404s gracefully via onError handler
+    if (recipe.image_url.startsWith('/Recipe Image/')) {
+      return recipe.image_url;
+    } else {
+      // External URL, return as-is
+      return recipe.image_url;
+    }
   }
   
-  // Otherwise, generate from dish name
+  // 2. Check for local image (in public/Recipe Image/) as fallback
+  const localImageUrl = getLocalRecipeImageUrl(recipe);
+  if (localImageUrl) {
+    // Use local image directly - browser will handle missing files
+    return localImageUrl;
+  }
+  
+  // 3. Otherwise, generate from dish name
   const dishName = recipe.dish_name?.[currentLanguage] || 
                    recipe.dish_name?.en || 
                    recipe.name || 

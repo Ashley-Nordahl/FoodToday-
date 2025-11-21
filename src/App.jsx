@@ -132,18 +132,26 @@ function Navigation() {
           )}
         </div>
 
-        {/* Mobile Hamburger Button */}
-        <button 
-          className="mobile-menu-toggle"
-          onClick={toggleMobileMenu}
-          aria-label="Toggle mobile menu"
-        >
-          <span className={`hamburger ${isMobileMenuOpen ? 'open' : ''}`}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-        </button>
+        {/* Mobile Right Navigation Items - Grouped Together */}
+        <div className="mobile-right-nav-items">
+          {/* Mobile User Actions - Always Visible */}
+          <div className="mobile-user-actions-always-visible">
+            <LanguageSelector />
+          </div>
+
+          {/* Mobile Hamburger Button */}
+          <button 
+            className="mobile-menu-toggle"
+            onClick={toggleMobileMenu}
+            aria-label="Toggle mobile menu"
+          >
+            <span className={`hamburger ${isMobileMenuOpen ? 'open' : ''}`}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </button>
+        </div>
       </div>
 
       {/* Mobile Navigation Menu */}

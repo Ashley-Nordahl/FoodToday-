@@ -6,7 +6,7 @@ import InlineFoodWheel from '../components/InlineFoodWheel'
 import RecipeChoiceCards from '../components/RecipeChoiceCards'
 import IngredientSelector from '../components/IngredientSelector'
 import IngredientCheckbox from '../components/IngredientCheckbox'
-// import RecipeImage from '../components/RecipeImage'
+import RecipeImage from '../components/RecipeImage'
 import { 
   getRandomRecipe, 
   getRandomRecipeByCuisine,
@@ -16,6 +16,7 @@ import {
   getRecipeById,
   getAllRecipes
 } from '../data/recipeLoader'
+import { getBestDishName, getBestDescription, getBestInstructions } from '../utils/dishNameTranslator'
 
 function DishToday() {
   const { t, i18n } = useTranslation()
@@ -77,6 +78,18 @@ function DishToday() {
     setShowIngredientSelector(false)
     setRecipeType(null)
   }, [i18n.language])
+
+  // Debug translation function
+  useEffect(() => {
+    console.log('🔍 Translation Debug:')
+    console.log('Current language:', i18n.language)
+    console.log('Available languages:', i18n.languages)
+    console.log('t("recipe.total"):', t('recipe.total'))
+    console.log('t("recipe.min"):', t('recipe.min'))
+    console.log('t("recipe.servings"):', t('recipe.servings'))
+    console.log('i18n.isInitialized:', i18n.isInitialized)
+    console.log('i18n.hasResourceBundle:', i18n.hasResourceBundle(i18n.language, 'translation'))
+  }, [i18n.language, t])
 
   // Load saved phone numbers from localStorage
   useEffect(() => {
@@ -185,7 +198,7 @@ function DishToday() {
     } else if (choiceType === 'ingredients' && ingredients) {
       if (cuisine) {
         // Get recipes from specific cuisine using new loader
-        const cuisineRecipes = getRecipesByCuisine(cuisine.name)
+        const cuisineRecipes = getRecipesByCuisine(cuisine.name, i18n.language)
         const completeRecipes = cuisineRecipes.filter(recipe => 
           recipe.ingredients && 
           recipe.steps && 
@@ -324,7 +337,9 @@ function DishToday() {
       'Meat': '🥩',
       'Seafood': '🦞',
       'Vegetables': '🥬',
+      'Vegetable': '🥬',
       'Grains': '🍚',
+      'Grain': '🍚',
       'Egg': '🥚',
       'Dessert': '🍰',
       'Soup': '🍲',
@@ -339,7 +354,7 @@ function DishToday() {
 
   // Create shopping list text for sharing
   const createShoppingListText = () => {
-    let list = `🍽️ ${t('shoppingList.title')} - ${selectedRecipe.dish_name?.[i18n.language] || selectedRecipe.dish_name?.en || 'Recipe'}\n`
+    let list = `🍽️ ${t('shoppingList.title')} - ${getBestDishName(selectedRecipe, i18n.language)}\n`
     list += `📝 ${t('shoppingList.totalDishes')}: 1\n\n`
     
     list += `🍳 ${t('shoppingList.menu')}:\n`
@@ -432,7 +447,12 @@ function DishToday() {
 
       {selectedRecipe && (
         <div className="recipe-display">
-          {/* Recipe Image - Temporarily disabled */}
+          {/* Recipe Image */}
+          <RecipeImage 
+            recipe={selectedRecipe} 
+            language={i18n.language}
+            alt={getBestDishName(selectedRecipe, i18n.language)}
+          />
 
           <div className="recipe-header">
             <button 
@@ -447,19 +467,28 @@ function DishToday() {
             </button>
             <div className="recipe-title-container">
             <h2 className="recipe-title">
-              {selectedRecipe.dish_name?.[i18n.language] || selectedRecipe.dish_name?.en || 'Unknown Recipe'}
+              {getBestDishName(selectedRecipe, i18n.language)}
             </h2>
               <p className="recipe-description">
-                {selectedRecipe.description?.[i18n.language] || selectedRecipe.description?.en || ''}
+                {getBestDescription(selectedRecipe, i18n.language)}
               </p>
             </div>
             <div className="recipe-info">
-              {selectedRecipe.region?.en && selectedRecipe.subcategory?.en && (
-                <span>{getCountryFlag(selectedRecipe.subcategory.en)} {selectedRecipe.region.en} • {selectedRecipe.subcategory.en}</span>
+              {selectedRecipe.region?.[i18n.language] && selectedRecipe.subcategory?.[i18n.language] && (
+                <span>{getCountryFlag(selectedRecipe.subcategory[i18n.language])} {selectedRecipe.region[i18n.language]} • {t(selectedRecipe.subcategory[i18n.language]) || selectedRecipe.subcategory[i18n.language]}</span>
               )}
-              {selectedRecipe.total_time_min && <span>⏳ Total: {selectedRecipe.total_time_min} min</span>}
-              {selectedRecipe.difficulty?.en && <span>👨‍🍳 {selectedRecipe.difficulty.en}</span>}
-              {selectedRecipe.servings && <span>🍽️ {selectedRecipe.servings} servings</span>}
+              {selectedRecipe.total_time_min && <span>⏳ {t('recipe.total')}: {selectedRecipe.total_time_min} {t('recipe.min')}</span>}
+              {selectedRecipe.difficulty?.[i18n.language] && <span>👨‍🍳 {selectedRecipe.difficulty[i18n.language]}</span>}
+              {selectedRecipe.servings && <span>🍽️ {selectedRecipe.servings} {t('recipe.servings')}</span>}
+              {/* Debug: Log translation values */}
+              {console.log('🔍 Recipe Info Debug:', {
+                totalTime: selectedRecipe.total_time_min,
+                totalTranslation: t('recipe.total'),
+                minTranslation: t('recipe.min'),
+                servings: selectedRecipe.servings,
+                servingsTranslation: t('recipe.servings'),
+                currentLanguage: i18n.language
+              })}
             </div>
           </div>
 
@@ -476,7 +505,91 @@ function DishToday() {
             <div className="recipe-section">
               <h3>📋 {t('parties.ingredients')}</h3>
               <ul className="recipe-ingredients">
-                {(selectedRecipe.ingredients?.[i18n.language] || selectedRecipe.ingredients?.en || []).map((ingredient, index) => {
+                {(selectedRecipe.ingredients?.[i18n.language] || selectedRecipe.ingredients?.en || []).map((ingredient, index, array) => {
+                  // Clean up ingredient string - remove extra whitespace
+                  let cleanIngredient = typeof ingredient === 'string' ? ingredient.trim() : String(ingredient);
+                  
+                  // Handle headers like "Main ingredients:", "Dressing", "Sauce", "For the salad", etc.
+                  // Check if it's a header pattern (contains colon and common header keywords, or standalone headers)
+                  const headerPatterns = [
+                    /^(主要食材|Main ingredients|Huvudingredienser|Chicken marinade|鸡肉腌料|Kycklingmarinad|sauce|酱汁|sås|To serve|佐餐|Till servering|Dressing|dressning|沙拉酱|For the|Marinade|Marinad|腌料|Vegetables|Grönsaker|蔬菜|Fruit|Frukt|水果|Topping|淋面|Till topping)/i
+                  ];
+                  
+                  // Check if it's a header with colon
+                  const isHeaderWithColon = (cleanIngredient.includes(':') || cleanIngredient.includes('：')) && 
+                                            !cleanIngredient.match(/^\d/) &&
+                                            headerPatterns.some(pattern => pattern.test(cleanIngredient));
+                  
+                  // Check if it's a standalone header (like "Dressing" followed by content with spaces)
+                  const isStandaloneHeader = !cleanIngredient.match(/^\d/) &&
+                                             headerPatterns.some(pattern => {
+                                               const match = cleanIngredient.match(pattern);
+                                               if (match) {
+                                                 // Check if there's content after the header (more than just the header word)
+                                                 const headerEnd = match[0].length;
+                                                 const afterHeader = cleanIngredient.substring(headerEnd).trim();
+                                                 // If there's substantial content after the header (more than 5 chars), it's a header with content
+                                                 return afterHeader.length > 5;
+                                               }
+                                               return false;
+                                             });
+                  
+                  const isHeader = isHeaderWithColon || isStandaloneHeader;
+                  
+                  if (isHeader) {
+                    let headerText = '';
+                    let contentAfterHeader = '';
+                    
+                    if (isHeaderWithColon) {
+                      // Split by colon (English or Chinese)
+                      const parts = cleanIngredient.split(/[:：]/);
+                      headerText = parts[0].trim();
+                      contentAfterHeader = parts.slice(1).join(':').trim().replace(/\s+/g, ' ');
+                    } else if (isStandaloneHeader) {
+                      // Split standalone header (like "Dressing" followed by content)
+                      const headerMatch = cleanIngredient.match(/^(Dressing|dressning|沙拉酱|Sauce|sås|酱汁|For the|Marinade|Marinad|腌料|Vegetables|Grönsaker|蔬菜|Fruit|Frukt|水果|Topping|淋面|Till topping)\s+/i);
+                      if (headerMatch) {
+                        headerText = headerMatch[1];
+                        contentAfterHeader = cleanIngredient.substring(headerMatch[0].length).trim().replace(/\s+/g, ' ');
+                      }
+                    }
+                    
+                    // Return header and content as separate items
+                    return (
+                      <React.Fragment key={index}>
+                        <li className="ingredient-header" style={{ 
+                          fontWeight: 'bold', 
+                          marginTop: index > 0 ? '12px' : '0',
+                          marginBottom: '4px',
+                          color: '#ff6b35',
+                          listStyle: 'none'
+                        }}>
+                          {headerText}{!headerText.endsWith(':') ? ':' : ''}
+                        </li>
+                        {contentAfterHeader && (
+                          <li>
+                            <span className="ingredient-name">{contentAfterHeader}</span>
+                          </li>
+                        )}
+                      </React.Fragment>
+                    );
+                  }
+                  
+                  // Handle "Main ingredients" without colon (standalone header)
+                  if (headerPatterns.some(pattern => pattern.test(cleanIngredient)) && !cleanIngredient.includes(':') && !cleanIngredient.includes('：')) {
+                    return (
+                      <li key={index} className="ingredient-header" style={{ 
+                        fontWeight: 'bold', 
+                        marginTop: index > 0 ? '12px' : '0',
+                        marginBottom: '4px',
+                        color: '#ff6b35',
+                        listStyle: 'none'
+                      }}>
+                        {cleanIngredient}:
+                      </li>
+                    );
+                  }
+                  
                   // Handle real recipe database format (array of strings)
                   if (typeof ingredient === 'string' && ingredient.includes(' ')) {
                     // Handle "2 ingredient.bell_peppers_sliced" format - split amount and ingredient
@@ -496,7 +609,7 @@ function DishToday() {
                     // Handle direct ingredient keys or other formats
                     const displayText = ingredient?.startsWith('ingredient.')
                       ? t(`ingredients.${ingredient.replace('ingredient.', '')}`)
-                      : ingredient
+                      : cleanIngredient
                     return (
                       <li key={index}>
                         <span className="ingredient-name">{displayText}</span>
@@ -510,11 +623,40 @@ function DishToday() {
             <div className="recipe-section">
               <h3>👨‍🍳 {t('recipe.instructions')}</h3>
               <ol className="recipe-instructions">
-                {(selectedRecipe.steps?.[i18n.language] || selectedRecipe.steps?.en || []).map((instruction, index) => (
+                {getBestInstructions(selectedRecipe, i18n.language).map((instruction, index) => (
                   <li key={index}>{instruction}</li>
                 ))}
               </ol>
             </div>
+
+            {/* Tips Section - Only show if tips exist */}
+            {selectedRecipe.tips && (selectedRecipe.tips[i18n.language] || selectedRecipe.tips.en) && (
+              <div className="recipe-section" style={{
+                marginTop: '1.5rem',
+                padding: '1rem',
+                backgroundColor: '#fff5f0',
+                borderRadius: '8px',
+                borderLeft: '4px solid #ff6b35'
+              }}>
+                <h3 style={{ 
+                  marginTop: '0',
+                  marginBottom: '0.75rem',
+                  color: '#ff6b35',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.5rem'
+                }}>
+                  💡 {t('recipe.tips') || 'Tips'}
+                </h3>
+                <p style={{ 
+                  margin: '0',
+                  lineHeight: '1.6',
+                  color: '#333'
+                }}>
+                  {selectedRecipe.tips[i18n.language] || selectedRecipe.tips.en || ''}
+                </p>
+              </div>
+            )}
           </div>
         </div>
       )}
@@ -675,7 +817,7 @@ function DishToday() {
                     className="email-btn"
                     onClick={() => {
                       setShowPhoneDropdown(false) // Hide phone dropdown
-                      const subject = `${t('shoppingList.title')} - ${selectedRecipe.dish_name?.[i18n.language] || selectedRecipe.dish_name?.en || 'Recipe'}`
+                      const subject = `${t('shoppingList.title')} - ${getBestDishName(selectedRecipe, i18n.language)}`
                       const body = createShoppingListText()
                       const mailtoLink = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
                       window.open(mailtoLink, '_blank')

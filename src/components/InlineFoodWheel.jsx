@@ -18,6 +18,7 @@ const InlineFoodWheel = ({ onCuisineSelect, onSubcategorySelect, selectedRecipe 
   const [isSecondWheelSpinning, setIsSecondWheelSpinning] = useState(false)
   const [selectedSubcategory, setSelectedSubcategory] = useState(null)
   const [secondWheelRotation, setSecondWheelRotation] = useState(0)
+  const [subcategoryConfirmed, setSubcategoryConfirmed] = useState(false)
   
   // Function to determine what segment is closest to the pointer position
   const getPointerResult = (rotation, segments) => {
@@ -96,6 +97,7 @@ const InlineFoodWheel = ({ onCuisineSelect, onSubcategorySelect, selectedRecipe 
     setSelectedCuisine(null)
     setShowSecondWheel(false)
     setSelectedSubcategory(null)
+    setSubcategoryConfirmed(false)
     setSubcategories([]) // Clear subcategories to prevent stale data
     setIsSecondWheelSpinning(false) // Clear second wheel spinning state
     setSecondWheelRotation(0) // Reset second wheel rotation
@@ -110,7 +112,7 @@ const InlineFoodWheel = ({ onCuisineSelect, onSubcategorySelect, selectedRecipe 
     setRotation(totalRotation)
     
     setTimeout(() => {
-      setIsSpinning(false)
+      // Don't set isSpinning to false here - keep it spinning until subcategory is confirmed
       
       // Use the same simple calculation as FoodWheel.jsx
       const normalizedAngle = ((totalRotation % 360) + 360) % 360
@@ -170,6 +172,8 @@ const InlineFoodWheel = ({ onCuisineSelect, onSubcategorySelect, selectedRecipe 
     
     setTimeout(() => {
       setIsSecondWheelSpinning(false)
+      // Clear main spinning state when second wheel stops spinning and subcategory is selected
+      setIsSpinning(false)
       
       // Use the same logic as main wheel - calculate which segment is at the pointer
       const normalizedAngle = ((totalRotation % 360) + 360) % 360
@@ -192,12 +196,14 @@ const InlineFoodWheel = ({ onCuisineSelect, onSubcategorySelect, selectedRecipe 
   const handleSkip = () => {
     if (onSubcategorySelect) {
       onSubcategorySelect(selectedCuisine, null)
+      setIsSpinning(false) // Clear spinning state when skipping
     }
   }
 
   const handleConfirmSubcategory = () => {
     if (onSubcategorySelect) {
       onSubcategorySelect(selectedCuisine, selectedSubcategory)
+      setSubcategoryConfirmed(true)
     }
   }
 
@@ -205,6 +211,7 @@ const InlineFoodWheel = ({ onCuisineSelect, onSubcategorySelect, selectedRecipe 
     setSelectedCuisine(null)
     setShowSecondWheel(false)
     setSelectedSubcategory(null)
+    setSubcategoryConfirmed(false)
     setRotation(0)
     setSecondWheelRotation(0)
     
@@ -220,12 +227,15 @@ const InlineFoodWheel = ({ onCuisineSelect, onSubcategorySelect, selectedRecipe 
   }
 
   const getTranslatedCuisineName = (name) => {
-    return name
+    const translated = t(`cuisines.${name}`)
+    return translated !== `cuisines.${name}` ? translated : name
   }
 
   const getButtonText = () => {
     if (isSpinning) return t('foodWheel.spinning')
     if (selectedCuisine && !isSelected) return t('foodWheel.tryAgain')
+    if (selectedCuisine && selectedSubcategory) return t('foodWheel.tryAgain')
+    if (subcategoryConfirmed) return t('foodWheel.tryAgain')
     return t('foodWheel.start')
   }
 
@@ -311,7 +321,7 @@ const InlineFoodWheel = ({ onCuisineSelect, onSubcategorySelect, selectedRecipe 
                           fontFamily: 'Arial, sans-serif'
                         }}
                       >
-                        {cuisine.name}
+                        {getTranslatedCuisineName(cuisine.name)}
                       </text>
                     </g>
                   )
@@ -383,7 +393,7 @@ const InlineFoodWheel = ({ onCuisineSelect, onSubcategorySelect, selectedRecipe 
                             fontWeight="500"
                             transform={`rotate(${(startAngle + endAngle) / 2}, ${100 + 70 * Math.cos((startAngle + endAngle) / 2 * Math.PI / 180 - Math.PI / 2)}, ${100 + 70 * Math.sin((startAngle + endAngle) / 2 * Math.PI / 180 - Math.PI / 2)})`}
                           >
-                            {subcategory}
+                            {getTranslatedCuisineName(subcategory)}
                           </text>
                         </g>
                       )
@@ -421,7 +431,7 @@ const InlineFoodWheel = ({ onCuisineSelect, onSubcategorySelect, selectedRecipe 
                 <div className="cuisine-selection-container">
                   <div className="cuisine-text-centered">
                     <span className="selected-name">
-                      {String(selectedCuisine.name)}-{selectedSubcategory}
+                      {getTranslatedCuisineName(selectedCuisine.name)}-{getTranslatedCuisineName(selectedSubcategory)}
                     </span>
                   </div>
                   <div className="action-buttons-section">

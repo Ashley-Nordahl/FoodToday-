@@ -6,13 +6,14 @@
     "drink": "Dryck",
     "parties": "Fester",
     "myFavorite": "Mina Favoriter",
+    "search": "Sök",
     "login": "Logga In",
     "signup": "Registrera",
     "signOut": "Logga Ut"
   },
   "dishToday": {
     "title": "Dagens Rätt",
-    "subtitle": "Upptäck din perfekta måltid med våra smarta receptrekommendationer"
+    "subtitle": "Välj din måltid medan du har kul!"
   },
   "auth": {
     "welcomeBack": "Välkommen Tillbaka!",
@@ -43,6 +44,8 @@
     "prepTime": "Förberedelsetid",
     "cookTime": "Tillagningstid",
     "totalTime": "Total tid",
+    "total": "Totalt",
+    "min": "min",
     "servings": "portioner",
     "difficulty": "Svårighetsgrad",
     "cuisine": "Kök",
@@ -69,7 +72,8 @@
     "selectIngredientsDesc": "Välj de ingredienser du har tillgängliga:",
     "noRecipesFound": "Inga recept hittades",
     "tryDifferentIngredients": "Försök välja andra ingredienser",
-    "tryDifferentSearch": "Försök med ett annat sökord"
+    "tryDifferentSearch": "Försök med ett annat sökord",
+    "tips": "Tips"
   },
   "recipeChoice": {
     "title": "Hur vill du få ditt recept?",
@@ -1344,6 +1348,8 @@
   "cuisines": {
     "Chinese": "Kinesiskt",
     "Japanese": "Japanskt",
+    "China": "Kina",
+    "Japan": "Japan",
     "Korean": "Koreanskt",
     "Italian": "Italienskt",
     "French": "Franskt",
@@ -1351,7 +1357,37 @@
     "Thai": "Thailändskt",
     "Mexican": "Mexikanskt",
     "American": "Amerikanskt",
-    "Greek": "Grekiskt"
+    "Greek": "Grekiskt",
+    "Africa": "Afrika",
+    "Asia": "Asien",
+    "Europe": "Europa",
+    "Latin America": "Latinamerika",
+    "Middle East": "Mellanöstern",
+    "North America": "Nordamerika",
+    "South America": "Sydamerika",
+    "Morocco": "Marocko",
+    "Nigeria": "Nigeria",
+    "South Africa": "Sydafrika",
+    "Malaysia": "Malaysia",
+    "Thailand": "Thailand",
+    "Korea": "Korea",
+    "India": "Indien",
+    "Italy": "Italien",
+    "Spain": "Spanien",
+    "France": "Frankrike",
+    "Greece": "Grekland",
+    "Germany": "Tyskland",
+    "Sweden": "Sverige",
+    "Turkey": "Turkiet",
+    "Iran": "Iran",
+    "Lebanon": "Libanon",
+    "America": "Amerika",
+    "Canada": "Kanada",
+    "Brazil": "Brasilien",
+    "Colombia": "Colombia",
+    "Mexico": "Mexiko",
+    "Peru": "Peru",
+    "Argentina": "Argentina"
   },
   "sauce": {
     "title": "Såser",
@@ -1518,6 +1554,42 @@
       "anniversary": "Årsdag",
       "babyShower": "Babyshower",
       "reunion": "Återförening"
+    },
+    "ingredientLabels": {
+      "meat": "Kött",
+      "seafood": "Skaldjur",
+      "vegetables": "Grönsak",
+      "grains": "Spannmål",
+      "egg": "Ägg"
+    },
+    "cuisineLabels": {
+      "mixed": "Blandat",
+      "africa": "Afrika",
+      "asia": "Asien",
+      "europe": "Europa",
+      "latin_america": "Latinamerika",
+      "middle_east": "Mellanöstern",
+      "north_america": "Nordamerika",
+      "south_america": "Sydamerika"
+    },
+    "tasteLabels": {
+      "rich": "Rik",
+      "spicy": "Kryddig",
+      "sweet": "Söt",
+      "sour": "Sur",
+      "salty": "Salt",
+      "mild": "Mild"
+    },
+    "scenarioLabels": {
+      "family": "Familj",
+      "friends": "Vänner",
+      "romantic": "Romantisk"
+    },
+    "tooltips": {
+      "clickToRemoveIngredient": "Klicka för att ta bort ingrediens",
+      "clickIngredientToAdd": "Klicka på en ingrediens nedan för att lägga till den",
+      "clickPlateToRemove": "Klicka på tallriken för att ta bort",
+      "clickToAddToPlate": "Klicka på {{ingredient}} för att lägga till på en tallrik"
     }
   },
   "dishes": {

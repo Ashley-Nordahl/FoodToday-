@@ -8,26 +8,26 @@
     },
     "subcategory": {
       "en": "USA",
-      "zh": "USA",
+      "zh": "美国",
       "sv": "USA"
     },
     "dish_name": {
       "en": "BBQ Ribs",
-      "zh": "BBQ Ribs",
+      "zh": "美式烤排骨",
       "sv": "BBQ Ribs"
     },
     "description": {
-      "en": "BBQ Ribs - a classic USA dish prepared for home cooks.",
-      "zh": "BBQ Ribs - 经典的USA菜，适合家庭烹饪。",
-      "sv": "BBQ Ribs - en klassisk USArätt anpassad för hemanvändning."
+      "en": "BBQ Ribs are a quintessential American barbecue classic: a rack of pork or beef ribs that are slow-smoked or cooked until tender, then coated in a thick, tangy, and sweet barbecue sauce.",
+      "zh": "烤肋排是典型的美式烧烤经典菜肴：将猪肋排或牛肋排慢熏或煮至软嫩，然后涂上浓稠、酸甜可口的烧烤酱。",
+      "sv": "BBQ Ribs are a quintessential American barbecue classic: a rack of pork or beef ribs that are slow-smoked or cooked until tender, then coated in a thick, tangy, and sweet barbecue sauce."
     },
-    "total_time_min": 22,
+    "total_time_min": null,
     "difficulty": {
-      "en": "Easy",
-      "zh": "简单",
-      "sv": "Lätt"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
-    "servings": 4,
+    "servings": 6,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -35,51 +35,99 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "2 kg thin spare ribs",
+        "1 tsp salt",
+        "2 tsp black pepper",
+        "flaked salt and chili flakes for garnish",
+        "BBQ sauce",
+        "1 red onion",
+        "3 cloves garlic",
+        "1 tbsp smoked paprika",
+        "1/2 tsp whole black peppercorns",
+        "2 tbsp olive oil",
+        "1 bottle chili sauce (approx. 340 g each)",
+        "1 1/2 dl pureed tomatoes",
+        "1/2 dl apple cider vinegar",
+        "1 dl bourbon whiskey",
+        "2 dl dark muscovado sugar",
+        "salt"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "2公斤薄排骨",
+        "1茶匙盐",
+        "2茶匙黑胡椒",
+        "片状盐和辣椒片（用于装饰）",
+        "烧烤酱",
+        "1个红洋葱",
+        "3瓣大蒜",
+        "1汤匙烟熏辣椒粉",
+        "1/2茶匙整粒黑胡椒",
+        "2汤匙橄榄油",
+        "1瓶辣椒酱（每瓶约340克）",
+        "1.5分升番茄泥",
+        "0.5分升苹果醋",
+        "1分升波本威士忌",
+        "2分升黑糖",
+        "盐"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "2 kg tunna revbensspjäll",
+        "1 tsk salt",
+        "2 krm svartpeppar",
+        "flingsalt och chiliflakes till garnering",
+        "BBQ-sås",
+        "1 rödlök",
+        "3 vitlöksklyftor",
+        "1 msk rökt paprikapulver",
+        "1/2 tsk hela svartpepparkorn",
+        "2 msk olivolja",
+        "1 flaska chilisås (à ca 340 g)",
+        "1 1/2 dl passerade tomater",
+        "1/2 dl äppelcidervinäger",
+        "1 dl bourbon whisky",
+        "2 dl mörkt muscovadosocker",
+        "salt"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook BBQ Ribs using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Preheat the oven to 175°C.",
+        "Take the ribs out of the fridge about 30 minutes in advance so that they are room temperature. Season them all around with salt and pepper.",
+        "Place the ribs in a baking paper-lined baking tray, meat side up. Cover the dish tightly with aluminium foil. Cook in the middle of the oven for 1 1⁄2 hours. Make the sauce in the meantime.",
+        "BBQ sauce: Peel and chop the onion and garlic. Sauté the onion, garlic, paprika and peppercorns in the oil in a large saucepan without browning, about 3 minutes. Add the chili sauce, pureed tomatoes, vinegar, whiskey and sugar. Simmer over low heat for about 20 minutes. Stir occasionally. Season with salt. Let cool.",
+        "Remove the ribs from the oven. Grill them for 2–3 minutes per side. Brush generously all around with the BBQ sauce. Repeat several times. Be careful not to burn the surface. Let rest for about 10 minutes before serving.",
+        "If necessary, divide the ribs and place on a plate. Sprinkle with salt and chili flakes."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 BBQ Ribs using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将烤箱预热至175°C。",
+        "提前约30分钟将排骨从冰箱取出，使其恢复至室温。用盐和胡椒粉均匀涂抹排骨表面。",
+        "将排骨放在铺有烘焙纸的烤盘上，肉面朝上。用锡纸严密地盖住烤盘。放入烤箱中层烤制1.5小时。同时制作酱汁。",
+        "烧烤酱：将洋葱和大蒜去皮切碎。在大平底锅中倒入油，放入洋葱、大蒜、辣椒粉和胡椒粒，翻炒约3分钟，不要炒至焦黄。加入辣椒酱、番茄泥、醋、威士忌和糖。小火慢炖约20分钟，偶尔搅拌。加盐调味。放凉。",
+        "将排骨从烤箱中取出。每面烤2-3分钟。在排骨表面均匀涂抹烧烤酱。重复几次。注意不要烤焦。食用前静置约10分钟。",
+        "如有必要，将排骨切块，放在盘子上。撒上盐和辣椒片。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga BBQ Ribs using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Sätt ugnen på 175°C.",
+        "Ta ut spjällen ur kylen ca 30 minuter i förväg så att de blir rumsvarma. Krydda dem runt om med salt och peppar.",
+        "Lägg spjällen i en bakpappersklädd långpanna med köttsidan uppåt. Täck formen väl med aluminiumfolie. Tillaga i mitten av ugnen i 1 1⁄2 timme. Gör såsen under tiden.",
+        "BBQ-sås: Skala och hacka lök och vitlök. Fräs lök, vitlök, paprikapulver och pepparkorn i oljan i en stor gryta utan att det tar färg, ca 3 minuter. Tillsätt chilisås, passerade tomater, vinäger, whiskey och socker. Låt sjuda på svag värme ca 20 minuter. Rör om då och då. Smaka av med salt. Låt svalna.",
+        "Ta ut spjällen ur ugnen. Grilla dem 2–3 minuter per sida. Pensla generöst runt om med BBQ- såsen. Upprepa flera gånger. Passa noga så inte ytan bränns. Låt vila ca 10 minuter före servering.",
+        "Dela ev spjällen och lägg upp på ett fat. Strö över flingsalt och chiliflakes."
       ]
     },
-    "tags": [
-      "spicy",
-      "stew"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "sweet",
+      "sour",
+      "salty",
+      "rich"
+    ],
+    "image_url": "/Recipe Image/NorthAmerica/NO-US-001.jpg"
   },
   {
     "id": "NO-US-002",
@@ -90,26 +138,26 @@
     },
     "subcategory": {
       "en": "USA",
-      "zh": "USA",
+      "zh": "美国",
       "sv": "USA"
     },
     "dish_name": {
-      "en": "Cheeseburger",
-      "zh": "Cheeseburger",
-      "sv": "Cheeseburger"
+      "en": "Hamburger with Hickory Apple BBQ Sauce",
+      "zh": "山核桃苹果烧烤酱汉堡",
+      "sv": "Hamburgare med BBQ Sås-Hickory-apple"
     },
     "description": {
-      "en": "Cheeseburger - a classic USA dish prepared for home cooks.",
-      "zh": "Cheeseburger - 经典的USA菜，适合家庭烹饪。",
-      "sv": "Cheeseburger - en klassisk USArätt anpassad för hemanvändning."
+      "en": "This classic American-style hamburger features a grilled patty and is generously topped with a unique hickory-smoked BBQ sauce infused with the sweet, fruity flavor of apple.",
+      "zh": "这款经典的美国风味汉堡以烤肉饼为特色，并淋上独特的山核桃木烟熏烧烤酱，其中还融入了苹果的甜美果香。",
+      "sv": "Denna klassiska hamburgare i amerikansk stil har en grillad biff och är generöst toppad med en unik hickoryrökt BBQ-sås berikad med den söta, fruktiga smaken av äpple."
     },
-    "total_time_min": 26,
+    "total_time_min": 30,
     "difficulty": {
-      "en": "Hard",
-      "zh": "困难",
-      "sv": "Svår"
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
     },
-    "servings": 4,
+    "servings": 6,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -117,51 +165,94 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "2 garlic cloves",
+        "3 dl ketchup",
+        "1 tbsp raw cane sugar",
+        "2 tbsp red wine vinegar",
+        "2 tbsp veal stock",
+        "1 tbsp Dijon mustard",
+        "1 tbsp ground ginger",
+        "3 tbsp concentrated apple juice",
+        "1 tsp liquid smoke",
+        "salt",
+        "black pepper",
+        "To serve",
+        "hamburger",
+        "hamburger bun",
+        "red onion rings",
+        "tomato",
+        "pickle",
+        "lettuce leaves"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "2瓣蒜",
+        "3分升番茄酱",
+        "1汤匙原蔗糖",
+        "2汤匙红酒醋",
+        "2汤匙小牛肉高汤",
+        "1汤匙第戎芥末酱",
+        "1汤匙姜粉",
+        "3汤匙浓缩苹果汁",
+        "1茶匙液态烟熏调料",
+        "盐",
+        "黑胡椒",
+        "搭配食用",
+        "汉堡肉饼",
+        "汉堡面包",
+        "红洋葱圈",
+        "番茄",
+        "酸黄瓜",
+        "生菜叶"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "2 vitlöksklyftor",
+        "3 dl ketchup",
+        "1 msk rårörsocker",
+        "2 msk rödvinsvinäger",
+        "2 msk kalvfond",
+        "1 msk dijonsenap",
+        "1 msk mald ingefära",
+        "3 msk konc äppeljuice",
+        "1 tsk liquid smoke",
+        "salt",
+        "svartpeppar",
+        "Till servering",
+        "hamburgare",
+        "hamburgerbröd",
+        "rödlöksringar",
+        "tomat",
+        "saltgurka",
+        "salladsblad"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Cheeseburger using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Peel and grate the garlic. Mix it with all the ingredients in a saucepan except salt and pepper. Cook slowly for about 25 minutes. Season with salt and pepper.",
+        "To serve: Serve with hamburgers."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Cheeseburger using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将大蒜去皮磨碎。将除盐和胡椒以外的所有食材放入平底锅中，加入蒜蓉。小火慢炖约25分钟。最后用盐和胡椒调味。",
+        "食用方法：搭配汉堡食用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Cheeseburger using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Skala och riv vitlöken. Blanda den med alla ingredienser i en kastrull utom salt och peppar. Koka sakta ca 25 minuter. Smaksätt med salt och peppar.",
+        "Till servering: Servera till hamburgare."
       ]
     },
-    "tags": [
-      "grilled",
-      "spicy"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "sweet",
+      "rich",
+      "salty",
+      "sour",
+      "smokey"
+    ],
+    "image_url": "/Recipe Image/NorthAmerica/NO-US-002.jpg"
   },
   {
     "id": "NO-US-003",
@@ -172,78 +263,108 @@
     },
     "subcategory": {
       "en": "USA",
-      "zh": "USA",
+      "zh": "美国",
       "sv": "USA"
     },
     "dish_name": {
-      "en": "Fried Chicken",
-      "zh": "炒 鸡肉",
-      "sv": "Stekt Kyckling"
+      "en": "Roasted Corn Salsa with Cilantro",
+      "zh": "烤玉米香菜莎莎酱",
+      "sv": "Rostad majssalsa med koriander"
     },
     "description": {
-      "en": "Fried Chicken - a classic USA dish prepared for home cooks.",
-      "zh": "Fried Chicken - 经典的USA菜，适合家庭烹饪。",
-      "sv": "Fried Chicken - en klassisk USArätt anpassad för hemanvändning."
+      "en": "This is a vibrant, fresh salsa that features the natural sweetness of roasted corn kernels blended with tangy lime, red onion, and a generous amount of fresh cilantro.",
+      "zh": "这是一款充满活力、清新爽口的莎莎酱，以烤玉米粒的天然甜味为特色，混合了酸爽的青柠、红洋葱和大量的香菜。",
+      "sv": "Detta är en livfull, fräsch salsa som har den naturliga sötman av rostade majskorn blandad med syrlig lime, rödlök och en generös mängd färsk koriander."
     },
-    "total_time_min": 55,
+    "total_time_min": 30,
     "difficulty": {
-      "en": "Easy",
-      "zh": "简单",
-      "sv": "Lätt"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
-    "servings": 2,
+    "servings": 4,
     "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "2 fresh corn cobs",
+        "1 red onion",
+        "2 garlic cloves",
+        "1 red chili",
+        "1 red bell pepper",
+        "3 tbsp corn oil",
+        "1 tsp raw cane sugar",
+        "2 tsp vinegar",
+        "2 tomatoes",
+        "salt",
+        "black pepper",
+        "optional 1 pot coriander"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "2根新鲜玉米棒",
+        "1个红洋葱",
+        "2瓣大蒜",
+        "1个红辣椒",
+        "1个红甜椒",
+        "3汤匙玉米油",
+        "1茶匙原蔗糖",
+        "2茶匙醋",
+        "2个西红柿",
+        "盐",
+        "黑胡椒",
+        "可选：1小盆香菜"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "2 färska majskolvar",
+        "1 rödlök",
+        "2 vitlöksklyftor",
+        "1 röd chili",
+        "1 röd paprika",
+        "3 msk majsolja",
+        "1 tsk rårörssocker",
+        "2 tsk vinäger",
+        "2 tomater",
+        "salt",
+        "svartpeppar",
+        "ev 1 kruka koriander"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Fried Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Cut the corn kernels off the cobs. Peel and chop the onion and garlic. Split and core the chili and bell pepper, shred the chili and dice the bell pepper.",
+        "Roast the corn kernels in the oil until you can smell the popcorn. Add the onion, chili and bell pepper and sauté for about 1 minute. Stir in the sugar and vinegar. Remove from the heat.",
+        "Cut the stems off the tomatoes and split them. Squeeze out the seeds and dice the tomatoes. Mix them into the corn mixture, season with salt, pepper and chopped coriander if desired.",
+        "Serve the corn salsa with grilled entrecôte with BBQ glaze and roasted new potatoes."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Fried Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将玉米粒从玉米棒上切下来。洋葱和大蒜去皮切碎。辣椒和甜椒去籽切开，辣椒切丝，甜椒切丁。",
+        "将玉米粒放入油中翻炒，直至闻到爆米花的香味。加入洋葱、辣椒和甜椒，翻炒约1分钟。加入糖和醋，搅拌均匀。关火。",
+        "番茄去蒂切开，取出籽，切丁。将番茄丁拌入玉米混合物中，根据个人口味加入盐、胡椒粉和香菜碎调味。",
+        "将玉米莎莎酱与烤牛排（淋上烧烤酱）和烤新土豆一起享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Fried Chicken using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Skär av majskornen från kolvarna. Skala och hacka lök och vitlök. Dela och kärna ur chilin och paprikan, strimla chilin och tärna paprikan.",
+        "Rosta majskornen i oljan tills det börjar dofta popcorn. Tillsätt lök, chili och paprika och fräs med ca 1 minut. Rör ner socker och vinäger. Ta av från värmen.",
+        "Skär bort rotstocken från tomaterna och dela dem. Krama ur kärnorna och skär tomaterna i tärningar. Blanda dem i majsblandningen, smaksätt med salt, peppar och ev hackad koriander.",
+        "Servera majssalsan med grillad entrecôte med bbq glaze och rostad färskpotatis."
       ]
     },
-    "tags": [
-      "spicy",
-      "gluten-free"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "sweet",
+      "sour",
+      "salty",
+      "mild"
+    ],
+    "image_url": "/Recipe Image/NorthAmerica/NO-US-003.jpg"
   },
   {
     "id": "NO-US-004",
@@ -254,20 +375,20 @@
     },
     "subcategory": {
       "en": "USA",
-      "zh": "USA",
+      "zh": "美国",
       "sv": "USA"
     },
     "dish_name": {
-      "en": "Mac and Cheese",
-      "zh": "Mac and Cheese",
-      "sv": "Mac and Cheese"
+      "en": "Lime-Fried Ribs with Sweet Plum Sauce",
+      "zh": "青柠煎排骨配甜梅子酱",
+      "sv": "Limestekt revbensspjäll med sweet plum sauce"
     },
     "description": {
-      "en": "Mac and Cheese - a classic USA dish prepared for home cooks.",
-      "zh": "Mac and Cheese - 经典的USA菜，适合家庭烹饪。",
-      "sv": "Mac and Cheese - en klassisk USArätt anpassad för hemanvändning."
+      "en": "This dish features savory ribs pan-fried with a bright lime flavor, served alongside a sticky and sweet plum sauce for a delicious sweet-and-sour contrast.",
+      "zh": "这道菜的特色在于用鲜美的青柠汁煎制的排骨，搭配甜腻的梅子酱，带来美味的酸甜对比。",
+      "sv": "Denna rätt består av salta revbensspjäll stekta med en ljus limesmak, serverade tillsammans med en klibbig och söt plommonsås för en läcker sötsur kontrast."
     },
-    "total_time_min": 31,
+    "total_time_min": 60,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
@@ -281,51 +402,101 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "1 kg thick rib ribs",
+        "1 tsp salt",
+        "1/2 tsp pepper",
+        "1/2 dl honey",
+        "2 tbsp Japanese soy sauce",
+        "1/2 dl water",
+        "1 lime",
+        "Sauce",
+        "10 fresh plums",
+        "5 tomatoes",
+        "3 1/2 tbsp fresh ginger",
+        "1/2 tsp ground cloves",
+        "1 tsp ground cinnamon",
+        "1 dl raw sugar",
+        "2 dl orange juice",
+        "To serve",
+        "noodles"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "1公斤厚肋排",
+        "1茶匙盐",
+        "1/2茶匙胡椒粉",
+        "1/2分升蜂蜜",
+        "2汤匙日式酱油",
+        "1/2分升水",
+        "1个青柠",
+        "酱汁",
+        "10个新鲜李子",
+        "5个西红柿",
+        "3.5汤匙新鲜生姜",
+        "1/2茶匙丁香粉",
+        "1茶匙肉桂粉",
+        "1分升原糖",
+        "2分升橙汁",
+        "面条"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "1 kg tjocka revbensspjäll",
+        "1 tsk salt",
+        "1/2 tsk peppar",
+        "1/2 dl honung",
+        "2 msk japansk soja",
+        "1/2 dl vatten",
+        "1 lime",
+        "Sås",
+        "10 färska plommon",
+        "5 tomater",
+        "3 1/2 msk färsk ingefära",
+        "1/2 tsk malda nejlikor",
+        "1 tsk mald kanel",
+        "1 dl råsocker",
+        "2 dl apelsinjuice",
+        "Till servering",
+        "nudlar"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Mac and Cheese using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Preheat the oven to 200˚C.",
+        "Place the meat in an ovenproof dish. Season with salt and pepper. Mix the honey and soy sauce and brush the meat all over. Pour water into the dish.",
+        "Place in the middle of the oven and roast for 25-30 minutes. Reduce the oven temperature to 150˚C. Cut the lime into slices and place them on the meat.",
+        "Continue roasting until the internal temperature is about 80˚C or until the bones come away easily from the meat. Turn the meat a few times during cooking.",
+        "Halve and pit the plums. Halve the tomatoes and squeeze out the pits. Cut the plums and tomatoes into pieces. Mix all the ingredients for the sauce in a saucepan and simmer for 10-12 minutes over low heat. Season with salt and pepper.",
+        "Serve with freshly cooked noodles and sauce."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Mac and Cheese using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将烤箱预热至200摄氏度。",
+        "将肉放入烤盘中，撒上盐和胡椒粉调味。将蜂蜜和酱油混合，均匀涂抹在肉上。在烤盘中倒入水。",
+        "将烤盘放入烤箱中层，烤25-30分钟。将烤箱温度调至150摄氏度。将青柠切片，放在肉上。",
+        "继续烤制，直至肉的内部温度达到约80摄氏度，或直至骨头很容易从肉上脱落。烤制过程中翻动肉几次。",
+        "将李子对半切开并去核。将番茄对半切开并挤出核。将李子和番茄切成块。将所有酱汁材料放入平底锅中，小火慢炖10-12分钟。用盐和胡椒粉调味。",
+        "搭配新鲜煮好的面条和酱汁食用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Mac and Cheese using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Sätt ugnen på 200˚C.",
+        "Lägg köttet i en ugnssäker form. Krydda med salt och peppar. Blanda honung och soja och pensla köttet runt om. Häll vatten i formen.",
+        "Sätt in mitt i ugnen och stek 25-30 minuter. Sänk ugnstemperaturen till 150˚C.  Skär limen i skivor och lägg dem på köttet.",
+        "Fortsätt att steka tills innertemperaturen är ca 80˚C eller tills benen lossnar lätt från köttet. Vänd köttet några gånger under tillagningstiden.",
+        "Dela och kärna ur plommonen. Dela tomaterna och krama ur kärnorna. Skär plommonen och tomaterna i bitar. Blanda alla ingredienserna till såsen i en kastrull och sjud den 10-12 minuter på svag värme. Smaka av med salt och peppar.",
+        "Servera med nykokta nudlar och sås."
       ]
     },
-    "tags": [
-      "spicy",
-      "grilled"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "sweet",
+      "sour",
+      "salty",
+      "rich"
+    ],
+    "image_url": "/Recipe Image/NorthAmerica/NO-US-004.jpg"
   },
   {
     "id": "NO-US-005",
@@ -336,26 +507,26 @@
     },
     "subcategory": {
       "en": "USA",
-      "zh": "USA",
+      "zh": "美国",
       "sv": "USA"
     },
     "dish_name": {
       "en": "Clam Chowder",
-      "zh": "Clam Chowder",
+      "zh": "蛤蜊浓汤",
       "sv": "Clam Chowder"
     },
     "description": {
-      "en": "Clam Chowder - a classic USA dish prepared for home cooks.",
-      "zh": "Clam Chowder - 经典的USA菜，适合家庭烹饪。",
-      "sv": "Clam Chowder - en klassisk USArätt anpassad för hemanvändning."
+      "en": "A classic American soup: a thick, creamy, and savory chowder typically made with tender clams, potatoes, onions, and often served with crackers.",
+      "zh": "经典的美国汤：浓稠、奶油味十足、味道鲜美的蛤蜊浓汤，通常用嫩蛤蜊、土豆、洋葱制成，并经常配以饼干食用。",
+      "sv": "En klassisk amerikansk soppa: en tjock, krämig och smakrik chowder som vanligtvis görs med möra musslor, potatis och lök, och ofta serveras med kex."
     },
-    "total_time_min": 82,
+    "total_time_min": 45,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
       "sv": "Medel"
     },
-    "servings": 1,
+    "servings": 4,
     "main_type": {
       "en": "Seafood",
       "zh": "海鲜",
@@ -363,51 +534,94 @@
     },
     "ingredients": {
       "en": [
-        "300 g salmon fillet",
-        "1 pc lemon",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "Clam chowder",
+        "2 yellow onions",
+        "4 potatoes (4 potatoes equals about 400 g)",
+        "200 g celeriac",
+        "100 g pork belly",
+        "1 tbsp butter",
+        "2 dl white cooking wine",
+        "2 1/2 dl vegetable stock (stock or cube and water)",
+        "3 dl whipping cream",
+        "1 kg blue mussels",
+        "salt",
+        "black pepper",
+        "1 dl finely chopped herbs (e.g. parsley and thyme)",
+        "To serve",
+        "bread"
       ],
       "zh": [
-        "300 g 三文鱼 fillet",
-        "1 pc 柠檬",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "蛤蜊浓汤",
+        "2 个黄洋葱",
+        "4 个土豆（约 400 克）",
+        "200 克芹菜根",
+        "100 克五花肉",
+        "1 汤匙黄油",
+        "2 分升白葡萄酒",
+        "2.5 分升蔬菜高汤（高汤块或浓汤宝加水）",
+        "3 分升鲜奶油",
+        "1 公斤蓝贻贝",
+        "盐",
+        "黑胡椒",
+        "1 分升切碎的香草（例如欧芹和百里香）",
+        "佐餐：面包"
       ],
       "sv": [
-        "300 g lax fillet",
-        "1 pc citron",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "Clam chowder",
+        "2 gula lökar",
+        "4 potatisar (4 potatisar motsvarar ca 400 g)",
+        "200 g rotselleri",
+        "100 g rimmat sidfläsk",
+        "1 msk smör",
+        "2 dl vitt matlagningsvin",
+        "2 1/2 dl grönsaksbuljong (fond eller tärning och vatten)",
+        "3 dl vispgrädde",
+        "1 kg blåmusslor",
+        "salt",
+        "svartpeppar",
+        "1 dl finhackade örtkryddor (t ex persilja och timjan)",
+        "Till servering",
+        "bröd"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Clam Chowder using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Peel, halve and cut the onion into strips. Peel and cut the potatoes into 1–2 cm pieces. Peel and cut the celery into 1/2 cm cubes. Cut the pork into about 1/2 cm cubes.",
+        "Fry the pork in butter in a saucepan, add the onion, potatoes and celery when the pork starts to colour. Pour in the wine, stock and cream. Let it cook slowly for about 15 minutes without a lid, until the potatoes are soft.",
+        "Rinse and brush the clams. Discard broken clams and those that do not close when you tap the shell. Add the clams to the saucepan and cook for another 5 minutes with the lid on. Sort out and discard any clams that have not opened.",
+        "Season the soup with salt and pepper.",
+        "Chop and stir in the herbs.",
+        "To serve: Serve the clam chowder with bread."
       ],
       "zh": [
-        "准备食材: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Clam Chowder using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将洋葱去皮，对半切开，再切成条状。将土豆去皮，切成 1-2 厘米的小块。将芹菜去皮，切成 0.5 厘米的立方体。将猪肉切成约 0.5 厘米的立方体。",
+        "在平底锅中用黄油煎猪肉，待猪肉开始上色后，加入洋葱、土豆和芹菜。倒入葡萄酒、高汤和奶油。敞开锅盖，小火慢炖约 15 分钟，直至土豆软烂。",
+        "将蛤蜊冲洗干净并刷洗干净。丢弃破损的蛤蜊以及轻敲贝壳后仍未闭合的蛤蜊。将蛤蜊放入平底锅中，盖上锅盖再煮 5 分钟。挑出并丢弃任何未开口的蛤蜊。",
+        "用盐和胡椒粉调味。",
+        "将香草切碎，拌入汤中。",
+        "食用方法：将蛤蜊浓汤与面包一起享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Clam Chowder using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Skala, halvera och skär löken i strimlor. Skala och skär potatisen i 1–2 cm stora bitar. Skala och skär sellerin i 1/2 cm tärningar. Skär fläsket i ca 1/2 cm små tärningar.",
+        "Fräs fläsket i smör i en kastrull, tillsätt lök, potatis och selleri när fläsket börjar få färg. Häll på vin, buljong och grädde. Låt koka sakta ca 15 minuter utan lock, tills potatisen är mjuk.",
+        "Skölj och borsta musslorna. Släng trasiga musslor och de som inte stänger sig då du knackar på skalet. Tillsätt musslorna i kastrullen och koka ytterligare 5 minuter med lock. Sortera bort och släng musslor som inte har öppnat sig.",
+        "Smaka av soppan med salt och peppar.",
+        "Hacka och rör ner örterna.",
+        "Till servering: Servera clam chowdern med bröd."
       ]
     },
-    "tags": [
-      "vegetarian",
-      "baked"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "rich",
+      "salty",
+      "mild"
+    ],
+    "image_url": "/Recipe Image/NorthAmerica/NO-US-005.jpg"
   },
   {
     "id": "NO-CA-001",
@@ -418,78 +632,122 @@
     },
     "subcategory": {
       "en": "Canada",
-      "zh": "Canada",
+      "zh": "加拿大",
       "sv": "Canada"
     },
     "dish_name": {
       "en": "Poutine",
-      "zh": "Poutine",
+      "zh": "肉汁奶酪薯条",
       "sv": "Poutine"
     },
     "description": {
-      "en": "Poutine - a classic Canada dish prepared for home cooks.",
-      "zh": "Poutine - 经典的Canada菜，适合家庭烹饪。",
-      "sv": "Poutine - en klassisk Canadarätt anpassad för hemanvändning."
+      "en": "A famous Canadian comfort dish consisting of a large serving of hot French fries topped with squeaky cheese curds and smothered in a rich, savory brown gravy.",
+      "zh": "一道著名的加拿大家常菜，由一大份热腾腾的炸薯条组成，上面放着吱吱作响的奶酪块，再淋上浓郁鲜美的棕色肉汁。",
+      "sv": "En berömd kanadensisk husmanskosträtt bestående av en stor portion varma pommes frites toppade med ostmassa och täckta med en rik, smakrik brun sås."
     },
-    "total_time_min": 56,
+    "total_time_min": 60,
     "difficulty": {
-      "en": "Easy",
-      "zh": "简单",
-      "sv": "Lätt"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
     "servings": 3,
     "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "Poutine Gravy:",
+        "3 Tbsp cornstarch",
+        "2 Tbsp water",
+        "6 Tbsp unsalted butter",
+        "1/4 cup unbleached all purpose flour",
+        "20 oz beef broth",
+        "10 oz chicken broth",
+        "Pepper, to taste",
+        "For Deep Fried Fries:",
+        "2 lbs Russet potatoes, (3-4 medium potatoes)",
+        "Peanut or other frying oil",
+        "Toppings:",
+        "1 - 1 1/2 cups white cheddar cheese curds, (Or torn chunks of mozzarella cheese would be the closest substitution)"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "肉汁奶酪薯条：",
+        "3 汤匙玉米淀粉",
+        "2 汤匙水",
+        "6 汤匙无盐黄油",
+        "1/4 杯未漂白通用面粉",
+        "20 盎司牛肉汤",
+        "10 盎司鸡汤",
+        "胡椒粉，适量",
+        "炸薯条：",
+        "2 磅褐皮土豆（约 3-4 个中等大小的土豆）",
+        "花生油或其他食用油",
+        "配料：",
+        "1-1.5 杯白切达奶酪块（或撕碎的马苏里拉奶酪块是最佳替代品）"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "Poutinesås:",
+        "3 msk majsstärkelse",
+        "2 msk vatten",
+        "6 msk osaltat smör",
+        "1/4 dl oblekt vetemjöl",
+        "500 g nötköttsbuljong",
+        "3 dl kycklingbuljong",
+        "Peppar, efter smak",
+        "För friterade pommes frites:",
+        "900 g russetpotatis (3-4 medelstora potatisar)",
+        "Jordnötsolja eller annan frityrolja",
+        "Tillbehör:",
+        "3,5 - 4,5 dl vit cheddarost (eller rivna bitar av mozzarellaost är det närmaste alternativet)"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Poutine using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Prepare the gravy: In a small bowl, dissolve the cornstarch in the water and set aside.",
+        "In a large saucepan, melt the butter. Add the flour and cook, stirring regularly, for about 5 minutes, until the mixture turns golden brown.",
+        "Add the beef and chicken broth and bring to a boil, stirring with a whisk. Stir in about HALF the cornstarch mixture and simmer for a minute or so. If you'd like your gravy thicker, add a more of the cornstarch mixture, in small increments, as needed, to thicken. Season with pepper. Taste and add additional salt, if necessary, to taste. Make ahead and re-warm or keep warm until your fries are ready.",
+        "For Deep-Fried Fries: Prepare your potatoes and cut into 1/2-inch thick sticks. Place into a large bowl and cover completely with cold water. Allow to stand at least one hour or several hours. When ready to cook, heat your oil in your deep fryer or large, wide, heavy cooking pot to 300° F.",
+        "Remove the potatoes from the water and place onto a sheet of paper towel. Blot to remove as much excess moisture as possible.",
+        "Add your fries to the 300°F (150°C) oil and cook for 5-8 minutes, just until potatoes are starting to cook but are not yet browned. Remove potatoes from oil and scatter on a wire rack. Increase oil temperature to 375°F (190°C) Once oil is heated to that temperature, return the potatoes to the fryer and cook until potatoes are golden brown. Remove to a paper towel-lined bowl.",
+        "To Prepare Poutine: Add your fried or baked fries to a large, clean bowl. Season lightly with salt while still warm. Add a ladle of hot poutine gravy to the bowl and using tongs, toss the fries in the gravy. Add more gravy, as needed to mostly coat the fries.",
+        "Add the cheese curds and toss with the hot fries and gravy. Serve with freshly ground pepper. Serve immediately."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Poutine using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "准备肉汁：在一个小碗中，将玉米淀粉溶于水中，放在一旁备用。",
+        "在一个大平底锅中，融化黄油。加入面粉，并不时搅拌，煮约5分钟，直至混合物呈金黄色。",
+        "加入牛肉和鸡肉高汤，用打蛋器搅拌至沸腾。倒入约一半的玉米淀粉混合物，小火慢炖约1分钟。如果想要更浓稠的肉汁，可以根据需要少量多次地加入剩余的玉米淀粉混合物，直至肉汁浓稠。用胡椒粉调味。尝一下味道，如果需要，可以再加盐。可以提前做好，需要时再加热，或者保温，直到薯条炸好。",
+        "炸薯条：将土豆处理好，切成约1.2厘米（1/2英寸）厚的条状。放入一个大碗中，用冷水完全浸没。浸泡至少1小时或数小时。准备烹饪时，将油炸锅或大而宽的厚底锅中的油加热至 300°F（约 150°C）。",
+        "将土豆从水中取出，放在厨房纸巾上吸干多余水分。",
+        "将薯条放入 300°F（约 150°C）的油中炸 5-8 分钟，直至土豆开始变熟但尚未变成褐色。将薯条捞出，平铺在烤架上。将油温升至 375°F（约 190°C）。油温达到该温度后，将薯条放回油炸锅中炸至金黄色。捞出后放在铺有厨房纸巾的碗中。",
+        "制作肉汁奶酪薯条：将炸好的或烤好的薯条放入一个干净的大碗中。趁热撒上少许盐调味。舀一勺热的肉汁奶酪薯条酱汁到碗中，用夹子将薯条拌入酱汁中。根据需要添加更多酱汁，使薯条基本裹上酱汁。",
+        "加入奶酪块，与热腾腾的薯条和肉汁拌匀。撒上现磨黑胡椒。趁热享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Poutine using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Förbered såsen: Lös upp majsstärkelsen i vattnet i en liten skål och ställ åt sidan.",
+        "Smält smöret i en stor kastrull. Tillsätt mjölet och koka under ständig omrörning i cirka 5 minuter tills blandningen blir gyllenbrun.",
+        "Tillsätt nötköttet och kycklingbuljongen och koka upp under omrörning med en visp. Rör i ungefär HÄLFTEN av majsstärkelseblandningen och låt sjuda i en minut eller så. Om du vill ha såsen tjockare, tillsätt mer av majsstärkelseblandningen, i små omgångar, efter behov, för att tjockna. Krydda med peppar. Smaka av och tillsätt extra salt efter smak. Gör i förväg och värm upp eller håll varmt tills dina pommes frites är klara.",
+        "För friterade pommes frites: Förbered potatisen och skär den i 1,25 cm tjocka stavar. Lägg den i en stor skål och täck helt med kallt vatten. Låt stå i minst en timme eller flera timmar. När du är redo att tillaga, värm oljan i din fritös eller stora, breda, tunga kastrull till 160°C.",
+        "Ta upp potatisen ur vattnet och lägg den på ett ark hushållspapper. Dutta för att avlägsna så mycket överflödig fukt som möjligt.",
+        "Lägg dina pommes frites i den 175 °C varma oljan och tillaga i 5–8 minuter, precis tills potatisen börjar tillagas men ännu inte är brynt. Ta upp potatisen ur oljan och sprid ut den på ett galler. Öka oljetemperaturen till 190 °C. När oljan har värmts upp till den temperaturen, lägg tillbaka potatisen i fritösen och tillaga tills den är gyllenbrun. Lägg över i en skål klädd med hushållspapper.",
+        "För att tillaga poutine: Lägg dina friterade eller bakade pommes frites i en stor, ren skål. Krydda lätt med salt medan de fortfarande är varma. Tillsätt en slev varm poutinesås i skålen och använd en tång för att blanda pommes fritesen i såsen. Tillsätt mer sås efter behov för att täcka pommes fritesen till största delen.",
+        "Tillsätt ostmassan och blanda med de varma pommes fritesen och såsen. Servera med nymalen peppar. Servera omedelbart."
       ]
     },
-    "tags": [
-      "spicy",
-      "baked"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "salty",
+      "rich",
+      "mild"
+    ],
+    "image_url": "/Recipe Image/NorthAmerica/NO-CA-001.jpg"
   },
   {
     "id": "NO-CA-002",
@@ -500,26 +758,26 @@
     },
     "subcategory": {
       "en": "Canada",
-      "zh": "Canada",
+      "zh": "加拿大",
       "sv": "Canada"
     },
     "dish_name": {
       "en": "Maple Glazed Salmon",
-      "zh": "Maple Glazed 三文鱼",
-      "sv": "Maple Glazed Lax"
+      "zh": "枫糖浆烤三文鱼",
+      "sv": "Lönnsirapsglaserad lax"
     },
     "description": {
-      "en": "Maple Glazed Salmon - a classic Canada dish prepared for home cooks.",
-      "zh": "Maple Glazed Salmon - 经典的Canada菜，适合家庭烹饪。",
-      "sv": "Maple Glazed Salmon - en klassisk Canadarätt anpassad för hemanvändning."
+      "en": "A rich, savory seafood dish featuring a salmon fillet baked or grilled under a thick, caramelized glaze made primarily from sweet Canadian maple syrup.",
+      "zh": "一道浓郁鲜美的海鲜菜肴，选用鲑鱼片，淋上浓稠的焦糖釉，主要成分是甜美的加拿大枫糖浆，然后烘烤或烧烤。",
+      "sv": "En rik, smakrik fisk- och skaldjursrätt med en laxfilé bakad eller grillad under en tjock, karamelliserad glasyr gjord främst av söt kanadensisk lönnsirap."
     },
-    "total_time_min": 64,
+    "total_time_min": 20,
     "difficulty": {
       "en": "Easy",
       "zh": "简单",
       "sv": "Lätt"
     },
-    "servings": 3,
+    "servings": 4,
     "main_type": {
       "en": "Seafood",
       "zh": "海鲜",
@@ -527,50 +785,59 @@
     },
     "ingredients": {
       "en": [
-        "300 g salmon fillet",
-        "1 pc lemon",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "4 salmon fillets (1 pound, total)",
+        "1/4 cup maple syrup",
+        "3 tablespoons soy sauce",
+        "1 tablespoon Dijon mustard",
+        "2 garlic cloves (minced)"
       ],
       "zh": [
-        "300 g 三文鱼 fillet",
-        "1 pc 柠檬",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "4块三文鱼柳（共1磅）",
+        "1/4杯枫糖浆",
+        "3汤匙酱油",
+        "1汤匙第戎芥末酱",
+        "2瓣蒜（切碎）"
       ],
       "sv": [
-        "300 g lax fillet",
-        "1 pc citron",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "4 laxfiléer (totalt 450 g)",
+        "1/4 dl lönnsirap",
+        "3 msk sojasås",
+        "1 msk dijonsenap",
+        "2 vitlöksklyftor (finhackade)"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Maple Glazed Salmon using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Preheat oven to 375˚F (190°C) and line a baking sheet with parchment paper.",
+        "In a small bowl, whisk together the maple syrup, soy sauce, Dijon, and garlic.",
+        "Place salmon on baking sheet and top with about 1/3 of the maple glaze, reserving the rest for later.",
+        "Bake salmon for 15 – 20 minutes, adding more glaze after the first 10 minutes. When salmon is cooked, remove from oven and top with remaining glaze before serving."
       ],
       "zh": [
-        "准备食材: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Maple Glazed Salmon using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将烤箱预热至 375˚F (190°C)，并在烤盘上铺上烘焙纸。",
+        "在一个小碗中，将枫糖浆、酱油、第戎芥末酱和蒜末搅拌均匀。",
+        "将三文鱼放在烤盘上，淋上约三分之一的枫糖浆，剩余的枫糖浆留作备用。",
+        "将三文鱼烤 15 至 20 分钟，烤 10 分钟后可再淋上一些枫糖浆。三文鱼烤熟后，从烤箱中取出，食用前淋上剩余的枫糖浆。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Maple Glazed Salmon using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Värm ugnen till 190 °C och klä en bakplåt med bakplåtspapper.",
+        "Vispa ihop lönnsirap, sojasås, Dijonsås och vitlök i en liten skål.",
+        "Lägg laxen på en bakplåt och toppa med cirka 1/3 av lönnsirapen. Spara resten till senare.",
+        "Grädda laxen i 15–20 minuter och tillsätt mer glasyr efter de första 10 minuterna. När laxen är genomstekt, ta ut den ur ugnen och toppa med resterande glasyr innan servering."
       ]
     },
-    "tags": [
-      "grilled",
-      "stew"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "taste_preferences": [
+      "sweet",
+      "salty",
+      "rich",
+      "mild"
+    ],
+    "image_url": "/Recipe Image/NorthAmerica/NO-CA-002.jpg"
   }
 ]

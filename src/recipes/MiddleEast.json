@@ -8,26 +8,26 @@
     },
     "subcategory": {
       "en": "Turkey",
-      "zh": "Turkey",
+      "zh": "土耳其",
       "sv": "Turkey"
     },
     "dish_name": {
       "en": "Adana Kebab",
-      "zh": "Adana Kebab",
+      "zh": "阿达纳烤肉串",
       "sv": "Adana Kebab"
     },
     "description": {
-      "en": "Adana Kebab - a classic Turkey dish prepared for home cooks.",
-      "zh": "Adana Kebab - 经典的Turkey菜，适合家庭烹饪。",
-      "sv": "Adana Kebab - en klassisk Turkeyrätt anpassad för hemanvändning."
+      "en": "A famous, spicy Turkish dish originating from the city of Adana. It's known for its hand-minced meat mixture grilled on wide skewers.",
+      "zh": "一道著名的土耳其辣味菜肴，起源于阿达纳市。它以手工绞碎的肉馅在宽烤肉签上烤制而闻名。",
+      "sv": "En berömd, kryddig turkisk rätt med ursprung i staden Adana. Den är känd för sin handfärsblandning grillad på breda spett."
     },
-    "total_time_min": 43,
+    "total_time_min": 30,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
       "sv": "Medel"
     },
-    "servings": 2,
+    "servings": 4,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -35,51 +35,94 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "½ medium onion, approx. 50g/1¾ oz net weight",
+        "15 g leaves of flat-leaf parsley (Italian parsley)",
+        "400 g minced lamb, beef or a mix (min 15% fat)",
+        "50–75 g butter, melted (clarified butter is best), or finely chopped lamb fat",
+        "1 Tbsp pul biber (Aleppo pepper), or to taste",
+        "1 tsp salt",
+        "½ tsp pepper",
+        "Garnish & sides",
+        "1 medium tomato, halved or quartered",
+        "4 Turkish green peppers (sivri/çarliston biber), or any other mild long green peppers",
+        "Turkish sumac onions",
+        "lavash, or another type of flatbread",
+        "ezme salad",
+        "chopped salad"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "半个中等大小的洋葱，约50克/1¾盎司净重",
+        "15克欧芹叶（意大利欧芹）",
+        "400克羊肉末、牛肉末或混合肉末（脂肪含量至少15%）",
+        "50-75克融化的黄油（最好是澄清黄油），或切碎的羊油",
+        "1汤匙阿勒颇辣椒粉，或根据口味调整",
+        "1茶匙盐",
+        "½茶匙胡椒粉",
+        "装饰和配菜",
+        "1个中等大小的番茄，切半或切块",
+        "4个土耳其青椒，或其他任何温和的长青椒",
+        "土耳其漆树洋葱",
+        "拉瓦什饼，或其他类型的薄饼",
+        "埃兹梅沙拉",
+        "什锦沙拉"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "½ medelstor lök, ca 50 g/1¾ oz nettovikt",
+        "15 g blad bladpersilja (italiensk persilja)",
+        "400 g lammfärs, nötfärs eller en blandning (minst 15 % fett)",
+        "50–75 g smält smör (klarat smör är bäst) eller finhackat lammfett",
+        "1 msk pul biber (Aleppopeppar), eller efter smak",
+        "1 tsk salt",
+        "½ tsk peppar",
+        "Garnering och tillbehör",
+        "1 medelstor tomat, halverad eller kvartad",
+        "4 turkiska gröna paprikor (sivri/çarliston biber), eller andra milda långa gröna paprikor",
+        "Turkisk sumaklök",
+        "lavash, eller annan typ av tunnbröd",
+        "ezme-sallad",
+        "hackad sallad"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Adana Kebab using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Add the onion and parsley to a food processor and finely chop. Transfer to a sieve and press out some of the juice (I use the back of a spoon for this).",
+        "Transfer to a bowl and combine with the minced meat, melted butter, chili flakes, salt and pepper. I recommend the full amount of butter for meat with c. 15% fat, the lower amount for meat with 20% fat (you’ll want close to 30% total fat). Knead until the mixture is completely homogeneous, 2–3 minutes.",
+        "Heat up a barbecue (preferably charcoal). Alternatively, heat a large cast iron grill pan to high.",
+        "Thread the tomatoes and peppers onto thin grill skewers.",
+        "Divide the meat mixture into four equal parts. Place a ball of meat on the center of a wide grill skewer, then – using your hands – shape into a long kebab. The meat should form a relatively thin layer around the skewer with no air in the middle. Wet your hands periodically to prevent sticking.",
+        "Grill the kebabs and vegetables, turning regularly, until they are browned at the edges and cooked through, 5-15 minutes. Be mindful of the smoke from dripping fat, especially if cooking on a grill pan indoors (in which case make sure to ventilate properly.",
+        "Serve the kebabs immediately with lavash or other bread, grilled vegetables and other sides of your choice."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Adana Kebab using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将洋葱和欧芹放入食品加工机中切碎。倒入筛子中，挤出一些汁水（我用勺子背面）。",
+        "将切碎的洋葱和欧芹倒入碗中，加入肉末、融化的黄油、辣椒碎、盐和胡椒粉。我建议脂肪含量约为15%的肉使用足量的黄油，脂肪含量为20%的肉使用较少量的黄油（总脂肪含量最好接近30%）。揉捏2-3分钟，直至混合物完全均匀。",
+        "预热烧烤架（最好是炭火烧烤架）。或者，将一个大的铸铁烤盘加热至高温。",
+        "将西红柿和甜椒串在细烤串上。",
+        "将肉馅分成四等份。取一团肉馅放在一根宽烤串的中央，然后用手将其塑成长条状。肉馅应该在烤串周围形成一层较薄的肉馅，中间没有空隙。不时沾湿双手，防止粘连。",
+        "将烤肉串和蔬菜放在烤架上，经常翻面，烤至边缘呈金黄色且完全熟透，约需 5-15 分钟。注意油脂滴落产生的烟雾，尤其是在室内使用烤盘时（务必确保通风良好）。",
+        "烤肉串趁热搭配薄饼或其他面包、烤蔬菜和您喜欢的其他配菜一起享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Adana Kebab using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Lägg lök och persilja i en matberedare och finhacka. Häll över i en sil och pressa ut lite av saften (jag använder baksidan av en sked till detta).",
+        "Häll över i en skål och blanda med köttfärsen, det smälta smöret, chiliflingor, salt och peppar. Jag rekommenderar hela mängden smör för kött med ca 15 % fett, den lägre mängden för kött med 20 % fett (du vill ha nära 30 % totalt fett). Knåda tills blandningen är helt homogen, 2–3 minuter.",
+        "Värm upp en grill (helst kolgrill). Alternativt kan du värma en stor gjutjärnspanna på hög värme.",
+        "Trä tomaterna och paprikorna på tunna grillspett.",
+        "Dela köttblandningen i fyra lika stora delar. Placera en köttboll i mitten av ett brett grillspett och forma sedan – med händerna – till en lång kebab. Köttet ska bilda ett relativt tunt lager runt spettet utan luft i mitten. Fukta händerna regelbundet för att förhindra att det fastnar.",
+        "Grilla kebaben och grönsakerna, vänd dem regelbundet, tills de är brynta i kanterna och genomstekta, 5–15 minuter. Var uppmärksam på röken från droppande fett, särskilt om du grillar inomhus (se i så fall till att ventilera ordentligt).",
+        "Servera kebaben omedelbart med lavash eller annat bröd, grillade grönsaker och andra tillbehör efter eget val."
       ]
     },
     "tags": [
-      "stew",
-      "gluten-free"
-    ]
+      "Spicy",
+      "Rich",
+      "Salty"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-TU-001.png"
   },
   {
     "id": "MI-TU-002",
@@ -90,20 +133,20 @@
     },
     "subcategory": {
       "en": "Turkey",
-      "zh": "Turkey",
+      "zh": "土耳其",
       "sv": "Turkey"
     },
     "dish_name": {
       "en": "Lahmacun",
-      "zh": "Lahmacun",
+      "zh": "土耳其薄饼披萨",
       "sv": "Lahmacun"
     },
     "description": {
-      "en": "Lahmacun - a classic Turkey dish prepared for home cooks.",
-      "zh": "Lahmacun - 经典的Turkey菜，适合家庭烹饪。",
-      "sv": "Lahmacun - en klassisk Turkeyrätt anpassad för hemanvändning."
+      "en": "A popular Turkish street food: a thin, crisp round of flatbread topped with a highly seasoned mixture of minced meat, vegetables, and herbs, often served rolled up with lemon and parsley.",
+      "zh": "土耳其街头美食：薄脆的圆形扁面包上放着调味丰富的肉末、蔬菜和香草混合物，通常卷起来，配上柠檬和欧芹食用。",
+      "sv": "En populär turkisk gatumat: en tunn, krispig rundel flatbröd toppad med en starkt kryddad blandning av köttfärs, grönsaker och örter, ofta serverad ihoprullad med citron och persilja."
     },
-    "total_time_min": 63,
+    "total_time_min": 30,
     "difficulty": {
       "en": "Easy",
       "zh": "简单",
@@ -117,51 +160,116 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "Dough",
+        "230 g  uncooked store-bought organic pizza dough",
+        "Topping",
+        "1/2 sweet red pepper cored, cut into chunks",
+        "1 shallot halved",
+        "2 garlic cloves peeled",
+        "14 g fresh parsley leaves with some stem",
+        "200 g ground lamb or ground beef",
+        "1 tsp smoked paprika",
+        "1 tsp ground allspice",
+        "1/2 tsp ground cumin",
+        "1/2 tsp Aleppo-style pepper",
+        "1/2 tsp ground cinnamon",
+        "1/2 tsp cayenne pepper",
+        "1/2 tsp salt",
+        "4 tbsp tomato paste",
+        "2 tbsp Private Reserve Greek extra virgin olive oil",
+        "Lemon wedges for later"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "面团",
+        "230 克 未煮熟的市售披萨面团",
+        "馅料",
+        "1/2个甜红椒，去籽切块",
+        "1个小洋葱，切半",
+        "2瓣大蒜，去皮",
+        "14克 新鲜欧芹叶（带茎）",
+        "200克 羊肉末或牛肉末",
+        "1茶匙烟熏辣椒粉",
+        "1茶匙五香粉",
+        "1/2茶匙孜然粉",
+        "1/2茶匙阿勒颇辣椒粉",
+        "1/2茶匙肉桂粉",
+        "1/2茶匙辣椒粉",
+        "1/2茶匙盐",
+        "4汤匙番茄酱",
+        "2汤匙特级初榨希腊橄榄油",
+        "柠檬角（备用）"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "Deg",
+        "230 g okokt, köpt ekologisk pizzadeg",
+        "Topping",
+        "1/2 söt röd paprika, urkärnad, skuren i bitar",
+        "1 schalottenlök, halverad",
+        "2 vitlöksklyftor, skalade",
+        "14 g färsk persilja med lite stjälk",
+        "200 g lamm- eller nötfärs",
+        "1 tsk rökt paprika",
+        "1 tsk malen kryddpeppar",
+        "1/2 tsk malen spiskummin",
+        "1/2 tsk Aleppo-peppar",
+        "1/2 tsk malen kanel",
+        "1/2 tsk cayennepeppar",
+        "1/2 tsk salt",
+        "4 msk tomatpuré",
+        "2 msk grekisk extra jungfruolivolja från Private Reserve",
+        "Citronklyftor för senare"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Lahmacun using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Heat oven to 450 degrees F. Adjust oven rack to the middle. (or see stove-top instructions in notes)",
+        "Prepare the meat mixture. In the large bowl of a food processor, fitted with blade, add red peppers, shallot, garlic, and parsley. Pulse a few times to chop. To the mixture, add ground lamb (or beef). Season with spices and salt. Add tomato paste and extra virgin olive oil. Now pulse again until well-combined (about 8 to 10 pulses.)",
+        "Prepare two large rimmed baking sheets lined with parchment paper (you'll be using these to bake the Lahmacun in batches.)",
+        "Divide the pizza dough into 4 equal balls (about 2 oz each.) Working with one ball of dough at a time, place on a floured surface. Using a rolling pin, roll dough out into as thin as you can to a disk that's about 8 or 9 inches in diameter.",
+        "Assemble Lahmacun. Place one flatbread disk on one of the prepared pans. Reshape as needed.  Spoon 3–4 tbsp topping onto dough and spread topping evenly to edges, leaving a thin boarder.",
+        "Bake in heated oven for about 5 to 7 minutes or until dough and meat are fully cooked (dough will be a little crusty around the edges.)",
+        "Repeat steps 5 and 6 with the remaining dough.",
+        "Squeeze a little lemon juice on top. Serve Lahmacun hot or at room temperature.  See notes below for how to serve."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Lahmacun using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将烤箱预热至华氏450度（约摄氏230度）。将烤架调整到烤箱中间位置。（或参见炉灶烹饪说明中的注释）",
+        "准备肉馅。在装有刀片的食物料理机大碗中，加入红甜椒、青葱、大蒜和欧芹。脉冲几次将其切碎。将羊肉末（或牛肉末）加入混合物中。用香料和盐调味。加入番茄酱和特级初榨橄榄油。再次脉冲搅拌至充分混合（约8至10次）。",
+        "准备两个铺有烘焙纸的大号带边烤盘（您将用它们分批烘烤拉赫马俊）。",
+        "将披萨面团分成4个大小相同的面团（每个约57克）。每次取一个面团，放在撒有面粉的案板上。用擀面杖将面团擀成尽可能薄的圆饼，直径约为20至23厘米。",
+        "组装拉赫马俊。将一张面饼放在准备好的烤盘上。根据需要调整形状。舀3-4汤匙馅料放在面饼上​​，均匀涂抹至边缘，留出一圈薄薄的边。",
+        "放入预热好的烤箱烘烤约5-7分钟，或直至面饼和肉馅完全熟透（面饼边缘会略微酥脆）。",
+        "用剩余的面饼重复步骤5和6。",
+        "挤上少许柠檬汁。拉赫马俊可趁热或室温食用。食用方法请参见下方说明。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Lahmacun using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Värm ugnen till 230 grader Celsius. Justera ugnsgallret till mitten. (eller se instruktionerna för spisen i anteckningarna)",
+        "Förbered köttblandningen. Tillsätt röd paprika, schalottenlök, vitlök och persilja i den stora skålen i en matberedare, utrustad med kniv. Pulsa några gånger för att hacka. Tillsätt lammfärs (eller nötfärs) i blandningen. Krydda med kryddor och salt. Tillsätt tomatpuré och extra jungfruolja. Pulsa nu igen tills allt är väl blandat (cirka 8 till 10 pulser).",
+        "Förbered två stora bakplåtar med kant och bakplåtspapper (du kommer att använda dessa för att baka Lahmacun i omgångar).",
+        "Dela pizzadegen i fyra lika stora bollar (cirka 50 g vardera). Arbeta med en degboll i taget och lägg dem på en mjölad yta. Kavla ut degen med en kavel så tunt som möjligt till en skiva som är cirka 20 eller 23 cm i diameter.",
+        "Sätt ihop Lahmacun. Placera en plattbrödsskiva på en av de förberedda formarna. Forma om efter behov. Lägg 3–4 msk topping på degen och bred ut toppingen jämnt ut mot kanterna, så att en tunn kant lämnas.",
+        "Grädda i förvärmd ugn i cirka 5–7 minuter eller tills deg och kött är helt genomstekta (degen kommer att vara lite knaprig runt kanterna).",
+        "Upprepa steg 5 och 6 med resterande deg.",
+        "Pressa lite citronsaft över. Servera Lahmacun varm eller rumstempererad. Se anvisningarna nedan för hur du serverar."
       ]
     },
     "tags": [
-      "gluten-free",
-      "baked"
-    ]
+      "Rich",
+      "Salty",
+      "Spicy",
+      "Mild",
+      "Sour"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "tips": {
+      "en": "If 1/2 lb pizza dough doesn't seem enough for you...if it's not giving you enough for your crowd, you can go ahead and use 1 lb pizza dough. The mixture should still be enough. If you need to feed even more people, and you need to use more pizza dough, then simply double the meat topping.\r\nCook's Tip for How to serve Lahmacun: Before you serve, squeeze just a little bit of lemon juice on Lahmacun. If you like, simply add a few slices of red onion, radish, and fresh mint leaves on top, and wrap the Lahmacun up, burrito-style.  OR, to serve a larger crowd, you can slice Lahmacun like you would pizza or flatbread and serve with a drizzle of tahini sauce and a side of this easy Mediterranean salad.You can add favorite mezze. \r\nCook's Tip for How to Cook Lahmacun on Stovetop: You can cook Lahmacun on stovetop instead of heating up the oven.  You will need a large non-stick skillet with a lid. Pre-heat skillet over medium heat and add just a little bit of extra virgin olive oil. Place one Lahamacun in heated skillet and cover with lid. Cook for about 5 minutes until the meat and dough are cooked through.\r\nRecommended for this recipe from our all-natural spice collection: smoked paprika, allspice, cumin, Aleppo-style pepper. SAVE! Create your own 6-pack of spices.\r\nTry our Greek Extra Virgin Olive Oils. Private Reserve and Early Harvest EVOOs from organically grown and processed Greek Koroneiki olives.",
+      "zh": "厨师小贴士：如果您觉得半磅披萨面团不够用……如果不够招待您的客人，您可以改用一磅披萨面团。这样分量应该仍然足够。如果您需要招待更多人，需要更多披萨面团，只需将肉馅的量加倍即可。\r\n拉赫马俊的食用小贴士：食用前，在拉赫马俊上挤少许柠檬汁。如果您喜欢，可以在上面放几片红洋葱、萝卜和新鲜薄荷叶，然后像卷墨西哥卷饼一样卷起来。或者，如果要招待更多人，您可以将拉赫马俊像披萨或薄饼一样切片，淋上芝麻酱，再配上一份简单的地中海沙拉。您还可以添加您喜欢的其他小吃。\r\n炉灶烹饪拉赫马俊的小贴士：您可以在炉灶上烹饪拉赫马俊，而无需使用烤箱。你需要一个带盖的大号不粘锅。将锅置于中火上预热，并加入少许特级初榨橄榄油。将一块拉哈马俊放入加热的锅中，盖上锅盖。煎约 5 分钟，直至肉和面团完全熟透。\r\n推荐使用我们全天然香料系列中的以下香料：烟熏辣椒粉、多香果、孜然、阿勒颇辣椒。省钱！打造你专属的六种香料组合。\r\n试试希腊特级初榨橄榄油。精选希腊科罗内基橄榄，采用有机种植和加工，为您带来珍藏版和早收版特级初榨橄榄油。",
+      "sv": "Kockens tips: Om 1/2 pund pizzadeg inte verkar räcka för dig ... om det inte ger dig tillräckligt för din publik, kan du använda 1 pund pizzadeg. Blandningen borde fortfarande räcka. Om du behöver mata ännu fler personer, och du behöver använda mer pizzadeg, dubbla då helt enkelt köttfyllningen.\r\nKockens tips för hur man serverar lahmacun: Pressa lite citronsaft över lahmacun innan du serverar. Om du vill kan du helt enkelt lägga till några skivor rödlök, rädisa och färska myntablad ovanpå och linda in lahmacun i burrito-stil. ELLER, för att servera en större publik, kan du skiva lahmacun som du skulle göra med pizza eller flatbröd och servera med en skvätt tahinisås och en sida av denna enkla medelhavssallad. Du kan lägga till din favoritmezze.\r\nKockens tips för hur man lagar lahmacun på spisen: Du kan tillaga lahmacun på spisen istället för att värma upp ugnen. Du behöver en stor stekpanna med non-stick-beläggning och lock. Värm stekpannan på medelvärme och tillsätt lite extra jungfruolja. Lägg en Lahamacun i den uppvärmda stekpannan och täck med lock. Stek i cirka 5 minuter tills köttet och degen är genomstekta.\r\nRekommenderas för detta recept från vår helt naturliga kryddsamling: rökt paprika, kryddpeppar, spiskummin, Aleppo-peppar. SPARA! Skapa ditt eget 6-pack kryddor.\r\nProva våra grekiska extra jungfruolivoljor. Private Reserve och Early Harvest EVOO från ekologiskt odlade och bearbetade grekiska Koroneikioliver."
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-TU-002.png"
   },
   {
     "id": "MI-TU-003",
@@ -172,26 +280,26 @@
     },
     "subcategory": {
       "en": "Turkey",
-      "zh": "Turkey",
+      "zh": "土耳其",
       "sv": "Turkey"
     },
     "dish_name": {
-      "en": "Manti",
-      "zh": "Manti",
-      "sv": "Manti"
+      "en": "Aubergine with Lamb, Pine Nuts, and Parmesan",
+      "zh": "焗烤羊肉松子茄子",
+      "sv": "Aubergine med lamm, pinje och parmesan"
     },
     "description": {
-      "en": "Manti - a classic Turkey dish prepared for home cooks.",
-      "zh": "Manti - 经典的Turkey菜，适合家庭烹饪。",
-      "sv": "Manti - en klassisk Turkeyrätt anpassad för hemanvändning."
+      "en": "A dish featuring soft, baked aubergine halves filled with a tomato and spiced minced lamb stuffing, highlighted by the oriental flavors of nutmeg and cumin, and finished with Parmesan and pine nuts.",
+      "zh": "这道菜以烤茄子为底，茄子切成两半，里面填满了番茄和香料羊肉末馅料，并以肉豆蔻和孜然的东方风味突出，最后撒上帕玛森奶酪和松子。",
+      "sv": "En rätt med mjuka, bakade auberginehalvor fyllda med en fyllning av tomat och kryddad lammfärs, framhävd av orientaliska smaker av muskotnöt och spiskummin, och avslutad med parmesan och pinjenötter."
     },
-    "total_time_min": 51,
+    "total_time_min": 60,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
       "sv": "Medel"
     },
-    "servings": 6,
+    "servings": 4,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -199,51 +307,99 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
+        "4 small aubergines (approx. 300 g each)",
+        "3 tbsp olive oil",
+        "4 tsp salt",
+        "1 yellow onion",
         "2 cloves garlic",
-        "30 ml olive oil"
+        "400 g minced lamb",
+        "500 g crushed tomatoes",
+        "1 tbsp tomato paste",
+        "1/2 tbsp ground cumin",
+        "1 tsp grated nutmeg",
+        "1 tsp pepper",
+        "1/2 dl pine nuts",
+        "1 dl grated parmesan",
+        "1 dl finely chopped parsley"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "4 个小茄子（每个约 300 克）",
+        "3 汤匙橄榄油",
+        "4 茶匙盐",
+        "1 个黄洋葱",
+        "2 瓣大蒜",
+        "400 克羊肉末",
+        "500 克番茄碎",
+        "1 汤匙番茄酱",
+        "1/2 汤匙孜然粉",
+        "1 茶匙磨碎的肉豆蔻",
+        "1 茶匙胡椒粉",
+        "1/2 分升松子",
+        "1 分升磨碎的帕玛森奶酪",
+        "1 分升切碎的欧芹"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "4 små auberginer (à ca 300 g)",
+        "3 msk olivolja",
+        "4 krm salt",
+        "1 gul lök",
+        "2 vitlöksklyftor",
+        "400 g lammfärs",
+        "500 g krossade tomater",
+        "1 msk tomatpuré",
+        "1/2 msk malen spiskummin",
+        "1 krm riven muskot",
+        "1 krm peppar",
+        "1/2 dl pinjenötskärnor",
+        "1 dl riven parmesan",
+        "1 dl finhackad persilja"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Manti using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Preheat the oven to 200°C.",
+        "Cut the aubergines lengthwise and place the halves in an ovenproof dish. Brush them with two-thirds of the oil and season with half the salt.",
+        "Place in the middle of the oven for about 30 minutes.",
+        "Peel, cut and finely chop the onion and garlic. Fry together with the minced lamb in the remaining oil in a frying pan until it turns brown.",
+        "Add the crushed tomatoes, tomato paste and spices. Simmer for about 5 minutes. Add the pine nuts.",
+        "Spread the filling on top of the aubergines and sprinkle with Parmesan cheese. Gratinate in the middle of the oven for about 10 minutes.",
+        "Sprinkle with parsley. Serve with a dollop of yoghurt and grilled bread."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Manti using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将烤箱预热至200°C。",
+        "将茄子纵向切开，放入烤盘中。刷上三分之二的油，撒上盐的一半。",
+        "放入烤箱中层烤约30分钟。",
+        "将洋葱和大蒜去皮、切块并切碎。用剩余的油在煎锅中将洋葱、大蒜和羊肉末一起炒至变色。",
+        "加入番茄碎、番茄酱和香料。小火慢炖约5分钟。加入松子。",
+        "将馅料铺在茄子上，撒上帕玛森奶酪碎。放入烤箱中层烤约10分钟。",
+        "撒上欧芹碎。搭配酸奶和烤面包食用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Manti using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Sätt ugnen på 200°C.",
+        "Dela auberginerna på längden och lägg halvorna i en ugnssäker form. Pensla dem med två tredjedelar av oljan och krydda med hälften av saltet.",
+        "Ställ in i mitten av ugnen ca 30 minuter.",
+        "Skala, dela och finhacka lök och vitlök. Fräs tillsammans med lammfärsen i resten av oljan i en stekpanna tills den får färg.",
+        "Tillsätt krossade tomater, tomatpuré och kryddor. Låt småkoka ca 5 minuter. Tillsätt pinjenötskärnor.",
+        "Fördela fyllningen ovanpå auberginen och strö över parmesanost. Gratinera i mitten av ugnen ca 10 minuter.",
+        "Strö över persilja. Servera gärna med en klick yoghurt och grillat bröd."
       ]
     },
     "tags": [
-      "baked",
-      "quick"
-    ]
+      "Rich",
+      "Salty",
+      "Mild"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "tips": {
+      "en": "Replace the lamb mince with beef mince or mixed mince, or make the dish completely vegetarian with Quorn or soy mince.",
+      "zh": "可以用牛肉末或混合肉末代替羊肉末，或者用素肉末或大豆肉末做成完全素食的菜肴。",
+      "sv": "Byt ut lammfärs mot nötfärs eller blandfärs, eller gör rätten helt vegetarisk med quorn- eller sojafärs."
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-TU-003.png"
   },
   {
     "id": "MI-TU-004",
@@ -254,26 +410,26 @@
     },
     "subcategory": {
       "en": "Turkey",
-      "zh": "Turkey",
+      "zh": "土耳其",
       "sv": "Turkey"
     },
     "dish_name": {
-      "en": "Imam Bayildi",
-      "zh": "Imam Bayildi",
-      "sv": "Imam Bayildi"
+      "en": "Iskender Kebab",
+      "zh": "伊斯坎德尔烤肉",
+      "sv": "Iskender Kebab"
     },
     "description": {
-      "en": "Imam Bayildi - a classic Turkey dish prepared for home cooks.",
-      "zh": "Imam Bayildi - 经典的Turkey菜，适合家庭烹饪。",
-      "sv": "Imam Bayildi - en klassisk Turkeyrätt anpassad för hemanvändning."
+      "en": "A famous Turkish dish featuring thin slices of grilled lamb or beef served over pieces of pide bread, covered in hot tomato sauce and melted butter, and finished with a dollop of thick yogurt.",
+      "zh": "一道著名的土耳其菜肴，将烤羊肉或牛肉切成薄片，放在皮塔饼上，淋上热番茄酱和融化的黄油，最后放上一勺浓稠的酸奶。",
+      "sv": "En berömd turkisk rätt med tunna skivor grillat lamm eller nötkött serverade på bitar av pidebröd, täckta med varm tomatsås och smält smör, och avslutade med en klick tjock yoghurt."
     },
-    "total_time_min": 72,
+    "total_time_min": 30,
     "difficulty": {
-      "en": "Hard",
-      "zh": "困难",
-      "sv": "Svår"
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
     },
-    "servings": 3,
+    "servings": 4,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -281,51 +437,87 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "4 pita bread rounds",
+        "1 tablespoon olive oil",
+        "4 skinless, boneless chicken breast halves - chopped",
+        "2 medium onions, chopped",
+        "1 clove garlic, minced",
+        "1 can tomato paste",
+        "ground cumin to taste",
+        "salt to taste",
+        "ground black pepper to taste",
+        "½ cup butter, melted",
+        "1 cup Greek yogurt",
+        "¼ cup chopped fresh parsley"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "4 个皮塔饼",
+        "1 汤匙橄榄油",
+        "4 块去皮去骨鸡胸肉（切块）",
+        "2 个中等大小的洋葱（切碎）",
+        "1 瓣大蒜（切末）",
+        "1 罐番茄酱",
+        "适量孜然粉",
+        "适量盐",
+        "适量黑胡椒粉",
+        "½ 杯融化的黄油",
+        "1 杯希腊酸奶",
+        "¼ 杯切碎的新鲜欧芹"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "4 pitabrödsskivor",
+        "1 msk olivolja",
+        "4 skinn- och benfria kycklingbrösthalvor - hackade",
+        "2 medelstora lökar, hackade",
+        "1 vitlöksklyfta, finhackad",
+        "1 burk tomatpuré",
+        "malen spiskummin efter smak",
+        "salt efter smak",
+        "malen svartpeppar efter smak",
+        "½ dl smält smör",
+        "1 dl grekisk yoghurt",
+        "¼ dl hackad färsk persilja"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Imam Bayildi using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Preheat the oven to  175 degrees C (350 degrees F). Arrange pita bread on a baking sheet.",
+        "Bake pitas in the preheated oven until lightly toasted",
+        "cut into bite-sized pieces and keep warm.",
+        "Heat oil in a skillet over medium heat. Stir in chicken, onion, and garlic",
+        "cook until chicken is cooked through and juices run clear, about 10 minutes. Mix in tomato purée",
+        "season with cumin, salt, and pepper. Continue to cook and stir for a few minutes.",
+        "Arrange toasted pita pieces in a serving dish. Drizzle with melted butter and top with chicken mixture. Garnish with yogurt and parsley to serve."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Imam Bayildi using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将烤箱预热至175摄氏度（350华氏度）。将皮塔饼平铺在烤盘上。",
+        "将皮塔饼放入预热好的烤箱中烘烤至微黄；切成一口大小的块状，保温备用。",
+        "平底锅中火加热油。放入鸡肉、洋葱和大蒜；翻炒至鸡肉熟透且汁水清澈，约10分钟。拌入番茄泥；用孜然、盐和胡椒粉调味。继续翻炒几分钟。",
+        "将烤好的皮塔饼块放入盘中。淋上融化的黄油，放上鸡肉混合物。最后撒上酸奶和欧芹碎即可享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Imam Bayildi using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Värm ugnen till 175 grader C (350 grader F). Lägg pitabröden på en bakplåt.",
+        "Grädda pitabröden i den förvärmda ugnen tills de är lätt rostade",
+        "skär i munsbitar och håll varma.",
+        "Värm olja i en stekpanna på medelvärme. Rör i kyckling, lök och vitlök",
+        "stek tills kycklingen är genomstekt och saften är klar, cirka 10 minuter. Blanda i tomatpuré",
+        "krydda med spiskummin, salt och peppar. Fortsätt att steka och rör om i några minuter.",
+        "Lägg de rostade pitabröden i en serveringsskål. Ringla över smält smör och toppa med kycklingblandningen. Garnera med yoghurt och persilja vid servering."
       ]
     },
     "tags": [
-      "grilled",
-      "gluten-free"
-    ]
+      "Rich",
+      "Salty",
+      "Sour",
+      "Mild",
+      "Sweet"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-TU-004.jpg"
   },
   {
     "id": "MI-TU-005",
@@ -336,78 +528,123 @@
     },
     "subcategory": {
       "en": "Turkey",
-      "zh": "Turkey",
+      "zh": "土耳其",
       "sv": "Turkey"
     },
     "dish_name": {
-      "en": "Iskender Kebab",
-      "zh": "Iskender Kebab",
-      "sv": "Iskender Kebab"
+      "en": "Börek",
+      "zh": "土耳其馅饼",
+      "sv": "Börek"
     },
     "description": {
-      "en": "Iskender Kebab - a classic Turkey dish prepared for home cooks.",
-      "zh": "Iskender Kebab - 经典的Turkey菜，适合家庭烹饪。",
-      "sv": "Iskender Kebab - en klassisk Turkeyrätt anpassad för hemanvändning."
+      "en": "A highly popular savory Turkish and Balkan pastry made from thin, flaky Yufka dough, typically rolled or layered around fillings like cheese, spinach, or seasoned minced meat.",
+      "zh": "一种非常受欢迎的土耳其和巴尔干咸味糕点，由薄而酥脆的Yufka面团制成，通常卷起或层层叠放，包裹着奶酪、菠菜或调味肉末等馅料。",
+      "sv": "Ett mycket populärt, smakrikt turkiskt och balkanskt bakverk gjort av tunn, flagnande yufka-deg, vanligtvis rullad eller lagerad runt fyllningar som ost, spenat eller kryddad köttfärs."
     },
-    "total_time_min": 90,
+    "total_time_min": 60,
     "difficulty": {
       "en": "Easy",
       "zh": "简单",
       "sv": "Lätt"
     },
-    "servings": 2,
+    "servings": 4,
     "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "4 yufka",
+        "1 onion,",
+        "500 g spinach,",
+        "1 cup of curd cheese or crushed feta cheese,",
+        "1 cup + 4 tablespoons of oil,",
+        "1 cup of milk,",
+        "2 tablespoons of yogurt,",
+        "1 egg yolk,",
+        "Salt,",
+        "Sesame."
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "4个薄饼",
+        "1个洋葱",
+        "500克菠菜",
+        "1杯凝乳奶酪或碎羊乳酪",
+        "1杯+4汤匙油",
+        "1杯牛奶",
+        "2汤匙酸奶",
+        "1个蛋黄",
+        "盐",
+        "芝麻"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "4 yufka",
+        "1 lök,",
+        "500 g spenat,",
+        "1 kopp yoghurt eller krossad fetaost,",
+        "1 kopp + 4 matskedar olja,",
+        "1 kopp mjölk,",
+        "2 matskedar yoghurt,",
+        "1 äggula,",
+        "Salt,",
+        "Sesam."
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Iskender Kebab using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Chop the onion small and cook it in 4 tablespoons of oil,",
+        "Add the spinach and finely chop and cook until the water is absorbed,",
+        "Add salt and remove from fire,",
+        "Add the cheese and mix,",
+        "Add milk and yogurt and whisk well,",
+        "Lay one of the yufka on the counter,",
+        "Drizzle a quarter of the remaining oil on it,",
+        "Pour a quarter of the milk + yogurt mixture over it,",
+        "Spread the spinach mortar all over it in the same way (so that when you fill it, you have mortar on each layer),",
+        "Wrap the yufka in the form of a roll and wrap it on a greased tray,",
+        "Prepare the other yufka in the same way and wrap it around the middle phyllo,",
+        "Whisk the egg yolk and brush with sesame seeds,",
+        "Bake in a preheated 180 C degree oven until golden brown."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Iskender Kebab using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将洋葱切碎，用4汤匙油炒香。",
+        "加入菠菜，切碎后炒至水分收干。",
+        "加盐调味，关火。",
+        "加入奶酪拌匀。",
+        "加入牛奶和酸奶，搅拌均匀。",
+        "取一张薄饼放在操作台上。",
+        "淋上剩余油的四分之一。",
+        "倒入四分之一的牛奶酸奶混合物。",
+        "将菠菜泥均匀地铺在薄饼上（这样，填馅的时候，每一层都有菠菜泥）。",
+        "将薄饼卷成卷，放在抹了油的烤盘上。",
+        "用同样的方法处理另一张薄饼，将其包裹在中间的薄饼上。",
+        "将蛋黄打散，刷上芝麻。",
+        "放入预热至180摄氏度的烤箱中烘烤至金黄色。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Iskender Kebab using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Hacka löken fint och stek den i 4 matskedar olja.",
+        "Tillsätt spenaten och finhacka den och stek tills vattnet har absorberats.",
+        "Salta och ta bort från värmen.",
+        "Tillsätt osten och blanda.",
+        "Tillsätt mjölk och yoghurt och vispa väl.",
+        "Lägg en yufka på köksbänken.",
+        "Ringla en fjärdedel av den återstående oljan över den.",
+        "Häll en fjärdedel av mjölk- och yoghurtblandningen över den.",
+        "Bred ut spenatmorteln över hela yufkan på samma sätt (så att du har mortel på varje lager när du fyller den).",
+        "Linka yufkan i en rulle och linda den på en smord plåt.",
+        "Förbered den andra yufkan på samma sätt och linda den runt filodeg i mitten.",
+        "Vispa äggulan och pensla med sesamfrön.",
+        "Grädda i en förvärmd ugn på 180 grader tills den är gyllenbrun."
       ]
     },
-    "tags": [
-      "quick",
-      "spicy"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-TU-005.png"
   },
   {
     "id": "MI-TU-006",
@@ -418,190 +655,26 @@
     },
     "subcategory": {
       "en": "Turkey",
-      "zh": "Turkey",
-      "sv": "Turkey"
-    },
-    "dish_name": {
-      "en": "Börek",
-      "zh": "Börek",
-      "sv": "Börek"
-    },
-    "description": {
-      "en": "Börek - a classic Turkey dish prepared for home cooks.",
-      "zh": "Börek - 经典的Turkey菜，适合家庭烹饪。",
-      "sv": "Börek - en klassisk Turkeyrätt anpassad för hemanvändning."
-    },
-    "total_time_min": 16,
-    "difficulty": {
-      "en": "Easy",
-      "zh": "简单",
-      "sv": "Lätt"
-    },
-    "servings": 4,
-    "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
-    },
-    "ingredients": {
-      "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
-      ],
-      "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
-      ],
-      "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
-      ]
-    },
-    "steps": {
-      "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Börek using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
-      ],
-      "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Börek using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
-      ],
-      "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Börek using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
-      ]
-    },
-    "tags": [
-      "grilled",
-      "gluten-free"
-    ]
-  },
-  {
-    "id": "MI-TU-007",
-    "region": {
-      "en": "Middle East",
-      "zh": "中东",
-      "sv": "Mellanöstern"
-    },
-    "subcategory": {
-      "en": "Turkey",
-      "zh": "Turkey",
-      "sv": "Turkey"
-    },
-    "dish_name": {
-      "en": "Menemen",
-      "zh": "Menemen",
-      "sv": "Menemen"
-    },
-    "description": {
-      "en": "Menemen - a classic Turkey dish prepared for home cooks.",
-      "zh": "Menemen - 经典的Turkey菜，适合家庭烹饪。",
-      "sv": "Menemen - en klassisk Turkeyrätt anpassad för hemanvändning."
-    },
-    "total_time_min": 89,
-    "difficulty": {
-      "en": "Medium",
-      "zh": "中等",
-      "sv": "Medel"
-    },
-    "servings": 2,
-    "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
-    },
-    "ingredients": {
-      "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
-      ],
-      "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
-      ],
-      "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
-      ]
-    },
-    "steps": {
-      "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Menemen using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
-      ],
-      "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Menemen using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
-      ],
-      "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Menemen using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
-      ]
-    },
-    "tags": [
-      "baked",
-      "quick"
-    ]
-  },
-  {
-    "id": "MI-TU-008",
-    "region": {
-      "en": "Middle East",
-      "zh": "中东",
-      "sv": "Mellanöstern"
-    },
-    "subcategory": {
-      "en": "Turkey",
-      "zh": "Turkey",
+      "zh": "土耳其",
       "sv": "Turkey"
     },
     "dish_name": {
       "en": "Kofte",
-      "zh": "Kofte",
+      "zh": "土耳其肉饼",
       "sv": "Kofte"
     },
     "description": {
-      "en": "Kofte - a classic Turkey dish prepared for home cooks.",
-      "zh": "Kofte - 经典的Turkey菜，适合家庭烹饪。",
-      "sv": "Kofte - en klassisk Turkeyrätt anpassad för hemanvändning."
+      "en": "A savory meatballs or meat patties found across the Middle East, South Asia, Central Asia, and the Balkans, with the Turkish versions being particularly famous.",
+      "zh": "一种美味的肉丸或肉饼，在中东、南亚、中亚和巴尔干地区都很常见，其中土耳其版本尤其有名。",
+      "sv": "Salta köttbullar eller köttbiffar som finns i Mellanöstern, Sydasien, Centralasien och Balkan, där de turkiska versionerna är särskilt kända."
     },
-    "total_time_min": 34,
+    "total_time_min": 30,
     "difficulty": {
       "en": "Easy",
       "zh": "简单",
       "sv": "Lätt"
     },
-    "servings": 1,
+    "servings": null,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -609,215 +682,144 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "Koftas",
+        "500 g lamb mince (ground lamb)",
+        "1/2 onion , grated",
+        "1/4 cup breadcrumbs , preferably panko",
+        "2 cloves garlic , crushed",
+        "2 tbsp chopped fresh coriander",
+        "Kofta Spices",
+        "2 tsp cumin",
+        "2 tsp coriander",
+        "2 tsp paprika",
+        "1.5 tsp ground cinnamon",
+        "3/4 tsp cayenne pepper (this is a bit spicy, reduce to taste or leave out)",
+        "1 tsp cooking / kosher salt",
+        "1/2 black pepper",
+        "Yoghurt Sauce",
+        "1 cup yogurt , Greek or other thick plain",
+        "1 tbsp extra virgin olive oil",
+        "1 clove garlic , crushed",
+        "1 tsp cumin",
+        "1 tbsp lemon juice",
+        "1/4 tsp salt and pepper , each",
+        "To Serve",
+        "8 skewers (Note 1)",
+        "8 flatbreads (small) or 4 large, warmed (homemade or bought, Note 2)",
+        "Shredded Red Cabbage, Carrot and Mint Salad  (Note 3)",
+        "OR shredded lettuce, tomato and onion slices  (Note 3)"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "烤肉丸",
+        "500克羊肉末（羊肉馅）",
+        "半个洋葱，磨碎",
+        "1/4杯面包屑，最好是日式面包糠",
+        "2瓣大蒜，压碎",
+        "2汤匙切碎的新鲜香菜",
+        "烤肉丸香料",
+        "2茶匙孜然粉",
+        "2茶匙芫荽粉",
+        "2茶匙辣椒粉",
+        "1.5茶匙肉桂粉",
+        "3/4茶匙辣椒粉（略辣，可根据口味减少用量或省略）",
+        "1茶匙食用盐/犹太盐",
+        "1/2茶匙黑胡椒粉",
+        "酸奶酱",
+        "1杯酸奶，希腊酸奶或其他浓稠原味酸奶均可",
+        "1汤匙特级初榨橄榄油",
+        "1瓣大蒜，压碎",
+        "1茶匙孜然粉",
+        "1汤匙柠檬汁",
+        "1/4茶匙盐和胡椒粉各1/4茶匙",
+        "食用份量",
+        "8串（注1）",
+        "8小份或大份（4张加热后的薄饼，自制或购买均可，注2）",
+        "红卷心菜丝、胡萝卜丝和薄荷沙拉（注3）",
+        "或生菜丝、番茄片和洋葱片（注3）"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "Koftas",
+        "500 g lammfärs (lammfärs)",
+        "1/2 lök, riven",
+        "1/4 dl ströbröd, helst panko",
+        "2 vitlöksklyftor, krossade",
+        "2 msk hackad färsk koriander",
+        "Kofta-kryddor",
+        "2 tsk spiskummin",
+        "2 tsk koriander",
+        "2 tsk paprika",
+        "1,5 tsk malen kanel",
+        "3/4 tsk cayennepeppar (detta är lite starkt, reducera efter smak eller uteslut)",
+        "1 tsk koksalt / kosher salt",
+        "1/2 svartpeppar",
+        "Yoghurtsås",
+        "1 dl yoghurt, grekisk eller annan tjock naturell",
+        "1 msk extra jungfruolja",
+        "1 vitlöksklyfta, krossad",
+        "1 tsk spiskummin",
+        "1 msk citronsaft",
+        "1/4 tsk salt och peppar, vardera",
+        "Till servering",
+        "8 spett (Obs 1)",
+        "8 flatbröd (små) eller 4 stora, varma (hemlagade eller köpta, Obs 2)",
+        "Strimlad rödkåls-, morots- och myntasallad (Obs 3)",
+        "ELLER strimlad sallad, tomat och lökskivor (Obs 3)"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Kofte using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Yogurt Sauce: Combine the yogurt sauce ingredients and leave in fridge for at least 20 mninutes for the flavor to develop (overnight even better!).",
+        "Koftas: Grate the onion into the bowl using a standard box grater. Add remaining Kofta ingredients and mix well with your hands.",
+        "With damp hands, divide the meat into 8 equal pieces and push and shape the meat onto 8 skewers. Make them smooth (looks nicer, pictured!) or a bit nubbly (more surface area to brown!).",
+        "Cooking:",
+        "Stove: Preheat 1/2 tbsp oil in a large skillet over medium high heat. Cook in batches for 5 minutes in total, turning to brown evenly all over.",
+        "BBQ: BBQ on medium high for about 6 minutes, rotating to brown all over.",
+        "Broiler/oven grill: preheat and cook koftas 30cm/10\" from heat source for 12 minutes, rotating as needed until lightly browned (you won't get as good a browning as stove/BBQ).",
+        "Serving:",
+        "Do a DIY spread – pile everything onto a platter a make everyone serve themselves.",
+        "Get a flatbread, smear with Yogurt Sauce, top with Red Cabbage Mint Salad (more options Note 3) then Kofta, drizzle over more Yoghurt Sauce. Devour and be happy!"
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Kofte using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "酸奶酱：将酸奶酱的所有材料混合，放入冰箱冷藏至少 20 分钟，让味道充分融合（冷藏过夜更佳！）。",
+        "肉丸：用普通擦丝器将洋葱擦成丝，放入碗中。加入剩余的肉丸材料，用手充分混合。",
+        "将肉分成 8 等份，分别串在 8 根烤肉签上。肉丸可以做得光滑（看起来更美观，如图所示！），也可以略带颗粒感（这样表面积更大，更容易烤至焦黄！）。",
+        "烹饪方法：",
+        "炉灶：在大煎锅中倒入 1/2 汤匙油，中高火预热。分批煎烤，每次煎 5 分钟，期间翻面，使肉丸均匀上色。",
+        "烧烤：中高火烧烤约 6 分钟，期间翻面，使肉丸表面均匀上色。",
+        "烤箱/烤架：预热烤箱，将烤肉丸放在距离热源 30 厘米/10 英寸处烤 12 分钟，期间根据需要翻面，直至表面呈浅棕色（烤制效果不如炉灶/烧烤炉）。",
+        "食用方法：",
+        "自制拼盘——将所有食材堆放在一个大盘子里，让大家自行取用。",
+        "取一张薄饼，抹上酸奶酱，放上红卷心菜薄荷沙拉（更多选择见注 3），再放上烤肉丸，最后淋上更多酸奶酱。尽情享用吧！"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Kofte using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Yoghurtsås: Blanda ingredienserna till yoghurtsåsen och låt stå i kylskåpet i minst 20 minuter så att smaken utvecklas (ännu bättre över natten!).",
+        "Koftas: Riv löken i skålen med ett vanligt rivjärn. Tillsätt resterande ingredienser till koftan och blanda väl med händerna.",
+        "Dela köttet i 8 lika stora bitar med fuktiga händer och tryck ut och forma köttet på 8 spett. Gör dem släta (ser finare ut, på bilden!) eller lite nubbiga (mer yta att bryna!).",
+        "Tillagning:",
+        "Spis: Värm 1/2 msk olja i en stor stekpanna på medelhög värme. Stek i omgångar i totalt 5 minuter och bryn dem jämnt överallt.",
+        "Grillning: Grilla på medelhög värme i cirka 6 minuter och rotera så att allt bryns.",
+        "Grill/ugnsgrill: Värm upp och tillaga koftorna 30 cm från värmekällan i 12 minuter, rotera efter behov tills de är lätt brynta (du får inte lika bra brynning som på spis/grill).",
+        "Servering:",
+        "Gör ett eget pålägg – stapla allt på ett fat och låt alla servera sig själva.",
+        "Ta ett flatbröd, smörj med yoghurtsås, toppa med rödkåls- och myntasallad (fler alternativ not 3) sedan koftan, ringla över mer yoghurtsås. Ät och var glad!"
       ]
     },
     "tags": [
-      "baked",
-      "quick"
-    ]
-  },
-  {
-    "id": "MI-TU-009",
-    "region": {
-      "en": "Middle East",
-      "zh": "中东",
-      "sv": "Mellanöstern"
+      "Rich",
+      "Salty",
+      "Mild"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
     },
-    "subcategory": {
-      "en": "Turkey",
-      "zh": "Turkey",
-      "sv": "Turkey"
+    "tips": {
+      "en": "1. Soak Skewers – if using wooden or bamboo skewers and planning to cook on BBQ grill or under broil/oven grill, soak for for 30 minutes prior to threading meat on.\r\nIf using metal skewers, cooking on stove or plate side of BBQ, no need to do this.\r\n2. Flatbread – any flatbreads that can be wrapped around the koftas will work a treat here. If using small pita breads, stuff each one with 2 koftas, or make them with 1 kofta each. Or use large flatbreads (like Lebanese bread) and make 1 long one.\r\nYou could also make your own – try these Easy No Yeast Flatbreads!\r\n3. Salad for stuffing – I usually make this Red Cabbage Mint Salad which is on theme and also the fresh mint flavour goes beautifully here. Other options are:\r\nShredded iceberg lettuce (or just handfuls of leafy greens) with slices of tomato and onion (like the way Doner Kebabs are made), some fresh coriander/cilantro, parsley or mint would also be lovely\r\nTabbouleh – see recipe in Doner Kebab recipe\r\nMore options:\r\nThis seasoned Middle Eastern Lentil Rice Pilaf (Mejadra) is super tasty and would go perfectly to serve on the side / stuffing inside the pitas\r\nMiddle Eastern Chickpea Salad with Cucumber and Tomato (skip the chickpeas if you want) – great juicy crunch factor\r\nHummus instead of / in addition to yogurt sauce\r\nAdd a side of juicy marinated BBQ Vegetables (or road them!) – extra amazing to stuff into pitas with the koftas\r\n4. Nutrition per kofta, assuming 2 koftas stuffed in 1 pita bread and assuming fatty lamb mince is used (supermarket mince is leaner so will be less calories). Assumes all sauce used (full fat yogurt).",
+      "zh": "1. 浸泡烤串——如果使用木签或竹签，并计划在烧烤架或烤箱/烤架下烹饪，请在串肉前浸泡30分钟。\r\n如果使用金属签，在炉灶或烧烤架的烤盘上烹饪，则无需浸泡。\r\n2. 薄饼——任何可以包裹肉丸的薄饼都非常适合。如果使用小皮塔饼，每个饼里放2个肉丸，或者每个饼里放1个肉丸。或者使用大薄饼（例如黎巴嫩面包），做成一个长条状。\r\n您也可以自己制作薄饼——试试这些简易无酵母薄饼！\r\n3. 馅料沙拉——我通常会做这款红甘蓝薄荷沙拉，它很符合主题，而且新鲜薄荷的味道也与此非常相配。其他选择包括：\r\n切碎的卷心莴苣（或几把绿叶蔬菜），配上番茄片和洋葱片（就像做土耳其烤肉那样），再加些新鲜的香菜/芫荽、欧芹或薄荷，味道也很棒。\r\n塔布勒沙拉——做法见土耳其烤肉食谱\r\n更多选择：\r\n这款调味的中东扁豆饭（Mejadra）超级美味，非常适合作为配菜或馅料塞入皮塔饼中。\r\n中东鹰嘴豆沙拉配黄瓜和番茄（如果喜欢可以省略鹰嘴豆）——口感爽脆多汁。\r\n鹰嘴豆泥可以代替/搭配酸奶酱。\r\n再加一份多汁的腌制烧烤蔬菜（或者直接带走！）——和烤肉丸一起塞进皮塔饼里，味道更佳。\r\n4. 每个烤肉丸的营养成分，假设一个皮塔饼里塞了两个烤肉丸，并且假设使用的是肥羊肉馅（超市里的羊肉馅是……）更精瘦，所以热量更低）。假设使用全部酱料（全脂酸奶）。",
+      "sv": "1. Blötlägg spetten – om du använder trä- eller bambuspett och planerar att grilla på grillen eller under grill/ugnsgrill, blötlägg dem i 30 minuter innan du trär på köttet.\r\nOm du använder metallspett och grillar på spisen eller tallrikssidan av grillen behöver du inte göra detta.\r\n2. Flatbröd – alla flatbröd som kan viras runt koftorna fungerar utmärkt här. Om du använder små pitabröd, fyll varje med 2 koftor, eller gör dem med 1 kofta vardera. Eller använd stora flatbröd (som libanesiskt bröd) och gör 1 långt.\r\nDu kan också göra dina egna – prova dessa enkla flatbröd utan jäst!\r\n3. Sallad till fyllning – jag brukar göra denna rödkåls- och myntasallad som är temainriktad och den färska myntasmaken passar utmärkt här. Andra alternativ är:\r\nStrimlad isbergssallad (eller bara nävar bladgrönsaker) med skivor tomat och lök (som dönerkebab görs), lite färsk koriander, persilja eller mynta vore också gott.\r\nTabbouleh – se recept i dönerkebabreceptet.\r\nFler alternativ:\r\nDenna kryddade linsrispilaff från Mellanöstern (Mejadra) är supergod och passar perfekt att servera vid sidan av / fylla inuti pitabröden.\r\nKikärtssallad från Mellanöstern med gurka och tomat (hoppa över kikärterna om du vill) – fantastisk saftig krispighet.\r\nHummus istället för / utöver yoghurtsås.\r\nLägg till en sida av saftiga marinerade BBQ-grönsaker (eller kör dem!) – extra fantastiskt att stoppa i pitabröden med koftorna.\r\n4. Näringsvärde per kofta, förutsatt att 2 koftor fyllda i 1 pitabröd och förutsatt att fet lammfärs används (färs från stormarknaden är magrare så det blir färre kalorier). Förutsätter att all sås används (helfet yoghurt)."
     },
-    "dish_name": {
-      "en": "Pilav",
-      "zh": "Pilav",
-      "sv": "Pilav"
-    },
-    "description": {
-      "en": "Pilav - a classic Turkey dish prepared for home cooks.",
-      "zh": "Pilav - 经典的Turkey菜，适合家庭烹饪。",
-      "sv": "Pilav - en klassisk Turkeyrätt anpassad för hemanvändning."
-    },
-    "total_time_min": 84,
-    "difficulty": {
-      "en": "Easy",
-      "zh": "简单",
-      "sv": "Lätt"
-    },
-    "servings": 6,
-    "main_type": {
-      "en": "Grain",
-      "zh": "谷物",
-      "sv": "Spannmål"
-    },
-    "ingredients": {
-      "en": [
-        "200 g rice",
-        "1 pc onion",
-        "100 g mixed vegetables",
-        "500 ml stock"
-      ],
-      "zh": [
-        "200 g 米饭",
-        "1 pc 洋葱",
-        "100 g mixed vegetables",
-        "500 ml 高汤"
-      ],
-      "sv": [
-        "200 g ris",
-        "1 pc lök",
-        "100 g mixed vegetables",
-        "500 ml buljong"
-      ]
-    },
-    "steps": {
-      "en": [
-        "Prepare ingredients: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Pilav using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
-      ],
-      "zh": [
-        "准备食材: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Pilav using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
-      ],
-      "sv": [
-        "Förbered ingredienserna: 200 g rice, 1 pc onion, 100 g mixed vegetables, 500 ml stock.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Pilav using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
-      ]
-    },
-    "tags": [
-      "baked",
-      "family"
-    ]
-  },
-  {
-    "id": "MI-TU-010",
-    "region": {
-      "en": "Middle East",
-      "zh": "中东",
-      "sv": "Mellanöstern"
-    },
-    "subcategory": {
-      "en": "Turkey",
-      "zh": "Turkey",
-      "sv": "Turkey"
-    },
-    "dish_name": {
-      "en": "Simit",
-      "zh": "Simit",
-      "sv": "Simit"
-    },
-    "description": {
-      "en": "Simit - a classic Turkey dish prepared for home cooks.",
-      "zh": "Simit - 经典的Turkey菜，适合家庭烹饪。",
-      "sv": "Simit - en klassisk Turkeyrätt anpassad för hemanvändning."
-    },
-    "total_time_min": 31,
-    "difficulty": {
-      "en": "Easy",
-      "zh": "简单",
-      "sv": "Lätt"
-    },
-    "servings": 4,
-    "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
-    },
-    "ingredients": {
-      "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
-      ],
-      "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
-      ],
-      "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
-      ]
-    },
-    "steps": {
-      "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Simit using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
-      ],
-      "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Simit using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
-      ],
-      "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Simit using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
-      ]
-    },
-    "tags": [
-      "vegetarian",
-      "spicy"
-    ]
+    "image_url": "/Recipe Image/MiddleEast/MI-TU-006.png"
   },
   {
     "id": "MI-IR-001",
@@ -828,26 +830,26 @@
     },
     "subcategory": {
       "en": "Iran",
-      "zh": "Iran",
+      "zh": "伊朗",
       "sv": "Iran"
     },
     "dish_name": {
       "en": "Ghormeh Sabzi",
-      "zh": "Ghormeh Sabzi",
+      "zh": "波斯香草炖肉",
       "sv": "Ghormeh Sabzi"
     },
     "description": {
-      "en": "Ghormeh Sabzi - a classic Iran dish prepared for home cooks.",
-      "zh": "Ghormeh Sabzi - 经典的Iran菜，适合家庭烹饪。",
-      "sv": "Ghormeh Sabzi - en klassisk Iranrätt anpassad för hemanvändning."
+      "en": "A highly esteemed and essential dish in Persian (Iranian) cuisine. It is a slow-cooked herb stew.",
+      "zh": "这是波斯（伊朗）菜肴中备受推崇且必不可少的一道菜。它是一种慢炖香草炖菜。",
+      "sv": "En högt uppskattad och oumbärlig rätt i persisk (iransk) matlagning. Det är en långkokt örtgryta."
     },
-    "total_time_min": 19,
+    "total_time_min": null,
     "difficulty": {
-      "en": "Hard",
-      "zh": "困难",
-      "sv": "Svår"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
-    "servings": 1,
+    "servings": 6,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -855,51 +857,127 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "Herbs as listed below or dried Ghorme Sabzi herbs (see tip)",
+        "100 g parsley",
+        "80 g chives",
+        "80 g coriander",
+        "50 g dill",
+        "1 dl rapeseed oil",
+        "Lamb",
+        "1 1/5 kg lamb stew pieces (e.g. shoulder or roast)",
+        "2 yellow onions",
+        "2 cloves of garlic",
+        "2 tbsp rapeseed oil",
+        "1 tbsp turmeric",
+        "3 tbsp tomato paste",
+        "3 dried limes",
+        "5 dl water",
+        "2 meat bouillon cubes",
+        "1 1/2 tsp salt",
+        "2 tsp pepper",
+        "1 - 2 packs cooked kidney beans (380 g each)",
+        "Accessories",
+        "6 cups basmati rice",
+        "pickled vegetables"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "以下列出的香草或干的Ghorme Sabzi香草（见提示）",
+        "100克欧芹",
+        "80克细香葱",
+        "80克芫荽",
+        "50克莳萝",
+        "1分升菜籽油",
+        "羊肉",
+        "1.25公斤羊肉块（例如羊肩肉或烤羊肉）",
+        "2个黄洋葱",
+        "2瓣大蒜",
+        "2汤匙菜籽油",
+        "1汤匙姜黄粉",
+        "3汤匙番茄酱",
+        "3个干青柠",
+        "5分升水",
+        "2块肉汤块",
+        "1.5茶匙盐",
+        "2茶匙胡椒粉",
+        "1-2包煮熟的芸豆（每包380克）",
+        "配菜",
+        "6杯巴斯马蒂米",
+        "腌制蔬菜"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "Örter enligt nedan eller torkade Ghorme Sabzi örter (se tips)",
+        "100 g persilja",
+        "80 g gräslök",
+        "80 g koriander",
+        "50 g dill",
+        "1 dl rapsolja",
+        "Lamm",
+        "1 1/5 kg grytbitar av lamm (t ex bog eller stek)",
+        "2 gula lökar",
+        "2 vitlöksklyftor",
+        "2 msk rapsolja",
+        "1 msk gurkmeja",
+        "3 msk tomatpuré",
+        "3 torkade limefrukter",
+        "5 dl vatten",
+        "2 köttbuljongtärningar",
+        "1 1/2 tsk salt",
+        "2 krm peppar",
+        "1 - 2 förp kokta kidneybönor (à 380 g)",
+        "Tillbehör",
+        "6 port basmatiris",
+        "picklade grönsaker"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Ghormeh Sabzi using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Herbs: Chop the fresh herbs and fry them in a frying pan in the oil while stirring, for about 15 minutes. Lift onto a plate.",
+        "Lamb: If you have a whole piece of roast or shoulder, trim and cut the lamb into cubes about 3 cm in size. Peel, divide and chop the onion.",
+        "Brown the lamb in the oil in a large pot. Add the onion and press in the garlic and fry for a minute or so.",
+        "Add the turmeric, tomato paste and the fried herbs. Poke a few holes in the lime and put it in the pot together with water, crumbled stock cubes, salt and pepper.",
+        "Let it cook under the lid for about 3 hours, or until the meat is really tender.",
+        "Pour the beans into a sieve, rinse them in cold water and let them drain. Stir the beans into the pot and let them get hot.",
+        "Accessories: Cook the rice according to the instructions on the package.",
+        "Serve the pot with rice and pickled vegetables."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Ghormeh Sabzi using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "香草：将新鲜香草切碎，放入煎锅中，用油翻炒约15分钟。盛出备用。",
+        "羊肉：如果您用的是整块烤羊肉或羊肩肉，请修整后切成约3厘米的方块。洋葱去皮，切块。",
+        "在大锅中用油将羊肉煎至棕色。加入洋葱，压入蒜末，翻炒约1分钟。",
+        "加入姜黄粉、番茄酱和炒好的香草。在青柠上戳几个孔，放入锅中，加入水、捏碎的浓汤宝、盐和胡椒粉。",
+        "盖上锅盖，炖煮约3小时，或直至羊肉软烂。",
+        "将豆子倒入筛子中，用冷水冲洗，沥干水分。将豆子倒入锅中，加热。",
+        "配菜：按照包装上的说明煮米饭。",
+        "将炖菜与米饭和腌菜一起享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Ghormeh Sabzi using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Örter: Hacka de färska örterna och stek dem i en stekpanna i oljan under omrörning, i ca 15 minuter. Lyft upp på en tallrik.",
+        "Lamm: Har du en hel bit stek eller bog, putsa och skär lammet i, ca 3 cm stora tärningar. Skala, dela och hacka löken.",
+        "Bryn lammet i oljan i en stor gryta. Lägg ner löken och pressa i vitlöken och stek någon minut till.",
+        "Tillsätt gurkmeja, tomatpuré och de stekta örterna. Stick några hål i limen och lägg ner i grytan tillsammans med vatten, smulade buljongtärningar, salt och peppar.",
+        "Låt koka under lock ca 3 timmar, eller tills köttet är riktigt mört.",
+        "Häll bönorna i en sil, spola dem i kallt vatten och låt rinna av. Rör ner bönorna i grytan och låt de bli varma.",
+        "Tillbehör: Koka riset enligt anvisning på förpackningen.",
+        "Servera grytan med ris och picklade grönsaker."
       ]
     },
     "tags": [
-      "family",
-      "spicy"
-    ]
+      "Sour",
+      "Rich",
+      "Salty",
+      "Mild"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "tips": {
+      "en": "Replace the fresh herbs with dried Ghorme Sabzi herb seasoning and soak in lukewarm water for 30 minutes. Then lift the herbs out and drain in a fine-mesh sieve before frying in oil.",
+      "zh": "用干的Ghorme Sabzi香料代替新鲜香料，并在温水中浸泡30分钟。然后将香料捞出，用细网筛沥干水分，再用油煎炸。",
+      "sv": "Byt de färska örterna mot torkad Ghorme Sabzi örtkrydda och blötlägg i ljummet vatten 30 minuter. Lyft sedan upp örterna och låt rinna av i en finmaskig sil för att därefter stekas i oljan."
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-IR-001.png"
   },
   {
     "id": "MI-IR-002",
@@ -910,24 +988,24 @@
     },
     "subcategory": {
       "en": "Iran",
-      "zh": "Iran",
+      "zh": "伊朗",
       "sv": "Iran"
     },
     "dish_name": {
-      "en": "Fesenjan",
-      "zh": "Fesenjan",
-      "sv": "Fesenjan"
+      "en": "Khoresht-e Bademjan",
+      "zh": "波斯茄子炖肉",
+      "sv": "Khoresht-e Bademjan"
     },
     "description": {
-      "en": "Fesenjan - a classic Iran dish prepared for home cooks.",
-      "zh": "Fesenjan - 经典的Iran菜，适合家庭烹饪。",
-      "sv": "Fesenjan - en klassisk Iranrätt anpassad för hemanvändning."
+      "en": "A tasty eggplant stew with lamb that is perfect for a more festive dinner - during the Persian New Year Norooz, many people choose to cook a lamb stew in the style of this one.",
+      "zh": "一道美味的茄子羊肉炖菜，非常适合节日晚餐——在波斯新年诺鲁孜节期间，许多人会选择烹制这种风格的羊肉炖菜。",
+      "sv": "En smakrik auberginegryta med lamm som passar perfekt till den lite festligare middagen – under det persiska nyåret Norooz väljer många att laga en lammgryta i stil med denna."
     },
-    "total_time_min": 50,
+    "total_time_min": null,
     "difficulty": {
-      "en": "Easy",
-      "zh": "简单",
-      "sv": "Lätt"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
     "servings": 4,
     "main_type": {
@@ -937,51 +1015,95 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "2 yellow onions",
+        "2 garlic cloves",
+        "1 red pepper",
+        "800 g lamb stew pieces",
+        "2 tbsp butter",
+        "1 tsp turmeric",
+        "approx. 400 g crushed tomatoes",
+        "3 dl water",
+        "2 vegetable stock cubes",
+        "1 eggplant (approx. 300 g)",
+        "1 zucchini (approx. 300 g)",
+        "salt",
+        "black pepper",
+        "1/2 lemon",
+        "To serve",
+        "white bread with sesame seeds or pita bread"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "2 个黄洋葱",
+        "2 瓣大蒜",
+        "1 个红甜椒",
+        "800 克羊肉块",
+        "2 汤匙黄油",
+        "1 茶匙姜黄粉",
+        "约 400 克番茄碎",
+        "3 分升水",
+        "2 块蔬菜浓汤宝",
+        "1 个茄子（约 300 克）",
+        "1 个西葫芦（约 300 克）",
+        "盐",
+        "黑胡椒",
+        "半个柠檬",
+        "佐以",
+        "芝麻白面包或皮塔饼"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "2 gula lökar",
+        "2 vitlöksklyftor",
+        "1 röd peppar",
+        "800 g lammgrytbitar",
+        "2 msk smör",
+        "1 tsk gurkmeja",
+        "ca 400 g krossade tomater",
+        "3 dl vatten",
+        "2 grönsaksbuljongtärningar",
+        "1 aubergine (ca 300 g)",
+        "1 zucchini (ca 300 g)",
+        "salt",
+        "svartpeppar",
+        "1/2 citron",
+        "Till servering",
+        "vitt bröd med sesamfrö eller pitabröd"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Fesenjan using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Peel the onion and garlic, chop the onion roughly and grate the garlic. Divide, core and shred the chilli.",
+        "Brown the meat in batches in the butter in a saucepan. Add the onion, garlic and chilli and fry for a few minutes.",
+        "Stir in the turmeric, crushed tomatoes, water and crumbled stock cubes. Cook slowly for about 1 1/2 hours or until the meat is really tender.",
+        "Trim and cut the aubergine and zucchini into cubes about 2 cm in size. Add the vegetables to the saucepan, stir and cook slowly for about 10 minutes more. Season the stew with salt, pepper and a few drops of lemon juice.",
+        "To serve: Serve the stew with white bread or warm pita bread."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Fesenjan using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将洋葱和大蒜去皮，洋葱切碎，大蒜磨成蒜蓉。辣椒去籽切丝。",
+        "在平底锅中用黄油分批将肉煎至棕色。加入洋葱、大蒜和辣椒，翻炒几分钟。",
+        "加入姜黄粉、番茄碎、水和捏碎的浓汤宝。慢炖约1.5小时，或直至肉质软烂。",
+        "将茄子和西葫芦去蒂切成约2厘米的方块。将蔬菜加入平底锅中，翻炒均匀，再慢炖约10分钟。用盐、胡椒粉和几滴柠檬汁调味。",
+        "食用方法：将炖菜配上白面包或温热的皮塔饼。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Fesenjan using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Skala lök och vitlök, hacka löken grovt och riv vitlöken. Dela, kärna ur och strimla chilin.",
+        "Bryn köttet i omgångar i smöret i en gryta. Tillsätt lök, vitlök och chili fräs i några minuter.",
+        "Rör ner gurkmeja, krossade tomater, vatten och smulade buljongtärningar.  Koka sakta ca 1 1/2 timme eller tills köttet är riktigt mört.",
+        "Ansa och skär aubergine och zucchini i ca 2 cm stora tärningar. Tillsätt grönsakerna i grytan, rör om och koka sakta ytterligare ca 10 minuter. Smaksätt grytan med salt, peppar och några droppar citronsaft.",
+        "Till servering: Servera grytan med vitt bröd eller varmt pitabröd."
       ]
     },
     "tags": [
-      "quick",
-      "stew"
-    ]
+      "Sour",
+      "Rich",
+      "Mild",
+      "Salty"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-IR-002.png"
   },
   {
     "id": "MI-IR-003",
@@ -992,78 +1114,115 @@
     },
     "subcategory": {
       "en": "Iran",
-      "zh": "Iran",
+      "zh": "伊朗",
       "sv": "Iran"
     },
     "dish_name": {
-      "en": "Chelo Kabab",
-      "zh": "Chelo Kabab",
-      "sv": "Chelo Kabab"
+      "en": "Tahdig",
+      "zh": "伊朗脆米饭",
+      "sv": "Tahdig"
     },
     "description": {
-      "en": "Chelo Kabab - a classic Iran dish prepared for home cooks.",
-      "zh": "Chelo Kabab - 经典的Iran菜，适合家庭烹饪。",
-      "sv": "Chelo Kabab - en klassisk Iranrätt anpassad för hemanvändning."
+      "en": "Tahdig is the highly sought-after, golden, crispy crust of rice that forms on the bottom of the pot when cooking traditional Persian steamed rice.",
+      "zh": "塔赫迪格（Tahdig）是人们梦寐以求的金黄酥脆的米饭外壳，它在烹煮传统的波斯蒸米饭时形成于锅底。",
+      "sv": "Tahdig är den mycket eftertraktade, gyllene, krispiga risskorpan som bildas på botten av grytan när man lagar traditionellt persiskt ångkokt ris."
     },
-    "total_time_min": 18,
+    "total_time_min": 50,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
       "sv": "Medel"
     },
-    "servings": 2,
+    "servings": 8,
     "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
+      "en": "Grain",
+      "zh": "谷物",
+      "sv": "Spannmål"
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "1 tsp saffron threads",
+        "2 cups basmati rice like Royal Basmati Rice (affiliate link)",
+        "1 to 2 tbsp Kosher salt",
+        "2 tbsp whole milk yogurt (Greek or otherwise)",
+        "2 tbsp grape seed oil, or any healthy neutral-tasting oil of your choice",
+        "1 cup dried cherries, finely chopped",
+        "Grated zest of 1 orange",
+        "1/2 teaspoon ground cinnamon",
+        "4 to 8 tbsp unsalted butter, cubed (see note #1)",
+        "3 tbsp pistachios, roughly chopped for garnish"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "1 茶匙藏红花丝",
+        "2 杯巴斯马蒂米（例如皇家巴斯马蒂米，链接为关联链接）",
+        "1 至 2 汤匙犹太盐",
+        "2 汤匙全脂酸奶（希腊酸奶或其他）",
+        "2 汤匙葡萄籽油，或您选择的任何健康、味道清淡的食用油",
+        "1 杯切碎的干樱桃",
+        "1 个橙子的橙皮屑",
+        "1/2 茶匙肉桂粉",
+        "4 至 8 汤匙切成小块的无盐黄油（见注释 1）",
+        "3 汤匙切碎的开心果，用于装饰"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "1 tsk saffranstrådar",
+        "2 koppar basmatiris som Royal Basmati Rice (affiliatelänk)",
+        "1 till 2 msk koshersalt",
+        "2 msk helmjölksyoghurt (grekisk eller annan)",
+        "2 msk druvkärneolja, eller någon annan hälsosam olja med neutral smak efter eget val",
+        "1 kopp torkade körsbär, finhackade",
+        "Rivet skal av 1 apelsin",
+        "1/2 tsk malen kanel",
+        "4 till 8 msk osaltat smör, tärnat (se not 1)",
+        "3 msk pistagenötter, grovhackade till garnering"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Chelo Kabab using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Mix the saffron into 1 cup very warm (but not hot) water. Let sit for at least 10 minutes to let the saffron release all of its flavor.",
+        "In a sieve, rinse the rice under cool running water until the water almost runs clear.",
+        "In a large pot, combine 8 cups of water and the salt (this is your one shot to season the rice itself). Bring to a boil over medium-high heat. Add the rice and cook until al dente, 5 to 6 minutes. Drain the rice.",
+        "In a medium bowl, combine 1 cup of the cooked rice, the yogurt, grapeseed oil, and 2 tbsp of the saffron water. Mix thoroughly.",
+        "Spread the rice-yogurt mixture evenly on the bottom of a 10-inch lidded nonstick pot. Sprinkle 1 cup of the remaining cooked rice on top, followed by 2 tablespoons of the dried cherries, a pinch of orange zest, and a pinch of cinnamon. Add another layer of rice and repeat with the cherries, orange zest, and cinnamon, reserving a couple tbsp of the cherries for garnish. As you go about layering, the rice will start to dome and look \"pointy\" in the middle--that's okay! Keep it that way. Finish by dotting the top with the butter and pour the rest of the saffron water all over the top.",
+        "Wrap the lid in a kitchen towel and secure it around the handle with a rubber band. Cover the pot and cook over low heat, 25 to 30 minutes or until the rice around the edges is golden and crispy",
+        "it's okay to peek under the lid! (See note #2) Be sure not to burn the bottom layer of the rice, though you do want a nice crust in the bottom.",
+        "Remove the lid, invert a large serving plate over the pot, and carefully flip them over together. No worries if it sticks, just scrape it out and run with it! Sprinkle the tahdig with the reserved dried cherries and pistachios and serve right away."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Chelo Kabab using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将藏红花放入1杯温水（不要太烫）中浸泡至少10分钟，让藏红花充分释放香味。",
+        "用筛子将米在凉水下冲洗，直到水几乎清澈为止。",
+        "在一个大锅中，加入8杯水和盐（这是唯一一次给米饭调味）。用中高火煮沸。加入米饭，煮至有嚼劲（约5-6分钟）。沥干米饭。",
+        "在一个中等大小的碗中，混合1杯煮熟的米饭、酸奶、葡萄籽油和2汤匙藏红花水。充分搅拌均匀。",
+        "将米饭酸奶混合物均匀地铺在一个10英寸带盖不粘锅的底部。撒上1杯剩余的煮熟米饭，再撒上2汤匙干樱桃、少许橙皮屑和少许肉桂粉。再铺一层米饭，然后重复铺樱桃、橙皮屑和肉桂的步骤，留出几汤匙樱桃作装饰。铺米饭时，米饭会开始隆起，中间看起来有点“尖”——没关系！保持这样就好。最后，在米饭表面点缀上黄油，然后把剩下的藏红花水浇在上面。",
+        "用厨房毛巾包住锅盖，用橡皮筋固定在把手上。盖上锅盖，小火慢煮25到30分钟，或者直到锅边的米饭呈金黄色且酥脆；可以掀开锅盖看看！（参见注释2）注意不要把底层的米饭烧焦，但底部要形成一层漂亮的脆皮。",
+        "揭开锅盖，将一个大的盘子倒扣在锅上，然后小心地将它们一起翻转过来。如果粘锅了也没关系，用勺子刮一下就可以享用了！将预留的干樱桃和开心果撒在塔迪格上，即可食用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Chelo Kabab using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Blanda saffranet i 1 kopp mycket varmt (men inte hett) vatten. Låt stå i minst 10 minuter så att saffranet frigör all sin smak.",
+        "Skölj riset i en sil under kallt rinnande vatten tills vattnet nästan är klart.",
+        "Blanda 8 koppar vatten och salt i en stor kastrull (detta är din enda chans att krydda riset). Koka upp på medelhög värme. Tillsätt riset och koka tills det är al dente, 5 till 6 minuter. Häll av riset.",
+        "Blanda 1 kopp kokt ris, yoghurt, druvkärneolja och 2 msk saffransvatten i en medelstor skål. Blanda noggrant.",
+        "Bred ut ris-yoghurtblandningen jämnt i botten av en 25 cm kastrull med non-stick-beläggning. Strö 1 kopp resterande kokt ris över, följt av 2 matskedar torkade körsbär, en nypa apelsinskal och en nypa kanel. Lägg på ytterligare ett lager ris och upprepa med körsbär, apelsinskal och kanel, men spara ett par matskedar körsbär till garnering. När du lägger riset kommer det att börja kupa sig och se \"spetsigt\" ut i mitten – det är okej! Fortsätt så. Avsluta med att pricka smöret ovanpå och häll resten av saffransvattnet över hela toppen.",
+        "Vika in locket i en kökshandduk och fäst det runt handtaget med ett gummiband. Täck grytan och koka på låg värme i 25 till 30 minuter eller tills riset runt kanterna är gyllenbrunt och krispigt",
+        "det är okej att kika under locket! (Se anmärkning nr 2) Se till att inte bränna risets understa lager, men du vill ha en fin skorpa i botten. Ta bort locket, vänd en stor serveringsfat över grytan och vänd dem försiktigt tillsammans. Ingen fara om det fastnar, skrapa bara ut det och skölj med det! Strö över de sparade torkade körsbären och pistagenötterna över tahdig och servera direkt."
       ]
     },
     "tags": [
-      "vegetarian",
-      "grilled"
-    ]
+      "Rich",
+      "Salty",
+      "Mild"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "tips": {
+      "en": "Note #1--butter amount: The original recipe indicates 8 tablespoons (or 1 stick) unsalted butter. For me, 4 to 5 tablespoons were sufficient. \r\nNote #2--how long until the bottom layer of rice crisps will vary. My rice took 50 minutes for the bottom layer to crisp, and I did adjust the heat later to medium-low. It's important to keep an eye on the rice and peek under the lid occasionally to make sure the bottom crisps but does not burn.",
+      "zh": "注1——黄油用量：原食谱建议使用8汤匙（或1条）无盐黄油。对我来说，4到5汤匙就足够了。\r\n注2——米饼底部酥脆所需的时间因人而异。我的米饼底部用了50分钟才酥脆，之后我把火调到了中小火。烹饪过程中要时刻注意观察米饼，时不时掀开锅盖看看，确保底部酥脆但不要烤焦。",
+      "sv": "Anmärkning nr 1 – smörmängd: Originalreceptet anger 8 matskedar (eller 1 paket) osaltat smör. För mig räckte 4 till 5 matskedar.                                                      Anmärkning nr 2 – hur lång tid det tar innan det undre lagret av rischips blir krispigt varierar. Det tog 50 minuter för mitt ris att bli krispigt, och jag justerade värmen senare till medel-låg. Det är viktigt att hålla koll på riset och titta under locket då och då för att se till att det undre lagret blir krispigt men inte bränns vid."
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-IR-003.png"
   },
   {
     "id": "MI-IR-004",
@@ -1074,24 +1233,24 @@
     },
     "subcategory": {
       "en": "Iran",
-      "zh": "Iran",
+      "zh": "伊朗",
       "sv": "Iran"
     },
     "dish_name": {
-      "en": "Khoresht-e Bademjan",
-      "zh": "Khoresht-e Bademjan",
-      "sv": "Khoresht-e Bademjan"
+      "en": "Fesenjan",
+      "zh": "波斯石榴核桃炖肉",
+      "sv": "Fesenjan"
     },
     "description": {
-      "en": "Khoresht-e Bademjan - a classic Iran dish prepared for home cooks.",
-      "zh": "Khoresht-e Bademjan - 经典的Iran菜，适合家庭烹饪。",
-      "sv": "Khoresht-e Bademjan - en klassisk Iranrätt anpassad för hemanvändning."
+      "en": "A distinguished Persian stew, famous for its unique sweet-and-sour flavor derived from a thick, rich sauce made of ground walnuts and pomegranate molasses.",
+      "zh": "一道著名的波斯炖菜，以其独特的酸甜口味而闻名，这种口味源自于用磨碎的核桃和石榴糖浆制成的浓稠浓郁的酱汁。",
+      "sv": "en framstående persisk gryta, känd för sin unika sötsura smak som härrör från en tjock, rik sås gjord på malda valnötter och granatäpplemelass."
     },
-    "total_time_min": 39,
+    "total_time_min": null,
     "difficulty": {
-      "en": "Hard",
-      "zh": "困难",
-      "sv": "Svår"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
     "servings": 4,
     "main_type": {
@@ -1101,51 +1260,91 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "1½ large yellow onion sliced thin and fried golden brown in 3-4 TBSP vegetable oil (or 140 g fried onions)",
+        "900 g skinless chicken drumsticks or thighs (4-5 pieces)",
+        "225 g walnut halves (about 2 cups)",
+        "¼ cup cold water",
+        "1 cup pomegranate concentrate",
+        "¼ tsp kosher salt",
+        "⅛ tsp freshly cracked black pepper",
+        "Pomegranate seeds for garnish"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "1.5 个大黄洋葱，切成薄片，用 3-4 汤匙植物油炸至金黄色（或 140克炸洋葱）",
+        "900 克 去皮鸡腿或鸡翅（4-5 块）",
+        "225 克 核桃仁（约 2 杯）",
+        "¼ 杯冷水",
+        "1 杯石榴浓缩汁",
+        "¼ 茶匙粗盐",
+        "⅛ 茶匙现磨黑胡椒",
+        "石榴籽（装饰用）"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "1½ stor gul lök, tunt skivad och stekt gyllenbrun i 3–4 msk matolja (eller 140 g stekt lök)",
+        "900 g kycklingklubbor eller -lår utan skinn (4–5 bitar)",
+        "225 g valnötshalvor (cirka 5 dl)",
+        "¼ dl kallt vatten",
+        "2,5 dl granatäpplekoncentrat",
+        "¼ tsk kosher salt",
+        "⅛ tsk nymalen svartpeppar",
+        "Granatäpplekärnor till garnering"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Khoresht-e Bademjan using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Pick through the walnuts for any shells, and add to a food processor and process until it turns to a tan-colored paste.",
+        "With the food processor running add ¼ cup cold water through the feed chute. Continue processing until the paste becomes uniformly beige in color.",
+        "Fry the sliced onions with 3-4 TBSP vegetable oil in a 6-Qt stockpot until golden brown. Remove from the pot.",
+        "Add chicken to the same stockpot and top it with the fried onions.",
+        "Spoon the walnut paste evenly over the fried onions. Sprinkle with salt and pepper.",
+        "Drizzle the pomegranate concentrate over all the ingredients.",
+        "Bring to a boil over medium heat. The pomegranate concentrate tends to stick and burn fairly quickly so avoid high heat.",
+        "Reduce the heat to medium low, cover the pot and simmer for 15 minutes.",
+        "Now reduce the heat to low and simmer covered for an additional 1 hour 15 minutes, or until the sauce is thickened and the chicken is fork tender and falls off the bone. Stir every 15 minutes or so to make sure the sauce does not stick to the pot. If at the end of this time period the sauce has not thickened enough, leave the pot uncovered for about 10 minutes on low heat for a thicker sauce. Transfer the Fesenjan to a serving dish and sprinkle some pomegranate seeds on top as garnish.",
+        "Serve over white Persian steamed rice."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Khoresht-e Bademjan using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将核桃仁挑出壳，放入搅拌机中，搅打成棕褐色糊状。",
+        "继续加入1/4杯冷水。继续搅打，直至糊状物呈均匀的米黄色。",
+        "在6夸脱的汤锅中，用3-4汤匙植物油将洋葱片炒至金黄色。取出备用。",
+        "将鸡肉放入同一个汤锅中，并在鸡肉上铺上炒好的洋葱。",
+        "将核桃糊均匀地铺在洋葱上。撒上盐和胡椒粉。",
+        "将石榴浓缩汁淋在所有食材上。",
+        "用中火煮沸。石榴浓缩汁容易粘锅烧焦，所以要避免大火。",
+        "转小火，盖上锅盖，慢炖15分钟。",
+        "现在将火调至小火，盖上锅盖慢炖1小时15分钟，或直至酱汁浓稠，鸡肉用叉子轻轻一戳即可脱骨。每隔15分钟左右搅拌一次，以防酱汁粘锅。如果炖煮时间结束时酱汁仍不够浓稠，可敞开锅盖，小火焖煮约10分钟，使其更加浓稠。将费森詹盛入盘中，撒上一些石榴籽作为装饰。",
+        "佐以波斯白米饭享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Khoresht-e Bademjan using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Plocka bort eventuella skal från valnötterna och lägg dem i en matberedare och mixa tills det blir en brun pasta.",
+        "Medan matberedaren är igång, tillsätt 0,6 dl kallt vatten genom påfyllningsrännan. Fortsätt mixa tills pastan blir jämnt beige i färgen.",
+        "Stek de skivade löken med 3-4 msk matolja i en 6-liters kastrull tills de är gyllenbruna. Ta upp ur kastrullen.",
+        "Lägg kycklingen i samma kastrull och toppa med den stekta löken.",
+        "Skeda valnötspastan jämnt över den stekta löken. Strö över salt och peppar.",
+        "Ringla granatäpplekoncentratet över alla ingredienser.",
+        "Koka upp på medelvärme. Granatäpplekoncentratet tenderar att fastna och brännas ganska snabbt, så undvik hög värme.",
+        "Sänk värmen till medel-låg, täck över kastrullen och låt sjuda i 15 minuter.",
+        "Sänk nu värmen till låg och låt sjuda under lock i ytterligare 1 timme och 15 minuter, eller tills såsen har tjocknat och kycklingen är mör med en gaffel och lossnar från benet. Rör om ungefär var 15:e minut för att se till att såsen inte fastnar i kastrullen. Om såsen inte har tjocknat tillräckligt efter denna tid, låt grytan stå utan lock i cirka 10 minuter på låg värme för en tjockare sås. Häll över fesenjan i en serveringsskål och strö över lite granatäpplekärnor som garnering.",
+        "Servera med vitt persiskt ångat ris."
       ]
     },
     "tags": [
-      "baked",
-      "family"
-    ]
+      "Sour",
+      "Sweet",
+      "Rich",
+      "Mild"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "tips": {
+      "en": "Pomegranate concentrate can be purchased at some Middle Eastern markets and has two flavors with one being more sour than the other; I use the original flavor that is a little bit sweeter.\r\nPomegranate molasses: This is more sour than the concentrate and in case this is your only option at the market, just add 1-2 tsp sugar.",
+      "zh": "一些中东市场可以买到石榴浓缩汁，有两种口味，一种比另一种更酸；我用的是原味，稍微甜一些。\r\n石榴糖浆：这种糖浆比浓缩汁更酸，如果这是你在市场上唯一能买到的，那就加1-2茶匙糖。",
+      "sv": "Granatäpplekoncentrat kan köpas på vissa marknader i Mellanöstern och har två smaker, där den ena är surare än den andra. Jag använder originalsmaken som är lite sötare.\r\nGranatäpplemelass: Detta är surare än koncentratet och om detta är ditt enda alternativ på marknaden, tillsätt bara 1-2 tsk socker."
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-IR-004.png"
   },
   {
     "id": "MI-IR-005",
@@ -1156,26 +1355,26 @@
     },
     "subcategory": {
       "en": "Iran",
-      "zh": "Iran",
+      "zh": "伊朗",
       "sv": "Iran"
     },
     "dish_name": {
-      "en": "Tahdig",
-      "zh": "Tahdig",
-      "sv": "Tahdig"
+      "en": "Chelo Kabab",
+      "zh": "波斯烤肉配米饭",
+      "sv": "Chelo Kabab"
     },
     "description": {
-      "en": "Tahdig - a classic Iran dish prepared for home cooks.",
-      "zh": "Tahdig - 经典的Iran菜，适合家庭烹饪。",
-      "sv": "Tahdig - en klassisk Iranrätt anpassad för hemanvändning."
+      "en": "Chelo Kebab is considered the national dish of Iran (Persia) and is celebrated for its simple perfection: high-quality grilled meat served alongside fluffy rice.",
+      "zh": "Chelo Kebab 被认为是伊朗（波斯）的国菜，以其简单的完美而闻名：高品质的烤肉配上蓬松的米饭。",
+      "sv": "Chelo Kebab anses vara Irans (Persiens) nationalrätt och hyllas för sin enkla perfektion: högkvalitativt grillat kött serverat tillsammans med fluffigt ris."
     },
-    "total_time_min": 49,
+    "total_time_min": 18,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
       "sv": "Medel"
     },
-    "servings": 2,
+    "servings": 4,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -1183,51 +1382,129 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "700 g ground beef (80-85% lean)",
+        "450 g ground lamb (80-85% lean)",
+        "1 ½ medium yellow onions, quartered",
+        "3 garlic cloves, peeled and minced",
+        "1 egg",
+        "1 tsp salt",
+        "1 tsp sumac (sold at the Middle Eastern markets)",
+        "½ tsp ground black pepper",
+        "½ tsp turmeric powder",
+        "¼ cup butter, melted (for brushing over the kabobs after grilling)",
+        "FOR THE GRILLED VEGETABLES",
+        "4 ripe but firm Roma tomatoes",
+        "1 large green bell pepper, stem removed, deseeded and quartered",
+        "Olive oil to brush the vegetables with before grilling"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "700克牛肉馅（80-85%瘦肉）",
+        "450克羊肉馅（80-85%瘦肉）",
+        "1个半中等大小的黄洋葱，切成四瓣",
+        "3瓣大蒜，去皮切末",
+        "1个鸡蛋",
+        "1茶匙盐",
+        "1茶匙漆树粉（中东市场有售）",
+        "半茶匙黑胡椒粉",
+        "半茶匙姜黄粉",
+        "四分之一杯融化的黄油（用于烤肉串后刷在肉串上）",
+        "烤蔬菜",
+        "4个成熟但结实的罗马番茄",
+        "1个大青椒，去蒂去籽切成四瓣",
+        "橄榄油（用于烤制前刷在蔬菜上）"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "700 g nötfärs (80-85 % mager)",
+        "450 g lammfärs (80-85 % mager)",
+        "1 ½ medelstor gul lök, delad i fyra delar",
+        "3 vitlöksklyftor, skalade och finhackade",
+        "1 ägg",
+        "1 tsk salt",
+        "1 tsk sumak (säljs på marknader i Mellanöstern)",
+        "½ tsk malen svartpeppar",
+        "½ tsk gurkmejapulver",
+        "¼ dl smält smör (till att pensla kebabs efter grillning)",
+        "TILL DE GRILLADE GRÖNSAKERNA",
+        "4 mogna men fasta romatomater",
+        "1 stor grön paprika, stjälk borttagen, urkärnad och delad i fyra delar",
+        "Olivolja att pensla grönsakerna med före grillning"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Tahdig using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "You will need ten 1-inch metal skewers.",
+        "For best results the meat should be fresh (not previously frozen) and at room temperature.",
+        "Finely chop the onion pieces in a food processor until very juicy. Place a fine metal mesh over a bowl and strain the processed onion by pressing it with a spatula. Discard the juice.",
+        "Add the remaining onion pulp to a medium bowl.",
+        "Add the ground beef and lamb, minced garlic, salt, spices and egg to the bowl. Knead all of the ingredients for several minutes until the mixture is paste like and sticks together without falling apart.",
+        "Fill up a small bowl with tap water, this is for wetting your fingers so the meat does not stick to them when you are making the kabobs.",
+        "Divide the meat into 10 equal balls.",
+        "Get one of the balls of meat in the palm of your hand, place the skewer on top of it and squeeze the meat around the skewer. Once you make sure that meat is not going to fall off, start squeezing it from top to bottom and cover the middle section of the skewer. Leave the top and bottom of the skewer clear. Wet your fingers with the tap water and keep squeezing and spreading the meat evenly around the skewer. The meat should be about ½ inch thick all around the skewer.",
+        "Set the skewer gently on a shallow baking sheet with sides, so the meat does not touch the floor of the baking sheet. Continue making the rest of the kabobs. At this point the uncooked kabobs can sit over the counter while you get the grill ready.",
+        "To Grill Kabob Koobideh: You will need two square metal pipes that you will place parallel to each other on top and bottom of the cooking grate of your grill lengthwise. The top pipe is for placing the tip of the skewers and the bottom one is for the handles. This is so the skewers are raised and the meat does not touch the hot grate, otherwise it will stick and fall right off.",
+        "The coals are ready when they are gray and covered with ash.",
+        "If you’re grilling vegetables it is always better to skewer them separate from the kabobs. I use thinner skewers for the vegetables because if the skewers are too wide the turgid vegetables such as green peppers will tear and fall apart.",
+        "The vegetables take longer to grill than the meat, so if the space is limited, grill the vegetables first and keep them warm under an aluminum foil. If there is enough grilling surface start grilling the veggies first and halfway through grilling, start the kabobs.",
+        "Place as many kabob skewers as you can fit on the grill, leave some space between them. As soon as you are done arranging all the skewers, start turning the first skewer and keep turning the rest in the order that you have placed them on the grill. The reason for this quick turning is to cook both sides of the kabobs for a short time so the meat cooks and firms up all around and does not fall off the skewer. Do not overcook the kabobs because they are thin and tend to dry out. Turn the kabobs again until you get the doneness you desire. The kabobs should have a nice grilled color on the outside and no longer pink inside, but still very juicy.",
+        "When the kabobs are ready, remove them from the heat and into a container lined with a large aluminum foil. Keep the kabobs covered with the foil until ready to serve.",
+        "To serve, use a piece of flat bread (Sangak, soft lavash, or pita bread) larger than the palm of your hand. Start at the end with handle, grab the kabob and slide it off the skewer onto the serving platter. This is the easiest and safest way to pull the kabobs off the skewer. The flavorful kabob juices make the bread so delicious that everyone will want a piece.",
+        "Brush melted butter over the kabobs.",
+        "Enjoy Kabob Koobideh with Persian rice that has been tossed with cubed softened butter and a sprinkle of sumac. Serve it with a side of grilled vegetables, a slice of raw red or white onion and Sabzi Khordan (fresh herbs). The drink of choice is usually Doogh (Persian yogurt drink)",
+        "This kabob is equally delicious served with grilled vegetables over Sangak or Lavash, which are both Persian flat breads."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Tahdig using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "你需要十根1英寸长的金属烤肉签。",
+        "为了达到最佳效果，肉要新鲜（不要冷冻过），并处于室温。",
+        "将洋葱放入食品加工机中切碎，直至非常多汁。在碗上铺一层细金属网，用刮刀按压洋葱，过滤掉汁液。",
+        "将剩余的洋葱渣放入一个中等大小的碗中。",
+        "将牛肉末和羊肉末、蒜末、盐、香料和鸡蛋放入碗中。将所有食材揉捏几分钟，直至混合物呈糊状且粘稠但不散开。",
+        "准备一小碗自来水，用来沾湿手指，防止肉在制作烤肉串时粘手。",
+        "将肉分成10个大小相同的肉丸。",
+        "取一个肉丸放在手掌中，将烤肉签放在肉丸上，然后挤压肉丸使其紧贴烤肉签。确保肉不会掉下来后，从上到下挤压肉馅，覆盖烤肉串的中间部分。烤肉串的顶部和底部保持空隙。用自来水沾湿手指，继续挤压肉馅，使其均匀地涂抹在烤肉串上。肉馅的厚度应该在烤肉串的四周约为1.2厘米（½英寸）。",
+        "将烤肉串轻轻放在一个浅的带边烤盘上，确保肉馅不会接触烤盘底部。继续制作剩余的烤肉串。此时，可以将未烤熟的烤肉串放在台面上，同时准备烤架。",
+        "烤制烤肉串（Koobideh）：您需要两根方形金属管，将它们平行放置在烤架的上下两端。上面的金属管用于固定烤肉串的顶端，下面的金属管用于放置手柄。这样可以抬高烤串，防止肉直接接触滚烫的烤架，否则肉会粘在烤架上掉下来。",
+        "炭火烧到灰蒙蒙的，表面覆盖着一层灰烬时就烧好了。",
+        "如果烤蔬菜，最好将蔬菜和肉串分开串。我用细一些的烤串来烤蔬菜，因为如果烤串太粗，像青椒这样比较饱满的蔬菜容易撕裂散开。",
+        "蔬菜比肉需要更长的烤制时间，所以如果空间有限，可以先烤蔬菜，然后用锡纸保温。如果烤架面积足够，可以先烤蔬菜，烤到一半的时候再开始烤肉串。",
+        "在烤架上尽可能多地摆放烤串，烤串之间留出一些空隙。摆放好所有烤串后，立即开始翻转第一串，然后按照摆放顺序依次翻转剩余的烤串。快速翻面是为了让烤肉串两面都快速受热，使肉质均匀熟透并紧实，防止从烤肉签上脱落。烤肉串肉质较薄，容易变干，所以不要烤过头。反复翻面，直到达到您想要的熟度。烤肉串外表应呈漂亮的烤焦色，内部不再呈粉红色，但仍然鲜嫩多汁。",
+        "烤肉串烤好后，将其从烤架上取下，放入铺有大张锡纸的容器中。用锡纸盖住烤肉串，直到准备食用。",
+        "食用时，取一块比手掌大的扁平面包（例如桑格克面包、软薄饼或皮塔饼）。从带把手的一端开始，抓住烤肉串，将其从烤肉签上滑到餐盘上。这是最简单、最安全的取肉方法。烤肉串的浓郁汁水让面包格外美味，人人都想尝一口。",
+        "在烤肉串上刷一层融化的黄油。",
+        "享用烤肉串时，可搭配拌有软化黄油丁和少许漆树粉的波斯米饭。佐以烤蔬菜、一片生红洋葱或白洋葱以及萨布兹·霍尔丹（新鲜香草）。通常搭配的饮品是杜格（波斯酸奶饮料）。",
+        "这款烤肉串搭配烤蔬菜，佐以桑格克或拉瓦什（两种波斯薄饼）也同样美味。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Tahdig using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Du behöver tio metallspett på 2,5 cm. För bästa resultat bör köttet vara färskt (inte fryst tidigare) och rumstempererat. Finhacka löken i en matberedare tills den är mycket saftig. Placera ett fint metallnät över en skål och sila den hackade löken genom att pressa den med en spatel. Häll av saften. Tillsätt resterande lökmassa i en medelstor skål. Tillsätt nötfärs och lammfärs, hackad vitlök, salt, kryddor och ägg i skålen. Knåda alla ingredienser i flera minuter tills blandningen är pastaliknande och klibbar ihop utan att falla isär. Fyll en liten skål med kranvatten. Detta är för att fukta fingrarna så att köttet inte fastnar när du gör kebabs. Dela köttet i 10 lika stora bollar. Ta en av köttbollarna i handflatan, placera spettet ovanpå den och kläm köttet runt spettet. När du har försäkrat dig om att köttet inte kommer att ramla av, börja klämma det uppifrån och ner och täck spettens mitt. Lämna spettens ovansida och undersida fritt. Fukta fingrarna med kranvattnet och fortsätt att klämma och fördela köttet jämnt runt spetten. Köttet ska vara ungefär 1,25 cm tjockt runt hela spetten.",
+        "Placera spetten försiktigt på en grund bakplåt med kanterna, så att köttet inte nuddar botten på bakplåten. Fortsätt att göra resten av kebabarna. Nu kan de okokta kebabarna stå över köksbänken medan du gör i ordning grillen.",
+        "För att grilla kebabkoobideh: Du behöver två fyrkantiga metallrör som du placerar parallellt med varandra ovanpå och under grillgallret på längden. Det övre röret är till för att placera spettens spett och det nedre är till för handtagen. Detta är så att spetten höjs och köttet inte nuddar det heta gallret, annars fastnar det och faller av.",
+        "Kolen är klara när de är gråa och täckta med aska.",
+        "Om du grillar grönsaker är det alltid bättre att spetta dem separat från kebabarna. Jag använder tunnare spett till grönsakerna eftersom om spetten är för breda kommer de spröda grönsakerna, som grön paprika, att gå sönder och falla isär.",
+        "Grönsakerna tar längre tid att grilla än köttet, så om utrymmet är begränsat, grilla grönsakerna först och håll dem varma under aluminiumfolie. Om det finns tillräckligt med grillyta, börja grilla grönsakerna först och halvvägs genom grillningen, börja med kebabs.",
+        "Placera så många kebabspett som du får plats med på grillen, lämna lite utrymme mellan dem. Så snart du är klar med att arrangera alla spett, börja vända det första spettet och fortsätt vända resten i den ordning du har placerat dem på grillen. Anledningen till denna snabba vändning är att steka båda sidorna av kebabs under en kort tid så att köttet tillagas och fastnar runtom och inte faller av spettet. Överstek inte kebabs eftersom de är tunna och tenderar att torka ut. Vänd kebabs igen tills du får den tillagning du önskar. Kaboben ska ha en fin grillad färg på utsidan och inte längre rosa inuti, men fortfarande väldigt saftiga.",
+        "När keboben är klara, ta bort dem från värmen och lägg dem i en behållare klädd med en stor aluminiumfolie. Håll keboben täckta med folien tills de ska serveras.",
+        "Till servering, använd en bit plattbröd (sangak, mjuk lavash eller pitabröd) större än handflatan. Börja i slutet med handtaget, ta keboben och skjut den av spettet till serveringsfatet. Detta är det enklaste och säkraste sättet att dra av keboben från spettet. De smakrika kebobsafterna gör brödet så gott att alla kommer att vilja ha en bit.",
+        "Pensla smält smör över keboben.",
+        "Njut av Kabob Koobideh med persiskt ris som har blandats med tärnat mjukt smör och en nypa sumak. Servera med grillade grönsaker, en skiva rå röd- eller vitlök och Sabzi Khordan (färska örter). Den valda drycken är vanligtvis Doogh (persisk yoghurtdryck).",
+        "Denna kebab är lika utsökt serverad med grillade grönsaker över Sangak eller Lavash, som båda är persiska plattbröd."
       ]
     },
     "tags": [
-      "gluten-free",
-      "spicy"
-    ]
+      "Rich",
+      "Salty",
+      "Mild",
+      "Sour"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "tips": {
+      "en": "The inside temperature of grilled ground beef should be 70 °C.\r\nIf your KitchenAid has a meat grinder attachment try making your own ground beef from cross rib roast, chuck roast or any variety of marbleized meat at home.\r\nDoogh (Persian Yogurt Drink) - Mix equal parts water or club soda with yogurt. Add salt and pepper to taste. Sprinkle lightly with dried Persian Kakooti (Dried Greek oregano or dried thyme make a good substitute). Serve in glasses over ice cubes.\r\n{UPDATE} VARIATION: Use 3 pounds of ground lamb instead of the beef/lamb combo. Add ⅓ cup dried tarragon leaves to the mix. Follow the rest of the recipe as indicated.",
+      "zh": "烤牛肉馅的内部温度应达到 160 华氏度（约 70 摄氏度）。\r\n如果您的厨师机配有绞肉机配件，不妨尝试在家用肋排、牛肩肉或任何其他带大理石纹的肉来制作牛肉馅。\r\n波斯酸奶饮品 (Doogh) - 将等量的水或苏打水与酸奶混合。根据口味加入盐和胡椒粉。轻轻撒上波斯卡库蒂干香料（希腊干牛至或干百里香也是不错的替代品）。倒入装有冰块的玻璃杯中饮用。\r\n{更新} 变化：用 3 磅羊肉馅代替牛肉/羊肉混合馅。在混合物中加入 ⅓ 杯干龙蒿叶。其余步骤按照食谱指示进行。",
+      "sv": "Innertemperaturen för grillad nötfärs bör vara 70 °C.\r\nOm din KitchenAid har en köttkvarn kan du prova att göra din egen nötfärs av revbensspjäll, oxfilé eller någon annan sorts marmorerat kött hemma.\r\nDough (persisk yoghurtdryck) - Blanda lika delar vatten eller sodavatten med yoghurt. Salta och peppra efter smak. Strö lätt över torkad persisk kakooti (torkad grekisk oregano eller torkad timjan är ett bra alternativ). Servera i glas med isbitar.\r\n{UPPDATERING} VARIATION: Använd 1,4 kg lammfärs istället för nöt-/lammkombinationen. Tillsätt ⅓ dl torkade dragonblad i blandningen. Följ resten av receptet enligt anvisningarna."
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-IR-005.png"
   },
   {
     "id": "MI-LE-001",
@@ -1237,79 +1514,97 @@
       "sv": "Mellanöstern"
     },
     "subcategory": {
-      "en": "Lebanon",
-      "zh": "Lebanon",
-      "sv": "Lebanon"
+      "en": "Turkey",
+      "zh": "土耳其",
+      "sv": "Turkey"
     },
     "dish_name": {
       "en": "Tabbouleh",
-      "zh": "Tabbouleh",
+      "zh": "塔布勒沙拉",
       "sv": "Tabbouleh"
     },
     "description": {
-      "en": "Tabbouleh - a classic Lebanon dish prepared for home cooks.",
-      "zh": "Tabbouleh - 经典的Lebanon菜，适合家庭烹饪。",
-      "sv": "Tabbouleh - en klassisk Lebanonrätt anpassad för hemanvändning."
+      "en": "A salad with lots of parsley flavored with onion, chopped tomatoes and a little bulgur.",
+      "zh": "一道沙拉，里面放了大量的欧芹，用洋葱调味，还加了切碎的西红柿和少许碾碎的干小麦。",
+      "sv": "En sallad med mycket persilja som smaksätts med lök, hackade tomater och lite bulgur."
     },
-    "total_time_min": 90,
+    "total_time_min": 30,
     "difficulty": {
-      "en": "Hard",
-      "zh": "困难",
-      "sv": "Svår"
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
     },
-    "servings": 2,
+    "servings": 4,
     "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "1 dl bulgur",
+        "approx. 100 g parsley",
+        "1 yellow onion",
+        "3 tomatoes",
+        "3/4 dl freshly squeezed lemon juice",
+        "1 dl olive oil",
+        "1 tsp salt",
+        "2 tsp pepper"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "1分升碾碎的干小麦",
+        "约100克欧芹",
+        "1个黄洋葱",
+        "3个西红柿",
+        "3/4分升鲜榨柠檬汁",
+        "1分升橄榄油",
+        "1茶匙盐",
+        "2茶匙胡椒粉"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "1 dl bulgur",
+        "ca 100 g bladpersilja",
+        "1 gul lök",
+        "3 tomater",
+        "3/4 dl färskpressad citronjuice",
+        "1 dl olivolja",
+        "1 tsk salt",
+        "2 krm peppar"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Tabbouleh using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Cook the bulgur according to the instructions on the package. Let cool.",
+        "Cut off the coarse stems of the parsley and finely chop the rest. Peel and finely chop the onion. Dice the tomatoes.",
+        "Mix all the ingredients with the bulgur. Season with salt and pepper."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Tabbouleh using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "按照包装上的说明煮熟碾碎的干小麦，放凉。",
+        "切掉欧芹粗茎，其余部分切碎。洋葱去皮切碎。番茄切丁。",
+        "将所有食材与碾碎的干小麦混合，并用盐和胡椒调味。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Tabbouleh using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Koka bulgurn enligt anvisning på förpackningen. Låt svalna.",
+        "Skär bort de grova stjälkarna på persiljan och finhacka resten. Skala och finhacka löken. Tärna tomaterna.",
+        "Blanda alla ingredienser med bulgurn. Krydda med salt och peppar."
       ]
     },
     "tags": [
-      "grilled",
-      "gluten-free"
-    ]
+      "Sour",
+      "Mild",
+      "Salty"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "tips": {
+      "en": "If you like parsley, increase the amount to your own taste.",
+      "zh": "如果你喜欢欧芹，可以根据自己的口味增加用量。",
+      "sv": "Gillar du persilja så öka upp mängden efter egen smak."
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-LE-001.png"
   },
   {
     "id": "MI-LE-002",
@@ -1320,26 +1615,26 @@
     },
     "subcategory": {
       "en": "Lebanon",
-      "zh": "Lebanon",
+      "zh": "黎巴嫩",
       "sv": "Lebanon"
     },
     "dish_name": {
       "en": "Kibbeh",
-      "zh": "Kibbeh",
+      "zh": "中东肉馅小麦球",
       "sv": "Kibbeh"
     },
     "description": {
-      "en": "Kibbeh - a classic Lebanon dish prepared for home cooks.",
-      "zh": "Kibbeh - 经典的Lebanon菜，适合家庭烹饪。",
-      "sv": "Kibbeh - en klassisk Lebanonrätt anpassad för hemanvändning."
+      "en": "A very famous, labor-intensive dish found across the Levant (Lebanon, Syria, etc.) and is considered a staple of Middle Eastern cuisine.",
+      "zh": "这是一道非常有名且制作耗时的菜肴，在黎凡特地区（黎巴嫩、叙利亚等地）都很常见，被认为是中东美食的主食。",
+      "sv": "En mycket berömd, arbetsintensiv rätt som finns över hela Levanten (Libanon, Syrien, etc.) och anses vara en stapelvara i Mellanösterns kök."
     },
-    "total_time_min": 86,
+    "total_time_min": null,
     "difficulty": {
       "en": "Hard",
       "zh": "困难",
       "sv": "Svår"
     },
-    "servings": 6,
+    "servings": 8,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -1347,51 +1642,132 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "For the Kibbe filling:",
+        "500 g minced meat",
+        "2-3 onions chopped",
+        "1 teaspoon 7 spice",
+        "1.5 tablespoon Kibbeh Spices (Kamouneh Spice Mix)",
+        "½ teaspoon black pepper",
+        "1 tablespoon salt",
+        "1 cup chopped walnuts or pine nuts",
+        "2 tablespoon sumac",
+        "For the Kibbeh casing:",
+        "1 kilo fine bulgur wheat",
+        "1 kilo mince meat",
+        "2 onions",
+        "1.5 tablespoon Kibbeh Spices",
+        "1.5 tablespoon cornflour",
+        "1 teaspoon 7 spice",
+        "½ teaspoon black pepper",
+        "1 tablespoon salt",
+        "Sunflower or vegetable oil"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "基贝馅料：",
+        "500克肉末",
+        "2-3个洋葱，切碎",
+        "1茶匙七味粉",
+        "1.5汤匙基贝香料（卡穆内混合香料）",
+        "½茶匙黑胡椒",
+        "1汤匙盐",
+        "1杯切碎的核桃或松子",
+        "2汤匙漆树粉",
+        "基贝外皮：",
+        "1公斤细粒碾碎的干小麦",
+        "1公斤肉末",
+        "2个洋葱",
+        "1.5汤匙基贝香料",
+        "1.5汤匙玉米淀粉",
+        "1茶匙七味粉",
+        "½茶匙黑胡椒",
+        "1汤匙盐",
+        "葵花籽油或植物油"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "För Kibbe-fyllningen:",
+        "500 g köttfärs",
+        "2-3 hackade lökar",
+        "1 tsk 7 spice",
+        "1,5 msk Kibbeh-kryddor (Kamouneh-kryddblandning)",
+        "½ tsk svartpeppar",
+        "1 msk salt",
+        "1 dl hackade valnötter eller pinjenötter",
+        "2 msk sumak",
+        "För Kibbeh-fläsket:",
+        "1 kilo fint bulgurvete",
+        "1 kilo köttfärs",
+        "2 lökar",
+        "1,5 msk Kibbeh-kryddor",
+        "1,5 msk majsstärkelse",
+        "1 tsk 7 spice",
+        "½ tsk svartpeppar",
+        "1 msk salt",
+        "Solrosolja eller vegetabilisk olja"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Kibbeh using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Soak the bulgur wheat in enough water to cover and set aside",
+        "To make the filling, sauté the chopped onions in regular olive oil until golden on medium low heat",
+        "Add 500g of minced meat to the onions and cook out the meat on medium high heat",
+        "Add the 7 spice, kamouneh spices, black pepper and salt and use the back of your wooden spoon to break up the meat",
+        "When it is cooked turn off the heat and add the sumac and chopped walnuts. Taste to make any adjustments then cover and set aside",
+        "Drain the bulgur wheat and add to a large bowl. Take out the kilo of meat and prepare food processor",
+        "In several batches, add the bulgur wheat and equal amounts of meat to the food processor and process until it clumps together and starts to roll in the processor bowl.",
+        "Roughly chop 2 onions to go in the food processor along with the 7 spices, kamouneh spices, black pepper and salt. Blitz well",
+        "When you have combined all the meat and bulgur wheat in a bowl, add the blitzed onion spice mix and the cornflour, then bring everything together preferably with your hands",
+        "If it is too dry add a bit of water, you don't want it too loose, sticky or crumbly but so it holds together nicely. If you don't mind tasting a bit of raw meat check a tiny bit for saltiness and adjust as necessary",
+        "Add approx half a cup of sunflower to a small bowl which you can dip your fingers into when shaping the kibbeh to avoid sticking. Clean your table and arrange a workflow with a large clean tray, the sunflower oil, the filling and the casing mix",
+        "Take some casing and roll into golf ball size, indent the middle then hollow out the inside with your index finger turning as you do so until you have a half shell. Add a spoon of filling and close up the casing. Compress well with your hands and shape into classic kibbeh morsels                                                                                                                                                                                           Line up the kibbeh on the tray until you finish the filling",
+        "Deep fry your kibbeh morsels in sunflower or vegetable oil and serve with yoghurt dip"
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Kibbeh using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将碾碎的干小麦浸泡在足够的水中，放在一旁备用。",
+        "制作馅料：用橄榄油中火将切碎的洋葱炒至金黄色。",
+        "加入500克肉末，用中高火翻炒至肉末变软。",
+        "加入七味香料、卡穆内香料、黑胡椒和盐，用木勺背面将肉末压散。",
+        "肉末炒熟后关火，加入漆树粉和切碎的核桃。尝一下味道，根据需要调整，然后盖上盖子，放在一旁备用。",
+        "沥干碾碎的干小麦，放入一个大碗中。取出1公斤肉末，准备食物料理机。",
+        "分几次将碾碎的干小麦和等量的肉末放入食物料理机中，搅拌至结块并在料理机碗中滚动。",
+        "将2个洋葱粗略切碎，与七味香料、卡穆内香料、黑胡椒和盐一起放入食物料理机中。充分搅拌",
+        "将所有肉和碾碎的干小麦放入碗中混合后，加入搅拌好的洋葱香料混合物和玉米淀粉，然后用手将所有食材揉捏均匀。",
+        "如果太干，可以加一点水，不要太稀、太粘或太松散，要保持形状。如果可以尝一点生肉的味道，可以尝一小口，看看咸度是否合适，并根据需要调整。",
+        "在一个小碗中加入约半杯葵花籽油，这样在制作基布时，手指可以蘸取一些葵花籽油，防止粘连。清洁桌面，准备好操作台，放上一个干净的大托盘、葵花籽油、馅料和肠衣混合物。",
+        "取一些肠衣，搓成高尔夫球大小，在中间按出一个凹陷，然后用食指一边转动一边挖空内部，直到形成半个蛋壳。放入一勺馅料，然后封口。用手将馅料压实，捏成经典的基贝小丸子。将基贝丸子排列在托盘上，直到馅料用完。",
+        "用葵花籽油或植物油将基贝丸子炸至金黄酥脆，佐以酸奶蘸酱食用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Kibbeh using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Blötlägg bulgurvetet i tillräckligt med vatten för att täcka det och ställ åt sidan.",
+        "För att göra fyllningen, fräs den hackade löken i vanlig olivolja tills den är gyllenbrun på medel-låg värme.",
+        "Tillsätt 500 g köttfärs till löken och stek köttet på medelhög värme.",
+        "Tillsätt 7 kryddor, kamouneh-kryddor, svartpeppar och salt och använd baksidan av din träsked för att bryta isär köttet.",
+        "När det är tillagat, stäng av värmen och tillsätt sumak och hackade valnötter. Smaka av för att justera, täck sedan över och ställ åt sidan.",
+        "Häll av vattnet från bulgurvetet och lägg det i en stor skål. Ta ut kilot kött och förbered matberedaren.",
+        "I flera omgångar, lägg bulgurvetet och lika delar kött i matberedaren och mixa tills det klumpar ihop sig och börjar rulla sig i matberedarens skål.",
+        "Grovhacka 2 lökar som ska läggas i matberedaren tillsammans med 7 kryddor, kamouneh-kryddor, svartpeppar och salt. Mixa väl",
+        "När du har blandat allt kött och bulgurvete i en skål, tillsätt den mosade lökkryddblandningen och majsstärkelsen. Blanda sedan allting, helst med händerna.",
+        "Om det är för torrt, tillsätt lite vatten. Du vill inte att det ska vara för löst, klibbigt eller smuligt, men så att det håller ihop fint. Om du inte har något emot att smaka på lite rått kött, kontrollera om det är lite salt och justera efter behov.",
+        "Tillsätt ungefär en halv kopp solrosolja i en liten skål som du kan doppa fingrarna i när du formar kibbeh för att undvika att det fastnar. Duka bordet och arrangera ett arbetsflöde med en stor ren form, solrosoljan, fyllningen och skalblandningen.",
+        "Ta lite av skalet och rulla det till en golfbollsstorlek, gör ett hål i mitten och urholka sedan insidan med pekfingret och vrid det medan du gör det tills du har ett halvt skal. Lägg till en sked fyllning och stäng skalet. Tryck ihop väl med händerna och forma till klassiska kibbeh-bitar. Placera kibbeh på plåten tills du är klar med fyllningen.",
+        "Fritera dina kibbeh-bitar i solrosolja eller vegetabilisk olja och servera med yoghurtdipp."
       ]
     },
     "tags": [
-      "spicy",
-      "family"
-    ]
+      "Rich",
+      "Salty",
+      "Mild"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "tips": {
+      "en": "Roll any leftover casing into flat round 'cheats kibbeh'\r\nYou can also bake these kibbeh balls in yoghurt sauce to make kibbeh labanieh",
+      "zh": "将剩余的肠衣擀成扁平的圆形“简易基贝”。\r\n你也可以将这些基贝球放入酸奶酱中烘烤，做成基贝拉巴尼。",
+      "sv": "Rulla ihop eventuellt överbliven skal till en platt rund 'cheats kibbeh'.\r\nDu kan också baka dessa kibbehbollar i yoghurtsås för att göra kibbeh labanieh."
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-LE-002.png"
   },
   {
     "id": "MI-LE-003",
@@ -1402,78 +1778,114 @@
     },
     "subcategory": {
       "en": "Lebanon",
-      "zh": "Lebanon",
+      "zh": "黎巴嫩",
       "sv": "Lebanon"
     },
     "dish_name": {
       "en": "Fattoush",
-      "zh": "Fattoush",
+      "zh": "中东面包沙拉",
       "sv": "Fattoush"
     },
     "description": {
-      "en": "Fattoush - a classic Lebanon dish prepared for home cooks.",
-      "zh": "Fattoush - 经典的Lebanon菜，适合家庭烹饪。",
-      "sv": "Fattoush - en klassisk Lebanonrätt anpassad för hemanvändning."
+      "en": "A tangy salad that you serve with toasted pita or liba bread is both crunchy and fresh.",
+      "zh": "搭配烤皮塔饼或利巴面包的酸爽沙拉，既酥脆又清新。",
+      "sv": "En syrlig sallad som du serverar med rostade pita- eller libabröd, är både knaprigt och fräscht."
     },
-    "total_time_min": 85,
+    "total_time_min": null,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
       "sv": "Medel"
     },
-    "servings": 6,
+    "servings": 4,
     "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "Liba chips",
+        "1 liba bread",
+        "approx. 10 dl frying oil",
+        "1 small cucumber (approx. 250 g each)",
+        "2 tomatoes",
+        "1 yellow or green pepper",
+        "1 green onion",
+        "1 bunch of radishes (300 g each)",
+        "1/2 romaine lettuce",
+        "1 dl chopped parsley",
+        "1 dl chopped fresh mint",
+        "1 tbsp olive oil",
+        "2 tbsp freshly squeezed lemon juice",
+        "3/4 tsp salt",
+        "1 1/2 tbsp pomegranate syrup"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "利巴薯片",
+        "1个利巴面包",
+        "约10分升食用油",
+        "1根小黄瓜（每根约250克）",
+        "2个西红柿",
+        "1个黄椒或青椒",
+        "1根葱",
+        "1把小萝卜（每把300克）",
+        "半棵罗马生菜",
+        "1分升切碎的欧芹",
+        "1分升切碎的新鲜薄荷",
+        "1汤匙橄榄油",
+        "2汤匙鲜榨柠檬汁",
+        "3/4茶匙盐",
+        "1.5汤匙石榴糖浆"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "Libachips",
+        "1 libabröd",
+        "ca 10 dl frityrolja",
+        "1 liten gurka (à ca 250 g)",
+        "2 tomater",
+        "1 gul eller grön paprika",
+        "1 salladslök",
+        "1 knippe rädisor (à 300 g)",
+        "1/2 romansallad",
+        "1 dl hackad bladpersilja",
+        "1 dl hackad färsk mynta",
+        "1 msk olivolja",
+        "2 msk färskpressad citronjuice",
+        "3/4 tsk salt",
+        "1 1/2 msk granatäppelsirap"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Fattoush using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Liba chips: Cut the bread into pieces. Heat the oil to 170–180°C. Fry the bread until golden. Remove with a slotted spoon and drain on kitchen paper.",
+        "Peel and core the cucumber, cut into cubes. Cut the tomatoes into cubes. Peel and core the pepper and cut into cubes. Thinly slice the spring onion and radish. Shred the salad. Mix all ingredients when serving."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Fattoush using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "利巴面包片：将面包切成小块。将油加热至170-180°C。将面包块炸至金黄色。用漏勺捞出，放在厨房纸巾上沥干油。",
+        "黄瓜去皮去籽，切成小块。番茄切丁。甜椒去皮去籽，切成小块。葱和萝卜切薄片。沙拉切丝。食用时将所有食材混合均匀。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Fattoush using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Libachips: Skär brödet i bitar. Värm oljan till 170–180 °C. Fritera bröden tills de är gyllene. Lyft upp med hålslev och låt rinna av på hushållspapper.",
+        "Dela och kärna ur gurkan, skär i tärningar. Skär tomaterna i tärningar. Dela och kärna ur paprikan och skär i tärningar. Skiva salladslök och rädisor tunt. Strimla salladen. Blanda alla ingredienser vid servering."
       ]
     },
     "tags": [
-      "gluten-free",
-      "grilled"
-    ]
+      "Sour",
+      "Salty",
+      "Mild"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "tips": {
+      "en": "Feel free to top the salad with chopped almonds.",
+      "zh": "可以在沙拉上撒上一些杏仁碎。",
+      "sv": "Toppa gärna salladen med hackad mandel."
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-LE-003.png"
   },
   {
     "id": "MI-LE-004",
@@ -1484,26 +1896,26 @@
     },
     "subcategory": {
       "en": "Lebanon",
-      "zh": "Lebanon",
+      "zh": "黎巴嫩",
       "sv": "Lebanon"
     },
     "dish_name": {
-      "en": "Shawarma",
-      "zh": "Shawarma",
-      "sv": "Shawarma"
+      "en": "Shawarma-Chicken",
+      "zh": "沙瓦玛烤鸡肉",
+      "sv": "Shawarma-Kyckling"
     },
     "description": {
-      "en": "Shawarma - a classic Lebanon dish prepared for home cooks.",
-      "zh": "Shawarma - 经典的Lebanon菜，适合家庭烹饪。",
-      "sv": "Shawarma - en klassisk Lebanonrätt anpassad för hemanvändning."
+      "en": "One of the world's most popular street foods, originating in the Ottoman Empire and highly popular across the Middle East.",
+      "zh": "它是世界上最受欢迎的街头小吃之一，起源于奥斯曼帝国，并在整个中东地区广受欢迎。",
+      "sv": "En av världens mest populära gatumat, med ursprung i det Osmanska riket och mycket populär i hela Mellanöstern."
     },
-    "total_time_min": 83,
+    "total_time_min": null,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
       "sv": "Medel"
     },
-    "servings": 1,
+    "servings": 4,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -1511,51 +1923,101 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "Marinade",
+        "3 garlic cloves",
+        "1/2 dl Turkish yogurt",
+        "2 tbsp chili sauce",
+        "2 tbsp white wine vinegar",
+        "2 tbsp lemon juice",
+        "1 tsp salt",
+        "1/2 tsp black pepper",
+        "1 tbsp shawarma seasoning",
+        "4 chicken breast fillets (approx. 500 g)",
+        "Vegetables",
+        "2 red or yellow peppers",
+        "1 yellow onion",
+        "1 tbsp oil",
+        "To serve",
+        "liba or pita bread",
+        "pickled cucumber",
+        "toum garlic sauce"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "腌料",
+        "3瓣蒜",
+        "50毫升土耳其酸奶",
+        "2汤匙辣椒酱",
+        "2汤匙白葡萄酒醋",
+        "2汤匙柠檬汁",
+        "1茶匙盐",
+        "0.5茶匙黑胡椒",
+        "1汤匙沙瓦玛调味料",
+        "4块鸡胸肉（约500克）",
+        "蔬菜",
+        "2个红椒或黄椒",
+        "1个黄洋葱",
+        "1汤匙油",
+        "佐餐：",
+        "利巴饼或皮塔饼",
+        "腌黄瓜",
+        "蒜蓉酱"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "Marinad",
+        "3 vitlöksklyftor",
+        "1/2 dl turkisk yoghurt",
+        "2 msk chilisås",
+        "2 msk vitvinsvinäger",
+        "2 msk citronsaft",
+        "1 tsk salt",
+        "1/2 tsk svartpeppar",
+        "1 msk shawarmakrydda",
+        "4 kycklingbröstfiléer (ca 500 g)",
+        "Grönsaker",
+        "2 röda eller gula paprikor",
+        "1 gul lök",
+        "1 msk olja",
+        "Till servering",
+        "liba- eller pitabröd",
+        "picklad gurka",
+        "toum vitlökssås"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Shawarma using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Marinade: Press the garlic and mix with the other ingredients for the marinade.",
+        "Shred the chicken and mix with the marinade. Let marinate for at least 8 hours.",
+        "Set the oven to 225°C.",
+        "Vegetables: Split, core and cut the peppers into strips. Peel and slice the onion and mix it and the peppers with the chicken and marinade. Pour the chicken, vegetables and marinade into a baking pan, drizzle with oil. Place the baking pan in the middle of the oven for about 20-25 minutes.",
+        "Serve the chicken and vegetables with bread, pickled cucumber, salad and toum or other garlic sauce."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Shawarma using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "腌料：将蒜瓣压成蒜泥，与其他腌料混合。",
+        "将鸡肉撕成丝，与腌料混合。腌制至少8小时。",
+        "烤箱预热至225°C。",
+        "蔬菜：将甜椒切开、去籽，切成条状。将洋葱去皮切片，与甜椒条、鸡肉和腌料混合。将鸡肉、蔬菜和腌料倒入烤盘，淋上少许油。将烤盘放入烤箱中层，烤约20-25分钟。",
+        "将鸡肉和蔬菜与面包、腌黄瓜、沙拉和蒜蓉酱（例如蒜泥酱）一起食用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Shawarma using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Marinad: Pressa vitlöken och blanda med övriga ingredienser till marinaden.",
+        "Strimla kycklingen och blanda med marinaden. Låt marinera i minst 8 timmar.",
+        "Sätt ugnen på 225°C.",
+        "Grönsaker: Dela, kärna ur och skär paprikorna i strimlor. Skala och skiva löken och blanda den och paprikan med kycklingen och marinaden. Häll ut kyckling, grönsaker och marinad i en långpanna, ringla över olja. Sätt in långpannan i mitten av ugnen i ca 20-25 minuter.",
+        "Servera kycklingen och grönsakerna med bröd, picklad gurka, sallad och toum eller annan vitlökssås."
       ]
     },
     "tags": [
-      "vegetarian",
-      "grilled"
-    ]
+      "Rich",
+      "Salty",
+      "Mild",
+      "Sour"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-LE-004.jpg"
   },
   {
     "id": "MI-LE-005",
@@ -1566,77 +2028,97 @@
     },
     "subcategory": {
       "en": "Lebanon",
-      "zh": "Lebanon",
+      "zh": "黎巴嫩",
       "sv": "Lebanon"
     },
     "dish_name": {
       "en": "Mujaddara",
-      "zh": "Mujaddara",
+      "zh": "中东扁豆饭",
       "sv": "Mujaddara"
     },
     "description": {
-      "en": "Mujaddara - a classic Lebanon dish prepared for home cooks.",
-      "zh": "Mujaddara - 经典的Lebanon菜，适合家庭烹饪。",
-      "sv": "Mujaddara - en klassisk Lebanonrätt anpassad för hemanvändning."
+      "en": "A quintessential, comforting dish throughout the Levant and Middle East, known for its simple ingredients and profound flavor.",
+      "zh": "这道菜是黎凡特和中东地区一道典型的、令人感到舒适的菜肴，以其简单的食材和浓郁的风味而闻名。",
+      "sv": "En typisk, tröstande rätt i hela Levanten och Mellanöstern, känd för sina enkla ingredienser och djupa smak."
     },
-    "total_time_min": 24,
+    "total_time_min": 60,
     "difficulty": {
-      "en": "Medium",
-      "zh": "中等",
-      "sv": "Medel"
+      "en": "Easy",
+      "zh": "简单",
+      "sv": "Lätt"
     },
-    "servings": 2,
+    "servings": 4,
     "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
+      "en": "Vegetable",
+      "zh": "蔬菜/豆类",
+      "sv": "Grönsak"
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "1 1/2 dl green lentils",
+        "6 dl water",
+        "1 1/2 dl bulgur",
+        "1 vegetable stock cube",
+        "2 tsp salt",
+        "olive oil",
+        "2 yellow onions"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "1.5分升绿扁豆",
+        "6分升水",
+        "1.5分升碾碎的干小麦",
+        "1块蔬菜高汤块",
+        "2茶匙盐",
+        "橄榄油",
+        "2个黄洋葱"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "1 1/2 dl gröna linser",
+        "6 dl vatten",
+        "1 1/2 dl bulgur",
+        "1 grönsaksbuljongtärning",
+        "2 krm salt",
+        "olivolja",
+        "2 gula lökar"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Mujaddara using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Cook the lentils in half the water over low heat for about 15 minutes, or according to the instructions on the package.",
+        "Add the bulgur, stock cube, remaining water and salt, stir.",
+        "Let cook over low heat for another 10 minutes, or according to the instructions on the package.",
+        "Remove from heat and add ½ dl olive oil (serves 4).",
+        "Peel, slice and thinly slice the onion. Fry in 2 tbsp olive oil (serves 4) in a frying pan over medium heat for about 15 minutes.",
+        "Place the fried onion on the bulgur and lentil mixture and serve immediately."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Mujaddara using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将扁豆放入一半的水中，小火煮约 15 分钟，或按照包装上的说明烹煮。",
+        "加入碾碎的干小麦、浓汤宝、剩余的水和盐，搅拌均匀。",
+        "继续小火煮 10 分钟，或按照包装上的说明烹煮。",
+        "关火，加入 0.5 分升橄榄油（4 人份）。",
+        "将洋葱去皮、切片，再切成薄片。在煎锅中倒入 2 汤匙橄榄油（4 人份），中火煎约 15 分钟。",
+        "将煎好的洋葱放在碾碎的干小麦和扁豆混合物上，即可食用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Mujaddara using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Koka linserna i hälften av vattnet på svag värme ca 15 minuter, eller enligt anvisning på förpackningen.",
+        "Tillsätt bulgur, buljongtärning, resterande vatten och salt, rör om.",
+        "Låt koka på svag värme ytterligare ca 10 minuter, eller enligt anvisning på förpackningen.",
+        "Ta från värmen och tillsätt ½ dl olivolja (för 4 port).",
+        "Skala, dela och strimla löken tunt. Stek i 2 msk olivolja (för 4 port) i en stekpanna på medelvärme ca 15 minuter.",
+        "Lägg den stekta löken på bulgur- och linsblandningen och servera direkt."
       ]
     },
     "tags": [
-      "quick",
-      "stew"
-    ]
+      "Salty",
+      "Rich",
+      "Mild",
+      "Sweet"
+    ],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "image_url": "/Recipe Image/MiddleEast/MI-LE-005.png"
   }
 ]

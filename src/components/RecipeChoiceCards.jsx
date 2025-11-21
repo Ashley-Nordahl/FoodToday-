@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { searchRecipes, getRecipesByCuisine, getRecipesBySubcategory } from '../data/recipeLoader'
+import { getBestDishName } from '../utils/dishNameTranslator'
 
 const RecipeChoiceCards = ({ 
   cuisine, 
@@ -36,9 +37,10 @@ const RecipeChoiceCards = ({
     return emojiMap[mainType] || '🍽️'
   }
 
-  // Clear state when language changes
+  // Clear state when language changes and force re-render
   useEffect(() => {
     setSearchResults([])
+    // Force component to re-render when language changes
   }, [i18n.language])
 
 
@@ -56,10 +58,10 @@ const RecipeChoiceCards = ({
         if (cuisine.subcategory) {
           // If subcategory is selected, show dishes from that subcategory
           const mappedSubcategory = mapCuisineName(cuisine.subcategory)
-          initialResults = getRecipesBySubcategory(mappedSubcategory)
+          initialResults = getRecipesBySubcategory(mappedSubcategory, i18n.language)
         } else {
           // If only cuisine is selected, show dishes from that cuisine
-          initialResults = getRecipesByCuisine(cuisine.name)
+          initialResults = getRecipesByCuisine(cuisine.name, i18n.language)
         }
         setSearchResults(initialResults.slice(0, 10))
       }
@@ -108,9 +110,9 @@ const RecipeChoiceCards = ({
     if (cuisine.subcategory) {
       // Map the subcategory name to the actual data name
       const mappedSubcategory = mapCuisineName(cuisine.subcategory)
-      baseResults = getRecipesBySubcategory(mappedSubcategory)
+      baseResults = getRecipesBySubcategory(mappedSubcategory, i18n.language)
     } else {
-      baseResults = getRecipesByCuisine(cuisine.name)
+      baseResults = getRecipesByCuisine(cuisine.name, i18n.language)
     }
     
     if (!query.trim()) {
@@ -162,7 +164,7 @@ const RecipeChoiceCards = ({
   }
 
   return (
-    <div className="recipe-choice-cards">
+    <div className="recipe-choice-cards" key={i18n.language}>
       <h2 className="choice-title">{t('recipeChoice.title')}</h2>
       <div className={`choice-cards-container ${searchResults.length > 0 ? 'faded' : ''}`}>
         <div
@@ -182,7 +184,7 @@ const RecipeChoiceCards = ({
         >
           <div className="card-icon">🔍</div>
           <div className="card-content">
-            <h3 className="card-title">{t('recipeChoice.search')}</h3>
+            <h3 className="card-title">{t('recipeChoice.search', { lng: i18n.language })}</h3>
             <p className="card-subtitle">{t('recipeChoice.searchSubtitle')}</p>
           </div>
         </div>
@@ -222,7 +224,7 @@ const RecipeChoiceCards = ({
                     <span className="result-number">{index + 1}</span>
                     <span className="result-emoji">{getCategoryEmoji(recipe)}</span>
                     <span className="result-name">
-                      {recipe.dish_name?.[i18n.language] || recipe.dish_name?.en}
+                      {getBestDishName(recipe, i18n.language)}
                     </span>
                   </div>
                 ))}

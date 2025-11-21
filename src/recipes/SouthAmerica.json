@@ -8,20 +8,20 @@
     },
     "subcategory": {
       "en": "Brazil",
-      "zh": "Brazil",
+      "zh": "巴西",
       "sv": "Brazil"
     },
     "dish_name": {
-      "en": "Feijoada",
-      "zh": "Feijoada",
-      "sv": "Feijoada"
+      "en": "Vegetarian Feijoada",
+      "zh": "素食黑豆炖菜",
+      "sv": "Vegetarisk Feijoada"
     },
     "description": {
-      "en": "Feijoada - a classic Brazil dish prepared for home cooks.",
-      "zh": "Feijoada - 经典的Brazil菜，适合家庭烹饪。",
-      "sv": "Feijoada - en klassisk Brazilrätt anpassad för hemanvändning."
+      "en": "A hearty, slow-cooked Brazilian stew featuring black beans simmered with onions, garlic, and savory vegetables to replicate the deep, comforting flavor of the traditional national dish.",
+      "zh": "这是一道丰盛的巴西慢炖菜，用黑豆与洋葱、大蒜和美味的蔬菜一起炖煮，以重现传统国菜浓郁、令人感到舒适的风味。",
+      "sv": "En rejäl, långkokt brasiliansk gryta med svarta bönor som sjuds med lök, vitlök och salta grönsaker för att återskapa den djupa, tröstande smaken av den traditionella nationalrätten."
     },
-    "total_time_min": 31,
+    "total_time_min": 30,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
@@ -35,51 +35,75 @@
     },
     "ingredients": {
       "en": [
-        "400 g chickpeas",
-        "2 tbsp tahini",
-        "30 ml olive oil",
-        "1 pc lemon"
+        "2 cans black beans (400 g each)",
+        "1 red onion",
+        "1 tbsp oil",
+        "1 sweet potato (approx. 300 g each)",
+        "1 carrot",
+        "200 g pumpkin (e.g. butternut)",
+        "1 tbsp Kärstis spice mix (see link below)",
+        "approx. 1 - 1 1/2 dl water",
+        "1 tsp salt",
+        "500 g pureed tomatoes",
+        "3 cloves garlic",
+        "1/2 pot fresh coriander"
       ],
       "zh": [
-        "400 g 鹰嘴豆",
-        "2 tbsp tahini",
-        "30 ml 橄榄油",
-        "1 pc 柠檬"
+        "2罐黑豆（每罐400克）",
+        "1个红洋葱",
+        "1汤匙油",
+        "1个红薯（每个约300克）",
+        "1根胡萝卜",
+        "200克南瓜（例如：冬南瓜）",
+        "1汤匙Kärstis香料混合物（见下方链接）",
+        "约1-1.5分升水",
+        "1茶匙盐",
+        "500克番茄泥",
+        "3瓣大蒜",
+        "半罐新鲜香菜"
       ],
       "sv": [
-        "400 g kikärtor",
-        "2 tbsp tahini",
-        "30 ml olivolja",
-        "1 pc citron"
+        "2 burkar svarta bönor (à 400 g)",
+        "1 rödlök",
+        "1 msk olja",
+        "1 sötpotatis (à ca 300 g)",
+        "1 morot",
+        "200 g pumpa (t ex butternut)",
+        "1 msk Kärstis kryddmix (se länk nedan)",
+        "ca 1 - 1 1/2 dl vatten",
+        "1 tsk salt",
+        "500 g passerade tomater",
+        "3 vitlöksklyftor",
+        "1/2 kruka färsk koriander"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Feijoada using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Peel and finely chop the red onion.",
+        "Peel and cut the sweet potato, carrot and pumpkin into pieces about 2 cm in size.",
+        "Sauté the red onion in oil in a pot/pan until translucent. Add Kärsti's spice mix and stir. Mix in the vegetables and sauté for a minute. Thin with a little water so that the vegetables do not burn. Simmer under a lid until the vegetables are soft, 8–10 minutes.",
+        "Drain and rinse the beans. Add them, pureed tomatoes and pressed garlic. Stir and simmer for another 5 minutes. Season with salt. Garnish with coriander. Serve with Spicy Apple Chutney and, if desired, a dollop of sour cream."
       ],
       "zh": [
-        "准备食材: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Feijoada using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将红洋葱去皮切碎。",
+        "将红薯、胡萝卜和南瓜去皮切成约2厘米大小的块。",
+        "在锅中倒入油，将红洋葱炒至透明。加入Kärsti的混合香料，搅拌均匀。加入蔬菜，翻炒一分钟。加少量水稀释，以免蔬菜烧焦。盖上锅盖，小火慢炖8-10分钟，直至蔬菜软烂。",
+        "沥干并冲洗豆子。加入豆子、番茄泥和蒜泥。搅拌均匀，再炖5分钟。加盐调味。撒上香菜装饰。搭配辣味苹果酱食用，如果喜欢，还可以加一勺酸奶油。"
       ],
       "sv": [
-        "Förbered ingredienserna: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Feijoada using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Skala och finhacka rödlöken.",
+        "Skala och skär sötpotatis, morot och pumpa i ca 2 cm stora bitar.",
+        "Fräs rödlöken i olja i en gryta/kastrull tills den är genomskinlig. Tillsätt Kärstis kryddmix och rör om. Blanda i grönsakerna och låt fräsa någon minut. Späd med lite vatten, så att inte grönsakerna bränner fast. Låt småkoka under lock tills grönsakerna är mjuka, 8–10 minuter.",
+        "Häll av och skölj bönorna. Tillsätt dem, passerade tomater och pressad vitlök. Rör om och låt småkoka ytterligare ca 5 minuter. Krydda med salt. Garnera med koriander. Servera med Kryddig äppelchutney och gärna en klick gräddfil."
       ]
     },
-    "tags": [
-      "quick",
-      "baked"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "image_url": "/Recipe Image/SouthAmerica/SO-BR-001.jpg"
   },
   {
     "id": "SO-BR-002",
@@ -90,26 +114,26 @@
     },
     "subcategory": {
       "en": "Brazil",
-      "zh": "Brazil",
+      "zh": "巴西",
       "sv": "Brazil"
     },
     "dish_name": {
       "en": "Moqueca",
-      "zh": "Moqueca",
+      "zh": "巴西海鲜炖菜",
       "sv": "Moqueca"
     },
     "description": {
-      "en": "Moqueca - a classic Brazil dish prepared for home cooks.",
-      "zh": "Moqueca - 经典的Brazil菜，适合家庭烹饪。",
-      "sv": "Moqueca - en klassisk Brazilrätt anpassad för hemanvändning."
+      "en": "A traditional Brazilian seafood stew, particularly associated with the states of Bahia and Espírito Santo, and is famous for its rich, aromatic broth.",
+      "zh": "巴西传统海鲜炖菜，尤其与巴伊亚州和圣埃斯皮里图州有关，以其浓郁芳香的肉汤而闻名。",
+      "sv": "En traditionell brasiliansk skaldjursgryta, särskilt förknippad med delstaterna Bahia och Espírito Santo, och är känd för sin rika, aromatiska buljong."
     },
-    "total_time_min": 53,
+    "total_time_min": 60,
     "difficulty": {
-      "en": "Easy",
-      "zh": "简单",
-      "sv": "Lätt"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
-    "servings": 4,
+    "servings": 6,
     "main_type": {
       "en": "Seafood",
       "zh": "海鲜",
@@ -117,51 +141,99 @@
     },
     "ingredients": {
       "en": [
-        "300 g salmon fillet",
-        "1 pc lemon",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "600 g fish fillet e.g. salmon and pike-perch",
+        "3 - 4 limes (1/2 dl juice for 6 servings)",
+        "1/2 tsp salt",
+        "2 large yellow onions",
+        "1 large clove garlic",
+        "2 green chilies (any strength)",
+        "2 tbsp olive oil",
+        "1 pack crushed tomatoes (380 g each)",
+        "3 tbsp concentrated fish stock",
+        "1 jar finely chopped parsley",
+        "1 jar finely chopped coriander",
+        "1 can coconut milk (400 g each)",
+        "1 dl water",
+        "150 g peeled shrimp",
+        "4 spring onions",
+        "To serve",
+        "rice",
+        "hot chili sauce"
       ],
       "zh": [
-        "300 g 三文鱼 fillet",
-        "1 pc 柠檬",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "600克鱼柳，例如鲑鱼或梭鲈",
+        "3-4个青柠（6人份，每份约0.5分升青柠汁）",
+        "0.5茶匙盐",
+        "2个大黄洋葱",
+        "1瓣大蒜",
+        "2根青辣椒（辣度不限）",
+        "2汤匙橄榄油",
+        "1包碎番茄（每包380克）",
+        "3汤匙浓缩鱼汤",
+        "1罐切碎的欧芹",
+        "1罐切碎的香菜",
+        "1罐椰奶（每罐400克）",
+        "1分升水",
+        "150克去皮虾仁",
+        "4根葱",
+        "搭配食用",
+        "米饭",
+        "辣椒酱"
       ],
       "sv": [
-        "300 g lax fillet",
-        "1 pc citron",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "600 g fiskfilé t ex lax och gös",
+        "3 - 4 lime (1/2 dl juice för 6 port)",
+        "1/2 tsk salt",
+        "2 stora gula lökar",
+        "1 stor vitlöksklyfta",
+        "2 gröna chilifrukter (valfri styrka)",
+        "2 msk olivolja",
+        "1 förp krossade tomater (à 380 g)",
+        "3 msk konc fiskfond",
+        "1 kruka finhackad persilja",
+        "1 kruka finhackad koriander",
+        "1 burk kokosmjölk (à 400 g)",
+        "1 dl vatten",
+        "150 g skalade räkor",
+        "4 salladslökar",
+        "Till servering",
+        "ris",
+        "het chilisås"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Moqueca using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Cut the fish into 2-3 cm cubes. Mix with lime juice and salt.",
+        "Peel and slice the onion and garlic thinly. Core and finely chop the chilli.",
+        "Sauté the onion, garlic and chilli over low heat in olive oil. Add the crushed tomatoes, fish sauce, parsley (save some for serving) and coriander. Simmer for about 10 minutes.",
+        "Pour in the coconut milk and water. Bring to the boil. Reduce the heat, add the fish and simmer for 5-6 minutes. Turn the prawns over and let them heat through. Season with salt and pepper.",
+        "Shred and sprinkle over the spring onion.",
+        "Serve the stew with rice and hot chilli sauce."
       ],
       "zh": [
-        "准备食材: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Moqueca using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将鱼切成 2-3 厘米的方块，拌入青柠汁和盐。",
+        "洋葱和大蒜去皮切薄片，辣椒去籽切碎。",
+        "用橄榄油小火煸炒洋葱、大蒜和辣椒。加入番茄碎、鱼露、欧芹（留一些最后撒在菜上）和香菜，炖约 10 分钟。",
+        "倒入椰奶和水，煮沸。转小火，加入鱼块，炖 5-6 分钟。将虾翻面，加热至熟透。用盐和胡椒粉调味。",
+        "将葱花撒在菜上。",
+        "将炖菜与米饭和辣椒酱一起享用。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g salmon fillet, 1 pc lemon, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Moqueca using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Skär fisken i 2-3 cm stora tärningar. Blanda med limejuice och salt.",
+        "Skala och skiva lök och vitlök tunt. Kärna ur och finhacka chilifrukten.",
+        "Fräs lök, vitlök och chilli på svag värme i olivolja. Tillsätt krossade tomater, fiskond, persilja (spara lite till serveringen) och koriander. Låt sjuda i ca 10 minuter.",
+        "Häll i kokosmjölk och vatten. Låt koka upp. Sänk värmen, lägg i fisken och sjud i 5-6 minuter. Vänd ner räkorna och låt dem bli varma. Smaka av med salt och peppar.",
+        "Strimla och strö över salladslöken.",
+        "Servera grytan med ris och het chilisås."
       ]
     },
-    "tags": [
-      "gluten-free",
-      "vegetarian"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "image_url": "/Recipe Image/SouthAmerica/SO-BR-002.jpg"
   },
   {
     "id": "SO-BR-003",
@@ -172,78 +244,116 @@
     },
     "subcategory": {
       "en": "Brazil",
-      "zh": "Brazil",
+      "zh": "巴西",
       "sv": "Brazil"
     },
     "dish_name": {
-      "en": "Pão de Queijo",
-      "zh": "Pão de Queijo",
-      "sv": "Pão de Queijo"
+      "en": "Vatapá",
+      "zh": "巴西虾仁面包糊",
+      "sv": "Vatapá"
     },
     "description": {
-      "en": "Pão de Queijo - a classic Brazil dish prepared for home cooks.",
-      "zh": "Pão de Queijo - 经典的Brazil菜，适合家庭烹饪。",
-      "sv": "Pão de Queijo - en klassisk Brazilrätt anpassad för hemanvändning."
+      "en": "A famous, rich, and flavorful Brazilian dish, primarily from the northeastern state of Bahia, reflecting African and indigenous influences.",
+      "zh": "一道著名的、味道浓郁的巴西菜肴，主要产自东北部的巴伊亚州，体现了非洲和土著文化的影响。",
+      "sv": "En berömd, rik och smakrik brasiliansk rätt, främst från den nordöstra delstaten Bahia, som återspeglar afrikanska och inhemska influenser."
     },
-    "total_time_min": 86,
+    "total_time_min": 40,
     "difficulty": {
-      "en": "Easy",
-      "zh": "简单",
-      "sv": "Lätt"
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
     },
-    "servings": 3,
+    "servings": 4,
     "main_type": {
-      "en": "Vegetable",
-      "zh": "蔬菜/豆类",
-      "sv": "Grönsak"
+      "en": "Seafood",
+      "zh": "海鲜",
+      "sv": "Skaldjur"
     },
     "ingredients": {
       "en": [
-        "400 g chickpeas",
-        "2 tbsp tahini",
-        "30 ml olive oil",
-        "1 pc lemon"
+        "1 can (14oz) coconut milk",
+        "2 slices white bread",
+        "2 cloves garlic",
+        "1 inch ginger",
+        "1/2 cup peanuts",
+        "1/2 cup vegetable oil",
+        "1 onion, chopped",
+        "1.5 Tbsp Piquant Post Tempero Baiano",
+        "1 (14 oz) can crushed tomatoes",
+        "3 cups broth (fish or chicken)",
+        "1 tsp Kosher salt",
+        "8 oz shrimp, peeled and deveined",
+        "8 oz cod filets",
+        "Fresh lime, for garnish (optional)",
+        "Fresh parsley, for garnish (optional)",
+        "Cooked rice, for serving"
       ],
       "zh": [
-        "400 g 鹰嘴豆",
-        "2 tbsp tahini",
-        "30 ml 橄榄油",
-        "1 pc 柠檬"
+        "1罐（14盎司）椰奶",
+        "2片白面包",
+        "2瓣大蒜",
+        "1英寸生姜",
+        "1/2杯花生",
+        "1/2杯植物油",
+        "1个洋葱，切碎",
+        "1.5汤匙Piquant Post Tempero Baiano调味料",
+        "1罐（14盎司）碎番茄",
+        "3杯肉汤（鱼汤或鸡汤）",
+        "1茶匙犹太盐",
+        "8盎司虾仁，去壳去虾线",
+        "8盎司鳕鱼片",
+        "新鲜青柠，装饰用（可选）",
+        "新鲜欧芹，装饰用（可选）",
+        "米饭，佐餐用"
       ],
       "sv": [
-        "400 g kikärtor",
-        "2 tbsp tahini",
-        "30 ml olivolja",
-        "1 pc citron"
+        "1 burk (410 g) kokosmjölk",
+        "2 skivor vitt bröd",
+        "2 vitlöksklyftor",
+        "2,5 cm ingefära",
+        "1,5 dl jordnötter",
+        "1,5 dl matolja",
+        "1 lök, hackad",
+        "1,5 msk Piquant Post Tempero Baiano",
+        "1 burk (410 g) krossade tomater",
+        "7,5 dl buljong (fisk eller kyckling)",
+        "1 tsk Koshersalt",
+        "225 g räkor, skalade och urkärnade",
+        "225 g torskfiléer",
+        "Färsk lime, till garnering (valfritt)",
+        "Färsk persilja, till garnering (valfritt)",
+        "Kokt ris, till servering"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Pão de Queijo using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "In a shallow bowl, soak white bread with coconut milk for 10 minutes. Add soaked bread to a food processor. Add garlic, ginger and peanuts. Pulse until combined, then puree.",
+        "In a medium pot, heat ¼ cup oil over med-high heat. Add onions, stir fry for 3-4 minutes. Add remaining oil, add puree and Piquant Post Tempero Baiano and stir fry for 2-3 minutes, until fragrant. Add tomatoes, broth and salt. Bring to a boil, then lower heat and simmer.",
+        "Add cod filets and allow to simmer for 4 minutes. Stir in shrimp and simmer for 3 minutes. Remove from heat and stir to break up the cod.",
+        "Garnish with parsley and lime and serve over fresh rice!"
       ],
       "zh": [
-        "准备食材: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Pão de Queijo using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将白面包放入浅碗中，用椰奶浸泡 10 分钟。将浸泡过的面包放入食品加工机。加入蒜末、姜末和花生碎。搅打至混合均匀，然后打成泥。",
+        "在中等大小的锅中，用中高火加热 1/4 杯油。加入洋葱，翻炒 3-4 分钟。加入剩余的油，倒入之前打好的面包泥和 Piquant Post Tempero Baiano 香料，翻炒 2-3 分钟，直至香味散发出来。加入番茄、高汤和盐。煮沸后，转小火慢炖。",
+        "加入鳕鱼片，慢炖 4 分钟。加入虾仁，再慢炖 3 分钟。关火，搅拌至鳕鱼块散开。",
+        "撒上欧芹碎和青柠片装饰，盛在新鲜米饭上即可享用！"
       ],
       "sv": [
-        "Förbered ingredienserna: 400 g chickpeas, 2 tbsp tahini, 30 ml olive oil, 1 pc lemon.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Pão de Queijo using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Blötlägg vitt bröd med kokosmjölk i en grund skål i 10 minuter. Lägg det blötlagda brödet i en matberedare. Tillsätt vitlök, ingefära och jordnötter. Mixa tills allt är blandat och mixa sedan tills det är blandat. Värm 0,6 dl olja i en medelstor kastrull på medelhög värme. Tillsätt lök och stek i 3–4 minuter. Tillsätt resterande olja, tillsätt puré och Piquant Post Tempero Baiano och stek i 2–3 minuter tills det doftar gott. Tillsätt tomater, buljong och salt. Koka upp, sänk sedan värmen och låt sjuda. Tillsätt torskfiléerna och låt sjuda i 4 minuter. Rör i räkorna och låt sjuda i 3 minuter. Ta bort från värmen och rör om för att bryta sönder torsken. Garnera med persilja och lime och servera med färskt ris!"
       ]
     },
-    "tags": [
-      "grilled",
-      "vegetarian"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "tips": {
+      "en": "Use canned coconut milk for a creamier dish.\r\nIf you prefer a thicker stew, simmer the stew for longer and without the lid to reduce the liquid. Do this before adding the shrimp to the  dish.\r\nOptional ingredients add a little character and flavor but don’t sweat it if you don’t have them.",
+      "zh": "使用罐装椰奶可以让这道菜更浓郁顺滑。\r\n如果您喜欢更浓稠的炖菜，可以敞开锅盖，延长炖煮时间，收汁。在加入虾之前完成这一步。\r\n可选配料可以增添一些特色和风味，但如果没有也不用担心。",
+      "sv": "Använd kokosmjölk på burk för en krämigare rätt.\r\nOm du föredrar en tjockare gryta, låt grytan sjuda längre och utan lock för att minska vätskan. Gör detta innan du tillsätter räkorna i rätten.\r\nValfria ingredienser ger lite karaktär och smak, men oroa dig inte om du inte har dem."
+    },
+    "image_url": "/Recipe Image/SouthAmerica/SO-BR-003.jpeg"
   },
   {
     "id": "SO-BR-004",
@@ -254,20 +364,213 @@
     },
     "subcategory": {
       "en": "Brazil",
-      "zh": "Brazil",
+      "zh": "巴西",
       "sv": "Brazil"
     },
     "dish_name": {
       "en": "Churrasco",
-      "zh": "Churrasco",
+      "zh": "巴西烤肉",
       "sv": "Churrasco"
     },
     "description": {
-      "en": "Churrasco - a classic Brazil dish prepared for home cooks.",
-      "zh": "Churrasco - 经典的Brazil菜，适合家庭烹饪。",
-      "sv": "Churrasco - en klassisk Brazilrätt anpassad för hemanvändning."
+      "en": "A the widely recognized term for a traditional Brazilian barbecue, often served rodízio style (all-you-can-eat) with long skewers of meat.",
+      "zh": "巴西烤肉是一个广为人知的传统巴西烧烤术语，它通常以旋转式烤肉 (rodízio) 的形式提供（即任食），并用长串烤肉叉来烤制肉类。",
+      "sv": "Den mest vedertagna termen för en traditionell brasiliansk grillfest, ofta serverad i rodízio-stil (allt-du-kan-äta) med långa köttspett, är Churrasco."
     },
-    "total_time_min": 65,
+    "total_time_min": 50,
+    "difficulty": {
+      "en": "Hard",
+      "zh": "困难",
+      "sv": "Svår"
+    },
+    "servings": 6,
+    "main_type": {
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
+    },
+    "ingredients": {
+      "en": [
+        "2 lbs skirt steak inner skirt preferred",
+        "2 teaspoon kosher salt",
+        "1 teaspoon freshly ground black pepper",
+        "Mojo Churrasco Marinade",
+        "1 cup sour orange juice or mix 3:1 ratio fresh orange juice to lime juice",
+        "¼ cup olive oil",
+        "6 garlic cloves minced",
+        "1 teaspoon fresh oregano or ½ teaspoon dried oregano",
+        "½ teaspoon ground cumin",
+        "2 teaspoon kosher salt",
+        "1 teaspoon freshly ground black pepper",
+        "Chimichurri Sauce",
+        "¼ cup flat leaf parsley",
+        "¼ cup fresh cilantro optional*",
+        "¼ cup fresh oregano",
+        "3 cloves garlic peeled",
+        "½ small shallot peeled",
+        "1 tablespoon lemon juice or red wine vinegar",
+        "¼ teaspoon red pepper flakes",
+        "⅓ cup extra virgin olive oil",
+        "1 teaspoon kosher salt"
+      ],
+      "zh": [
+        "2磅牛腩肉（最好是内裙肉）",
+        "2茶匙粗盐",
+        "1茶匙现磨黑胡椒",
+        "莫霍烤肉腌料",
+        "1杯酸橙汁或鲜橙汁与青柠汁按3:1比例混合",
+        "¼杯橄榄油",
+        "6瓣蒜，切碎",
+        "1茶匙新鲜牛至或½茶匙干牛至",
+        "½茶匙孜然粉",
+        "2茶匙粗盐",
+        "1茶匙现磨黑胡椒",
+        "阿根廷青酱",
+        "¼杯欧芹碎",
+        "¼杯新鲜香菜（可选）*",
+        "¼杯新鲜牛至",
+        "3瓣蒜，去皮",
+        "½个小葱，去皮",
+        "1汤匙柠檬汁或红酒醋",
+        "¼茶匙红辣椒碎",
+        "⅓杯特级初榨橄榄油",
+        "1茶匙粗盐"
+      ],
+      "sv": [
+        "900 g innerkjol av stek, helst",
+        "2 tsk kosher salt",
+        "1 tsk nymalen svartpeppar",
+        "Mojo Churrasco Marinad",
+        "1 dl sur apelsinjuice eller blandning, 3:1 förhållande färsk apelsinjuice till limejuice",
+        "¼ dl olivolja",
+        "6 finhackade vitlöksklyftor",
+        "1 tsk färsk oregano eller ½ tsk torkad oregano",
+        "½ tsk malen spiskummin",
+        "2 tsk kosher salt",
+        "1 tsk nymalen svartpeppar",
+        "Chimichurrisås",
+        "¼ dl bladpersilja",
+        "¼ dl färsk koriander (valfritt*)",
+        "¼ dl färsk oregano",
+        "3 skalade vitlöksklyftor",
+        "½ liten skalad schalottenlök",
+        "1 msk citronsaft eller rödvinsvinäger",
+        "¼ tsk rödpepparflingor",
+        "⅓ dl extra jungfruolivolja",
+        "1 tsk kosher salt"
+      ]
+    },
+    "steps": {
+      "en": [
+        "Make the Marinade",
+        "Whisk together all the mojo criollo ingredients in a mixing bowl. This can be made up to a week ahead of time.",
+        "1 cup sour orange juice,¼ cup olive oil,6 garlic cloves,1 teaspoon fresh oregano,½ teaspoon ground cumin,1 teaspoon freshly ground black pepper,2 teaspoon kosher salt",
+        "Make the Chimichurri Sauce",
+        "Tear the herb leaves from their stems and add them to the bowl of a food processor or blender.",
+        "¼ cup flat leaf parsley,¼ cup fresh cilantro,¼ cup fresh oregano",
+        "Add the garlic cloves, shallot, red pepper flakes, kosher salt, red wine vinegar, and extra virgin olive oil to the container of the blender or food processor.",
+        "3 cloves garlic,½ small shallot,1 tablespoon lemon juice,¼ teaspoon red pepper flakes,⅓ cup extra virgin olive oil,1 teaspoon kosher salt",
+        "Pulse to start the blending a couple of times, then blend on low speed until the garlic, herbs, and shallot are chopped finely into small pieces.",
+        "Chimichurri sauce can be used immediately but tastes even better if it sits at room temperature for an hour or two before serving or is made the night before for the flavors to mingle together.",
+        "Make Churrasco",
+        "Marinate the skirt steak in a plastic zip top or large mixing bowl with the marinade for at least 30 minutes and up to 2 hours in the fridge. This step is optional, but it does impart tenderness to the skirt steak.",
+        "2 lbs skirt steak",
+        "Take the marinated steak out of the fridge 45 minutes before cooking to rest. Before cooking, pat the steak dry and season with the kosher salt and ground black pepper.",
+        "2 teaspoon kosher salt,1 teaspoon freshly ground black pepper",
+        "USING A CHARCOAL GRILL: make sure the charcoal coals are white and hot, and use a grill thermometer, we want the heat to be around 450-500ºF (232 to 260ºC)",
+        "or",
+        "USING A GAS GRILL: set it to 450ºF (232ºC) and oil the grates generously.",
+        "Once the grill is preheated, grill the marinated skirt steak for 4 minutes on each side for medium-rare.",
+        "or",
+        "ON THE STOVE: On a cast iron grill pan or griddle on the stove, use high heat with a bit of high heat oil like canola. Sear the skirt steak on each side for 3 minutes for medium-rare.",
+        "Let the steak rest on a cutting board or plate, covered with aluminum foil, for at least 5 minutes before cutting.",
+        "Serve thinly sliced AGAINST the grain, topped with the Chimichurri Sauce with your favorite sides."
+      ],
+      "zh": [
+        "制作腌料",
+        "将所有莫霍克里奥尔酱的配料放入搅拌碗中搅拌均匀。腌料可以提前一周制作。",
+        "1 杯酸橙汁，¼ 杯橄榄油，6 瓣蒜，1 茶匙新鲜牛至，½ 茶匙孜然粉，1 茶匙现磨黑胡椒，2 茶匙粗盐",
+        "制作阿根廷青酱",
+        "将香草叶子从茎上摘下，放入食品加工机或搅拌机的搅拌碗中。",
+        "¼ 杯欧芹，¼ 杯新鲜香菜，¼ 杯新鲜牛至",
+        "将蒜瓣、红葱头、红辣椒碎、粗盐、红酒醋和特级初榨橄榄油加入搅拌机或食品加工机的搅拌碗中。",
+        "3瓣大蒜，半个小葱，1汤匙柠檬汁，¼茶匙红辣椒碎，⅓杯特级初榨橄榄油，1茶匙粗盐",
+        "先用点动模式搅拌几次，然后低速搅拌，直到大蒜、香草和小葱切碎。",
+        "阿根廷青酱可以立即使用，但如果在室温下放置一两个小时后再食用，或者提前一晚做好，让各种味道充分融合，味道会更佳。",
+        "制作烤牛排",
+        "将牛腩放入密封塑料袋或大碗中，加入腌料，在冰箱中腌制至少30分钟，最多2小时。这一步是可选的，但确实能让牛腩更嫩。",
+        "2磅牛腩",
+        "烹饪前45分钟将腌制好的牛腩从冰箱中取出静置。烹饪前，用厨房纸巾吸干牛腩表面的水分，并用粗盐和现磨黑胡椒调味。",
+        "2茶匙粗盐，1茶匙现磨黑胡椒",
+        "使用炭火烤架：确保木炭呈白色且温度很高，并使用烤架温度计，理想温度约为450-500ºF（232-260ºC）。",
+        "或使用燃气烤架：将温度设置为450ºF（232ºC），并在烤架上涂抹足量的油。",
+        "烤架预热后，将腌制好的牛腩排两面各烤4分钟，达到五分熟。",
+        "或使用炉灶：在炉灶上的铸铁烤盘或煎锅中，使用大火和少量耐高温的食用油（例如菜籽油）。将牛腩排两面各煎3分钟，达到五分熟。",
+        "将牛排放在砧板或盘子上，用铝箔纸盖住，静置至少5分钟后再切。",
+        "切成薄片，逆纹食用，淋上阿根廷青酱，搭配您最喜欢的配菜。"
+      ],
+      "sv": [
+        "Make the Marinade",
+        "Whisk together all the mojo criollo ingredients in a mixing bowl. This can be made up to a week ahead of time.",
+        "1 cup sour orange juice,¼ cup olive oil,6 garlic cloves,1 teaspoon fresh oregano,½ teaspoon ground cumin,1 teaspoon freshly ground black pepper,2 teaspoon kosher salt",
+        "Make the Chimichurri Sauce",
+        "Tear the herb leaves from their stems and add them to the bowl of a food processor or blender.",
+        "¼ cup flat leaf parsley,¼ cup fresh cilantro,¼ cup fresh oregano",
+        "Add the garlic cloves, shallot, red pepper flakes, kosher salt, red wine vinegar, and extra virgin olive oil to the container of the blender or food processor.",
+        "3 cloves garlic,½ small shallot,1 tablespoon lemon juice,¼ teaspoon red pepper flakes,⅓ cup extra virgin olive oil,1 teaspoon kosher salt",
+        "Pulse to start the blending a couple of times, then blend on low speed until the garlic, herbs, and shallot are chopped finely into small pieces.",
+        "Chimichurri sauce can be used immediately but tastes even better if it sits at room temperature for an hour or two before serving or is made the night before for the flavors to mingle together.",
+        "Make Churrasco",
+        "Marinate the skirt steak in a plastic zip top or large mixing bowl with the marinade for at least 30 minutes and up to 2 hours in the fridge. This step is optional, but it does impart tenderness to the skirt steak.",
+        "2 lbs skirt steak",
+        "Take the marinated steak out of the fridge 45 minutes before cooking to rest. Before cooking, pat the steak dry and season with the kosher salt and ground black pepper.",
+        "2 teaspoon kosher salt,1 teaspoon freshly ground black pepper",
+        "USING A CHARCOAL GRILL: make sure the charcoal coals are white and hot, and use a grill thermometer, we want the heat to be around 450-500ºF (232 to 260ºC)",
+        "or",
+        "USING A GAS GRILL: set it to 450ºF (232ºC) and oil the grates generously.",
+        "Once the grill is preheated, grill the marinated skirt steak for 4 minutes on each side for medium-rare.",
+        "or",
+        "ON THE STOVE: On a cast iron grill pan or griddle on the stove, use high heat with a bit of high heat oil like canola. Sear the skirt steak on each side for 3 minutes for medium-rare.",
+        "Let the steak rest on a cutting board or plate, covered with aluminum foil, for at least 5 minutes before cutting.",
+        "Serve thinly sliced AGAINST the grain, topped with the Chimichurri Sauce with your favorite sides."
+      ]
+    },
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "tips": {
+      "en": "Slicing Skirt or Flank Steak\r\nFind the grain: Look for the lines running through the meat (easier to see when it’s raw).\r\nCut across, not with: Slice perpendicular to those lines, like crossing your t’s.\r\nChef's Tips for Steak Success\r\nDry before grilling: Pat off excess marinade so the steak chars instead of steaming.\r\nMarinating tips: 30–60 minutes is plenty, any longer and the citrus turns the meat mushy.\r\nNo Grill? Cook the steak on a cast iron plancha (a griddle), or on a large cast iron skillet or grill pan\r\nTarget temps (we pull 5°F early, carryover heat finishes it): Rare 120°F, Medium-rare 130°F, Medium 135–140°F",
+      "zh": "切牛腩或侧腹牛排\r\n寻找纹理：寻找贯穿肉的纹路（生肉更容易辨认）。\r\n横切，而非顺纹：垂直于纹路切，就像写“t”字时切交叉一样。\r\n大厨牛排秘诀\r\n烤制前擦干：用厨房纸巾吸去多余的腌料，这样牛排才能烤焦而不是蒸熟。\r\n腌制技巧：30-60分钟即可，时间过长柑橘会使肉质软烂。\r\n没有烤架？可以用铸铁铁板（煎板）或大型铸铁煎锅/烤盘煎牛排。\r\n目标温度（我们提前5华氏度取出，余温会使其熟透）：一分熟 120华氏度，三分熟 130华氏度，五分熟 135-140华氏度",
+      "sv": "Skiva kjol- eller flankstek\r\nHitta fibrerna: Leta efter linjerna som löper genom köttet (lättare att se när det är rått).\r\nSkär tvärs över, inte med: Skär vinkelrätt mot dessa linjer, som att korsa dina t-ben.\r\nKockens tips för lyckad biff\r\nTorka före grillning: Klappa bort överflödig marinad så att biffen blir förkolnad istället för att ånga.\r\nMarineringstips: 30–60 minuter är gott och väl, längre tid och citrusfrukterna gör köttet mosigt. Ingen grillning? Tillaga biffen på en gjutjärnsplancha (en stekhäll) eller på en stor gjutjärnspanna eller grillpanna.\r\nMåltemperaturer (vi tar bort 10°C tidigt, överhettning avslutar den): Rare 49°C, Medium-rare 51°C, Medium 56–60°C"
+    },
+    "image_url": "/Recipe Image/SouthAmerica/SO-BR-004.png"
+  },
+  {
+    "id": "SO-CO-001",
+    "region": {
+      "en": "South America",
+      "zh": "南美",
+      "sv": "Sydamerika"
+    },
+    "subcategory": {
+      "en": "Colombia",
+      "zh": "哥伦比亚",
+      "sv": "Colombia"
+    },
+    "dish_name": {
+      "en": "Bandeja Paisa",
+      "zh": "哥伦比亚什锦拼盘",
+      "sv": "Bandeja Paisa"
+    },
+    "description": {
+      "en": "A massive, highly representative dish from the Paisa region of Colombia, specifically Medellín. It's famous for its size and variety of components.",
+      "zh": "这是一道分量十足、极具代表性的哥伦比亚帕伊萨地区菜肴，尤其以麦德林地区最为著名。它以分量大、食材丰富而闻名。",
+      "sv": "En massiv, mycket representativ rätt från Paisa-regionen i Colombia, närmare bestämt Medellín. Den är känd för sin storlek och variation av ingredienser."
+    },
+    "total_time_min": null,
     "difficulty": {
       "en": "Hard",
       "zh": "困难",
@@ -281,215 +584,114 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "1 tsp sugar",
+        "¼ tsp salt",
+        "½ tsp cumin",
+        "1 lb pork belly, cut into 4 strips",
+        "4 Plantains, overripe with dark spots",
+        "4 Arepas",
+        "½ onion, chopped",
+        "½ to mato, chopped",
+        "2 cans red kidney beans, drained and rinsed",
+        "½ cup vegetable broth",
+        "Salt and pepper to taste",
+        "¾ tsp cumin",
+        "Olive oil",
+        "4 Spicy sausages of your choice, I used a Rinaldis Italian sausage as it was all i could find available",
+        "4 servings White rice, cooked according to package instructions",
+        "4 Eggs, fried"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "1 茶匙糖",
+        "¼ 茶匙盐",
+        "½ 茶匙孜然",
+        "1 磅五花肉，切成 4 条",
+        "4 根熟透带黑斑的大蕉",
+        "4 个玉米饼",
+        "½ 个洋葱，切碎",
+        "½ 个番茄，切碎",
+        "2 罐红腰豆，沥干并冲洗干净",
+        "½ 杯蔬菜高汤",
+        "适量盐和胡椒粉",
+        "¾ 茶匙孜然",
+        "橄榄油",
+        "4 根你喜欢的辣味香肠，我用的是 Rinaldis 意大利香肠，因为这是我能找到的唯一一种",
+        "4 人份白米饭，按包装说明烹制",
+        "4 个煎蛋"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "1 tsk socker",
+        "¼ tsk salt",
+        "½ tsk spiskummin",
+        "450 g sidfläsk, skuren i 4 strimlor",
+        "4 kokbananer, övermogen med mörka fläckar",
+        "4 arepas",
+        "½ lök, hackad",
+        "½ tsk mato, hackad",
+        "2 burkar röda kidneybönor, avrunna och sköljda",
+        "½ dl grönsaksbuljong",
+        "Salt och peppar efter smak",
+        "¾ tsk spiskummin",
+        "Olivolja",
+        "4 kryddiga korvar efter eget val, jag använde en italiensk Rinaldis-korv eftersom det var allt jag kunde hitta",
+        "4 portioner Vitt ris, tillagat enligt anvisningarna på förpackningen",
+        "4 stekta ägg"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Churrasco using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Combine the salt, sugar, and cumin together and rub on the pork belly.",
+        "Cut 4 slits in the pork belly strips short-wise that extend halfway through the meat. Wrap the pork belly in plastic wrap and leave to rest in your fridge for 2-6 hours.",
+        "Cook white rice according to package.",
+        "Cook your sausages according to package instructions.",
+        "Follow this recipe to cook your arepas",
+        "In a medium sized pot, heat some oil over medium heat. Add the chopped onion and tomato and saute for a few moments, until the onions turn translucent.",
+        "Add the canned, drained kidney beans into the pot along with salt to taste and cumin.",
+        "Saute for about 2 minutes, then add vegetable stock. Stir for 5-7 more minutes, and then remove from heat.",
+        "Cut the two ends off of your plantains. Use a small knife to cut a slit through the plantain peels from end to end, only cutting through the peel but not the meat of the plantain. Repeat process on the other side. Use your hands to remove the skin from the plantains. It should come off in two pieces.",
+        "Cut your plantains into very thin strips, vertically.",
+        "Heat a very thin layer of vegetable oil in a pan and lay the plantains in the oil. Cook until caramelized on one side, then flip and caramelize on the other. Remove to a separate plate.",
+        "Heat a cast iron skillet over medium heat. Add the pork belly into the pan, sauteing about 5-10 minutes on each side, until the meat is cooked through and the exterior is browned.",
+        "Fry the eggs.",
+        "Assemble on 4 separate platters. Place the beans on the far left, and the white rice to the right of the beans. Assemble the sausage, pork belly, plantains, arepa, and egg however they will fit. Enjoy!",
+        "Leave a comment on this post letting me know what you thought!"
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Churrasco using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将盐、糖和孜然混合，涂抹在五花肉上。",
+        "在五花肉条上切4道短口，深度约为肉的一半。用保鲜膜包裹五花肉，放入冰箱冷藏2-6小时。",
+        "按照包装说明煮白米饭。",
+        "按照包装说明烹制香肠。",
+        "按照以下食谱制作玉米饼：",
+        "在中等大小的锅中，中火加热少许油。加入切碎的洋葱和番茄，翻炒片刻，直至洋葱变透明。",
+        "将罐装沥干水分的芸豆放入锅中，加入适量盐和孜然调味。",
+        "翻炒约2分钟，然后加入蔬菜高汤。继续翻炒5-7分钟，然后关火。",
+        "切掉大蕉的两端。用小刀在大蕉皮上从一端到另一端切开一道口子，只切开皮，不要切到香蕉肉。另一面也重复上述步骤。用手剥去芭蕉皮，应该可以剥成两片。",
+        "将芭蕉纵向切成细条。",
+        "在平底锅中倒入少量植物油，加热至油温合适，放入芭蕉条。煎至一面焦糖化后翻面，再煎至另一面也焦糖化。取出放在另一个盘子里。",
+        "铸铁煎锅中火加热。放入五花肉，每面煎约 5-10 分钟，直至肉熟透且表面呈金黄色。",
+        "煎鸡蛋。",
+        "将食材分别摆放在 4 个盘子上。将豆子放在最左边，白米饭放在豆子右边。将香肠、五花肉、芭蕉条、玉米饼和鸡蛋依次摆放在盘子上，摆放位置可根据实际情况调整。享用吧！",
+        "请在下方留言告诉我你的想法！"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Churrasco using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Blanda salt, socker och spiskummin och gnid in det på sidfläsket.",
+        "Skär fyra korta snitt i sidfläskstrimlorna som sträcker sig halvvägs genom köttet. Vira in sidfläsket i plastfolie och låt vila i kylskåpet i 2–6 timmar.",
+        "Koka vitt ris enligt förpackningens anvisningar.",
+        "Koka dina korvar enligt anvisningarna på förpackningen.",
+        "Följ detta recept för att tillaga dina arepas:",
+        "Värm lite olja på medelvärme i en medelstor kastrull. Tillsätt den hackade löken och tomaten och fräs i några minuter tills löken blir genomskinlig.",
+        "Tillsätt de konserverade, avrunna kidneybönorna i kastrullen tillsammans med salt efter smak och spiskummin.",
+        "Fräs i cirka 2 minuter, tillsätt sedan grönsaksbuljong. Rör om i ytterligare 5–7 minuter och ta sedan bort från värmen.",
+        "Skär av de två ändarna på dina kokbananer. Använd en liten kniv för att skära ett snitt genom kokbananskalen från ände till ände, och skär bara igenom skalet men inte genom kokbananköttet. Upprepa processen på andra sidan. Använd händerna för att ta bort skalet från kokbananerna. Den ska lossna i två bitar. Skär dina kokbananer i mycket tunna strimlor, vertikalt. Värm ett mycket tunt lager matolja i en panna och lägg kokbananerna i oljan. Stek tills de karamelliserats på ena sidan, vänd sedan och karamelliseras på den andra. Lägg över på en separat tallrik. Värm en gjutjärnspanna på medelvärme. Lägg sidfläsket i pannan och stek cirka 5–10 minuter på varje sida, tills köttet är genomstekt och ytan är brynt. Stek äggen. Lägg upp på fyra separata fat. Placera bönorna längst till vänster och det vita riset till höger om bönorna. Montera korven, sidfläsket, kokbananerna, arepan och ägget hur som helst. Smaklig måltid! Lämna en kommentar till det här inlägget och låt mig veta vad du tyckte!"
       ]
     },
-    "tags": [
-      "quick",
-      "stew"
-    ]
-  },
-  {
-    "id": "SO-BR-005",
-    "region": {
-      "en": "South America",
-      "zh": "南美",
-      "sv": "Sydamerika"
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
     },
-    "subcategory": {
-      "en": "Brazil",
-      "zh": "Brazil",
-      "sv": "Brazil"
-    },
-    "dish_name": {
-      "en": "Vatapá",
-      "zh": "Vatapá",
-      "sv": "Vatapá"
-    },
-    "description": {
-      "en": "Vatapá - a classic Brazil dish prepared for home cooks.",
-      "zh": "Vatapá - 经典的Brazil菜，适合家庭烹饪。",
-      "sv": "Vatapá - en klassisk Brazilrätt anpassad för hemanvändning."
-    },
-    "total_time_min": 72,
-    "difficulty": {
-      "en": "Hard",
-      "zh": "困难",
-      "sv": "Svår"
-    },
-    "servings": 6,
-    "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
-    },
-    "ingredients": {
-      "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
-      ],
-      "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
-      ],
-      "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
-      ]
-    },
-    "steps": {
-      "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Vatapá using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
-      ],
-      "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Vatapá using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
-      ],
-      "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Vatapá using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
-      ]
-    },
-    "tags": [
-      "spicy",
-      "baked"
-    ]
-  },
-  {
-    "id": "SO-CO-001",
-    "region": {
-      "en": "South America",
-      "zh": "南美",
-      "sv": "Sydamerika"
-    },
-    "subcategory": {
-      "en": "Colombia",
-      "zh": "Colombia",
-      "sv": "Colombia"
-    },
-    "dish_name": {
-      "en": "Bandeja Paisa",
-      "zh": "Bandeja Paisa",
-      "sv": "Bandeja Paisa"
-    },
-    "description": {
-      "en": "Bandeja Paisa - a classic Colombia dish prepared for home cooks.",
-      "zh": "Bandeja Paisa - 经典的Colombia菜，适合家庭烹饪。",
-      "sv": "Bandeja Paisa - en klassisk Colombiarätt anpassad för hemanvändning."
-    },
-    "total_time_min": 52,
-    "difficulty": {
-      "en": "Hard",
-      "zh": "困难",
-      "sv": "Svår"
-    },
-    "servings": 2,
-    "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
-    },
-    "ingredients": {
-      "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
-      ],
-      "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
-      ],
-      "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
-      ]
-    },
-    "steps": {
-      "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Bandeja Paisa using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
-      ],
-      "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Bandeja Paisa using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
-      ],
-      "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Bandeja Paisa using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
-      ]
-    },
-    "tags": [
-      "gluten-free",
-      "family"
-    ]
+    "image_url": "/Recipe Image/SouthAmerica/SO-CO-001.png"
   },
   {
     "id": "SO-CO-002",
@@ -500,78 +702,85 @@
     },
     "subcategory": {
       "en": "Colombia",
-      "zh": "Colombia",
+      "zh": "哥伦比亚",
       "sv": "Colombia"
     },
     "dish_name": {
       "en": "Arepas",
-      "zh": "Arepas",
+      "zh": "玉米面饼",
       "sv": "Arepas"
     },
     "description": {
-      "en": "Arepas - a classic Colombia dish prepared for home cooks.",
-      "zh": "Arepas - 经典的Colombia菜，适合家庭烹饪。",
-      "sv": "Arepas - en klassisk Colombiarätt anpassad för hemanvändning."
+      "en": "Arepas are a staple food in Colombia and Venezuela, serving as a versatile bread-like base for meals.",
+      "zh": "阿雷帕是哥伦比亚和委内瑞拉的主食，是一种用途广泛的类似面包的食物。",
+      "sv": "Arepas är en basföda i Colombia och Venezuela och fungerar som en mångsidig brödliknande bas för måltider."
     },
-    "total_time_min": 64,
+    "total_time_min": 30,
     "difficulty": {
-      "en": "Hard",
-      "zh": "困难",
-      "sv": "Svår"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
-    "servings": 3,
+    "servings": 8,
     "main_type": {
-      "en": "Meat",
-      "zh": "肉类",
-      "sv": "Kött"
+      "en": "Grain",
+      "zh": "谷物",
+      "sv": "Spannmål"
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "2 ½ cups lukewarm water",
+        "1 teaspoon salt",
+        "2 cups pre-cooked white cornmeal",
+        "¼ cup vegetable oil, or as needed"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "主要材料",
+        "2 ½ 杯温水",
+        "1 茶匙盐",
+        "2 杯预煮白玉米粉",
+        "¼ 杯植物油（或根据需要添加）"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "2 ½ koppar ljummet vatten",
+        "1 tesked salt",
+        "2 koppar förkokt vitt majsmjöl",
+        "¼ kopp vegetabilisk olja, eller efter behov"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Arepas using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Stir water and salt together in a medium bowl",
+        "gradually stir in cornmeal with your fingers until the mixture forms a soft, moist, malleable dough.",
+        "Form dough into eight 2-inch diameter balls",
+        "pat each ball to flatten into a 3/8-inch-thick arepa patty.",
+        "Heat oil in a large skillet over medium heat",
+        "fry arepas in batches until golden brown, about 4 to 5 minutes per side. Transfer cooked arepas to a paper towel-lined plate to drain until cool enough to handle.",
+        "Slice halfway through each arepa horizontally with a thin serrated knife to form a pita-like pocket."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Arepas using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "在一个中等大小的碗中，将水和盐搅拌均匀；用手指慢慢拌入玉米粉，直到混合物形成柔软、湿润、有延展性的面团。",
+        "将面团分成八个直径约5厘米的小球；将每个小球轻轻拍扁成约1厘米厚的玉米饼。",
+        "在大煎锅中倒入油，中火加热；分批煎玉米饼，每面煎至金黄色，大约每面煎4到5分钟。将煎好的玉米饼放在铺有厨房纸巾的盘子上沥干油，直到冷却到可以拿取的程度。",
+        "用一把薄锯齿刀在每个玉米饼上横向切开一半，形成类似皮塔饼的口袋状。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Arepas using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Rör ihop vatten och salt i en medelstor skål",
+        "rör gradvis i majsmjöl med fingrarna tills blandningen bildar en mjuk, fuktig och formbar deg.",
+        "Forma degen till åtta bollar med en diameter på 5 cm",
+        "tryck varje boll till för att platta till en 1,2 cm tjock arepa-biff.",
+        "Värm olja i en stor stekpanna på medelvärme",
+        "stek arepas i omgångar tills de är gyllenbruna, cirka 4 till 5 minuter per sida. Lägg över de tillagade arepasna på en tallrik klädd med hushållspapper för att rinna av tills de är tillräckligt svala för att hanteras.",
+        "Skär halvvägs genom varje arepa horisontellt med en tunn, tandad kniv för att bilda en pitabrödliknande ficka."
       ]
     },
-    "tags": [
-      "quick",
-      "gluten-free"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "image_url": "/Recipe Image/SouthAmerica/SO-CO-002.png"
   },
   {
     "id": "SO-CO-003",
@@ -582,24 +791,24 @@
     },
     "subcategory": {
       "en": "Colombia",
-      "zh": "Colombia",
+      "zh": "哥伦比亚",
       "sv": "Colombia"
     },
     "dish_name": {
       "en": "Ajiaco",
-      "zh": "Ajiaco",
+      "zh": "哥伦比亚鸡肉土豆汤",
       "sv": "Ajiaco"
     },
     "description": {
-      "en": "Ajiaco - a classic Colombia dish prepared for home cooks.",
-      "zh": "Ajiaco - 经典的Colombia菜，适合家庭烹饪。",
-      "sv": "Ajiaco - en klassisk Colombiarätt anpassad för hemanvändning."
+      "en": "A hearty, complex, and highly celebrated soup, considered a specialty of Bogotá, Colombia.",
+      "zh": "一道浓郁、复杂且备受赞誉的汤，被认为是哥伦比亚波哥大的特色菜。",
+      "sv": "En rejäl, komplex och mycket berömd soppa, anses vara en specialitet från Bogotá, Colombia."
     },
-    "total_time_min": 59,
+    "total_time_min": null,
     "difficulty": {
-      "en": "Easy",
-      "zh": "简单",
-      "sv": "Lätt"
+      "en": "Medium",
+      "zh": "中等",
+      "sv": "Medel"
     },
     "servings": 6,
     "main_type": {
@@ -609,51 +818,115 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "2 L homemade chicken stock (or low-sodium canned stock)",
+        "1 whole bone-in, skin-on chicken breast, split (12 to 16 ounces total)",
+        "1 large onion, split in half",
+        "2 bay leaves",
+        "2 pounds russet potatoes (about 2 medium) peeled and cut into rough 1-inch chunks",
+        "2 pounds papas Criollas (about 20 potatoes), peeled (see note)",
+        "1 pound Red Bliss potatoes (about 2 small), peeled, split into quarters lengthwise, and cut into 1/2-inch slices",
+        "1/4 cup dried guascas (see note)",
+        "2 ears corn, shucked and broken into 3 pieces each",
+        "1 small onion, finely diced (about 3/4 cup)",
+        "2 tablespoons chopped cilantro",
+        "1 serrano or 1/2 jalapeño, seeded and finely minced",
+        "Kosher salt and freshly cracked black pepper",
+        "1/2 cup sour cream, thinned with 1 tablespoon milk",
+        "1/2 cup capers, rinsed, drained, and roughly chopped",
+        "1 ripe avocado, preferably smooth, light-green fuerte variety, sliced into wedges"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "2升自制鸡汤（或低钠罐装鸡汤）",
+        "1块带骨带皮鸡胸肉，切开（总重12至16盎司）",
+        "1个大洋葱，切半",
+        "2片月桂叶",
+        "2磅褐皮土豆（约2个中等大小），去皮切成1英寸的粗块",
+        "2磅克里奥尔土豆（约20个），去皮（见注）",
+        "1磅红皮土豆（约2个小土豆），去皮，纵向切成四等份，再切成1/2英寸厚的片",
+        "1/4杯干瓜卡（见注）",
+        "2根玉米，去皮，每根掰成3段",
+        "1个小洋葱，切碎（约3/4杯）",
+        "2汤匙切碎的香菜",
+        "1个塞拉诺辣椒或半个墨西哥辣椒，去籽切碎",
+        "犹太盐和现磨黑胡椒",
+        "1/2杯酸味淡奶油，加入1汤匙牛奶稀释",
+        "1/2杯刺山柑，冲洗干净，沥干水分，粗略切碎",
+        "1个成熟的牛油果，最好是光滑的浅绿色福尔特品种，切成楔形"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "2 L hemlagad kycklingbuljong (eller saltfattig konserverad buljong)",
+        "1 hel kycklingfilé med ben och skinn, delad (totalt 350 till 450 g)",
+        "1 stor lök, delad på mitten",
+        "2 lagerblad",
+        "900 g russetpotatis (ca 2 medelstora) skalade och skurna i grova 2,5 cm stora bitar",
+        "900 g papas criollas (ca 20 potatisar), skalade (se anmärkning)",
+        "450 g Red Bliss-potatis (ca 2 små), skalade, delade i fyra delar på längden och skurna i 1,2 cm stora skivor",
+        "0,6 dl torkade guascas (se anmärkning)",
+        "2 majskolvar, skalade och brutna i 3 bitar vardera",
+        "1 liten lök, finhackad (ca 1,75 dl)",
+        "2 msk hackad koriander",
+        "1 serrano eller 1/2 jalapeño, urkärnad och finhackad",
+        "Koshersalt och nymalen svartpeppar",
+        "1,2 dl gräddfil, utspädd med 1 msk mjölk",
+        "1,2 dl kapris, sköljda, avrunna och grovhackade",
+        "1 mogen avokado, helst slät, ljusgrön fuerte-sort, skivad i klyftor"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Ajiaco using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Combine chicken stock, chicken breast, onion, bay leaves, potatoes, and guascas in a large saucepot or Dutch oven. Add more water if necessary to cover solids by 1-inch. Bring to a boil over high heat. Reduce to a simmer and cook until chicken breast is cooked through, about 10 minutes. Transfer chicken breast to plate and set aside until cooled to room temperature.",
+        "Pot of chicken stock, chicken, onion, potatoes, and spices. A plated piece of chicken breast.",
+        "Serious Eats / Mariel De La Cruz",
+        "Continue to simmer potatoes until russets and papas Criollas are completely tender and falling apart, about 45 minutes longer, adding more water as necessary. Discard onion and bay leaves. Using whisk, mash potato pieces against side of pot and stir vigorously to thicken soup. The soup should be thick, with large chunks of potatoes still remaining.",
+        "Pot of soup, with soft, tender potatoes. A whisk mixing the potatoes into the soup.",
+        "Serious Eats / Mariel De La Cruz",
+        "Add corn cobs and continue to cook, stirring occasionally, until corn is cooked and soup is thickened to the consistency of thick heavy cream, about 15 minutes longer. Remove from heat.",
+        "A pot of soup with corn cobs.",
+        "Serious Eats / Mariel De La Cruz",
+        "While soup is cooking, make the aji: Combine onion, cilantro, and chile pepper in small serving bowl and add water until just covered. Season generously with salt and stir to combine. Set aside. Discard chicken skin and bones. Shred meat into bite-size pieces and set aside in serving bowl.",
+        "A small bowl of aji, containing onion cilantro, and chile pepper. A bowl of shredded chicken.",
+        "Serious Eats / Mariel De La Cruz",
+        "Season soup to taste with salt and pepper. Serve immediately, passing picked chicken, chopped capers, sour cream, and aji table-side for diners to add to their bowl. Serve avocado slices on the side."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Ajiaco using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "将鸡汤、鸡胸肉、洋葱、香叶、土豆和瓜斯卡香料放入一个大的汤锅或荷兰锅中。如果需要，加水至没过固体食材约2.5厘米（1英寸）。大火煮沸。转小火慢炖，直至鸡胸肉完全煮熟，约10分钟。将鸡胸肉盛出，放在一旁冷却至室温。",
+        "锅中盛有鸡汤、鸡肉、洋葱、土豆和香料。一块装盘的鸡胸肉。",
+        "继续慢炖土豆，直至褐皮土豆和克里奥尔土豆完全软烂，约需45分钟，期间根据需要加水。取出洋葱和香叶。用打蛋器将土豆块压碎，并用力搅拌，使汤汁浓稠。汤汁应该浓稠，但仍保留一些大块的土豆。",
+        "锅中盛有软烂的土豆。打蛋器将土豆泥拌入汤中。",
+        "加入玉米棒，继续烹煮，偶尔搅拌，直至玉米煮熟，汤汁浓稠如浓奶油，大约需要15分钟。关火。",
+        "一锅玉米棒汤。",
+        "在煮汤的同时，制作阿吉酱：将洋葱、香菜和辣椒放入小碗中，加水至刚好没过食材。加入足量的盐调味，搅拌均匀。放在一旁备用。去除鸡皮和鸡骨。将鸡肉撕成一口大小的块状，放入碗中备用。",
+        "一小碗阿吉酱（含洋葱、香菜和辣椒）。一碗鸡丝。",
+        "根据个人口味用盐和胡椒粉调味。立即上桌，并在餐桌旁提供腌制鸡肉、切碎的刺山柑、酸奶油和阿吉酱，供食客自行添加。另配牛油果片。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Ajiaco using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Blanda kycklingbuljong, kycklingbröst, lök, lagerblad, potatis och guascas i en stor kastrull eller gjutjärnsgryta. Tillsätt mer vatten om det behövs för att täcka det fasta materialet med 2,5 cm. Koka upp på hög värme. Sänk värmen och sjud tills kycklingbröstet är genomkokt, cirka 10 minuter. Lägg över kycklingbröstet på en tallrik och ställ åt sidan tills det svalnat till rumstemperatur.",
+        "Gryta med kycklingbuljong, kyckling, lök, potatis och kryddor. En bit kycklingbröst på tallrik.",
+        "Serious Eats / Mariel De La Cruz",
+        "Fortsätt sjuda potatisen tills russet och papas criollas är helt möra och faller isär, cirka 45 minuter längre, tillsätt mer vatten vid behov. Kassera lök och lagerblad. Mosa potatisbitarna mot kanten av grytan med en visp och rör kraftigt för att tjockna soppan. Soppan ska vara tjock, med stora bitar potatis kvar.",
+        "Gryta med soppa, med mjuka, möra potatisar. En visp blandar potatisen i soppan.",
+        "Serious Eats / Mariel De La Cruz",
+        "Tillsätt majskolvar och fortsätt koka, rör om då och då, tills majsen är kokt och soppan tjocknat till konsistensen av tjock vispgrädde, cirka 15 minuter längre. Ta bort från värmen.",
+        "En kastrull med soppa med majskolvar.",
+        "Serious Eats / Mariel De La Cruz",
+        "Medan soppan kokar, gör aji: Blanda lök, koriander och chilipeppar i en liten serveringsskål och tillsätt vatten tills det precis täcks. Krydda generöst med salt och rör om. Ställ åt sidan. Kassera kycklingskinn och ben. Strimla köttet i munsbitar och ställ åt sidan i en serveringsskål.",
+        "En liten skål aji, innehållande lök, koriander och chilipeppar. En skål strimlad kyckling.",
+        "Serious Eats / Mariel De La Cruz",
+        "Krydda soppan efter smak med salt och peppar. Servera omedelbart, lägg över plockad kyckling, hackade kapris, gräddfil och aji vid bordet så att gästerna kan lägga till i sin skål. Servera avokadoskivor vid sidan av."
       ]
     },
-    "tags": [
-      "quick",
-      "spicy"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "tips": {
+      "en": "Papas Criollas are small, creamy yellow Colombian potatoes with a unique buttery flavor and texture. They can occasionally be found frozen in Latin markets. If unavailable, substitute small Yukon Golds or yellow fingerling potatoes, peeled and cut into 1-inch chunks.\r\nGuascas is a Colombian herb. It can be found in some Latin markets, or ordered online from amigofoods. If unavailable, replace with an extra 2 bay leaves (remove along with other bay leaves in step 2), plus 2 tablespoons of fresh chopped parsley leaves.",
+      "zh": "克里奥拉土豆（Papas Criollas）是哥伦比亚特有的小型奶油黄色土豆，口感和味道都带有独特的奶油香气。有时可以在拉丁美洲超市买到冷冻的克里奥拉土豆。如果买不到，可以用去皮切成1英寸块状的小型育空黄金土豆（Yukon Gold）或黄色手指土豆代替。\r\n瓜斯卡斯（Guascas）是一种哥伦比亚香草。在一些拉丁美洲超市可以买到，也可以从amigofoods网站在线订购。如果买不到，可以用两片月桂叶（在步骤2中与其他月桂叶一起取出）和两汤匙新鲜切碎的欧芹叶代替。",
+      "sv": "Papas Criollas är små, krämiga gula colombianska potatisar med en unik smörig smak och konsistens. De kan ibland hittas frysta på latinamerikanska marknader. Om de inte finns tillgängliga kan du ersätta dem med små Yukon Gold- eller gula fingerlingpotatisar, skalade och skurna i 2,5 cm stora bitar.\r\nGuascas är en colombiansk ört. Den kan hittas på vissa latinamerikanska marknader eller beställas online från amigofoods. Om den inte finns tillgänglig kan du ersätta den med 2 extra lagerblad (ta bort tillsammans med andra lagerblad i steg 2), plus 2 matskedar färsk hackad persilja."
+    },
+    "image_url": "/Recipe Image/SouthAmerica/SO-CO-003.png"
   },
   {
     "id": "SO-CO-004",
@@ -664,26 +937,26 @@
     },
     "subcategory": {
       "en": "Colombia",
-      "zh": "Colombia",
+      "zh": "哥伦比亚",
       "sv": "Colombia"
     },
     "dish_name": {
       "en": "Empanadas",
-      "zh": "Empanadas",
+      "zh": "拉丁美洲馅饼",
       "sv": "Empanadas"
     },
     "description": {
-      "en": "Empanadas - a classic Colombia dish prepared for home cooks.",
-      "zh": "Empanadas - 经典的Colombia菜，适合家庭烹饪。",
-      "sv": "Empanadas - en klassisk Colombiarätt anpassad för hemanvändning."
+      "en": "Empanadas are popular savory Latin American pastries made from dough that is folded over a filling—which can range from seasoned ground meat to cheese or vegetables—and then baked or fried until golden.",
+      "zh": "馅饼是拉丁美洲流行的咸味糕点，用面团包裹馅料制成，馅料可以是调味碎肉、奶酪或蔬菜，然后烘烤或油炸至金黄色。",
+      "sv": "Empanadas är populära salta latinamerikanska bakverk gjorda av deg som viks över en fyllning – som kan variera från kryddat köttfärs till ost eller grönsaker – och sedan bakas eller steks tills de är gyllenbruna."
     },
-    "total_time_min": 53,
+    "total_time_min": null,
     "difficulty": {
       "en": "Hard",
       "zh": "困难",
       "sv": "Svår"
     },
-    "servings": 6,
+    "servings": 4,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -691,51 +964,143 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "Dough",
+        "10 dl wheat flour",
+        "2 tsp baking powder",
+        "2 tsp salt",
+        "2 dl cold water",
+        "300 g room temperature butter",
+        "Filling",
+        "1 yellow onion",
+        "2 cloves of garlic",
+        "500 g minced beef",
+        "2 tbsp olive oil",
+        "3 tsp smoked paprika",
+        "3 tsp paprika",
+        "4 tsp dried oregano",
+        "1 1/2 tsp cumin",
+        "3 tbsp tomato puree",
+        "1 1/2 tbsp concentrated veal stock",
+        "1 dl water",
+        "1 pack crushed tomatoes (400 g each)",
+        "1 dl green olives, pitted",
+        "2 hard-boiled eggs",
+        "salt",
+        "black pepper",
+        "1 egg (for brushing)",
+        "To serve:",
+        "tomato salsa"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "面团",
+        "10分升小麦粉",
+        "2茶匙泡打粉",
+        "2茶匙盐",
+        "2分升冷水",
+        "300克室温软化黄油",
+        "馅料",
+        "1个黄洋葱",
+        "2瓣大蒜",
+        "500克牛肉末",
+        "2汤匙橄榄油",
+        "3茶匙烟熏辣椒粉",
+        "3茶匙辣椒粉",
+        "4茶匙干牛至",
+        "1.5茶匙孜然粉",
+        "3汤匙番茄酱",
+        "1.5汤匙浓缩小牛肉汤",
+        "1分升水",
+        "1包碎番茄（每包400克）",
+        "1分升去核青橄榄",
+        "2个煮熟的鸡蛋",
+        "盐",
+        "黑胡椒",
+        "1个鸡蛋（用于刷面）",
+        "佐以：",
+        "番茄莎莎酱"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "Deg",
+        "10 dl vetemjöl",
+        "2 tsk bakpulver",
+        "2 tsk salt",
+        "2 dl kallt vatten",
+        "300 g rumstempererat smör",
+        "Fyllning",
+        "1 gul lök",
+        "2 vitlöksklyftor",
+        "500 g nötfärs",
+        "2 msk olivolja",
+        "3 tsk rökt paprikapulver",
+        "3 tsk paprikapulver",
+        "4 tsk torkad oregano",
+        "1 1/2 tsk spiskummin",
+        "3 msk tomatpuré",
+        "1 1/2 msk konc kalvfond",
+        "1 dl vatten",
+        "1 förp krossade tomater (á 400 g)",
+        "1 dl gröna oliver , urkärnade",
+        "2 hårdkokta ägg",
+        "salt",
+        "svartpeppar",
+        "1 ägg (till pensling)",
+        "Till servering:",
+        "tomatsalsa"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Empanadas using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Dough: Mix flour, baking powder and salt in a bowl. Add water and butter and knead to a smooth dough. Let the dough rest, covered, at room temperature for about 30 minutes.",
+        "Filling: Peel and chop the onion and garlic.",
+        "Fry the minced meat in olive oil in a frying pan until it gets a nice color. Add the onion, garlic and spices and fry for a few minutes. Stir in the tomato paste and fry for another minute or so.",
+        "Pour in the veal stock, water and crushed tomatoes. Cook slowly without a lid for about 20 minutes. Stir occasionally.",
+        "Coarsely chop the olives. Peel and dice the eggs. Stir the olives and eggs into the minced meat mixture.",
+        "Cook for a few minutes and season with salt and pepper. Let the minced meat mixture cool.",
+        "Preheat the oven to 200°C.",
+        "Dough: Roll out the dough thinly, about 3–4 mm on a floured baking sheet. Cut out circles about 12 cm in diameter with a glass or bowl.",
+        "Beat the egg. Place about 1 1/2 tablespoons of filling in the center of the circle. Brush the edges with the egg. Close the pierogi and pinch the edges together firmly by pressing with a fork along the edge.",
+        "Place on a baking sheet lined with baking paper and brush the pierogi with egg.",
+        "Bake in the center of the oven for 15-20 minutes."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Empanadas using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "面团：将面粉、泡打粉和盐混合在一个碗中。加入水和黄油，揉成光滑的面团。盖上盖子，将面团在室温下醒发约30分钟。",
+        "馅料：将洋葱和大蒜去皮切碎。",
+        "在煎锅中用橄榄油将肉末炒至变色。加入洋葱、大蒜和香料，翻炒几分钟。加入番茄酱，再翻炒一分钟左右。",
+        "倒入小牛肉高汤、水和碎番茄。不盖盖子，小火慢炖约20分钟。偶尔搅拌。",
+        "将橄榄粗切。将鸡蛋去皮切丁。将橄榄和鸡蛋拌入肉末混合物中。",
+        "煮几分钟，用盐和胡椒粉调味。让肉末混合物冷却。",
+        "将烤箱预热至200°C。",
+        "面团：在撒了面粉的烤盘上，将面团擀成约3-4毫米厚的薄片。用玻璃杯或碗切出直径约12厘米的圆形面皮。",
+        "打散鸡蛋。在面皮中央放约1.5汤匙馅料。在面皮边缘刷上蛋液。将面皮捏合，用叉子沿边缘压紧。",
+        "将饺子放在铺有烘焙纸的烤盘上，并在饺子表面刷上蛋液。",
+        "放入烤箱中层烘烤15-20分钟。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Empanadas using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Deg: Blanda mjöl, bakpulver och salt i en bunke. Tillsätt vatten och smör och knåda till en slät deg. Låt degen vila övertäckt i rumstemperatur ca 30 minuter.",
+        "Fyllning: Skala och hacka lök och vitlök.",
+        "Stek färsen i olivoljan i en stekpanna tills den får fin färg. Tillsätt lök, vitlök och kryddorna och fräs i några minuter. Rör ner tomatpuré och fräs ytterligare någon minut.",
+        "Häll på kalvfond, vatten och krossade tomater. Koka sakta utan lock i ca 20 minuter. Rör om då och då.",
+        "Hacka oliverna grovt. Skala och skär äggen i tärningar. Rör ner oliver och ägg i färsröran.",
+        "Koka i några minuter och smaka av med salt och peppar. Låt färsröran bli kall.",
+        "Sätt ugnen på 200°C.",
+        "Deg: Kavla ut degen tunt, ca 3–4 mm på mjölat bakbord. Stansa ut cirklar ca 12 cm i diameter med ett glas eller en skål.",
+        "Vispa upp ägget. Lägg ca 1 1/2 msk fyllning i mitten av cirkeln. Pensla kanterna med ägget. Stäng pirogen och nyp ihop kanterna ordentligt genom att trycka med en gaffel längs med kanten.",
+        "Lägg på en bakplåtspappersklädd plåt och pensla pirogerna med ägg.",
+        "Grädda i mitten av ugnen 15- 20 minuter."
       ]
     },
-    "tags": [
-      "grilled",
-      "gluten-free"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "tips": {
+      "en": "The pierogi can be frozen unbaked and can be taken out and baked from the freezer for about 25 minutes in the middle of the oven at 200°C.",
+      "zh": "饺子可以生冻，食用前从冰箱取出，放入烤箱中层，以 200°C 烘烤约 25 分钟。",
+      "sv": "Pirogerna går att frysa ogräddade och kan tas fram och gräddas färdiga från frysen i ca 25 minuter i mitten av ugnen på 200°C."
+    },
+    "image_url": "/Recipe Image/SouthAmerica/SO-CO-004.png"
   },
   {
     "id": "SO-CO-005",
@@ -746,26 +1111,26 @@
     },
     "subcategory": {
       "en": "Colombia",
-      "zh": "Colombia",
+      "zh": "哥伦比亚",
       "sv": "Colombia"
     },
     "dish_name": {
       "en": "Sancocho",
-      "zh": "Sancocho",
+      "zh": "拉丁美洲浓汤",
       "sv": "Sancocho"
     },
     "description": {
-      "en": "Sancocho - a classic Colombia dish prepared for home cooks.",
-      "zh": "Sancocho - 经典的Colombia菜，适合家庭烹饪。",
-      "sv": "Sancocho - en klassisk Colombiarätt anpassad för hemanvändning."
+      "en": "A comforting, rustic Latin American stew made with a large variety of starchy root vegetables, corn, plantains, and one or more types of meat (often chicken, beef, or fish), all simmered in a light broth until tender.",
+      "zh": "一道令人感到舒适的、质朴的拉丁美洲炖菜，用多种淀粉类根茎蔬菜、玉米、大蕉和一种或多种肉类（通常是鸡肉、牛肉或鱼肉）炖煮而成，所有食材都在清淡的肉汤中慢炖至软烂。",
+      "sv": "En tröstande, rustik latinamerikansk gryta gjord med en stor variation av stärkelserika rotfrukter, majs, kokbananer och en eller flera typer av kött (ofta kyckling, nötkött eller fisk), allt sjudet i en lätt buljong tills det är mört."
     },
-    "total_time_min": 53,
+    "total_time_min": null,
     "difficulty": {
       "en": "Medium",
       "zh": "中等",
       "sv": "Medel"
     },
-    "servings": 3,
+    "servings": 8,
     "main_type": {
       "en": "Meat",
       "zh": "肉类",
@@ -773,50 +1138,106 @@
     },
     "ingredients": {
       "en": [
-        "300 g beef",
-        "1 pc onion",
-        "2 cloves garlic",
-        "30 ml olive oil"
+        "6 frozen mini ears extra-sweet corn on the cob",
+        "2 pounds beef stew meat (1 1/2-inch pieces), boneless chuck roast, or London broil",
+        "2 teaspoons kosher salt",
+        "1 teaspoon freshly ground black pepper",
+        "2 tablespoons neutral oil, such as canola, divided",
+        "10 cups unsalted beef broth or water",
+        "1 cup fresh sofrito or thawed frozen sofrito, divided",
+        "1 1/2 teaspoons sazón seasoning, such as Badia or Iberia, plus more as needed",
+        "1 1/2 teaspoons adobo spice blend, such as Spice Tribe, plus more as needed",
+        "2 Knorr pork bouillon cubes, or 2 packets Goya Ham Flavored Concentrate from a 1.41-ounce box",
+        "2 small bay leaves",
+        "1 large guineo (green banana)",
+        "1 (32-ounce) bag frozen sancocho tropical vegetable mix (no need to thaw)",
+        "4 fresh culantro leaves (also known as recao or sawtooth herb)",
+        "1 large fresh oregano brujo leaf (also known as Mexican mint)",
+        "Steamed white rice, for serving",
+        "Sliced avocado, for serving",
+        "Hot sauce (optional)"
       ],
       "zh": [
-        "300 g 牛肉",
-        "1 pc 洋葱",
-        "2 cloves 大蒜",
-        "30 ml 橄榄油"
+        "6根冷冻迷你特甜玉米棒",
+        "2磅炖牛肉（切成1.5英寸的小块），去骨牛肩肉或伦敦烤肉",
+        "2茶匙粗盐",
+        "1茶匙现磨黑胡椒",
+        "2汤匙中性油，例如菜籽油，分次使用",
+        "10杯无盐牛肉汤或水",
+        "1杯新鲜索夫里托酱或解冻的冷冻索夫里托酱，分次使用",
+        "1.5茶匙萨松调味料，例如Badia或Iberia，可根据需要添加更多",
+        "1.5茶匙阿多波香料混合物，例如Spice Tribe，可根据需要添加更多",
+        "2块家乐猪肉浓汤宝，或2包Goya火腿风味浓缩汁（1.41盎司装）",
+        "2片小月桂叶",
+        "1根大香蕉（青香蕉）",
+        "1袋（32盎司）冷冻桑科乔热带蔬菜什锦（无需添加）解冻）",
+        "4 片新鲜刺芫荽叶（也称刺芫荽或锯齿草）",
+        "1 片新鲜大片牛至叶（也称墨西哥薄荷）",
+        "蒸白米饭，用于搭配食用",
+        "牛油果片，用于搭配食用",
+        "辣酱（可选）"
       ],
       "sv": [
-        "300 g nötkött",
-        "1 pc lök",
-        "2 cloves vitlök",
-        "30 ml olivolja"
+        "6 frysta mini-majskolv med extra söt majs",
+        "900 g nötgryta (4,5 cm stora bitar), benfri chuck roast eller London broil",
+        "2 tsk kosher salt",
+        "1 tsk nymalen svartpeppar",
+        "2 msk neutral olja, såsom raps, uppdelad",
+        "3,5 dl osaltat nötbuljong eller vatten",
+        "2,5 dl färsk sofrito eller upptinad fryst sofrito, uppdelad",
+        "1,5 tsk sazón-krydda, såsom Badia eller Iberia, plus mer efter behov",
+        "1,5 tsk adobokryddblandning, såsom Spice Tribe, plus mer efter behov",
+        "2 Knorr-fläskbuljongtärningar eller 2 paket Goya-skinkasmaksatt koncentrat från en 450 g förpackning",
+        "2 små lagerblad",
+        "1 stor guineo (grön banan)",
+        "1 påse (910 g) fryst sancocho tropisk grönsaksblandning (behöver inte tina)",
+        "4 färska culantablad (även kända som recao eller sågtandsört)",
+        "1 stort färskt oregano brujo-blad (även känt som mexikansk mynta)",
+        "Ångkokt vitt ris, till servering",
+        "Skivad avokado, till servering",
+        "Stark sås (valfritt)"
       ]
     },
     "steps": {
       "en": [
-        "Prepare ingredients: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "If required, marinate or season the main ingredients for 15–30 minutes.",
-        "Preheat pan or oven to 200°C when appropriate.",
-        "Cook Sancocho using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Taste and adjust seasoning, rest if needed, then serve warm."
+        "Let 6 frozen mini ears corn thaw at room temperature while you start the sancocho.",
+        "Trim off any thick surface fat from 2 pounds chuck roast or London broil and cut into 1 1/2-inch pieces if needed (no need to cut beef stew meat). Season the beef with 2 teaspoons kosher salt and 1 teaspoon black pepper.",
+        "Heat 1 tablespoon of the neutral oil in a large pot or Dutch oven (at least 5 1/2 quarts) over medium-high heat until shimmering. Add half of the beef and sear until browned all over, 6 to 8 minutes. Transfer to a bowl or plate. Add the remaining 1 tablespoon neutral oil to the pot and repeat searing the remaining beef.",
+        "Return all the beef and any accumulated juices to the pot. Add 10 cups unsalted beef broth or water, 1/2 cup of the sofrito, 1 1/2 teaspoons sazón seasoning, 1 1/2 teaspoons adobo spice blend, 2 pork bouillon cubes or ham concentrate packets, and 2 small bay leaves. Stir to combine and bring to a boil. Reduce the heat to medium-low. Cover and simmer until the beef is tender, about 1 1/2 hours.",
+        "When the beef is almost ready, cut each thawed mini ear of corn crosswise into 3 rounds. Peel and cut 1 guineo (green banana) crosswise into 1-inch thick rounds.",
+        "When the beef is ready, add the corn, guineo, remaining 1/2 cup sofrito, 1 (32-ounce) bag frozen sancocho tropical vegetable mix, 4 fresh culantro leaves, and 1 large fresh oregano brujo leaf. Stir to combine and bring to a simmer. Simmer uncovered until the root vegetables are fork-tender, about 30 minutes.",
+        "Remove the oregano brujo and bay leaves. Taste and season with more sazón and adobo as needed. Serve with steamed white rice, sliced avocado, and hot sauce if desired."
       ],
       "zh": [
-        "准备食材: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "如需，可将主要食材腌制或调味15–30分钟。",
-        "如适用，将锅或烤箱预热至200°C。",
-        "烹饪 Sancocho using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "尝味并调整调味，必要时静置片刻，趁热上桌。"
+        "在开始制作桑科乔汤的同时，将6根冷冻小玉米棒在室温下解冻。",
+        "将2磅牛肩肉或伦敦烤肉表面的厚脂肪剔除，如有需要，切成1.5英寸的小块（炖牛肉无需切块）。用2茶匙粗盐和1茶匙黑胡椒粉调味。",
+        "在大锅或荷兰锅（至少5.5夸脱）中，用中高火加热1汤匙中性油至油面闪烁。放入一半牛肉，煎至表面完全变色，约6至8分钟。将牛肉盛出备用。在锅中加入剩余的1汤匙中性油，重复上述步骤煎剩余的牛肉。",
+        "将所有牛肉及其渗出的肉汁一起倒回锅中。加入10杯无盐牛肉汤或水、1/2杯索夫里托酱、1 1/2茶匙萨松调味料、1 1/2茶匙阿多波香料混合物、2块猪肉浓汤宝或火腿浓缩汁包，以及2片小月桂叶。搅拌均匀后煮沸。转小火慢炖，盖上锅盖，直至牛肉软烂，约1.5小时。",
+        "牛肉快煮好时，将每根解冻的小玉米棒横切成3段。将1根青香蕉（guineo）去皮，横切成1英寸厚的圆片。",
+        "牛肉煮好后，加入玉米、青香蕉、剩余的1/2杯索夫里托酱、1袋（32盎司）冷冻桑科乔热带蔬菜混合菜、4片新鲜刺芫荽叶和1片新鲜牛至叶。搅拌均匀，煮至微沸。敞开锅盖慢炖，直至根茎类蔬菜可以用叉子轻松戳透，约30分钟。",
+        "取出牛至碎和月桂叶。尝尝味道，根据需要添加更多萨松调味料和阿多波调味料。搭配蒸白米饭、牛油果片，如果喜欢，还可以加些辣酱。"
       ],
       "sv": [
-        "Förbered ingredienserna: 300 g beef, 1 pc onion, 2 cloves garlic, 30 ml olive oil.",
-        "Om nödvändigt, marinera eller krydda huvudingredienserna i 15–30 minuter.",
-        "Förvärm panna eller ugn till 200°C vid behov.",
-        "Tillaga Sancocho using the suitable method (grill, sauté, simmer or bake) until properly done.",
-        "Smaka av och justera kryddning, vila om nödvändigt och servera varm."
+        "Låt 6 frysta minimajsax tina i rumstemperatur medan du börjar med sancocho.",
+        "Skär bort tjockt ytfett från 900 g chuck roast eller London broil och skär i 3,5 cm stora bitar om det behövs (du behöver inte skära kött från nötgryta). Krydda nötköttet med 2 teskedar kosher salt och 1 tesked svartpeppar.",
+        "Värm 1 matsked neutral olja i en stor kastrull eller gryta (minst 1,5 liter) på medelhög värme tills det skimrar. Tillsätt hälften av nötköttet och bryn tills det är brynt runtom, 6 till 8 minuter. Lägg över i en skål eller tallrik. Tillsätt resterande 1 matsked neutral olja i grytan och upprepa brynningen av resterande nötkött.",
+        "Häll tillbaka allt nötkött och eventuellt ackumulerat nötkött i grytan. Tillsätt 2,5 dl osaltat köttbuljong eller vatten, 1,2 dl sofrito, 1,5 tsk sazón-krydda, 1,5 tsk adobokryddblandning, 2 påsar fläskbuljongtärningar eller skinkkoncentrat och 2 små lagerblad. Rör om och låt koka upp. Sänk värmen till medel-låg. Täck över och låt sjuda tills köttet är mört, cirka 1,5 timme.",
+        "När köttet är nästan klart, skär varje upptinat minimajsstav tvärs över i 3 skivor. Skala och skär 1 guineo (grön banan) tvärs över i 2,5 cm tjocka skivor.",
+        "När köttet är klart, tillsätt majsen, guineo, resterande 1,2 dl sofrito, 1 påse (900 g) fryst sancocho tropisk grönsaksblandning, 4 färska korianderblad och 1 stort färskt oregano brujo-blad. Rör om och låt sjuda. Låt sjuda utan lock tills rotfrukterna är möra med en gaffel, cirka 30 minuter.",
+        "Ta bort oregano brujo och lagerblad. Smaka av och krydda med mer sazón och adobo efter behov. Servera med ångkokt vitt ris, skivad avokado och stark sås om så önskas."
       ]
     },
-    "tags": [
-      "vegetarian",
-      "family"
-    ]
+    "tags": [],
+    "cooking_method": {
+      "en": "",
+      "zh": "",
+      "sv": ""
+    },
+    "tips": {
+      "en": "Make sure to taste and adjust the amount accordingly to avoid oversalting your dish.\r\nSubstitutions: Frozen sancocho vegetable mix includes Caribbean pumpkin, cassava, yam, sweet potato, green plantain, and malanga. If using fresh vegetables, use equal amounts of each vegetable, chopped into large chunks, until you have 2 pounds total.\r\n2 ears fresh corn on the cob can be substituted for the frozen corn. Shuck and cut crosswise into rounds about 1-inch wide.\r\nOregano brujo and culantro can typically be found in international or Latin markets. If you can’t find oregano brujo, just omit it. If you can’t find culantro, substitute it with 4 fresh cilantro sprigs.\r\nStorage: Leftovers can be refrigerated in an airtight container for up to 3 days. They can also be frozen for up to 6 months; thaw overnight in the refrigerator and reheat with a splash of broth or water to thin it back out.",
+      "zh": "务必尝味并根据口味调整用量，以免菜肴过咸。\r\n替换食材：冷冻桑科乔蔬菜混合装包含加勒比南瓜、木薯、山药、红薯、青香蕉和芋头。如果使用新鲜蔬菜，每种蔬菜用量相同，切成大块，直至总量达到 2 磅（约 0.9 公斤）。\r\n2 根新鲜玉米棒可以代替冷冻玉米。剥去玉米皮，横切成约 1 英寸（约 2.5 厘米）宽的圆片。\r\n牛至和刺芫荽通常可以在国际超市或拉丁美洲超市找到。如果找不到牛至，可以省略。如果找不到刺芫荽，可以用 4 枝新鲜香菜代替。\r\n储存：剩余的菜肴可以在密封容器中冷藏最多 3 天。也可以冷冻最多 6 个月。在冰箱里解冻一夜，然后加一点肉汤或水重新加热，使其变稀。",
+      "sv": "Se till att smaka av och justera mängden därefter för att undvika att översalta din rätt.\r\nErsättningar: Fryst sancocho-grönsaksblandning innehåller karibisk pumpa, kassava, yam, sötpotatis, grön plantain och malanga. Om du använder färska grönsaker, använd lika stora mängder av varje grönsak, hackad i stora bitar, tills du har totalt 900 gram.\r\n2 ax färska majskolvar kan ersätta den frysta majsen. Skala och skär tvärs över i rundlar cirka 2,5 cm breda.\r\nOregano brujo och culantro kan vanligtvis hittas på internationella eller latinamerikanska marknader. Om du inte hittar oregano brujo, uteslut den bara. Om du inte hittar culantro, ersätt den med 4 färska korianderkvistar.\r\n\r\nFörvaring: Rester kan förvaras kylt i en lufttät behållare i upp till 3 dagar. De kan också frysas i upp till 6 månader; tina över natten i kylskåpet och värm upp med en skvätt buljong eller vatten för att späda ut det igen."
+    },
+    "image_url": "/Recipe Image/SouthAmerica/SO-CO-005.png"
   }
 ]

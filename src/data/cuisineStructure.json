@@ -14,8 +14,8 @@
     {
       "name": "Asia",
       "subcategories": [
-        "Chinese",
-        "Japanese",
+        "China",
+        "Japan",
         "Malaysia",
         "Thailand",
         "Korea",
@@ -53,7 +53,7 @@
     {
       "name": "North America",
       "subcategories": [
-        "America",
+        "USA",
         "Canada"
       ],
       "color": "#20c997",

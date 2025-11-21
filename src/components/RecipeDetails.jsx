@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { sanitizeRecipe, logRecipeValidation } from '../utils/recipeDataSanitizer'
 import { getRecipeImageUrl } from '../utils/imageGenerator'
+import { getBestDishName } from '../utils/dishNameTranslator'
 
 function RecipeDetails({ recipe, onClose }) {
   const { t, i18n } = useTranslation()
@@ -60,7 +61,7 @@ function RecipeDetails({ recipe, onClose }) {
   } = cleanRecipeData
 
   // Get dish name for image generation
-  const dishName = recipe.dish_name?.[i18n.language] || recipe.dish_name?.en || name || 'food'
+  const dishName = getBestDishName(recipe, i18n.language) || name || 'food'
   const imageUrl = getRecipeImageUrl(recipe, i18n.language)
 
   return (

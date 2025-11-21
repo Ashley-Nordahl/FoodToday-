@@ -99,7 +99,7 @@ CREATE POLICY "Users can delete own favorites" ON user_favorites
 
 -- Function: Increment user stat counter
 -- This function either inserts a new stat or increments the count if it exists
-CREATE OR REPLACE FUNCTION increment_user_stat(
+CREATE OR REPLACE FUNCTION public.increment_user_stat(
   p_user_id uuid,
   p_item_id integer,
   p_item_type text,
@@ -120,6 +120,9 @@ BEGIN
     updated_at = now();
 END;
 $$;
+
+-- Grant execute permission to authenticated users
+GRANT EXECUTE ON FUNCTION public.increment_user_stat(uuid, integer, text, text, text) TO authenticated;
 
 -- ----------------------------------------
 -- 5. Triggers
@@ -204,7 +207,7 @@ CREATE TRIGGER update_user_preferences_updated_at
   EXECUTE FUNCTION update_updated_at_column();
 
 -- Function: Update or insert user language preference
-CREATE OR REPLACE FUNCTION upsert_user_language(
+CREATE OR REPLACE FUNCTION public.upsert_user_language(
   p_user_id uuid,
   p_language text
 )
@@ -221,6 +224,9 @@ BEGIN
     updated_at = now();
 END;
 $$;
+
+-- Grant execute permission to authenticated users
+GRANT EXECUTE ON FUNCTION public.upsert_user_language(uuid, text) TO authenticated;
 
 -- ----------------------------------------
 -- Setup Complete!

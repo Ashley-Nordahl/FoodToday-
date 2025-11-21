@@ -25,24 +25,21 @@ export const getRecipeById = (id) => {
   return allRecipes.find(recipe => recipe.id === id)
 }
 
-export const getRecipesByCategory = (category) => {
+export const getRecipesByCategory = (category, language = 'en') => {
   return allRecipes.filter(recipe => {
-    const currentLanguage = 'en' // Default to English for now
-    return recipe.main_type?.[currentLanguage] === category || recipe.main_type?.en === category
+    return recipe.main_type?.[language] === category || recipe.main_type?.en === category
   })
 }
 
-export const getRecipesByCuisine = (cuisine) => {
+export const getRecipesByCuisine = (cuisine, language = 'en') => {
   return allRecipes.filter(recipe => {
-    const currentLanguage = 'en' // Default to English for now
-    return recipe.region?.[currentLanguage] === cuisine || recipe.region?.en === cuisine
+    return recipe.region?.[language] === cuisine || recipe.region?.en === cuisine
   })
 }
 
-export const getRecipesBySubcategory = (subcategory) => {
+export const getRecipesBySubcategory = (subcategory, language = 'en') => {
   return allRecipes.filter(recipe => {
-    const currentLanguage = 'en' // Default to English for now
-    return recipe.subcategory?.[currentLanguage] === subcategory || recipe.subcategory?.en === subcategory
+    return recipe.subcategory?.[language] === subcategory || recipe.subcategory?.en === subcategory
   })
 }
 

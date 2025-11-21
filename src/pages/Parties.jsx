@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import i18n from '../i18n.js'
 import IngredientCheckbox from '../components/IngredientCheckbox.jsx'
@@ -16,30 +16,38 @@ import {
   getCookingTimeTranslation, 
   getDifficultyTranslation 
 } from '../utils/recipeTranslations.js'
+import { getBestDishName, getBestDescription, getBestInstructions } from '../utils/dishNameTranslator'
+import RecipeImage from '../components/RecipeImage'
 
 // Data structure functions for parties page
-const useIngredientCategories = () => {
+const useIngredientCategories = (t) => {
   return [
-    { value: 'meat', label: 'Meat', emoji: '🥩' },
-    { value: 'seafood', label: 'Seafood', emoji: '🦞' },
-    { value: 'vegetables', label: 'Vegetables', emoji: '🥬' },
-    { value: 'grains', label: 'Grains', emoji: '🍚' },
-    { value: 'egg', label: 'Egg', emoji: '🥚' }
+    { value: 'meat', label: t('parties.ingredientLabels.meat'), emoji: '🥩' },
+    { value: 'seafood', label: t('parties.ingredientLabels.seafood'), emoji: '🦞' },
+    { value: 'vegetables', label: t('parties.ingredientLabels.vegetables'), emoji: '🥬' },
+    { value: 'grains', label: t('parties.ingredientLabels.grains'), emoji: '🍚' },
+    { value: 'egg', label: t('parties.ingredientLabels.egg'), emoji: '🥚' }
   ]
 }
 
-const useTastePreferences = () => {
+const useTastePreferences = (t) => {
   return [
-    { value: 'rich', label: 'Rich', emoji: '🍯' },
-    { value: 'spicy', label: 'Spicy', emoji: '🌶️' },
-    { value: 'sweet', label: 'Sweet', emoji: '🍯' },
-    { value: 'sour', label: 'Sour', emoji: '🍋' },
-    { value: 'salty', label: 'Salty', emoji: '🧂' },
-    { value: 'mild', label: 'Mild', emoji: '🌿' }
+    { value: 'rich', label: t('parties.tasteLabels.rich'), emoji: '🍯' },
+    { value: 'spicy', label: t('parties.tasteLabels.spicy'), emoji: '🌶️' },
+    { value: 'sweet', label: t('parties.tasteLabels.sweet'), emoji: '🍯' },
+    { value: 'sour', label: t('parties.tasteLabels.sour'), emoji: '🍋' },
+    { value: 'salty', label: t('parties.tasteLabels.salty'), emoji: '🧂' },
+    { value: 'mild', label: t('parties.tasteLabels.mild'), emoji: '🌿' }
   ]
 }
 
-const useCuisineStyles = () => {
+const formatCuisineLabel = key => key.split('_').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
+const getCuisineFilterValue = selection => {
+  if (!selection || selection === 'mixed') return null;
+  return formatCuisineLabel(selection);
+};
+
+const useCuisineStyles = (t) => {
   // Get actual cuisines from recipe data
   const allRecipes = getAllRecipes()
   const cuisines = [...new Set(allRecipes.map(recipe => recipe.region?.en || recipe.region?.zh || recipe.region?.sv))]
@@ -56,25 +64,28 @@ const useCuisineStyles = () => {
   }
   
   // Convert to the format expected by the component
-  const cuisineOptions = cuisines.map(cuisine => ({
-    value: cuisine.toLowerCase().replace(/\s+/g, '_'),
-    label: cuisine,
-    emoji: cuisineStyles[cuisine]?.emoji || '🍽️',
-    flag: cuisineStyles[cuisine]?.flag || '🌍'
-  }))
+  const cuisineOptions = cuisines.map(cuisine => {
+    const cuisineKey = cuisine.toLowerCase().replace(/\s+/g, '_')
+    return {
+      value: cuisineKey,
+      label: t(`parties.cuisineLabels.${cuisineKey}`) || cuisine,
+      emoji: cuisineStyles[cuisine]?.emoji || '🍽️',
+      flag: cuisineStyles[cuisine]?.flag || '🌍'
+    }
+  })
   
   // Add "Mixed" option at the beginning
   return [
-    { value: 'mixed', label: 'Mixed', emoji: '🌍', flag: '🌍' },
+    { value: 'mixed', label: t('parties.cuisineLabels.mixed'), emoji: '🌍', flag: '🌍' },
     ...cuisineOptions
   ]
 }
 
-const useDiningScenarios = () => {
+const useDiningScenarios = (t) => {
   return [
-    { value: 'family', label: 'Family', emoji: '👨‍👩‍👧‍👦' },
-    { value: 'friends', label: 'Friends', emoji: '👥' },
-    { value: 'romantic', label: 'Romantic', emoji: '💕' }
+    { value: 'family', label: t('parties.scenarioLabels.family'), emoji: '👨‍👩‍👧‍👦' },
+    { value: 'friends', label: t('parties.scenarioLabels.friends'), emoji: '👥' },
+    { value: 'romantic', label: t('parties.scenarioLabels.romantic'), emoji: '💕' }
   ]
 }
 
@@ -82,9 +93,6 @@ const useDiningScenarios = () => {
 const getCategoryEmoji = (recipe, language = 'en') => {
   // Use the main_type field directly from the recipe database
   const mainType = recipe.main_type?.en || recipe.main_type?.[language] || recipe.main_type
-  
-  console.log(`🔍 Emoji Debug - Recipe: ${recipe.dish_name?.en || recipe.name}`)
-  console.log(`🔍 Emoji Debug - Main type: ${mainType}`)
   
   // Map main_type to appropriate emoji
   const emojiMap = {
@@ -96,7 +104,6 @@ const getCategoryEmoji = (recipe, language = 'en') => {
   }
   
   const emoji = emojiMap[mainType] || '🍽️'
-  console.log(`🔍 Emoji Debug - Selected emoji: ${emoji} for main_type: ${mainType}`)
   
   return emoji
 }
@@ -217,9 +224,9 @@ const isIngredientInCategory = (ingredientString, category) => {
       case 'seafood':
         return metadata.category === 'Seafood'
       case 'vegetables':
-        return metadata.category === 'Vegetables'
+        return metadata.category === 'Vegetable'
       case 'grains':
-        return metadata.category === 'Grains' || metadata.category === 'Staples'
+        return metadata.category === 'Grain' || metadata.category === 'Staples'
       case 'egg':
         return cleanIngredientId.includes('egg')
       default:
@@ -399,7 +406,8 @@ const generatePartyRecipes = async (selections, language) => {
     // Get the actual number of filled plates
     const filledPlates = selections.dishCategories || []
     const selectedCuisine = selections.cuisineStyle
-    
+    const cuisineFilterValue = getCuisineFilterValue(selectedCuisine)
+
     console.log('🔍 Debug - filledPlates:', filledPlates)
     console.log('🔍 Debug - selectedCuisine:', selectedCuisine)
     console.log('🔍 Debug - total recipes available:', allRecipes.length)
@@ -418,8 +426,8 @@ const generatePartyRecipes = async (selections, language) => {
           console.log(`🔍 Debug - Found ${categoryRecipes.length} recipes for ${recipeCategory}`)
           
           // Apply cuisine filtering if not "mixed"
-          if (selectedCuisine && selectedCuisine !== 'mixed') {
-            const cuisineRecipes = getRecipesByCuisine(selectedCuisine)
+          if (cuisineFilterValue) {
+            const cuisineRecipes = getRecipesByCuisine(cuisineFilterValue, i18n.language)
             console.log(`🔍 Debug - Found ${cuisineRecipes.length} recipes for cuisine: ${selectedCuisine}`)
             
             // Filter category recipes by cuisine
@@ -463,7 +471,8 @@ const generatePartyRecipes = async (selections, language) => {
 const regenerateSingleDish = async (category, otherDishes, selectedCuisine, selectedTastes, language) => {
   console.log('🔍 Debug - Using recipe database for single dish regeneration')
   console.log('🔍 Debug - selectedCuisine:', selectedCuisine)
-  
+  const cuisineFilterValue = getCuisineFilterValue(selectedCuisine)
+
   try {
     // Map ingredient categories to recipe main_type values
     const categoryMapping = {
@@ -490,8 +499,8 @@ const regenerateSingleDish = async (category, otherDishes, selectedCuisine, sele
     console.log(`🔍 Debug - Found ${categoryRecipes.length} recipes for ${recipeCategory}`)
     
     // Apply cuisine filtering if not "mixed"
-    if (selectedCuisine && selectedCuisine !== 'mixed') {
-      const cuisineRecipes = getRecipesByCuisine(selectedCuisine)
+    if (cuisineFilterValue) {
+      const cuisineRecipes = getRecipesByCuisine(cuisineFilterValue, i18n.language)
       console.log(`🔍 Debug - Found ${cuisineRecipes.length} recipes for cuisine: ${selectedCuisine}`)
       
       // Filter category recipes by cuisine
@@ -532,20 +541,35 @@ const regenerateSingleDish = async (category, otherDishes, selectedCuisine, sele
 function Parties() {
   const { t, i18n } = useTranslation()
 
+  const resolveDishName = (dish) => {
+    if (!dish) return 'Unknown Recipe';
+    if (typeof dish.name === 'string' && dish.name.startsWith('dish.')) {
+      return t(`dishes.${dish.name.replace('dish.', '')}`);
+    }
+    const bestName = getBestDishName(dish, i18n.language);
+    if (bestName && bestName !== 'Unknown Recipe') {
+      return bestName;
+    }
+    if (typeof dish.name === 'string') {
+      return dish.name;
+    }
+    return bestName;
+  };
+
   // Get party data from proper data structure
-  const ingredientCategories = useIngredientCategories()
-  const tastePreferences = useTastePreferences()
-  const cuisineStyles = useCuisineStyles()
-  const diningScenarios = useDiningScenarios()
+  const ingredientCategories = useIngredientCategories(t)
+  const tastePreferences = useTastePreferences(t)
+  const cuisineStyles = useCuisineStyles(t)
+  const diningScenarios = useDiningScenarios(t)
   
   // State management with plate system
   const [numberOfDishes, setNumberOfDishes] = useState(4)
   const [dishCategories, setDishCategories] = useState(
     [
-      { value: 'meat', label: 'Meat', emoji: '🥩' },      // Plate 1: Meat
-      { value: 'meat', label: 'Meat', emoji: '🥩' },      // Plate 2: Meat  
-      { value: 'seafood', label: 'Seafood', emoji: '🦞' }, // Plate 3: Seafood
-      { value: 'vegetables', label: 'Vegetables', emoji: '🥬' }, // Plate 4: Vegetables
+      { value: 'meat', label: t('parties.ingredientLabels.meat'), emoji: '🥩' },      // Plate 1: Meat
+      { value: 'meat', label: t('parties.ingredientLabels.meat'), emoji: '🥩' },      // Plate 2: Meat  
+      { value: 'seafood', label: t('parties.ingredientLabels.seafood'), emoji: '🦞' }, // Plate 3: Seafood
+      { value: 'vegetables', label: t('parties.ingredientLabels.vegetables'), emoji: '🥬' }, // Plate 4: Vegetables
       null, null, null, null, null, null  // Remaining plates empty
     ]
   )
@@ -610,10 +634,10 @@ function Parties() {
     setSelectedCuisine('mixed')
     setSelectedScenario('friends')
     setDishCategories([
-      { value: 'meat', label: 'Meat', emoji: '🥩' },
-      { value: 'meat', label: 'Meat', emoji: '🥩' },
-      { value: 'seafood', label: 'Seafood', emoji: '🦞' },
-      { value: 'vegetables', label: 'Vegetables', emoji: '🥬' },
+      { value: 'meat', label: t('parties.ingredientLabels.meat'), emoji: '🥩' },
+      { value: 'meat', label: t('parties.ingredientLabels.meat'), emoji: '🥩' },
+      { value: 'seafood', label: t('parties.ingredientLabels.seafood'), emoji: '🦞' },
+      { value: 'vegetables', label: t('parties.ingredientLabels.vegetables'), emoji: '🥬' },
       null, null, null, null, null, null
     ])
     setGeneratedDishes(null)
@@ -914,11 +938,7 @@ function Parties() {
     
     list += `🍳 ${t('shoppingList.menu')}:\n`
     generatedDishes.dishes.forEach((dish, index) => {
-      const dishName = typeof dish.name === 'string' && dish.name.startsWith('dish.')
-        ? t(`dishes.${dish.name.replace('dish.', '')}`)
-        : typeof dish.name === 'string'
-          ? dish.name
-          : dish.dish_name?.en || dish.name
+      const dishName = resolveDishName(dish)
       list += `${index + 1}. ${getCategoryEmoji(dish)} ${dishName}\n`
     })
     
@@ -1047,12 +1067,12 @@ function Parties() {
                 className={`plate-container ${dishCategories[index] ? 'has-category' : ''}`}
                 onClick={() => handlePlateClick(index)}
                 style={{ cursor: 'pointer' }}
-                title={dishCategories[index] ? "Click to remove ingredient" : "Click an ingredient below to add it"}
+                title={dishCategories[index] ? t('parties.tooltips.clickToRemoveIngredient') : t('parties.tooltips.clickIngredientToAdd')}
               >
                 {dishCategories[index] && (
                   <div 
                     className="plate-category-badge"
-                    title="Click the plate to remove"
+                    title={t('parties.tooltips.clickPlateToRemove')}
                   >
                     {dishCategories[index].emoji}
                   </div>
@@ -1074,7 +1094,7 @@ function Parties() {
                 key={cat.value}
                 className={`category-btn-common ${selectedCategory?.value === cat.value ? 'selected' : ''}`}
                 onClick={() => handleCategoryClick(cat)}
-                title={`Click ${cat.label} to add to a plate`}
+                title={t('parties.tooltips.clickToAddToPlate', { ingredient: cat.label })}
                 style={{ cursor: 'pointer' }}
               >
                 {cat.emoji}
@@ -1238,11 +1258,7 @@ function Parties() {
                 <div className="dish-emoji">{getCategoryEmoji(dish) || '🍽️'}</div>
                 <div className="dish-details">
                   <div className="dish-name">
-                    {typeof dish.name === 'string' && dish.name.startsWith('dish.')
-                      ? t(`dishes.${dish.name.replace('dish.', '')}`)
-                      : typeof dish.name === 'string'
-                        ? dish.name
-                        : dish.dish_name?.en || dish.name}
+                    {resolveDishName(dish)}
                   </div>
                   {dish.description && (
                     <div className="dish-description">
@@ -1254,10 +1270,10 @@ function Parties() {
                     </div>
                   )}
                   <div className="dish-category">
-                    {dish.region?.en && getCuisineTranslation(dish.region.en, i18n.language)}
-                    {dish.total_time_min && ` • ${dish.total_time_min} min`}
-                    {dish.difficulty?.en && ` • ${dish.difficulty.en}`}
-                    {dish.servings && ` • ${dish.servings} servings`}
+                    {dish.region?.[i18n.language] && getCuisineTranslation(dish.region[i18n.language], i18n.language)}
+                    {dish.total_time_min && ` • ${dish.total_time_min} ${t('recipe.min')}`}
+                    {dish.difficulty?.[i18n.language] && ` • ${dish.difficulty[i18n.language]}`}
+                    {dish.servings && ` • ${dish.servings} ${t('recipe.servings')}`}
                   </div>
                 </div>
                 <div className="dish-actions-inline">
@@ -1314,19 +1330,21 @@ function Parties() {
             >
               ✕
             </button>
+            {/* Recipe Image */}
+            <RecipeImage 
+              recipe={selectedRecipe} 
+              language={i18n.language}
+              alt={resolveDishName(selectedRecipe)}
+            />
             <div className="recipe-modal-header">
               <h2>
-                {typeof selectedRecipe.name === 'string' && selectedRecipe.name.startsWith('dish.')
-                  ? t(`dishes.${selectedRecipe.name.replace('dish.', '')}`)
-                  : typeof selectedRecipe.name === 'string'
-                    ? selectedRecipe.name
-                    : selectedRecipe.dish_name?.en || selectedRecipe.name}
+                {resolveDishName(selectedRecipe)}
               </h2>
               <div className="recipe-info">
-                {selectedRecipe.region?.en && <span>🌍 {getCuisineTranslation(selectedRecipe.region.en, i18n.language)}</span>}
-                {selectedRecipe.total_time_min && <span>⏳ Total: {selectedRecipe.total_time_min} min</span>}
-                {selectedRecipe.difficulty?.en && <span>📊 {selectedRecipe.difficulty.en}</span>}
-                {selectedRecipe.servings && <span>🍽️ {selectedRecipe.servings} servings</span>}
+                {selectedRecipe.region?.[i18n.language] && <span>🌍 {getCuisineTranslation(selectedRecipe.region[i18n.language], i18n.language)}</span>}
+                {selectedRecipe.total_time_min && <span>⏳ {t('recipe.total')}: {selectedRecipe.total_time_min} {t('recipe.min')}</span>}
+                {selectedRecipe.difficulty?.[i18n.language] && <span>📊 {selectedRecipe.difficulty[i18n.language]}</span>}
+                {selectedRecipe.servings && <span>🍽️ {selectedRecipe.servings} {t('recipe.servings')}</span>}
               </div>
             </div>
             
@@ -1334,7 +1352,91 @@ function Parties() {
               <div className="recipe-section">
                 <h3>📋 {t('parties.ingredients')}</h3>
                 <ul className="recipe-ingredients">
-                  {(selectedRecipe.ingredients?.[i18n.language] || selectedRecipe.ingredients?.en || []).map((ingredient, index) => {
+                  {(selectedRecipe.ingredients?.[i18n.language] || selectedRecipe.ingredients?.en || []).map((ingredient, index, array) => {
+                    // Clean up ingredient string - remove extra whitespace
+                    let cleanIngredient = typeof ingredient === 'string' ? ingredient.trim() : String(ingredient);
+                    
+                    // Handle headers like "Main ingredients:", "Dressing", "Sauce", "For the salad", etc.
+                    // Check if it's a header pattern (contains colon and common header keywords, or standalone headers)
+                    const headerPatterns = [
+                      /^(主要食材|Main ingredients|Huvudingredienser|Chicken marinade|鸡肉腌料|Kycklingmarinad|sauce|酱汁|sås|To serve|佐餐|Till servering|Dressing|dressning|沙拉酱|For the|Marinade|Marinad|腌料|Vegetables|Grönsaker|蔬菜|Fruit|Frukt|水果|Topping|淋面|Till topping)/i
+                    ];
+                    
+                    // Check if it's a header with colon
+                    const isHeaderWithColon = (cleanIngredient.includes(':') || cleanIngredient.includes('：')) && 
+                                              !cleanIngredient.match(/^\d/) &&
+                                              headerPatterns.some(pattern => pattern.test(cleanIngredient));
+                    
+                    // Check if it's a standalone header (like "Dressing" followed by content with spaces)
+                    const isStandaloneHeader = !cleanIngredient.match(/^\d/) &&
+                                               headerPatterns.some(pattern => {
+                                                 const match = cleanIngredient.match(pattern);
+                                                 if (match) {
+                                                   // Check if there's content after the header (more than just the header word)
+                                                   const headerEnd = match[0].length;
+                                                   const afterHeader = cleanIngredient.substring(headerEnd).trim();
+                                                   // If there's substantial content after the header (more than 5 chars), it's a header with content
+                                                   return afterHeader.length > 5;
+                                                 }
+                                                 return false;
+                                               });
+                    
+                    const isHeader = isHeaderWithColon || isStandaloneHeader;
+                    
+                    if (isHeader) {
+                      let headerText = '';
+                      let contentAfterHeader = '';
+                      
+                      if (isHeaderWithColon) {
+                        // Split by colon (English or Chinese)
+                        const parts = cleanIngredient.split(/[:：]/);
+                        headerText = parts[0].trim();
+                        contentAfterHeader = parts.slice(1).join(':').trim().replace(/\s+/g, ' ');
+                      } else if (isStandaloneHeader) {
+                        // Split standalone header (like "Dressing" followed by content)
+                        const headerMatch = cleanIngredient.match(/^(Dressing|dressning|沙拉酱|Sauce|sås|酱汁|For the|Marinade|Marinad|腌料|Vegetables|Grönsaker|蔬菜|Fruit|Frukt|水果|Topping|淋面|Till topping)\s+/i);
+                        if (headerMatch) {
+                          headerText = headerMatch[1];
+                          contentAfterHeader = cleanIngredient.substring(headerMatch[0].length).trim().replace(/\s+/g, ' ');
+                        }
+                      }
+                      
+                      // Return header and content as separate items
+                      return (
+                        <React.Fragment key={index}>
+                          <li className="ingredient-header" style={{ 
+                            fontWeight: 'bold', 
+                            marginTop: index > 0 ? '12px' : '0',
+                            marginBottom: '4px',
+                            color: '#ff6b35',
+                            listStyle: 'none'
+                          }}>
+                            {headerText}{!headerText.endsWith(':') ? ':' : ''}
+                          </li>
+                          {contentAfterHeader && (
+                            <li>
+                              <span className="ingredient-name">{contentAfterHeader}</span>
+                            </li>
+                          )}
+                        </React.Fragment>
+                      );
+                    }
+                    
+                    // Handle "Main ingredients" without colon (standalone header)
+                    if (headerPatterns.some(pattern => pattern.test(cleanIngredient)) && !cleanIngredient.includes(':') && !cleanIngredient.includes('：')) {
+                      return (
+                        <li key={index} className="ingredient-header" style={{ 
+                          fontWeight: 'bold', 
+                          marginTop: index > 0 ? '12px' : '0',
+                          marginBottom: '4px',
+                          color: '#ff6b35',
+                          listStyle: 'none'
+                        }}>
+                          {cleanIngredient}:
+                        </li>
+                      );
+                    }
+                    
                     // Handle real recipe database format (array of strings)
                     if (typeof ingredient === 'string' && ingredient.includes(' ')) {
                       // Handle "2 ingredient.bell_peppers_sliced" format - split amount and ingredient
@@ -1354,7 +1456,7 @@ function Parties() {
                       // Handle direct ingredient keys or other formats
                       const displayText = ingredient?.startsWith('ingredient.')
                         ? t(`ingredients.${ingredient.replace('ingredient.', '')}`)
-                        : ingredient
+                        : cleanIngredient
                       return (
                         <li key={index}>
                           <span className="ingredient-name">{displayText}</span>
@@ -1368,11 +1470,40 @@ function Parties() {
               <div className="recipe-section">
                 <h3>👨‍🍳 {t('recipe.instructions')}</h3>
                 <ol className="recipe-instructions">
-                  {(selectedRecipe.steps?.[i18n.language] || selectedRecipe.steps?.en || []).map((instruction, index) => (
+                  {getBestInstructions(selectedRecipe, i18n.language).map((instruction, index) => (
                     <li key={index}>{instruction}</li>
                   ))}
                 </ol>
               </div>
+
+              {/* Tips Section - Only show if tips exist */}
+              {selectedRecipe.tips && (selectedRecipe.tips[i18n.language] || selectedRecipe.tips.en) && (
+                <div className="recipe-section" style={{
+                  marginTop: '1.5rem',
+                  padding: '1rem',
+                  backgroundColor: '#fff5f0',
+                  borderRadius: '8px',
+                  borderLeft: '4px solid #ff6b35'
+                }}>
+                  <h3 style={{ 
+                    marginTop: '0',
+                    marginBottom: '0.75rem',
+                    color: '#ff6b35',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.5rem'
+                  }}>
+                    💡 {t('recipe.tips') || 'Tips'}
+                  </h3>
+                  <p style={{ 
+                    margin: '0',
+                    lineHeight: '1.6',
+                    color: '#333'
+                  }}>
+                    {selectedRecipe.tips[i18n.language] || selectedRecipe.tips.en || ''}
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -1416,11 +1547,7 @@ function Parties() {
                   {generatedDishes.dishes.map((dish, index) => (
                     <div key={index} className="menu-item">
                       <span className="dish-number">{index + 1}</span>
-                      {getCategoryEmoji(dish)} {typeof dish.name === 'string' && dish.name.startsWith('dish.')
-                        ? t(`dishes.${dish.name.replace('dish.', '')}`)
-                        : typeof dish.name === 'string'
-                          ? dish.name
-                          : dish.dish_name?.en || dish.name}
+                      {getCategoryEmoji(dish)} {resolveDishName(dish)}
                     </div>
                   ))}
                 </div>

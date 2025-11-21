@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { getAllRecipes, searchRecipes } from '../data/recipeLoader'
+import { getBestDishName } from '../utils/dishNameTranslator'
 
 const BottomNavigation = () => {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const location = useLocation()
   const navigate = useNavigate()
   const [showSearchModal, setShowSearchModal] = useState(false)
@@ -62,7 +63,9 @@ const BottomNavigation = () => {
       'Meat': '🥩',
       'Seafood': '🦞',
       'Vegetables': '🥬',
+      'Vegetable': '🥬',
       'Grains': '🍚',
+      'Grain': '🍚',
       'Egg': '🥚',
       'Dessert': '🍰',
       'Soup': '🍲',
@@ -143,10 +146,10 @@ const BottomNavigation = () => {
                         <span className="result-emoji">{getCategoryEmoji(recipe)}</span>
                         <div className="result-content">
                           <span className="result-name">
-                            {recipe.dish_name?.en || recipe.name}
+                            {getBestDishName(recipe, i18n.language)}
                           </span>
                           <span className="result-cuisine">
-                            {recipe.region?.en || 'Unknown Cuisine'}
+                            {recipe.region?.[i18n.language] || recipe.region?.en || 'Unknown Cuisine'}
                           </span>
                         </div>
                       </div>

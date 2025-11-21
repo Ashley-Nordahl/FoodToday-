@@ -44,6 +44,8 @@
     "prepTime": "Prep Time",
     "cookTime": "Cook Time",
     "totalTime": "Total Time",
+    "total": "Total",
+    "min": "min",
     "servings": "servings",
     "difficulty": "Difficulty",
     "cuisine": "Cuisine",
@@ -70,7 +72,8 @@
     "selectIngredientsDesc": "Choose the ingredients you have available:",
     "noRecipesFound": "No recipes found",
     "tryDifferentIngredients": "Try selecting different ingredients",
-    "tryDifferentSearch": "Try a different search term"
+    "tryDifferentSearch": "Try a different search term",
+    "tips": "Tips"
   },
   "recipeChoice": {
     "title": "How would you like to get your recipe?",
@@ -1304,6 +1307,8 @@
   "cuisines": {
     "Chinese": "Chinese",
     "Japanese": "Japanese",
+    "China": "China",
+    "Japan": "Japan",
     "Korean": "Korean",
     "Italian": "Italian",
     "French": "French",
@@ -1311,7 +1316,37 @@
     "Thai": "Thai",
     "Mexican": "Mexican",
     "American": "American",
-    "Greek": "Greek"
+    "Greek": "Greek",
+    "Africa": "Africa",
+    "Asia": "Asia",
+    "Europe": "Europe",
+    "Latin America": "Latin America",
+    "Middle East": "Middle East",
+    "North America": "North America",
+    "South America": "South America",
+    "Morocco": "Morocco",
+    "Nigeria": "Nigeria",
+    "South Africa": "South Africa",
+    "Malaysia": "Malaysia",
+    "Thailand": "Thailand",
+    "Korea": "Korea",
+    "India": "India",
+    "Italy": "Italy",
+    "Spain": "Spain",
+    "France": "France",
+    "Greece": "Greece",
+    "Germany": "Germany",
+    "Sweden": "Sweden",
+    "Turkey": "Turkey",
+    "Iran": "Iran",
+    "Lebanon": "Lebanon",
+    "America": "America",
+    "Canada": "Canada",
+    "Brazil": "Brazil",
+    "Colombia": "Colombia",
+    "Mexico": "Mexico",
+    "Peru": "Peru",
+    "Argentina": "Argentina"
   },
   "sauce": {
     "title": "Sauces",
@@ -1478,6 +1513,42 @@
       "anniversary": "Anniversary",
       "babyShower": "Baby Shower",
       "reunion": "Reunion"
+    },
+    "ingredientLabels": {
+      "meat": "Meat",
+      "seafood": "Seafood",
+      "vegetables": "Vegetable",
+      "grains": "Grain",
+      "egg": "Egg"
+    },
+    "cuisineLabels": {
+      "mixed": "Mixed",
+      "africa": "Africa",
+      "asia": "Asia",
+      "europe": "Europe",
+      "latin_america": "Latin America",
+      "middle_east": "Middle East",
+      "north_america": "North America",
+      "south_america": "South America"
+    },
+    "tasteLabels": {
+      "rich": "Rich",
+      "spicy": "Spicy",
+      "sweet": "Sweet",
+      "sour": "Sour",
+      "salty": "Salty",
+      "mild": "Mild"
+    },
+    "scenarioLabels": {
+      "family": "Family",
+      "friends": "Friends",
+      "romantic": "Romantic"
+    },
+    "tooltips": {
+      "clickToRemoveIngredient": "Click to remove ingredient",
+      "clickIngredientToAdd": "Click an ingredient below to add it",
+      "clickPlateToRemove": "Click the plate to remove",
+      "clickToAddToPlate": "Click {{ingredient}} to add to a plate"
     }
   },
   "dishes": {

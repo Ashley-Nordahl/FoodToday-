@@ -18,49 +18,21 @@ export function LanguageProvider({ children }) {
   const { user } = useAuth()
   const [isLoading, setIsLoading] = useState(false)
 
-  // Load user's language preference from localStorage (Supabase disabled for testing)
-  useEffect(() => {
-    const loadUserLanguage = async () => {
-      // Use localStorage language for all users (no Supabase calls)
-      const savedLanguage = localStorage.getItem('i18nextLng')
-      if (savedLanguage && ['en', 'zh', 'sv'].includes(savedLanguage)) {
-        // If user has Chinese or Swedish saved, switch them to English for production
-        if (savedLanguage === 'zh' || savedLanguage === 'sv') {
-          await i18n.changeLanguage('en')
-          localStorage.setItem('i18nextLng', 'en')
-        } else {
-          await i18n.changeLanguage(savedLanguage)
-        }
-      }
-    }
-
-    loadUserLanguage()
-  }, [i18n])
+  // Language detection is now handled by i18n LanguageDetector
+  // No need for manual language loading since i18n.init() handles it automatically
 
   const changeLanguage = async (language) => {
     if (!['en', 'zh', 'sv'].includes(language)) {
       return
     }
     
-    // Prevent switching to Chinese or Swedish in production
-    if (language === 'zh' || language === 'sv') {
-      return
-    }
-
     setIsLoading(true)
-    const startTime = Date.now()
     
     try {
-      // Change i18n language
+      // Change i18n language - LanguageDetector will automatically save to localStorage
       await i18n.changeLanguage(language)
-      
-      // Save to localStorage
-      localStorage.setItem('i18nextLng', language)
-      
-      // Save to localStorage only (Supabase disabled for testing)
-      // TODO: Re-enable Supabase user preference saving when database is set up
     } catch (error) {
-      // Error changing language
+      console.error('Error changing language:', error)
     } finally {
       setIsLoading(false)
     }

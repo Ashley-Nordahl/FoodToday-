@@ -64,7 +64,6 @@ i18n
   .init({
     resources,
     fallbackLng: 'en', // Fallback language
-    lng: 'en', // Default language
     debug: false, // Set to true for debugging
     
     interpolation: {
