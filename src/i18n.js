@@ -58,11 +58,27 @@ const resources = {
   }
 }
 
+// Check if user has a saved language preference
+const getStoredLanguage = () => {
+  try {
+    const stored = localStorage.getItem('i18nextLng')
+    // Only use stored language if it's a valid option
+    if (stored && ['en', 'zh', 'sv'].includes(stored)) {
+      return stored
+    }
+  } catch (e) {
+    // localStorage might not be available
+  }
+  // Default to English for new users
+  return 'en'
+}
+
 i18n
   .use(LanguageDetector) // Detect user language
   .use(initReactI18next) // Pass i18n instance to react-i18next
   .init({
     resources,
+    lng: getStoredLanguage(), // Use stored preference or default to English
     fallbackLng: 'en', // Fallback language
     debug: false, // Set to true for debugging
     
@@ -72,9 +88,21 @@ i18n
     
     detection: {
       // Order of language detection
-      order: ['localStorage', 'navigator'],
+      // Only check localStorage for saved preferences
+      // Don't check navigator to ensure English is default for new users
+      order: ['localStorage'],
       caches: ['localStorage'],
-      lookupLocalStorage: 'i18nextLng'
+      lookupLocalStorage: 'i18nextLng',
+      // Only use detected language if it's explicitly saved in localStorage
+      // This ensures new users always get English as default
+      checkWhitelist: true
+    }
+  })
+  .then(() => {
+    // Ensure English is set if no valid language preference exists
+    const currentLang = i18n.language
+    if (!currentLang || !['en', 'zh', 'sv'].includes(currentLang)) {
+      i18n.changeLanguage('en')
     }
   })
 

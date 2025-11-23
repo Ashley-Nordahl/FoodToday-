@@ -598,10 +598,13 @@ function Parties() {
   
   // Ref for scrolling to generated dishes
   const dishProposalRef = useRef(null)
+  const isInitialGeneration = useRef(true)
+  const savedScrollPosition = useRef(0)
+  const isRegeneratingSingle = useRef(false)
   
-  // Scroll to generated dishes when they're created
+  // Scroll to generated dishes when they're created (only on initial generation)
   useEffect(() => {
-    if (generatedDishes && dishProposalRef.current) {
+    if (generatedDishes && dishProposalRef.current && isInitialGeneration.current) {
       // Longer delay to ensure the component is fully rendered
       setTimeout(() => {
         // Double-check that the ref is still valid after the timeout
@@ -613,6 +616,17 @@ function Parties() {
         })
         }
       }, 500) // Increased delay to 500ms
+      isInitialGeneration.current = false
+    } else if (generatedDishes && !isInitialGeneration.current && isRegeneratingSingle.current) {
+      // Restore scroll position after single dish regeneration
+      // Use a small delay to ensure DOM has updated
+      setTimeout(() => {
+        window.scrollTo({
+          top: savedScrollPosition.current,
+          behavior: 'auto' // Instant restore, no smooth scroll
+        })
+        isRegeneratingSingle.current = false
+      }, 50)
     }
   }, [generatedDishes])
 
@@ -837,6 +851,9 @@ function Parties() {
       const recipes = await generatePartyRecipes(selections, i18n.language)
       console.log('🔍 Debug - generatePartyRecipes returned:', recipes)
       
+      // Reset the initial generation flag for new full generation
+      isInitialGeneration.current = true
+      
       setGeneratedDishes({
         dishes: recipes,
         selections: selections,
@@ -846,7 +863,7 @@ function Parties() {
       // Initialize checkboxes for all ingredients (default checked)
       initializeIngredientCheckboxes(recipes)
       
-      // Trigger immediate scroll after a short delay
+      // Trigger immediate scroll after a short delay (only for initial generation)
       setTimeout(() => {
         if (dishProposalRef.current) {
           dishProposalRef.current.scrollIntoView({ 
@@ -868,6 +885,10 @@ function Parties() {
   // Regenerate a single dish
   const handleRegenerateSingleDish = async (dishIndex) => {
     if (!generatedDishes) return
+    
+    // Save current scroll position before regenerating
+    savedScrollPosition.current = window.scrollY || window.pageYOffset || document.documentElement.scrollTop
+    isRegeneratingSingle.current = true
     
     setRegeneratingDishIndex(dishIndex)
     
