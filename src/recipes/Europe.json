@@ -2706,9 +2706,9 @@
     },
     "servings": 4,
     "main_type": {
-      "en": "Vegetable",
-      "zh": "蔬菜/豆类",
-      "sv": "Grönsak"
+      "en": "Meat",
+      "zh": "肉类",
+      "sv": "Kött"
     },
     "ingredients": {
       "en": [

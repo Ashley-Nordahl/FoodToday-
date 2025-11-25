@@ -402,6 +402,7 @@ const generatePartyRecipes = async (selections, language) => {
     
     const allRecipes = getAllRecipes()
     const generatedDishes = []
+    const selectedRecipeIds = new Set() // Track selected recipe IDs to prevent duplicates
     
     // Get the actual number of filled plates
     const filledPlates = selections.dishCategories || []
@@ -438,12 +439,25 @@ const generatePartyRecipes = async (selections, language) => {
             console.log(`🔍 Debug - After cuisine filtering: ${categoryRecipes.length} recipes`)
           }
           
-          if (categoryRecipes.length > 0) {
+          // Filter out already selected recipes to prevent duplicates
+          const availableRecipes = categoryRecipes.filter(recipe => 
+            !selectedRecipeIds.has(recipe.id)
+          )
+          
+          // Use available recipes if any, otherwise fall back to all category recipes (limited choices)
+          const recipesToChooseFrom = availableRecipes.length > 0 ? availableRecipes : categoryRecipes
+          
+          if (recipesToChooseFrom.length > 0) {
             // Shuffle and select a random recipe
-            const shuffled = [...categoryRecipes].sort(() => Math.random() - 0.5)
+            const shuffled = [...recipesToChooseFrom].sort(() => Math.random() - 0.5)
             const selectedRecipe = shuffled[0]
             generatedDishes.push(selectedRecipe)
+            selectedRecipeIds.add(selectedRecipe.id) // Track this recipe as selected
             console.log(`🔍 Debug - Selected recipe: ${selectedRecipe.dish_name?.en || selectedRecipe.name} (Region: ${selectedRecipe.region?.en})`)
+            
+            if (availableRecipes.length === 0) {
+              console.log(`⚠️ Warning - No unique recipes available for ${recipeCategory}, using duplicate due to limited choices`)
+            }
           } else {
             console.log(`⚠️ Warning - No recipes found for category: ${recipeCategory} with cuisine: ${selectedCuisine}`)
           }
@@ -522,14 +536,24 @@ const regenerateSingleDish = async (category, otherDishes, selectedCuisine, sele
       !otherDishIds.includes(recipe.id)
     )
     
-    // If no unique recipes available, use all category recipes
+    console.log(`🔍 Debug - Available unique recipes: ${availableRecipes.length} out of ${categoryRecipes.length} total`)
+    
+    // If no unique recipes available, use all category recipes (limited choices scenario)
     const recipesToChooseFrom = availableRecipes.length > 0 ? availableRecipes : categoryRecipes
     
-    // Return a random recipe from the available recipes
-    const randomIndex = Math.floor(Math.random() * recipesToChooseFrom.length)
-    const selectedRecipe = recipesToChooseFrom[randomIndex]
+    if (availableRecipes.length === 0) {
+      console.log(`⚠️ Warning - No unique recipes available for ${recipeCategory}, will use duplicate due to limited choices`)
+    }
+    
+    // Shuffle and select a random recipe to ensure variety
+    const shuffled = [...recipesToChooseFrom].sort(() => Math.random() - 0.5)
+    const selectedRecipe = shuffled[0]
     
     console.log(`🔍 Debug - Selected recipe: ${selectedRecipe.dish_name?.en || selectedRecipe.name} (Region: ${selectedRecipe.region?.en})`)
+    if (otherDishIds.includes(selectedRecipe.id)) {
+      console.log(`⚠️ Warning - Selected duplicate recipe due to limited choices`)
+    }
+    
     return selectedRecipe
     
   } catch (error) {
@@ -664,7 +688,9 @@ function Parties() {
 
   // Clear temporary feedback when plates change
   useEffect(() => {
-    const filledPlates = dishCategories.filter(cat => cat !== null).length
+    // Only check the first numberOfDishes plates (not the entire array)
+    const activePlates = dishCategories.slice(0, numberOfDishes)
+    const filledPlates = activePlates.filter(cat => cat !== null).length
     const totalPlates = numberOfDishes
     const allPlatesFull = filledPlates >= totalPlates && totalPlates > 0
     
@@ -687,8 +713,9 @@ function Parties() {
 
   // Single-click handlers for plate system
   const handleCategoryClick = (category) => {
-    // Check if all plates are full
-    const filledPlates = dishCategories.filter(cat => cat !== null).length
+    // Only check the first numberOfDishes plates (not the entire array)
+    const activePlates = dishCategories.slice(0, numberOfDishes)
+    const filledPlates = activePlates.filter(cat => cat !== null).length
     const totalPlates = numberOfDishes
     
     if (filledPlates >= totalPlates) {
@@ -703,9 +730,10 @@ function Parties() {
     // When an ingredient is clicked, store it as selected
     setSelectedCategory(category)
     
-    // Find the first empty plate and assign the category
+    // Find the first empty plate within the active plates and assign the category
     const newCategories = [...dishCategories]
-    const emptyPlateIndex = newCategories.findIndex(cat => cat === null)
+    // Only search within the first numberOfDishes elements
+    const emptyPlateIndex = newCategories.slice(0, numberOfDishes).findIndex(cat => cat === null)
     
     if (emptyPlateIndex !== -1) {
       newCategories[emptyPlateIndex] = category
@@ -824,8 +852,9 @@ function Parties() {
     setIsGenerating(true)
     
     try {
-      // Get the actual number of filled plates
-      const filledPlates = dishCategories.filter(cat => cat !== null)
+      // Get the actual number of filled plates (only check first numberOfDishes elements)
+      const activePlates = dishCategories.slice(0, numberOfDishes)
+      const filledPlates = activePlates.filter(cat => cat !== null)
       const actualNumberOfDishes = filledPlates.length
       
       if (actualNumberOfDishes === 0) {
@@ -1127,7 +1156,9 @@ function Parties() {
         
         {/* Visual feedback when all plates are full and user tried to add more */}
         {(() => {
-          const filledPlates = dishCategories.filter(cat => cat !== null).length
+          // Only check the first numberOfDishes plates (not the entire array)
+          const activePlates = dishCategories.slice(0, numberOfDishes)
+          const filledPlates = activePlates.filter(cat => cat !== null).length
           const totalPlates = numberOfDishes
           const allPlatesFull = filledPlates >= totalPlates && totalPlates > 0
           
@@ -1215,7 +1246,7 @@ function Parties() {
         <button 
           className="chef-button"
           onClick={handleGenerateDishes}
-          disabled={isGenerating || dishCategories.filter(cat => cat !== null).length === 0}
+          disabled={isGenerating || dishCategories.slice(0, numberOfDishes).filter(cat => cat !== null).length === 0}
           style={{
             padding: '12px 24px',
             fontSize: '1rem',

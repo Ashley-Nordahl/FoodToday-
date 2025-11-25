@@ -44,7 +44,6 @@ function MyFavorite() {
   
   // Use refs to persist data across unmounts
   const statsCache = useRef([])
-  const favoritesCache = useRef([])
   const recipesCache = useRef([])
   const hasLoadedData = useRef(false)
   
@@ -66,10 +65,8 @@ function MyFavorite() {
       // Reset when user logs out
       hasLoadedData.current = false
       statsCache.current = []
-      favoritesCache.current = []
       recipesCache.current = []
       setStats([])
-      setFavorites([])
       setRecipes([])
     }
   }, [user?.id])
@@ -92,62 +89,64 @@ function MyFavorite() {
   }, [stats, selectedType])
 
   const loadData = async () => {
-    if (!user) {
+    if (!user?.id) {
       return
     }
     
-    // Only show loading if we don't have cached data (true initial load)
-    const isInitialLoad = statsCache.current.length === 0 && favoritesCache.current.length === 0 && recipesCache.current.length === 0
-    
-    if (isInitialLoad) {
-      setLoading(true)
+    try {
+      // Only show loading if we don't have cached data (true initial load)
+      const isInitialLoad = statsCache.current.length === 0 && recipesCache.current.length === 0
       
-      // Only show loading indicator if fetch takes longer than 500ms
-      const loadingTimeout = setTimeout(() => {
-        setShowLoading(true)
-      }, 500)
-      
-      // Load stats and recipes in parallel
-      const [statsResult, recipesResult] = await Promise.all([
-        getAllStats(user.id),
-        getRecipes(user.id)
-      ])
+      if (isInitialLoad) {
+        setLoading(true)
+        
+        // Only show loading indicator if fetch takes longer than 500ms
+        const loadingTimeout = setTimeout(() => {
+          setShowLoading(true)
+        }, 500)
+        
+        // Load stats and recipes in parallel
+        const [statsResult, recipesResult] = await Promise.all([
+          getAllStats(user.id),
+          getRecipes(user.id)
+        ])
 
-      if (statsResult.data) {
-        console.log('📊 Statistics loaded:', statsResult.data)
-        statsCache.current = statsResult.data
-        setStats(statsResult.data)
+        if (statsResult?.data) {
+          console.log('📊 Statistics loaded:', statsResult.data)
+          statsCache.current = statsResult.data
+          setStats(statsResult.data)
+        } else {
+          console.log('📊 No statistics data found:', statsResult)
+        }
+        if (recipesResult?.data) {
+          recipesCache.current = recipesResult.data
+          setRecipes(recipesResult.data)
+        }
+        
+        clearTimeout(loadingTimeout)
+        setLoading(false)
+        setShowLoading(false)
       } else {
-        console.log('📊 No statistics data found:', statsResult)
+        // For subsequent loads, update data silently without showing loading
+        const [statsResult, recipesResult] = await Promise.all([
+          getAllStats(user.id),
+          getRecipes(user.id)
+        ])
+
+        if (statsResult?.data) {
+          statsCache.current = statsResult.data
+          setStats(statsResult.data)
+        }
+        if (recipesResult?.data) {
+          recipesCache.current = recipesResult.data
+          setRecipes(recipesResult.data)
+        }
       }
-      if (recipesResult.data) {
-        recipesCache.current = recipesResult.data
-        setRecipes(recipesResult.data)
-      }
-      
-      clearTimeout(loadingTimeout)
+    } catch (error) {
+      console.error('❌ Error loading data:', error)
       setLoading(false)
       setShowLoading(false)
-    } else {
-      // For subsequent loads, update data silently without showing loading
-      const [statsResult, favoritesResult, recipesResult] = await Promise.all([
-        getAllStats(user.id),
-        getFavorites(user.id),
-        getRecipes(user.id)
-      ])
-
-      if (statsResult.data) {
-        statsCache.current = statsResult.data
-        setStats(statsResult.data)
-      }
-      if (favoritesResult.data) {
-        favoritesCache.current = favoritesResult.data
-        setFavorites(favoritesResult.data)
-      }
-      if (recipesResult.data) {
-        recipesCache.current = recipesResult.data
-        setRecipes(recipesResult.data)
-      }
+      // Don't throw - let the component render with empty state
     }
   }
 
@@ -168,11 +167,21 @@ function MyFavorite() {
   }
 
   const handleRemoveRecipe = async (recipeId) => {
-    const { error } = await removeRecipe(user.id, recipeId)
-    if (!error) {
-      const updated = recipes.filter(recipe => recipe.id !== recipeId)
-      recipesCache.current = updated
-      setRecipes(updated)
+    try {
+      if (!user?.id) {
+        console.error('❌ Cannot remove recipe: user not logged in')
+        return
+      }
+      const { error } = await removeRecipe(user.id, recipeId)
+      if (!error) {
+        const updated = recipes.filter(recipe => recipe.id !== recipeId)
+        recipesCache.current = updated
+        setRecipes(updated)
+      } else {
+        console.error('❌ Error removing recipe:', error)
+      }
+    } catch (error) {
+      console.error('❌ Error removing recipe:', error)
     }
   }
 
