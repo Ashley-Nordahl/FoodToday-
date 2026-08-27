@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { getAllCuisines, getRecipesByCuisine } from '../data/recipeLoader'
 import cuisineStructure from '../data/cuisineStructure.json'
 
-const InlineFoodWheel = ({ onCuisineSelect, onSubcategorySelect, selectedRecipe }) => {
+const InlineFoodWheel = ({ onCuisineSelect, onSubcategorySelect, onTryAgain, selectedRecipe }) => {
   const { t } = useTranslation()
   const [cuisines, setCuisines] = useState([])
   const [cuisinesWithStyles, setCuisinesWithStyles] = useState([])
@@ -212,8 +212,14 @@ const InlineFoodWheel = ({ onCuisineSelect, onSubcategorySelect, selectedRecipe 
     setShowSecondWheel(false)
     setSelectedSubcategory(null)
     setSubcategoryConfirmed(false)
+    setIsSelected(false)
     setRotation(0)
     setSecondWheelRotation(0)
+
+    // Clear selected recipe / choice cards in parent so controls aren't left faded
+    if (onTryAgain) {
+      onTryAgain()
+    }
     
     // Automatically trigger a new spin after resetting
     setTimeout(() => {

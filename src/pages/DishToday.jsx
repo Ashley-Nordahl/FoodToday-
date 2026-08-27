@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Fragment } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useAuth } from '../contexts/AuthContext'
 import { trackSelection } from '../lib/supabase'
@@ -154,6 +154,15 @@ function DishToday() {
         })
       }
     }, 100)
+  }
+
+  const handleTryAgain = () => {
+    setSelectedRecipe(null)
+    setSelectedCuisine(null)
+    setShowChoiceCards(false)
+    setShowIngredientSelector(false)
+    setRecipeType(null)
+    setActiveTab('random')
   }
 
   const handleRecipeChoice = async (choiceType, cuisine, ingredients = null, searchRecipe = null) => {
@@ -421,6 +430,7 @@ function DishToday() {
         cuisines={availableCuisines}
         onCuisineSelect={handleCuisineSelect}
         onSubcategorySelect={handleSubcategorySelect}
+        onTryAgain={handleTryAgain}
         selectedRecipe={selectedRecipe}
       />
 
@@ -556,7 +566,7 @@ function DishToday() {
                     
                     // Return header and content as separate items
                     return (
-                      <React.Fragment key={index}>
+                      <Fragment key={index}>
                         <li className="ingredient-header" style={{ 
                           fontWeight: 'bold', 
                           marginTop: index > 0 ? '12px' : '0',
@@ -571,7 +581,7 @@ function DishToday() {
                             <span className="ingredient-name">{contentAfterHeader}</span>
                           </li>
                         )}
-                      </React.Fragment>
+                      </Fragment>
                     );
                   }
                   

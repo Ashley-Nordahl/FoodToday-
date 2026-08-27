@@ -8,10 +8,7 @@ import LanguageSelector from './components/LanguageSelector'
 import ErrorBoundary from './components/ErrorBoundary'
 import BottomNavigation from './components/BottomNavigation'
 import DishToday from './pages/DishToday'
-import Drink from './pages/Drink'
-import Sauce from './pages/Sauce'
 import Parties from './pages/Parties'
-import MyFavorite from './pages/MyFavorite'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 
@@ -39,13 +36,10 @@ function Navigation() {
     setIsMobileMenuOpen(false)
   }
 
-  // Navigation pages configuration
+  // Navigation pages configuration (Sauce, Drink, MyFavorite hidden for now)
   const navigationPages = [
     { path: '/', key: 'dishToday' },
-    { path: '/sauce', key: 'sauce' },
-    { path: '/drink', key: 'drink' },
-    { path: '/parties', key: 'parties' },
-    { path: '/favorite', key: 'myFavorite' }
+    { path: '/parties', key: 'parties' }
   ]
 
   const getCurrentPageIndex = () => {
@@ -68,23 +62,8 @@ function Navigation() {
             </Link>
           </li>
           <li>
-            <Link to="/sauce" className={location.pathname === '/sauce' ? 'active' : ''}>
-              {t('nav.sauce')}
-            </Link>
-          </li>
-          <li>
-            <Link to="/drink" className={location.pathname === '/drink' ? 'active' : ''}>
-              {t('nav.drink')}
-            </Link>
-          </li>
-          <li>
             <Link to="/parties" className={location.pathname === '/parties' ? 'active' : ''}>
               {t('nav.parties')}
-            </Link>
-          </li>
-          <li>
-            <Link to="/favorite" className={location.pathname === '/favorite' ? 'active' : ''}>
-              {t('nav.myFavorite')}
             </Link>
           </li>
         </ul>
@@ -165,23 +144,8 @@ function Navigation() {
                 </Link>
               </li>
               <li>
-                <Link to="/sauce" className={location.pathname === '/sauce' ? 'active' : ''} onClick={closeMobileMenu}>
-                  {t('nav.sauce')}
-                </Link>
-              </li>
-              <li>
-                <Link to="/drink" className={location.pathname === '/drink' ? 'active' : ''} onClick={closeMobileMenu}>
-                  {t('nav.drink')}
-                </Link>
-              </li>
-              <li>
                 <Link to="/parties" className={location.pathname === '/parties' ? 'active' : ''} onClick={closeMobileMenu}>
                   {t('nav.parties')}
-                </Link>
-              </li>
-              <li>
-                <Link to="/favorite" className={location.pathname === '/favorite' ? 'active' : ''} onClick={closeMobileMenu}>
-                  {t('nav.myFavorite')}
                 </Link>
               </li>
             </ul>
@@ -228,24 +192,9 @@ function App() {
                     <DishToday />
                   </ProtectedRoute>
                 } />
-                <Route path="/drink" element={
-                  <ProtectedRoute>
-                    <Drink />
-                  </ProtectedRoute>
-                } />
-                <Route path="/sauce" element={
-                  <ProtectedRoute>
-                    <Sauce />
-                  </ProtectedRoute>
-                } />
                 <Route path="/parties" element={
                   <ProtectedRoute>
                     <Parties />
-                  </ProtectedRoute>
-                } />
-                <Route path="/favorite" element={
-                  <ProtectedRoute>
-                    <MyFavorite />
                   </ProtectedRoute>
                 } />
               </Routes>

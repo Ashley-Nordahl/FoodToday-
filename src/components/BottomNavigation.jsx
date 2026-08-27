@@ -13,13 +13,10 @@ const BottomNavigation = () => {
   const [searchResults, setSearchResults] = useState([])
   const [isSearching, setIsSearching] = useState(false)
 
-  // Navigation pages configuration
+  // Navigation pages configuration (Sauce, Drink, MyFavorite hidden for now)
   const navigationPages = [
     { path: '/', key: 'dishToday', icon: '🍽️' },
-    { path: '/sauce', key: 'sauce', icon: '🍯' },
-    { path: '/drink', key: 'drink', icon: '🥤' },
-    { path: '/parties', key: 'parties', icon: '🎉' },
-    { path: '/favorite', key: 'myFavorite', icon: '❤️' }
+    { path: '/parties', key: 'parties', icon: '🎉' }
   ]
 
   // Handle search with debouncing
