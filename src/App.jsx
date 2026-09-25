@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link, Navigate, useLocation, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { AuthProvider, useAuth } from './contexts/AuthContext'
 import { LanguageProvider } from './contexts/LanguageContext'
 import ProtectedRoute from './components/ProtectedRoute'
@@ -18,7 +18,10 @@ function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [hoveredDot, setHoveredDot] = useState(null)
 
-  // Debug logging removed for production
+  // Close the overlay whenever the page changes so it cannot linger as a flash
+  useEffect(() => {
+    setIsMobileMenuOpen(false)
+  }, [location.pathname])
 
   const handleSignOut = async () => {
     await signOut()
