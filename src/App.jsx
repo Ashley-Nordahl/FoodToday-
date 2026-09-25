@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link, Navigate, useLocation, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
 import { AuthProvider, useAuth } from './contexts/AuthContext'
@@ -9,8 +9,6 @@ import ErrorBoundary from './components/ErrorBoundary'
 import BottomNavigation from './components/BottomNavigation'
 import DishToday from './pages/DishToday'
 import Parties from './pages/Parties'
-import Login from './pages/Login'
-import Signup from './pages/Signup'
 
 function Navigation() {
   const location = useLocation()
@@ -24,7 +22,7 @@ function Navigation() {
 
   const handleSignOut = async () => {
     await signOut()
-    navigate('/login')
+    navigate('/')
     setIsMobileMenuOpen(false)
   }
 
@@ -95,19 +93,10 @@ function Navigation() {
         {/* Desktop User Actions */}
         <div className="navbar-user desktop-user">
           <LanguageSelector />
-          {user ? (
+          {user && (
             <button onClick={handleSignOut} className="btn-logout btn-small">
               {t('nav.signOut')}
             </button>
-          ) : (
-            <>
-              <Link to="/login" className="btn-login btn-small">
-                {t('nav.login')}
-              </Link>
-              <Link to="/signup" className="btn-signup btn-small">
-                {t('nav.signup')}
-              </Link>
-            </>
           )}
         </div>
 
@@ -155,19 +144,10 @@ function Navigation() {
             <div className="mobile-language-selector">
               <LanguageSelector />
             </div>
-            {user ? (
+            {user && (
               <button onClick={handleSignOut} className="btn-logout btn-small">
                 {t('nav.signOut')}
               </button>
-            ) : (
-              <div className="mobile-auth-buttons">
-                <Link to="/login" className="btn-login btn-small" onClick={closeMobileMenu}>
-                  {t('nav.login')}
-                </Link>
-                <Link to="/signup" className="btn-signup btn-small" onClick={closeMobileMenu}>
-                  {t('nav.signup')}
-                </Link>
-              </div>
             )}
           </div>
         </div>
@@ -185,8 +165,8 @@ function App() {
             <div className="app-container">
               <Navigation />
               <Routes>
-                <Route path="/login" element={<Login />} />
-                <Route path="/signup" element={<Signup />} />
+                <Route path="/login" element={<Navigate to="/" replace />} />
+                <Route path="/signup" element={<Navigate to="/" replace />} />
                 <Route path="/" element={
                   <ProtectedRoute>
                     <DishToday />
